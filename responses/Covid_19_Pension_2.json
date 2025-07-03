@@ -1,0 +1,24 @@
+{
+  "name" : "Covid_19_Pension_2",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "The temporary reduction to pension minimum drawdown rates that was implemented as part of the Government's COVID-19 response will cease on 30 June 2023.  This means that pension minimum drawdown rates for account-based pensions and similar products will revert back to the standard minimum drawdown rates as of 1 July 2023. For more information on the standard minimum drawdown rates, please visit ato.gov.au. You will be able to view your new minimum pension amounts online, generally from 10 July 2023 onwards."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The temporary reduction to pension minimum drawdown rates that was implemented as part of the Government's COVID-19 response will cease on 30 June 2023.  This means that pension minimum drawdown rates for account-based pensions and similar products will revert back to the standard minimum drawdown rates as of 1 July 2023. For more information on the standard minimum drawdown rates, please visit ato.gov.au. You will be able to view your clients’ new minimum pension amounts online, generally from 10 July 2023 onwards."
+        }
+      } ]
+    }
+  } ]
+}

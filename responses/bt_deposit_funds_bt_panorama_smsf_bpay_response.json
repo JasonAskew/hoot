@@ -1,0 +1,43 @@
+{
+  "name" : "bt_deposit_funds_bt_panorama_smsf_bpay_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You can deposit funds into your BT Panorama SMSF account via Bpay in the Account Details page. \n\nClick the button below for the procedure to guide you."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "HYPERLINK",
+        "payload" : "/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/payment-and-deposits.html",
+        "label" : "Click Here"
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "👍",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "1"
+        } ]
+      },
+      "label" : "👍"
+    }, {
+      "type" : "INTENT",
+      "payload" : "👎",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "0"
+        } ]
+      },
+      "label" : "👎"
+    } ]
+  }
+}

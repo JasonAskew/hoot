@@ -1,0 +1,21 @@
+{
+  "name" : "bt_rollover_time",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "The expected timeframe for a rollover process is 7 Business days. If your rollover request is pending more than 7 business days kindly click on the button below to chat with one of our consultants."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Consultant",
+        "label" : "Chat with Consultant",
+        "question_display_text" : "Chat with Consultant"
+      }
+    } ]
+  }
+}

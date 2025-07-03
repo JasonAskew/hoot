@@ -1,0 +1,13 @@
+{
+  "name" : "kcb_search_tx_earned",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Your incoming activity totaled ${earned}."
+      }
+    } ]
+  }
+}

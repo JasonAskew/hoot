@@ -1,0 +1,27 @@
+{
+  "categorization" : {
+    "tags" : [ "migration" ]
+  },
+  "name" : "bt_wrap_deposits",
+  "display_name" : "bt_wrap_deposits_Inactive",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_wrap_deposits_response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : true
+    }
+  },
+  "display_sentence" : "Will my client's direct debits carry across from Wrap to Panorama?",
+  "alternative_questions_enabled" : true,
+  "alternative_questions_eligible" : true,
+  "active" : false,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

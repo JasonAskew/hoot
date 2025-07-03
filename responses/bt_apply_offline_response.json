@@ -1,0 +1,41 @@
+{
+  "name" : "bt_apply_offline_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "If you are approving your account using the offline method, your financial adviser will clarify what they require from you. Please contact your financial adviser for further information."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Our 'Help and Support' page provides a step-by-step explanation of the offline approval process. To see this, please select the 'Open page' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/opening-new-accounts/new-accounts-things-to-know/offline-approval.html",
+          "label" : "Open page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you are approving your account using the offline method, your financial adviser will clarify what they require from you. Please contact your financial adviser for further information."
+        }
+      } ]
+    }
+  } ]
+}

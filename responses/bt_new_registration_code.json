@@ -1,0 +1,43 @@
+{
+  "name" : "bt_new_registration_code",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You can generate  new registration code via the BT Panorama platform in by following three simple steps\n\n1) Open Account applications page.  \n2) Locate the application for which new code has to be generated\n3) Click on Menu actions and generate new registration code\n\nClick on the button below to open account applications page"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "HYPERLINK",
+        "payload" : "https://dev2.panoramaadviser.srv.westpac.com.au/ng/secure/app/#ng/newaccount/tracking",
+        "label" : "Click Here"
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "👍",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "1"
+        } ]
+      },
+      "label" : "👍"
+    }, {
+      "type" : "INTENT",
+      "payload" : "👎",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "0"
+        } ]
+      },
+      "label" : "👎"
+    } ]
+  }
+}

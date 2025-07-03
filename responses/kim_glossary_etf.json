@@ -1,0 +1,39 @@
+{
+  "name" : "kim_glossary_etf",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "kcb_kim_getdefinition", "kim" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Exchange traded funds (ETFs) are managed funds that can be bought and sold on a stock exchange, just like Australian shares. ETFs are usually made up of a basket of assets, which may include Australian shares, international shares, bonds, currencies and derivatives. They enable you to invest in asset classes you may not be able to access directly."
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "👍",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "1"
+        } ]
+      },
+      "label" : "👍"
+    }, {
+      "type" : "INTENT",
+      "payload" : "👎",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "0"
+        } ]
+      },
+      "label" : "👎"
+    } ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "categorization" : {
+    "skill" : "support",
+    "tags" : [ "issues_error" ]
+  },
+  "name" : "79_EstatementError_S",
+  "display_name" : "79_EstatementError_S",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "79_EstatementError_S_Response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "Why can't I access my estatement online",
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

@@ -1,0 +1,131 @@
+{
+  "name" : "bt_corporate_action_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I can help you participate in a corporate action. Please select the 'Show me how' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "walkme",
+        "payload" : "914080",
+        "label" : "Show me how"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your financial adviser on file is able to participate in corporate actions on your behalf. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Adviser information"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your financial adviser on file is able to participate in corporate actions on your behalf. For more information on this, please speak to your adviser."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Adviser information"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your financial adviser on file is able to participate in corporate actions on your behalf. For more information on this, please speak to your adviser."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Adviser information"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can help you participate in a corporate action. Please select the 'Go to page' button."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For more information select 'Help & support'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/tracking/corporate-actions/voluntary",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/corporate-actions.html",
+          "label" : "Help & support"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If your client has any corporate actions, you can view the details for these via the For you  screen."
+        }
+      } ]
+    }
+  } ]
+}

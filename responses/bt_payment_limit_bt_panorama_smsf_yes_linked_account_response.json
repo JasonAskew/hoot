@@ -1,0 +1,54 @@
+{
+  "name" : "bt_payment_limit_bt_panorama_smsf_yes_linked_account_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "For assistance with making a payment greater than $500,000, select the 'Chat with consultant' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat with consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  } ]
+}

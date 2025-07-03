@@ -1,0 +1,111 @@
+{
+  "name" : "bt_tax_summary",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To access your tax statement, go to the navigation menu and select 'Document library'. For guidance on understanding your tax statement, refer to the 'Panorama Tax Guide'."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "/content/dam/secure/panorama/pdfs/financial/BT_Annual_Investor_Statement_Guide_2022-2023.pdf",
+        "label" : "Panorama Tax Guide"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your clients' tax statements are available in their 'Document library'. For guidance on understanding tax statements, refer to the 'Panorama Tax Guide' or 'Panorama Super & Tax Guide'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To locate the Annual audit report, Select the actions menu to the right of the 'Annual investment statement' in the client's document library."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "/content/dam/secure/panorama/pdfs/financial/BT_Annual_Investor_Statement_Guide_2022-2023.pdf",
+          "label" : "Annual statement guide"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "/content/dam/secure/panorama/pdfs/financial/BT_Panorama_Super_Tax_Guide.pdf",
+          "label" : "Panorama Super & Tax Guide"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To access your tax statement, go to the navigation menu and select 'Document library'. For guidance on understanding your tax statement, refer to the 'Panorama Super & Tax Guide'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "/content/dam/secure/panorama/pdfs/financial/BT_Panorama_Super_Tax_Guide.pdf",
+          "label" : "Panorama Super & Tax Guide"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To access your tax statement, go to the navigation menu and select 'Document library'. For guidance on understanding your tax statement, refer to the 'Panorama Super & Tax Guide'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "/content/dam/secure/panorama/pdfs/financial/BT_Panorama_Super_Tax_Guide.pdf",
+          "label" : "Panorama Super & Tax Guide"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To access your tax statement, go to the navigation menu and select 'Document library'. For guidance on understanding your tax statement, refer to the 'Panorama Super & Tax Guide'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "/content/dam/secure/panorama/pdfs/financial/BT_Panorama_Super_Tax_Guide.pdf",
+          "label" : "Panorama Super & Tax Guide"
+        }
+      } ]
+    }
+  } ]
+}

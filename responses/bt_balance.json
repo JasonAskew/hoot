@@ -1,0 +1,70 @@
+{
+  "name" : "bt_balance",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You are able to see your current account balance in the 'Overview' section on the navigation menu.\n\nYou can use the ‘Reports’ section to view and download historical balances at specified dates. Select ‘Go to page’, amend the date range if required, and select the download button on the right-hand side of the ‘Portfolio Valuation’ report."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/reports",
+        "label" : "Go to page"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Help me sign in",
+        "intent" : {
+          "name" : "bt_login_failure"
+        },
+        "label" : "Help me sign in",
+        "question_display_text" : "Help me sign in"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You're able to find the available balance of your client's account under the 'Overview' section on the navigation menu."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_investor",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to see your current account balance by selecting 'Overview' on the navigation menu."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to see your clients current account balance by selecting the client and navigating to 'Overview'."
+        }
+      } ]
+    }
+  } ]
+}

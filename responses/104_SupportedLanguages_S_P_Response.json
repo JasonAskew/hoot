@@ -1,0 +1,41 @@
+{
+  "name" : "104_SupportedLanguages_S_P_Response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I can only chat in English for now. If you would prefer to speak to us in another language, call 1300 881 716 from 8:30am to 6.30pm, Monday to Friday (Sydney time) so we can assist you."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can only chat in English for now. If you would prefer to speak to us in another language, call 1300 881 716 from 8:30am to 6.30pm, Monday to Friday (Sydney time) so we can assist you."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/personal/contact-us.html#super",
+          "label" : "Contact us"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can only chat in English for now. If you would prefer to speak to us in another language, call 1300 784 207 from 8:30am to 6:30pm, Monday to Friday (Sydney time) so we can assist you."
+        }
+      } ]
+    }
+  } ]
+}

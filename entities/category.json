@@ -1,0 +1,171 @@
+{
+  "name" : "category",
+  "type" : "Enum",
+  "system" : false,
+  "options" : [ {
+    "value" : "ATM",
+    "aliases" : [ "ATM", "ATMs" ]
+  }, {
+    "value" : "Food and Dining",
+    "aliases" : [ "dine", "dining", "dining out", "eat out", "eating out", "eating", "eats", "food", "meals" ]
+  }, {
+    "value" : "Groceries",
+    "aliases" : [ "bev store", "bev stores", "beverage store", "beverage stores", "food store", "food stores", "groceries", "groceries shopping", "grocery store", "grocery", "supermarket", "supermarkets", "market", "markets", "food shopping" ]
+  }, {
+    "value" : "Coffee Shops",
+    "aliases" : [ "cafe", "cafes", "coffee house", "coffee houses", "coffee shop", "coffee", "café", "cafés", "caffeine", "coffee shops", "coffeeshops" ]
+  }, {
+    "value" : "Fast Food",
+    "aliases" : [ "chain restaurant", "chain restaurants", "convenience food", "drive thru", "fast food chain", "fast food chains", "fast food establishment", "fast food establishments", "fast food restaurant", "fast food restaurants", "fastfood", "food chain", "food chains", "junk food", "takeout restaurant", "takeout restaurants", "takeout" ]
+  }, {
+    "value" : "Restaurants",
+    "aliases" : [ "cafeteria", "cafeterias", "dining establishment", "dining establishments", "restaurant", "restaurants" ]
+  }, {
+    "value" : "Bars",
+    "aliases" : [ "bar", "bars", "beer garden", "beer gardens", "beer", "beverage", "beverages", "bistro", "bistros", "brew house", "brew houses", "breweries", "brewery", "cocktail", "cocktails", "dive bar", "dive bars", "drink", "drinks", "happy hour", "pub", "pubs", "public house", "public houses", "speak easy", "speakeasy", "sports bar", "sports bars", "tap room", "tap rooms", "watering hole", "watering holes", "wine", "wine bar", "wine bars" ]
+  }, {
+    "value" : "Entertainment",
+    "aliases" : [ "amusement", "concert", "concerts", "entertainment", "leisure", "entertainment & leisure", "entertainment and leisure", "entertainment leisure", "entertainmentleisure", "fun", "movies", "music", "recreation", "shows", "theater", "theatre" ]
+  }, {
+    "value" : "Health Fitness",
+    "aliases" : [ "health", "fitness", "exercise", "exercising", "health & fitness", "health and fitness", "health fitness", "healthfitness", "wellness", "working out" ]
+  }, {
+    "value" : "Gym",
+    "aliases" : [ "exercise classes", "fitness center", "gym membership", "gym", "gyms", "health club", "physical health", "spin", "training", "workout" ]
+  }, {
+    "value" : "Sports",
+    "aliases" : [ "athletics", "games", "physical activity", "physical recreation", "sport stadium", "sport venue", "sport", "sports", "sporting", "sports games", "sports stadium", "sports venue" ]
+  }, {
+    "value" : "Pharmacy",
+    "aliases" : [ "drug store", "drug stores", "drug", "drugs", "drugstore", "drugstores", "medication", "medicine", "medicines", "meds", "otc medication", "otc meds", "pharmaceuticals", "pharmacies", "pharmacist's", "pharmacist", "pharmacists", "pharmacy", "prescription medication", "prescription meds", "prescription", "prescriptions" ]
+  }, {
+    "value" : "Dentist",
+    "aliases" : [ "dental care", "dental hygiene", "dental surgery", "dental work", "dental", "dentist office", "dentist's", "dentist", "dentists", "orthodontia", "orthodontist", "teeth" ]
+  }, {
+    "value" : "Eyecare",
+    "aliases" : [ "eye care", "eye doctor's", "eye doctor", "eye doctors", "eye glasses", "eyecare", "eyeglasses", "eyes", "glasses", "lens", "ophthalmologist", "ophthalmology", "optometrist's", "optometrist", "optometrists" ]
+  }, {
+    "value" : "Doctor",
+    "aliases" : [ "clinic", "clinics", "doctor's", "doctor", "doctors", "emergency room", "emergency rooms", "emergency service", "emergency services", "general practioner", "health care", "healthcare services", "healthcare", "hospital", "hospitals", "internal medicine", "internist", "medical care", "medical center", "medical centers", "medical", "physical therapy", "physician's", "physician", "physicians", "primary care provider", "specialist" ]
+  }, {
+    "value" : "Education",
+    "aliases" : [ "college tuition", "college", "elementary school", "high school", "instruction", "junior high school", "junior high", "kindergarten", "learning", "middle school", "online education", "pre school", "preschool", "school tuition", "school", "schooling", "tuition", "tuitions", "tutor", "tutoring", "tutors", "universities", "university tuition", "university tuitions", "university" ]
+  }, {
+    "value" : "Kids",
+    "aliases" : [ "babies", "baby", "childcare", "children's store", "children", "childrens store", "childrens' store", "day care", "daycare", "family", "infant care", "infants", "kid's store", "kids & family", "kids and family", "kids family", "kids store", "kids' store", "kids", "kidsfamily", "my children", "my kids", "parenting" ]
+  }, {
+    "value" : "Taxes",
+    "aliases" : [ "accountant", "accountants", "accounting", "federal taxes", "filing taxes", "income tax", "municipal taxes", "property tax", "state taxes", "tax preparation", "tax preparations", "tax return", "tax returns", "tax", "taxes" ]
+  }, {
+    "value" : "Transport Auto",
+    "aliases" : [ "auto transport", "automobile transportation", "car transportation", "transit", "transport", "transportation", "transports" ]
+  }, {
+    "value" : "Auto Maintenance",
+    "aliases" : [ "auto body shop", "auto maintenance", "auto mechanic", "auto repair shop", "auto repair", "auto service", "auto shop", "auto shops", "auto upkeep", "automaintenance", "automobile maintenance", "automobile mechanic", "automobile repair shop", "automobile repair", "automobile service", "automobile shop", "automobile shops", "automobile upkeep", "automotive repair", "car maintenance", "car mechanic", "car repair shop", "car repair", "car service", "car shop", "car shops", "car upkeep", "vehicle maintenance", "vehicle mechanic", "vehicle repair shop", "vehicle repair", "vehicle service", "vehicle shop", "vehicle shops" ]
+  }, {
+    "value" : "Taxi",
+    "aliases" : [ "cab", "cabbing", "cabs", "city cab", "city taxi", "taxi cab", "taxi cabs", "taxi ride", "taxi rides", "taxi", "taxicab", "taxicabs", "taxiing", "taxis" ]
+  }, {
+    "value" : "Public Transport",
+    "aliases" : [ "bus station", "bus stations", "bus terminal", "bus terminals", "bus", "buses", "busses", "mass transit", "mass transport", "mass transportation", "metro", "public transit", "public transport", "public transportation", "publictransport", "subway" ]
+  }, {
+    "value" : "Gas Fuel",
+    "aliases" : [ "convenience store", "fuel", "gas & fuel", "gas and fuel", "gas fuel", "gas station", "gas stations", "gas", "gasfuel", "gasoline station", "gasoline", "petrol", "quick stop" ]
+  }, {
+    "value" : "Parking",
+    "aliases" : [ "car park", "car parking", "garage", "garages", "parking garage", "parking garages", "parking lot", "parking lots", "parking", "public parking" ]
+  }, {
+    "value" : "Gifts Donations",
+    "aliases" : [ "charitable donations", "charitable gifts", "charitable giving", "charity", "donation", "donations", "gift", "gifts & donations", "gifts and donations", "gifts donations", "gifts", "giftsdonations", "philanthropic donations", "philanthropic gifts", "philanthropic giving", "philanthropy", "present", "presents" ]
+  }, {
+    "value" : "Business Services",
+    "aliases" : [ "business service", "professional services" ]
+  }, {
+    "value" : "Personal Care",
+    "aliases" : [ "grooming", "hygiene", "personal care", "personal hygiene", "personalcare", "toiletries" ]
+  }, {
+    "value" : "Spa Massage",
+    "aliases" : [ "back rub", "back rubbing", "back rubs", "body spa", "facial", "massage", "massages", "massaging", "masseur", "masseurs", "masseuse", "masseuses", "spa & massage", "spa and massage", "spa massage", "spa services", "spa", "spas" ]
+  }, {
+    "value" : "Hair",
+    "aliases" : [ "barber shop", "barbershop", "hair care", "hair salon", "hair spa", "hair styling", "hair stylist's", "hair stylist", "hair stylists", "hair", "haircut", "haircuts", "haircutter", "haircutters", "salon", "stylist" ]
+  }, {
+    "value" : "Laundry",
+    "aliases" : [ "clothes cleaners", "clothes washing", "dry cleaning", "drycleaner", "drycleaners", "dry cleaner", "dry cleaners", "garment service", "garment services", "laundromat", "laundromats", "laundry machine", "laundry machines", "laundry service", "laundry", "wash", "washing clothes", "washing" ]
+  }, {
+    "value" : "Investments",
+    "aliases" : [ "assets", "holdings" ]
+  }, {
+    "value" : "Shopping",
+    "aliases" : [ "mall", "malls", "shopping center", "shopping centers", "shopping centre", "shopping centres", "shopping", "shops" ]
+  }, {
+    "value" : "Electronics",
+    "aliases" : [ "computers", "electronic", "electronics & gadgets", "electronics and gadgets", "electronics gadgets", "electronics", "electronicsgadgets", "gadget", "gadgets", "hardware", "technology" ]
+  }, {
+    "value" : "Clothing",
+    "aliases" : [ "accessories", "apparel", "bag", "bags", "clothes shopping", "clothes", "clothing store", "clothing stores", "clothing", "costume", "costumes", "fancy clothes", "fashion & accessories", "fashion accessories", "fashion and accessories", "fashion", "fashionaccessories", "high end clothes", "shoes", "wallet", "wallets" ]
+  }, {
+    "value" : "Sporting Goods",
+    "aliases" : [ "sports gear", "sporting gear", "athletic gear", "sportswear", "athletic wear", "sporting equipment", "sports equipment", "athletic equipment", "sports goods", "athletic goods", "athletic gears", "sporting gears", "sporting goods", "sportinggoods", "sporting item", "sporting items", "sporting supply", "sporting supplies", "sport equipment", "sport supply", "sport supplies", "sports item", "sports items", "sports supply", "sports supplies", "sports wear" ]
+  }, {
+    "value" : "Books",
+    "aliases" : [ "book store", "book stores", "book", "books", "bookstore", "bookstores", "e-book", "e-books", "libraries", "library", "notebook", "notebooks", "reading material", "reading materials", "textbook", "textbooks", "reading" ]
+  }, {
+    "value" : "Hobbies",
+    "aliases" : [ "hobbies", "hobby shop", "hobby shops", "hobby", "pasttime", "pasttimes" ]
+  }, {
+    "value" : "Bills Utilities",
+    "aliases" : [ "bill", "bills", "billsutilitiestaxes", "e-bill", "e-bills", "invoice", "invoices" ]
+  }, {
+    "value" : "Mobile Phone",
+    "aliases" : [ "android", "cell phone bill", "cell phone bills", "cell phone store", "cell phone stores", "cell phone", "cell phones", "cell", "cellphone", "cellular phone bill", "cellular phone bills", "cellular phone", "cellular phones", "iphone bill", "iphone bills", "iphone", "iphones", "mobile phone bill", "mobile phone bills", "mobile phone", "mobile phones", "mobile", "mobilephone", "phone bill", "phone bills", "phone", "phones", "smartphone bill", "smartphone bills", "smartphone", "telephone bill", "telephone bills", "telephone", "telephones" ]
+  }, {
+    "value" : "Home Phone",
+    "aliases" : [ "home phone bill", "home phone bills", "home phone", "home telephone bill", "home telephone bills", "home telephone", "homephone", "house phone bill", "house phone bills", "house phone", "house telephone bill", "house telephone bills", "house telephone", "land line", "landline" ]
+  }, {
+    "value" : "Utilities",
+    "aliases" : [ "electric bill", "electric bills", "electric", "home bill", "home bills", "sp services", "utilities", "utility", "water bill", "water" ]
+  }, {
+    "value" : "Internet",
+    "aliases" : [ "internet bill", "internet bills", "internet service", "internet services", "internet", "isp", "network", "telecom", "web", "wi-fi", "wifi", "net" ]
+  }, {
+    "value" : "Television",
+    "aliases" : [ "television", "TV", "cable bill" ]
+  }, {
+    "value" : "Travel",
+    "aliases" : [ "tour", "touring", "tourism", "tours", "travel agent", "travel agents", "travel", "traveling", "travelling", "trips" ]
+  }, {
+    "value" : "Train",
+    "aliases" : [ "monorail", "mrt pass", "rail transportation", "rail", "rails", "train station", "train stations", "train ticket", "train tickets", "train", "trains" ]
+  }, {
+    "value" : "Hotel",
+    "aliases" : [ "accommodation", "accommodations", "hostel", "hostels", "hotel", "hotels", "inn", "inns", "lodging", "motel", "motels" ]
+  }, {
+    "value" : "Holidays",
+    "aliases" : [ "excursion", "holiday", "holidays", "picnics", "vacation", "vacationing" ]
+  }, {
+    "value" : "Rental Car",
+    "aliases" : [ "car rental", "car rentals", "cars rental", "cars rentals", "rental car", "rental cars", "rentalcar", "rented car", "rented cars" ]
+  }, {
+    "value" : "Air Travel",
+    "aliases" : [ "air fare", "air fares", "air line", "air lines", "air plane", "air planes", "air travel", "airfare", "airfares", "airline", "airlines", "airplane flights", "airplane travel", "airplane", "airplanes", "airport", "airports", "airtravel", "flight", "flights", "flying", "plane flights", "plane tickets", "plane", "travel by air", "travel by airplane" ]
+  }, {
+    "value" : "Insurance",
+    "aliases" : [ "car insurance", "health insurance", "home insurance", "homeowner's insurance", "homeowners insurance", "insurance", "insurances", "life insurance", "renter's insurance", "renters insurance" ]
+  }, {
+    "value" : "Checks",
+    "aliases" : [ "checks", "cheque", "cheques", "my check", "the check" ]
+  }, {
+    "value" : "Electronic Funds Transfer",
+    "aliases" : [ "eft", "electronic transfer", "electronic funds transfer", "transfer", "transfers" ]
+  }, {
+    "value" : "Interest",
+    "aliases" : [ "interest", "interests" ]
+  }, {
+    "value" : "POS",
+    "aliases" : [ "pos", "point of service" ]
+  }, {
+    "value" : "Fees",
+    "aliases" : [ "fees", "fee", "bank cost", "bank costs", "bank fee", "bank fees", "bank price", "bank prices", "banking cost", "banking costs", "banking fee", "banking fees", "banking price", "banking prices", "late fee", "late fees", "late paymant", "late paymants", "late payment fee", "late payment fees", "late payment", "late payments", "late pmt", "late pmts", "overdue payment", "overdue payments" ]
+  } ]
+}

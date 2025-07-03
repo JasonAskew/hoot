@@ -1,0 +1,48 @@
+{
+  "name" : "bt_change_name_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To change your name:\n1. Select 'Go to page'.\n2. In the 'Account maintenance' section, select 'Change of name' then follow the prompts."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+        "label" : "Go to page"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To change a client's name:\n1. Select 'Go to page'.\n2. Select 'Submit new request'.\n3. In the 'Account maintenance' section, select 'Change of name' then follow the prompts."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/tracking/pano-service-requests",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  } ]
+}

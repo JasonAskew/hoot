@@ -1,0 +1,16 @@
+{
+  "name" : "Message-Input-Contains-PII",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "For your security please don't enter account numbers, SSN, or other personal information."
+      }
+    } ]
+  }
+}

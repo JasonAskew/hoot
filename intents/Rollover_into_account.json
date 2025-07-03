@@ -1,0 +1,23 @@
+{
+  "name" : "Rollover_into_account",
+  "display_name" : "Rollover_into_account",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "Rollover_into_account"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "Rollover_into_account",
+  "alternative_questions_enabled" : true,
+  "alternative_questions_eligible" : false,
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

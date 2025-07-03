@@ -1,0 +1,27 @@
+{
+  "categorization" : {
+    "tags" : [ "navigation" ]
+  },
+  "name" : "bt_corporate_action",
+  "display_name" : "bt_corporate_action",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_corporate_action_response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : true
+    }
+  },
+  "display_sentence" : "How do we participate in a corporate action?",
+  "alternative_questions_enabled" : true,
+  "alternative_questions_eligible" : true,
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

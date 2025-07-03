@@ -1,0 +1,111 @@
+{
+  "name" : "bt_cancel_trade_static",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You are able to cancel a trade, providing it has not been sent to the relevant broker or fund manager to be executed. If a trade can be cancelled, there will be an option to do so under that particular trade on the 'Investment orders' screen. Select ‘Go to page’ to view any pending trades."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/investment-orders",
+        "label" : "Go to page"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your financial adviser on file is able to cancel trades on your behalf. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Adviser information"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your financial adviser on file is able to cancel trades on your behalf. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Adviser information"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your financial adviser on file is able to cancel trades on your behalf. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Adviser information"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Help me sign in",
+        "intent" : {
+          "name" : "bt_login_failure"
+        },
+        "label" : "Help me sign in",
+        "question_display_text" : "Help me sign in"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to cancel a trade, providing it has not been sent to the relevant broker or fund manager to be executed. If a trade can be cancelled, there will be an option to do so under that particular trade on the 'Investment orders' screen."
+        }
+      } ]
+    }
+  } ]
+}

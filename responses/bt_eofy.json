@@ -1,0 +1,115 @@
+{
+  "name" : "bt_eofy",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I am here to help you during the end of financial year. You can chat with me by using keywords or selecting from these common queries:"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_eofy_key_dates"
+        },
+        "label" : "Key dates"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_deposit_funds"
+        },
+        "label" : "Make a contribution"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_view_reports"
+        },
+        "label" : "Tax statements & reports"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_personal_tax"
+        },
+        "label" : "Submit a Deduction notice"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "https://www.bt.com.au/personal/help/end-of-financial-year.html",
+        "label" : "EOFY Information "
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I am here to help you during the end of financial year. You can chat with me by using keywords or selecting from these common queries:"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "/content/secure/help-and-support/bt/en/adviser/business-admin/managing-your-business/eofy.html",
+          "label" : "Year end information"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_deposit_funds"
+          },
+          "label" : "Make a contribution"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/products-and-investments/super/contributions/downsizer-contribution.html",
+          "label" : "Downsizer contribution"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "43_ViewStatements_S"
+          },
+          "label" : "Tax statements & reports"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_personal_tax"
+          },
+          "label" : "Lodge a personal tax deduction"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/business-admin/managing-your-business/eofy/cut-off-dates.html",
+          "label" : "Transaction cut-off dates"
+        }
+      } ]
+    }
+  } ]
+}

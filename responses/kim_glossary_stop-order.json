@@ -1,0 +1,39 @@
+{
+  "name" : "kim_glossary_stop-order",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "kcb_kim_getdefinition", "kim" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "A stop order is an instruction to your broker to execute a trade if the market price moves past a particular level: one which is less favourable than the current market price."
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "👍",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "1"
+        } ]
+      },
+      "label" : "👍"
+    }, {
+      "type" : "INTENT",
+      "payload" : "👎",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "0"
+        } ]
+      },
+      "label" : "👎"
+    } ]
+  }
+}

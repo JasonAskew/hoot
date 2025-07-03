@@ -1,0 +1,25 @@
+{
+  "categorization" : {
+    "skill" : "bank_services",
+    "tags" : [ "consultant_help" ]
+  },
+  "name" : "77_CallBack_S",
+  "display_name" : "77_CallBack_S",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "77_CallBack_S_Response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "Can you call me back",
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

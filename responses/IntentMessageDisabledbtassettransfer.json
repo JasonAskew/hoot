@@ -1,0 +1,83 @@
+{
+  "name" : "IntentMessageDisabledbtassettransfer",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query, please sign in to your account, then ask again."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query, please sign in to your account, then ask again."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This feature is currently not available on the Panorama mobile app. To access this feature, sign in to the full Panorama website."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_investor",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This feature is currently not available on the Panorama mobile app. To access this feature, sign in to the full Panorama website."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can show you how to initiate an asset transfer, please select the 'Show me how' button."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For more information on asset transfers, select 'Help & support'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "911707",
+          "label" : "Show me how"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/asset-transfers.html",
+          "label" : "Help & support"
+        }
+      } ]
+    }
+  } ]
+}

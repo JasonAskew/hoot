@@ -1,0 +1,23 @@
+{
+  "name" : "kcb_kim_positions_login_req",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "kcb_kim_positions" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To request positions you must login."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "LOGIN",
+        "payload" : "Login",
+        "label" : "Login"
+      }
+    } ]
+  }
+}

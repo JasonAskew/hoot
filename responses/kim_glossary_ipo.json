@@ -1,0 +1,39 @@
+{
+  "name" : "kim_glossary_ipo",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "kcb_kim_getdefinition", "kim" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "An initial public offering (IPO) is when a company issues and/or sells shares to the public for the first time, usually as part of the process of listing on an exchange."
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "👍",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "1"
+        } ]
+      },
+      "label" : "👍"
+    }, {
+      "type" : "INTENT",
+      "payload" : "👎",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "0"
+        } ]
+      },
+      "label" : "👎"
+    } ]
+  }
+}

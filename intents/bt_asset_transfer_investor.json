@@ -1,0 +1,52 @@
+{
+  "categorization" : {
+    "skill" : "payments_transfers",
+    "tags" : [ "service" ]
+  },
+  "name" : "bt_asset_transfer_investor",
+  "display_name" : "bt_asset_transfer_investor",
+  "description" : "Intent to show procedures for transferring assets",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "messages" : [ {
+      "clarify_response_name" : "bt_asset_transfer_clarify_transfer_type",
+      "input_mode" : "HIDDEN",
+      "slot_name" : "transfer_type"
+    } ],
+    "rules" : [ {
+      "criteria" : [ {
+        "name" : "transfer_type",
+        "value" : "in"
+      } ],
+      "response_name" : "bt_asset_transfer_in_response"
+    }, {
+      "criteria" : [ {
+        "name" : "transfer_type",
+        "value" : "out"
+      } ],
+      "response_name" : "bt_asset_transfer_out_response"
+    } ]
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "CANCEL"
+    },
+    "outgoing" : {
+      "allowed" : true,
+      "allow_resume" : false,
+      "confirm_if_cancelled" : false
+    }
+  },
+  "display_sentence" : "How do I complete asset transfer?",
+  "slots" : [ {
+    "name" : "transfer_type",
+    "entity" : "BT_ASSET_TRANSFER_TYPE"
+  } ],
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "messages" : {
+    "IntentMessageCancellation" : "Canceled. How can I help you?"
+  },
+  "multi_inputs" : false
+}

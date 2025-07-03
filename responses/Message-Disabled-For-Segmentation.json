@@ -1,0 +1,27 @@
+{
+  "name" : "Message-Disabled-For-Segmentation",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again."
+        }
+      } ]
+    }
+  } ]
+}

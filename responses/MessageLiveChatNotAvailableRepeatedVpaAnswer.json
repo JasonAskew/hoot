@@ -1,0 +1,55 @@
+{
+  "name" : "MessageLiveChatNotAvailableRepeatedVpaAnswer",
+  "searchable" : true,
+  "system" : true,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Would you like to chat to our live agent? Alternatively, you can contact us over the phone on 1300 881 716 8:30am to 6:30pm (Sydney time) Monday to Friday."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat with consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "One of our consultants will be able to assist you, please select the 'Contact us' button for details."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/personal/contact-us.html",
+          "label" : "Contact us"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Would you like to chat to our live agent? Alternatively, you contact us over the phone on 1300 784 207 8:30am to 6:30pm (Sydney time) Monday to Friday."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  } ]
+}

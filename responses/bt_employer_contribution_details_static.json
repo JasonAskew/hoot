@@ -1,0 +1,114 @@
+{
+  "name" : "bt_employer_contribution_details_static",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To download our 'Choice of super fund' form, which includes our complying fund statement:\n1. Select 'Go to page'.\n2. In the 'Deposits and contributions' section, select 'Choice of super fund' then follow the prompts."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Your employer can contribute via EFT or SuperStream.\n\nFor EFT: Provide your BSB and account number, and enter 'EMPLOYER' as reference for the deposit.\nFor SuperStream: Provide your employer with our ABN (90 194 410 365), fund name (Panorama Super) and USI (90 194 410 365 011)."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+        "label" : "Go to page"
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "What is my account number?",
+      "intent" : {
+        "name" : "bt_account_number"
+      },
+      "label" : "What is my account number?",
+      "question_display_text" : "What is my account number?"
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Our fund details, including the ABN and USI are available on our website. If you are unsure of what type of Superannuation account you have with BT, please log in and ask me again."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/personal/help/spin.html",
+          "label" : "ABN & USI"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To download our 'Choice of super fund' form, which includes our complying fund statement, select ‘Show me how’."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your client's employer can contribute via EFT or SuperStream.\n\nFor EFT: Provide your client's BSB and account number, and enter 'EMPLOYER' as reference for the deposit.\nFor SuperStream: Provide your client's employer with our ABN (90 194 410 365), fund name (Panorama Super) and USI (90 194 410 365 011)."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1560654",
+          "label" : "Show me how"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  } ]
+}

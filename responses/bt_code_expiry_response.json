@@ -1,0 +1,13 @@
+{
+  "name" : "bt_code_expiry_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "The registration code is valid for 7 days from when it is sent."
+      }
+    } ]
+  }
+}

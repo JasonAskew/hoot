@@ -1,0 +1,27 @@
+{
+  "categorization" : {
+    "tags" : [ "account_details" ]
+  },
+  "name" : "bt_balance_decrease",
+  "display_name" : "bt_balance_decrease",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_balance_decrease_response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : true
+    }
+  },
+  "display_sentence" : "Why has my balance decreased?",
+  "alternative_questions_enabled" : true,
+  "alternative_questions_eligible" : true,
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

@@ -1,0 +1,136 @@
+{
+  "name" : "bt_asset_transfer_out_bt_panorama_super_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Asset transfers from external platforms into or out of BT Panorama Super & BT Super Invest accounts are currently not supported."
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "👍",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "1"
+        } ]
+      },
+      "label" : "👍"
+    }, {
+      "type" : "INTENT",
+      "payload" : "👎",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "0"
+        } ]
+      },
+      "label" : "👎"
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Asset transfers from external platforms into or out of BT Panorama Super (Pension) & BT Super Invest (Pension) accounts are currently not supported."
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Asset transfers from external platforms into or out of BT Panorama Super (Pension) & BT Super Invest (Pension) accounts are currently not supported."
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Asset transfers from external platforms into or out of BT Panorama Super (Pension) & BT Super Invest (Pension) accounts are currently not supported."
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  } ]
+}

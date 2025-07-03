@@ -1,0 +1,20 @@
+{
+  "name" : "bt_ddo_trade",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I can help you buy a managed fund or managed portfolio. Please select the 'Show me how' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "walkme",
+        "payload" : "1292575",
+        "label" : "Show me how"
+      }
+    } ]
+  }
+}

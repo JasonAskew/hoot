@@ -1,0 +1,102 @@
+{
+  "name" : "bt_asset_transfer_out_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat with consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Asset transfers out are not permitted for account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Asset transfers out are not permitted for account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Asset transfers out are not permitted for account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  } ]
+}

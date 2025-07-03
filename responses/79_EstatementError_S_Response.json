@@ -1,0 +1,104 @@
+{
+  "name" : "79_EstatementError_S_Response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "If you're having issues accessing your statements online, please select 'Chat with consultant' from 8:30am to 6.30pm, Monday to Friday (Sydney time) and a consultant can assist you."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "If a ‘Pop up window blocked’ message displays, you will need to disable pop-up blockers in your browser: \n\n1. Go to the ‘Privacy’ or ‘Security’ section in your browser settings. \n2. Disable the ‘Block pop-ups’ option."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Please note each document in the document library is deleted after it has reached its retention period. Documents are retained for a minimum of five years."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat with consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you're having issues accessing your statements online one of our consultants can assist you. Please select the 'Contact us' button for details."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/personal/contact-us.html",
+          "label" : "Contact us"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you're having issues accessing your client's estatements in the document library, one of our consultants can assist you. If you would like to speak to a consultant, please select the 'Chat with consultant' button."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please note each document in the document library is deleted after it has reached its retention period. Documents are retained for a minimum of five years."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_investor",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you're having issues accessing your statements in the document library, one of our consultants can assist you. If you would like to speak to a consultant, please select the 'Chat with consultant' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you're having issues accessing your client's statements in the document library, one of our consultants can assist you. If you would like to speak to a consultant, please select the 'Chat with consultant' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  } ]
+}

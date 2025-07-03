@@ -1,0 +1,24 @@
+{
+  "name" : "bt_request_for_withdrawal_clarify_withdraw_amount_type",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "What proportion do you want to withdraw?"
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "TEXT",
+      "payload" : "partial withdrawal",
+      "label" : "Partial withdrawal",
+      "question_display_text" : "Partial withdrawal"
+    }, {
+      "type" : "TEXT",
+      "payload" : "full withdrawal",
+      "label" : "Full withdrawal",
+      "question_display_text" : "Full withdrawal"
+    } ]
+  }
+}

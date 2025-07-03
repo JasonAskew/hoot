@@ -1,0 +1,72 @@
+{
+  "name" : "bt_change_insurance_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "For any insurance related enquiry, please call 1300 553 764, 8:30am to 6:30pm (Sydney time) Monday to Friday. Is there anything else I can help you with?"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_check_insurance"
+        },
+        "label" : "Check Insurance"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query please log into your account and ask me again."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For any insurance related enquiry, one of our insurance consultants will need to speak to you directly. You may contact them by calling 1300 553 764 8:30am to 6:00pm (Sydney time) Monday to Friday. Is there anything else I can help you with?"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_check_insurance"
+          },
+          "label" : "Check Insurance"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For any insurance related enquiry, please call 1300 553 764, 8:30am to 6:30pm (Sydney time) Monday to Friday. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  } ]
+}

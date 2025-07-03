@@ -1,0 +1,95 @@
+{
+  "name" : "Typed_Signatures",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "A ‘typed signature’ is a digital signature created using third-party vendor signature verification software, such as DocuSign or Adobe Sign, that displays an individual’s name typed out in a computer-generated font."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "If a typed signature can be accepted, it will be specified on Panorama forms in the ‘Use this form to’ section."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Forms with a typed signature must be provided to us by a primary email address or uploaded via the Panorama ‘Forms & requests’ page, as we cannot accept typed signatures by post. These forms must also be accompanied by the third-party vendor software digital signature certificate."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+        "label" : "Forms & requests"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_digital_signature"
+        },
+        "label" : "Digital signatures"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "A ‘typed signature’ is a digital signature created using third-party vendor signature verification software, such as DocuSign or Adobe Sign, that displays an individual’s name typed out in a computer-generated font."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If a client’s typed signature can be accepted, it will be specified on Panorama forms in the ‘Use this form to’ section. For the list of forms included, select ‘Help & support’."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Forms with a typed signature must be provided to us by a primary email address or uploaded via the Panorama ‘Service requests’ page, as we cannot accept typed signatures by post. These forms must also be accompanied by the third-party vendor software digital signature certificate."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/services/signatures.html ",
+          "label" : "Help & support"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "76_ServiceRequestStatus_S"
+          },
+          "label" : "Service requests"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_digital_signature"
+          },
+          "label" : "Digital signatures"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  } ]
+}

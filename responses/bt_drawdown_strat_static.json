@@ -1,0 +1,54 @@
+{
+  "name" : "bt_drawdown_strat_static",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "A Drawdown will occur when there is insufficient cash available to cover an upcoming regular payment or a fee, or to maintain the minimum account balance, then a portion of your investments will be sold automatically to raise the cash."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_min_account_balance"
+        },
+        "label" : "Minimum account balance"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_trade_share"
+        },
+        "label" : "Trading"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "A drawdown strategy is the order and manner in which your client’s listed securities, managed funds or managed portfolio investments will be sold to generate sufficient cash to fund the payments due (including fees and costs) or maintain the minimum transaction account balance required."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For information on how to manage a drawdown strategy, select 'Help & Support'"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/drawdown-strategy/drawdown_strategy.html",
+          "label" : "Help & Support"
+        }
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "name" : "bt_add_tpa_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To add a third-party authority to your account:\nNavigate to ‘Forms & requests’.\nIn the ‘Account maintenance’ section, select the ‘Third party authority request’ form.\n\nA copy of your ID is required. Ensure the email used is the primary email address BT has on file. Alternatively, you will receive an email from Panorama asking you to call and verify the request."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To add a third-party authority to a client’s account:\n1. Select the ‘Go to page’ button.\n2. Select ‘Submit new request’ and go to the 'Account maintenance' section.\n3. Select the ‘Third party authority request’ form and follow the prompts.\n\nA certified copy of the account holders ID is required along with the form. Alternatively, Panorama will email the client to ask them to call and verify the request."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "/ng/secure/app/#/app/adviser/tracking/pano-service-requests",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To add a third-party authority to a Panorama account, complete and submit the ‘Third party authority request’ form.\n\nA certified copy of the account holders’ ID is required along with the form. Alternatively, Panorama will email the client to ask them to call and verify the request."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/content/dam/public/btfg-bt/documents/professional/support/forms/third-party-authority-request-form.pdf",
+          "label" : "Third party authority request form"
+        }
+      } ]
+    }
+  } ]
+}

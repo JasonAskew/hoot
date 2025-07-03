@@ -1,0 +1,115 @@
+{
+  "name" : "bt_check_insurance_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You are able to view what insurance you have in the 'Insurance' section on the navigation menu. Please select the 'Go to page' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/pano-insurance-list/policies",
+        "label" : "Go to page"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_change_insurance"
+        },
+        "label" : "Change Insurance"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to view any insurance held by your clients, under the 'Insurance' section on the navigation menu."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view a list of all clients that hold insurance policies on Panorama, select 'Go to page'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/business/pano-insurance-accounts",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_change_insurance"
+          },
+          "label" : "Change Insurance"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you hold an insurance policy, you are able to view what insurance you have in the 'Insurance' section on the navigation menu. Please select the 'Go to page' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-insurance-list/policies",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you hold an insurance policy, you are able to view what insurance you have in the 'Insurance' section on the navigation menu. Please select the 'Go to page' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-insurance-list/policies",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, you can contact us on 1300 881 716 8:30am to 6:30pm (Sydney time) Monday to Friday."
+        }
+      } ]
+    }
+  } ]
+}

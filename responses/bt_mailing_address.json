@@ -1,0 +1,65 @@
+{
+  "name" : "bt_mailing_address",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Mail:  BT Panorama\n         GPO Box 2861\n         Adelaide SA 5001\n\nEmail: professional@panorama.com.au"
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Call 1300 881 716 (or +612 9155 4029 outside Australia) from 8:30am to 6:30pm, Monday to Friday (Sydney time) and a consultant will assist you."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat to consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Mail:  BT Panorama\n         GPO Box 2861\n         Adelaide SA 5001\n\nEmail: professional@panorama.com.au\n\nEmail (adviser registration queries): adviserregistration@panorama.com.au"
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Call \t1300 784 207 (or +612 9155 4030 outside Australia) from 8:30am to 6:30pm, Monday to Friday (Sydney time) and a consultant will assist you."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat to consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/personal/contact-us.html#super",
+          "label" : "Contact BT"
+        }
+      } ]
+    }
+  } ]
+}

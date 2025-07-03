@@ -1,0 +1,20 @@
+{
+  "name" : "bt_application_status",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Application status can be checked by you via the BT Panorama platform in 3 simple steps\n\n1) Open Account applications page.\n2) Locate the relevant application to be tracked\n3) Check the status mentioned in status column\n\nClick on the button below to open account applications page"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "HYPERLINK",
+        "payload" : "#ng/newaccount/tracking",
+        "label" : "Click Here"
+      }
+    } ]
+  }
+}

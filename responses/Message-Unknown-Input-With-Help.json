@@ -1,0 +1,17 @@
+{
+  "name" : "Message-Unknown-Input-With-Help",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "What you've asked isn't quite clear to me, although I'm always learning. I can tell you about your accounts, help make payments, search your transactions, and answer questions.",
+        "alternatives" : [ "That request is over my head, although I'm always learning. I can tell you about your accounts, help make payments, search your transactions, and answer questions.", "Although I can't now address what you've asked, I'm always learning. I can tell you about your accounts, help make payments, search your transactions, and answer questions.", "That request lies outside my powers, although I'm always learning. I can tell you about your accounts, help make payments, search your transactions, and answer questions." ]
+      }
+    } ]
+  }
+}

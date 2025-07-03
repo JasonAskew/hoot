@@ -1,0 +1,31 @@
+{
+  "categorization" : {
+    "tags" : [ "trade" ]
+  },
+  "name" : "bt_cancel_trade",
+  "display_name" : "bt_cancel_trade",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_cancel_trade_static"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "CANCEL"
+    },
+    "outgoing" : {
+      "allowed" : true,
+      "allow_resume" : false,
+      "confirm_if_cancelled" : false
+    }
+  },
+  "display_sentence" : "Can I cancel a trade?",
+  "alternative_questions_enabled" : false,
+  "slots" : [ {
+    "name" : "account_number",
+    "entity" : "BT_ACCOUNT_NUMBER_PATTERN"
+  } ],
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

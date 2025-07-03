@@ -1,0 +1,303 @@
+{
+  "name" : "bt_trade_share_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Did you want to place a buy or sell order?"
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "Buy",
+      "intent" : {
+        "name" : "bt_buy_share"
+      },
+      "label" : "Buy",
+      "question_display_text" : "Buy"
+    }, {
+      "type" : "INTENT",
+      "payload" : "Sell",
+      "intent" : {
+        "name" : "bt_sell_share"
+      },
+      "label" : "Sell",
+      "question_display_text" : "Sell"
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To buy or sell an investment please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To buy or sell an investment please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To buy or sell an investment please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can help you make a trade, please select the 'Show me how' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "978626",
+          "label" : "Show me how"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_assistant",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to buy a managed fund or share under the 'Investment orders' section of the navigation menu when viewing a client's account. Please select the 'Go to page' button for more information."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "978626",
+          "label" : "Show me how"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_investor",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To trade on your account, go to 'Investments' and select 'Buy or sell an investment'. If you are a BT Invest customer, go to 'Investments' and select 'Invest more' or 'Withdraw'.\n\nIf you have a financial adviser, you can ask them to submit the request for you."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To submit a trade for a client, select their account, go to 'Investments' and select 'Buy or sell an investment'."
+        }
+      } ]
+    }
+  } ]
+}

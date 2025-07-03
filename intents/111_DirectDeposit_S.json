@@ -1,0 +1,25 @@
+{
+  "categorization" : {
+    "skill" : "accounts",
+    "tags" : [ "payments" ]
+  },
+  "name" : "111_DirectDeposit_S",
+  "display_name" : "111_DirectDeposit_S",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "111_DirectDeposit_S_Response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "How do I setup a direct deposit",
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

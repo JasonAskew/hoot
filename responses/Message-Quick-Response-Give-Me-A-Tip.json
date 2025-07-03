@@ -1,0 +1,43 @@
+{
+  "name" : "Message-Quick-Response-Give-Me-A-Tip",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I am here to help you with using BT Panorama, here are some examples of how I can assist;"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_linked_account_verification"
+        },
+        "label" : "Verify linked bank account"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_deposit_funds"
+        },
+        "label" : "Make a deposit"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "43_ViewStatements_S"
+        },
+        "label" : "Find statements"
+      }
+    } ]
+  }
+}

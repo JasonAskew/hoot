@@ -1,0 +1,55 @@
+{
+  "name" : "bt_find_forms_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Forms for your account can be accessed via the 'Forms & requests' page."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+        "label" : "Forms & requests"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Account-specific forms can be accessed via the 'Service requests' page. Non-account related administration forms can be accessed via 'Help & support'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/tracking/pano-service-requests",
+          "label" : "Service requests"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/forms.html",
+          "label" : "Help & support"
+        }
+      } ]
+    }
+  } ]
+}

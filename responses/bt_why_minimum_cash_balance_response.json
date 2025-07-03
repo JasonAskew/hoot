@@ -1,0 +1,81 @@
+{
+  "name" : "bt_why_minimum_cash_balance_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You are required to maintain a minimum cash balance in your account. This is to ensure you have sufficient money available to cover costs such as fees and any other payments. Your minimum required balance is $2000. Please refer to your relevant PDS located in the 'Document Library' for more information."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_regular_investment"
+        },
+        "label" : "Regular investment plan"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_drawdown_strat"
+        },
+        "label" : "Drawdown"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are required to maintain a minimum cash balance in your account. This is to ensure you have sufficient money available to cover costs such as fees and any other payments. Your minimum required balance is $100.  Please refer to your relevant PDS located in the 'Document Library' for more information."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Client's are required to maintain a minimum cash balance in their accounts. This is to ensure there is sufficient money available to cover costs such as fees and any other payments. The minimum required balance for advised superannuation, pension and investment accounts is $2000. Please refer to the relevant PDS located in your clients 'Document Library' for more information."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_regular_investment"
+          },
+          "label" : "Cash management stratergy"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query please log into your account and ask me again."
+        }
+      } ]
+    }
+  } ]
+}

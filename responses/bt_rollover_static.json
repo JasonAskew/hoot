@@ -1,0 +1,136 @@
+{
+  "name" : "bt_rollover_static",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Would you like to rollover into or out of your Panorama account?"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "Rollover_into_account"
+        },
+        "label" : "Into account"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "Rollover_Out_Of_Account"
+        },
+        "label" : "Out of account"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Would you like to rollover into or out of your client's Panorama account?"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "Rollover_into_account"
+          },
+          "label" : "Into account"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "Rollover_Out_Of_Account"
+          },
+          "label" : "Out of account"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_pension_refresh"
+          },
+          "label" : "Pension refresh"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Withdrawal ",
+        "intent" : {
+          "name" : "bt_request_for_withdrawal"
+        },
+        "label" : "Withdrawal ",
+        "question_display_text" : "Withdrawal "
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Withdrawal",
+        "intent" : {
+          "name" : "bt_request_for_withdrawal"
+        },
+        "label" : "Withdrawal",
+        "question_display_text" : "Withdrawal "
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Withdrawal",
+        "intent" : {
+          "name" : "bt_request_for_withdrawal"
+        },
+        "label" : "Withdrawal",
+        "question_display_text" : "Withdrawal"
+      } ]
+    }
+  } ]
+}

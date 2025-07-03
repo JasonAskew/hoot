@@ -1,0 +1,209 @@
+{
+  "name" : "bt_amend_advice_fee_default_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "👍",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "1"
+        } ]
+      },
+      "label" : "👍"
+    }, {
+      "type" : "INTENT",
+      "payload" : "👎",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "0"
+        } ]
+      },
+      "label" : "👎"
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your financial adviser on file is able to amend your ongoing advice fees for you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your financial adviser on file is able to amend your ongoing advice fees for you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your financial adviser on file is able to amend your ongoing advice fees for you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can help you amend the ongoing advice fee for a client. Please select the 'Guide me' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "911708",
+          "label" : "Guide me"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  } ]
+}

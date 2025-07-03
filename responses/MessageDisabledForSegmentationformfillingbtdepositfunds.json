@@ -1,0 +1,85 @@
+{
+  "name" : "MessageDisabledForSegmentationformfillingbtdepositfunds",
+  "searchable" : true,
+  "system" : true,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You can go to ‘Transactions’ and select ‘Make a deposit’ or ‘Make a contribution’. The details will display."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "For assistance, select 'Chat with consultant' during business hours."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat with consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_mobile_composer_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can go to ‘Transactions’ and select ‘Make a contribution’. The Fund details will display."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For assistance, select 'Chat with consultant' during business hours."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "As your BT Super account is transferring to Mercer Super, if you plan to transact on your account, consider doing so prior to 23 March 2023, 5pm (Sydney time) when the limited service period is in place. For more information, select the ‘BT Super merger into Mercer Super’ button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.mercersuper.com.au/bt",
+          "label" : "BT Super merger into Mercer Super"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can navigate to the client’s account, select ‘Transactions’ and select ‘Make a deposit’ or ‘Make a contribution’. The details will display."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For assistance, select 'Chat with consultant' during business hours."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  } ]
+}

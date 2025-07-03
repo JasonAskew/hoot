@@ -1,0 +1,25 @@
+{
+  "categorization" : {
+    "skill" : "general_qa",
+    "tags" : [ "client_difficulties" ]
+  },
+  "name" : "104_SupportedLanguages_S_P",
+  "display_name" : "104_SupportedLanguages_S_P",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "104_SupportedLanguages_S_P_Response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "do you speak anything other than english",
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

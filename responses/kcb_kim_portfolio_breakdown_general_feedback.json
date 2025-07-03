@@ -1,0 +1,33 @@
+{
+  "name" : "kcb_kim_portfolio_breakdown_general_feedback",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "kcb_kim_portfolio_breakdown", "kim" ]
+  },
+  "default_response" : {
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "👍",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "1"
+        } ]
+      },
+      "label" : "👍"
+    }, {
+      "type" : "INTENT",
+      "payload" : "👎",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "0"
+        } ]
+      },
+      "label" : "👎"
+    } ]
+  }
+}

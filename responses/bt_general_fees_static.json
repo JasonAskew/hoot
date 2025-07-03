@@ -1,0 +1,150 @@
+{
+  "name" : "bt_general_fees_static",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I can take you to the Fees section. Once there you can click the 'review the fee schedule' link for more information. Please select the 'Show me how' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "walkme",
+        "payload" : "865691",
+        "label" : "Show me how"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_trading_fees"
+        },
+        "label" : "Brokerage fees"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query please log into your account and ask me again"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To see the fees for a clients account, please navigate to the relevant account and select the ' Account fees' section of the navigation menu."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To access the BT fee calculator select 'Go to page'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/professional/support/calculators.html",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_trading_fees"
+          },
+          "label" : "Brokerage fees"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/business/tax-invoices/fee-revenue-statement",
+          "label" : "Fee revenue statements"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can take you to the Fees section. Once there you can click the 'review the fee schedule' link for more information. Please select a button below"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "865691",
+          "label" : "Administration fees"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914075",
+          "label" : "Advice fees"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can take you to the Fees section. Once there you can click the 'review the fee schedule' link for more information. Please select a button below"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "865691",
+          "label" : "Administration fees"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914075",
+          "label" : "Advice fees"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can take you to the Fees section. Once there you can click the 'review the fee schedule' link for more information. Please select a button below"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "865691",
+          "label" : "Administration fees"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914075",
+          "label" : "Advice fees"
+        }
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "Message-Live-Chat-Session-Stopped-Event",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Chat Session with Live Agent has ended."
+      }
+    } ]
+  }
+}

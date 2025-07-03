@@ -1,0 +1,200 @@
+{
+  "name" : "91_Capabilities_S_P_Response",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "91_capabilities_s_p", "kcb", "faq" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I am here to help you with using BT Panorama. Here are some examples of how I can assist"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "43_ViewStatements_S"
+        },
+        "label" : "View statements"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_request_for_withdrawal"
+        },
+        "label" : "Make a payment"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_deposit_funds"
+        },
+        "label" : "Make a deposit"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "walkme",
+        "payload" : "1049645",
+        "label" : "Get to know Panorama"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat with consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I am here to help you with using BT Panorama, I can best do this when you are logged in."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_login_failure"
+          },
+          "label" : "Log in troubles"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I am here to help you with using BT Panorama, here are some examples of how I can assist"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_deposit_funds"
+          },
+          "label" : "Make a deposit"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_asset_transfer"
+          },
+          "label" : "Asset transfers"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_find_forms"
+          },
+          "label" : "Forms"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1049660",
+          "label" : "Get to know Panorama"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I am here to help you with using BT Panorama. Here are some examples of how I can assist"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_request_for_withdrawal"
+          },
+          "label" : "Make a payment"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_deposit_funds"
+          },
+          "label" : "Make a deposit"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1049654",
+          "label" : "Get to know Panorama"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I am here to help you with using BT Panorama. Here are some examples of how I can assist"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_deposit_funds"
+          },
+          "label" : "Make a contribution"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1049654",
+          "label" : "Get to know Panorama"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_rollover"
+          },
+          "label" : "Make a rollover"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_personal_tax"
+          },
+          "label" : "Claim personal tax deduction"
+        }
+      } ]
+    }
+  } ]
+}

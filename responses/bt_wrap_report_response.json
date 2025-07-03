@@ -1,0 +1,38 @@
+{
+  "name" : "bt_wrap_report_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Your statements are available in the 'Document library' section of the navigation menu. Please note you will have to adjust the date filter to see statements older than 365 days."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/documents/library",
+        "label" : "Document library"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your clients statements are available in the 'Document library' section of the navigation menu. Please note you will have to adjust the date filter to see statements older than 365 days."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1144254",
+          "label" : "Document library"
+        }
+      } ]
+    }
+  } ]
+}

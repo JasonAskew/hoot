@@ -1,0 +1,31 @@
+{
+  "name" : "bt_why_register_again_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "If you have an existing log in we may be able to merge it with another log in that you have. Please call us on 1300 881 716 from 8:30am to 6:30pm, Monday to Friday (Sydney time), and one of our consultants will see if you're eligible for this."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please continue with registering your account. If you already have a Panorama username and password, we may be able to merge them with any other log in details you may have. To find out if this can be arranged, select the 'Contact us' button for details."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/personal/contact-us.html",
+          "label" : "Contact us"
+        }
+      } ]
+    }
+  } ]
+}

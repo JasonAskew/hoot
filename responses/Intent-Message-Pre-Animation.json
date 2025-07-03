@@ -1,0 +1,17 @@
+{
+  "name" : "Intent-Message-Pre-Animation",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "OK. Bear with me for a second...",
+        "alternatives" : [ "To help with that, I’ll need some more information.", "Let's move forward.", "Moving along..." ]
+      }
+    } ]
+  }
+}

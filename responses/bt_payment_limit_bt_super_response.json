@@ -1,0 +1,31 @@
+{
+  "name" : "bt_payment_limit_bt_super_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "As your BT Super account is transferring to Mercer Super, the limited service period is in place from 17 March 2023, 5pm (Sydney time) to 1 May 2023, 11.59pm (Sydney time). For more information, select the ‘BT Super merger into Mercer Super’ button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "https://www.mercersuper.com.au/bt",
+        "label" : "BT Super merger into Mercer Super"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_mobile_composer_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "As your BT Super account is transferring to Mercer Super, the limited service period is in place from 17 March 2023, 5pm (Sydney time) to 1 May 2023, 11.59pm (Sydney time)."
+        }
+      } ]
+    }
+  } ]
+}

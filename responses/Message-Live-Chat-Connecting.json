@@ -1,0 +1,16 @@
+{
+  "name" : "Message-Live-Chat-Connecting",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I am getting a consultant for you now. Please hold on, they will be able to assist you with any further queries."
+      }
+    } ]
+  }
+}

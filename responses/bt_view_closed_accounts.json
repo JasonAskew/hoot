@@ -1,0 +1,91 @@
+{
+  "name" : "bt_view_closed_accounts",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You can access your account for 2 years after the account has been closed. If this period has passed, select ‘Chat with consultant’ for assistance."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To see the status of your closure request, go to ‘Forms & requests’, select  ‘Request status. To view the full life cycle of the closure, select the 'Track progress' option on the right hand side of the screen under 'Actions'."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat with consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can access your account for 2 years after the account has been closed."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If this period has passed, you can call us on 1300 881 716 (or +612 9155 4029 outside Australia) from 8:30am to 6:30pm, Monday to Friday (Sydney time) and a consultant will assist you."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_login_failure"
+          },
+          "label" : "Help me sign in"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view a closed account, select 'Show me how'.\n\nYou can access your client's accounts for 2 years after the account has been closed. If this period has passed, select 'Chat with consultant' for assistance."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To see the status of a closure request, select  'Go to page'. To view the full life cycle of the closure, select the 'Track progress' option on the right hand side of the screen under 'Actions'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The 'Exit statement' will be available in the document library once the account is closed."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1267550",
+          "label" : "Show me how"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/tracking/pano-service-requests",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  } ]
+}

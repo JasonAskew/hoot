@@ -1,0 +1,13 @@
+{
+  "name" : "kcb_search_tx_date_range_filter",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Date: between ${start} and ${end}"
+      }
+    } ]
+  }
+}

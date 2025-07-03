@@ -1,0 +1,27 @@
+{
+  "categorization" : {
+    "tags" : [ "client_registration" ]
+  },
+  "name" : "bt_code_expiry",
+  "display_name" : "bt_code_expiry",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_code_expiry_response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : true
+    }
+  },
+  "display_sentence" : "How long will the code last?",
+  "alternative_questions_enabled" : true,
+  "alternative_questions_eligible" : true,
+  "active" : false,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

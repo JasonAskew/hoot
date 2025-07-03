@@ -1,0 +1,45 @@
+{
+  "categorization" : {
+    "tags" : [ "feedback", "kcb_kim" ]
+  },
+  "name" : "kcb_feedback_csat",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "messages" : [ {
+      "slot_name" : "rating",
+      "clarify_response_name" : "kcb_feedback_clarify_rating_csat"
+    }, {
+      "slot_name" : "feedback_long_form",
+      "clarify_response_name" : "kcb_feedback_clarify_explain"
+    } ],
+    "rules" : [ {
+      "criteria" : [ {
+        "name" : "rating"
+      }, {
+        "name" : "feedback_long_form"
+      } ],
+      "response_name" : "kcb_feedback_negative_feedback_thanks"
+    } ],
+    "default_response_name" : "kcb_feedback_negative_feedback_thanks"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "FAQ Feedback",
+  "slots" : [ {
+    "name" : "rating",
+    "entity" : "RATING_5"
+  }, {
+    "name" : "feedback_long_form",
+    "entity" : "STRING"
+  } ],
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

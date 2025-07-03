@@ -1,0 +1,25 @@
+{
+  "name" : "bt_account_advised_investment",
+  "active" : true,
+  "criteria" : [ {
+    "platform_type" : "web",
+    "customer_data" : [ {
+      "name" : "product",
+      "value" : "BTPanoramaInvestments"
+    }, {
+      "name" : "userType",
+      "value" : "Advised"
+    } ]
+  }, {
+    "platform_type" : "web",
+    "customer_data" : [ {
+      "name" : "product",
+      "value" : "BTPanoramaInvestmentsCompact"
+    }, {
+      "name" : "userType",
+      "value" : "Advised"
+    } ]
+  } ],
+  "description" : "bt_account_advised_investment",
+  "enabled_actions" : [ "bt_deposit_funds", "bt_deposit_funds_investor", "bt_asset_transfer", "bt_asset_transfer_investor", "bt_request_for_withdrawal", "bt_request_for_withdrawal_investor" ]
+}

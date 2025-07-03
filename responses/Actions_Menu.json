@@ -1,0 +1,63 @@
+{
+  "name" : "Actions_Menu",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "CONTAINER",
+      "payload" : {
+        "mode" : "LIST",
+        "contents" : [ {
+          "type" : "CARD",
+          "payload" : {
+            "subtitle" : "The 'Actions menu' can typically be found on the right hand side of the field you are looking to make amendments to.",
+            "medium" : {
+              "medium_url" : "https://s3.walkmeusercontent.com/d095932cda7d4fa3aa9adbf61e07ad2f/investor_actions_button.png?t=1709871372000"
+            },
+            "title" : "Action Menu"
+          }
+        } ]
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "CONTAINER",
+        "payload" : {
+          "mode" : "LIST",
+          "contents" : [ {
+            "type" : "CARD",
+            "payload" : {
+              "subtitle" : "The 'Actions menu' can typically be found on the right hand side of the field you are looking to make amendments to.",
+              "medium" : {
+                "medium_url" : "https://s3.walkmeusercontent.com/166dc1b2069d448e847e167a03c8a614/Screenshot%202024-03-06%20140117.png?t=1709694300000"
+              },
+              "title" : "Action Menu"
+            }
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_login_failure"
+          },
+          "label" : "Help me sign in"
+        }
+      } ]
+    }
+  } ]
+}

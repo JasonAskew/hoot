@@ -1,0 +1,13 @@
+{
+  "name" : "SystemMessageCloseSession",
+  "searchable" : true,
+  "system" : true,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Thank you for using Panorama. To sign out of your account, select the account menu in the top-right corner of the page, then select 'Sign out'."
+      }
+    } ]
+  }
+}

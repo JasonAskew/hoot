@@ -1,0 +1,25 @@
+{
+  "categorization" : {
+    "skill" : "accounts",
+    "tags" : [ "closure" ]
+  },
+  "name" : "44_CloseAcc_S",
+  "display_name" : "44_CloseAcc_S",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "44_CloseAcc_S_Response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "How can I close my account?",
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

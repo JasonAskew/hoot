@@ -1,0 +1,116 @@
+{
+  "name" : "bt_usi_abn_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "The ABN for BT Panorama Super/Pension & BT Super Invest is 90 194 410 365\nThe USI/SPIN is 90 194 410 365 011\nA SFN or ESA is not applicable for these funds."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Address:  BT Panorama\nGPO Box 2861\nAdelaide SA 5001"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please see our website for the ABN and USI for our products. Please select the 'Fund information' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/personal/help/spin.html",
+          "label" : "Fund information"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "ABN: 90 194 410 365\nUSI: 90 194 410 365 011\nAddress: BT Panorama GPO Box 2861 Adelaide SA 5001"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_investor",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "ABN: 90 194 410 365\nUSI: 90 194 410 365 011\nAddress: BT Panorama GPO Box 2861 Adelaide SA 5001"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The ABN for BT Panorama Super/Pension & BT Super Invest is 90 194 410 365\nThe USI/SPIN is 90 194 410 365 011."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Address:  BT Panorama\nGPO Box 2861\nAdelaide SA 5001"
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Panorama does not provide an Electronic Service Address, please contact your accountant or SMSF provider for this information."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The ABN for BT Panorama Super/Pension & BT Super Invest is 90 194 410 365\nThe USI/SPIN is 90 194 410 365 011."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Address:  BT Panorama\nGPO Box 2861\nAdelaide SA 5001"
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Panorama does not provide an Electronic Service Address, please contact your accountant or SMSF provider for this information."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The ABN for BT Panorama Super/Pension & BT Super Invest is 90 194 410 365\nThe USI/SPIN is 90 194 410 365 011."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Address:  BT Panorama\nGPO Box 2861\nAdelaide SA 5001"
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Panorama does not provide an Electronic Service Address, please contact your accountant or SMSF provider for this information."
+        }
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,27 @@
+{
+  "categorization" : {
+    "tags" : [ "faq" ]
+  },
+  "name" : "bt_not_working",
+  "display_name" : "bt_not_working",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_not_working"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : true
+    }
+  },
+  "display_sentence" : "I just did what you asked but it still isnt working",
+  "alternative_questions_enabled" : false,
+  "alternative_questions_eligible" : false,
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

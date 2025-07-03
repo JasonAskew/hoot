@@ -1,0 +1,161 @@
+{
+  "name" : "bt_change_beneficiary_details_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To view or manage your beneficiary details, please select the 'Go to page' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/details/manage-beneficiaries",
+        "label" : "Go to page"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Change contact details ",
+        "intent" : {
+          "name" : "bt_client_details"
+        },
+        "label" : "Change contact details ",
+        "question_display_text" : "Change contact details "
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Change contact details ",
+        "intent" : {
+          "name" : "bt_client_details"
+        },
+        "label" : "Change contact details ",
+        "question_display_text" : "Change contact details "
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Change contact details",
+        "intent" : {
+          "name" : "bt_client_details"
+        },
+        "label" : "Change contact details",
+        "question_display_text" : "Change contact details"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Change contact details",
+        "intent" : {
+          "name" : "bt_client_details"
+        },
+        "label" : "Change contact details",
+        "question_display_text" : "Change contact details"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to change your client's beneficiaries by: \n1. Selecting 'Account details' from the navigation menu\n2. Select the 'Beneficiaries' tab\nThere are no forms required for Panorama to action this change."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For more information on beneficiaries, select 'Help & Support'"
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you require a form for the client to sign:\n1. Select 'Go to page'.\n2. Select 'Submit new request'.\n3. In the 'Account maintenance' section, select 'Nomination of beneficiaries' then follow the prompts.\nNote panorama does not accept this form and is for your use only."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/products-and-investments/super/beneficiaries.html",
+          "label" : "Help & Support"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/tracking/pano-service-requests",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to view your client's beneficiaries by: \n1. Selecting 'More' from the navigation menu\n2. Select the 'Beneficiaries' tab"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_investor",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to add/edit your beneficiaries by: \n1. Selecting 'More' from the navigation menu\n2. Select the 'Beneficiaries' tab\n3. Select 'Add Beneficiary' \n4. Complete 'Beneficiary details' and select 'submit'\nThere are no forms required for Panorama to action this change."
+        }
+      } ]
+    }
+  } ]
+}

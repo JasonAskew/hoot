@@ -1,0 +1,104 @@
+{
+  "name" : "bt_financial_adviser_info",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "If you currently have an adviser recorded on your account, you can find their details under 'Account details' or select 'Show me how' for guidance."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "walkme",
+        "payload" : "914087",
+        "label" : "Show me how"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to see your information under 'Your details', which you can access by clicking on your name in the top right hand corner of the page."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To make amendments to your details, select 'Chat with consultant' or call on 1300 784 207."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query might need a little more attention. I'll connect you with one of our helpful consultants who can assist you further. Please select the ‘Chat with consultant’ button."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query might need a little more attention. I'll connect you with one of our helpful consultants who can assist you further. Please select the ‘Chat with consultant’ button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query might need a little more attention. I'll connect you with one of our helpful consultants who can assist you further. Please select the ‘Chat with consultant’ button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query might need a little more attention. I'll connect you with one of our helpful consultants who can assist you further. Please select the ‘Chat with consultant’ button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  } ]
+}

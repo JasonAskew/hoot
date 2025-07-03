@@ -1,0 +1,25 @@
+{
+  "categorization" : {
+    "skill" : "support",
+    "tags" : [ "service", "kcb_kim" ]
+  },
+  "name" : "bt_login_failure",
+  "display_name" : "bt_login_failure",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_login_failure_response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "I am unable to login?",
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

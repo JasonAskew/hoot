@@ -1,0 +1,25 @@
+{
+  "categorization" : {
+    "skill" : "support",
+    "tags" : [ "service", "kcb_kim" ]
+  },
+  "name" : "ChatBotDown",
+  "display_name" : "ChatBotDown_Inactive",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "ChatBotDown_Response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "Is the chat bot working?",
+  "active" : false,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

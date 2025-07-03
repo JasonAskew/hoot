@@ -1,0 +1,16 @@
+{
+  "name" : "Message-Live-Chat-Inactivity-Timeout",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "If you are unable to chat to us right now you can always try again later or alternatively you can give us a call on 1300 881 716. Our consultants can are available between the hours of 8:30am to 6:30pm Mon-Fri (Sydney time)"
+      }
+    } ]
+  }
+}

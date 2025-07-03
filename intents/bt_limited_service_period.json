@@ -1,0 +1,23 @@
+{
+  "name" : "bt_limited_service_period",
+  "display_name" : "Limited service period_Inactive",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_limited_service_period"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "LSP for merger with mercer 17th March",
+  "alternative_questions_enabled" : true,
+  "alternative_questions_eligible" : false,
+  "active" : false,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

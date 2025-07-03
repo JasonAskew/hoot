@@ -1,0 +1,150 @@
+{
+  "name" : "bt_deposit_funds_eft_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "The details to make a deposit via EFT can be found on the 'Make a deposit' page."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/pano-deposit",
+        "label" : "Go to page"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The details to make a contribution via EFT can be found on the 'Make a contribution' page."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-contribution-info",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_eofy_key_dates"
+          },
+          "label" : "EOFY Key dates"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The details to make a deposit via EFT can be found on the 'Make a deposit' page."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-deposit",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The details to make a deposit via EFT can be found on the 'Make a deposit' page."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-deposit",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The details to make a contribution via EFT can be found on the 'Make a contribution' page."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-contribution-info",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_eofy_key_dates"
+          },
+          "label" : "EOFY Key dates"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The details to make a deposit via EFT can be found on the 'Make a deposit' page."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-deposit",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The details to make a contribution via EFT can be found on the 'Make a contribution' page."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-contribution-info",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_eofy_key_dates"
+          },
+          "label" : "EOFY Key dates"
+        }
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,23 @@
+{
+  "name" : "bt_eofy_key_dates",
+  "display_name" : "bt_eofy_key_dates",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_eofy_key_dates"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "End of Financial Year key dates",
+  "alternative_questions_enabled" : true,
+  "alternative_questions_eligible" : false,
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

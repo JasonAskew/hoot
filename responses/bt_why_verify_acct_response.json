@@ -1,0 +1,22 @@
+{
+  "name" : "bt_why_verify_acct_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "A verification process is required to enable direct debit deposits from linked bank accounts.Verification is not required for enabling payments from Panorama to linked bank accounts."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_linked_account_verification"
+        },
+        "label" : "Verify linked account"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "categorization" : {
+    "tags" : [ "faq" ]
+  },
+  "name" : "bt_compliance_letter",
+  "display_name" : "bt_compliance_letter_Inactive",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_compliance_letter"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : true
+    }
+  },
+  "display_sentence" : "Hi i would like to obtain a letter of compliance please",
+  "alternative_questions_enabled" : false,
+  "alternative_questions_eligible" : false,
+  "active" : false,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

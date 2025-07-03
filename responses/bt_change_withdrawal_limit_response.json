@@ -1,0 +1,141 @@
+{
+  "name" : "bt_change_withdrawal_limit_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To change your daily withdrawal limit:\n1. From the navigation menu, select 'Accounts & billers'.\n2. Select 'Change daily limit' for either Pay Anyone accounts or BPAY billers.\n3. Follow the prompts."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "The maximum daily withdrawal amount is $500,000 for linked accounts and Pay Anyone, and $100,000 for BPAY."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Make a withdrawal",
+        "intent" : {
+          "name" : "bt_request_for_withdrawal"
+        },
+        "label" : "Make a withdrawal",
+        "question_display_text" : "Make a withdrawal"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Make a withdrawal",
+        "intent" : {
+          "name" : "bt_request_for_withdrawal"
+        },
+        "label" : "Make a withdrawal",
+        "question_display_text" : "Make a withdrawal"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To change your daily withdrawal limit:\n1. From the navigation menu, select 'Accounts & billers'.\n2. Select 'Change daily limit' for either Pay Anyone accounts or BPAY billers.\n3. Follow the prompts."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The maximum daily withdrawal amount is $500,000 for linked accounts and Pay Anyone, and $100,000 for BPAY."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Make a withdrawal",
+        "intent" : {
+          "name" : "bt_request_for_withdrawal"
+        },
+        "label" : "Make a withdrawal",
+        "question_display_text" : "Make a withdrawal"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To change your daily withdrawal limit:\n1. From the navigation menu, select 'Accounts & billers'.\n2. Select 'Change daily limit' for either Pay Anyone accounts or BPAY billers.\n3. Follow the prompts."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The maximum daily withdrawal amount is $500,000 for linked accounts and Pay Anyone, and $100,000 for BPAY."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Only the account holder can change their daily withdrawal limit. The account holder is able to do this by:\n1. Selecting 'Accounts & Billers' section on the navigation menu.\n2. Select 'Change daily limit' for either Pay Anyone accounts or BPAY billers.\n3. Follow the prompts."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "The maximum daily withdrawal amount is $500,000 for linked accounts and Pay Anyone, and $100,000 for BPAY."
+        }
+      } ]
+    }
+  } ]
+}

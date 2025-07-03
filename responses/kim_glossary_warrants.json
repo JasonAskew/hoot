@@ -1,0 +1,39 @@
+{
+  "name" : "kim_glossary_warrants",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "kcb_kim_getdefinition", "kim" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Warrants are financial products issued over underlying securities (such as shares or exchange traded funds) that trade on the ASX. Some warrants give the holder the right to buy or sell an underlying instrument (for example, a share) for the price set in the terms of issue. Others entitle the holder to receive a cash payment that relates to the value of the underlying instrument at a particular time."
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "👍",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "1"
+        } ]
+      },
+      "label" : "👍"
+    }, {
+      "type" : "INTENT",
+      "payload" : "👎",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "0"
+        } ]
+      },
+      "label" : "👎"
+    } ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name" : "Validation-Error-Invalid-Email",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "What you entered is not a valid e-mail address. Please try again."
+      }
+    } ]
+  }
+}

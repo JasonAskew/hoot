@@ -1,0 +1,20 @@
+{
+  "name" : "bt_employer_contribution_details_adviser_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I can help you locate the details needed to give to an employer. Please select the 'Go to page' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "/content/dam/secure/panorama/pdfs/forms/BTF32023%20-%20Super%20choice%20fund%20nomination.pdf",
+        "label" : "Super fund choice form"
+      }
+    } ]
+  }
+}

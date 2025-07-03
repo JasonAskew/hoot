@@ -1,0 +1,68 @@
+{
+  "name" : "bt_bulk_reporting",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To generate client report packs in bulk, navigate to ‘Business’ > ‘Report packs’. \n\nYou can create a report pack to generate one or more reports across multiple client accounts. To help filter clients quickly when creating report packs, you can add accounts to a reporting group (created by dealer group) and assign a next review date."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To download generated report packs, navigate to ‘Business’ > ‘Report collection’.\n\nFor more information select the ‘Help & support’ button, or for guided assistance select ‘Guide me’ on the ‘Report packs’ page."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/monitoring-and-reporting/client-report-packs-in-bulk0.html",
+          "label" : "Help & support"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_dg_manager",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To generate client report packs in bulk, navigate to ‘Business’ > ‘Report packs’.\n\nYou can create a report pack to generate one or more reports across multiple client accounts. To help filter clients quickly when creating report packs, you can add accounts to a reporting group and assign a next review date."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To download generated report packs, navigate to ‘Business’ > ‘Report collection’.\n\nFor more information select the ‘Help & support’ button, or for guided assistance select ‘Guide me’ on the ‘Report packs’ page."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/monitoring-and-reporting/client-report-packs-in-bulk0.html",
+          "label" : "Help & support"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  } ]
+}

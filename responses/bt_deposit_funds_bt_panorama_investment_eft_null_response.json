@@ -1,0 +1,70 @@
+{
+  "name" : "bt_deposit_funds_bt_panorama_investment_eft_null_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I can help you make a deposit. \n\nPlease select an account and then you can make a contribution in the 'Account details' section."
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "👍",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "1"
+        } ]
+      },
+      "label" : "👍"
+    }, {
+      "type" : "INTENT",
+      "payload" : "👎",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "0"
+        } ]
+      },
+      "label" : "👎"
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can help you make a deposit. \n\nPlease login into the system and select an account. Then you can make a contribution in the 'Account details' section."
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "👍",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "1"
+          } ]
+        },
+        "label" : "👍"
+      }, {
+        "type" : "INTENT",
+        "payload" : "👎",
+        "intent" : {
+          "name" : "kcb_feedback_survey",
+          "user_inputs" : [ {
+            "name" : "rating",
+            "value" : "0"
+          } ]
+        },
+        "label" : "👎"
+      } ]
+    }
+  } ]
+}

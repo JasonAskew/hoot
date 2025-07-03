@@ -1,0 +1,30 @@
+{
+  "name" : "NegativeFeedback",
+  "system" : false,
+  "categorization" : { },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Thanks for helping me improve! Can you share what didn't work out for you? The answer was..."
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "TEXT",
+      "payload" : "Vpanegativefeedback irrelevant answer",
+      "label" : "Not relevant"
+    }, {
+      "type" : "TEXT",
+      "payload" : "Vpanegativefeedback unhappy answer",
+      "label" : "Not useful"
+    }, {
+      "type" : "TEXT",
+      "payload" : "Vpanegativefeedback unclear answer",
+      "label" : "Not clear"
+    }, {
+      "type" : "TEXT",
+      "payload" : "Vpanegativefeedback other",
+      "label" : "Other"
+    } ]
+  }
+}

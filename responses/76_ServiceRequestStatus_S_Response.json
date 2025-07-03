@@ -1,0 +1,228 @@
+{
+  "name" : "76_ServiceRequestStatus_S_Response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You can now view and submit requests for your account via our 'Forms & requests' page on Panorama. Do you want to check the status of a request or submit a new request?"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "walkme",
+        "payload" : "1495968",
+        "label" : "Check Status"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "walkme",
+        "payload" : "1503852",
+        "label" : "Submit new request"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For an update on a service request for a Challenger Annuity please contact Challenger on 13 35 66."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can now view and submit requests for your clients via our 'Service requests' page on Panorama. Do you want to submit a new request, check the status of all your clients' requests, or view a specific client's requests?"
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For assistance using the 'Service requests' page, select 'Help & support'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1503856",
+          "label" : "Submit new request"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1498248",
+          "label" : "Check all accounts"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1499186",
+          "label" : "Check specific account"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/panorama/help-and-support/bt/en/adviser/managing-your-clients/services/manage-service-requests.html",
+          "label" : "Help & support"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_trade_settle_time"
+          },
+          "label" : "Status of a trade"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can now view and submit requests for your account via our 'Forms & requests' page on Panorama. Do you want to check the status of a request or submit a new request?"
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Note: To check the status of a request your adviser has submitted, you will need to contact them."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1495968",
+          "label" : "Check status"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1503852",
+          "label" : "Submit new request"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Financial adviser details"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can now view and submit requests for your account via our 'Forms & requests' page on Panorama. Do you want to check the status of a request or submit a new request?"
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Note: To check the status of a request your adviser has submitted, you will need to contact them."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1495968",
+          "label" : "Check status"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1503852",
+          "label" : "Submit new request"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914088",
+          "label" : "Financial adviser details"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can now view and submit requests for your account via our 'Forms & requests' page on Panorama. Do you want to check the status of a request or submit a new request?"
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Note: To check the status of a request your adviser has submitted, you will need to contact them."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1495968",
+          "label" : "Check status"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1503852",
+          "label" : "Submit new request"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914089",
+          "label" : "Financial adviser details"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_investor",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To check the status of a service request you have submitted, navigate to 'For you' and select 'Forms & requests'."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To check the status of a service request for your client, navigate to 'Business overview' and select 'Service requests'."
+        }
+      } ]
+    }
+  } ]
+}

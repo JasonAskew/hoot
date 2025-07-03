@@ -1,0 +1,27 @@
+{
+  "categorization" : {
+    "tags" : [ "migration" ]
+  },
+  "name" : "bt_account_number",
+  "display_name" : "bt_account_number",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_account_number_response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : true
+    }
+  },
+  "display_sentence" : "What is my account number?",
+  "alternative_questions_enabled" : true,
+  "alternative_questions_eligible" : true,
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

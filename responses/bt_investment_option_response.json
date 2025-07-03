@@ -1,0 +1,239 @@
+{
+  "name" : "bt_investment_option_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I can help you find available investment options. Please select the 'Go to page' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
+        "label" : "Go to page"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can take you to where you can find the relevant Investor Guide and Investment Option Booklet. Please select the 'Go to page' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/products/managed-funds/overview",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/ng/secure/reportpdf/investmentOptionsBooklet?product=PROD.PS.SUP.BT_PANORAMA",
+          "label" : "Investment options & holding limit"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can help you find available investment options. Please select the 'Go to page' button."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To place a trade, or to update your investment profile, select 'Show me how'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1292575",
+          "label" : "Show me how"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can help you find available investment options. Please select the 'Go to page' button."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To place a trade, or to update your investment profile, select 'Show me how'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1292575",
+          "label" : "Show me how"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can help you find available investment options. Please select the 'Go to page' button."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To place a trade, or to update your investment profile, select 'Show me how'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1292575",
+          "label" : "Show me how"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can help you find available investment options. Please select the 'Go to page' button."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To place a trade, or to update your investment profile, select 'Show me how'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1292575",
+          "label" : "Show me how"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can help you find available investment options. Please select the 'Go to page' button."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To place a trade, or to update your investment profile, select 'Show me how'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1292575",
+          "label" : "Show me how"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can help you find available investment options. Please select the 'Go to page' button."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To place a trade, or to update your investment profile, select 'Show me how'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1292575",
+          "label" : "Show me how"
+        }
+      } ]
+    }
+  } ]
+}

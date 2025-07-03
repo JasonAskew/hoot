@@ -1,0 +1,50 @@
+{
+  "name" : "bt_communication_pref",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You can change your correspondence preference for your account from paper to online statements. To make this change, select ‘Chat to consultant’ for assistance."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat to consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Help me sign in",
+        "intent" : {
+          "name" : "bt_login_failure"
+        },
+        "label" : "Help me sign in",
+        "question_display_text" : "Help me sign in"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Correspondence preference can be changed from paper to online statements. To make this change from your client’s page, select ‘Account details’, then select the edit icon for ‘Correspondence preference’."
+        }
+      } ]
+    }
+  } ]
+}

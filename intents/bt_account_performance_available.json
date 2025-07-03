@@ -1,0 +1,27 @@
+{
+  "categorization" : {
+    "tags" : [ "issues_error" ]
+  },
+  "name" : "bt_account_performance_available",
+  "display_name" : "bt_account_performance_available",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_account_performance_available_response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : true
+    }
+  },
+  "display_sentence" : "When will I be able to see my account performance details?",
+  "alternative_questions_enabled" : true,
+  "alternative_questions_eligible" : true,
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

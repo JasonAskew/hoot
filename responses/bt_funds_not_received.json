@@ -1,0 +1,52 @@
+{
+  "name" : "bt_funds_not_received",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Check with your employer for payment schedules. Employers are required to make super contributions to a nominated fund at least once every 3 months."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "If your employer has made a contribution recently, it may take up to 5 business days to be visible in your account."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Ensure your employer has the correct information for your fund. To find this information, select ‘Employer contribution details’."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_employer_contribution_details"
+        },
+        "label" : "Employer contribution details"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_login_failure"
+          },
+          "label" : "Help me sign in"
+        }
+      } ]
+    }
+  } ]
+}

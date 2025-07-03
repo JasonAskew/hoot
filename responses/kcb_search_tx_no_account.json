@@ -1,0 +1,13 @@
+{
+  "name" : "kcb_search_tx_no_account",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I don't see any accounts for you."
+      }
+    } ]
+  }
+}

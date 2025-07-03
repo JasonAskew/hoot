@@ -1,0 +1,45 @@
+{
+  "name" : "bt_fraud_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "We take our responsibility seriously. If you think you have been a victim of fraud, please call 1300 784 207 (or +612 9155 4029 if calling from overseas) from 8:30am to 6.30pm, Monday to Friday (Sydney time), so one of our consultants can assist you."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "https://www.bt.com.au/personal/help/privacy.html",
+        "label" : "Privacy policy"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "We take our responsibility seriously. If you think you have been a victim of fraud, please call 1300 784 207 (or +612 9155 4029 if calling from overseas) from 8:30am to 6.30pm, Monday to Friday (Sydney time), so one of our consultants can assist you."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "HYPERLINK",
+          "payload" : "https://www.bt.com.au/personal/contact-us.html#super",
+          "label" : "Contact us"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/personal/help/privacy.html",
+          "label" : "Privacy policy"
+        }
+      } ]
+    }
+  } ]
+}

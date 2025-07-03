@@ -1,0 +1,210 @@
+{
+  "name" : "Message-BT-Greeting",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Hi, I'm Blue BT's Virtual Assistant. Please use short sentences and key words when chatting with me.\nHere are some ways I can help you"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "End of Financial Year",
+        "label" : "End of Financial Year"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_request_for_withdrawal"
+        },
+        "label" : "Make a payment"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "43_ViewStatements_S"
+        },
+        "label" : "View Statements"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "walkme",
+        "payload" : "1049645",
+        "label" : "Panorama Tour"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Hi, I'm Blue BT's Virtual Assistant. Please use short sentences and key words when chatting with me.\n\nI can help you best once logged in."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Hi, I'm Blue BT's Virtual Assistant. Please use short sentences and key words when chatting with me.\nHere are some ways I can help you:"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "end of financial year",
+          "label" : "End of Financial Year"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_find_forms"
+          },
+          "label" : "Forms"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1049660",
+          "label" : "Panorama Tour"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Hi, I'm Blue BT's Virtual Assistant. Please use short sentences and key words when chatting with me.\nHere are some ways I can help you:"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1049654",
+          "label" : "Panorama Tour"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_deposit_funds_investor"
+          },
+          "label" : "Make a deposit"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "43_ViewStatements_S"
+          },
+          "label" : "View Statements"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_view_reports"
+          },
+          "label" : "Reports"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Hi, I'm Blue BT's Virtual Assistant. Please use short sentences and key words when chatting with me.\nHere are some ways I can help you:"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1049654",
+          "label" : "Panorama tour"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "End of Financial Year",
+          "label" : "End of Financial Year"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "43_ViewStatements_S"
+          },
+          "label" : "View Statements"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_deposit_funds_investor"
+          },
+          "label" : "Make a deposit"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Hi, I'm Blue BT's Virtual Assistant. Please use short sentences and key words when chatting with me.\nHere are some ways I can help you:"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1049654",
+          "label" : "Panorama tour"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "43_ViewStatements_S"
+          },
+          "label" : "View Statements"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_request_for_withdrawal"
+          },
+          "label" : "Make a payment"
+        }
+      } ]
+    }
+  } ]
+}

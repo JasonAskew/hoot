@@ -1,0 +1,25 @@
+{
+  "categorization" : {
+    "skill" : "accounts",
+    "tags" : [ "navigation" ]
+  },
+  "name" : "47_TxnHistoryLength_S",
+  "display_name" : "47_TxnHistoryLength_S",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "47_TxnHistoryLength_S_Response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "[How far back | How long a time period] can I [view | see] my transaction history",
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

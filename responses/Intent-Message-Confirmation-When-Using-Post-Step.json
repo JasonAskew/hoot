@@ -1,0 +1,16 @@
+{
+  "name" : "Intent-Message-Confirmation-When-Using-Post-Step",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "OK just making sure I got the right information. Is the information above correct?"
+      }
+    } ]
+  }
+}

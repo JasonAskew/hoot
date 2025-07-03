@@ -1,0 +1,27 @@
+{
+  "categorization" : {
+    "tags" : [ "faq" ]
+  },
+  "name" : "bt_submit_form",
+  "display_name" : "bt_submit_form",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_submit_form"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : true
+    }
+  },
+  "display_sentence" : "How do i upload/submit a form?",
+  "alternative_questions_enabled" : false,
+  "alternative_questions_eligible" : false,
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

@@ -1,0 +1,67 @@
+{
+  "name" : "bt_approval_notify_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Once an application has been processed by Panorama, the account holder(s) will be sent an email with a registration code. Once received you will need to visit www.panoramainvestor.com.au/uam/app/register and follow the prompts."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Once an application has been processed by Panorama, the account holder(s) will be sent an email with a registration code. Once received you will need to visit www.panoramainvestor.com.au/uam/app/register and follow the prompts."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view existing account applications, select 'Go to page'. To resend the registration code, select 'Resend registration code' on the right hand side of the pending application under 'Actions'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/tracking/pano-account-applications ",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If your account was set up using your existing Westpac profile you can sign in using your Westpac Live access. Otherwise please follow the below steps;\n- Locate the 12 character registration code from your email.\n- Select 'Go to page' and follow the prompts."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you are unable to locate the 12 character registration code, one of our consultants will be able to assist, you can contact us on 1300 881 716(or +612 9155 4029 outside Australia) 8:30am to 6:30pm (Sydney time) Monday to Friday."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "/register",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_login_failure"
+          },
+          "label" : "Help me sign in"
+        }
+      } ]
+    }
+  } ]
+}

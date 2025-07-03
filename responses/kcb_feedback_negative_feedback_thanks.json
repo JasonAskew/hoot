@@ -1,0 +1,16 @@
+{
+  "name" : "kcb_feedback_negative_feedback_thanks",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "kcb_feedback", "kcb_kim" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Thank you for your feedback."
+      }
+    } ]
+  }
+}

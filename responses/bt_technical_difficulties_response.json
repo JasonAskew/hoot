@@ -1,0 +1,51 @@
+{
+  "name" : "bt_technical_difficulties_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "For assistance from one of our consultants, you can call 1300 881 716 (or +612 9155 4030 if calling from overseas) from Monday to Friday, 8:30am to 6:30pm (Sydney time)."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat with consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For assistance from one of our consultants, you can call 1300 881 716 (or +612 9155 4030 if calling from overseas) from Monday to Friday, 8:30am to 6:30pm (Sydney time)."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For assistance from one of our consultants, you can call 1300 784 207 (or +612 9155 4029 if calling from overseas) from Monday to Friday, 8:30am to 6:30pm (Sydney time)."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For assistance from one of our consultants, you can call 1300 784 207 (or +612 9155 4029 if calling from overseas) from Monday to Friday, 8:30am to 6:30pm (Sydney time)."
+        }
+      } ]
+    }
+  } ]
+}

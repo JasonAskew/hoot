@@ -1,0 +1,18 @@
+{
+  "name" : "kcb_payment",
+  "type" : "Enum",
+  "system" : false,
+  "options" : [ {
+    "value" : "bill",
+    "aliases" : [ "Bill Payment", "bill", "bill transfer", "bills payment", "loan payment", "loan payt", "loan pymt", "lon payment", "lon payt", "mortgage" ]
+  }, {
+    "value" : "international",
+    "aliases" : [ "International Transfer", "abroad", "int. transfer", "international", "international payment", "internationally", "overseas" ]
+  }, {
+    "value" : "local",
+    "aliases" : [ "Local Transfer", "local", "local payment", "locally" ]
+  }, {
+    "value" : "social",
+    "aliases" : [ "Social Transfer", "friend", "p2p", "p2p payment", "social", "social payment", "socially" ]
+  } ]
+}

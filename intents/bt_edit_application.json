@@ -1,0 +1,31 @@
+{
+  "categorization" : {
+    "skill" : "accounts",
+    "tags" : [ "service" ]
+  },
+  "name" : "bt_edit_application",
+  "display_name" : "bt_edit_application",
+  "webhook_name" : "kcbwebhook",
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "CANCEL"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : false,
+      "max_outgoing_interruptions" : 3
+    }
+  },
+  "display_sentence" : "How do I edit an application?",
+  "slots" : [ {
+    "name" : "application_number",
+    "entity" : "BT_APPLICATION_NUMBER"
+  } ],
+  "active" : false,
+  "machine_learning_enabled" : true,
+  "messages" : {
+    "IntentMessageCancellation" : "Canceled. How can I help you?"
+  },
+  "multi_inputs" : false
+}

@@ -1,0 +1,71 @@
+{
+  "name" : "Rollover_Out_Of_Account",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To complete a rollover out: \n1. Navigate to 'Forms & requests’.\n2. Select ‘Submit new request’ and go to 'Rollovers & withdrawals’.\n3. For a partial rollover out, complete the 'Partial withdrawal' form. \nFor a full rollover out, complete the ‘Account closure’ form."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To complete a rollover out: \n1. Navigate to 'Forms & requests’.\n2. Select ‘Submit new request’ and go to 'Rollovers & withdrawals’.\n3. For a partial rollover out, complete the 'Partial withdrawal' form. \nFor a full rollover out, complete the ‘Account closure’ form."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To action a rollover out for a client:\n1. Select the 'Go to page’ button.\n2. Select 'Submit new request’ and go to 'Rollovers & withdrawals’. \n3. Select 'Partial withdrawal' or 'Super account closure’ and follow the prompts."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "/ng/secure/app/#/app/adviser/tracking/pano-service-requests",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To complete a rollover out: \n1. Navigate to 'Forms & requests’.\n2. Select ‘Submit new request’ and go to 'Rollovers & withdrawals’.\n3. For a partial rollover out, complete the 'Partial withdrawal' form. \nFor a full rollover out, complete the ‘Account closure’ form."
+        }
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,180 @@
+{
+  "name" : "bt_hin_number",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat with consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your client's listed security holding option (HIN) navigate to 'Account details' when viewing the client's account, then select 'Additional services'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To switch an account between Full and Compact menus, or BT Panorama and Asset Administrator badges:\n1. Select 'Go to page'.\n2. Select 'Submit new request'.\n3. In the 'Account maintenance' section, select 'Change of account menu or badge' then follow the prompts"
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For more information on the listed security holding types offered on panorama click the 'Help & support' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/tracking/pano-service-requests",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/corporate-actions/ls-holding-types.html",
+          "label" : "Help & support"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "One of our consultants will be able to assist you with this query. You can contact us over the phone on 1300 881 716, 8:30am to 6:30pm (Sydney time), Monday to Friday."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you have a custodial HIN you will be able to view this under the 'Account details' section."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To change your holding type, navigate to 'Forms & requests', then under  'Submit new request' locate 'Account Maintenance' select 'Listed security holding election' form."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you require further details regarding your holding type, select 'Chat with consultant'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you have a custodial HIN you will be able to view this under the 'Account details' section."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To change your holding type, navigate to 'Forms & requests', then under  'Submit new request' locate 'Account Maintenance' select 'Listed security holding election' form."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you require further details regarding your holding type, select 'Chat with consultant'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you have a Custodial or Sponsored HIN you will be able to view this under the 'Account details' section."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To change your holding type, navigate to 'Forms & requests', then under  'Submit new request' locate 'Account Maintenance' select 'Listed security holding election' form."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you require further details regarding your holding type, select 'Chat with consultant'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  } ]
+}

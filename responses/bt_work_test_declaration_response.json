@@ -1,0 +1,20 @@
+{
+  "name" : "bt_work_test_declaration_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Work test declarations are to be submitted through the ATO when lodging your tax return. More information on the process is available on the ATO website."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/growing-and-keeping-track-of-your-super/how-to-save-more-in-your-super/personal-super-contributions#Worktestandworktestexemption",
+        "label" : "Visit ATO website"
+      }
+    } ]
+  }
+}

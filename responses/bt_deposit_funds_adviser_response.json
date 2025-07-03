@@ -1,0 +1,25 @@
+{
+  "name" : "bt_deposit_funds_adviser_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To make a deposit for a client's account, please select their account then navigate to 'Rollovers & contributions' for superannuation and 'Payments & deposits' for investments. More information on making deposits is available on our 'Help and Support' page, please select the 'Find out more' button"
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "If you're looking for a client's EFT or Bpay details, you can find them in 'Account details' section of their account."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/payment-and-deposits.html",
+        "label" : "Find out more"
+      }
+    } ]
+  }
+}

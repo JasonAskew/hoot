@@ -1,0 +1,16 @@
+{
+  "name" : "kcb_feedback_clarify_explain",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "kcb_feedback", "kcb_kim" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Thank you! How might I improve to make your overall experience better?"
+      }
+    } ]
+  }
+}

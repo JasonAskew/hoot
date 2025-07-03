@@ -1,0 +1,13 @@
+{
+  "name" : "kcb_search_tx_single_tx_awareness",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I only found a single transaction within the search parameters. Here it is:"
+      }
+    } ]
+  }
+}

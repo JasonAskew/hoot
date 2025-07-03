@@ -1,0 +1,20 @@
+{
+  "name" : "bt_deposit_funds_bt_super_invest_downsizer_eft_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "One of our consultants will be able to assist you. If you would like to chat with one of our consultants please select 'Chat with consultant' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat with consultant"
+      }
+    } ]
+  }
+}

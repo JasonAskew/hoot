@@ -1,0 +1,44 @@
+{
+  "name" : "bt_wrap_phone_number_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "For any assistance regarding your BT account please call 1300 881 716 from 8:30am to 6:30pm, Monday to Friday (Sydney time)."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For any assistance regarding your client's BT account please call 1300 784 207 from 8:30am to 6:30pm, Monday to Friday (Sydney time)."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_assistant",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For any assistance regarding your client's BT account please call 1300 784 207 from 8:30am to 6:30pm, Monday to Friday (Sydney time)."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_dg_manager",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For any assistance regarding your client's BT account please call 1300 784 207 from 8:30am to 6:30pm, Monday to Friday (Sydney time)."
+        }
+      } ]
+    }
+  } ]
+}

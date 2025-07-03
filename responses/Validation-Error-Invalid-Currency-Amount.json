@@ -1,0 +1,13 @@
+{
+  "name" : "Validation-Error-Invalid-Currency-Amount",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "What you entered is not a valid amount. Please try again."
+      }
+    } ]
+  }
+}

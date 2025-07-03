@@ -1,0 +1,79 @@
+{
+  "name" : "bt_regular_investment_static",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To set up the auto invest feature on your account, please select 'Investments' from the navigation menu, then select 'Set up automatic reinvesting'."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your adviser can help you set up a regular investment plan. Please contact them for more information."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your adviser can help you set up a regular investment plan. Please contact them for more information."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your adviser can help you set up a regular investment plan. Please contact them for more information."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To set up an investment plan, select 'Investment orders' from the navigation menu on a client's account. Then select 'Regular investment plan'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To enable and amend your clients cash management strategy, select 'Cash management' then select the action menu under 'Cash investment strategy'."
+        }
+      } ]
+    }
+  } ]
+}

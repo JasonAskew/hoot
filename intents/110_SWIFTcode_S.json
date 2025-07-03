@@ -1,0 +1,25 @@
+{
+  "categorization" : {
+    "skill" : "accounts",
+    "tags" : [ "service", "kcb_kim" ]
+  },
+  "name" : "110_SWIFTcode_S",
+  "display_name" : "110_SWIFTcode_S",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "110_SWIFTcode_S_Response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "What is the Swift code",
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

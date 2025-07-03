@@ -1,0 +1,13 @@
+{
+  "name" : "bt_auth_flow_common_greeting_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I can help you ${intent_name}."
+      }
+    } ]
+  }
+}

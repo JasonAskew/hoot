@@ -1,0 +1,19 @@
+{
+  "name" : "MakeWithdrawal",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I might not be trained to answer your question just yet. Can you try asking again in another way or by using different words?",
+        "alternatives" : [ "Can you try asking again in another way or by using different words?" ]
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "TEXT",
+      "payload" : "Talk to someone",
+      "label" : "Talk to someone"
+    } ]
+  }
+}

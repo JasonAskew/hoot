@@ -1,0 +1,113 @@
+{
+  "name" : "bt_wrap_employer_cont_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "It’s important to complete the Choice of super fund form and give it to your employer as soon as possible, so that they are using the new USI.\n\nAt the very latest, they need to be using the new USI from 1 April 2024.\n\nIf your employer is not using the new USI from April 2024, your super contributions may not be paid to your account. If this were to happen, the contributions would need to be re-submitted using the new USI."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To download our 'Choice of super fund' form, which includes our complying fund statement:\n1. Select 'Go to page'.\n2. In the 'Deposits and contributions' section, select 'Choice of super fund' then follow the prompts."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+        "label" : "Go to page"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_usi_abn"
+        },
+        "label" : "USI & ABN"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "We are contacting clients who are still receiving contributions under the old USI. Clients need to give the form, which includes the new USI, to their employer.\n\nWe are working to a 1 April 2024 deadline. Up until then, we will monitor clients\nwhose contributions are being paid under the old USI and will periodically issue reminder notices, which we will include you in.\n\nIf by 1 April 2024 a client has not provided the form to their employer, and the employer is not using the new USI, super contributions may cease to be credited to the client’s account. If this were to happen, the contributions would need to be re-submitted using the new USI."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To download our 'Choice of super fund' form, which includes our complying fund statement, select ‘Show me how’."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1560654",
+          "label" : "Show me how"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_usi_abn"
+          },
+          "label" : "ABN & USI"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Our fund details, including the ABN and USI are available on our website. If you are unsure of what type of Superannuation account you have with BT, please log in and ask me again."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/personal/help/spin.html",
+          "label" : "ABN & USI"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  } ]
+}

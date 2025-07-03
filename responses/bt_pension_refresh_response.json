@@ -1,0 +1,229 @@
+{
+  "name" : "bt_pension_refresh_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "For assistance with locating the 'Pension refresh' form, select ‘Show me how’. For frequently asked questions, select 'FAQs'."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To transfer the pension back to accumulation phase, cease the pension and leave funds in accumulation phase, or control when the pension restarts, select ‘Full transfer within Panorama Super’."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To track the progress of the request, select ‘Forms & requests’ and then ‘Request status’. Note: Processing time is based on the average completion time and may vary, based on complexity."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "walkme",
+        "payload" : "1751521",
+        "label" : "Show me how"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "https://www.panoramainvestor.com.au/content/dam/secure/panorama/pdfs/product-notices/Pension_refresh_FAQs_Investor.pdf",
+        "label" : "FAQs"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "Full_Transfer_Panorama"
+        },
+        "label" : "Full Transfer within Panorama Super"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+        "label" : "Forms & requests"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can use the 'Full transfer within Panorama Super' form to transfer a Panorama Super account between phases, eg accumulation phase to transition to retirement phase or pension phase."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To transfer an account between phases:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select 'Full transfer within Panorama Super' then follow the prompts."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To track the progress of your request, go to ‘Forms & requests’ and select ‘Request status’."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with? 5"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with? 6"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can use the 'Full transfer within Panorama Super' form to transfer a Panorama Super account between phases, eg accumulation phase to transition to retirement phase or pension phase."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To transfer an account between phases:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select 'Full transfer within Panorama Super' then follow the prompts."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To track the progress of your request, go to ‘Forms & requests’ and select ‘Request status’."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can use the 'Full transfer within Panorama Super' form to transfer a Panorama Super account between phases, eg accumulation phase to transition to retirement phase or pension phase."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To transfer an account between phases:\n1. Select 'Go to page'.\n2. Select 'Submit new request'.\n3. For accumulation to pension phase: In the 'Transfers' section, select 'Full transfer within Panorama Super' then follow the prompts."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For assistance with locating the ‘Pension refresh’ form, select ‘Show me how’. For more information, select ‘Help & support’."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To cease the pension and leave funds in accumulation phase, or if you’d like to control when the pension starts again, select ‘Full Transfer within Panorama Super’."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To track the progress of a request, select ‘Service requests’ and then ‘Request status’. Note: Processing time is based on the average completion time and may vary, based on complexity."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "1745089",
+          "label" : "Show me how"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/products-and-investments/super/pension.html",
+          "label" : "Help & support"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "Full_Transfer_Panorama"
+          },
+          "label" : "Full Transfer within Panorama Super"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/tracking/pano-service-requests",
+          "label" : "Service requests"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Help me sign in",
+        "intent" : {
+          "name" : "bt_login_failure"
+        },
+        "label" : "Help me sign in",
+        "question_display_text" : "Help me sign in"
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,183 @@
+{
+  "name" : "bt_commence_pension_static",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To commence your pension please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If your pension has not yet commenced, please select the 'Go to page button'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/commence-pension",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "Full_Transfer_Panorama"
+          },
+          "label" : "Transfer account between phases "
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If your pension has not yet commenced, please select the 'Go to page' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/commence-pension",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "Full_Transfer_Panorama"
+          },
+          "label" : "Transfer account between phases "
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If your client's pension has not yet commenced, you are able to do so by following the steps from Help & Support."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can use the 'Full transfer within Panorama Super' form to transfer a Panorama Super account between phases, eg accumulation phase to transition to retirement phase or pension phase."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To transfer an account between phases:\n1. Select 'Go to page'.\n2. Select 'Submit new request'.\n3. For accumulation to pension phase: In the 'Transfers' section, select 'Full transfer within Panorama Super' then follow the prompts."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "/content/secure/help-and-support/bt/en/adviser/products-and-investments/super/commence-pension.html",
+          "label" : "Help & Support"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/tracking/pano-service-requests",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_product_application"
+          },
+          "label" : "Open an Account "
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To commence your pension please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can use the 'Full transfer within Panorama Super' form to transfer a Panorama Super account between phases, eg accumulation phase to transition to retirement phase or pension phase."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To transfer an account between phases:\n1. Select 'Go to page'.\n2. For accumulation to pension phase: In the 'Transfers' section, select 'Full transfer within Panorama Super' then follow the prompts."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You can use the 'Full transfer within Panorama Super' form to transfer a Panorama Super account between phases, eg accumulation phase to transition to retirement phase or pension phase."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To transfer an account between phases:\n1. Select 'Go to page'.\n2. For accumulation to pension phase: In the 'Transfers' section, select 'Full transfer within Panorama Super' then follow the prompts."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  } ]
+}

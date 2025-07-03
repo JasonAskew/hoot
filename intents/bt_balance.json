@@ -1,0 +1,46 @@
+{
+  "categorization" : {
+    "skill" : "account_information",
+    "tags" : [ "navigation" ]
+  },
+  "name" : "bt_balance",
+  "display_name" : "bt_balance",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_balance"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "CANCEL"
+    },
+    "outgoing" : {
+      "allowed" : true,
+      "allow_resume" : false,
+      "max_outgoing_interruptions" : 1
+    }
+  },
+  "display_sentence" : "bt balances (guai)",
+  "slots" : [ {
+    "name" : "balance_type",
+    "entity" : "KCB_BALANCE_TYPE"
+  }, {
+    "name" : "account_type",
+    "entity" : "KCB_FLAT_ACCS"
+  }, {
+    "name" : "account_id",
+    "entity" : "ACCOUNT_ID"
+  }, {
+    "name" : "account_number",
+    "entity" : "ACCOUNT_NUMBER_PATTERN"
+  }, {
+    "name" : "account_name",
+    "entity" : "ACCOUNT_NAME"
+  } ],
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "messages" : {
+    "IntentMessageCancellation" : "Canceled. How can I help you?"
+  },
+  "multi_inputs" : false
+}

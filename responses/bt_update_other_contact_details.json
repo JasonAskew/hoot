@@ -1,0 +1,50 @@
+{
+  "name" : "bt_update_other_contact_details",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To edit any other contact details, select the 'Show me how' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "walkme",
+        "payload" : "1234422",
+        "label" : "Show me how"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To update a client’s primary email and postal address, select the 'Show me how' button."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To update a residential address:\n1. Navigate to the clients account.\n2. Select 'Account details'.\n3. Click on the clients name (linked in blue).\n4. Select the 'Edit' pencil icon next to the contact detail that needs to be updated."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "912810",
+          "label" : "Show me how"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with consultant"
+        }
+      } ]
+    }
+  } ]
+}

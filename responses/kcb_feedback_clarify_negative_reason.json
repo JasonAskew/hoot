@@ -1,0 +1,16 @@
+{
+  "name" : "kcb_feedback_clarify_negative_reason",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "kcb_feedback", "kcb_kim" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Thanks for helping me improve! Can you share what didn't work out for you?"
+      }
+    } ]
+  }
+}

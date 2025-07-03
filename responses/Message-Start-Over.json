@@ -1,0 +1,17 @@
+{
+  "name" : "Message-Start-Over",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Thank you, your request has been cancelled.",
+        "alternatives" : [ "OK. Let's start over. How can I help?" ]
+      }
+    } ]
+  }
+}

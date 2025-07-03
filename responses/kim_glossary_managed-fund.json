@@ -1,0 +1,38 @@
+{
+  "name" : "kim_glossary_managed-fund",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I see you are asking about managed funds"
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "View investment options",
+      "intent" : {
+        "name" : "bt_investment_option"
+      },
+      "label" : "View investment options",
+      "question_display_text" : "I want to invest in a managed fund"
+    }, {
+      "type" : "INTENT",
+      "payload" : "Buy share",
+      "intent" : {
+        "name" : "bt_buy_share"
+      },
+      "label" : "Buy share",
+      "question_display_text" : "how do i buy managed fund"
+    }, {
+      "type" : "INTENT",
+      "payload" : "Sell share",
+      "intent" : {
+        "name" : "bt_sell_share"
+      },
+      "label" : "Sell share",
+      "question_display_text" : "how do i sell managed funds"
+    } ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "categorization" : {
+    "skill" : "financial_planning_goal_setting",
+    "tags" : [ "engage", "kim" ]
+  },
+  "name" : "bt_financialplanupdate",
+  "display_name" : "bt_financialplanupdate_Inactive",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_financial_update"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "CANCEL"
+    },
+    "outgoing" : {
+      "allowed" : true,
+      "allow_resume" : false,
+      "max_outgoing_interruptions" : 1
+    }
+  },
+  "display_sentence" : "Update Simple survey form",
+  "alternative_questions_enabled" : false,
+  "active" : false,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

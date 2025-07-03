@@ -1,0 +1,31 @@
+{
+  "categorization" : {
+    "tags" : [ "service" ]
+  },
+  "name" : "bt_drawdown_strat",
+  "display_name" : "bt_drawdown_strat",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_drawdown_strat_static"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "CANCEL"
+    },
+    "outgoing" : {
+      "allowed" : true,
+      "allow_resume" : false,
+      "confirm_if_cancelled" : false
+    }
+  },
+  "display_sentence" : "How do I amend the drawdown strategy?",
+  "alternative_questions_enabled" : false,
+  "slots" : [ {
+    "name" : "account_number",
+    "entity" : "BT_ACCOUNT_NUMBER_PATTERN"
+  } ],
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

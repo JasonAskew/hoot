@@ -1,0 +1,178 @@
+{
+  "name" : "bt_payment_settings_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "Scheduled transactions",
+      "intent" : {
+        "name" : "bt_change_pension_payment"
+      },
+      "label" : "Scheduled transactions",
+      "question_display_text" : "Scheduled transactions"
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To change payment settings:\n1. Select 'Go to page'.\n2. Select 'Submit new request'.\n3. In the 'Account maintenance' section, select 'Account access and permissions' then follow the prompts."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your clients payment settings:\n1. Navigate to the clients account.\n2. Select 'Account details'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/tracking/pano-service-requests",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_change_pension_payment"
+          },
+          "label" : "Change scheduled payment"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To change payment settings:\n1. Select 'Go to page'.\n2. In the 'Account maintenance' section, select 'Account access and permissions' then follow the prompts."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_change_pension_payment"
+          },
+          "label" : "Scheduled payment"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To change payment settings:\n1. Select 'Go to page'.\n2. In the 'Account maintenance' section, select 'Account access and permissions' then follow the prompts."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your accounts payment settings, navigate to the 'Account details'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_change_pension_payment"
+          },
+          "label" : "Scheduled payment"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To change payment settings:\n1. Select 'Go to page'.\n2. In the 'Account maintenance' section, select 'Account access and permissions' then follow the prompts."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_change_pension_payment"
+          },
+          "label" : "Scheduled payment"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To change payment settings:\n1. Select 'Go to page'.\n2. In the 'Account maintenance' section, select 'Account access and permissions' then follow the prompts."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your accounts payment settings, navigate to the 'Account details'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_change_pension_payment"
+          },
+          "label" : "Scheduled payment"
+        }
+      } ]
+    }
+  } ]
+}

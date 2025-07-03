@@ -1,0 +1,13 @@
+{
+  "name" : "kcb_search_tx_account_num_filter",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Account Number: ${account_number}"
+      }
+    } ]
+  }
+}

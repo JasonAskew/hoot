@@ -1,0 +1,16 @@
+{
+  "name" : "Message-Ask-For-OTP-Again",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Apologies, but that one-time-password did not appear to be correct. Can you try again?"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "categorization" : {
+    "tags" : [ "contact_details" ]
+  },
+  "name" : "bt_my_address",
+  "display_name" : "bt_my_address_Inactive",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_my_address_response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : true
+    }
+  },
+  "display_sentence" : "What address do you have on file?",
+  "alternative_questions_enabled" : true,
+  "alternative_questions_eligible" : true,
+  "active" : false,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

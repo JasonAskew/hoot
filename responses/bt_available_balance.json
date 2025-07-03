@@ -1,0 +1,69 @@
+{
+  "name" : "bt_available_balance",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You are able to view a list of your account balances in the 'Investments' section on the navigation menu. Please select the 'Go to page' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/investments",
+        "label" : "Go to page"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_min_account_balance"
+        },
+        "label" : "Minimum cash balance"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Help me sign in",
+        "intent" : {
+          "name" : "bt_login_failure"
+        },
+        "label" : "Help me sign in",
+        "question_display_text" : "Help me sign in"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For assistance with the balance of your Challenger Annuity, please contact Challenger on 13 35 66."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You're able to find the available balance of your client's account under the 'Overview' section on the navigation menu."
+        }
+      } ]
+    }
+  } ]
+}

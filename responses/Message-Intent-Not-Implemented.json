@@ -1,0 +1,16 @@
+{
+  "name" : "Message-Intent-Not-Implemented",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Apologies, but I haven't yet learned to do what you just asked me. I'm always learning new things though!"
+      }
+    } ]
+  }
+}

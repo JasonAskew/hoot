@@ -1,0 +1,20 @@
+{
+  "name" : "bt_dasp_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "All information relating to the Departing Australia Superannuation Payment (DASP) is available on our website. To see this information, please select the 'Go to page' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "https://www.bt.com.au/personal/help/making-a-withdrawal.html",
+        "label" : "Go to page"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "name" : "bt_deposit_funds_direct_debit_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To deposit funds into your account via direct debit select 'Go to Page'."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Please note you must have a verified linked bank account to complete this, if you do not, select 'Verify linked account' for the steps to do so."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/deposit/form",
+        "label" : "Go to page"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_linked_account_verification"
+        },
+        "label" : "Verify linked account"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To contribute funds into your account via direct debit select 'Go to Page'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please note you must have a verified linked bank account to complete this, if you do not, select 'Verify linked account' for the steps to do so."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-contribution-info",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_linked_account_verification"
+          },
+          "label" : "Verify linked account"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To deposit funds into your account via direct debit select 'Go to Page'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please note you must have a verified linked bank account to complete this, if you do not, select 'Verify linked account' for the steps to do so."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-deposit",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_linked_account_verification"
+          },
+          "label" : "Verify linked account"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To deposit funds into your account via direct debit select 'Go to Page'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please note you must have a verified linked bank account to complete this, if you do not, select 'Verify linked account' for the steps to do so."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-deposit",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_linked_account_verification"
+          },
+          "label" : "Verify linked account"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To contribute funds into your account via direct debit select 'Go to Page'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please note you must have a verified linked bank account to complete this, if you do not, select 'Verify linked account' for the steps to do so."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-contribution-info",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_linked_account_verification"
+          },
+          "label" : "Verify linked account"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To deposit funds into your account via direct debit select 'Go to Page'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please note you must have a verified linked bank account to complete this, if you do not, select 'Verify linked account' for the steps to do so."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-deposit",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_linked_account_verification"
+          },
+          "label" : "Verify linked account"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To contribute funds into your account via direct debit select 'Go to Page'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please note you must have a verified linked bank account to complete this, if you do not, select 'Verify linked account' for the steps to do so."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-contribution-info",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_linked_account_verification"
+          },
+          "label" : "Verify linked account"
+        }
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,112 @@
+{
+  "name" : "bt_auto_invest_static",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I can take you to the 'Investments' page where the auto invest feature is available. Please select the 'Go to page' button."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To amend distribution & dividend preferences, select the action menu on the right side of the relevant holding."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/investments",
+        "label" : "Go to page"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your financial adviser on file is able to set up a 'cash investment strategy' to automatically invest available cash. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Adviser information"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your financial adviser on file is able to set up a 'cash investment strategy' to automatically invest available cash. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Adviser information"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your financial adviser on file is able to set up a 'cash investment strategy' to automatically invest available cash. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Adviser information"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To set up a 'Cash Investment Strategy' please select 'Cash management' from the navigation menu."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To manage distribution preference's navigate to 'Portfolio views', You can then select the dividend & distribution preferences on the right of the relevant holding."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query please log into your account and ask me again."
+        }
+      } ]
+    }
+  } ]
+}

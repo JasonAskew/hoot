@@ -1,0 +1,41 @@
+{
+  "name" : "77_CallBack_S_Response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I'm learning how to make a call back, in the meantime you can contact a consultant by selecting the 'Chat with consultant' button. You may also contact us on 1300 881 716 from 8:30am to 6:30pm (Sydney time), Monday to Friday ."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat with consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I'm learning how to make a call back, in the meantime you can contact us over the phone on 1300 881 716, 8:30am to 6:30pm (Sydney time), Monday to Friday.."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I'm learning how to make a call back, in the meantime you can contact us over the phone on 1300 881 716, 8:30am to 6:30pm (Sydney time), Monday to Friday."
+        }
+      } ]
+    }
+  } ]
+}

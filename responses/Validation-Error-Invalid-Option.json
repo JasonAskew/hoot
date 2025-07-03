@@ -1,0 +1,13 @@
+{
+  "name" : "Validation-Error-Invalid-Option",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "That is not a valid option. Please try again."
+      }
+    } ]
+  }
+}

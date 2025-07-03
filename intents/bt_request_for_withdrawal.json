@@ -1,0 +1,52 @@
+{
+  "categorization" : {
+    "skill" : "payments_transfers",
+    "tags" : [ "service" ]
+  },
+  "name" : "bt_request_for_withdrawal",
+  "display_name" : "bt_request_for_withdrawal",
+  "description" : "Intent to show procedures for funds withdrawal",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "messages" : [ {
+      "clarify_response_name" : "bt_request_for_withdrawal_clarify_withdraw_amount_type",
+      "input_mode" : "HIDDEN",
+      "slot_name" : "withdraw_amount_type"
+    } ],
+    "rules" : [ {
+      "criteria" : [ {
+        "name" : "withdraw_amount_type",
+        "value" : "partial withdrawal"
+      } ],
+      "response_name" : "bt_request_for_withdrawal_partial_withdrawal_response"
+    }, {
+      "criteria" : [ {
+        "name" : "withdraw_amount_type",
+        "value" : "full withdrawal"
+      } ],
+      "response_name" : "bt_request_for_withdrawal_full_withdrawal_response"
+    } ]
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "CANCEL"
+    },
+    "outgoing" : {
+      "allowed" : true,
+      "allow_resume" : false,
+      "confirm_if_cancelled" : false
+    }
+  },
+  "display_sentence" : "How do I make a withdrawal",
+  "slots" : [ {
+    "name" : "withdraw_amount_type",
+    "entity" : "BT_WITHDRAW_AMOUNT_TYPE"
+  } ],
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "messages" : {
+    "IntentMessageCancellation" : "Canceled. How can I help you?"
+  },
+  "multi_inputs" : true
+}

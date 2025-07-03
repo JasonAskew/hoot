@@ -1,0 +1,210 @@
+{
+  "name" : "BT_Eligible_Service_Tax_Pres",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To view your registration date, select 'Go to page'."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/details/base",
+        "label" : "Go to page"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your eligible service date or tax and preservation components, select 'Go to page'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your registration date, select 'Registration date'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-tax-and-preservation",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/details/base:~:text=into%20your%20account.-,Member%20since,-22%20Jun%202023",
+          "label" : "Registration date"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your eligible service date or tax and preservation components, select 'Go to page'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your registration date, select 'Registration date'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-tax-and-preservation",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/details/base:~:text=into%20your%20account.-,Member%20since,-22%20Jun%202023",
+          "label" : "Registration date"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your eligible service date or tax and preservation components, select 'Go to page'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your registration date, select 'Registration date'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-tax-and-preservation",
+          "label" : "Go to page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/details/base:~:text=into%20your%20account.-,Member%20since,-22%20Jun%202023",
+          "label" : "Registration date"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your tax and preservation components, select 'Tax & preservation'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your pension commencement date or registration date, select 'Go to page'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-tax-and-preservation",
+          "label" : "Tax & preservation"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/details/base",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your tax & preservation components, select 'Tax & preservation'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your pension commencement date or registration date, select 'Go to page'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-tax-and-preservation",
+          "label" : "Tax & Preservation"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/details/base",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your tax & preservation components, select 'Tax & preservation'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your pension commencement date or registration date, select 'Go to page'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/pano-tax-and-preservation",
+          "label" : "Tax & Preservation"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/investor/account/{accountNumber}/details/base",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your client’s registration date, go to their account page and select 'Account details'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your client’s tax and preservation components or eligible service date, go to their account page and select 'Account details' then 'Tax & preservation components'."
+        }
+      } ]
+    }
+  } ]
+}

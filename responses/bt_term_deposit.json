@@ -1,0 +1,139 @@
+{
+  "name" : "bt_term_deposit",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To view term deposit rates and important information, select ‘Go to page’.\n\nTo buy a term deposit, select ‘Buy term deposit’.\n\nTo break a term deposit, please call us on 1300 881 716."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/find-an-investment/product/Term%20deposit ",
+        "label" : "Go to page"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/trading/buy/form",
+        "label" : "Buy Term Deposit"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_investment_option"
+        },
+        "label" : "Investment options"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view term deposit rates and important information, select ‘Go to page’.\n\nTo change maturity instructions or withdraw a term deposit, go to the client’s account and select ‘Portfolio views’. You can then go to the ‘Term deposits’ section and select from the Actions menu."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/products/term-deposits",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query, please sign in to your account, then ask again."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_login_failure"
+          },
+          "label" : "Help logging in"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please speak to your financial adviser, who will be able to assist you."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your adviser's details, select 'Show me how'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Show me how"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please speak to your financial adviser, who will be able to assist you."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your adviser's details, select 'Show me how'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Show me how"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please speak to your financial adviser, who will be able to assist you."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your adviser's details, select 'Show me how'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "914087",
+          "label" : "Show me how"
+        }
+      } ]
+    }
+  } ]
+}

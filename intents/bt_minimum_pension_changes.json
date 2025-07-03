@@ -1,0 +1,27 @@
+{
+  "categorization" : {
+    "skill" : "covid-19",
+    "tags" : [ "faq" ]
+  },
+  "name" : "bt_minimum_pension_changes",
+  "display_name" : "Covid 19 Pensions Minimum Changes_Inactive",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_minimum_pension_changes"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "Changes to minimum pension drawdown due to Covid 19 legislation",
+  "alternative_questions_enabled" : true,
+  "alternative_questions_eligible" : false,
+  "active" : false,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

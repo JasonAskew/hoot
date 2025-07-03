@@ -1,0 +1,51 @@
+{
+  "name" : "bt_edit_tfn_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "One of our consultants will be able to assist you. If you would like to chat with one of our consultants please select 'Chat with consultant' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "https://www.bt.com.au/personal/contact-us.html",
+        "label" : "Contact us"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to add or amend a client's TFN by following these steps:\n1. Select 'Account details' in the navigation menu of the client's account\n2. Select the client's underlined name\n3. Select the pencil icon next to 'Tax file number'"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_assistant",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to add or amend a client's TFN by following these steps:\n1. Select 'Account details' in the navigation menu of the client's account\n2. Select the client's underlined name\n3. Select the pencil icon next to 'Tax file number'"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_dg_manager",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to add or amend a client's TFN by following these steps:\n1. Select 'Account details' in the navigation menu of the client's account\n2. Select the client's underlined name\n3. Select the pencil icon next to 'Tax file number'"
+        }
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,55 @@
+{
+  "name" : "bt_deposit_funds_bt_super_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You are able to view information to make a deposit via EFT or BPAY in the 'Account details' section on the navigation menu. For personal contributions via EFT, you will need to include 'MV' as the first letters in the description field. Please select the 'Go to page' button."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "As your BT Super account is transferring to Mercer Super, if you plan to transact on your account, consider doing so prior to 23 March 2023, 5pm (Sydney time) when the limited service period is in place. For more information, select the ‘BT Super merger into Mercer Super’ button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "internal",
+        "payload" : "#/app/investor/account/{accountNumber}/details/base",
+        "label" : "Go to page"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "https://www.mercersuper.com.au/bt ",
+        "label" : "BT Super merger into Mercer Super"
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "👍",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "1"
+        } ]
+      },
+      "label" : "👍"
+    }, {
+      "type" : "INTENT",
+      "payload" : "👎",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "0"
+        } ]
+      },
+      "label" : "👎"
+    } ]
+  }
+}

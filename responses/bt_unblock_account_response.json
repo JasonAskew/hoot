@@ -1,0 +1,56 @@
+{
+  "name" : "bt_unblock_account_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To unlock your account, call 1300 881 716 (or +612 9155 4030 if calling from overseas) from Monday to Friday, 8:30am to 6:30pm (Sydney time)."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To unlock your account, call 1300 784 207 (or +612 9155 4029 if calling from overseas) from Monday to Friday, 8:30am to 6:30pm (Sydney time)."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To unlock your account, call 1300 881 716 (or +612 9155 4030 if calling from overseas) from Monday to Friday, 8:30am to 6:30pm (Sydney time)."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you access has been blocked, call 1300 784 207 (or +612 9155 4029 if calling from overseas) from Monday to Friday, 8:30am to 6:30pm (Sydney time)."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If your client has locked themselves out of their account, they can call 1300 881 716 (or +612 9155 4029 outside Australia) from 8:30am to 6:30pm, Monday to Friday (Sydney time) for assistance."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat to consultant"
+        }
+      } ]
+    }
+  } ]
+}

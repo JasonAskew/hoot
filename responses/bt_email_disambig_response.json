@@ -1,0 +1,30 @@
+{
+  "name" : "bt_email_disambig_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I see you are asking about emails."
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "Why register again?",
+      "intent" : {
+        "name" : "bt_register"
+      },
+      "label" : "Why register again?",
+      "question_display_text" : "Why register again?"
+    }, {
+      "type" : "INTENT",
+      "payload" : "Resend registration email",
+      "intent" : {
+        "name" : "bt_register"
+      },
+      "label" : "Resend registration email",
+      "question_display_text" : "Resend registration email"
+    } ]
+  }
+}

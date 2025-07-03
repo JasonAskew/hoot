@@ -1,0 +1,125 @@
+{
+  "name" : "IntentMessageDisabledbtdepositfunds",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To better help you with your query, please sign in to your account, then ask again."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query, please sign in to your account, then ask again."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query, please sign in to your account, then ask again."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For your clients ETF and BPAY details, please navigate to the relevant account and select 'Account details'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to make a Direct debit contribution/Deposit on your clients behalf if they have a verified linked bank account. Please navigate to the relevant account and select 'Payments & deposits' and then 'Make a deposit'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For more information select the 'Help & support' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/payment-and-deposits.html",
+          "label" : "Help & support"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/products-and-investments/super/contributions/downsizer-contribution.html",
+          "label" : "Downsizer contribution"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/products-and-investments/super/contributions/contribution-splitting.html",
+          "label" : "Contribution splitting "
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For the information required to make a deposit into a client's account, navigate to the relevant account and select 'Transactions' and then 'Make a deposit'."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_investor",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your EFT and BPAY details, please navigate to 'Transactions' and then 'Make a deposit'. Please note accounts in pension phase cannot receive further contributions."
+        }
+      } ]
+    }
+  } ]
+}

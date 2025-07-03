@@ -1,0 +1,24 @@
+{
+  "name" : "bt_request_for_withdrawal_adviser_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I can help you make a payment for this client . Please select the 'Go to page' button."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_mobile_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To submit a withdrawal for a client, please navigate to the relevant account and select 'Transactions' and then 'Make a payment'"
+        }
+      } ]
+    }
+  } ]
+}

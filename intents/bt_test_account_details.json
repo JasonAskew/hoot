@@ -1,0 +1,33 @@
+{
+  "categorization" : {
+    "skill" : "utils",
+    "tags" : [ "service" ]
+  },
+  "name" : "bt_test_account_details",
+  "display_name" : "bt_test_account_details",
+  "description" : "Utility Intent to test wdp connectivity from iapi-service",
+  "webhook_name" : "kcbwebhook",
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : false,
+      "interrupt_behavior" : "CANCEL"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : false,
+      "max_outgoing_interruptions" : 3
+    }
+  },
+  "display_sentence" : "Account Scratch",
+  "slots" : [ {
+    "name" : "account_number",
+    "entity" : "BT_ACCOUNT_NUMBER_PATTERN"
+  } ],
+  "active" : true,
+  "machine_learning_enabled" : false,
+  "messages" : {
+    "ValidationErrorPatternDoesNotMatch" : "that's an invalid response",
+    "IntentMessageCancellation" : "Canceled. How can I help you?"
+  },
+  "multi_inputs" : false
+}

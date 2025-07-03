@@ -1,0 +1,16 @@
+{
+  "name" : "Message-Pull-Authentication-Failed",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Login has failed."
+      }
+    } ]
+  }
+}

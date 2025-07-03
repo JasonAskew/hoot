@@ -1,0 +1,27 @@
+{
+  "categorization" : {
+    "tags" : [ "migration" ]
+  },
+  "name" : "bt_wrap_employer_cont",
+  "display_name" : "bt_SFT_Disruptions",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_wrap_employer_cont_response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false,
+      "allow_resume" : true
+    }
+  },
+  "display_sentence" : "Will regular super contributions from employers continue as normal on Panorama?",
+  "alternative_questions_enabled" : true,
+  "alternative_questions_eligible" : true,
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

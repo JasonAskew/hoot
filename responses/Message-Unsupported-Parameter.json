@@ -1,0 +1,16 @@
+{
+  "name" : "Message-Unsupported-Parameter",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "That's not in my bag of tricks. I can search your transactions by account, amount, date, date range, or category. Try me."
+      }
+    } ]
+  }
+}

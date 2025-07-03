@@ -1,0 +1,29 @@
+{
+  "name" : "bt_where_is_my_super",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Lost super can be located by accessing your myGov account and linking it to your ATO account.\nYou can also call the ATO's automated lost super line on 13 28 65."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "https://www.ato.gov.au/forms-and-instructions/superannuation-searching-for-lost-superannuation",
+        "label" : "Search for lost super"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "BT_SupermergerwithMercer"
+        },
+        "label" : "BT Super merger into Mercer Super "
+      }
+    } ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name" : "bt_min_account_balance",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "You are required to maintain a minimum cash balance in your account. This is to ensure you have sufficient money available to cover costs such as fees and any other payments. Your minimum required balance is $2,000. Please refer to your relevant PDS located in the 'Document Library' for more information."
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Your available cash balance is the amount remaining in your account after accounting for the required minimum balance."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are required to maintain a minimum cash balance in your account. This is to ensure you have sufficient money available to cover costs such as fees and any other payments. Your minimum required balance is $100.  Please refer to your relevant PDS located in the 'Document Library' for more information."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your available cash balance is the amount remaining in your account after accounting for the required minimum balance."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again? If you do not have an account with us you can see all the account types we offer on our website. Please select the 'Go to page' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/personal.html",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_annuities",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "For information regarding minimum amounts for Challenger Annuities, please contact Challenger on 13 35 66."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Client's are required to maintain a minimum cash balance in their account. This is to ensure they have sufficient money available to cover costs such as fees and any other payments. Their minimum required balance is $2,000. Please refer to the relevant PDS for more information."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Available cash balance is the amount remaining in the account after accounting for the required minimum balance."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To enable and amend your clients cash management strategy, select 'Cash management' then select the action menu under 'Cash investment strategy'."
+        }
+      } ]
+    }
+  } ]
+}

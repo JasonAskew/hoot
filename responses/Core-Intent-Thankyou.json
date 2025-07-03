@@ -1,0 +1,21 @@
+{
+  "name" : "Core-Intent-Thankyou",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Happy to help."
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "TEXT",
+      "payload" : "What can you do for me?",
+      "label" : "What can you do for me?"
+    } ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name" : "Message-Unavailable-Bank-Data",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Oops. For now, I'm missing that info. But try me later.",
+        "alternatives" : [ "I'm missing that info. Apologies. Let me know if I can help somehow else.", "Oops. Can't find that info. Let me know if I can help somehow else.", "That info isn't available to me. I'm sorry. Try me later." ]
+      }
+    } ]
+  }
+}

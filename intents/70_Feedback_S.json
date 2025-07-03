@@ -1,0 +1,25 @@
+{
+  "categorization" : {
+    "skill" : "bank_services",
+    "tags" : [ "feedback" ]
+  },
+  "name" : "70_Feedback_S",
+  "display_name" : "70_Feedback_S",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "70_Feedback_S_Response"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "how do i share my feedback?",
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

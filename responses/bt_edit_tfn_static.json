@@ -1,0 +1,59 @@
+{
+  "name" : "bt_edit_tfn_static",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To add or amend your TFN: \n1. Navigate to 'Forms & requests'\n2. Under 'Tax' select 'Tax file number declaration'\n3. Download and complete the form\n4. From your primary email address, send the form to support@panorama.com.au"
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "To update your country of residence for tax purposes:\n1. Navigate to 'Forms & requests'\n2. Under 'Tax' select 'Residency for taxation purposes'\n3. Download and complete the form, then follow the instructions to submit."
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to add or amend a client's TFN or country of residence for tax purposes by following these steps:\n1. Select 'Account details' in the navigation menu of the client's account\n2. Select the client's underlined name\n3. Select the pencil icon next to 'Tax file number' or 'Country of residence for tax purposes'"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you'd like to add or amend your TFN, please contact your adviser, as they can update this on your behalf."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you'd like to add or amend your TFN, please contact your adviser, as they can update this on your behalf."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you'd like to add or amend your TFN, please contact your adviser, as they can update this on your behalf."
+        }
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,18 @@
+{
+  "name" : "NegativeFeedbackOtherMessage",
+  "system" : true,
+  "categorization" : { },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Thank you for your feedback. If you'd like to enter any additional feedback text, press the button below."
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "TEXT",
+      "payload" : "Vpanegativefeedback leave note",
+      "label" : "Leave note"
+    } ]
+  }
+}

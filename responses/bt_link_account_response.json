@@ -1,0 +1,88 @@
+{
+  "name" : "bt_link_account_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "I can help you link a bank account. Please select the 'Show me how' button."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "walkme",
+        "payload" : "866807",
+        "label" : "Show me how"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_linked_account_change"
+        },
+        "label" : "Change linked account"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To add a linked bank account for a super client, select 'Contributions' and then 'Linked bank accounts'. \nFor a pension client, select 'Pension payments' and then 'Linked bank accounts'. \nFor an investment client, select 'Payments & deposits' and then 'Accounts & billers'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Next, select 'Add linked account' and enter the details. \nThe client will then need to accept the consent request via their Panorama account.\nTo learn more, you can play the tutorial video."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.youtube.com/watch?v=mz7eiLlr9Ag",
+          "label" : "Play tutorial video"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "INTENT",
+          "intent" : {
+            "name" : "bt_linked_account_change"
+          },
+          "label" : "Change linked account"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "One of our consultants can help you add a linked bank account. Select 'Chat with consultant' during business hours for assistance."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat now"
+        }
+      } ]
+    }
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "name" : "WLIS_Class_action",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "We are limited by the Court’s rules in what we can say to you about the Class Action and the document you have received. I can direct you to our website for some further information about the notice."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "external",
+        "payload" : "https://www.westpac.com.au/lcawbc/",
+        "label" : "WLIS Class Action"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name" : "bt_download_transcript",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "transcript",
+        "payload" : "downloadtranscript",
+        "label" : "Download chat transcript"
+      }
+    } ]
+  }
+}

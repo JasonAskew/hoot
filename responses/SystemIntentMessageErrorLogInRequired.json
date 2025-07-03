@@ -1,0 +1,23 @@
+{
+  "name" : "SystemIntentMessageErrorLogInRequired",
+  "system" : true,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "CUSTOM",
+      "payload" : {
+        "type" : "USER_AUTHENTICATION_CUSTOM",
+        "data" : {
+          "description" : "token invalid - auto resume when token is provided",
+          "status" : 401
+        }
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "LOGIN",
+        "payload" : "CUSTOM_LOGIN",
+        "label" : "Login"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "name" : "bt_trade_share_static",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Did you want to place a buy or sell order?"
+      }
+    }, {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "For guidance on how to update your investment profile, select 'Buy'."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_buy_share"
+        },
+        "label" : "Buy"
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "INTENT",
+        "intent" : {
+          "name" : "bt_sell_share"
+        },
+        "label" : "Sell"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To buy or sell an investment please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To buy or sell an investment please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To buy or sell an investment please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_investor",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To trade on your account, go to 'Investments' and select 'Buy or sell an investment'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you are a BT Invest customer, go to 'Investments' and select 'Invest more' or 'Withdraw'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you have a financial adviser, you can ask them to submit the request for you."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "POSTBACK",
+          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+          "label" : "Chat with a consultant"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_mobile_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To submit a trade for a client, select their account, go to 'Investments' and select 'Buy or sell an investment'."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "I can help you place a trade, please select 'Show me how'."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Trades can be placed under the 'Investment orders' section of the navigation menu when viewing a client's account."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view which clients hold a specific holding:\n1. Navigate to 'Business'\n2. Select 'Client holdings'\n3. Search the relevant listed security or managed fund."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "walkme",
+          "payload" : "978626",
+          "label" : "Show me how"
+        }
+      } ]
+    }
+  } ]
+}

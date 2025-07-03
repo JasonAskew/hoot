@@ -1,0 +1,13 @@
+{
+  "name" : "Message-Error-Intent-Fail",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Sorry, the service is currently not available. Please try again later."
+      }
+    } ]
+  }
+}

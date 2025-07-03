@@ -1,0 +1,24 @@
+{
+  "name" : "bt_new_registration_code",
+  "display_name" : "bt_new_registration_code",
+  "description" : "bt_new_registration_code",
+  "webhook_name" : "kcbwebhook",
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "SUSPEND"
+    },
+    "outgoing" : {
+      "allowed" : false
+    }
+  },
+  "display_sentence" : "How do I get a new registration code",
+  "alternative_questions_enabled" : false,
+  "slots" : [ {
+    "name" : "application_number",
+    "entity" : "BT_APPLICATION_NUMBER"
+  } ],
+  "active" : false,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

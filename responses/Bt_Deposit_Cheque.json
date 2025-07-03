@@ -1,0 +1,104 @@
+{
+  "name" : "Bt_Deposit_Cheque",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Example Response"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_account__advised_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To make a contribution via cheque you will need to make the cheque out to ‘Panorama Super - *Your account number here* - *Your account name here*’."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You will need to then post the cheque along with a cover letter to;\nBT Panorama\nGPO Box 2861\nAdelaide SA 5001"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_super",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To make a contribution via cheque you will need to make the cheque out to ‘Panorama Super - *Your account number here* - *Your account name here*’."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You will need to then post the cheque along with a cover letter to;\nBT Panorama\nGPO Box 2861\nAdelaide SA 5001"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To make a contribution via cheque you will need to make the cheque out to ‘Panorama Super - *Your account number here* - *Your account name here*’."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You will need to then post the cheque along with a cover letter to;\nBT Panorama\nGPO Box 2861\nAdelaide SA 5001"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To make a deposit via cheque you will need to make the cheque out to ‘Panorama CMA - *Your account number here* - *Your account name here*’."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You will need to then post the cheque along with a cover letter to;\nBT Panorama\nGPO Box 2861\nAdelaide SA 5001\n\nOr alternatively, you can deposit your cheque at a Westpac Branch."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_investment",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To make a deposit via cheque you will need to make the cheque out to ‘Panorama CMA - *Your account number here* - *Your account name here*’."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You will need to then post the cheque along with a cover letter to;\nBT Panorama\nGPO Box 2861\nAdelaide SA 5001\n\nOr alternatively, you can deposit your cheque at a Westpac Branch."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_btinvest",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To make a deposit via cheque you will need to make the cheque out to ‘Panorama CMA - *Your account number here* - *Your account name here*’."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You will need to then post the cheque along with a cover letter to;\nBT Panorama\nGPO Box 2861\nAdelaide SA 5001\n\nOr alternatively, you can deposit your cheque at a Westpac Branch."
+        }
+      } ]
+    }
+  } ]
+}

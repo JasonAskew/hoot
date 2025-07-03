@@ -1,0 +1,50 @@
+{
+  "categorization" : {
+    "skill" : "account_information",
+    "tags" : [ "product" ]
+  },
+  "name" : "bt_interest_rate",
+  "display_name" : "bt_interest_rate",
+  "webhook_name" : "SimpleIntent",
+  "webhook_params" : {
+    "response_name" : "bt_interest_rate"
+  },
+  "interruptions" : {
+    "incoming" : {
+      "allowed" : true,
+      "interrupt_behavior" : "CANCEL"
+    },
+    "outgoing" : {
+      "allowed" : true,
+      "allow_resume" : false,
+      "max_outgoing_interruptions" : 1
+    }
+  },
+  "display_sentence" : "What is the interest rate of my card?",
+  "alternative_questions_enabled" : false,
+  "slots" : [ {
+    "name" : "account_type",
+    "entity" : "KCB_FLAT_ACCS"
+  }, {
+    "name" : "users",
+    "entity" : "KCB_MY_TYPE"
+  }, {
+    "name" : "account_number",
+    "entity" : "ACCOUNT_NUMBER_PATTERN"
+  }, {
+    "name" : "kcb_see_more",
+    "entity" : "KCB_SEE_MORE"
+  }, {
+    "name" : "account_id",
+    "entity" : "ACCOUNT_ID"
+  }, {
+    "name" : "account_name",
+    "entity" : "ACCOUNT_NAME"
+  }, {
+    "name" : "interest_type",
+    "entity" : "KCB_INTEREST_TYPE"
+  } ],
+  "active" : true,
+  "machine_learning_enabled" : true,
+  "multi_inputs" : false
+}

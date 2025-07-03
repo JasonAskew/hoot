@@ -1,0 +1,55 @@
+{
+  "name" : "bt_it_ticket_time_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "IT ticket resolution times vary based on a number of factors, one of our consultants will need to talk to you directly. Please select the 'Chat with consultant' button, or you may contact us over the phone on 1300 784 207 8:30am to 6.30pm (Sydney time) Monday to Friday."
+      }
+    }, {
+      "type" : "BUTTON",
+      "payload" : {
+        "type" : "POSTBACK",
+        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
+        "label" : "Chat with consultant"
+      }
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_channel_public_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "IT ticket resolution times vary based on a number of factors, one of our consultants will need to talk to you directly. Please select 'Contact us' for our contact numbers and hours, please select the 'Contact us' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/personal/contact-us.html#super",
+          "label" : "Contact us"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "IT ticket resolution times vary based on a number of factors, one of our consultants will need to talk to you directly. For our contact numbers and hours, please select the 'Contact us' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.bt.com.au/personal/contact-us.html#super",
+          "label" : "Contact us"
+        }
+      } ]
+    }
+  } ]
+}

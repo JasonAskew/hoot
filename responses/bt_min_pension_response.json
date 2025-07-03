@@ -1,0 +1,98 @@
+{
+  "name" : "bt_min_pension_response",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "👍",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "1"
+        } ]
+      },
+      "label" : "👍"
+    }, {
+      "type" : "INTENT",
+      "payload" : "👎",
+      "intent" : {
+        "name" : "kcb_feedback_survey",
+        "user_inputs" : [ {
+          "name" : "rating",
+          "value" : "0"
+        } ]
+      },
+      "label" : "👎"
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "You are able to see a client's minimum pension for this FY under the 'Pension payments' section of the navigation menu."
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_superinvest_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your minimum pension payment is the minimum amount that must legally paid to you as stipulated by the relevant legislation. You are able to see your minimum pension payment for the financial year under 'Pension payments' from the navigation menu.  For more information on this from the ATO, please select the 'Open page' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.ato.gov.au/Super/APRA-regulated-funds/Paying-benefits/Income-streams/#Minimumpayments",
+          "label" : "Open page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_asim_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your minimum pension payment is the minimum amount that must legally paid to you as stipulated by the relevant legislation. For more information on this from the ATO, please select the 'Open page' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.ato.gov.au/Super/APRA-regulated-funds/Paying-benefits/Income-streams/#Minimumpayments",
+          "label" : "Open page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_account_advised_pension",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Your minimum pension payment is the minimum amount that must legally paid to you as stipulated by the relevant legislation. For more information on this from the ATO, please select the 'Open page' button."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.ato.gov.au/Super/APRA-regulated-funds/Paying-benefits/Income-streams/#Minimumpayments",
+          "label" : "Open page"
+        }
+      } ]
+    }
+  } ]
+}

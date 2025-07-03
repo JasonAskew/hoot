@@ -1,0 +1,13 @@
+{
+  "name" : "Validation-Error-Invalid-Boolean",
+  "searchable" : true,
+  "system" : false,
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Please answer yes or no."
+      }
+    } ]
+  }
+}

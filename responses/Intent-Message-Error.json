@@ -1,0 +1,16 @@
+{
+  "name" : "Intent-Message-Error",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "coreintents" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Apologies, an error has occurred. Please try me again."
+      }
+    } ]
+  }
+}

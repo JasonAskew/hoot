@@ -1,0 +1,167 @@
+{
+  "name" : "bt_login_failure_response",
+  "searchable" : true,
+  "system" : false,
+  "categorization" : {
+    "tags" : [ "bt_login_failure", "kcb", "faq" ]
+  },
+  "default_response" : {
+    "message_contents" : [ {
+      "type" : "TEXT",
+      "payload" : {
+        "text" : "Please select which applies to you."
+      }
+    } ],
+    "quick_replies" : [ {
+      "type" : "INTENT",
+      "payload" : "Change Username",
+      "intent" : {
+        "name" : "bt_forgot_username_password"
+      },
+      "label" : "Change Username",
+      "question_display_text" : "Change Username"
+    }, {
+      "type" : "INTENT",
+      "payload" : "Change Password",
+      "intent" : {
+        "name" : "bt_forgot_username_password"
+      },
+      "label" : "Change Password",
+      "question_display_text" : "Change Password"
+    }, {
+      "type" : "INTENT",
+      "payload" : "Log out",
+      "intent" : {
+        "name" : "bt_how_logout"
+      },
+      "label" : "Log out",
+      "question_display_text" : "Log out"
+    } ]
+  },
+  "segment_responses" : [ {
+    "segment_name" : "bt_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To view your client's username navigate to 'Account details' when viewing the client's account, then select the client's name, underlined in blue. \nPlease note: if the client has not yet registered, the username will display the 12-digit registration code. \nIf the client's account is linked to Westpac, the username will appear blank. In this instance they will log in using their Westpac ID."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If your client has forgotten their password, they will need to reset it by following the 'Forgot password' prompts on panoramainvestor.com.au."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "To edit your username and password under the 'Your details' section, select 'Go to page'."
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "external",
+          "payload" : "https://www.panoramainvestor.com.au/uam/app/forgot-password",
+          "label" : "Forgot password page"
+        }
+      }, {
+        "type" : "BUTTON",
+        "payload" : {
+          "type" : "internal",
+          "payload" : "#/app/adviser/user-details",
+          "label" : "Go to page"
+        }
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public_user_adviser",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please select which applies to your log in difficulties."
+        }
+      }, {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "If you are an investor on Panorama, please select 'Panorama investor'."
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Forgotten username",
+        "intent" : {
+          "name" : "bt_forgot_username_password"
+        },
+        "label" : "Forgotten username",
+        "question_display_text" : "Forgotten username"
+      }, {
+        "type" : "INTENT",
+        "payload" : "Forgotten password",
+        "intent" : {
+          "name" : "bt_forgot_username_password"
+        },
+        "label" : "Forgotten password",
+        "question_display_text" : "Forgotten password"
+      }, {
+        "type" : "INTENT",
+        "payload" : "Technical difficulties",
+        "intent" : {
+          "name" : "bt_technical_difficulties"
+        },
+        "label" : "Technical difficulties",
+        "question_display_text" : "Technical difficulties"
+      } ]
+    }
+  }, {
+    "segment_name" : "bt_channel_public",
+    "response" : {
+      "message_contents" : [ {
+        "type" : "TEXT",
+        "payload" : {
+          "text" : "Please select which applies to your log in difficulties."
+        }
+      } ],
+      "quick_replies" : [ {
+        "type" : "INTENT",
+        "payload" : "Forgotten username or password",
+        "intent" : {
+          "name" : "bt_forgot_username_password"
+        },
+        "label" : "Forgotten username or password",
+        "question_display_text" : "Forgotten username"
+      }, {
+        "type" : "INTENT",
+        "payload" : "Technical difficulties",
+        "intent" : {
+          "name" : "bt_technical_difficulties"
+        },
+        "label" : "Technical difficulties",
+        "question_display_text" : "Technical difficulties"
+      }, {
+        "type" : "INTENT",
+        "payload" : "BT Super account",
+        "intent" : {
+          "name" : "BT_SupermergerwithMercer"
+        },
+        "label" : "BT Super account",
+        "question_display_text" : "BT Super account"
+      }, {
+        "type" : "INTENT",
+        "payload" : "Security code",
+        "intent" : {
+          "name" : "bt_security_code"
+        },
+        "label" : "Security code",
+        "question_display_text" : "Security code"
+      }, {
+        "type" : "INTENT",
+        "payload" : "Locked account",
+        "intent" : {
+          "name" : "bt_unblock_account"
+        },
+        "label" : "Locked account",
+        "question_display_text" : "Locked account"
+      } ]
+    }
+  } ]
+}
