@@ -1,0 +1,4030 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_commence_pension_train",
+  "intent_name" : "bt_commence_pension",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "67c89d38-74e7-4944-ba8b-6bb42bccfd1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I commence the pension for account {@account_number 400349056} over desktop?"
+  }, {
+    "id" : "1e78150b-58c9-4ddc-939c-c958ff52c2f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I commence the pension for {@account_number 400349056} over desktop?"
+  }, {
+    "id" : "b7db8759-9ab2-46f8-94ca-2c482cd078d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I commence the pension {@account_number 400349056} over desktop?"
+  }, {
+    "id" : "d01c0198-a70e-4e0d-817a-95125674a623",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up a pension for a client on my computer?"
+  }, {
+    "id" : "f29d71ca-cf0b-4d63-9b1b-63c7e7b7fb04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up a pension for account {@account_number 400349056} for a client on my computer?"
+  }, {
+    "id" : "8e092d73-2528-4d5a-8d55-cf310b33a17b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up a pension for account {@account_number 400349056} on my computer?"
+  }, {
+    "id" : "c0c2b022-a283-4b6b-bf14-555141f4c766",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up a pension for {@account_number 400349056} for a client on my computer?"
+  }, {
+    "id" : "a8960597-b407-46d7-9c10-f7184d93c36f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up a pension {@account_number 400349056} for a client on my computer?"
+  }, {
+    "id" : "423683df-8995-41d7-9848-ade1a73a759a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up the pension easily for my client"
+  }, {
+    "id" : "c313e7b1-7d70-4d71-baeb-821951dbf08f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up the pension for account {@account_number 400349056} easily for my client"
+  }, {
+    "id" : "536f5b1c-d4f0-48c3-b34c-270ab19bd46b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up the pension for {@account_number 400349056} easily for my client"
+  }, {
+    "id" : "f98fc718-dfcc-464d-862f-50a34df3bdbc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up the pension {@account_number 400349056} easily for my client"
+  }, {
+    "id" : "df14f144-22ca-4be0-b175-14da5579ed0c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I start a pension for a client?"
+  }, {
+    "id" : "aa8f68e6-0d4b-4604-be08-8e0bef65b9e1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I start a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "8bee48d8-e804-4318-9276-af2ee4f58907",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I start a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "3ab1922f-482b-4391-b92b-7a6883851882",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I start a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "effcd086-b8de-4650-bca6-b9a3e8a8c61c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I start a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "21826872-b111-4f85-8203-b1d654367cbd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can the pension be started over desktop or not"
+  }, {
+    "id" : "dc4a1da2-6f6b-4150-ac47-4e8911bcf207",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can the pension for account {@account_number 400349056} be started over desktop or not"
+  }, {
+    "id" : "a2dce2d2-f53b-438b-8898-ad297d4cdf2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can the pension for {@account_number 400349056} be started over desktop or not"
+  }, {
+    "id" : "c20a471b-9fdc-4d20-a19e-2190568f4e9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can the pension {@account_number 400349056} be started over desktop or not"
+  }, {
+    "id" : "19d742f5-a2ca-491d-abed-f338632d5e36",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me set up pension for account {@account_number 400349056} for client?"
+  }, {
+    "id" : "f2182a39-efe6-47d7-9ee4-dd68614a734d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me set up pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "e29dbefb-6e42-4b7e-ac57-86f08a2b9845",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me set up pension for client?"
+  }, {
+    "id" : "ca3188b5-2ae1-420b-8e9c-81233f47be3a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me set up pension for {@account_number 400349056} for client?"
+  }, {
+    "id" : "66f9e9c6-65f7-45bb-bd44-0f1d5e3749be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me set up pension {@account_number 400349056} for client?"
+  }, {
+    "id" : "0735366d-1775-4081-b36b-f22cd7c55dcb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me commence the pension"
+  }, {
+    "id" : "830ae5ac-bd2c-4f31-826a-0be00d32b7ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me commence the pension for account {@account_number 400349056}"
+  }, {
+    "id" : "1d6fbd05-f113-48d1-8605-c4409e691690",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me commence the pension for {@account_number 400349056}"
+  }, {
+    "id" : "4cfb8bc1-d4d5-4163-b80c-c3fea19483f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me commence the pension {@account_number 400349056}"
+  }, {
+    "id" : "8ae2e89f-8634-4f12-8a62-b3ae34810ba0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to commence the pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "280fca2c-4193-4939-9ff0-ce4473831266",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to commence the pension for {@account_number 400349056}?"
+  }, {
+    "id" : "92063730-bc1b-4c75-ab04-f3649de546cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to commence the pension {@account_number 400349056}?"
+  }, {
+    "id" : "e4ab38e4-14bb-4b56-90a4-1699fecb95c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to commence the pension?"
+  }, {
+    "id" : "8127203b-fcbf-47a8-a8b1-02a9cc09c7b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to commence a pension for a client?"
+  }, {
+    "id" : "47b7ce32-25b5-449b-87ee-1d79269fb4aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to commence a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "869a1bc2-91c2-4569-995d-ed162d841839",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to commence a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "c89426fa-e9d8-49d4-84a4-e24ae659d11a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to commence a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "90293ccf-f7e6-446d-933a-15574f5ab47f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to commence a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "b7931c95-422b-446b-bab0-c07280f9a693",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me where I commence the pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "033b5f04-1d2b-4c73-8a3f-90c86af78dba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me where I commence the pension for {@account_number 400349056}?"
+  }, {
+    "id" : "e093d0a3-6ce1-47ca-b88d-c7caf7e046c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me where I commence the pension {@account_number 400349056}?"
+  }, {
+    "id" : "0395ecd1-5c52-45a8-b103-661038e57bae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me where I commence the pension?"
+  }, {
+    "id" : "4a00cd50-ab62-4e64-9b1a-059d2721b0ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence pension for account {@account_number 400349056}"
+  }, {
+    "id" : "6e26e0c8-49f5-49f5-942e-94c3cc92fd0e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence pension for account {@account_number 400349056} for client"
+  }, {
+    "id" : "47db8616-dc97-4d82-aed2-9f2d9f7b38b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence pension for client"
+  }, {
+    "id" : "a33c2765-1fcf-4a52-af7a-82a159e6151a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence pension for {@account_number 400349056} for client"
+  }, {
+    "id" : "e24f2b24-7507-4e97-aaa2-2a16cd899028",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence pension {@account_number 400349056} for client"
+  }, {
+    "id" : "af650ab2-7bba-470e-ba36-6de21aac45c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you help me set up pension for account {@account_number 400349056} for client?"
+  }, {
+    "id" : "3d599c30-06c7-42a7-9b3f-a7eb5c356c47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you help me set up pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "9076757d-c000-451d-9c7e-9fc0e1cc81f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you help me set up pension for client?"
+  }, {
+    "id" : "001c515e-68eb-45db-9f4e-62df59ac1f62",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you help me set up pension for {@account_number 400349056} for client?"
+  }, {
+    "id" : "ea44e1f8-56dc-46de-b58e-5be0b6dfa703",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you help me set up pension {@account_number 400349056} for client?"
+  }, {
+    "id" : "a229e9b8-8dd4-4b1d-bab3-68fdef86a0ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me how to commence the pension for account {@account_number 400349056} on desktop?"
+  }, {
+    "id" : "90c8f516-2551-4c9b-b1df-92eb7556d60d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me how to commence the pension for {@account_number 400349056} on desktop?"
+  }, {
+    "id" : "210243af-2172-4fd2-a7c3-0a89091b76c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me how to commence the pension on desktop?"
+  }, {
+    "id" : "0b23b4a8-7b6a-4050-9e83-3af75f91f84d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me how to commence the pension {@account_number 400349056} on desktop?"
+  }, {
+    "id" : "4850db21-433c-4616-a91e-9f734d14672a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me commence pension for account {@account_number 400349056} for my client."
+  }, {
+    "id" : "8cdaa1bf-4b38-45da-9f54-03c8ed79dac9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me commence pension for my client."
+  }, {
+    "id" : "83a6c2f5-deca-4ffb-a66b-d927775ad26a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me commence pension for {@account_number 400349056} for my client."
+  }, {
+    "id" : "92e3dcb0-f1a8-4c2e-8e62-f502b7ed0022",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me commence pension {@account_number 400349056} for my client."
+  }, {
+    "id" : "53913b70-a91d-4c7f-8810-df01b07c0cee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "0bd2f9ff-7fc4-4928-9d0f-5fbf30b09b80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for account {@account_number 400349056} for one of my clients?"
+  }, {
+    "id" : "3a092798-5e03-4b00-b905-5b9eb1cb424d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "2b8049aa-a716-4094-9f25-964bb7b99c74",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for one of my clients?"
+  }, {
+    "id" : "4f19b664-109f-4a9a-98e9-0720f623588e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "fba103ce-93a3-4798-8f78-5ac2d9cc1d6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for {@account_number 400349056} for one of my clients?"
+  }, {
+    "id" : "801dc1e1-a33e-4298-b5e6-05db604a5a6f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "21887033-ce06-4c18-a7cd-0ded99141eda",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension {@account_number 400349056} for one of my clients?"
+  }, {
+    "id" : "5b906bc5-441d-4f62-95c4-ce57681326ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence pension for a client"
+  }, {
+    "id" : "7b075155-6f8c-4d0c-8c2b-39c0413af70b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence pension for account {@account_number 400349056}"
+  }, {
+    "id" : "eec653fb-7b9a-41a1-8b51-c9eb7ed0c20e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence pension for account {@account_number 400349056} for a client"
+  }, {
+    "id" : "5b68e6e2-ea7e-49a1-b326-1eeabd7a9b40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence pension for {@account_number 400349056} for a client"
+  }, {
+    "id" : "81726b83-9975-4359-9faf-8cd386afbe14",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence pension {@account_number 400349056} for a client"
+  }, {
+    "id" : "30c3713a-556e-40d1-9918-abc0e72e013f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I set up a pension for account {@account_number 400349056} for the client?"
+  }, {
+    "id" : "cf4e12ee-05ee-45b1-8617-15b20f8717fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I set up a pension for the client?"
+  }, {
+    "id" : "7ba2d2fb-54d0-4782-a61d-2f750b3e2f10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I set up a pension for {@account_number 400349056} for the client?"
+  }, {
+    "id" : "4f7b64e9-fd11-4322-8a39-6f086d2170d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I set up a pension {@account_number 400349056} for the client?"
+  }, {
+    "id" : "951ffaf3-db2d-4a75-b5c0-bda0f5ae0775",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can pension be started?"
+  }, {
+    "id" : "629e63fd-4bac-4ea5-b09c-05b2b7294067",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can pension for account {@account_number 400349056} be started?"
+  }, {
+    "id" : "8a678857-0b3d-437a-a900-a8e92b13a2f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can pension for {@account_number 400349056} be started?"
+  }, {
+    "id" : "f32da9d1-95db-442e-89b1-c81c565b3891",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can pension {@account_number 400349056} be started?"
+  }, {
+    "id" : "4d30fac5-1a11-4fe1-a3e2-0cacfa76bc7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension for a client?"
+  }, {
+    "id" : "44ea7d57-cc14-4cad-b5ba-9cfee80d8790",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "6915461d-659a-4679-815b-5b4f4213c060",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "ec2f7fc4-2e27-45ff-9889-247601d55bb9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "ecd83ff3-408c-423f-8df3-3271345fef77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension for {@account_number 400349056}?"
+  }, {
+    "id" : "f2b5a0cb-793e-4eea-b624-acd14a9f612f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "678d8488-bbe5-483a-ba87-dd4c6b641ed2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension {@account_number 400349056}?"
+  }, {
+    "id" : "7c397935-1803-4323-971d-7df3d4e67032",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension?"
+  }, {
+    "id" : "6e3f5a43-1c35-4a99-8734-d84842eccc4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "3016d454-a544-4d64-99ca-687e92272b2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence pension for {@account_number 400349056}?"
+  }, {
+    "id" : "12106e90-9350-43ca-96b4-a042e52c353a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence pension {@account_number 400349056}?"
+  }, {
+    "id" : "c80f2de1-f848-48d4-aa8b-0bf8d1f61ef4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence pension?"
+  }, {
+    "id" : "c35a5f75-738c-4691-807e-2175f7e6f9ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension"
+  }, {
+    "id" : "c1b05e6f-2915-4632-89f4-4f0ee357afc1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension for account {@account_number 400349056}"
+  }, {
+    "id" : "9d0c3d62-4bb4-48da-bf75-4378020fe6d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension for {@account_number 400349056}"
+  }, {
+    "id" : "f314dc24-1fd3-44ed-abb9-00da5a189f4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension for {@account_number 400349056} ?"
+  }, {
+    "id" : "98f1a608-38b6-45cc-a2ad-ed711f038517",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension for {@account_number 400349056}?"
+  }, {
+    "id" : "03b33f62-0947-4aaf-8f44-28c6d2b585b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension {@account_number 400349056}"
+  }, {
+    "id" : "466b150c-f492-422f-b0e7-71fbf1da97cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get a pension for account {@account_number 400349056} set up?"
+  }, {
+    "id" : "a44bc5f8-d415-4d87-8c1e-75814b954f0c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get a pension for {@account_number 400349056} set up?"
+  }, {
+    "id" : "39095582-1f9b-471b-aea7-7754d36d45ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get a pension set up?"
+  }, {
+    "id" : "dbc197ff-c84c-4035-b81f-5dcf8dbd20b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get a pension {@account_number 400349056} set up?"
+  }, {
+    "id" : "d355a928-bbc8-4d01-b484-e4324d292e50",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get the pension for account {@account_number 400349056} to start?"
+  }, {
+    "id" : "8205d0a8-f1cc-4b6b-b46f-f38ade9c09d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get the pension for {@account_number 400349056} to start?"
+  }, {
+    "id" : "a71a8e30-9fe6-41e4-a0fd-d50cc5e05766",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get the pension to start?"
+  }, {
+    "id" : "bcdc1bc2-dda9-407e-b72b-554a2ef0e679",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get the pension {@account_number 400349056} to start?"
+  }, {
+    "id" : "d92c2073-e858-4fa2-8779-819ca6d28341",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about starting the pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "e88d639a-0046-430f-8ce7-44dc6a9f1ed7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about starting the pension for {@account_number 400349056}?"
+  }, {
+    "id" : "bf3bd884-bbc3-4aaf-8dbc-8569778115af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about starting the pension {@account_number 400349056}?"
+  }, {
+    "id" : "42934a64-9233-483c-a38c-0af1a600ea89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about starting the pension?"
+  }, {
+    "id" : "ec392861-ef62-4835-910a-aec21a3aeddc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I got about commencing pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "5963ad22-04e2-4b8a-a947-47fd9a22628c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I got about commencing pension for {@account_number 400349056}?"
+  }, {
+    "id" : "9a9bfebe-f6b3-4004-8ef3-12111df5f98b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I got about commencing pension {@account_number 400349056}?"
+  }, {
+    "id" : "f7f62395-9ef9-42ad-be21-e620e3ccc388",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I got about commencing pension?"
+  }, {
+    "id" : "41ec379e-f04b-4e40-8667-d4e6ba2f4f24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension for account {@account_number 400349056} for my client?"
+  }, {
+    "id" : "90614d6f-1531-408e-adab-be9927a1c485",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "bc240e91-df9f-4ee2-96f6-a191a8d5b367",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension for my client?"
+  }, {
+    "id" : "abf98e4c-a3f4-4e43-bc16-fceca4cc5d50",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension for {@account_number 400349056} for my client?"
+  }, {
+    "id" : "96383931-76c9-4571-9066-f940f43d3c2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension for {@account_number 400349056}?"
+  }, {
+    "id" : "5c5440ef-e165-4e45-8e58-1cc5dbf5b2db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension {@account_number 400349056} for my client?"
+  }, {
+    "id" : "a710246b-0f19-4cd8-b674-48265bb7d8d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension {@account_number 400349056}?"
+  }, {
+    "id" : "ce0aabb1-c014-47cb-8cc5-7be038e765f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension?"
+  }, {
+    "id" : "2c6b9f1b-4140-4f56-9bdf-feaa56e1c0a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for a client?"
+  }, {
+    "id" : "78966f45-ab72-446f-af2f-528ea6cdcf04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for a customer?"
+  }, {
+    "id" : "1c5ef98a-d4a9-4ea6-97c1-429bce9d23b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "44785f4b-d289-4303-bd0b-bacff294679e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for account {@account_number 400349056} for a customer?"
+  }, {
+    "id" : "28fee0a8-e3c0-4ce9-b775-5183b219b629",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for account {@account_number 400349056} for my client"
+  }, {
+    "id" : "f54a97a5-2e64-4de0-8ae7-fe5e68a561a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "7692a76a-ede7-4604-9117-7468d287db68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for my client"
+  }, {
+    "id" : "2a3792d8-33f4-4b3c-86cc-6171350b21f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "13d8b6ab-686a-49af-bf6e-e281b4bc265d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for {@account_number 400349056} for a customer?"
+  }, {
+    "id" : "648f0b1d-d818-420f-a83e-1bea80889590",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for {@account_number 400349056} for my client"
+  }, {
+    "id" : "08f0d8a0-3e83-4875-bbdd-e99f6a02ddbc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "1503c61d-6f6a-43ef-bb0a-16a3e778a8af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension {@account_number 400349056} for a customer?"
+  }, {
+    "id" : "6e404e81-e8eb-4950-84c4-fba82b1d2c34",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension {@account_number 400349056} for my client"
+  }, {
+    "id" : "255effe6-cb4d-47e9-8d90-6629a7cb3a71",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension"
+  }, {
+    "id" : "9f31e2c6-4f89-46a0-bd21-df9fa3c1a837",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension for account {@account_number 400349056}"
+  }, {
+    "id" : "cea20005-89a1-4a89-b670-7931656668b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension for account {@account_number 400349056} for my client?"
+  }, {
+    "id" : "364f0761-0028-4061-8930-240da74ab8e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension for my client?"
+  }, {
+    "id" : "206bb2a4-d701-45a0-89a5-ff3d3b9fce0b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension for {@account_number 400349056}"
+  }, {
+    "id" : "0e190f25-f2f9-4587-8363-75bb15c94213",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension for {@account_number 400349056} for my client?"
+  }, {
+    "id" : "61c3c131-b2f0-4fe6-a337-e806617b1bba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension {@account_number 400349056}"
+  }, {
+    "id" : "4ca596d4-83f1-4041-88b5-8a5173d83dd2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension {@account_number 400349056} for my client?"
+  }, {
+    "id" : "bf3889e2-2f62-4437-a12c-81ea42a89653",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start the pension"
+  }, {
+    "id" : "8f7d0a8d-0e56-42c0-a83c-063f0f68b466",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start the pension for account {@account_number 400349056}"
+  }, {
+    "id" : "0c6f7faa-312d-4f9e-a93c-f5f3f290b4b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start the pension for {@account_number 400349056}"
+  }, {
+    "id" : "de7c7259-5c70-4900-8332-b70786ca183f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start the pension {@account_number 400349056}"
+  }, {
+    "id" : "6a866b96-f237-4d9a-9d89-0971492f3cda",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I want to commence pension for a client?"
+  }, {
+    "id" : "59667590-c128-4ea6-b31f-5a52ba7dfc98",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I want to commence pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "290d956b-de27-4bfb-8eca-6b41b679cee1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I want to commence pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "9741bcb2-b68e-4747-b005-6759de96fbbc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I want to commence pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "55653c50-cbf9-4c64-a61b-7f047e34730e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I want to commence pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "2093399f-24b1-431b-8487-6c60efc40b45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i set up my pension for account {@account_number 400349056} online"
+  }, {
+    "id" : "1748eb0e-8e7e-4054-9c5b-b1264dffba06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i set up my pension for {@account_number 400349056} online"
+  }, {
+    "id" : "811281d8-d92e-42cb-b0ff-be373be54d6e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i set up my pension online"
+  }, {
+    "id" : "faff6909-6921-421b-b7a3-caef3d977b4d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i set up my pension {@account_number 400349056} online"
+  }, {
+    "id" : "18272970-6a77-44ef-9c00-350d73138379",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you set up a pension account for a client?"
+  }, {
+    "id" : "d4a3efa2-ee35-4568-8c68-32d94117732e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you set up a pension account for account {@account_number 400349056}?"
+  }, {
+    "id" : "4c1b9947-2540-47bd-baf5-49f1a137f349",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you set up a pension for account {@account_number 400349056} account for a client?"
+  }, {
+    "id" : "815926ec-66e5-4f03-8df4-ab5042e2e794",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you set up a pension for {@account_number 400349056} account for a client?"
+  }, {
+    "id" : "2e709548-b866-47d7-a6ac-a3f095f02a27",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you set up a pension {@account_number 400349056} account for a client?"
+  }, {
+    "id" : "9a7b14cf-25d7-438e-a60b-556e7718f0a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence Pension?"
+  }, {
+    "id" : "60d23e2c-1907-4a8f-840b-d4055148189f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence a Client's Pension"
+  }, {
+    "id" : "d8ee517b-c091-4051-85f9-d5c0d61fff5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence a Client's pension for account {@account_number 400349056}"
+  }, {
+    "id" : "5acce675-6eee-438d-a62a-d1e8fbbf44cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence a Client's pension for {@account_number 400349056}"
+  }, {
+    "id" : "db865c16-afac-4fbe-86ce-5fdabf37b1ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence a Client's pension {@account_number 400349056}"
+  }, {
+    "id" : "bf41a1f9-69fb-4be4-a880-843b10af2bdc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "1aac04eb-8846-42c8-95d1-9e52b7f14d2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence pension for {@account_number 400349056}?"
+  }, {
+    "id" : "c4266c35-b41e-49e0-8df9-2d0f2f847c0b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence pension {@account_number 400349056}?"
+  }, {
+    "id" : "25649bb2-74be-4772-8db1-19c51fb96476",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I start the sign up for a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "ce4409d3-ff7b-4a9f-9fb6-a12501c02bdd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I start the sign up for a pension for {@account_number 400349056}?"
+  }, {
+    "id" : "3f8e95ba-fb35-4f77-a084-ad65ad53fab4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I start the sign up for a pension {@account_number 400349056}?"
+  }, {
+    "id" : "ac5616c6-4ee6-4460-a9b1-aeeb027296dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I start the sign up for a pension?"
+  }, {
+    "id" : "aa6293a9-20cb-446b-beea-2d29a8f060ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I commence a pension for a client?"
+  }, {
+    "id" : "e4cf288f-cef8-48a4-a32a-b681c1f12b45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I commence a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "d48dfbeb-e593-49e7-a75f-c5cf6f2d2049",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I commence a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "71478da1-e787-4d28-a2af-9e88728e7682",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I commence a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "069255d6-2fad-46ae-83c9-869f8d4b9f26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I commence a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "4c9ee11e-588c-4580-9157-6a0ce83de0f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I commence the pension for account {@account_number 400349056} over desktop?"
+  }, {
+    "id" : "425bf014-b213-40cb-b7de-e4e8da5ced9a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I commence the pension for {@account_number 400349056} over desktop?"
+  }, {
+    "id" : "ed3fa148-7ca4-4a27-b71a-1f0014873bf4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I commence the pension {@account_number 400349056} over desktop?"
+  }, {
+    "id" : "035e2e1e-cfaa-4705-baf4-ce877a5066ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up a pension for a client on my computer?"
+  }, {
+    "id" : "f2e94bd0-0c30-470c-b8c3-249872250374",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up a pension for account {@account_number 400349056} for a client on my computer?"
+  }, {
+    "id" : "d2c96705-6094-4f8a-ba34-0586192785d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up a pension for account {@account_number 400349056} on my computer?"
+  }, {
+    "id" : "76f61af0-f4bd-4884-a354-07c66c128a95",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up a pension for {@account_number 400349056} for a client on my computer?"
+  }, {
+    "id" : "21381574-deca-4a17-9e61-f78aa8eb3a94",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up a pension {@account_number 400349056} for a client on my computer?"
+  }, {
+    "id" : "ffeb0b05-5efa-46ba-901f-61c41770323e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up the pension easily for my client"
+  }, {
+    "id" : "f447c132-e949-41ea-90c5-7b30cb2fcd47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up the pension for account {@account_number 400349056} easily for my client"
+  }, {
+    "id" : "570b51d7-9d14-41cf-8e18-d3024ba61dfd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up the pension for {@account_number 400349056} easily for my client"
+  }, {
+    "id" : "cfb898b1-2f1a-46ca-956c-45d499c7e162",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I set up the pension {@account_number 400349056} easily for my client"
+  }, {
+    "id" : "a172fe78-f9b6-4309-a995-5179200fc708",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I start a pension for a client?"
+  }, {
+    "id" : "396ed86f-cd21-4343-aef1-7e81f6e29934",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I start a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "c3b2f0e0-6719-4ed5-bc21-3deebb0da773",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I start a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "b7d015f1-cd46-4ae2-afda-2163c50b495b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I start a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "3ecef8d9-9ab8-40c6-995d-67631f3b4a54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I start a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "cd55dea1-5fba-4117-814e-3de7debf659c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can the pension be started over desktop or not"
+  }, {
+    "id" : "08b34dda-3685-4927-9084-12588c553852",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can the pension for account {@account_number 400349056} be started over desktop or not"
+  }, {
+    "id" : "33bfd434-ed09-4651-9fc8-8d25d8a8789b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can the pension for {@account_number 400349056} be started over desktop or not"
+  }, {
+    "id" : "24c85d74-fd7d-4129-b3d9-76549349ff27",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can the pension {@account_number 400349056} be started over desktop or not"
+  }, {
+    "id" : "9b85cd14-c653-4900-8c93-4538c91af855",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me set up pension for account {@account_number 400349056} for client?"
+  }, {
+    "id" : "83ab8713-7ba2-4a11-a3f9-9221c3725977",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me set up pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "22830877-f01e-43bd-aaef-4d3e26690d81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me set up pension for client?"
+  }, {
+    "id" : "e1740ef0-e2ee-47d9-97db-b3282a20a8c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me set up pension for {@account_number 400349056} for client?"
+  }, {
+    "id" : "1c2b73d8-a7b8-422e-aee5-6cf96af8e4a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me set up pension {@account_number 400349056} for client?"
+  }, {
+    "id" : "a059a87f-4c92-4642-8f52-362148c63f10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me commence the pension"
+  }, {
+    "id" : "752ae1bf-18e2-4297-ac02-9ad8fb84d857",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me commence the pension for account {@account_number 400349056}"
+  }, {
+    "id" : "cd62108a-68b1-43f7-a57c-e0427907b988",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me commence the pension for {@account_number 400349056}"
+  }, {
+    "id" : "bfa28170-35f6-4cb3-bb06-be61f5be4f40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me commence the pension {@account_number 400349056}"
+  }, {
+    "id" : "f6e35961-700e-4600-b249-221fccca5f7d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to commence the pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "be4a5dcc-9c24-4e78-8eff-aed602333c65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to commence the pension for {@account_number 400349056}?"
+  }, {
+    "id" : "8e5266f2-ebcc-4caf-8ed4-201b5298288b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to commence the pension {@account_number 400349056}?"
+  }, {
+    "id" : "36e6a545-a191-473a-af18-a24cd85b9c21",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to commence the pension?"
+  }, {
+    "id" : "69ef4857-f915-45bd-951d-fca7311a497e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to commence a pension for a client?"
+  }, {
+    "id" : "8187d926-bacd-48bb-a8d3-1e7fc82cd0fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to commence a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "4170f5e6-a95d-444b-b05e-789f282cb051",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to commence a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "878b0d98-9146-4895-8c4b-9304eb6fe27c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to commence a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "5e3e718d-11ea-4829-b864-94dbc4f78ae0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to commence a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "9d6aab87-7c99-4717-80b4-db259c2a28f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me where I commence the pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "29ed375f-f831-44c3-9af4-b0ff80b69894",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me where I commence the pension for {@account_number 400349056}?"
+  }, {
+    "id" : "d487a674-44d4-4371-addd-d346606dbdc5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me where I commence the pension {@account_number 400349056}?"
+  }, {
+    "id" : "eb839923-5559-4aba-89bd-83ab4c3b2a7f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me where I commence the pension?"
+  }, {
+    "id" : "42ae18b2-b680-4837-8e05-0e38f3bc09f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence pension for account {@account_number 400349056}"
+  }, {
+    "id" : "0f2c136c-7bd9-4d84-89c4-596418465ce5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence pension for account {@account_number 400349056} for client"
+  }, {
+    "id" : "c21b3a34-340c-4e9d-aeb6-f0b7a220b036",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence pension for client"
+  }, {
+    "id" : "828a482f-7004-48e0-9190-e50e942a764e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence pension for {@account_number 400349056} for client"
+  }, {
+    "id" : "1e3022ca-835a-4e1a-b0cf-5a5ecb7dd34b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence pension {@account_number 400349056} for client"
+  }, {
+    "id" : "ac10f79a-8aad-49d5-92c4-ee196311cc32",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you help me set up pension for account {@account_number 400349056} for client?"
+  }, {
+    "id" : "e096c092-70e2-436f-b814-4bf8a7598de4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you help me set up pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "9c6c11b1-5987-460a-82e7-da6077d0031e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you help me set up pension for client?"
+  }, {
+    "id" : "bead2122-c480-429b-82ca-0a7c3cfbf4b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you help me set up pension for {@account_number 400349056} for client?"
+  }, {
+    "id" : "59cc632f-a66f-4240-b883-56d08980b951",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you help me set up pension {@account_number 400349056} for client?"
+  }, {
+    "id" : "e3600d2a-265a-41a4-a145-b9370677cb86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me how to commence the pension for account {@account_number 400349056} on desktop?"
+  }, {
+    "id" : "70042744-d6c1-40f7-90e3-b987a98409b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me how to commence the pension for {@account_number 400349056} on desktop?"
+  }, {
+    "id" : "130e02a7-33c2-4f2e-845b-ea44d58afd36",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me how to commence the pension on desktop?"
+  }, {
+    "id" : "24f58d09-fdf1-4a19-9027-85997d746df5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me how to commence the pension {@account_number 400349056} on desktop?"
+  }, {
+    "id" : "b5ed9132-fa89-4140-9f0e-e0d15304ee4d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me commence pension for account {@account_number 400349056} for my client."
+  }, {
+    "id" : "f6f35af6-9c39-4c0f-ab3b-aee97aa0079f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me commence pension for my client."
+  }, {
+    "id" : "9b00e630-7be9-4dba-8a18-ba0df66df1ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me commence pension for {@account_number 400349056} for my client."
+  }, {
+    "id" : "e4c1f0a9-1943-43f6-a25a-9db2813e1b4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me commence pension {@account_number 400349056} for my client."
+  }, {
+    "id" : "b075c51e-02f4-4be3-9c29-135d9608fd09",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "2e9a5a64-fc4a-4c0d-9b7e-080cb068af28",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for account {@account_number 400349056} for one of my clients?"
+  }, {
+    "id" : "20c1f6ca-f18b-4d66-ae20-0136f2b603ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "59342086-3769-47d1-bd51-9c60d98a43dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for one of my clients?"
+  }, {
+    "id" : "0d98f112-2eef-4293-a89e-c1e4007a1542",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "43a76f65-6e22-4c5b-84e2-f9af97890374",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for {@account_number 400349056} for one of my clients?"
+  }, {
+    "id" : "f0e4a0ea-8fff-4da7-b984-81d7565e801c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "50f8c6e4-f27c-4b8f-a26e-f2434f297bd1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension {@account_number 400349056} for one of my clients?"
+  }, {
+    "id" : "182e1d40-d554-47e7-9318-979879fc5589",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence pension for a client"
+  }, {
+    "id" : "5c273e97-da1b-4651-b6d1-eb9459bb1947",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence pension for account {@account_number 400349056}"
+  }, {
+    "id" : "f7ebb1b2-94da-42bd-aab7-077e0106d12a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence pension for account {@account_number 400349056} for a client"
+  }, {
+    "id" : "23704a72-228e-405c-ba1b-dd1f7d9a83df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence pension for {@account_number 400349056} for a client"
+  }, {
+    "id" : "60b479ca-0188-4b3a-a76b-6a1ba002a03a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence pension {@account_number 400349056} for a client"
+  }, {
+    "id" : "a64e2794-d02f-4bfa-a7d1-d5346485a09a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I set up a pension for account {@account_number 400349056} for the client?"
+  }, {
+    "id" : "83cc6801-d7d8-47ab-bf3f-6c6ad487dd7d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I set up a pension for the client?"
+  }, {
+    "id" : "81be578c-d82c-4165-bc32-ee3e7c15b0fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I set up a pension for {@account_number 400349056} for the client?"
+  }, {
+    "id" : "2673528c-35d0-4e80-aced-4cfd4fa38641",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I set up a pension {@account_number 400349056} for the client?"
+  }, {
+    "id" : "46975508-9308-4a22-8214-3543640695b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can pension be started?"
+  }, {
+    "id" : "71ff4407-ab64-419a-8c6a-3573e36ae58b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can pension for account {@account_number 400349056} be started?"
+  }, {
+    "id" : "b6f2a358-957e-4f46-a9c9-455c139c62ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can pension for {@account_number 400349056} be started?"
+  }, {
+    "id" : "6cf554f4-a272-4434-9267-c5479c628f85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can pension {@account_number 400349056} be started?"
+  }, {
+    "id" : "9d06eadf-5a21-4921-b406-e132adefcc44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension for a client?"
+  }, {
+    "id" : "9c25c2f8-e913-476d-bed4-9d14f57f441d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "af1466fd-cb10-4f4d-beab-98d12c361b14",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "f51e5a86-f42b-4223-9bac-cacd1193315b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "fa011f89-eb4f-48ec-87ed-f9e620b2d31e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension for {@account_number 400349056}?"
+  }, {
+    "id" : "adcaef9d-5331-46e2-ac99-a1a476f2726b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "7853e1b6-c8aa-4871-9f40-439d1c9257af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension {@account_number 400349056}?"
+  }, {
+    "id" : "cba37a43-177f-4eec-914f-84d74e68dcfc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence a pension?"
+  }, {
+    "id" : "4f434a23-923a-4cdb-af9a-5c3f3c96653a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "a3621354-4363-456f-948a-bfa34b289ea9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence pension for {@account_number 400349056}?"
+  }, {
+    "id" : "c7ef355b-1550-4713-a2e6-f5cad4d75ded",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence pension {@account_number 400349056}?"
+  }, {
+    "id" : "8b6126d9-60a2-4b8d-89ac-57ac7ee41f9a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence pension?"
+  }, {
+    "id" : "c4f28528-7b56-4dfa-a922-4e628caa3061",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension"
+  }, {
+    "id" : "8e24816f-ab37-4dcd-84e1-d1d8a1cfcf4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension for account {@account_number 400349056}"
+  }, {
+    "id" : "1051cce9-c21e-4139-8f6d-d7362051ce4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension for {@account_number 400349056}"
+  }, {
+    "id" : "82381e2e-f042-47c9-b129-0f3b3a566e07",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension for {@account_number 400349056} ?"
+  }, {
+    "id" : "466f6cf9-d73c-49f5-bbd1-e94af7b43421",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension for {@account_number 400349056}?"
+  }, {
+    "id" : "cce5be87-b18c-45fc-9844-5b87aa4726fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension {@account_number 400349056}"
+  }, {
+    "id" : "01071841-3b12-43af-b44e-15009ef3a2e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get a pension for account {@account_number 400349056} set up?"
+  }, {
+    "id" : "51a01b24-d2f3-424a-aaea-67a36d57c4cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get a pension for {@account_number 400349056} set up?"
+  }, {
+    "id" : "cdaebe27-aad9-4b8d-a62a-c11ebc7ae2a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get a pension set up?"
+  }, {
+    "id" : "2920a018-0a03-43ab-bf58-a519e2da6168",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get a pension {@account_number 400349056} set up?"
+  }, {
+    "id" : "99f9131d-4948-42d7-921e-25a99f39ec51",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get the pension for account {@account_number 400349056} to start?"
+  }, {
+    "id" : "0744603b-b567-43bb-895f-f7d737ff4b35",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get the pension for {@account_number 400349056} to start?"
+  }, {
+    "id" : "6ce99afa-ef64-46e1-8a53-3c50b6f590fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get the pension to start?"
+  }, {
+    "id" : "bb026640-5245-4777-8e02-36eea920e9d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get the pension {@account_number 400349056} to start?"
+  }, {
+    "id" : "9c7338b2-f62a-4efd-9f70-29a22790ecfd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about starting the pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "c667187a-21ef-4d70-ada1-0d3539aef663",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about starting the pension for {@account_number 400349056}?"
+  }, {
+    "id" : "de06ec20-ffa6-457f-9419-6c8baef7f143",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about starting the pension {@account_number 400349056}?"
+  }, {
+    "id" : "fd3f084d-e1b9-43df-b261-3984ff685338",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about starting the pension?"
+  }, {
+    "id" : "b40f023e-ed3e-4ccd-9cb9-fddc023ec068",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I got about commencing pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "40ab2b26-6447-4d2b-8266-5110f3a38c67",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I got about commencing pension for {@account_number 400349056}?"
+  }, {
+    "id" : "2001dc2e-9e78-4aae-8d54-1c0a7dc6becd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I got about commencing pension {@account_number 400349056}?"
+  }, {
+    "id" : "cef7012a-b171-4ac5-8c88-1a4387b226b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I got about commencing pension?"
+  }, {
+    "id" : "9dc5ef8b-9b12-4992-af31-56885b8eaa77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension for account {@account_number 400349056} for my client?"
+  }, {
+    "id" : "a2ef037f-8eb8-4497-86ae-f8406958d3f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "3b8513bc-8984-409d-be33-a52213401cb0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension for my client?"
+  }, {
+    "id" : "be6e2c1c-aeed-4e59-9a03-967dc3d80daf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension for {@account_number 400349056} for my client?"
+  }, {
+    "id" : "08530698-185a-4c01-8593-71e0553d90cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension for {@account_number 400349056}?"
+  }, {
+    "id" : "f7292364-dce2-4bcb-aa13-9e87df68987c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension {@account_number 400349056} for my client?"
+  }, {
+    "id" : "c043c927-407b-4596-a1af-9c77e4e36719",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension {@account_number 400349056}?"
+  }, {
+    "id" : "6911dfc3-952f-448a-9bc9-529bd438ba58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a new pension?"
+  }, {
+    "id" : "48381c69-bd52-470a-9617-fe4a60fc1d9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for a client?"
+  }, {
+    "id" : "20ccfbeb-9adb-4749-8365-015ea3f32af6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for a customer?"
+  }, {
+    "id" : "93d1ad5d-76ac-4141-9d66-4763c14db44a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "d0abec75-1c7e-4538-b727-ea002d37b33d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for account {@account_number 400349056} for a customer?"
+  }, {
+    "id" : "23537bb5-b431-46bd-9f94-5f45e447cfec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for account {@account_number 400349056} for my client"
+  }, {
+    "id" : "a7ed97b3-edc4-4a48-b342-0145e7dec0cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "84534810-5f8f-41fd-99c2-f5d2663167f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for my client"
+  }, {
+    "id" : "8e28beb5-0b1d-4864-b891-6ca9cfd279a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "3e7b9408-7877-494a-8069-054a9cdb9da1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for {@account_number 400349056} for a customer?"
+  }, {
+    "id" : "67c16123-f863-47ff-a875-6fc7313bf486",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension for {@account_number 400349056} for my client"
+  }, {
+    "id" : "5a74ad0f-3783-4e3c-993a-df59e9891aad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "4fcecb19-09b7-4ba8-a9a7-070884c3dde0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension {@account_number 400349056} for a customer?"
+  }, {
+    "id" : "d6816f7e-0491-4aeb-b64c-744685fccb3f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set up a pension {@account_number 400349056} for my client"
+  }, {
+    "id" : "6dd7a316-739f-4a68-a26d-8324e3f64f8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension"
+  }, {
+    "id" : "e5903aab-4d8e-47f8-9ba2-10ddc3becb07",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension for account {@account_number 400349056}"
+  }, {
+    "id" : "aa3da045-8312-4144-b2a7-ae8d2374b55e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension for account {@account_number 400349056} for my client?"
+  }, {
+    "id" : "e071632b-a679-4d0b-bd04-ae464853bff0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension for my client?"
+  }, {
+    "id" : "cfc0d12f-c092-4ca8-aa88-9b771c993c51",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension for {@account_number 400349056}"
+  }, {
+    "id" : "c134b1ea-8ee8-41ce-b687-21d27361ed5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension for {@account_number 400349056} for my client?"
+  }, {
+    "id" : "22efa3ad-8be1-43f8-b232-f40bd28ffbc4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension {@account_number 400349056}"
+  }, {
+    "id" : "30037720-6a5c-47b4-90b8-5d43db72dd1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start a pension {@account_number 400349056} for my client?"
+  }, {
+    "id" : "a14d813f-9ac5-4817-9af5-0608932fc560",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start the pension"
+  }, {
+    "id" : "f9fb7016-0a30-498b-a1eb-ae9d557d628e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start the pension for account {@account_number 400349056}"
+  }, {
+    "id" : "f1ee9805-1220-47f9-b96e-47e5185cff36",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start the pension for {@account_number 400349056}"
+  }, {
+    "id" : "6809df27-d42c-4589-b9b0-77ec04441ec9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start the pension {@account_number 400349056}"
+  }, {
+    "id" : "b483f349-e1dc-437e-ad28-a02e5aad2705",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I want to commence pension for a client?"
+  }, {
+    "id" : "4d114e1a-afb4-408f-ac12-c80479f6aeaa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I want to commence pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "8b9a5777-b5eb-4ff2-9a8c-489092a10469",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I want to commence pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "003d04de-1860-48e7-b149-575253544944",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I want to commence pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "8827ec36-0750-420d-9d56-27ff5e70cdcc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I want to commence pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "d5ba3da8-8780-49c8-b2b1-d5809bdb5552",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i set up my pension for account {@account_number 400349056} online"
+  }, {
+    "id" : "7c495bf4-4a32-4097-bb0e-e22786f200f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i set up my pension for {@account_number 400349056} online"
+  }, {
+    "id" : "aeb26129-e745-4163-91b5-edaea5388991",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i set up my pension online"
+  }, {
+    "id" : "7eb6bd6f-bbbc-4743-8f38-703e9cad4be9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i set up my pension {@account_number 400349056} online"
+  }, {
+    "id" : "e56eeb34-43f0-416f-aa1e-2feeac65e6a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you set up a pension account for a client?"
+  }, {
+    "id" : "858d9553-6b31-4122-81f1-396242004416",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you set up a pension account for account {@account_number 400349056}?"
+  }, {
+    "id" : "d47ec4d9-9048-476a-8c58-04be9d3ef1cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you set up a pension for account {@account_number 400349056} account for a client?"
+  }, {
+    "id" : "e383626c-83f1-4f22-bf70-55e19159f361",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you set up a pension for {@account_number 400349056} account for a client?"
+  }, {
+    "id" : "d64db8f8-1682-40ec-9934-1fd6469e1282",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you set up a pension {@account_number 400349056} account for a client?"
+  }, {
+    "id" : "1d748661-f9a9-4b47-a7e6-c15beec3cdae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence Pension?"
+  }, {
+    "id" : "b33ed4cc-d90b-4fd7-8365-351c211a5e4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence a Client's Pension"
+  }, {
+    "id" : "fcd97894-daeb-4a70-9918-dd51a807a7cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence a Client's pension for account {@account_number 400349056}"
+  }, {
+    "id" : "c164d639-db85-4e18-a7f6-f77f5bf823b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence a Client's pension for {@account_number 400349056}"
+  }, {
+    "id" : "7a85a38f-20a5-460b-840c-66517031a6cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence a Client's pension {@account_number 400349056}"
+  }, {
+    "id" : "6c778604-5ecf-409f-b402-93ae84d97bfa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "71e6fc7a-12bc-4272-b6c8-385076362648",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence pension for {@account_number 400349056}?"
+  }, {
+    "id" : "5063e0e8-84b3-4ee6-9b1b-1b2c31a96a92",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to Commence pension {@account_number 400349056}?"
+  }, {
+    "id" : "327ecfe1-80c4-4a06-8789-7462274aaff0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I start the sign up for a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "bce8a7e9-1e75-40f5-bc17-a83df0365c78",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I start the sign up for a pension for {@account_number 400349056}?"
+  }, {
+    "id" : "3c219f45-7d79-435f-ac02-f6bf64ab2604",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I start the sign up for a pension {@account_number 400349056}?"
+  }, {
+    "id" : "c1a47e35-c91b-403d-8d18-e2218b80ae66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I start the sign up for a pension?"
+  }, {
+    "id" : "c98aba5f-8d8e-4dba-a823-7fb21f2d9f6a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I commence a pension for a client?"
+  }, {
+    "id" : "0bc15b38-1908-4ff8-af53-35095f5dafde",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I commence a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "1b57f5df-8d4a-4c22-a8ac-516b0694a8aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I commence a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "71953b64-bbc0-4654-bab6-20840c1a0de2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I commence a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "2132f906-3edb-4240-abc2-6232b5813cce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I commence a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "6314bc27-62bc-430c-8cb2-45015e147815",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need assistance in commencing a client's pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "72ba4b0b-8d6c-4930-8ee5-6bde69911129",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need assistance in commencing a client's pension for {@account_number 400349056}?"
+  }, {
+    "id" : "e44b70e2-6f9a-4c51-bfc6-cde010a87050",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need assistance in commencing a client's pension {@account_number 400349056}?"
+  }, {
+    "id" : "c66f2c65-f2bb-488c-9c6b-61518171f2f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need assistance in commencing a client's pension?"
+  }, {
+    "id" : "08bd6005-d400-495e-bb1e-9320ab7654ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help establishing a pension for a client"
+  }, {
+    "id" : "558b0d3d-c624-4d05-8308-8d93dd57021f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help establishing a pension for account {@account_number 400349056}"
+  }, {
+    "id" : "9f82b59d-b6be-45fc-b8b8-1a816b7369c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help establishing a pension for account {@account_number 400349056} for a client"
+  }, {
+    "id" : "6e19b14d-46b9-4959-9d39-a39ddb7a68ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help establishing a pension for {@account_number 400349056} for a client"
+  }, {
+    "id" : "1fdd7ecb-c667-43f1-9d62-9abd0701a3a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help establishing a pension {@account_number 400349056} for a client"
+  }, {
+    "id" : "ebcb67c7-d167-49f3-989e-f795d642e528",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help setting up a pension for a client"
+  }, {
+    "id" : "c1f390b7-b277-4331-af43-66d08887bc30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help setting up a pension for account {@account_number 400349056}"
+  }, {
+    "id" : "a7731d2d-dc63-4127-a6f2-ccf0c12decf8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help setting up a pension for account {@account_number 400349056} for a client"
+  }, {
+    "id" : "38814aac-69f6-4faa-9251-02f3303cdabc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help setting up a pension for account {@account_number 400349056} for someone."
+  }, {
+    "id" : "8ad8b8a5-5768-4625-b106-88b0016c66ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help setting up a pension for someone."
+  }, {
+    "id" : "ea9f49b2-b130-4c21-a9ed-91d0097058a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help setting up a pension for {@account_number 400349056} for a client"
+  }, {
+    "id" : "0d35c632-fd9d-4222-be62-f37586148f4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help setting up a pension for {@account_number 400349056} for someone."
+  }, {
+    "id" : "0afca080-89b3-4926-9797-e8d9e6c201bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help setting up a pension {@account_number 400349056} for a client"
+  }, {
+    "id" : "2e4053e7-a5f5-47f3-bd29-9d3f9bff2c92",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help setting up a pension {@account_number 400349056} for someone."
+  }, {
+    "id" : "8ff090df-a21f-4693-8a25-0d8f69129064",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need some help to start a pension for account {@account_number 400349056} for my client."
+  }, {
+    "id" : "b2f7a47c-7d42-48f5-9edf-209ba705592a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need some help to start a pension for my client."
+  }, {
+    "id" : "50c7cc14-dccb-4afd-8b8f-61a71395087a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need some help to start a pension for {@account_number 400349056} for my client."
+  }, {
+    "id" : "26dc648b-27d3-430a-82b0-7e79a648625c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need some help to start a pension {@account_number 400349056} for my client."
+  }, {
+    "id" : "e40dbde5-8222-4282-8493-d7ad428a740e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to commence a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "5aaf795f-23bd-4279-9078-33318a3f7ee1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to commence a pension for {@account_number 400349056}?"
+  }, {
+    "id" : "cabc49ef-5591-4c8f-84f5-daca75b38668",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to commence a pension {@account_number 400349056}?"
+  }, {
+    "id" : "c93c5867-c780-4ba0-91dc-cfb0df9bf769",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to commence a pension?"
+  }, {
+    "id" : "71c386e0-923f-495c-880a-b03f7f9d239a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know how to commence a client's pension for account {@account_number 400349056}."
+  }, {
+    "id" : "da249108-4a85-4f6a-9c00-657ab7ed9399",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know how to commence a client's pension for {@account_number 400349056}."
+  }, {
+    "id" : "85c5d9ec-d4a4-44a3-bd28-b22b6529db1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know how to commence a client's pension {@account_number 400349056}."
+  }, {
+    "id" : "8210b1dc-f2b6-4abe-a98e-3e46282ebcc7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know how to commence a client's pension."
+  }, {
+    "id" : "baea471e-58fa-406e-b10e-8b099ae799f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know how to help a client set up a pension for account {@account_number 400349056} online."
+  }, {
+    "id" : "51d5c48b-4ba6-423c-8991-544ebea5e579",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know how to help a client set up a pension for {@account_number 400349056} online."
+  }, {
+    "id" : "b81aaf04-1b19-4b32-b6b2-5b2c556de677",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know how to help a client set up a pension online."
+  }, {
+    "id" : "c6cba895-bc2e-47d4-af46-f931095ee9fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know how to help a client set up a pension {@account_number 400349056} online."
+  }, {
+    "id" : "e2a2c820-7ac3-4105-861b-2580b58faf0b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to set up a pension for a client, and I need help."
+  }, {
+    "id" : "07a8789a-9f62-471a-94b7-1bc6d5c1fc1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to set up a pension for account {@account_number 400349056} for a client, and I need help."
+  }, {
+    "id" : "57f25496-8940-4c0a-99d5-fac4c55bb9b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to set up a pension for account {@account_number 400349056}, and I need help."
+  }, {
+    "id" : "df615d7e-87af-452b-85bc-c983c7f7b8c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to set up a pension for {@account_number 400349056} for a client, and I need help."
+  }, {
+    "id" : "7e4ceb98-f557-42f8-9937-90be780957df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to set up a pension {@account_number 400349056} for a client, and I need help."
+  }, {
+    "id" : "8a7371cd-ce09-4920-9aa5-e29c6ac890dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to start a pension for a new client"
+  }, {
+    "id" : "7c2f2927-b76d-41ab-8237-21e8fe873cff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to start a pension for account {@account_number 400349056} for a new client"
+  }, {
+    "id" : "55975a8b-2c59-42f2-a91a-99d3ecc906b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to start a pension for {@account_number 400349056} for a new client"
+  }, {
+    "id" : "9ae51995-21c8-4908-a36a-1d814dbd1d7c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to start a pension {@account_number 400349056} for a new client"
+  }, {
+    "id" : "ec05ac8e-2fb5-4bc6-af6a-8be50b364f1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to commence pension for account {@account_number 400349056}"
+  }, {
+    "id" : "31226f68-1dee-4778-bbff-2a672789326a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to commence pension for account {@account_number 400349056} for a client"
+  }, {
+    "id" : "8191f4e6-ffe2-4c19-a9e6-cc98155526ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to commence pension for {@account_number 400349056} for a client"
+  }, {
+    "id" : "fa59f7e0-2897-4053-8c72-5d1d8f1595ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to commence pension {@account_number 400349056} for a client"
+  }, {
+    "id" : "8785a3c2-68ee-4115-90f0-d7b9c688e837",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to commence the pension for a client."
+  }, {
+    "id" : "47b57bc5-6079-4810-b64e-f49afb071a96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to commence the pension for account {@account_number 400349056} for a client."
+  }, {
+    "id" : "c0127d9f-0976-4465-936b-f40dfb759dfc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to commence the pension for account {@account_number 400349056}."
+  }, {
+    "id" : "c2f68b83-c79d-4922-a156-06e9680ab434",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to commence the pension for {@account_number 400349056} for a client."
+  }, {
+    "id" : "e103ac68-0f11-44c8-ba7c-524fcba4acb8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to commence the pension {@account_number 400349056} for a client."
+  }, {
+    "id" : "35f3c609-928a-4825-bb21-47c4c0d1f488",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to get help in commencing a pension for account {@account_number 400349056} this is for my client"
+  }, {
+    "id" : "379dd1fc-d3c8-4b45-9287-28ad6820712a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to get help in commencing a pension for {@account_number 400349056} this is for my client"
+  }, {
+    "id" : "bec92055-9491-4f8c-980d-b1f8b27bca5f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to get help in commencing a pension this is for my client"
+  }, {
+    "id" : "35a55845-8ec0-4af6-bfc8-f9cb3b8117e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to get help in commencing a pension {@account_number 400349056} this is for my client"
+  }, {
+    "id" : "cc4a42cd-8805-4b92-b643-3302663e5454",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to open a pension account for a client, please guide me."
+  }, {
+    "id" : "f8e9e15c-a810-4acc-8ec4-b11f19c0ad49",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to open a pension account for account {@account_number 400349056}, please guide me."
+  }, {
+    "id" : "8e3bd99d-4077-4704-82e4-fd4a897650e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to open a pension for account {@account_number 400349056} account for a client, please guide me."
+  }, {
+    "id" : "03090153-1444-4aa2-ba2c-84950bebd5f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to open a pension for {@account_number 400349056} account for a client, please guide me."
+  }, {
+    "id" : "35e3ec99-f057-41ce-8d8d-dee5857b5a53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to open a pension {@account_number 400349056} account for a client, please guide me."
+  }, {
+    "id" : "f6bfa47c-c74e-40a9-b46b-792eddab75b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to start a pension",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "b773f244-996c-4974-85ef-e32d724c31fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I will do commence the pension"
+  }, {
+    "id" : "fdf1b677-c966-4b71-a88b-7dae6b003915",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I will do commence the pension for account {@account_number 400349056}"
+  }, {
+    "id" : "95f5e9e8-e078-4fda-b813-fc1ab051340d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I will do commence the pension for {@account_number 400349056}"
+  }, {
+    "id" : "2ad0060e-b8c8-4091-85e0-159ba9700e79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I will do commence the pension {@account_number 400349056}"
+  }, {
+    "id" : "a07f790b-dadf-4f9c-9206-23d8a89c2671",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to commence a pension"
+  }, {
+    "id" : "0cf94267-af3c-48d4-b191-f10ab04804b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to commence a pension for account {@account_number 400349056}"
+  }, {
+    "id" : "4c9d1b4f-0789-411f-92f4-ee769b58c795",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to commence a pension for {@account_number 400349056}"
+  }, {
+    "id" : "c2424f90-9100-4b85-914c-13a33cc672de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to commence a pension {@account_number 400349056}"
+  }, {
+    "id" : "5669ddbe-4844-4353-b76c-8dd7f53176ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to know how to commence pension for account {@account_number 400349056}."
+  }, {
+    "id" : "5f7821ec-b5d2-4cf4-b7ce-0502620f84fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to know how to commence pension for {@account_number 400349056}."
+  }, {
+    "id" : "b69bf7b0-7d96-4f7e-bba7-47b6130c0a75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to know how to commence pension {@account_number 400349056}."
+  }, {
+    "id" : "cc29e36d-0560-470b-9178-07c386b8d66f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to know how to commence pension."
+  }, {
+    "id" : "9e5ca9e8-4a30-4bfe-ac6e-4e4c11b543f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to set up a client's pension"
+  }, {
+    "id" : "fa5ea49b-5765-4993-bebf-e58cd9774a11",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to set up a client's pension for account {@account_number 400349056}"
+  }, {
+    "id" : "233552fc-3a44-44ea-9bdc-7ac31450359c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to set up a client's pension for {@account_number 400349056}"
+  }, {
+    "id" : "1ac147de-d69f-4c6f-9ab0-93fd389eefc7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to set up a client's pension {@account_number 400349056}"
+  }, {
+    "id" : "3e776241-fc4c-4df8-ab0e-de8f4e694266",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to start a pension"
+  }, {
+    "id" : "923acf5f-be0a-459b-b86d-efb6ef452a36",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to start a pension for account {@account_number 400349056}"
+  }, {
+    "id" : "0bccdee1-8039-491a-8a37-cd8984e38833",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to start a pension for {@account_number 400349056}"
+  }, {
+    "id" : "0382b405-0c98-4c81-9c43-5c94c92eb20f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to start a pension {@account_number 400349056}"
+  }, {
+    "id" : "7f67fef3-8019-429f-a8c9-236ade746c3d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "In what way can I commence a pension for a client?"
+  }, {
+    "id" : "468ac853-f69b-4f9e-9950-a477177f5efd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "In what way can I commence a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "9fc0ecb9-cbf7-4ef3-8f2c-ab1b7dc98e8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "In what way can I commence a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "fd71e103-3316-4c1a-bf8a-0f598731d0ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "In what way can I commence a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "5bde74e6-eb15-459a-ba84-1f32421bce35",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "In what way can I commence a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "62b221e5-512a-4e14-9131-39b65f87491c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is setting up a pension for a client at thing I can do right now?"
+  }, {
+    "id" : "48c76a78-4a79-4c93-9c5a-90f9163105fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is setting up a pension for account {@account_number 400349056} at thing I can do right now?"
+  }, {
+    "id" : "28fb8582-a89d-4953-8fc2-814ab22adf75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is setting up a pension for account {@account_number 400349056} for a client at thing I can do right now?"
+  }, {
+    "id" : "e6b7c446-c8a1-4698-b56e-5338f0c50658",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is setting up a pension for {@account_number 400349056} for a client at thing I can do right now?"
+  }, {
+    "id" : "90be8248-a7ca-4135-8749-99a81020b351",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is setting up a pension {@account_number 400349056} for a client at thing I can do right now?"
+  }, {
+    "id" : "430a4516-21f5-4bb9-98b9-e589712bd715",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to commence the pension"
+  }, {
+    "id" : "5a0205c9-2c0b-43d6-be57-6dc88dd6e8db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to commence the pension for account {@account_number 400349056}"
+  }, {
+    "id" : "088d1f78-34ce-4225-a944-f3addc7ee9f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to commence the pension for {@account_number 400349056}"
+  }, {
+    "id" : "bb6bcb3d-3301-4e3f-ab84-cc8eeeb6e64f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to commence the pension {@account_number 400349056}"
+  }, {
+    "id" : "a9836588-c034-48aa-8b56-4e11e991354f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client want to commence their pension for account {@account_number 400349056}."
+  }, {
+    "id" : "efb3ce3b-d307-4a20-8885-1fb884bfffdb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client want to commence their pension for {@account_number 400349056}."
+  }, {
+    "id" : "a180eff2-bb9a-4aa0-9a1f-9101a7bac4b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client want to commence their pension {@account_number 400349056}."
+  }, {
+    "id" : "e6638401-6d12-4d8b-9403-d235ee727666",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client want to commence their pension."
+  }, {
+    "id" : "1fc6c990-de0e-4213-b50c-8212cc9fcbdf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need help in commencing pension for a client"
+  }, {
+    "id" : "4ccd5dbf-480e-4736-b702-b6297121749f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need help in commencing pension for account {@account_number 400349056}"
+  }, {
+    "id" : "72b873c3-56ab-468d-ba6b-64159c7d59ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need help in commencing pension for account {@account_number 400349056} for a client"
+  }, {
+    "id" : "bb167ae1-d03a-48df-ada0-9eadecce7cd9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need help in commencing pension for {@account_number 400349056} for a client"
+  }, {
+    "id" : "2ef48f59-819e-44ca-b936-da0cda5c4763",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need help in commencing pension {@account_number 400349056} for a client"
+  }, {
+    "id" : "b67f03e0-a626-4585-85fb-e337a8c97ea6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "On a pension for account {@account_number 400349056} how do I start it?"
+  }, {
+    "id" : "6d6eceb5-0947-4618-a42c-edf93b3827cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "On a pension for {@account_number 400349056} how do I start it?"
+  }, {
+    "id" : "a6ffaa06-548a-4321-b2a5-a676d2ac35c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "On a pension how do I start it?"
+  }, {
+    "id" : "7b6b584a-371f-425a-ae64-e3093fad413e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "On a pension {@account_number 400349056} how do I start it?"
+  }, {
+    "id" : "b4624622-8676-4e77-b79f-f6792429690a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Procedure commencing pension"
+  }, {
+    "id" : "e4921aa5-d37c-4172-8692-ce879b02847b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Procedure commencing pension for account {@account_number 400349056}"
+  }, {
+    "id" : "9445230f-4af8-41fb-87de-0539683286ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Procedure commencing pension for {@account_number 400349056}"
+  }, {
+    "id" : "4ef60b40-73d2-46d7-b445-8ab4183c79d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Procedure commencing pension {@account_number 400349056}"
+  }, {
+    "id" : "f869b19d-9139-4344-a6b7-6ecdc8fe432b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Services of pension commencing"
+  }, {
+    "id" : "30031e82-cfec-49cb-b50a-d46385750d74",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Services of pension for account {@account_number 400349056} commencing"
+  }, {
+    "id" : "a3bd4806-24c1-4665-a957-5042cbced08e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Services of pension for {@account_number 400349056} commencing"
+  }, {
+    "id" : "0f85cf30-3d9a-4020-8850-094301f44e6a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Services of pension {@account_number 400349056} commencing"
+  }, {
+    "id" : "39c9d930-e576-47b3-80aa-1b2f38dae3ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Shall i meet commence pension for a client"
+  }, {
+    "id" : "57f10323-1ae3-4862-b526-fd3d38be1843",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Shall i meet commence pension for account {@account_number 400349056}"
+  }, {
+    "id" : "4614885b-d03f-4b9b-a272-f60dd1cab528",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Shall i meet commence pension for account {@account_number 400349056} for a client"
+  }, {
+    "id" : "8f588e30-ff56-4cb3-af2b-f2ad12948b1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Shall i meet commence pension for {@account_number 400349056} for a client"
+  }, {
+    "id" : "8facdedd-256a-4002-b60a-41964961aaca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Shall i meet commence pension {@account_number 400349056} for a client"
+  }, {
+    "id" : "cd77a770-1448-43a0-a0f5-d92b7d874e05",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to commence a pension for account {@account_number 400349056}."
+  }, {
+    "id" : "6a64aa40-5399-4552-971e-adf9e460ddf3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to commence a pension for {@account_number 400349056}."
+  }, {
+    "id" : "002af9c4-284b-488f-b55e-8b9d77d02c99",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to commence a pension {@account_number 400349056}."
+  }, {
+    "id" : "06a0f010-0aca-45f6-9117-0f5780a13e5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to commence a pension."
+  }, {
+    "id" : "a20e4c08-f2e6-4d5a-ab73-d7565c3b31f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to start a pension"
+  }, {
+    "id" : "2acf328f-c285-4623-941c-114708753ff2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to start a pension for account {@account_number 400349056}"
+  }, {
+    "id" : "1f1c1a04-12f8-4814-9f48-9484b16fa600",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to start a pension for {@account_number 400349056}"
+  }, {
+    "id" : "90dbf87b-e270-46a5-a6a8-5b56f9507e69",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to start a pension {@account_number 400349056}"
+  }, {
+    "id" : "6a56e470-c1ce-4074-b630-d91918bd5816",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the steps in setting up a pension for a client?"
+  }, {
+    "id" : "9d354bb1-e260-4504-be5c-c06dbe8b3465",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the steps in setting up a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "6adf7fb2-7b57-4cf5-a306-49cfa7f3d63f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the steps in setting up a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "3687cbe0-4321-4eaf-a124-5ec25b658e48",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the steps in setting up a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "354d43c6-7b26-4504-80e1-03151c60e126",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the steps in setting up a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "15d3ce4d-2798-423e-9743-a865ef8818d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the steps involving in setting up pension for a client?"
+  }, {
+    "id" : "9a1a2440-3379-48a4-bbeb-897da8a4f6b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the steps involving in setting up pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "d7f00896-af49-4cf8-9841-5a40b849d9dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the steps involving in setting up pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "4c50f39c-3061-4d0e-8878-87280e7fd79a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the steps involving in setting up pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "ff4811bf-f903-4927-9be3-f5bd55762e33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the steps involving in setting up pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "e1b98037-0ab6-4cb9-a0e5-6ee51c17a6e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I do to commence the pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "7bc8ec35-f682-4066-9b1e-653f5f5d3c16",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I do to commence the pension for {@account_number 400349056}?"
+  }, {
+    "id" : "0a55251a-4886-4332-89cb-1b4aae4c12df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I do to commence the pension {@account_number 400349056}?"
+  }, {
+    "id" : "a08aef8d-ca73-47e0-ae9d-e39da4436989",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I do to commence the pension?"
+  }, {
+    "id" : "495529f6-1284-44a9-9f3b-b3f86a5d00b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is a pension I can commence for my current client"
+  }, {
+    "id" : "9ce9450b-ab9e-471a-93d5-8cde4617e2d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is a pension for account {@account_number 400349056} I can commence for my current client"
+  }, {
+    "id" : "95d7db6f-bb48-4195-b5f9-8d4ec0847a18",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is a pension for {@account_number 400349056} I can commence for my current client"
+  }, {
+    "id" : "2ab2dc5c-d7be-4cd7-ada6-3bd0a7f17843",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is a pension {@account_number 400349056} I can commence for my current client"
+  }, {
+    "id" : "d7829dd7-0ae4-43df-93bf-693f9d008443",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the method to commence pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "04a92c43-f135-438e-92e3-0daeff91c2e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the method to commence pension for {@account_number 400349056}?"
+  }, {
+    "id" : "91948e82-2434-44fb-9793-8933cec0dfd6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the method to commence pension {@account_number 400349056}?"
+  }, {
+    "id" : "058b9fa0-caa5-4fce-96f2-a26967cfd857",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the method to commence pension?"
+  }, {
+    "id" : "69f5ff3d-6d0e-4b38-9de1-25ee8fc033d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure for commencing pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "0adf6252-24a3-40bb-82b0-0c46d6f88929",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure for commencing pension for {@account_number 400349056}?"
+  }, {
+    "id" : "96d9841d-b905-43c1-ae24-9334833d4903",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure for commencing pension {@account_number 400349056}?"
+  }, {
+    "id" : "226081c3-1766-4875-aa53-d4069cc3c5f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What way to start the pension"
+  }, {
+    "id" : "2ddbe496-6ae0-424e-bb90-a743dc4ecbed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What way to start the pension for account {@account_number 400349056}"
+  }, {
+    "id" : "74972e28-af3d-4e99-93db-5993e45ef2ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What way to start the pension for {@account_number 400349056}"
+  }, {
+    "id" : "097b4e5a-6633-4740-b41c-663c6cf7e7e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What way to start the pension {@account_number 400349056}"
+  }, {
+    "id" : "d7a7c0bd-5cbf-4862-94d4-1ee6cfc01b81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I commence the pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "eacebb78-642c-42b8-908a-d1008c511c2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I commence the pension for {@account_number 400349056}?"
+  }, {
+    "id" : "90aaf40c-457a-48a8-82e3-ff1f4ae4754a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I commence the pension {@account_number 400349056}?"
+  }, {
+    "id" : "6bd79314-b2f5-45ca-9200-22c54267f365",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to commence the pension for account {@account_number 400349056} for my client?"
+  }, {
+    "id" : "f04255b9-7c88-49c4-99fd-739b43ead3e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to commence the pension for my client?"
+  }, {
+    "id" : "1db1f2db-4695-49bd-805e-60e255a0768a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to commence the pension for {@account_number 400349056} for my client?"
+  }, {
+    "id" : "73dbf43b-096d-42a7-b155-537929405605",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to commence the pension {@account_number 400349056} for my client?"
+  }, {
+    "id" : "330f40d3-7aee-4e28-a8ff-61beecd927e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you help me with commencing a pension for account {@account_number 400349056} for my client?"
+  }, {
+    "id" : "b49d1a70-3249-4eb9-9bd7-68aba84f4271",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you help me with commencing a pension for my client?"
+  }, {
+    "id" : "9572f027-3ab7-4567-815d-58f259c139a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you help me with commencing a pension for {@account_number 400349056} for my client?"
+  }, {
+    "id" : "f290e5d2-0ea8-42cc-9719-1872297d6355",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you help me with commencing a pension {@account_number 400349056} for my client?"
+  }, {
+    "id" : "ac74fe23-e8af-4ce4-baf7-77db6a28ebc5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you mind setting up a pension for a client?"
+  }, {
+    "id" : "833cc67d-becd-402b-b245-a9d39758303d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you mind setting up a pension for account {@account_number 400349056} for a client?"
+  }, {
+    "id" : "1ab4be1f-f120-44fc-ab03-1d3a6f01f84f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you mind setting up a pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "a25599c4-60bd-487a-9e2e-3fa063073b7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you mind setting up a pension for {@account_number 400349056} for a client?"
+  }, {
+    "id" : "e960a67e-2b24-40a7-a8c6-9cbf67ca32fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you mind setting up a pension {@account_number 400349056} for a client?"
+  }, {
+    "id" : "9dfbdf57-819d-4df3-8f3a-3b7e391713b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account based pension",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "05f92641-9091-4cae-9bde-5814bedb9557",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "activate a client 's pension",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f5b13c88-f0f0-42e4-9c9f-ca58cd7a94b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "age of pension access",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "21ccffa6-73d3-40d4-9568-d89037cfbcd9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any guideline to commence the pension for account {@account_number 400349056}? please."
+  }, {
+    "id" : "c01c6727-12ec-43e5-9d78-ff66f7c4952a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any guideline to commence the pension for {@account_number 400349056}? please."
+  }, {
+    "id" : "76019710-5f6f-4b0d-81ed-bfb3ace19192",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any guideline to commence the pension {@account_number 400349056}? please."
+  }, {
+    "id" : "650c4f61-1cec-41f4-8c74-3b99e7ffb704",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any guideline to commence the pension? please."
+  }, {
+    "id" : "c93814ac-ba7b-4cc2-bbe4-a9d122428e72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply for pension",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9bcb0ca4-ab8a-42d4-bf0b-e158219b9452",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i open a pension phase account now that i am retired",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bd986e6b-d07d-41df-9a3f-5899e4a847be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you commence a pension whilst waiting for settlements",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "95ce4b74-0f09-48bf-8540-577a65a463ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please confirm commencement of pension",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "914fc607-540c-4945-85d5-e4f1f93a7b4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot set up pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9c0986c7-67ec-4e63-8102-99258007ece7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any guideline to commence the pension for account {@account_number 400349056}? please."
+  }, {
+    "id" : "7cb4016d-91ff-4fb2-a3b7-43206eac0290",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any guideline to commence the pension for {@account_number 400349056}? please."
+  }, {
+    "id" : "31eb83d8-e48e-4569-8fb7-20162510c5e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any guideline to commence the pension {@account_number 400349056}? please."
+  }, {
+    "id" : "8f465c1a-812c-4fcb-ab9f-a669e21493f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any guideline to commence the pension? please."
+  }, {
+    "id" : "d0f32819-86cc-4443-a210-98bab3b066a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply for pension",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "bf200e01-d8c0-4830-bdf9-23bd725cc74d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i open a pension phase account now that i am retired",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "82d97c5d-5b32-472f-878c-653ab320121b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you commence a pension whilst waiting for settlements",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7913def9-5d36-43d7-a0d2-4826a36a7d97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please confirm commencement of pension",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9fe12efd-fcd3-4a54-b0ed-ef64f99a2fdc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot set up pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3041ebd0-6e33-4782-8522-8dfdba7684df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any guideline to commence the pension for account {@account_number 400349056}? please."
+  }, {
+    "id" : "950e8503-6d6e-4083-9835-4af46659ce34",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any guideline to commence the pension for {@account_number 400349056}? please."
+  }, {
+    "id" : "473984e7-75fc-4b21-83ea-d5fa0da95a02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any guideline to commence the pension {@account_number 400349056}? please."
+  }, {
+    "id" : "23b15f0a-e9f4-45e6-85e2-25d4ca167e96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any guideline to commence the pension? please."
+  }, {
+    "id" : "7a70e2f3-20d1-4ed6-b362-ae9f8bc54896",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply for pension",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9ea32626-1d85-4c0c-a688-7b474a00de85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i open a pension phase account now that i am retired",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "957ff450-ebb1-491c-a606-1c8961c9b664",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you commence a pension whilst waiting for settlements",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "02cc8f39-09f3-4f29-a4d6-09fd97a733d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please confirm commencement of pension",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8d5c259d-8063-462a-a153-b5511dbd3aba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot set up pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "37895735-8ba3-4eea-9cd5-2a7bb89e69cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "client pension for account {@account_number 400349056} setup"
+  }, {
+    "id" : "986e22c5-de66-4255-a753-e15c64500e2e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "client pension for {@account_number 400349056} setup"
+  }, {
+    "id" : "87fe97f5-a7b6-4824-9ba5-4dbaad188e1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "client pension setup"
+  }, {
+    "id" : "a7f6a8e1-d309-40f0-a34d-d1eb522aea8b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "client pension {@account_number 400349056} setup"
+  }, {
+    "id" : "2e2fd66d-fcbe-4e50-b103-bf862049166a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commecne a pension",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "34c69ad8-27f5-4e74-b23b-161e0c10a8f9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence an account based pension",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "41d52be3-5a0b-416b-86dc-41cde06c8b3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence my pension",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "80552323-7e96-4c21-a4b5-9915fb325c89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "cb7726a7-875b-4adb-9feb-a131f3b84f17",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "commence pension for account {@account_number 400349056}"
+  }, {
+    "id" : "9d729b7a-5465-4d53-886c-bab2bd02212d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "commence pension for {@account_number 400349056}"
+  }, {
+    "id" : "10f2a5ea-60c7-44ce-9ef4-b2801a8c6203",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence pension form",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "72367032-1654-4623-943e-c87960d82f40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence pension partial",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e0b2f416-c2cd-44f6-8169-0e08509e49cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence pension payment",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "2b5eeeac-c82f-4345-8766-f04ed0d9c783",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence pension payments",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e5f170d4-452b-46c7-bdd9-b11c84505c95",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence pension process",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7d01c7be-6907-45e6-9562-882371e5e613",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence pension steps",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "18a3fe27-d972-45de-ade8-6c1a2d355115",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "commence pension {@account_number 400349056}"
+  }, {
+    "id" : "1f620439-69e0-46ce-a3c5-12f982ff8df9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "commence the pension"
+  }, {
+    "id" : "c322ae2d-0c11-4c63-b1c6-e5459ecfdefe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "commence the pension for account {@account_number 400349056}"
+  }, {
+    "id" : "5751685f-70cb-4028-ba3c-0c8ec6a22427",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "commence the pension for {@account_number 400349056}"
+  }, {
+    "id" : "e8c08896-e317-4ff5-b4d5-39b7127c4717",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "commence the pension {@account_number 400349056}"
+  }, {
+    "id" : "2458a3d3-7bb8-485e-b617-10c526a8186f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence ttrp",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "93218281-9a04-41ef-9d39-60d2e5b84a03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commencing a pension options",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b66f2f09-c338-473f-8337-4da6cf899671",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commense pension",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "a873757a-4b82-4bf0-a32f-ee399c787a43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "convert super to pension",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "8663061f-e3a5-440b-86de-ae4285548168",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "create anew pension",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "745b1e83-5994-4331-b1d9-d5ef33e8086c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "death benefit pension",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ee30a0e5-a2e7-4a04-a9bd-e680fb3e880c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do I commence the pension"
+  }, {
+    "id" : "5c20ceac-762b-4810-8629-6509ca5b0529",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do I commence the pension for account {@account_number 400349056}"
+  }, {
+    "id" : "1b407d53-0718-4906-9e71-3ddb5939ed4c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do I commence the pension for {@account_number 400349056}"
+  }, {
+    "id" : "4d27d25c-dd26-4e18-b869-f5e7b501c40f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do I commence the pension {@account_number 400349056}"
+  }, {
+    "id" : "a2b73f3e-0ca9-4590-acd9-a1b51c133caf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "enter what to start pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "c3a81cfa-4b92-40d8-8c79-40e3877a7e12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "enter what to start pension for {@account_number 400349056}?"
+  }, {
+    "id" : "33b8c3d9-80f2-4e18-94b9-4f57e383a5b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "enter what to start pension {@account_number 400349056}?"
+  }, {
+    "id" : "7a5414fe-1a99-4a1a-b0e7-3c961862802b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "enter what to start pension?"
+  }, {
+    "id" : "3a25f541-eb00-40a3-8a6a-460900bf982d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "figuring out how to do pension commencing"
+  }, {
+    "id" : "618a83a5-474d-4e65-919d-5577c04e06a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "figuring out how to do pension for account {@account_number 400349056} commencing"
+  }, {
+    "id" : "4f7046c1-1865-4b0f-b03b-0fc400adb633",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "figuring out how to do pension for {@account_number 400349056} commencing"
+  }, {
+    "id" : "983e282b-40f6-4947-a7fc-ffdd83569bec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "figuring out how to do pension {@account_number 400349056} commencing"
+  }, {
+    "id" : "60fab17d-c3e7-4ced-94f0-7ad304da2a33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "follow on pension acoount commencement",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e27144bf-96c1-4b6e-a198-2cb714b18105",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello - i have a bt super account and wish to open a retirement pension account what is the minimum and maximum that i can"
+  }, {
+    "id" : "36f27e4e-d1cb-4e0c-ad12-f33e8abe3ba0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i have recommenced mr bob pension but the site says pension not commenced has it",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "1a25ac32-7da8-4243-818d-734d446a412e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi does a pension automatically commence"
+  }, {
+    "id" : "29fb5d4c-950c-45a9-973c-11cb8fa1463b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i commence pension",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bbc6b2fe-436a-4cfa-82f2-d6732edb6263",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am unable to submit a pension application",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "db25df2c-da72-4a6d-a98c-73de70811917",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have question about amalgamating {@account_number 1} pension account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "f8929a16-a793-473c-97f2-37ac0454148f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi im wanting to enquire about a clients pension account"
+  }, {
+    "id" : "f401c247-d224-476b-9ed9-5663883127fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i retrieve the moving to pension form for my client who will turn 11 years soon thanks",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "0206bfce-a800-4956-b47f-c19a81b09453",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi, need support to work on pension"
+  }, {
+    "id" : "99449508-a59d-4e6e-bfb1-be2c357d9cf9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi, need support to work on pension for account {@account_number 400349056}"
+  }, {
+    "id" : "61ff5bd0-6160-4afb-a1d5-18d75e04eefe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi, need support to work on pension for {@account_number 400349056}"
+  }, {
+    "id" : "505c7b3d-e52b-4ea8-b79f-edcb75ce7ad3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi, need support to work on pension {@account_number 400349056}"
+  }, {
+    "id" : "876c5cea-486b-4fa9-b6d8-179e54fa9f3c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i commence my pension",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "d66c6b3e-d8aa-4449-898b-0a69c0063760",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I start pension for account {@account_number 400349056} for client?"
+  }, {
+    "id" : "8c13b082-c539-4bca-ae5d-419fa2b8ee3d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I start pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "98ea5a1c-f333-428c-99ea-8792e866c94b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I start pension for client?"
+  }, {
+    "id" : "9a4335cd-513e-4f8d-b970-d0f6f5f4161b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I start pension for {@account_number 400349056} for client?"
+  }, {
+    "id" : "6c513996-fc94-47e9-be00-89fd7c3e51ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I start pension {@account_number 400349056} for client?"
+  }, {
+    "id" : "d4b89cc3-b575-4aef-98db-36bbeeea28b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I start the pension for account {@account_number 400349056} on my computer?"
+  }, {
+    "id" : "76dbabf2-371e-4481-8271-ffd7c0545545",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I start the pension for {@account_number 400349056} on my computer?"
+  }, {
+    "id" : "b0ee8452-c029-41a1-9756-cbd792048ff8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I start the pension on my computer?"
+  }, {
+    "id" : "60ee6797-f01e-4e28-89e8-10221f3eb19f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I start the pension {@account_number 400349056} on my computer?"
+  }, {
+    "id" : "46d5c052-fd76-49b0-9e88-166847cd2594",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i commence pension",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "dcda7ac8-3efa-400c-8b97-077e720b072c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i commence the pension for account {@account_number 400349056}? please"
+  }, {
+    "id" : "b2ba9606-ef5a-4586-ace9-e9e97cf9f8e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i commence the pension for {@account_number 400349056}? please"
+  }, {
+    "id" : "338325a6-cb42-4076-94a7-8949ad807297",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i commence the pension {@account_number 400349056}? please"
+  }, {
+    "id" : "8a00bbfa-6a2a-458a-8420-1a151056b9e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i commence the pension? please"
+  }, {
+    "id" : "ddff7eaa-bf4d-4a05-97ff-b59e33470f85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i commenct pension ?"
+  }, {
+    "id" : "1ca98244-fd33-4698-97b3-c813ba6d4c58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i commenct pension for account {@account_number 400349056} ?"
+  }, {
+    "id" : "468e6ab4-de03-45c3-aa75-160d98c7887f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i commenct pension for {@account_number 400349056} ?"
+  }, {
+    "id" : "03b7eedb-f801-497f-bfa4-77cdd909b6f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i commenct pension {@account_number 400349056} ?"
+  }, {
+    "id" : "eecf272d-146d-496b-9333-ee9f5611f173",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i go about commencing my pension"
+  }, {
+    "id" : "62b3437d-2bc2-447e-a9ec-7203930c4974",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i go about commencing my pension for account {@account_number 400349056}"
+  }, {
+    "id" : "9bc659ac-be9f-47c4-9ff1-312da7ca1e30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i go about commencing my pension for {@account_number 400349056}"
+  }, {
+    "id" : "992458ff-2feb-4836-bbcc-53fb06d901ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i go about commencing my pension {@account_number 400349056}"
+  }, {
+    "id" : "1f2b36ec-c2e9-48ce-a63a-18e1806f17b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i open a pension account - apparently i need a new pension account number to turn someo f my super into a pension"
+  }, {
+    "id" : "0cfcc93d-c98f-40d7-b3f3-115b5db4a3e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i setup a pension account for an existing client with an accumulation account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "83138b09-8e5d-44dd-8665-627af17d251c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you commence a pension",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "fc3ac805-20a4-48db-bfb0-b495384311e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to commence a pension"
+  }, {
+    "id" : "3c72dc24-bc86-4f83-a322-84e068871674",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long to commence a pension"
+  }, {
+    "id" : "9b280fe7-e912-4581-afab-676e3e093329",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long to process start pension",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "752fd629-b3a6-4e82-9aa1-8f6189a39620",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to commence a pension",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "7974d10a-4a7b-4a04-a463-4292858b4d54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to commence an account based pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f0dd5db6-c34c-4f72-8293-a2285d7fe7df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to commence my pension"
+  }, {
+    "id" : "bad736d5-bee0-4cc4-8240-305f13e468e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to commence my pension for account {@account_number 400349056}"
+  }, {
+    "id" : "c5a85860-c3a9-4507-895c-12393aed9154",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to commence my pension for {@account_number 400349056}"
+  }, {
+    "id" : "88386f0c-c1c5-46fe-909d-655290d64c38",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to commence my pension {@account_number 400349056}"
+  }, {
+    "id" : "c86e2657-b864-4d75-a6d2-ee534dc245e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to commence pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "470c8085-9941-4122-88a8-4625ffe4746b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to commence pension for account {@account_number 400349056} on desktop"
+  }, {
+    "id" : "71956e8a-8639-4bee-9e48-c737517d2f8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to commence pension for {@account_number 400349056} on desktop"
+  }, {
+    "id" : "57884c0d-5f32-414b-983e-fd290bcb4800",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to commence pension on desktop"
+  }, {
+    "id" : "cf4bc39a-eed1-4546-987f-371b6c88c164",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to commence pension {@account_number 400349056} on desktop"
+  }, {
+    "id" : "dea88b01-7e64-4e72-9ece-a0c2af33ccbd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to do a pension commencement",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "59b7dcc2-e561-4559-b64e-7dbddaf26ea6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to download pension summary"
+  }, {
+    "id" : "f2d8bb93-5718-4f6d-85c2-4ddff2893b84",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to draw a mothly pension",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "37b60ced-9e04-4610-b3e1-7c582d8874c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to initiate a pension",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "f5e7252c-3e49-4379-aeac-5d5f2543b727",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to make a pension payment"
+  }, {
+    "id" : "5dd8ba15-0f1f-456f-9645-cf20b70b1854",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to notify retired",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d6632963-7734-42cc-9a2f-b8173504d737",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to notify the client is retired",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1d471e53-628b-4bd5-8bdd-67457321ed64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to open a pension account with a downsizer contribution",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cf027adf-2997-40e0-8059-00bb967aafc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to open pension for client",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "77e39768-d7ac-4569-9bf1-8b3f7afd9982",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to reboot pension",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "10bbc5e4-b608-470f-87fd-e01e7937498f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to setting up a pension",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "d250cea8-ea09-4571-be94-3c40964a80a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to start a pendion",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "7ab0d8ca-1525-4ee1-84f5-ed5507f5eae2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how would I commence the pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "aea6a47b-63b0-4af5-8dd5-2ceea1dfdc3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how would I commence the pension for {@account_number 400349056}?"
+  }, {
+    "id" : "db86b20f-d3b3-4be2-9ef4-fea2d8f91d7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how would I commence the pension {@account_number 400349056}?"
+  }, {
+    "id" : "de071014-3ea2-4c14-a975-08df08f067b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how would I commence the pension?"
+  }, {
+    "id" : "76d4428d-702e-4718-b753-e7bad520c782",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i NEED HELP SETTING UP PENSION"
+  }, {
+    "id" : "530290d5-9aa6-4bb9-aebf-64316a9cdeba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i NEED HELP SETTING UP pension for account {@account_number 400349056}"
+  }, {
+    "id" : "3d763423-761d-497b-ad60-0143f0fd515e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i NEED HELP SETTING UP pension for {@account_number 400349056}"
+  }, {
+    "id" : "47ded370-b939-4443-b1ff-ce746b9251e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i NEED HELP SETTING UP pension {@account_number 400349056}"
+  }, {
+    "id" : "bd178a70-915b-4085-abc8-f715e49bd4ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to commence a pension for a client",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "79db4735-7c79-4612-bbbb-e49d3d9bdf5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i think its super and going to be changed to a pension",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "dfcd1263-807c-4929-b10a-8e679ab3fb9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to open a pension account"
+  }, {
+    "id" : "78622f23-6ee2-453b-b03e-abc883258574",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to open a pension account for an existing client"
+  }, {
+    "id" : "835cadee-1712-4043-8c50-619b6dfb90fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to start a pension",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b0343fbf-76d2-46a5-9d35-f431fea076a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to start a pension for a member is there a form"
+  }, {
+    "id" : "084fd3ba-178f-4b9f-8376-22f204198e92",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to start having a pension",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "9c8904a8-3de3-4d60-8c40-ac917924b055",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transition my funds",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "364139d6-e067-4e91-a7d2-175fea275f97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to write a letter to you about accessing my super now that i am turning 11 also about transitioning my super to a",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0dde3f97-63da-45da-8dc5-c1302e785647",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "initial deposit to pension",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "809f9ff0-5579-4b91-b407-5fce267d2591",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "initiate pension from super account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1e4ac750-16cc-4f82-8429-97c37d294ad8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "linking investment to pension account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "caff85b5-c13b-47af-ab1c-e4ee2c28cccc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "monthly super payments",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "ab1a8c6a-39d0-4fb0-a71b-d3e7e4379eaf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new pension account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c8dbf13f-6a9c-4648-a61c-76c659547a78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "once the client has signed that and made the contribution do i need another form to convert back to pension"
+  }, {
+    "id" : "7780009f-c945-4079-a952-4bb37447c1eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open a death benefit pension",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e6572d16-9ca1-4623-ba82-34eff8933bd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open a new pension",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8705a595-a417-4260-aa7c-8636819ab244",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open an account based pension",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "447303c9-6319-41c0-956f-9c3044052821",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open death benefit pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "aab6ff4c-5f74-4f07-90f3-e17963dd510f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open pension",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "432e0378-071d-4f4a-abc9-c8ce61d35da3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "08f08ceb-90e8-4270-a157-4f9a09669d31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension cmmencement not working",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "00b6fde3-a16a-4059-8776-52cda550260d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension commencement",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6c8c79a6-1eec-40df-9ec2-2459e408fa30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension commencement form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e4b909b9-ef21-4656-b8e5-6804d859f0fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension commencement query",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9f1f1a9e-51ef-4ef1-9f06-f50790b87492",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension commencement status for a client please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "cbd41bc2-a654-496f-9ded-a95cc31e7db3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension commencement timeframe"
+  }, {
+    "id" : "dad35eda-667d-4fb1-b0cd-494d5d655a9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "pension commencing"
+  }, {
+    "id" : "66883b0c-ff51-4515-b5d8-cb0797c16b0d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "pension for account {@account_number 400349056} commencing"
+  }, {
+    "id" : "939b5acc-15b3-416b-a6f5-bff87d352c45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "pension for {@account_number 400349056} commencing"
+  }, {
+    "id" : "574fb433-4707-409f-aac5-03e60fe0bc05",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension help please",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "4c774f1c-8191-4300-9b70-95dcfd9a69c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension restart",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "24b3b3e3-bf89-4a1c-94f3-69201523469a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension schedule",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "e2c9bdb5-8ccb-407b-aace-3c64df0b877a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension withdrawals",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "0f1b9ed8-abac-4db3-8120-abce688a2bd8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "pension {@account_number 400349056} commencing"
+  }, {
+    "id" : "b5df3052-ef79-47ca-9be8-1f8cee1951a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "printing pension details",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "707fb7ea-12f3-4b70-a8c2-1f7c1c8e7bef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "process of starting a pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "00a63bf8-aa48-41ab-83e5-02ac152a0d83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "qustion about pension start",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3a0e1d95-76b9-4144-b590-d89d00ad9b32",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "retired and want to access super",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "e830b766-f162-4d87-a1ac-4cd4b7731d3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover accumulation to pension",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "aec614ae-6830-4d75-98bb-b5e2b5e4c8a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover from accumulation to pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "65d0bbe5-3aff-4a98-aa85-3be405fb89cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover to pension",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7c7c2d1e-5a1b-4d65-be9c-8dd4bd38ebf1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set up pension"
+  }, {
+    "id" : "b5ec5746-c7c0-4061-9956-a626022718df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set up pension for account {@account_number 400349056}"
+  }, {
+    "id" : "4b236c75-2f71-4531-a779-b76f0ee4dbfb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set up pension for account {@account_number 400349056} for client?"
+  }, {
+    "id" : "e490c836-4b5e-48b6-94e2-38b847f779c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set up pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "1e83ffd3-3604-462e-8a40-48c28efdb179",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set up pension for client?"
+  }, {
+    "id" : "3af1968f-3528-454c-a173-cd3a49d3c4d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set up pension for {@account_number 400349056}"
+  }, {
+    "id" : "1d72ef64-0ca5-499c-8535-55e34091634b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set up pension for {@account_number 400349056} for client?"
+  }, {
+    "id" : "81292f99-b685-4757-be80-4cc4dce40c57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set up pension {@account_number 400349056}"
+  }, {
+    "id" : "6e6448c3-033e-4d2d-8bf7-2b310cdec8bc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set up pension {@account_number 400349056} for client?"
+  }, {
+    "id" : "11e5ca2a-53d6-428f-bc14-f075e35fea6c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me how to set up a pension for a client"
+  }, {
+    "id" : "d01dbe93-c75d-4dbf-adc2-d48e817e77de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me how to set up a pension for account {@account_number 400349056}"
+  }, {
+    "id" : "5fb11650-3678-4953-a3b7-8843721acf7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me how to set up a pension for account {@account_number 400349056} for a client"
+  }, {
+    "id" : "4f01304d-a91d-4b07-876c-85ec0bb0da44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me how to set up a pension for {@account_number 400349056} for a client"
+  }, {
+    "id" : "748ff394-0e4b-4f8d-ad00-bf8bc3a97d35",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me how to set up a pension {@account_number 400349056} for a client"
+  }, {
+    "id" : "9d98b76d-f0b6-4c08-bcbd-ce625b7f0687",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "start a new pension",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "4988a4dd-13ba-4608-8606-6cf2ff7000b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "start a pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ded285e9-6ac3-4910-8ad2-17609eb5c78f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "start a pension from accumulation",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "dce1fbd4-df11-40e9-92f3-f148e883ec8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "start pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "92577b08-94d8-40c3-b696-a1311b00787a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "start pension for account {@account_number 400349056}"
+  }, {
+    "id" : "42cf76d2-7cbd-41b8-9eeb-a6347f3540cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "start pension for account {@account_number 400349056} for client"
+  }, {
+    "id" : "dafbb19c-5b81-4f12-8cd5-b025d2e7e714",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "start pension for client"
+  }, {
+    "id" : "6d606fa3-776a-436d-9920-399dbe0f051f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "start pension for {@account_number 400349056} for client"
+  }, {
+    "id" : "62d971cb-6e1a-4366-8804-e7b0ff931710",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "start pension form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d6f61ced-0c71-4737-8b90-2da3ea8a4ed6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "start pension from super",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c07e5b81-2497-430c-8e63-b889921155b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "start pension {@account_number 400349056} for client"
+  }, {
+    "id" : "811e210d-ac97-4baf-832a-3c3a774745b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "switch to pension",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "89e21f57-69d7-4c64-b577-3bb008aa6a03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax free pension",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1b058a99-d29e-4307-9d5c-0befb8e19947",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me about pensions",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "3f21da9d-cc73-4b46-b97b-5c53569c0467",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me how to set up a pension for a client step by step"
+  }, {
+    "id" : "4f3a6193-f793-4f5e-86a0-4f1a96823637",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me how to set up a pension for account {@account_number 400349056} for a client step by step"
+  }, {
+    "id" : "63c44f6a-2f10-4a6f-a358-298f5c552681",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me how to set up a pension for account {@account_number 400349056} step by step"
+  }, {
+    "id" : "16040702-0d22-4693-a8b6-6d15bc0bf9b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me how to set up a pension for {@account_number 400349056} for a client step by step"
+  }, {
+    "id" : "e7aaa77d-f44b-443e-9c8b-c127ebc52d75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me how to set up a pension {@account_number 400349056} for a client step by step"
+  }, {
+    "id" : "ec41990d-9271-4d87-84b5-18ec3268c641",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me how to start a pension for a client"
+  }, {
+    "id" : "495660b3-c26f-414e-b3e1-6a27d3c006d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me how to start a pension for account {@account_number 400349056}"
+  }, {
+    "id" : "7028e54e-5d05-4074-8ba8-63d630b71037",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me how to start a pension for account {@account_number 400349056} for a client"
+  }, {
+    "id" : "264e03f3-2387-4595-a0f1-98debb5ed5a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me how to start a pension for {@account_number 400349056} for a client"
+  }, {
+    "id" : "857284af-8a00-445f-a86a-f57e717de73a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me how to start a pension {@account_number 400349056} for a client"
+  }, {
+    "id" : "b1464560-0f61-4ae4-a89c-c652f5133eb7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thank you is it possible to switch the super to pension without the client needing to sign a form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "099438ca-ebe0-4e60-ade9-65e4426a98c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the documents to start a pension",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "91431232-2fe5-486b-ad77-4a7f9904bfb5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thank you is it possible to switch the super to pension without the client needing to sign a form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7b4fc265-68b4-4c42-9f1b-1cb5a6054d32",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the documents to start a pension",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "8ca3c8f6-bfd5-4502-96aa-7015b70e2886",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what form do i use to convert my accumulation to pension phase",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ab34cbe1-8cc4-4117-8025-3a79840065a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what frequencies are available"
+  }, {
+    "id" : "4997b418-bc1b-4829-b195-c77dd2ff0b44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the timeframe"
+  }, {
+    "id" : "f20a668e-c74d-4533-bc05-04cc5a386f4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what to do to get a pension",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "2c2be69c-c6b5-4bec-be7d-ba8f923b690c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what to do to transfer existing pension to pension to receive more fund then commence pension again",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b1162d3e-90cf-4031-8876-a7994fd1dfa6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when clicking on the commence pension payment for a client that is about to commence a new pension we can not seem to see how",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "578f651c-c19e-436d-a725-bf3d239c57f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when opening a new customer account for a pension does a new super account have to be opened one st"
+  }, {
+    "id" : "229794d9-d44d-4c09-8702-aa457b11800c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will clients one st pension payment start"
+  }, {
+    "id" : "a8aef58a-39d6-4e22-a2b3-025ad6f6307c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can i trade my pension for account {@account_number 400349056}?"
+  }, {
+    "id" : "e366b32b-73e5-4c53-9473-0daa114b0534",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can i trade my pension for {@account_number 400349056}?"
+  }, {
+    "id" : "d43e2d7b-0ace-4e82-82f3-ac63cb854ea1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can i trade my pension {@account_number 400349056}?"
+  }, {
+    "id" : "dcd24e99-81da-4b07-8836-2238e62592f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can i trade my pension?"
+  }, {
+    "id" : "72f6473e-1a7f-427e-855b-c8d12e7435a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has my pension not commenced i received an email on the 11 / 11 / 1111 advising the pension was ready",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "6f2794a4-d107-4fa3-afcf-53bd737b32e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "will you know steps to commence the pension"
+  }, {
+    "id" : "767bcdfa-f7a8-464f-b4bf-0b5f7e688f39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "will you know steps to commence the pension for account {@account_number 400349056}"
+  }, {
+    "id" : "6d15d796-f0b0-4492-8a5e-1cc3d8fba1f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "will you know steps to commence the pension for {@account_number 400349056}"
+  }, {
+    "id" : "59d2d103-a637-4822-9bce-efc9b2ab52d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "will you know steps to commence the pension {@account_number 400349056}"
+  }, {
+    "id" : "d30f99b4-5a0d-472d-b1b3-20e433017f88",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "working on commencing a pension"
+  }, {
+    "id" : "203934b0-ba84-4eb6-92d9-6d80fcebca99",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "working on commencing a pension for account {@account_number 400349056}"
+  }, {
+    "id" : "f06a3e62-d37f-420c-96a1-e16f03e9e90d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "working on commencing a pension for {@account_number 400349056}"
+  }, {
+    "id" : "d97fef83-5927-40c0-b85d-8ee1bacc2e4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "working on commencing a pension {@account_number 400349056}"
+  } ]
+} ]

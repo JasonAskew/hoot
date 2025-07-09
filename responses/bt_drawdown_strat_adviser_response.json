@@ -1,20 +1,24 @@
 {
-  "name" : "bt_drawdown_strat_adviser_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "I can help you amend the drawdown strategy for this client. Please select the 'Go to page' button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I can help you amend the drawdown strategy for this client. Please select the 'Go to page' button."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/drawdown-strategy/drawdown_strategy.html",
+          "label": "Go to page"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/drawdown-strategy/drawdown_strategy.html",
-        "label" : "Go to page"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_drawdown_strat_adviser_response"
 }

@@ -1,94 +1,120 @@
 {
-  "name" : "bt_asset_transfer_in_bt_panorama_investment_null_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To initiate an asset transfer if you hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select the relevant 'Australian Standard Transfer' option, then follow the prompts\n\nTo initiate an asset transfer if you do not hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select 'Offline asset transfer - Investments' then follow the prompts"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To initiate an asset transfer if you hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select the relevant 'Australian Standard Transfer' option, then follow the prompts\n\nTo initiate an asset transfer if you do not hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select 'Offline asset transfer - Investments' then follow the prompts"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "internal",
+          "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label": "Go to page"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "internal",
-        "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-        "label" : "Go to page"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Your financial adviser on file can perform asset transfers on your Panorama account at your request. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Your financial adviser on file can perform asset transfers on your Panorama account at your request. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I can show you how to initiate an asset transfer, please select the 'Guide me' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "911707",
+              "label": "Guide me"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "I can show you how to initiate an asset transfer, please select the 'Guide me' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "911707",
-          "label" : "Guide me"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_asset_transfer_in_bt_panorama_investment_null_response"
 }

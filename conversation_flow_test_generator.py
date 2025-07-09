@@ -129,11 +129,15 @@ class ConversationFlowTestGenerator:
     def find_matching_rule(self, rules: List[Dict], slot_name: str, value: str) -> Optional[str]:
         """Find the matching rule for a given slot value"""
         for rule in rules:
-            criteria = rule.get('criteria', [])
-            for criterion in criteria:
-                if (criterion.get('name') == slot_name and 
-                    criterion.get('value', '').lower() == value.lower()):
-                    return rule.get('response_name')
+            conditions = rule.get('conditions', {})
+            payload = conditions.get('payload', {})
+            
+            # Check if this rule matches the slot and value
+            if (payload.get('slot') == slot_name and 
+                payload.get('value', '').lower() == value.lower()):
+                return rule.get('response_name')
+        
+        logger.warning(f"No matching rule found for {slot_name}={value}")
         return None
     
     def generate_conversation_flow_tests(self) -> List[Dict]:
@@ -183,6 +187,10 @@ class ConversationFlowTestGenerator:
                     continue
                 
                 # Create test case for each valid segment
+                # Get clarification response content
+                clarification_response_data = self.responses.get(clarification_response, {})
+                clarification_response_content = self._extract_response_text(clarification_response_data)
+                
                 for segment in valid_segments:
                     # Create multi-turn test case
                     test_case = {
@@ -195,6 +203,7 @@ class ConversationFlowTestGenerator:
                                 'user_input': initial_trigger,
                                 'expected_intent': intent_name,
                                 'expected_response': clarification_response,
+                                'expected_response_content': clarification_response_content,
                                 'expected_quick_replies': [qr['label'] for qr in quick_replies]
                             },
                             {
@@ -222,19 +231,40 @@ class ConversationFlowTestGenerator:
         if 'display_sentence' in intent_data:
             return intent_data['display_sentence']
         
-        # Try to load from intent_data file
-        intent_data_file = self.base_path / 'intent_data' / f'intent_data_{intent_name.lower()}.json'
+        # Try to load from intent_data file with different naming patterns
+        intent_name_lower = intent_name.lower()
+        possible_files = [
+            self.base_path / 'intent_data' / f'{intent_name_lower}_train.json',
+            self.base_path / 'intent_data' / f'{intent_name_lower}_test.json',
+            self.base_path / 'intent_data' / f'{intent_name_lower}_seed.json',
+            self.base_path / 'intent_data' / f'intent_data_{intent_name_lower}.json'
+        ]
         
-        if intent_data_file.exists():
-            try:
-                with open(intent_data_file, 'r') as f:
-                    data = json.load(f)
-                if isinstance(data, list) and len(data) > 0:
-                    for item in data:
-                        if item.get('trigger_sentence'):
-                            return item['trigger_sentence']
-            except:
-                pass
+        for intent_data_file in possible_files:
+            if intent_data_file.exists():
+                try:
+                    with open(intent_data_file, 'r') as f:
+                        file_data = json.load(f)
+                    
+                    # Handle different file formats
+                    if isinstance(file_data, list) and len(file_data) > 0 and 'data' in file_data[0]:
+                        # New format: [{data: [...]}]
+                        data = file_data[0].get('data', [])
+                    elif isinstance(file_data, dict) and 'data' in file_data:
+                        # Dict format: {data: [...]}
+                        data = file_data.get('data', [])
+                    elif isinstance(file_data, list):
+                        # Direct array format
+                        data = file_data
+                    else:
+                        data = []
+                    
+                    if isinstance(data, list) and len(data) > 0:
+                        for item in data:
+                            if item.get('trigger_sentence'):
+                                return item['trigger_sentence']
+                except:
+                    pass
         
         # Fallback
         clean_name = intent_name.replace('bt_', '').replace('_', ' ')

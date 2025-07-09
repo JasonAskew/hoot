@@ -1,20 +1,24 @@
 {
-  "name" : "bt_panorama_app_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Some features of the Panorama app include: \n• Sign in with 4-digit passcode or fingerprint technology\n• View your total portfolio balance and performance\n• View messages and alerts\n• Review your annual statements\n\nSelect 'Go to page' to download the Panorama app."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Some features of the Panorama app include: \n\u2022 Sign in with 4-digit passcode or fingerprint technology\n\u2022 View your total portfolio balance and performance\n\u2022 View messages and alerts\n\u2022 Review your annual statements\n\nSelect 'Go to page' to download the Panorama app."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://www.bt.com.au/personal/help/log-in.html",
+          "label": "Go to page"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://www.bt.com.au/personal/help/log-in.html",
-        "label" : "Go to page"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_panorama_app_response"
 }

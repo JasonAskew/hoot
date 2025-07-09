@@ -1,25 +1,27 @@
 {
-  "categorization" : {
-    "skill" : "accounts",
-    "tags" : [ "statements" ]
+  "categorization": {
+    "skill": "accounts",
+    "tags": [
+      "statements"
+    ]
   },
-  "name" : "43_ViewStatements_S",
-  "display_name" : "43_ViewStatements_S",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "43_ViewStatements_S_Response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "43_ViewStatements_S_Response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "how do i view my statements?",
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "how do i view my statements?",
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "43_ViewStatements_S",
+  "display_name": "43_ViewStatements_S"
 }

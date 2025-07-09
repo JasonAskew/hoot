@@ -1,13 +1,16 @@
 {
-  "name" : "bt_download_as_document",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To save a webpage as a document, open the page in a browser, right click and select ‘Save As’. You can then choose the location and format to save the document in."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To save a webpage as a document, open the page in a browser, right click and select \u2018Save As\u2019. You can then choose the location and format to save the document in."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_download_as_document"
 }

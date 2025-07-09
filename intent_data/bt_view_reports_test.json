@@ -1,0 +1,814 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_view_reports_test",
+  "intent_name" : "bt_view_reports",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "d8046490-7899-4c0c-9439-f5ff32ea294c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "11 june valuations",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4b3f0ed7-986c-4d4d-8669-0321def74422",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 Audit Report from PWC Assurrance Ausit Report",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5b36fb18-b88f-45c3-9af6-133beb0a34ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Find my super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "284371d2-a1e9-40d4-bdfc-9a16ad850fc1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "General report",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "5e338b0d-dbc0-4887-89c0-42172ab4382c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi. Please advise how I can access my latest tax return.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "865456d6-5f13-47e1-892b-f7a7e1561e54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I run a report for advice fees",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "8ed54448-311d-44af-868b-ef6164788232",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to view my capital gains report?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cc2bd803-1ef9-4c76-8ea2-e0804928cdfd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I cannot find reports on the navigation bar",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8ac87635-956e-4082-8287-8929f307c12d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I cannot see where to download my latest tax return.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "6bb268fd-f601-4e52-a8a6-8791083d5a3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "11 june valuations",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1a83d3f8-52e9-4ed9-996f-48f5bf370337",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 Audit Report from PWC Assurrance Ausit Report",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8f603b49-c155-4b60-9055-68d47dc67a60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Find my super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9a7f480f-e3d0-4ba8-ad2f-113fb7931f43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "General report",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "23d7765a-e5c3-4d14-ac2a-0e31b07ad400",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi. Please advise how I can access my latest tax return.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "718e6398-3bf6-4ba3-a0c5-64dd882e95ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I run a report for advice fees",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "25f84074-ee86-4e0e-b415-8b47232d3627",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to view my capital gains report?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e50ed578-38cc-4071-b5db-d4a9e5733f2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I cannot find reports on the navigation bar",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "63d1b601-7e3a-4dff-a7a4-1c4e368e0e89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I cannot see where to download my latest tax return.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b22b8df6-40c7-4465-ab8c-06d43bb042a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need my CGT report",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0f8216bf-1c3e-425a-a408-e021eb4a505e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to see my performance statements",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c645282f-6740-4cf4-abbf-35e22a2a847b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to download the performance reports.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "57ab01ca-f29e-4bbb-a2aa-4cae0ff2e746",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want to print off the list of my investments. How dod I do this?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "dde68b5e-a489-41f9-a3cd-2076cc1dc929",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to see my contributions statement",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "25969754-a3eb-4cce-9483-37bd83a2b543",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "My accountant requires these for 11-11 yr for filing of returns The 1111 Panorama Tax Report. The 1111 Panorama Investment Report .",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "7adae8f8-d0b9-42c7-bb7b-1dca6e478d20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Portfolio Valuation reports",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6827571c-dc36-49fe-97cb-fcca2857972b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Portfolio valuation report",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "edbf767f-8ba7-49af-be48-78a2412fed86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Print off list of investments",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8a8ffbba-5f36-4b81-bc0c-77927f47b2d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Report",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "8a002e41-4750-48ed-8cf8-b552516eb7ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Require a Funds Under Management report..?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3f7698b3-c779-4cc1-8cd8-d0ace26ac664",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Review report",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fe2fd64b-23aa-4c14-aeb3-5001384d66c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "View reports",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e450c990-a27e-44da-89a4-7f858a2e9624",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is the report name that gives this detail",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "31dfe3f4-c9bb-4b14-8c88-cd7dcff0fef5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where to download my contributions summary?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "17967123-7016-4f38-80c4-008fb92e6a87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt cash account annual statement where can i find this report",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3dda186b-fd65-461e-a535-95032bcc08b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can clients generate these reports",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "99fa5174-1b62-4ee6-9c45-8976b68227b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i export my transactions as a csv",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "71adc276-cdef-4fca-a51d-b00dc52e4fbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash balance report",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "05b87c01-2ced-41d7-9efe-ca66b676b220",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt cash account annual statement where can i find this report",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ee3c836f-d3d2-421c-96bd-f37dd7de9cd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can clients generate these reports",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7b1cd2b3-0827-4574-b881-21d1073cc3b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i export my transactions as a csv",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "05383c16-9ca8-45fb-b03b-71b859396828",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash balance report",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8273bba9-7ac7-4372-a791-c100234e6947",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt cash account annual statement where can i find this report",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7f7909ec-9d25-48d7-babe-4e3f7c15c6c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can clients generate these reports",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "83a9770f-a0e6-4f03-9dd0-13a3fd3698f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i export my transactions as a csv",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6c2bf642-3c51-4253-88be-3df59305e9fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash balance report",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0b204135-e331-4873-b810-e3126257ffdf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution history report",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "881939d7-008c-4b7e-bb6d-4b4e58fc8114",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could you please advise me of the actual amount i initially invested",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cc6262a9-e15a-4534-be5b-5e595d6324f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could you send me my annual report so i can send to the accountant",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "361f9167-5538-45c7-be9c-62219b60c531",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "download tax report",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ea24e3ad-abda-4302-9901-899623ee3275",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "excess cash holding report",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5cb34db4-70db-4a03-b285-9a28195a8100",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "external assets reporting",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0ecca6c5-7c42-414d-8b39-240c6f594524",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fees paid to wealth trail the licensee rcti report",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e637871b-94a6-4a0d-b2c6-eac8ba7e1d55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find share report",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "214ee249-bc6f-47ad-bd82-80b4a9931f71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find tax report for 1111",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d821e169-44c6-441e-8217-cc2240175333",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find tax report for 1111 / 11",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "defca888-70cf-4a6a-9177-2625b2f310a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "generate a fee report for all clients",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "af751992-3683-4c57-aa19-7e63cbedf424",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am keen to get my portfolio valuation by 11 / 11 / 1111 and 11 / 11 / 1111 this is for tax",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2c20acf8-f266-4d1d-baa3-2ae545b0c4e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help me access a 11 month cash account statement for my client review expenses",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5ceb3e82-c657-4ddd-8fea-f47b99cce97a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - for one of our clients - teh contribution report shows they have made a ncc of 111111 $ for the fy1111 when looking",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "03f25fab-42ea-483a-aa44-89909e293cf5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi just want to ask where we can find the report collection section in bt panorama portal",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0d4bd37e-674c-4439-9873-44ad81bb731e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi my accountant is asking for a audit report for 1111",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "280f8d4c-c3a5-410f-bea2-7ec55c37f147",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i find my taxable income to give to my accountant for fy 11 / 11",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "12b33cf5-6fac-4bbc-960f-f20a40111aad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i locate the adviser 's reports",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "35370ac5-67bb-40aa-aeba-24f97e3f6233",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "historical number of units",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7dd19208-d3d6-4530-b26a-e2d512dcc543",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i find my income tax return for the year 1111 / 11",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fd40a255-e662-47a6-9c10-a9094f364912",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get a portfolio valuation as at 11 june 1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "94fa7cdf-6b82-4246-976b-3bdd5d7fc7cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i print a cash transaction report for last financial year",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "15353ffb-6c72-4954-a542-a2ebd8330ec0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i print off a report for centrelink",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "a8839825-f26f-4bd2-a364-bed14b00bc63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i produce a performance report that excludes since inception performance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "dff7995c-8734-498a-9b7e-d6e617468027",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i see client 's reports",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0de3f4b0-9a30-4f17-a308-513a0343b696",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i view reallocate accounts report",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7a15bead-04c5-4cf1-9399-c08fb20192b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I generate a report of the current value of the Superannuation and investment options? (ie, showing total balance, and value of the underlying securities)",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5acd3f31-116d-4ad0-a45f-79fdfa1a02d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i create a transaction report pdf",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8bf81a99-2f79-4214-a95d-d4ccabac6476",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find out how my investments have performed individually",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bc7fd7a6-7ac8-4231-94d5-e0e8f0ee2d6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i generate a year end tax report 1111 / 11 to show tax components of distributions received and accrued at 11 / 1",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e1cb86b8-d1ff-4ee7-91d0-70e42d5e8c66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i run a low cash balance report",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4f21f651-d6e9-475c-967f-af480f175320",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i run a monthly payment summary",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3a195da8-1d18-4b4b-b352-346357d5a6db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i run a performance report across a client group?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "db891cf9-5ba0-490c-b99c-91e9dfea5d16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i run a report as a 11 / 11 / 1111",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ecb239d1-7781-46a3-92c7-21fae667f842",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i view a report pack",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "59273908-7b28-49e4-8795-87821d61bf78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how have my investments performed",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "73347cd9-0a42-43e9-ba1e-664395e1cc5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to create a report pack",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "779c3db9-f279-46ec-adcc-c3cf8528159b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to customise reports",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aa51f15e-fec7-41e3-8d10-01f32f8ba677",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to generate a report that shows benefit components",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "76cf6ac1-ab86-4709-90b8-0ef622ad6455",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to get a bank csv file",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2f960268-ebe7-4d46-b9c6-76f4cc763387",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to print reports",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "41ea828d-6bf3-4cf1-bd6d-a9848d123ab5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not find the audit report",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6ae993f3-179f-4b9f-a2e0-17ca4d227083",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can only see report packs and nothing shows",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ece4f18b-2910-40ef-bbfb-9bb7f5bfc624",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cannot see a tax report for my investment account for fy 111",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0b7f8d4d-39e3-4ac2-b672-d3d9e9d8c38c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cant find the pension payment report",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "93ca49c0-609c-46b9-9d5a-f6c64c479f52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not know what report to look for",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "f96ed57c-ecd8-498f-8e32-9cfcb8b498f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have been asked by my accountant to obtain an audit report from bt panorama on my smsf reports",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a1ef7667-bd64-48dd-a348-470e5be674ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a report for my pension payments for last financial year",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6d4a9118-5732-4d2f-b328-e1f67d530a66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the tax reports that shows franking credits",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "cea79775-9acb-4e40-a761-a62370e4cb07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want a periodic portfolio performance report for the period - since date joined wrap until today",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6ff911fc-aa30-41e8-9401-d2289831ee42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like the february monthly report for ishares enhanced strategic growth portfolio",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4a23056b-8ae9-49a0-b4b3-b878e735fa59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "id like to print of reports",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "082290ec-74a4-4b3c-97aa-e47eff7e841f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "independent audit report",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4ed4de37-6ec7-4654-9d2e-38d68dce7c79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "managed portfolio reports",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b2937b3f-567d-44b7-80ca-2ed4b947bcb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "missing reports",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "55931e60-c522-4fd2-9cef-1f3a8c509458",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need recent up to date",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7a4eebb2-bbdf-4669-b226-0aca5883bab4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio at 11 june",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "54c6aa6b-743e-4a67-9968-92cddbac8c72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio repor",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "90734bc8-4a6d-4712-9ce3-976979b30a5d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio vsluation",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "257ecdbf-c68d-402e-91df-abd2f7f61e5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "print a managed accounts history - cash report for client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "28ef4794-3461-4f53-8375-fa1cf4b40478",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rebalance order report",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a985d9c5-7f66-4f41-a214-6e30bd44b6a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "report",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0c614b4b-462e-4ab6-adbd-275cb07a4f9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "report as at 11 jan 1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "322ab8a7-b608-4bc6-ab7c-5a7f945c391d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "report on asset allocation",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1ee1faf1-7d5e-41bb-a9a6-eb76579c9931",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "report per 11 / 11 / 1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c513e3d6-38ae-47c9-83c2-2fb1372b092d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "report showing franking credits for year 11-11",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f0162182-5bf2-43d2-aff5-8ede57ce3b3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "report template",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5fe5ba0d-119e-4197-aa3b-ec629828c6d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reports available",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "5fc0ad6e-f536-44e2-95e1-7d9b100cf791",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "revenue reporting",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8dbfd96c-498d-4acc-a0e3-b2df49889308",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me my CGT report",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "63ecb014-0d45-4f17-93ee-e3c59e2077c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "take me there",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "0f7e0d6b-6d97-48fb-8b4e-0779a1ddd344",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "twrr reporting",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "955c7206-5561-4f92-95c6-9ae7ad15b5c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "were d1 i locate reoprts",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7a428714-be27-47a3-be6e-7e419e611203",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "twrr reporting",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fdaf6af5-8edc-46e6-bcc4-7d6c355f57f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "were d1 i locate reoprts",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "28931cf0-c79f-494d-949a-96ddb0ed36ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when are the reports availab le",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b7235309-ee95-4687-ac7c-1b57227ad8d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the 1111 audit report",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0061125d-4ae1-4369-929e-5f7ec34dcf61",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can we find report of client that have fees expiring this month",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "842b0726-a000-4506-8b17-cef483596943",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where did the cliets welcome pack get st",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "64a42e1e-7967-4eda-b051-3779c272a616",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do I find the Centrelink DVA report?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "8313419d-495c-45ea-8404-28bfe672f9c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find a audit report",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "20192885-d2c2-484f-8c40-15f464eeaabd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find reports from 1",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e766ab8e-99fd-4650-afc8-be24e0299bab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the summary of assessable income also the distribution schedule - detail my accountant is asking for it thanks",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4afbc4df-abf8-4c29-b40f-d537841355c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is fy report summary pack",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "57015ac0-615d-4809-9dc0-996449a9de1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is investment limit breach report",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3745d6ad-e640-42c3-8bed-eb8da8183023",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is report pack found",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "913ca9fa-8739-403c-86ff-4ff11537b072",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "which report do i find franking credits",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "4dcd1d55-a67c-48f5-b975-8c55fdd57dc1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "which report is a cash statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "96def0e1-ebd5-43df-9ae3-c9fc142db39f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is reports not on the navigation bar",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  } ]
+} ]

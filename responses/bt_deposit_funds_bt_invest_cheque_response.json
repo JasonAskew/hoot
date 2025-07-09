@@ -1,22 +1,26 @@
 {
-  "name" : "bt_deposit_funds_bt_invest_cheque_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "From July 1st 2024, Panorama will no longer accept any cheque contributions."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "From July 1st 2024, Panorama will no longer accept any cheque contributions."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_deposit_funds"
+          },
+          "label": "Make a deposit"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "bt_deposit_funds"
-        },
-        "label" : "Make a deposit"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_deposit_funds_bt_invest_cheque_response"
 }

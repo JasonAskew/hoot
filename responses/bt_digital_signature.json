@@ -1,83 +1,100 @@
 {
-  "name" : "bt_digital_signature",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Panorama can accept wet, digital, or typed signatures depending on the form. \n\nA drawn, digital signature can be accepted unless the form states that a wet signature is required. If a form only provides a postal address for the submission method, this means the form requires an original wet signature."
-      }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "If a typed signature can be accepted, it will be specified on Panorama forms in the ‘Use this form to’ section. Select ‘Typed signatures’ for requirements."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "Typed_Signatures"
-        },
-        "label" : "Typed signatures"
-      }
-    } ]
-  },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Panorama can accept wet, digital, or typed signatures depending on the form. \n\nA drawn, digital signature can be accepted unless the form states that a wet signature is required. If a form only provides a postal address for the submission method, this means the form requires an original wet signature."
         }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "Help me sign in",
-        "intent" : {
-          "name" : "bt_login_failure"
-        },
-        "label" : "Help me sign in",
-        "question_display_text" : "Help me sign in"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Panorama can accept wet, digital, or typed signatures depending on the form. \n\nA drawn, digital signature can be accepted unless the form states that a wet signature is required. If a form only provides a postal address for the submission method, this means the form requires an original wet signature."
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "If a typed signature can be accepted, it will be specified on Panorama forms in the \u2018Use this form to\u2019 section. Select \u2018Typed signatures\u2019 for requirements."
         }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If a client’s typed signature can be accepted, it will be specified on Panorama forms in the ‘Use this form to’ section. Select ‘Typed signatures’ for requirements."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For more information on the different types of signatures, select ‘Help & support’."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "Typed_Signatures"
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "Typed_Signatures"
           },
-          "label" : "Typed signatures"
+          "label": "Typed signatures"
         }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/services/signatures.html",
-          "label" : "Help & support"
-        }
-      } ]
+      }
+    ]
+  },
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "bt_login_failure"
+            },
+            "label": "Help me sign in",
+            "question_display_text": "Help me sign in"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Panorama can accept wet, digital, or typed signatures depending on the form. \n\nA drawn, digital signature can be accepted unless the form states that a wet signature is required. If a form only provides a postal address for the submission method, this means the form requires an original wet signature."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If a client\u2019s typed signature can be accepted, it will be specified on Panorama forms in the \u2018Use this form to\u2019 section. Select \u2018Typed signatures\u2019 for requirements."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For more information on the different types of signatures, select \u2018Help & support\u2019."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "Typed_Signatures"
+              },
+              "label": "Typed signatures"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/services/signatures.html",
+              "label": "Help & support"
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_digital_signature"
 }

@@ -1,36 +1,144 @@
 {
-  "name" : "kcb_product",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "Credit_Card",
-    "aliases" : [ "Credit Card", "amex card", "c card", "card", "cc", "ccr", "charge card", "cr card", "crdit card", "cred card", "credit account", "credit car", "credit card account", "credit carde", "credit crd", "creditcard", "credti card", "l.o.c.", "line of credit", "master card", "visa card" ]
-  }, {
-    "value" : "Current_Account",
-    "aliases" : [ "Checking Account", "checkign", "checking", "checking a/c", "checking ac", "checkings ac", "checquing a/c", "chequing a/c", "chequing ac", "chequing account", "curr acc", "current account" ]
-  }, {
-    "value" : "Debit_Card",
-    "aliases" : [ "Debit Card", "check card", "cheque card", "debit", "debt card" ]
-  }, {
-    "value" : "Investment",
-    "aliases" : [ "Investment", "brokerage", "education savings account", "education savings plan", "hsa", "investments", "profit sharing account", "profit sharing plan", "trading" ]
-  }, {
-    "value" : "Loan",
-    "aliases" : [ "Loan", "car loan", "loan account", "loc", "parsonal loan", "persnal loan", "personal loan", "personal loan account", "retail loan", "unsecured lending" ]
-  }, {
-    "value" : "Mortgage",
-    "aliases" : [ "Mortgage", "morgage", "mortgage account", "mortgages" ]
-  }, {
-    "value" : "Retirement",
-    "aliases" : [ "Retirement", "401k", "ira", "pension", "retirements", "roth 401k" ]
-  }, {
-    "value" : "Savings_Account",
-    "aliases" : [ "Savings Account", "deposit account", "saving", "saving aacount", "saving ac", "saving acc", "saving accnt", "saving account", "saving acount", "savings", "savings a/c", "savings ac", "savings acc", "savings accnt", "savings accont", "savings accout" ]
-  }, {
-    "value" : "Trust",
-    "aliases" : [ "Trust", "custodian" ]
-  }, {
-    "value" : "SMSF",
-    "aliases" : [ "SMSF" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "Credit_Card",
+      "aliases": [
+        "Credit Card",
+        "amex card",
+        "c card",
+        "card",
+        "cc",
+        "ccr",
+        "charge card",
+        "cr card",
+        "crdit card",
+        "cred card",
+        "credit account",
+        "credit car",
+        "credit card account",
+        "credit carde",
+        "credit crd",
+        "creditcard",
+        "credti card",
+        "l.o.c.",
+        "line of credit",
+        "master card",
+        "visa card"
+      ]
+    },
+    {
+      "value": "Current_Account",
+      "aliases": [
+        "Checking Account",
+        "checkign",
+        "checking",
+        "checking a/c",
+        "checking ac",
+        "checkings ac",
+        "checquing a/c",
+        "chequing a/c",
+        "chequing ac",
+        "chequing account",
+        "curr acc",
+        "current account"
+      ]
+    },
+    {
+      "value": "Debit_Card",
+      "aliases": [
+        "Debit Card",
+        "check card",
+        "cheque card",
+        "debit",
+        "debt card"
+      ]
+    },
+    {
+      "value": "Investment",
+      "aliases": [
+        "Investment",
+        "brokerage",
+        "education savings account",
+        "education savings plan",
+        "hsa",
+        "investments",
+        "profit sharing account",
+        "profit sharing plan",
+        "trading"
+      ]
+    },
+    {
+      "value": "Loan",
+      "aliases": [
+        "Loan",
+        "car loan",
+        "loan account",
+        "loc",
+        "parsonal loan",
+        "persnal loan",
+        "personal loan",
+        "personal loan account",
+        "retail loan",
+        "unsecured lending"
+      ]
+    },
+    {
+      "value": "Mortgage",
+      "aliases": [
+        "Mortgage",
+        "morgage",
+        "mortgage account",
+        "mortgages"
+      ]
+    },
+    {
+      "value": "Retirement",
+      "aliases": [
+        "Retirement",
+        "401k",
+        "ira",
+        "pension",
+        "retirements",
+        "roth 401k"
+      ]
+    },
+    {
+      "value": "Savings_Account",
+      "aliases": [
+        "Savings Account",
+        "deposit account",
+        "saving",
+        "saving aacount",
+        "saving ac",
+        "saving acc",
+        "saving accnt",
+        "saving account",
+        "saving acount",
+        "savings",
+        "savings a/c",
+        "savings ac",
+        "savings acc",
+        "savings accnt",
+        "savings accont",
+        "savings accout"
+      ]
+    },
+    {
+      "value": "Trust",
+      "aliases": [
+        "Trust",
+        "custodian"
+      ]
+    },
+    {
+      "value": "SMSF",
+      "aliases": [
+        "SMSF"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "kcb_product"
 }

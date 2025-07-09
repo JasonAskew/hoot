@@ -1,0 +1,1204 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_financialplanupdate_test",
+  "intent_name" : "bt_financialplanupdate",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "c616801f-ba98-4488-9f5a-a6f3be81590a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I would like to retire, what are my options",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "df4b551b-208b-4e54-b999-6b6dfaf4d23c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there any financial goals saved in the system",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "25a5ff2c-ead2-4e8d-8ffb-81ccff620c62",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "breakdown my financial plans",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "853e0ba4-bdaa-4c4b-a905-e4f9698f39cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i adjust my financial plan?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f8ab2758-715e-4eaf-beff-bd7441cb4192",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i change my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f17a8732-8793-4146-aafe-a826a74b4998",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i edit some goals?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "06571d22-09e1-4fe4-8caa-fd20db19d3f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i make a financial planning goal?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f474e35d-3ac4-45ac-9ff1-019876b702a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i make plans for the future",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "43023445-2e18-4bd5-91a7-f3ea3d04a597",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i plan for the future",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "af02e146-d7ad-4148-bf00-4a4506128ef3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i retire next year",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "70133c8f-6d91-4b77-b9c7-e6a960ea3af7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i update my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "20d84e37-52a6-48b2-aac4-c5de55d33d62",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i view my financial goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "09fbfa16-8200-4f2f-bcd3-d6558fa8a957",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can we edit my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "0d3f3b13-adf3-4479-94a2-c55b23876239",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you assist me is setting up a financial plan",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "fb93aaed-a155-42b4-97da-18e86a4fc449",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me make a financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "790181ac-692e-4294-96b7-804e814fe3e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me make a retirement plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3b766c47-9fc0-416f-9228-c96142667713",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me plan for a new home",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2a585258-d3ec-4240-abc7-069efd782dc3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "75967b84-7ee4-46da-a474-12b62d223fa2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me set my financial goals?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "960dbc63-d78d-42a3-91c2-a05401d31da2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me set up a retirement plan",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9f840b0d-677a-4370-a363-1138f707cbcd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me setup investment goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "90d31849-fac6-4149-b1a7-754925471b7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me start a financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b38cdaa0-3880-4e97-a8d0-21838a089e31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me to retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "89880fd5-97b3-45e2-8f7b-77ff8afeb930",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "694d245e-4684-4ab9-ab52-f123b85dd947",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change financial plan please",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c66300f3-dc83-4446-9e90-b673327bf8aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "db283540-7581-4fe4-b32e-f7d021901062",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change my goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "37198dd3-0676-4d1b-9648-df234a3a81db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there any financial goals saved in the system",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "bf5a39fb-bd10-4e60-9362-d39574b53dc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "breakdown my financial plans",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d3c3ec47-18fb-4090-9adf-76121d04dccf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i adjust my financial plan?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "64cb9222-71bd-4472-a0c6-8b54afd0c64d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i change my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c822ce37-fc09-48a4-9a87-61a6f7e44f24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i edit some goals?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "63a6306a-a61c-4e7d-84ff-1331a1e13335",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i make a financial planning goal?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "0a3363e4-5a5b-41b7-afda-bf7b87183b8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i make plans for the future",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ed777b4b-d247-42e7-b1df-66242a4b9903",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i plan for the future",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "85d9b90d-e543-493a-a361-0768a95a0d7c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i retire next year",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6378c120-3502-44a4-b7b5-62c2ff4e6603",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i update my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "bb4055ad-9e07-4be4-a40e-1c02d255195a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i view my financial goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e2c33639-f7ce-4b1b-9134-c773bc24afb3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can we edit my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f95eac59-500a-4a8c-8d8e-4e803ada34d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you assist me is setting up a financial plan",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ce7dca71-a5d9-43b7-879a-3c425f3ffdc4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me make a financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e43f95ed-e7cf-4223-aea1-da500a730282",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me make a retirement plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4cdfb3b0-a9ed-44c6-91e5-4728dd0dbbd8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me plan for a new home",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8598bd20-d0e0-4253-9a63-4bc6d78914b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b7acc56c-eedf-4f86-a79e-734b31047492",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me set my financial goals?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "913b8e31-1892-4d59-a9eb-7861f7985de4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me set up a retirement plan",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "39a80819-080c-4f77-b600-2491de943056",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me setup investment goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "86d957d1-feba-440e-814a-00966b8191c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me start a financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c09b4e93-c482-4139-ab56-024428055046",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me to retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "58d57791-6ea6-4eb5-88f5-b0bacb840309",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8ae9ae20-90ea-4f68-8057-de98f0e0de8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change financial plan please",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "100cd8f0-d833-45d2-9be4-bef8e386c2ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "567fd7c3-344c-44ee-8dcc-8f12d08a7be7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change my goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d02fdf9d-5bf7-4fc6-bb82-aadc49593e01",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there any financial goals saved in the system",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a6776c42-0f02-4c23-9cfe-5c5c97c4a20e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "breakdown my financial plans",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "da837c25-af4d-4b25-a8d5-f639c4c23ca1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i adjust my financial plan?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1948e251-1f3c-44ec-81ea-00f4623e3cf4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i change my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "215bc91d-1b56-4d71-83f4-22176f8622dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i edit some goals?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c8fbb5aa-a839-4077-aa52-ed0cb2e622fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i make a financial planning goal?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "0c2c78e5-5308-4b64-8633-d0e244c09268",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i make plans for the future",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "fa197b17-be6b-463d-bb60-9e7c8cda36e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i plan for the future",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b1c4f398-67b3-4916-8c98-b57481785009",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i retire next year",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b2e8acd5-8f95-4b29-9176-5a84d8cd7a2d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i update my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "47e83e67-3b26-41d7-bbd1-d0b9446ffa47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i view my financial goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f527c9d6-7235-46c5-b078-9894cd2127af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can we edit my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4c02d677-3c08-49dc-b61f-a53d5c37ae89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you assist me is setting up a financial plan",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8bc4ad4b-0d23-49cd-8494-c667d6463331",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me make a financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c35a32d4-f61e-4f70-89be-3fe1379d52d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me make a retirement plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8ba05bcc-b884-4e15-8536-408bed8ab7d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me plan for a new home",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b86f23e2-463e-4c5b-9cd5-23a7f460e6f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "5c39c620-b6a2-4889-9753-d83653b4e7b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me set my financial goals?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8270c352-cf91-40c5-a01d-2689c5a62ead",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me set up a retirement plan",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a90cc048-fe6a-4859-8b61-8a390b8e9f2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me setup investment goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "11cd9eee-e569-48b3-868f-d4546fce8b9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me start a financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "acc25b03-0228-4071-a1c0-0efaf455c803",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me to retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "09a676f6-537c-4d10-835e-a78e30653aa5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b84182a1-f61d-4e35-b4bf-2f7ced4d9f13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change financial plan please",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "35e38f39-08e1-42ee-848c-2f1af7d4a8ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "eb9fcec9-a9d0-44f5-af14-a4fa198a3d9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change my goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1562cf02-6cfc-4007-acef-34c6419e03a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "current retirement expected",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "0ad44f32-912e-4394-9323-c9eddb3ac6e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i have enough to retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "01767c7b-24f1-4595-9f27-d8c407623a77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i need financial goals to retire>",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "64680ac7-cd5a-428c-9aa3-55e6795eb7ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "edit retirement goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "10c18551-96e7-4bf3-aeee-a6f872897984",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fin goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "adb8e1a8-ec11-4e57-bb79-d03a6bc3b06d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "financial goal for 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "811ce967-ff47-42de-9b20-ce890ea5affc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "398d45e2-27b8-483b-8304-91d7dddac10a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "financial goals for 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "96918495-159f-4f63-a0c9-fc3942a6cbe5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "financial objectives",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "eddaa892-5536-4216-9e51-f07190e71646",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "934d30b5-1eb1-48e4-b554-233ff31095d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "financial plan for 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7b44204e-c701-4541-ab71-e314ec64d86c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "financial planning",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "001fceea-4099-4479-b681-1737aabff5ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "financial planning for future",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "11b86341-ae92-40ea-b83e-996cc3b598c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "financial planning information",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "fe7457a4-7723-4fbf-9f32-ca2fea297981",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "financial plans",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f2931382-3fd7-480c-bd8a-c49cee20a5d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d6114fea-8eb9-43b4-a008-f4727a3cc2c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "goals and financial planning",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "663ba249-9e21-4e84-aa9d-2bc9b0d15f02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me make some plans for the future",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "70930725-d66d-49a7-9dd9-f1a361c85650",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me plan for retirement",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b0ba62fc-00ee-4fbe-8814-81cc6ab5a495",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me plan my finances",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9e5d95fd-22f8-48d1-a320-7f845467cb13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me set up my financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "85b45312-5492-4e8a-b8ef-d48b99ea984a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me setup my financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2b0d60f5-52cd-4316-bd8a-515a623a556e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me update my goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "517c62d4-6b66-4b14-b91c-d5a1bf9d60e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help set up a plan for retirement",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "76f18876-3b88-42be-a634-0dff4e84c2ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help set up a plan to reach my financial goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "301d02e3-2e89-4d34-a6a3-5ba275b5f01f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i plan for retirement",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "bbf96c50-95a3-4366-85d6-d47bb0f8a9e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "785ff516-0392-47e5-9ea5-cdb093404bba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i change my goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7a20e4e2-8f8a-4369-987a-a8343b1090b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i change my investment goals?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "637e70dc-fe53-4d0d-b19b-533180d1f79a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i change my retirement plan",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c035244a-094d-4235-b3f3-c868203bf250",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i create goals for my retirement?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b701328a-5c75-4d34-8ae0-542cefe3b906",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i setup my financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e50b9775-d461-4e78-a23b-f46532101947",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i update my financial plan",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "569db75b-f86c-4047-ad1a-91ac48c36fb4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long until i can retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "19bd5b65-7f3c-4185-9977-53d0fc403c86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much do i need to save to retire in 11 years",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a0c83e1b-bd49-4b5b-9e9b-2c1118786794",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much will i have at retirement",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8022c346-5dcb-433e-bd4e-2ae9d7d89e0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much will i have when i retire in 11 years",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b97b872e-f9c2-495f-bd50-7eb0b2e4593e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much will i need to retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b47210d0-0ad6-4680-a045-06c7700a6c1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i 'd like to retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a9e15a04-a150-478d-b86f-d7f775c1452d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i 'd like to start a financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c1cd140f-20c8-4a59-9cc9-d2f7165e5c1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i 'd like to update my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6a33771c-7b82-4fee-bdb5-79a95b9bac37",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i bought a new house, need to update my goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "97e3ec13-0e81-4b16-811c-03d6bbc21592",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i do not plan to fund my children 's education",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7846db98-4690-425c-895f-3450200cc05f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i do not plan to own a home",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "616a3505-1744-428e-a811-d83b2d2ae673",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need a financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ddb7f152-8643-47ce-8dd0-23f6a8c86192",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need to make some changes to my retirement plan",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d52d88b2-750a-43b6-aa59-a3f3b87f0fe9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need to modify my goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "141f20ff-6009-44af-9f8d-08f699b6bb65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need to setup my financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "84d64671-b561-4b18-90ac-4a63b2a61b1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i plan to retire in 11 years",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "cda4b76d-b518-4aa1-81a6-d33a4e51bfc6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want help with financial planning",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a8d4f3e3-45ae-4df4-a706-a655a5a34892",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to be rich when i retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e538c8c8-938e-41b5-9faa-81ff172b5898",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to change my goal",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "256ef610-846d-46f2-8651-fdc0593dfd4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to chant my retirement plan",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "33553802-2074-4f9f-9c75-7e0eca08cff8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to create a retirement plan",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "16ef4757-f487-4353-9ab5-fa486d9eef43",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to create goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "800e7356-241b-4a20-9c8f-e06067ad4ba4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to make a change to my goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "cd522762-9ca0-45e2-8d98-66a312724dad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to retire by age of 11",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2fc18440-1b83-4ac8-81d5-fec642105428",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to retire can you help me setup my financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e8339547-b0ae-4b70-8705-803712a33dd8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to retire next year",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8d99684f-beef-42cd-91d6-5ef6002caeb6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to retire now",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "104422b7-7949-463d-8134-7d5c31466d5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to set goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b5502f94-dd06-4749-89d4-7a92a60ce916",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to set goals for my retirement",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1c82307c-29f2-410b-84b7-0524c188d516",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to set investment objectives",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "bad0442b-6adb-4601-9bef-d970f9fc07ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to set my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1c44d28f-6aad-4815-b5c1-52f559c45b7b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to set up my retirement targets",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7c438156-4949-404c-b665-0538d4d11377",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to set up some financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6c506c09-013a-41a4-bc17-409fd8222cd1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to setup my financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "aee5c880-2045-46e5-a155-140e08d81c24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to update my goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e855e6fe-5398-4b2d-995e-a1fd69e29879",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to update my retirement plan?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "225d8873-256b-487c-b3fa-cca65679bbb8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to update my savings plan",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "60faf13e-9159-4fde-a632-07810479e0d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i would like to make progress on my financial planning",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "fa8f2b14-0a7d-4d07-8144-db6c240ad1dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i would like to update my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "089effa6-dedb-4db7-be72-26f94add8e46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like help setting money goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d3cebb34-1dbc-4a74-bdbb-62867b69b903",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like to create some financial goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c38a4b79-7fd8-4f9f-8cf6-9ee0e24f2f5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "make a financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e6bf2c57-e0f4-49e1-8a07-a4fc938764a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my 1111 financial goal",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "cbd95a77-276e-4b80-b969-b2eff90d02d0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my finance goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "fcd2feee-858d-4865-9a16-216e3dddbd44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "plan for retirement",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "248e747c-21b3-42e5-b6f1-54baee269a79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "retirement show goal",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "57ec859c-6dd1-440b-88fa-c1b5956d68ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set financial objective college fund",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "5c5f0ffb-9bec-49e4-93c7-16d3c13988ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2c04d27a-c739-4d0e-9cb0-6e4a5dbc6b89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set my savings goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "667cc173-0f28-47dd-8fc8-e608c2ba4402",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set up my financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d95c4013-d702-489b-8015-6b451e27d847",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "setup investment goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f4d56a78-2808-4bfa-8d42-233c23f625eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me my financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "5946f0cb-dd41-42a8-8835-6c95bda4969b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me my future financial plans",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c38a62a2-2241-4379-937c-6d629abf175d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me my future plans",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2c165d0b-2bb6-4939-9822-a2252d2946c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "55ec641c-c2fa-43bb-9c01-d15eacde859d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my plan details",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "0d607afd-3257-4291-92ff-4fcaa981ed44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "some of my financial goals change, need to make changes",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4878aff1-12e5-4104-aa81-545387869ca8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me about my financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8799f7a6-6c29-4577-87fd-1569b0855f0d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "update goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "82b6eaec-a8c7-42c4-b4d9-29f80b5fb062",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "update my financial plan please",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d0dd5049-11bb-4042-9a71-e022146b31dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "update my goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "bbfc823b-2411-4326-ac38-702a5785c01a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "view my financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1bbe79c4-3ec8-46ed-b9a8-6fa7fe7705b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "want to retire in 1 years and need to setup my financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7edcf488-d280-49fd-ade9-a60df983caa8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "want to retire in 5 years and need to setup my financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b3dc62cc-82e3-4440-bc90-e475b0d49d24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what 's my current financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f67a77bd-4bab-42c8-95a2-9dafb0a31a03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b593256e-ea59-41bf-b486-c5aa2a4bd477",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are my current financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "57fdb515-e918-4897-9d89-4d0f37317193",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are my financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "0fdf70fa-d02a-41c1-95a9-7e23cfce4946",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "89153067-0a88-4fd1-904e-bca97ce5718a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what can you do for me with respect to planning",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "81e0ca89-213c-489e-bc6a-16a7afbaeb22",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "update goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c6c9a627-fa6c-46b8-b34b-0a6c7f917453",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "update my financial plan please",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "903144a5-4561-4b65-8a34-37eb003422a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "update my goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e1a10d89-4295-4561-93aa-9e73de6e8ea8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "view my financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "47d9153a-759d-461e-836b-5340ea137aef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "want to retire in 1 years and need to setup my financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ed053821-fac1-437b-812c-aa08ab34a784",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "want to retire in 5 years and need to setup my financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d63f5824-24ec-4804-82bd-564812d94fdf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what 's my current financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "97f5b559-e204-412d-9113-3b14549ab6ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2b15fc96-c990-4612-957b-23e3c16d805f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are my current financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8728f85a-e72d-445e-8d8a-83fb65a032ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are my financial goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7554fcab-6fd9-46a6-9402-c14730d5ff0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are my goals",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f0cc52ac-4eaa-4ea2-9ba0-188191115e72",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what can you do for me with respect to planning",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "408a056f-854f-4f43-8636-5d7aaad10e45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is my financial plan details",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "92d2d753-a719-438c-a512-49c441691cf2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats my financial plan",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "63a10855-047e-46db-9076-df10c0bc899d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will i be able to retire",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3aaf5730-a9e9-4918-b07c-8393f8e779c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can i setup goals",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7c589f1d-ba7f-4ed2-b233-079bfd518883",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do i modify my long term goals?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  } ]
+} ]

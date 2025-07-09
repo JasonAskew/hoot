@@ -1,0 +1,1885 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_application_status_train",
+  "intent_name" : "bt_application_status",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "9feba052-a946-4045-b986-95b506844f05",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to see if the account for R000088335 is active yet?"
+  }, {
+    "id" : "e9d1627f-2fae-46a7-9835-f9edea623fa4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to see if the account for is active yet?"
+  }, {
+    "id" : "94ca7fb8-ec3d-4fb7-b0ca-3a440e122be5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to see if the account for my client is active yet?"
+  }, {
+    "id" : "8a49ff92-766c-464d-8c53-86cb02ef9413",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you able to tell me if the client's application has gone through with approval?"
+  }, {
+    "id" : "228f5f96-80c9-4c07-a08f-d0961e5e89ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you able to tell me if the the application has gone through with approval?"
+  }, {
+    "id" : "da5a08fa-f256-4ed6-8725-45d4f00241d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see if the application was approved by the client?"
+  }, {
+    "id" : "5fa266c3-8a2a-4e2c-a726-30d08ee49845",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see if the application was approved?"
+  }, {
+    "id" : "80a264af-884f-4cea-999e-be002e5e2c64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you assist me to find out if account is active yet?"
+  }, {
+    "id" : "1092fb9c-84c4-4868-8a98-c52e7be3816c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you assist me to find out if my client's account is active yet?"
+  }, {
+    "id" : "206ef79a-6418-43b8-9143-6bd196ac14d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you assist me to find out if my client's application is active yet?"
+  }, {
+    "id" : "9d58f831-6da8-45c0-ae21-35dacc1f70ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you assist me to find out if my the application is active yet?"
+  }, {
+    "id" : "dbba098f-8d87-4bac-bd43-fdb0be334231",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you check and see if account is active?"
+  }, {
+    "id" : "b9249085-7ea2-4126-af19-d4a0eaa2958d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you check and see if my client's account is active?"
+  }, {
+    "id" : "999b8df4-cbab-4115-91f9-bbd97df7ce37",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you check if has approved the application"
+  }, {
+    "id" : "6ce4cb45-6f58-4d76-9839-25d244aecaa1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you check to see if an application has been approved by a client?"
+  }, {
+    "id" : "44efc7a9-389b-414b-b09b-185c5fa844b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you check to see if an application has been approved?"
+  }, {
+    "id" : "10143813-fcc7-49b0-a40d-56d7a1fd9eaa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you confirm if the application was approved by the client?"
+  }, {
+    "id" : "2632e6ba-8223-4805-82a6-f3995cbd2c6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you confirm if the application was approved?"
+  }, {
+    "id" : "f8ed2970-4b04-4c6a-8de5-ba5a3920384b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me check if the application was seen and approved by the client?"
+  }, {
+    "id" : "49ade2c2-7f4c-410e-965a-e836e522dd91",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me check if the application was seen and approved?"
+  }, {
+    "id" : "2a478060-e5b7-410c-a5d1-f14cc1a16fe0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me see if a client approved an application?"
+  }, {
+    "id" : "9399fa77-ec1a-40e7-865f-2698dae16cf4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me see if approved an application?"
+  }, {
+    "id" : "8df9f80e-ead1-4dbc-bf3b-591371a27efe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you see if an application got approval?"
+  }, {
+    "id" : "490f5d06-445d-4470-a2ce-99d02179db47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you see if has approved the application?"
+  }, {
+    "id" : "e2ab4297-eaee-4203-9191-07495c225a25",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you see if the client has approved the application?"
+  }, {
+    "id" : "13e15561-bb1a-45b2-8e82-7d7017df283c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how I would check an application approval for my client?"
+  }, {
+    "id" : "2f67709e-ba72-4c28-9412-c57fb585caf3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how I would check an application approval?"
+  }, {
+    "id" : "ffde5df1-2513-449e-b2ac-ca0ac9628404",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to check if an application was approved by a client?"
+  }, {
+    "id" : "bec1ad3e-ff7f-40ef-a358-a6805eed0257",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to check if an application was approved?"
+  }, {
+    "id" : "5ab61aba-0b62-42c1-b2d6-a1c3b5b2182a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to check if has approved the account?"
+  }, {
+    "id" : "12276a58-6af3-4318-8513-5bf3afa5e71c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to check if has approved the application?"
+  }, {
+    "id" : "c3b6961b-c925-41e7-989e-3403be7389f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to check if the client has approved the account?"
+  }, {
+    "id" : "0d74fccd-1bfc-4217-b090-e7606bffe73a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to check if the client has approved the application?"
+  }, {
+    "id" : "7ee28752-a5ae-42ed-a0f8-fe4bd18d43fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if R000088335 account is active?"
+  }, {
+    "id" : "1665ffe1-5f45-445d-968f-cf13b1a8a797",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if account is active?"
+  }, {
+    "id" : "636aa3c9-ae8b-4390-8eca-2641ee97f5a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if has approved the application"
+  }, {
+    "id" : "0c43fb2a-5084-4e57-9299-b24b3e9fa357",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if has approved the application?"
+  }, {
+    "id" : "8512970e-9ebd-44cd-991f-3e333ce07693",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if my client's account is active?"
+  }, {
+    "id" : "bc018319-7ec0-4a76-a6b3-f6903529b960",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the application is approved"
+  }, {
+    "id" : "44242bbb-560b-4d25-baf2-a1dd977f6a7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the client has approved the application"
+  }, {
+    "id" : "bb31bc0a-e9c6-4322-8827-c306f27cf0a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the client has approved the application?"
+  }, {
+    "id" : "5d847e68-7681-4159-968b-6ba8c4f0ac2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you walk me through checking if the application was approved?"
+  }, {
+    "id" : "df2229d1-fae7-4b02-bf0e-736e6dfa00e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Did approve the application yet?"
+  }, {
+    "id" : "9f0eb3b2-ba27-4285-9d21-07c252585ac6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Did my client approve the application yet?"
+  }, {
+    "id" : "d3d29df3-ea11-490f-81fe-a426550a4195",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does it show if a client application is approved?"
+  }, {
+    "id" : "80ffa688-561d-4346-a6a1-0b862caf0c5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does it show if a the application is approved?"
+  }, {
+    "id" : "b7b1f3c5-b136-465f-b016-99dc3bba785a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the account for R000088335 active yet?"
+  }, {
+    "id" : "2f1038f6-e67f-4109-8f9b-52902283fb8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the account for active yet?"
+  }, {
+    "id" : "c72a2a62-fcd3-448b-92d3-e7cdff9c8102",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the account for my client active yet?"
+  }, {
+    "id" : "04074c72-d68f-49a9-a673-402baa25ee79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain client application approval status"
+  }, {
+    "id" : "9274ea75-392c-472b-90f5-ae35d219c76c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain the application approval status"
+  }, {
+    "id" : "d7ee88a7-cdb4-4e50-bc6b-20e7e35817cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "HOw do I see if has approved their application?"
+  }, {
+    "id" : "ed441941-90d7-483c-959a-3d4a67fa8565",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "HOw do I see if the client has approved their application?"
+  }, {
+    "id" : "d821941d-76ce-44ea-baa8-67821060c3dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Has approved the application yet?"
+  }, {
+    "id" : "5e236c47-542b-4307-a349-170395b4f729",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Has approved this application?"
+  }, {
+    "id" : "214aeb85-c2ee-48a5-b5f6-a954a156ea24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Has the application been approved?"
+  }, {
+    "id" : "61887672-1f9c-40ca-b4f3-78fa441fb504",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Has the client approved the application yet?"
+  }, {
+    "id" : "9397829f-aba1-4ef3-8016-0b29f6ad0126",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Has the client approved this application?"
+  }, {
+    "id" : "5bd902ca-d2ca-4cc6-8db1-421b3a183834",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me with the status of application approval"
+  }, {
+    "id" : "d2d2abfd-6d5f-450d-bbcc-cac7e587cdf5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me with the status of application approval by client"
+  }, {
+    "id" : "d569fbda-9e62-41b9-a7e2-5caae00cc9e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check to see if a client has approved the account?"
+  }, {
+    "id" : "7d6a0d13-07c0-442e-b683-711cb305012a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check to see if a client has approved the application?"
+  }, {
+    "id" : "375f78c7-2927-4bb6-a18e-f52da191ccad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check to see if has approved the account?"
+  }, {
+    "id" : "5ff8829e-06b6-4649-b653-5471da590f43",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check to see if has approved the application?"
+  }, {
+    "id" : "ae58f3b1-526a-45b5-9ed3-c6dfcd4258d0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find out if application has been approved by client?"
+  }, {
+    "id" : "557afb6a-8c70-499e-80c7-6ff73547f781",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find out if application has been approved?"
+  }, {
+    "id" : "7d56592c-eff8-4bed-828d-77215d9fd36f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see if the application was approved by a client?"
+  }, {
+    "id" : "62ec0ebb-54d7-4c94-96f1-2dd2a5241ab4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see if the application was approved?"
+  }, {
+    "id" : "45357212-69e5-4c3f-a029-2893c943efff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I tell if a client approved an application"
+  }, {
+    "id" : "09ec2d4a-43bd-400d-b23a-f155425ddef0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I tell if approved an application"
+  }, {
+    "id" : "037f7e35-efc0-4031-b970-670bdd21757b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I tell if the application is approved?"
+  }, {
+    "id" : "36adda4d-ee45-43b0-92eb-e04b0ada283f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I check, if has approved the account?"
+  }, {
+    "id" : "e06a97c2-b630-4ee4-adc5-ae02342be72e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I check, if has approved the application?"
+  }, {
+    "id" : "0945ef38-7a7f-4f58-a21c-7d582f5ffef2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I check, if the client has approved the account?"
+  }, {
+    "id" : "769eef3c-7329-4017-9008-7976b9194a50",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I check, if the client has approved the application?"
+  }, {
+    "id" : "ce667e1b-46e5-4987-a93b-5c68115a9e1b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check if a client approved in application"
+  }, {
+    "id" : "7a064451-2933-49ca-aef5-d22fcf1312d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check if an application is approved?"
+  }, {
+    "id" : "ea01687c-3238-419e-a3d8-618268ff0c43",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check if application approved"
+  }, {
+    "id" : "3ac2e896-945d-41a6-8c88-baa130992e91",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check if approved in application"
+  }, {
+    "id" : "bfaf915f-b014-452e-a732-326cf7738f79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check the status of the client's application"
+  }, {
+    "id" : "b4d82750-2a95-47dd-adde-b7e6fe4f2f11",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check the status of the the application"
+  }, {
+    "id" : "20f0d12e-60fc-423c-a52a-f11750dc3a25",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check to see if my client's application is approved?"
+  }, {
+    "id" : "d2c7eb8a-64fd-48fb-9fa0-57e505496402",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check to see if my the application is approved?"
+  }, {
+    "id" : "77d46427-54fb-4acf-8a9d-c6f4db8e5cb5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find out if a client has approved an application?"
+  }, {
+    "id" : "386e7ba5-d56d-4383-a28f-447f8517bd68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find out if has approved an application?"
+  }, {
+    "id" : "fc72a69d-fc8b-43fd-8979-0b020450e84f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the update information for application approval for a client?"
+  }, {
+    "id" : "51d7e52d-32db-4018-b20d-38023029ee25",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the update information for application approval for?"
+  }, {
+    "id" : "b06c529e-958c-4faf-b00a-81f998c0b33f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if a client approved in application"
+  }, {
+    "id" : "def7c972-9dd3-417a-8426-660345f03621",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if a client has approved the app?"
+  }, {
+    "id" : "d4725960-1c4f-48c6-9904-b34555088746",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if approved in application"
+  }, {
+    "id" : "5edf901f-3f0a-46bb-841e-b6088981f874",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if approved the account?"
+  }, {
+    "id" : "fb7e7ec5-5111-49aa-b72c-10f9df4fb425",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if approved the application?"
+  }, {
+    "id" : "c4de1386-34c6-44b6-9515-14d3c332a9cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if has approved the app?"
+  }, {
+    "id" : "5be9df76-a875-4240-a22c-6e19d73096e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if my client approved the account?"
+  }, {
+    "id" : "9b301f46-5258-43ba-9fe8-acf81c505c66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if my client approved the application?"
+  }, {
+    "id" : "c73baac2-3bf6-48d6-8436-a52a0962922e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if my client's application has been approved"
+  }, {
+    "id" : "2914ec6b-2f85-4224-b52c-06016b06fb4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if my the application has been approved"
+  }, {
+    "id" : "76c3f4f8-6089-4210-a8e8-9f05fa4d0672",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I verify if has approved the application?"
+  }, {
+    "id" : "ec21cabe-84b0-4fd7-a6ec-54fd36397e9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I verify if the client has approved the application?"
+  }, {
+    "id" : "8eb1f5e6-0379-4e2f-86f4-7661d11bc360",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i check if has approved the application?"
+  }, {
+    "id" : "932bbba0-a1f4-4fef-90d4-538b37b67884",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i check if the client has approved the application?"
+  }, {
+    "id" : "7758cc29-b739-4b14-8d2a-5f4e542d6dc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How fast will the application be approved?"
+  }, {
+    "id" : "bca5acfa-53d2-400a-bd6f-c1b49c62477c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How might I go about checking the client's application approval status?"
+  }, {
+    "id" : "6fd291e6-1d63-4fb8-adeb-a9c179230ff6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How might I go about checking the the application approval status?"
+  }, {
+    "id" : "c9866b37-d098-4fd1-bfb5-eed146fbb6fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to check if the application is approved"
+  }, {
+    "id" : "5db4a83a-182c-4821-a60f-f6728690f011",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I know if the application was approved by the client?"
+  }, {
+    "id" : "230ca480-4893-4153-b332-9f66e897dafa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I know if the application was approved?"
+  }, {
+    "id" : "a8eb2358-a99d-46ed-86cb-7efd79ae8041",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to see if the account for R000088335 is active yet?"
+  }, {
+    "id" : "159cb385-2cd5-4afc-8781-d0eecb8907d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to see if the account for is active yet?"
+  }, {
+    "id" : "c5b487ae-52c3-4cd6-8300-8b14922f07bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to see if the account for my client is active yet?"
+  }, {
+    "id" : "394da109-3a88-4948-9f9d-c60d2d1091a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you able to tell me if the client's application has gone through with approval?"
+  }, {
+    "id" : "b1c7ae39-a9ae-42d2-abd2-e19f20e134d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you able to tell me if the the application has gone through with approval?"
+  }, {
+    "id" : "18fd1c47-9c20-4c88-a36e-eaefe69a5c0c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see if the application was approved by the client?"
+  }, {
+    "id" : "df5d0adb-fe4d-4da0-b227-70bd1dd3de28",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see if the application was approved?"
+  }, {
+    "id" : "79c98794-56c9-492c-b21e-da1f01f92d85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you assist me to find out if account is active yet?"
+  }, {
+    "id" : "daa2c38e-8352-47bf-9064-f9c3d3b35c6f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you assist me to find out if my client's account is active yet?"
+  }, {
+    "id" : "3ce6ff73-4b1c-4aed-b765-5bf72d9543d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you assist me to find out if my client's application is active yet?"
+  }, {
+    "id" : "b5ea9e12-0bf1-408d-ac34-e51cb366933d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you assist me to find out if my the application is active yet?"
+  }, {
+    "id" : "5e833d44-a84f-42f2-80ff-9eff2140a5a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you check and see if account is active?"
+  }, {
+    "id" : "96ad3cc9-517a-4721-8a28-3fdefa6dd563",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you check and see if my client's account is active?"
+  }, {
+    "id" : "5e92358c-d793-4a46-b9f3-c619e57e0c31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you check if has approved the application"
+  }, {
+    "id" : "a7441f96-8dc1-4185-bfb2-b7c5daf7db97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you check to see if an application has been approved by a client?"
+  }, {
+    "id" : "4bc78eff-4184-4e90-bb6c-ef1c594c1b84",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you check to see if an application has been approved?"
+  }, {
+    "id" : "acc44b5f-ace9-4ad3-bf54-9b0cd3e03cea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you confirm if the application was approved by the client?"
+  }, {
+    "id" : "3f7a93eb-4c4e-4735-8f92-fcf856838737",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you confirm if the application was approved?"
+  }, {
+    "id" : "2f59740a-d790-4758-a38f-048f6b20afbc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me check if the application was seen and approved by the client?"
+  }, {
+    "id" : "82001895-abf6-492c-a350-dd7f9ae4039c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me check if the application was seen and approved?"
+  }, {
+    "id" : "386f4f7e-6e43-4420-99f0-5ec0c78b4d32",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me see if a client approved an application?"
+  }, {
+    "id" : "d8462965-0a91-474b-859b-2c3713933870",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me see if approved an application?"
+  }, {
+    "id" : "7a8e9ffd-c606-435c-b007-0bc25e78d841",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you see if an application got approval?"
+  }, {
+    "id" : "5552cb42-9b93-494d-99bf-eb10bafad6fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you see if has approved the application?"
+  }, {
+    "id" : "fe2ed12b-4f2a-4344-b6b7-e2609c465e5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you see if the client has approved the application?"
+  }, {
+    "id" : "a1e85b6f-f5c7-461a-bf52-9ecf520385a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how I would check an application approval for my client?"
+  }, {
+    "id" : "4dec7bf2-dd59-495d-bba4-99c46b088764",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how I would check an application approval?"
+  }, {
+    "id" : "a78bc511-46f4-4c75-a40d-1ce874e2c5a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to check if an application was approved by a client?"
+  }, {
+    "id" : "34be6c64-1010-4e71-a733-8508f93603b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to check if an application was approved?"
+  }, {
+    "id" : "8205bcb4-d90c-4a36-8dd6-cc726f96b4c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to check if has approved the account?"
+  }, {
+    "id" : "ab2cd2c9-55b1-4877-8b87-0d2ce576541f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to check if has approved the application?"
+  }, {
+    "id" : "65493b7e-b834-4285-b6fd-a36380c6e4e1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to check if the client has approved the account?"
+  }, {
+    "id" : "695138e4-9a81-4f1d-a6b5-5a8e77079950",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to check if the client has approved the application?"
+  }, {
+    "id" : "c8a9185b-1a72-4ad7-be0e-7a016c71d205",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if R000088335 account is active?"
+  }, {
+    "id" : "c64aa259-112d-457d-8403-094ee7f847b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if account is active?"
+  }, {
+    "id" : "ef5c2359-5d68-48a1-92ea-b38b32a7d56d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if has approved the application"
+  }, {
+    "id" : "f97573eb-d34d-47ef-84da-b047591603ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if has approved the application?"
+  }, {
+    "id" : "2849bb38-eb06-4463-b28e-4b298c9661ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if my client's account is active?"
+  }, {
+    "id" : "0310e04c-0be3-47ec-9a97-c9af0493da76",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the application is approved"
+  }, {
+    "id" : "d8180bce-a9c7-437b-b4df-72b8f2564ff5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the client has approved the application"
+  }, {
+    "id" : "4f190d5a-646a-463d-ad79-8415f3057ad5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the client has approved the application?"
+  }, {
+    "id" : "8e03e42e-7b42-4649-9920-a7669bee8325",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you walk me through checking if the application was approved?"
+  }, {
+    "id" : "a022e978-3bba-43bd-a2c0-61b664b86102",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Did approve the application yet?"
+  }, {
+    "id" : "fb71a754-9704-4943-a590-6d4cccbd0d72",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Did my client approve the application yet?"
+  }, {
+    "id" : "34c91657-6f95-48b9-b65e-bb788595e71d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does it show if a client application is approved?"
+  }, {
+    "id" : "d29ac8b9-97af-47fd-bbb8-d6e207572938",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does it show if a the application is approved?"
+  }, {
+    "id" : "d9755c13-cc4d-46f1-b7fb-29134d91f79b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the account for R000088335 active yet?"
+  }, {
+    "id" : "40a887a2-3485-4ffb-9cf0-73dc6bf93442",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the account for active yet?"
+  }, {
+    "id" : "294f2d1c-d51a-42c2-a190-83ca19030029",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the account for my client active yet?"
+  }, {
+    "id" : "2670f140-dfde-4f7f-894d-7f8c4d877bf2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain client application approval status"
+  }, {
+    "id" : "afccab3f-0b1e-44d5-ac22-5bc1dd8ac6ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain the application approval status"
+  }, {
+    "id" : "fda6a526-d5c4-4be8-8658-e0ed1bce46da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "HOw do I see if has approved their application?"
+  }, {
+    "id" : "29eac57f-0e64-4433-95b7-75cc53fc3da6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "HOw do I see if the client has approved their application?"
+  }, {
+    "id" : "23b18b31-2a85-4361-95ef-433c1125b44d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Has approved the application yet?"
+  }, {
+    "id" : "07721cee-8696-4818-a920-93640eb52737",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Has approved this application?"
+  }, {
+    "id" : "34329224-1f26-400f-baf7-b4ac33744715",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Has the application been approved?"
+  }, {
+    "id" : "f70ccac9-ced1-4ae2-9805-503bdbaf8d38",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Has the client approved the application yet?"
+  }, {
+    "id" : "9cc4c577-4078-479d-971d-dc4ddf9fd5ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Has the client approved this application?"
+  }, {
+    "id" : "ab2f4636-eb16-4589-a62a-9bdf7d7a191d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me with the status of application approval"
+  }, {
+    "id" : "47ee6a11-f71b-41fc-b831-36de594c345b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me with the status of application approval by client"
+  }, {
+    "id" : "10dd1b0c-ecf9-4816-8340-d34bf5772de4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check to see if a client has approved the account?"
+  }, {
+    "id" : "509d55a2-ab28-480d-8dc6-32395d6dd0d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check to see if a client has approved the application?"
+  }, {
+    "id" : "8c648016-b5ef-44b0-b878-f61a11b4ea23",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check to see if has approved the account?"
+  }, {
+    "id" : "8b581d20-9f27-4332-ba86-042a4f4ebaa7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check to see if has approved the application?"
+  }, {
+    "id" : "220ee8b7-eedf-4b1f-8df1-09e4d8bb5974",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find out if application has been approved by client?"
+  }, {
+    "id" : "54d7c5bc-b700-405e-b79b-742ada8b87d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find out if application has been approved?"
+  }, {
+    "id" : "4001c03c-9139-4e03-8d2c-150dde30b33f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see if the application was approved by a client?"
+  }, {
+    "id" : "4f933527-4cc5-44ce-97bf-70e3d16b7bbc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see if the application was approved?"
+  }, {
+    "id" : "022af4b5-94e2-4582-a110-fc6e7e1239b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I tell if a client approved an application"
+  }, {
+    "id" : "f4e6aa62-af19-4d63-9d81-9a71059d402a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I tell if approved an application"
+  }, {
+    "id" : "9251b654-ebdd-4fb3-8fe4-f558d185fe06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I tell if the application is approved?"
+  }, {
+    "id" : "4f552241-8f17-4e5c-8775-e0c6567de576",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I check, if has approved the account?"
+  }, {
+    "id" : "9e76cad5-4de6-4e43-8346-1a177541f20c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I check, if has approved the application?"
+  }, {
+    "id" : "becff77f-1485-4f04-8bb8-a4b269cb19bc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I check, if the client has approved the account?"
+  }, {
+    "id" : "fd906523-38d5-4aa3-a18d-d96ba534bf40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I check, if the client has approved the application?"
+  }, {
+    "id" : "977b4e01-671f-4f70-85b5-fed9373b1792",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check if a client approved in application"
+  }, {
+    "id" : "9f879ff7-cc35-4cca-88ec-6765e2468afd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check if an application is approved?"
+  }, {
+    "id" : "b078eec0-e383-48b4-a861-9e62521440a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check if application approved"
+  }, {
+    "id" : "57d110ec-0e36-454c-8605-31e5855e7d12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check if approved in application"
+  }, {
+    "id" : "bfd5ed16-1a07-4121-9f35-e45b47007e20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check the status of the client's application"
+  }, {
+    "id" : "949656e7-0c91-44fe-b879-e9b8851f40eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check the status of the the application"
+  }, {
+    "id" : "89601af2-71b6-4f75-b5a3-bd3bb4e9b755",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check to see if my client's application is approved?"
+  }, {
+    "id" : "11061981-07e2-43e2-9240-7c62b867cd4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check to see if my the application is approved?"
+  }, {
+    "id" : "1b8537c1-872f-45c0-a352-3939ad82db0e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find out if a client has approved an application?"
+  }, {
+    "id" : "9d9d2609-eafb-4420-8626-320c3b094aa3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find out if has approved an application?"
+  }, {
+    "id" : "89195303-65e7-4deb-b16a-2514f5b385f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the update information for application approval for a client?"
+  }, {
+    "id" : "26442beb-8400-4704-8169-5a9c0f4fe15e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the update information for application approval for?"
+  }, {
+    "id" : "9390e685-e691-45d2-bbe1-7cbc6c121f6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if a client approved in application"
+  }, {
+    "id" : "804e261e-0aca-4a20-9eb2-128b23d2fb80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if a client has approved the app?"
+  }, {
+    "id" : "e12b92e6-5698-404c-abc2-98aeb293545a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if approved in application"
+  }, {
+    "id" : "ad39dce0-f2e2-4b57-96bc-e17255f4d872",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if approved the account?"
+  }, {
+    "id" : "f88a6d7f-04bd-4a01-bae9-941fdcf99c74",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if approved the application?"
+  }, {
+    "id" : "3259b6d0-8202-4943-8e0d-8406c0871318",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if has approved the app?"
+  }, {
+    "id" : "1add264d-48fc-4ef9-a297-fa98df990c26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if my client approved the account?"
+  }, {
+    "id" : "fd5f0529-279e-497e-b842-fb76bb2c0c70",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if my client approved the application?"
+  }, {
+    "id" : "54cc1115-6f30-4f04-82de-8d01bc39bcd6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if my client's application has been approved"
+  }, {
+    "id" : "4465418e-0c26-4881-aee2-f480f61a1d6e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see if my the application has been approved"
+  }, {
+    "id" : "8a9e904e-f30d-4b98-b2a4-a4d067f4a60b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I verify if has approved the application?"
+  }, {
+    "id" : "460979dc-16cf-4c18-8493-1a9213a48eae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I verify if the client has approved the application?"
+  }, {
+    "id" : "6fcb8089-c43f-4b99-8f97-b06a9adcfbc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i check if has approved the application?"
+  }, {
+    "id" : "285269c7-b7a0-451a-a964-e71713f0cd86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i check if the client has approved the application?"
+  }, {
+    "id" : "de05ed36-3711-4671-9a1d-371d850ea02c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How fast will the application be approved?"
+  }, {
+    "id" : "801fa1a7-cb6b-4660-b331-3d5233929234",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How might I go about checking the client's application approval status?"
+  }, {
+    "id" : "fe7b76d9-0a2d-42bc-ac34-a3b2824ccaaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How might I go about checking the the application approval status?"
+  }, {
+    "id" : "5d122013-8f08-4a30-88cc-95114490150b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to check if the application is approved"
+  }, {
+    "id" : "ed360234-5456-4ec2-8625-03a0bff64706",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I know if the application was approved by the client?"
+  }, {
+    "id" : "83379c69-01cc-436c-a963-c2413d05f4c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would I know if the application was approved?"
+  }, {
+    "id" : "cbd0fbd8-47f7-42ce-b15e-2ce1035f3f88",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need some help checking to see if the application is approved by the client."
+  }, {
+    "id" : "86b977c5-0344-4e93-ad6f-a94265e4dccb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need some help checking to see if the application is approved."
+  }, {
+    "id" : "cbfd40c3-66c0-45f2-b549-cd100ed25378",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to check if has approved the application"
+  }, {
+    "id" : "ed873d3c-53a4-489c-9cb6-1443b9041702",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to check if the client has approved the application"
+  }, {
+    "id" : "9705c4bc-314f-41ec-8021-8837bd391bfe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to check on the application status approval for"
+  }, {
+    "id" : "8fdabee9-8084-4b78-aed6-4f0532098676",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to check on the application status approval for a client"
+  }, {
+    "id" : "8f313a1c-de51-43f2-b4ee-13e3b7931bd7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to find out if has approved the application."
+  }, {
+    "id" : "b48b5668-09a5-4269-add3-a1209dd25a2d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to find out if the client has approved the application."
+  }, {
+    "id" : "0fc47005-3e2f-4258-aa73-4ceb66a79a0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to see if an application was approved by a client. How do I do that?"
+  }, {
+    "id" : "fe54da15-bea2-4f80-81be-eb0212a301dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to see if an application was approved. How do I do that?"
+  }, {
+    "id" : "14484b17-c774-46e6-a28a-395e61d6c0a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to see if the application was approved by client."
+  }, {
+    "id" : "7ca32529-6167-4c97-97b0-32d679a0ea42",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to see if the application was approved."
+  }, {
+    "id" : "594ef6c8-9eab-4632-8fa0-c53c5389fdc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to check if the application is approved"
+  }, {
+    "id" : "5121798b-4d14-4628-a812-3dcb8819b184",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to check if the application is approved by my client"
+  }, {
+    "id" : "ed82ed10-376c-4e7b-9d33-7fddebc6b63f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to verify if an application for a client was approved?"
+  }, {
+    "id" : "0b072804-2d6b-4cae-ae01-405f42a5f35a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to verify if an application for was approved?"
+  }, {
+    "id" : "4e242e28-2842-48f3-8516-080adac2483c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to know if has approved the application"
+  }, {
+    "id" : "74fa31f1-c142-42e8-8d50-d27a490a5af1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to know if the client has approved the application"
+  }, {
+    "id" : "b3b5910e-e447-493e-8766-3f06ca40e069",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to check and see if an application was approved by the client."
+  }, {
+    "id" : "eef56d89-b8a6-4530-a47a-88503e49639b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to check and see if an application was approved."
+  }, {
+    "id" : "d76a5ac5-5b76-49bf-982c-716b84a9ec53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to know if my client's application was approved yet"
+  }, {
+    "id" : "dbdec409-ab2c-4d06-ad57-46de4216f2c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to know if my the application was approved yet"
+  }, {
+    "id" : "aa84c9dc-b30f-405b-9332-ce437d769533",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to see if has approved the application."
+  }, {
+    "id" : "bcc7324f-d2c9-4a84-b9f6-d8ccc03587b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to see if the client has approved the application."
+  }, {
+    "id" : "87692131-d7d7-4b5c-9a16-ca2dd2d05980",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible to see if the application was even approved for my client?"
+  }, {
+    "id" : "01811665-c3f3-4cfb-b2a8-592359f3fc66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible to see if the application was even approved?"
+  }, {
+    "id" : "9dc4da1d-4c52-4183-b00d-c8fdbbfee64e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the account active yet?"
+  }, {
+    "id" : "b4110de1-4a0b-46dc-a1e0-1a36812fde48",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the account active?"
+  }, {
+    "id" : "ea1afebf-9dfa-482b-8288-ac764229228e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the account for .... active yet?"
+  }, {
+    "id" : "3a91b573-40aa-4b82-a1f0-1efc89174c02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the account for R000088335 active yet?"
+  }, {
+    "id" : "4c30b0a4-3e38-4736-8cdb-6f9c81cfc013",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a place to see if has approved this application?"
+  }, {
+    "id" : "d67ecc86-77a7-44d3-95cf-c9cc70ab9670",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a place to see if the client has approved this application?"
+  }, {
+    "id" : "bc82850a-2314-4f1d-9afe-d74d632370ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there any way for the application is approved"
+  }, {
+    "id" : "c1648e28-7616-4e1f-beae-7c455b966867",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there any way for the application is approved by client"
+  }, {
+    "id" : "3725949f-ff39-4b16-8cc3-1624e0e012e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "R000088335 account is active already?"
+  }, {
+    "id" : "e9c3ecfe-295a-4c7e-811b-97fcf6c25b9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Regarding an application, how do I check if it was approved by a client?"
+  }, {
+    "id" : "345cff1d-ac15-455a-b1e1-0903af29c533",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Regarding an application, how do I check if it was approved?"
+  }, {
+    "id" : "cdf1e4d4-302c-4ac3-9a8f-fbf5dc425f1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to see f the application was approved"
+  }, {
+    "id" : "ea993e39-d5da-40ec-a0a2-0a09808b3259",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to see f the application was client approved"
+  }, {
+    "id" : "eff95ab7-7c7a-40ab-accf-09d0f9e91a95",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me if approved the application"
+  }, {
+    "id" : "b42c2282-5830-4146-b198-d878754ad230",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me if has approved the application"
+  }, {
+    "id" : "93db2963-3136-4369-916f-e630611628c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me if the client approved the application"
+  }, {
+    "id" : "3c7f0375-aa01-4243-803a-0ec58106dd00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me if the client has approved the application"
+  }, {
+    "id" : "9f308065-b9be-411d-a829-4fc8888c9ceb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me if this client has attained approval of their account."
+  }, {
+    "id" : "db01bea8-096b-4a4d-95ec-43ae1ea07900",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me if this client has attained approval of their application."
+  }, {
+    "id" : "299e3b17-2828-4a8e-af83-973e864a37fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me if this has attained approval of their account."
+  }, {
+    "id" : "12267970-c0bb-4d25-bd27-8c93a6c890b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me if this has attained approval of their application."
+  }, {
+    "id" : "c50dd3ed-cbbc-42e5-953c-7ae867099d8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure to check if the application is approved"
+  }, {
+    "id" : "f39e18bc-9ba6-4dcb-8c80-39ff665b0fff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the way to see if an application has been approved by a client."
+  }, {
+    "id" : "050215af-27cd-40f4-9a1a-89be2276981f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the way to see if an application has been approved."
+  }, {
+    "id" : "e3467bb1-e369-45e3-98cd-3eeae529aabc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the way to see if has approved the application"
+  }, {
+    "id" : "951aa559-1471-408c-9bb8-4dea95c25f26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the way to see if the client has approved the application"
+  }, {
+    "id" : "cf67a100-fdf8-49c5-96b6-3e90975de356",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What to I need to do to see whether gave approval for an application?"
+  }, {
+    "id" : "69046584-2248-4294-92bb-46ecbfdb9446",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What to I need to do to see whether the client gave approval for an application?"
+  }, {
+    "id" : "3ff3474c-7feb-4b1f-bf17-f62b91822b9a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I look to see if an application got approved by a client?"
+  }, {
+    "id" : "16be6805-5031-48a6-b2ce-d145614d6707",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I look to see if an application got approved?"
+  }, {
+    "id" : "ff76cc34-6d55-44b6-a5c0-2e16ef8ee27e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see if a client has approved an application?"
+  }, {
+    "id" : "d71d0385-0b9f-496f-a951-44ddd5eb7078",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see if an application was approved by the client?"
+  }, {
+    "id" : "87ddfb12-afdb-4164-b192-51fdde865c60",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see if an application was approved?"
+  }, {
+    "id" : "4343ea3f-7d18-4524-b1bd-288655f5e09e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see if has approved an application?"
+  }, {
+    "id" : "d416c926-8a35-41b3-995f-cd9412bf1f74",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to know if the application was accepted by client?"
+  }, {
+    "id" : "d21ee729-494f-40cc-beb9-6fb9498e51af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to know if the application was accepted?"
+  }, {
+    "id" : "333b24f1-cb72-4f70-bdcf-dcbb4e4bb695",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will I be notified when has approved on the application?"
+  }, {
+    "id" : "ac412f52-a2a8-4c65-a418-1fa2df2c040a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will I be notified when the client has approved on the application?"
+  }, {
+    "id" : "f4f2a07e-707e-4a78-8f9c-8b6cfb29aaad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would like to know if has approved the application"
+  }, {
+    "id" : "b5627e6b-c76c-420f-a31d-5bebbb859c3f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you be able to check online if a client has approved an application?"
+  }, {
+    "id" : "e6c2e186-adfd-4619-870d-cdb89cf5d972",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you be able to check online if has approved an application?"
+  }, {
+    "id" : "42f2e454-e719-427f-ad3d-20264dfcbcae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any result of the application for my client? Is it approved?"
+  }, {
+    "id" : "e0e1832f-f549-4342-b4be-d07ae02e94d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any result of the application? Is it approved?"
+  }, {
+    "id" : "4b403d42-cb2a-4667-bee2-ff8676490319",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "application approvals checking"
+  }, {
+    "id" : "8ca8c886-a0f6-4951-9efb-dd586bd16fde",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "application, approved or not?"
+  }, {
+    "id" : "2c3bb39d-daf8-4897-b70d-04b617c10ca8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "application, client approved or not?"
+  }, {
+    "id" : "78735ef8-56dc-471e-ab85-07bfedac4016",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "approval status of the application please."
+  }, {
+    "id" : "7c49d114-02d8-4c7a-b597-01048a452310",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "approved application?"
+  }, {
+    "id" : "dec9912e-32d1-4fc4-b0ae-152ad9104a2e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I check if application approved"
+  }, {
+    "id" : "83d80d33-ff2d-44db-af8c-db0ab120b491",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I check if application approved by client"
+  }, {
+    "id" : "0e610409-6e1a-4a5f-9cea-ef6b21b1e7d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check for me if has approved the account?"
+  }, {
+    "id" : "d4651ed9-bbe3-4f26-86f4-7d177529642d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check for me if has approved the application?"
+  }, {
+    "id" : "96ac3da2-58d3-4f4e-9e6b-a88f4bea4ae5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check for me if the client has approved the account?"
+  }, {
+    "id" : "7a917172-3a2f-47c9-a97d-7883758f79b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check for me if the client has approved the application?"
+  }, {
+    "id" : "820a5acf-2506-48f9-a580-8c2b4551bcde",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check if has approved the application?"
+  }, {
+    "id" : "68a78387-4993-4f85-b29a-81995707b7f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check if the client has approved the application?"
+  }, {
+    "id" : "7b433ef5-0312-40b9-b8aa-ed1cc15c73df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check client's application status, approved or not?"
+  }, {
+    "id" : "0b5da56e-4494-4497-b0b6-079f1225a156",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check the application status, approved or not?"
+  }, {
+    "id" : "ec120485-1e78-47d0-b7c3-ed4a8eaf5d85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any result of the application for my client? Is it approved?"
+  }, {
+    "id" : "81bba4d7-768b-4e24-b196-c481d935b2e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any result of the application? Is it approved?"
+  }, {
+    "id" : "bc113078-ecd2-4f0d-bf4f-c4303c94d7db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "application approvals checking"
+  }, {
+    "id" : "644842da-3638-4d2f-80de-c0c7b2e8c966",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "application, approved or not?"
+  }, {
+    "id" : "fde3e5db-0c77-4248-b72a-0d133c0e13b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "application, client approved or not?"
+  }, {
+    "id" : "b3a7cb13-3756-4d64-b1e6-bd795f307d60",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "approval status of the application please."
+  }, {
+    "id" : "47f6b8f9-83fb-4eb1-b027-a337f1bfd02d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "approved application?"
+  }, {
+    "id" : "cd4c1d55-b84f-4435-85e8-627952375832",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I check if application approved"
+  }, {
+    "id" : "bd5c7ca8-529b-4323-97bb-da26434176af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I check if application approved by client"
+  }, {
+    "id" : "9831e601-46b3-4a67-a5b9-221d1f5061d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check for me if has approved the account?"
+  }, {
+    "id" : "3bfa96f2-74dd-4975-8ae6-fc32c25b340b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check for me if has approved the application?"
+  }, {
+    "id" : "8cda1f70-bc39-4147-93d8-c09f95487979",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check for me if the client has approved the account?"
+  }, {
+    "id" : "015cb3a4-254e-4ad2-a73b-9df802d2de4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check for me if the client has approved the application?"
+  }, {
+    "id" : "5e9560ec-8c17-428e-898f-506a61d32960",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check if has approved the application?"
+  }, {
+    "id" : "16c968c0-cfb7-4fb4-ad50-cf484d039691",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check if the client has approved the application?"
+  }, {
+    "id" : "32514264-01d2-4647-9404-7dd036510bc0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check client's application status, approved or not?"
+  }, {
+    "id" : "52f591e0-fc3b-462f-84e4-b54459f6043e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check the application status, approved or not?"
+  }, {
+    "id" : "3611d975-1069-4225-8dd9-699759b2d7d0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any result of the application for my client? Is it approved?"
+  }, {
+    "id" : "355c9ac3-ed79-40f3-b96e-0a59c90a540e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any result of the application? Is it approved?"
+  }, {
+    "id" : "42366e4f-3c1b-4b8d-8da1-780ce7e4b95e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "application approvals checking"
+  }, {
+    "id" : "5754bc84-5b3d-4334-adbf-239256bb98ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "application, approved or not?"
+  }, {
+    "id" : "06e9179b-cdec-466a-bf5b-5a4021822103",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "application, client approved or not?"
+  }, {
+    "id" : "414dd203-c4e5-4bd5-894d-933b7a2db5f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "approval status of the application please."
+  }, {
+    "id" : "76748e8a-c039-4b81-a679-c12e9b34ac57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "approved application?"
+  }, {
+    "id" : "d2be05f1-4a0b-4e85-bab7-de36d9b55e17",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I check if application approved"
+  }, {
+    "id" : "7e5c5a65-e191-4211-81ba-41fd78c92f50",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I check if application approved by client"
+  }, {
+    "id" : "cf4b1587-3c7e-4c26-b0b4-61afcef64cc0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check for me if has approved the account?"
+  }, {
+    "id" : "09f07712-e042-43a2-a9c7-428b48726bb2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check for me if has approved the application?"
+  }, {
+    "id" : "77d143db-38d0-4414-a5ce-2e992e897678",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check for me if the client has approved the account?"
+  }, {
+    "id" : "a1d223d1-241e-4282-999b-7da50bfc2faf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check for me if the client has approved the application?"
+  }, {
+    "id" : "7adb5aee-7fcc-4c32-8867-c02a147a84cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check if has approved the application?"
+  }, {
+    "id" : "155114d5-8dcb-4ddc-a8fc-1f2a06948f6e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you check if the client has approved the application?"
+  }, {
+    "id" : "d68f69b9-df33-4122-815d-b90b21b20fb2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check client's application status, approved or not?"
+  }, {
+    "id" : "60fd0e1a-5d0e-4db9-8cdf-d101f9c8c9c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check the application status, approved or not?"
+  }, {
+    "id" : "fd437908-ee7d-4fc5-9729-f626cb0ab5c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "client approved application?"
+  }, {
+    "id" : "b89d1262-e88d-4305-9cfe-473e0d1b3e6d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "client's application approved or not?"
+  }, {
+    "id" : "602918e5-37be-4cb4-b8b3-a5d612cfcd21",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "client's application status"
+  }, {
+    "id" : "a78e24a8-d9e7-4e0e-9506-553d1c70feaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "clients application approvals checking"
+  }, {
+    "id" : "ea5a8d89-6548-4b9c-a774-1e3e0b2e31ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "confirm if the application already approved"
+  }, {
+    "id" : "e2f43462-84a5-476f-a489-a1f3e4959be0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "confirm if the application already approved by my client"
+  }, {
+    "id" : "f453bffb-517c-4051-80ae-6edb2b2ebdbc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "could you check if the account is active or not?"
+  }, {
+    "id" : "05d9294d-7c07-48ae-895c-59078db47648",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "could you check if the account is active?"
+  }, {
+    "id" : "f8faec97-6a67-4fd6-bdb9-bb79c3498f33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "did approve her application?"
+  }, {
+    "id" : "a1cfef62-4fb2-4834-a58c-b69cd375bd5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "did approve his application?"
+  }, {
+    "id" : "bfcda36b-9932-476a-b6d4-3628d575e8d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "did approve the application?"
+  }, {
+    "id" : "f78c6565-8929-4371-816f-863cbbcbf148",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "did my client approve her application?"
+  }, {
+    "id" : "e4e0d314-57b0-4195-91d6-31b8b1913e25",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "did my client approve his application?"
+  }, {
+    "id" : "5c376ba1-cb11-483a-8c93-c3252c01c2a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "did my client approve the application?"
+  }, {
+    "id" : "033cf2e9-d592-42f7-83c5-5c6ee91e010c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "find if client application gets approved?"
+  }, {
+    "id" : "55070053-ecec-475a-aef2-7236528afc0e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "find if the application gets approved?"
+  }, {
+    "id" : "c8796c79-675f-4f46-af7a-596312005ba0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i tell is a client has approved the application"
+  }, {
+    "id" : "22ee107a-9ce5-4306-bc17-babd8e0dc488",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i tell is has approved the application"
+  }, {
+    "id" : "e8d2d506-3951-41b5-9b4c-54064a9c1bd9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I check if R000088335 account is active yet?"
+  }, {
+    "id" : "b7c1e3b5-45dc-42d3-8590-2f83bba903ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I check if account is active yet?"
+  }, {
+    "id" : "02ecf173-1637-49d4-b0a7-ea83ef3582df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I check if my client's account is active yet?"
+  }, {
+    "id" : "ba17e494-38af-4166-8e0a-f327cdbf8c15",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I know if the application was approved"
+  }, {
+    "id" : "595ed642-0dd6-4dfc-8286-5f450471b238",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I know if the application was approved by the client"
+  }, {
+    "id" : "8cdd1889-1f20-4f2c-b93b-14866a66f4c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to check approval of an application ?"
+  }, {
+    "id" : "bf82734c-bae6-478c-92f3-fd5e854a8b81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to check approval of an application?"
+  }, {
+    "id" : "2184e98f-d2fa-4ee1-84e2-cc2ba374efd0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to check is client has approved the account"
+  }, {
+    "id" : "7f8ee7e4-0bd5-4f0d-9a43-060f898fa9cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to check is client has approved the application"
+  }, {
+    "id" : "ab828d4f-caca-4971-9355-f8c6ed13846d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to check is has approved the account"
+  }, {
+    "id" : "6db39496-ad09-4727-af0a-36bcad0fd116",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to check is has approved the application"
+  }, {
+    "id" : "0aab4a57-ff85-44f1-b082-562e5cd884c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to see if application for got approved?"
+  }, {
+    "id" : "7ae3585a-45e6-4b20-91bf-f6ba46a9da04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to see if application for my client got approved?"
+  }, {
+    "id" : "ef221f2e-594a-46c6-b176-352d288e0980",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how would one check on an application to see if approved?"
+  }, {
+    "id" : "d5d9f080-0ff0-4e05-bc52-84235412d2ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "if did approve the application?"
+  }, {
+    "id" : "b852daa7-8d11-413d-857d-64f6b181f865",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "if my client did approve the application?"
+  }, {
+    "id" : "5e9ce1ed-73b7-4142-accf-7a43023bb41e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me how to check if the application is approved"
+  }, {
+    "id" : "91f4f7c9-df8f-44a0-9264-d5789666b744",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the application approved or not?"
+  }, {
+    "id" : "4d4de20b-dbb7-4042-8b97-2b7b441a3aa6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "want to check if the account is active or not?"
+  }, {
+    "id" : "cb62b79c-73ca-49fe-9b98-300143ff1081",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "want to check if the account is active?"
+  }, {
+    "id" : "ce746e32-1e0f-4124-9dd6-3b1ed6772c7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the application approved or not?"
+  }, {
+    "id" : "f61e3387-2eab-4f7d-ab59-99fe98473afc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "want to check if the account is active or not?"
+  }, {
+    "id" : "43f061b7-2198-443b-87e4-0c6f95a4e7c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "want to check if the account is active?"
+  }, {
+    "id" : "fb32a851-7c82-4d07-aabf-d77055a6fcb3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "with the status of application approval"
+  }, {
+    "id" : "f6a6d54b-a299-4a26-ab2e-db64fdf164b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "with the status of application approval by client"
+  } ]
+} ]

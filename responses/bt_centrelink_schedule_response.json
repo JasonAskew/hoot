@@ -1,185 +1,239 @@
 {
-  "name" : "bt_centrelink_schedule_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "This query is not applicable for this account. Is there anything else I can help you with?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "This query is not applicable for this account. Is there anything else I can help you with?"
+        }
       }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Centrelink schedules are generated at the beginning of each financial year and whenever amendments to a pension are made. You can locate your Centrelink schedule in your document library."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To generate a new Centrelink schedule, select 'Show me how'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "1515742",
-          "label" : "Show me how"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/pano-documents",
-          "label" : "Document library"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Centrelink schedules are generated at the beginning of each financial year and whenever amendments to a pension are made. You can locate your Centrelink schedule in your document library."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To generate a new Centrelink schedule, select 'Show me how'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "1515742",
+              "label": "Show me how"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/pano-documents",
+              "label": "Document library"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Centrelink schedules are generated at the beginning of each financial year and whenever amendments to a pension are made. You can locate your Centrelink schedule in your document library."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To generate a new Centrelink schedule, select 'Show me how'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "1515742",
+              "label": "Show me how"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/pano-documents",
+              "label": "Document library"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Centrelink schedules are generated at the beginning of each financial year and whenever amendments to a pension are made. You can locate your Centrelink schedule in your document library."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To generate a new Centrelink schedule, select 'Show me how'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "1515742",
+              "label": "Show me how"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/pano-documents",
+              "label": "Document library"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Centrelink schedules are generated at the beginning of each financial year and whenever amendments to a pension are made. You can locate a client's Centrelink schedule in their document library."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To generate a new Centrelink schedule for a pension account, select 'Show me how'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "1514675",
+              "label": "Show me how"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "One of our consultants can assist you with generating a Centrelink schedule. Please select the \u2018Chat with consultant\u2019 button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_investor",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To locate an existing Centrelink schedule, navigate to 'More' and then select 'Document library'."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To generate a new Centrelink schedule, navigate to 'More' and then select 'Centrelink schedule request'."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Please note this is only applicable to pension accounts."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To locate an existing Centrelink schedule, navigate to the client\u2019s pension account, select 'More' and then 'Document library'."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To generate a new Centrelink schedule, navigate to the client's pension account, select 'More' and then 'Centrelink schedule request'."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Centrelink schedules are generated at the beginning of each financial year and whenever amendments to a pension are made. You can locate your Centrelink schedule in your document library."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To generate a new Centrelink schedule, select 'Show me how'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "1515742",
-          "label" : "Show me how"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/pano-documents",
-          "label" : "Document library"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Centrelink schedules are generated at the beginning of each financial year and whenever amendments to a pension are made. You can locate your Centrelink schedule in your document library."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To generate a new Centrelink schedule, select 'Show me how'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "1515742",
-          "label" : "Show me how"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/pano-documents",
-          "label" : "Document library"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Centrelink schedules are generated at the beginning of each financial year and whenever amendments to a pension are made. You can locate a client's Centrelink schedule in their document library."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To generate a new Centrelink schedule for a pension account, select 'Show me how'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "1514675",
-          "label" : "Show me how"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "One of our consultants can assist you with generating a Centrelink schedule. Please select the ‘Chat with consultant’ button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_investor",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To locate an existing Centrelink schedule, navigate to 'More' and then select 'Document library'."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To generate a new Centrelink schedule, navigate to 'More' and then select 'Centrelink schedule request'."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Please note this is only applicable to pension accounts."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To locate an existing Centrelink schedule, navigate to the client’s pension account, select 'More' and then 'Document library'."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To generate a new Centrelink schedule, navigate to the client's pension account, select 'More' and then 'Centrelink schedule request'."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_centrelink_schedule_response"
 }

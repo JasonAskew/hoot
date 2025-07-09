@@ -1,13 +1,16 @@
 {
-  "name" : "kcb_search_tx_amount_single_filter",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Amount: for exactly ${amount}"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Amount: for exactly ${amount}"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "kcb_search_tx_amount_single_filter"
 }

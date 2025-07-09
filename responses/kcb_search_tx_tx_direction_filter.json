@@ -1,13 +1,16 @@
 {
-  "name" : "kcb_search_tx_tx_direction_filter",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Direction Type: ${direction}"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Direction Type: ${direction}"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "kcb_search_tx_tx_direction_filter"
 }

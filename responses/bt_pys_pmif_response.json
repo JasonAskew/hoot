@@ -1,27 +1,32 @@
 {
-  "name" : "bt_pys_pmif_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "For more information on Protect Your Super (PYS) and Putting Members Interests First (PMIF) legislation, please select the relevant button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "For more information on Protect Your Super (PYS) and Putting Members Interests First (PMIF) legislation, please select the relevant button."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://www.bt.com.au/personal/superannuation/learn/important-change-to-insurance-within-super.html",
+          "label": "PYS"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://www.bt.com.au/personal/superannuation/learn/changes-to-super/putting-members-interests-first.html",
+          "label": "PMIF"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://www.bt.com.au/personal/superannuation/learn/important-change-to-insurance-within-super.html",
-        "label" : "PYS"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://www.bt.com.au/personal/superannuation/learn/changes-to-super/putting-members-interests-first.html",
-        "label" : "PMIF"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_pys_pmif_response"
 }

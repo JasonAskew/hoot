@@ -1,0 +1,20 @@
+{
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Hi ${user.first_name}. You are now logged in.",
+          "alternatives": [
+            "Welcome ${user.first_name}. You are now logged in."
+          ]
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageLoginGreeting",
+  "display_name": "MessageLoginGreeting"
+}

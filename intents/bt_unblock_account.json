@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "log_in" ]
+  "categorization": {
+    "tags": [
+      "log_in"
+    ]
   },
-  "name" : "bt_unblock_account",
-  "display_name" : "bt_unblock_account",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_unblock_account_response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_unblock_account_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "Can you unblock the account for me?",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "Can you unblock the account for me?",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_unblock_account",
+  "display_name": "bt_unblock_account",
+  "alternative_question_eligible": true
 }

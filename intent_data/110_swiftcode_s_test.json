@@ -1,0 +1,310 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "110_swiftcode_s_test",
+  "intent_name" : "110_SWIFTcode_S",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "329b27a7-ba83-49b5-930f-b1ad79adf357",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "And the sort code",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9d1b2470-6ed3-4921-80a8-dff31f2ada91",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bob code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "35cc0e3d-73c1-46a4-bd0a-250d32896ca9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you please tell me the IBAN (SWIFT) number for my BT account?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "09d5c590-42d7-457f-a78c-f265c467c3f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I know the Bank Code for Bank?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "4576b7f7-6a10-4b42-89f6-65f92a784b80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i get the referral code?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "61e3d63e-6b2d-4514-97bb-429960cb7eaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i know my referral code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "f475ac84-527f-4953-a969-c7b6310a34ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to IFSC code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "bf479ba7-209c-4bb1-bfdc-12fc0179cf57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "And the sort code",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8f8d5953-b967-4f2a-bfc2-5529c9270be3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bob code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "dca790e4-7b7a-47ef-81cb-8490e75abb43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you please tell me the IBAN (SWIFT) number for my BT account?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "4306e791-64f9-4d9f-862a-297bbf14ea13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I know the Bank Code for Bank?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "6395f538-a460-44ef-8649-e79b973f2f06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i get the referral code?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "3ad97f73-97fb-4203-8b67-aeb5727aac70",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i know my referral code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "ddf22663-7dac-4f4e-8604-6b394579401f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to IFSC code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "5440719f-b984-4760-801f-a3e46d2c4d5f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I like to check the swift code for my acc",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "632feebe-0913-4afa-b597-937c57602896",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know the swift code for absa,im expecting some international transfers",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ea39f324-cc56-4b6f-8885-04478cd16891",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to know if the iban codes",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3ce37c27-41be-483b-ba41-2555325f1a4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'm unable to find IFSC CODE",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "ed82a633-3a4a-4901-a120-c84346498206",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ifsc",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "ebc50a94-59d0-4186-afca-e0072f574880",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ifsc code plz",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "ef18997c-4a65-40c3-abbf-ef8b374aed37",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ifsc code?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "bae1bda2-ede0-4d0f-b0fa-5ca233cb5000",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ifsc- code not finding",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "8e4f764e-4087-480a-9c59-49ec3423f6d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Micr code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "05139361-39cf-4966-8f83-e71081829d59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account number and swift code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "eb33d63a-1392-4e1b-994f-90e7f44029b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My ifsc is correct",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "06a8d7de-23ac-42a1-97ab-7023119ab92e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My referral code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "167ada12-5572-42f4-adf4-eb466a396664",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My refferal code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "34ad076e-eab3-4cb7-82f3-df19f1aa5a62",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show my IFSC code of mine",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "e260aabd-e3a5-4ebb-91d3-2c96378e799d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the sort code & Bob codes for Bob",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ad2afb25-71c8-4537-a73c-7ea6b20410fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What details to need to find the IFSC code?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "674a9e20-89c0-4cf8-bdad-5d0fd2b5dc3d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What does it mean by CHK swift code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "37f22eb8-8955-4979-9c56-835fd9c7f7ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is SBI venkatagiri ifsc code because I can't get in bankname app",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "890f8f88-f60c-41ef-a9f8-f97e27ec5fda",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is absa BIC?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cdfb4f42-f98e-4713-a7d7-613c6f60ee32",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is absa Bob code in tz",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "54df6ca9-8ba6-4d79-a5f6-36e97f78c65d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my IFSC code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "2d31712c-0c97-44ad-aea5-e709d6f28b46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is the Swift code",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "bbda90ee-8097-4a00-9571-a36f1a75dbb8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is your swiftcode in tz?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d1ef805b-2bed-491e-b421-95b9c4eecdda",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is my referral code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "b997b439-3b52-40ee-b015-7aefd14e1b03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where to find ifsc code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "ad2b5450-0480-4dad-a7cc-6324338323d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "absa swiftcode",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "559efd42-db80-44df-af9b-2ed0353a5184",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "doing a local transfer and i want a swift code",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "383ff82d-f468-42d1-8977-7982cc1c1cb8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need absa Bob code",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4c6094bf-c1cc-4ae4-b9dc-f1966fefec28",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "need Bob code for zanzibar tanzania Bob",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3a3ee3a7-db8d-4734-9b1a-7f6e49787303",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "refferal code",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "6e28f30c-cb45-496f-a3e3-89de2f1d604f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is business address",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "bda27d52-2ac1-4de5-a8fc-3f39b178a5df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the apir code please",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "d8d51a16-632a-4b2f-a8d1-92e17f41b78d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the swift code for absa",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "37838f63-fd5d-4247-8639-6d4e02cec196",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the swift code for this account please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9fc3a447-e322-4309-8585-05f8370b4cd4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can i find the swift codes for sending money",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "deb3acf4-db62-407c-af15-6de6615972fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do i find my code",
+    "tags" : [ "platset", "test_gold" ]
+  } ]
+} ]

@@ -1,35 +1,185 @@
 {
-  "name" : "bt_channel_mobile_investor",
-  "active" : true,
-  "criteria" : [ {
-    "platform_type" : "mobile",
-    "customer_data" : [ {
-      "name" : "role",
-      "value" : "Investor"
-    }, {
-      "name" : "userType",
-      "value" : "Advised"
-    } ]
-  }, {
-    "platform_type" : "mobile",
-    "customer_data" : [ {
-      "name" : "role",
-      "value" : "Investor"
-    }, {
-      "name" : "userType",
-      "value" : "Direct"
-    } ]
-  }, {
-    "platform_type" : "mobile",
-    "customer_data" : [ {
-      "name" : "role",
-      "value" : "Investor"
-    }, {
-      "name" : "userType",
-      "value" : "ASIM"
-    } ]
-  } ],
-  "description" : "bt_channel_mobile_investor",
-  "disabled_actions" : [ "104_SupportedLanguages_S_P", "110_SWIFTcode_S", "111_DirectDeposit_S", "46_DepositProcessTime_S", "70_Feedback_S", "77_CallBack_S", "87_Movies_S_P", "91_Capabilities_S_P", "ChatBotDown", "WLIS_Class_action", "bt_account_performance_available", "bt_add_poa", "bt_add_tpa", "bt_amend_advice_fee", "bt_amend_advice_fee_investor", "bt_application_status", "bt_apply_offline", "bt_approval_notify", "bt_asset_transfer", "bt_asset_transfer_investor", "bt_auto_invest", "bt_available_balance", "bt_balance_decrease", "bt_bpay_details", "bt_broken_link", "bt_bsb_transfer_details", "bt_cancel_trade", "bt_certify_id", "bt_cgt_report", "bt_change_name", "bt_change_pension_payment", "bt_change_withdrawal_limit", "bt_check_insurance", "bt_client_transfer", "bt_code_expiry", "bt_commence_pension", "bt_comms_method", "bt_compact_menu", "bt_compliance_letter", "bt_concess_contribute", "bt_covid_recontribution", "bt_dasp", "bt_data_download", "bt_ddo_trade", "bt_deposit_funds", "bt_deposit_funds_investor", "bt_drawdown_strat", "bt_edit_application", "bt_edit_tfn", "bt_eidv", "bt_email_disambig", "bt_employer_contribution_details", "bt_eofy", "bt_eofy_key_dates", "bt_fee_grouping", "bt_financial_adviser_info", "bt_financialplanupdate", "bt_find_forms", "bt_forgot_username_password", "bt_general_fees", "bt_get_insurance", "bt_get_to_know_pano", "bt_hin_number", "bt_how_logout", "bt_increase_insurance", "bt_inspecie_transfer", "bt_insurance_optin", "bt_interest_rate", "bt_investment_option", "bt_it_ticket_time", "bt_key_dates", "bt_linked_account_change", "bt_linked_account_verification", "bt_live-chat-intercept-intent", "bt_login_failure", "bt_mailing_address", "bt_manual_verify", "bt_min_account_balance", "bt_min_pension", "bt_minimum_pension_changes", "bt_model_portfolio", "bt_my_address", "bt_new_registration_code", "bt_no_email_mobile", "bt_not_useful", "bt_not_working", "bt_overseas_poa", "bt_panorama_app", "bt_panorama_pds", "bt_payment_settings", "bt_pension_payment_amount", "bt_pension_payment_date", "bt_pension_pmt_fail", "bt_pension_refresh", "bt_personal_tax", "bt_positions", "bt_product_application", "bt_pys_pmif", "bt_rcr_changes", "bt_register", "bt_regular_investment", "bt_remove_client", "bt_rollover", "bt_rollover_time", "bt_security_code", "bt_staff_access", "bt_submit_form", "bt_super_early", "bt_super_profile", "bt_tax_and_annual_statements", "bt_tax_summary", "bt_technical_difficulties", "bt_term_deposit", "bt_terms_conditions", "bt_test_account_details", "bt_test_navigation", "bt_trade_cancelled_reason", "bt_trade_settle_time", "bt_trade_unit_price", "bt_unblock_account", "bt_update_other_contact_details", "bt_update_primary_mobile", "bt_where_username", "bt_why_minimum_cash_balance", "bt_why_verify_acct", "bt_withdrawal_time", "bt_work_test_declaration", "bt_wrap_account_access", "bt_wrap_account_number", "bt_wrap_deposits", "bt_wrap_employer_cont", "bt_wrap_phone_number", "bt_wrap_report", "bt_wrap_txn_history", "bt_your_future_your_super", "kcb_kim_getdefinition", "view_statements_reports" ],
-  "enabled_actions" : [ "47_TxnHistoryLength_S", "69_LiveAgent_S", "bt_view_reports", "bt_usi_abn", "44_CloseAcc_S", "bt_account_number", "43_ViewStatements_S", "bt_consent_request", "bt_trade_share", "bt_buy_share", "bt_sell_share", "bt_link_account", "bt_client_details", "bt_change_insurance", "bt_fraud", "bt_vulnerable_customer", "kcb_feedback_survey", "kcb_feedback_binary", "76_ServiceRequestStatus_S", "kcb_feedback_csat", "bt_request_for_withdrawal", "bt_centrelink_schedule", "bt_request_for_withdrawal_investor", "bt_balance", "bt_trading_fees", "79_EstatementError_S", "bt_change_beneficiary_details", "bt_corporate_action" ]
+  "criteria": [
+    {
+      "platform_type": "mobile",
+      "customer_data": [
+        {
+          "name": "role",
+          "value": "Investor"
+        },
+        {
+          "name": "userType",
+          "value": "Advised"
+        }
+      ]
+    },
+    {
+      "platform_type": "mobile",
+      "customer_data": [
+        {
+          "name": "role",
+          "value": "Investor"
+        },
+        {
+          "name": "userType",
+          "value": "Direct"
+        }
+      ]
+    },
+    {
+      "platform_type": "mobile",
+      "customer_data": [
+        {
+          "name": "role",
+          "value": "Investor"
+        },
+        {
+          "name": "userType",
+          "value": "ASIM"
+        }
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "bt_channel_mobile_investor",
+  "description": "bt_channel_mobile_investor",
+  "disabled_actions": [
+    "104_SupportedLanguages_S_P",
+    "110_SWIFTcode_S",
+    "111_DirectDeposit_S",
+    "46_DepositProcessTime_S",
+    "70_Feedback_S",
+    "77_CallBack_S",
+    "87_Movies_S_P",
+    "91_Capabilities_S_P",
+    "ChatBotDown",
+    "WLIS_Class_action",
+    "bt_account_performance_available",
+    "bt_add_poa",
+    "bt_add_tpa",
+    "bt_amend_advice_fee",
+    "bt_amend_advice_fee_investor",
+    "bt_application_status",
+    "bt_apply_offline",
+    "bt_approval_notify",
+    "bt_asset_transfer",
+    "bt_asset_transfer_investor",
+    "bt_auto_invest",
+    "bt_available_balance",
+    "bt_balance_decrease",
+    "bt_bpay_details",
+    "bt_broken_link",
+    "bt_bsb_transfer_details",
+    "bt_cancel_trade",
+    "bt_certify_id",
+    "bt_cgt_report",
+    "bt_change_name",
+    "bt_change_pension_payment",
+    "bt_change_withdrawal_limit",
+    "bt_check_insurance",
+    "bt_client_transfer",
+    "bt_code_expiry",
+    "bt_commence_pension",
+    "bt_comms_method",
+    "bt_compact_menu",
+    "bt_compliance_letter",
+    "bt_concess_contribute",
+    "bt_covid_recontribution",
+    "bt_dasp",
+    "bt_data_download",
+    "bt_ddo_trade",
+    "bt_deposit_funds",
+    "bt_deposit_funds_investor",
+    "bt_drawdown_strat",
+    "bt_edit_application",
+    "bt_edit_tfn",
+    "bt_eidv",
+    "bt_email_disambig",
+    "bt_employer_contribution_details",
+    "bt_eofy",
+    "bt_eofy_key_dates",
+    "bt_fee_grouping",
+    "bt_financial_adviser_info",
+    "bt_financialplanupdate",
+    "bt_find_forms",
+    "bt_forgot_username_password",
+    "bt_general_fees",
+    "bt_get_insurance",
+    "bt_get_to_know_pano",
+    "bt_hin_number",
+    "bt_how_logout",
+    "bt_increase_insurance",
+    "bt_inspecie_transfer",
+    "bt_insurance_optin",
+    "bt_interest_rate",
+    "bt_investment_option",
+    "bt_it_ticket_time",
+    "bt_key_dates",
+    "bt_linked_account_change",
+    "bt_linked_account_verification",
+    "bt_live-chat-intercept-intent",
+    "bt_login_failure",
+    "bt_mailing_address",
+    "bt_manual_verify",
+    "bt_min_account_balance",
+    "bt_min_pension",
+    "bt_minimum_pension_changes",
+    "bt_model_portfolio",
+    "bt_my_address",
+    "bt_new_registration_code",
+    "bt_no_email_mobile",
+    "bt_not_useful",
+    "bt_not_working",
+    "bt_overseas_poa",
+    "bt_panorama_app",
+    "bt_panorama_pds",
+    "bt_payment_settings",
+    "bt_pension_payment_amount",
+    "bt_pension_payment_date",
+    "bt_pension_pmt_fail",
+    "bt_pension_refresh",
+    "bt_personal_tax",
+    "bt_positions",
+    "bt_product_application",
+    "bt_pys_pmif",
+    "bt_rcr_changes",
+    "bt_register",
+    "bt_regular_investment",
+    "bt_remove_client",
+    "bt_rollover",
+    "bt_rollover_time",
+    "bt_security_code",
+    "bt_staff_access",
+    "bt_submit_form",
+    "bt_super_early",
+    "bt_super_profile",
+    "bt_tax_and_annual_statements",
+    "bt_tax_summary",
+    "bt_technical_difficulties",
+    "bt_term_deposit",
+    "bt_terms_conditions",
+    "bt_test_account_details",
+    "bt_test_navigation",
+    "bt_trade_cancelled_reason",
+    "bt_trade_settle_time",
+    "bt_trade_unit_price",
+    "bt_unblock_account",
+    "bt_update_other_contact_details",
+    "bt_update_primary_mobile",
+    "bt_where_username",
+    "bt_why_minimum_cash_balance",
+    "bt_why_verify_acct",
+    "bt_withdrawal_time",
+    "bt_work_test_declaration",
+    "bt_wrap_account_access",
+    "bt_wrap_account_number",
+    "bt_wrap_deposits",
+    "bt_wrap_employer_cont",
+    "bt_wrap_phone_number",
+    "bt_wrap_report",
+    "bt_wrap_txn_history",
+    "bt_your_future_your_super",
+    "kcb_kim_getdefinition",
+    "view_statements_reports"
+  ]
 }

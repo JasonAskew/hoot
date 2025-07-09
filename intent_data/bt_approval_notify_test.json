@@ -1,0 +1,334 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_approval_notify_test",
+  "intent_name" : "bt_approval_notify",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "b443029a-a514-46a4-a1be-8af741e50ac0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to notify my client to approve the application?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d5026711-104e-4629-84be-7634e19d6cc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Do we finalise the application first then the client signs the printed copy? Or once we finalise the App the client gets sent an email?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "35d72a2a-9592-49ac-9eb4-3e184b7c02c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue, is there a timeframe for online applications?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "1b222426-aacc-4db8-86f0-ce6ce3cf9f4d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you tell the client it is time to approve their application?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7bf0de6b-6c91-4126-981f-e82aa34d5ec8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to notify my client to approve their application?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "946788d8-516b-4e86-aa2f-97c1c9515ed5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How will my client be informed of the application approval?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "03c43a5b-b4ca-4400-ae95-5256dc026f05",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How will my client know they need to approve their application",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9bc5982e-cc6e-4926-a3cd-765623bbf127",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to notify my client to approve the application?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "849757c9-4d3b-462f-b282-f02c45b87425",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Do we finalise the application first then the client signs the printed copy? Or once we finalise the App the client gets sent an email?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "e3a13401-2b2a-4de3-802f-0a49d3699dc8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue, is there a timeframe for online applications?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "911a8c85-7bb8-4cf5-a143-88ee47a3017b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you tell the client it is time to approve their application?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d05e3673-d2da-43dd-9891-3c2def27d00f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to notify my client to approve their application?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0eb499bb-08c6-4420-b93b-8fe60feefd2e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How will my client be informed of the application approval?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6a7f10be-4868-4cc6-aa7f-f92971e3a808",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How will my client know they need to approve their application",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2c5915d3-9fae-42d6-97d5-85b1a9101a8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is account approval sent to my client via email?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bf74910c-9b10-4984-be68-b978025da482",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is information provided to the client about how to approve their application",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "28436ab7-0833-444c-8ffd-550b11c46463",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the process to notify client that they need to approve their application?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e0210d24-d0fe-4ef3-b5b3-a7099b96ed34",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my client be notified to approve application?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1152bad4-9540-4f08-9411-301abb2d36d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my client receive an email to approve their application?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7f3957f5-c44c-4a7e-996d-7a2c0bc7bedc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "application complete confirmation",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "868f941c-0a63-4de5-b180-9cc8dc415413",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "application confirmation",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a9bae3c0-c63b-4c76-95a0-6b02bc889918",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "application status",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "c2f213a6-2f3d-4983-b9c1-009c7a989b25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "approving an account online is it via email",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "218707d0-e6b5-498b-b582-2f63b15abc33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "awaiting approval",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b2cbb2da-9f48-4bf7-a5bc-0042a4d31b42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "awaiting approval next steps",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3c7dc1e9-b60d-4e0b-82a5-e774751f3878",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "application complete confirmation",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7ae7e527-564d-4c36-b696-88ec3ef1577b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "application confirmation",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d179a2c7-860b-42b5-9bf3-342258515d8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "application status",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0db10393-f31a-41cb-b71a-eb751e369f87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "approving an account online is it via email",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "64282ecb-99cd-4e75-a218-722662cab0ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "awaiting approval",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "295bfad6-14cd-4203-a4d3-c27de1d3b8c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "awaiting approval next steps",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "63335fcf-9ad0-470e-9399-d9bc1bf4a00b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "application complete confirmation",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "547fb11e-f35d-41e3-ae0d-903b7d97c199",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "application confirmation",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ef3c912-b2ee-446f-92ba-676efa2c7ced",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "application status",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "e1d8e8a2-53ed-4ba0-a02f-ae6dfaaa564d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "approving an account online is it via email",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "21f36fc1-d4c7-4e24-b83d-bd10545136f9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "awaiting approval",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "80050d7f-58b9-46ab-86c4-91d305608b3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "awaiting approval next steps",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d6ba7854-c23f-44f5-a5ef-661ef6d7eda6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client guide for approving online application",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "10820f40-74c7-40fe-9662-df648a0cdb6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client would like online access",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e2c94756-bced-4cf3-ba61-68adba452439",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can client register for online access",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5ee1669c-c8f8-47f3-a07d-2042dfb8a1d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does client approve account application if they already have a bt panorama account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c20de2dd-1ef8-4543-8e3b-06ce2855bcfb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does online approval take",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "372e506f-e7bb-4544-ab8f-9f93dc03dfa3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a client that can not see his account application can we re-send it",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7793430a-e79e-4b08-86be-2335c96a7da6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need help with approving an new account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "86abb842-fd08-40c3-bff5-6e253d0e8aa7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i was supposed to get an email to approve it",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ab9b0b7a-e70f-4b92-83a4-fc0f8b94dece",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investor account approval",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "24b08edc-241f-4286-a2cd-738b247de9c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "offline approval",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "aa789f81-31ec-4c7c-aebc-5429a7df4054",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pending account aplications",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "590cbbb9-6af4-4299-addf-3bc0f2c41335",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update on account application 111111111 r",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "628ba8ab-87d7-4816-bf46-8894fe21ac16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view application",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "755b8a0e-be9e-40b7-8855-c544da79de76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update on account application 111111111 r",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "eaf38ab8-d274-48bf-97dc-23051dc17197",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view application",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5918fb30-048e-4e51-8cb6-a602065e6003",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where has my draftr application gone",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "74860f53-391e-4877-b52a-9b8207872813",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is pending applications",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

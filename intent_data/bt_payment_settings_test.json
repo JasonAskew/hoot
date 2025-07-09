@@ -1,0 +1,508 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_payment_settings_test",
+  "intent_name" : "bt_payment_settings",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "ed151785-76b7-43df-8131-ea2995608468",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the payment setting for my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9508159d-0288-49ab-8849-9039faff64ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update my payment settings?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d7de919c-db73-4bbb-9444-5f94c75bdc47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my payment settings be changed online?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "84765c7c-e007-4761-a3a1-a57f2ce0ae0c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me change my payment settings",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d4e08fa7-bdaf-4cc1-b574-b40f18088374",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi - how do i change the amount in an ongoing payment into my BT account?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "41223d5e-9ff2-4dc2-9046-af6d858f6247",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I am wanting to make a regular monthly deduction from my bank act to pay for my life insurance. I have set it up, but am unable to find the area which repeats the process each month. In my schedule",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "9a970e6b-8d73-436a-a286-e6ed3949ef26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I change the settings for the payment?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a3038f21-ccb2-4421-8b38-444f5ee192ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I increase the amount for a scheduled payment?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "8bf4a75d-7719-4f16-b10f-e533257a5db4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I set up a payment in bpay? I need to pay a tax bill",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "ac319bf7-57eb-41e3-a8a5-d454a3d58831",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to change the payment settings?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9f4a7e77-0da1-44b1-877a-d9d6baea9fa4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I WAS HATING WIHT Bob.You do not have access to this page.Insufficient permissions.",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3c9dc4a3-96ea-45d4-8c43-6b4c76b08b5b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the payment setting for my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "99020ef9-71f8-4750-84ac-f5ddde583002",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update my payment settings?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bb58262d-8843-41aa-b32c-3812eddaa46f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my payment settings be changed online?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "26f18e35-6ee4-45ed-af2c-5789048a51e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me change my payment settings",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6e6b6455-9646-4c6e-a5c7-ce565d6673e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi - how do i change the amount in an ongoing payment into my BT account?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "3167da10-4ca8-4f06-ab00-6f6a01a5328e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I am wanting to make a regular monthly deduction from my bank act to pay for my life insurance. I have set it up, but am unable to find the area which repeats the process each month. In my schedule",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "e458d5a9-fd72-4d5d-b2b7-d6ef3c70d339",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I change the settings for the payment?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "28119c33-da0f-4ec2-8425-a8ee80d9fc2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I increase the amount for a scheduled payment?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "7261cc83-1204-489a-8d81-7d55e7ce21cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I set up a payment in bpay? I need to pay a tax bill",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "4779c873-caa8-400f-baac-f6ce9d558dc4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to change the payment settings?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "57f2806d-aebf-44e5-aa51-05c7786d4c5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I WAS HATING WIHT Bob.You do not have access to this page.Insufficient permissions.",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f6b14ce3-e89b-4511-874e-f308497f4247",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to change my payment settings",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2c39b79b-23ce-4c81-a4f9-26fec796e8ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to amend the payment settings.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "aa2b98e8-9872-49ea-9f7a-9945297e74b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Income Payment Schedule",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0370b26a-39e2-4714-ad49-0fcc341263df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where to find the payment settings?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c5351aed-17f2-49e9-a075-a23e315cad6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account access and permissions",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6bbdb6ff-12df-434b-87fd-66a016387c73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "actions",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "fb82ef5b-9fde-4829-8531-d1f32aec8b9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend regular withdrawal",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "6f9311f1-4d18-48c6-9029-8c3467ee97cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change frequency payments",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5b13dc2b-5619-4020-9481-aace10c80e21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of permission levels for client acess",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fd7bc662-d965-4f22-a7d7-b9e5b65d2003",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change payet",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "563c5b5f-0a5b-4899-9619-6b2369e5d3ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change payment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "18fb5d42-1c8a-4e46-92a7-84207e0174c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend regular withdrawal",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "6861439d-c641-4ae2-9885-79de9425c15b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change frequency payments",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "61a93e44-1f25-4737-9cf5-5901bf633075",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of permission levels for client acess",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "934c4f04-3ab8-442b-9e02-9694df5f787b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change payet",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c9a9f843-8692-465c-83c2-9a18fd661d10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change payment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f6ee51da-7b30-4fac-a0f0-6dfbbd357849",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend regular withdrawal",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "12de6def-9e17-4dab-9127-89a5de2d5119",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change frequency payments",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "304cab6f-5eb1-42c7-b185-2bb0c0635a55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of permission levels for client acess",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b2e302d7-287f-4849-bd3d-81515e52004c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change payet",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2f24b7df-eacb-4d91-8314-a9381b3ccbc1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change payment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b5d0cc01-0607-483d-a805-5fd6dbe76b29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i 'd like to change the amount in my scheduled transaction i cannot see any links that enable me to do this can",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8aa60fac-e302-4c04-8a07-f7d2bb60d2df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get permission to transact on my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bb8d6efc-36a7-42f3-becb-86accc7c5e76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change the bank account for a scheduled transaction",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "ff997889-dfe7-4986-8495-27d3797ca8f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get access to transact",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d2c8de11-5e27-4e16-aa70-224102f6da16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get permission for this page",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8062c0a0-8785-4a64-9830-1ca4850fa6f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i give staff increased permissions on client accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f85c9bf1-4eb9-419d-8037-045b58394942",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i set up a payment from my super",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "0608ddf4-066b-49cf-806b-4332108520e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to amend the amount of a scheduled transaction",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "83b16522-b021-4349-aaa5-3115ed6f0404",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to increase payments",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "158a2450-1c09-4267-b074-64de995ac039",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not have access to transact",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "637ee727-32f7-4e5e-91d3-1eaa4b499ddb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have an account in pension mode i need to make a penion payment to s linked account which form do i need",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "952aa757-b983-4c31-be81-64dc6b4072cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have insufficient permissions how do i change this",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f87bbf1a-2b32-49bb-9afc-683e8d750a2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have received an email telling me that the account permissions have changed can you explain what this means and what i can do about",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e943ed9e-cca4-43f9-acf3-cda22572c11d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to change user permissions please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a256804b-bb6e-4266-a0fc-0de367881408",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to disburse funds from our super account but apparently i dont have the necessary permissions even though i a a trustee of the",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "068930cd-6c9c-46dd-a9f9-f8872de1d4ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to pay 1 invoices but do not have access is this correct",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f4376b8e-f87f-4d96-8409-2be1ec4c7a05",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insufficient permission on go to page button",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4b8bc3ef-de03-4624-a3d4-1bfb53b33e12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it says i have insufficient permissions",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a6a26142-951c-46cf-8d53-9aac98623c29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it says you do not have access to this pageinsufficient permissions",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0d2f93f3-3373-4f59-8cec-59e3bd039374",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "paymnets",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "de3733df-3d5b-4498-852f-1265300b0e7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "permission",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "35a6ebce-c2c6-4bda-a42b-dc486da59abb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "says insufficient permissions",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a66c7055-3d6a-477f-a43a-6bd8d6e84994",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the permission levels have been changed to limited change for bob superfund",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "24acd6c6-5a36-4eac-b604-a8f4dc568749",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update direct debit information",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "58bae06a-dfc7-4a24-9b4d-3f4738eca44c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update insurance payment information",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "502e1906-5e08-45e5-9d8c-0aa01c6f0083",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update my payment details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "23f5c46e-f9ee-4ddc-99b1-a86abaaf5c99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updating payment settings to no payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "504533a1-e20d-4ee2-8c83-d6005f918723",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updaye payment settings",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "91d2faea-91c6-402b-9f89-7bb203498436",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the steps to change payment settings?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a83dcda5-01dd-4a6c-bec1-af3b225ee239",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the permission levels have been changed to limited change for bob superfund",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cbf3eedf-bf46-41fc-bcd3-6b8cb6e52816",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update direct debit information",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "744746dd-03e7-4a95-a5a2-0aacbf820844",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update insurance payment information",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fabb5c0a-ed1e-4ea6-9d77-7c3c9c5f87c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update my payment details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "642c6f25-ccc2-429c-8868-c729b77c9718",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updating payment settings to no payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f5e0b09c-4252-4d74-8e80-4d67c1fb3ad8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updaye payment settings",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9678cf81-e852-4763-96d2-a6ec3aa9a097",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the steps to change payment settings?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bbcc0d25-c476-4754-ba25-1b555c3796ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the form for an adviser to have different authority for Payments",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "1f789873-4c01-4e0a-89f2-2af7495b2e72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can not i add a biller",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d6219d10-f8ec-465d-a971-bec15af53f88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why do not i have sufficient permission",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aeafcfe1-f2f8-4913-8946-752f22889af9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "you do not have access to this page insufficient permissions",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

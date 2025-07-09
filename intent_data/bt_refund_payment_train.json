@@ -1,0 +1,148 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_refund_payment_train",
+  "intent_name" : "bt_refund_payment",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "f49b84f6-1712-439c-99dc-d37d6547dedd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i cancel a payment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "97ba12b4-55ef-4ae8-9cfc-938a4812de0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "categorise a transaction",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3bfd4393-5353-4f19-8a0b-9922d34f2b30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i cancel a payment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0a08233d-ff68-41dd-afad-2f3026a2f5b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "categorise a transaction",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "454c0216-ba55-490a-9360-bcd039cfc930",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i cancel a payment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "dc48673b-b884-4f08-96cf-c2103b860ffd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "categorise a transaction",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "803bff86-95eb-4969-b2ac-d655bebce7f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi i acidentally transfereed money into my super account",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "0804ba14-e3ad-4160-b8f1-5d4136118025",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i made some payments on 1 feb where i made a typo in the account number",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ab010272-a203-4faf-8056-e5517dc49471",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i recently changed super funds and it appears that a payment from my company on april 11 th was made in error what can",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4cc59078-2e8c-44be-9c31-eaab225cac9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i cancel a payment i made for a future date",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e33d1931-19aa-4a0b-9621-57b82fae41bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i file reversal of one-off fee",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5bd34b33-d5ff-4203-b409-6f01ee9a7fd9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to get back a contribtion made in error",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "716073f1-c151-469e-8d8c-b5db7288428f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i made a payment into my account and you have treated it as non cessional and it should have been treated as consessional",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7e0854ea-f7f1-4fab-b144-eab73691ad79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i sent 1111 $ to my bt account by mistake",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9429f881-3a78-4f4b-a569-9bffa0f91c18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i think i have used the wrong biller code to make a personal contribution today my account number is 111111111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1b9bf964-676a-4bf7-8145-2ad411760fbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to cancel two duplicate payments made today",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "52ed5724-1810-4428-9fc8-b96060e2ee34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "incorrect biller code",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0d5c5e68-9933-43e4-9a0a-a397e2ed68f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to have an urgent stop payment applied to two transactions",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5d0436dd-59a2-426f-8121-6083bc915c76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no deposit i transferred wrong account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a1988254-c039-492d-aec9-b161a94288d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "payment incorrect",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "38bfd667-e1be-427a-895c-395eae56447d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "refund",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "bc1878e2-0d76-42c5-939a-72c7e57db0af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reversal of fee charged",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2a185332-bd10-40be-95b3-40a439085687",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yes - i changed super to hub11 and my company inadvertantly paid both bt and hub11 for the april 11 th super contribution",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  } ]
+} ]

@@ -1,0 +1,512 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_update_other_contact_details_train",
+  "intent_name" : "bt_update_other_contact_details",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "6e092573-1011-46b3-be6e-608ebb94326e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "All other details"
+  }, {
+    "id" : "07813685-2bf8-42d3-9859-709618c4264e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to make an alteration to the secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "b590417c-9ea3-43ef-804a-96f279a15900",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a modification to my secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "19707f7f-e21e-4896-aff2-cf0ebe307b4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update teh secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "1d6626eb-d5a7-4d08-9ea1-4d21ae67ed9a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add a secondary phone number?",
+    "tags" : [ "bt_corrections", "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "ae36d44e-34f2-4e73-9a06-d01c04951ad9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can get the secondary phone no. amended",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "51cae16e-0cb9-4925-b1fc-bd81f744c231",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "All other details"
+  }, {
+    "id" : "722d8fa0-89bb-492a-993c-2049860a8d41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to make an alteration to the secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "d8db4e95-57f7-456c-9f92-aab3a51ed174",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a modification to my secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "bbe857b4-b2c2-4914-a568-23bd6532455a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update teh secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "40ea7d9c-4c4f-43ce-b2f0-058b5390bd9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add a secondary phone number?",
+    "tags" : [ "bt_corrections", "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "b4fd626d-4e2b-405a-a5dd-b3ef83ab19a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can get the secondary phone no. amended",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "175d6ea0-04a8-47f5-aa15-8e1a1dbc95fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I wanted to ask on the topic of how to get the secondary phone amended",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "92063a28-5a9b-4824-aa5a-b078aa220225",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I was just wondering abt updating a secondary phone #",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "c2dc33a5-d02a-449b-975b-01cd2c6a4605",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I was just wondering regarding how to have teh secondary phone no amended",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "d19d620a-4a59-4969-bf97-e19c006bbde2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I was wondering on the subject of adjustin secondary phone number's",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "e6b45a75-d923-40e9-af65-261e92eab6ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Im interested in modifyin my secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "631b0049-6dad-45b7-b3d3-9e44e4ef927d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Its possible to make changes to teh secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "8dcbea36-9f05-4efc-bb39-fab6961ca2dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Update non primary address",
+    "tags" : [ "bt_platinum_q1_2023" ]
+  }, {
+    "id" : "ba5c8ddd-b0ff-4a5e-b111-aa6893532da8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Update non primary email",
+    "tags" : [ "bt_platinum_q1_2023" ]
+  }, {
+    "id" : "b019396c-c585-475c-a3ee-72ef8b885711",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "alter secondary phone no.",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "70bb15f3-e5d1-48bd-a3c9-81bde068403d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please change the business address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8f5f9b9e-9994-440c-a0bc-477a96b61905",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please change the business address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fda81cf2-1cab-43a6-b358-4c1d0afa9b57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please change the business address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "389e73de-153b-47b7-aece-c487d8c767cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "dear madam wots an way's to alter the secondary phone pls",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "22ebe5f0-2b6e-4055-a326-7717c84a75ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "dear sir show me how I can change secondary phone thank you so much",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "14f6170c-ffe8-4c29-ad44-72d0bef5e8f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "dear sir what is an process to get my secondary phone changed thank you",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "f6f9d62b-b98c-4dc0-801f-37e4fde53e09",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "g'day my secondary phone number's isnt right Where would I make modifications to this thank you so much",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "86491c54-e3b0-4760-8a63-a3c810b5bafe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "gday what are the ways to have my secondary phone changed thanks",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "ce577052-48cf-4c86-bf87-a973bde8d751",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "gday where Can I go to make an amendment to secondary phone thanks",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "e78e09d7-3075-40ae-97f6-b86fae8a74a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "get an secondary phone number altered",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "111618c7-3bde-4627-b070-9c7578865c6a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "good evening Im tryin to alter my secondary phone please",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "574d5ca3-1882-4352-b0fb-c8eb189ef60a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "good evening secondary phone is changed where pls",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "cd5e8b46-c569-4e28-b0df-aa14fa63131d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "good evening show how I can change secondary phone thanks",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "9124ed23-dbe1-4f6f-a3cf-b7593ca4d1bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "greetings my secondary phone no. is wrong Im tryin to update this thanks",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "6faf96f9-81b1-4287-aa21-47bead8f24cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello there my secondary phone number isnt correct I am trying to make changes to that thank you so much",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "577ed078-2073-43b7-9deb-50d362a1e663",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hey robot procedures to have my secondary phone changed pls",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "0eca8eb2-6f45-4b74-a17c-b30f06b87350",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hey robot tell what the ways to make an amendment to the secondary phone # are thank you so much",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "7d042376-a529-4fb9-b32c-9ba89ab7352e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you please update the trust address from 111 / 111 military road bob nsw 1111 to p1a / 1 bob streetcremorne nsw 1111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7569aa08-b2f5-4cc9-8c01-c6251855ce7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to update my contact email with bt",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "01b9da47-6b04-40bb-9a9c-c64a39e8d0ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi may i ask for help to update adress",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5e39c89f-36ea-4742-990b-e2c00d04dcca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi there wots the way's to get my secondary phone adjusted thank you",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "8c13065f-7528-4a91-9c8b-7ba10d4906a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how DO u amend an secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "626f93a7-8387-45de-9b43-21f330e3391d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how DO y'all make a change to secondary phone #",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "6d2284ef-3327-4187-b908-71133d13179d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how DO yall make alterations to teh secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "3e4511c3-3ea1-4176-b2b1-b1a9d9ca3a40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can an adviser change a secondary email address on an account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "19a2f5c8-e5d7-4ca8-8b8c-cd33fc1e85d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i add a secondary phone number",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "febb35e3-2198-42fa-ba0e-0b1725e546e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i gotta have a secondary phone adjusted",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "be22fe69-2447-4a20-b30e-1eebdaa6ebe1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have updated the email - primary field but how do i remove the email address under email",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dd94bf18-b0b0-4443-a33d-2a77677d7e5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to remove a secondary email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "06deaa35-525a-4c45-a5b2-af045ebcad60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to update a client 's secondary email address",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "d53f9dbd-f863-443c-8afa-24ae9a66a20c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to add secondory email address to my profile",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b9117217-86a8-4254-9848-c1cea4159731",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "im tryna modify my secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "a44f6472-b622-48d2-a322-f21400ed2799",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "interested in gettin my secondary phone altered",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "29809ef5-9b49-493e-a07f-738c91e3af6e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "make a change to a secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "fcc86980-b852-4cb3-84a5-439b4e9dab5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my secondary phone number is incorrect Could someone help me make changes to that",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "277a7d06-e2d9-4f84-a995-5c7617e0e210",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my secondary phone number is not right I wanna adjust this",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "8bcc725b-2e5c-4db2-a833-e8fbf603202d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my secondary phone numbers is incorrect What is necessary to make an amendment to it",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "dfe5e350-4d79-4e06-8005-f5a084fcf6b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my secondary phone numbers is wrong I'm trying to make edits to this",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "7aa89722-19fe-4535-a68d-653cabb7ef97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "need my secondary phone number's altered",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "3e77acbf-286c-4e2a-bd82-7b6f1681d4b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "process to make adjustments to my secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "4b6b1521-88d3-4a09-a4d3-537450c4a8b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "processes to make changes to a secondary phone number's",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "593a35dd-915d-42f5-b840-f6dd765e356e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "remove contact from account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "97de2462-be55-400e-978f-e756ae81eae6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "resedential address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "49654efa-97f8-4121-b1d4-6f93da814522",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "residental address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "11323ce8-12b1-410f-9fc7-08598255c05f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show how I can make alterations to secondary phone #",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "2d874adb-15b2-4e4f-a10a-ba0235f6ce1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show how I can make amendments to secondary phone numbers",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "4c94dc2c-5208-4bb6-abb6-6297cb810f8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "step to make changes to teh secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "baf5fa80-0edf-4c50-a449-c3a479e15e44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "steps to make edits to teh secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "2017a22f-21fb-40c5-a875-c46a8938637c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update our business address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "108734e0-95dc-40f8-a358-b9188f15136f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update trustee reigstered address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "56b6c21e-1632-4071-8709-05e1929ee4b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updating additional email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c00c59b4-c706-4349-945e-17dde852764b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "way's to alter my secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "40a9a6ce-946c-4230-91d9-845a3dd45858",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are way to change my secondary phone numbers",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "135bf676-ad65-4c7b-94e3-308cca766035",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update our business address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "deaeed74-6481-4296-810e-9b20ad0a1b81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update trustee reigstered address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "48421ab0-c434-4bd9-ab9b-e08bb373ebfe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updating additional email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c7335acb-2a9d-4b06-996c-7040209c1a73",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "way's to alter my secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "d29cbc7f-cff6-4de4-9a14-306129fba828",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are way to change my secondary phone numbers",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "edd1998b-a1fe-4d1c-b6f7-635cc6a7ba0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what email is linked to my account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e9ed2134-26a5-4ff3-bc19-0103ab4f0667",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what form do i need to use to update a smsf trustee registered address on file",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "86a0f39d-a0cb-4c89-b0f6-2f67c599fb8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wondering abt how to update teh secondary phone no.",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "5578c2d0-d7d8-4ea2-8592-079cfdd1581b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wondering regarding changing teh secondary phone",
+    "tags" : [ "merged_from_bt_update_contact_details" ]
+  }, {
+    "id" : "3d2c36fe-0d3f-49d9-a84b-54b88bd6d1a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "xxxxxx xxx xx x xxxxxx my postal address xxxxxxxx",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  } ]
+} ]

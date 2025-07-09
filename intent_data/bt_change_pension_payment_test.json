@@ -1,0 +1,496 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_change_pension_payment_test",
+  "intent_name" : "bt_change_pension_payment",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "32020b00-fa0e-4a24-aa9a-0e5c43d79aba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my pension details",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b01925b5-c49d-497e-8b37-71dcfac32e2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my pension details",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f343d169-5efa-47ac-a1aa-e92bea9a5cda",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help to chance my pension payment",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f05ac2d1-bf84-4ae2-8dac-ff3745b85ab0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to change my pension payment mode",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c2645b61-cfc6-4980-9fe5-a03fa7b88019",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to update my pension information",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9edfc010-cb36-4291-ba55-3fffb76e0c01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I started with Westpac pension plan now BT Panorama XXXXXXXXX. To avoid draw down can I reduce my monthly pension plan to the minimum required. Is there a form to do this.Please email me the form. X",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dcb7950c-9fbb-45c5-bbb9-1ac4d8dcc39b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to update my pension payment",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b42082ae-fd9c-4b39-8c78-d4ac2e741bb3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to modify my pension payout",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a8d28e4c-bf2d-4d25-af9e-65d0f9650bae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's needed to change my pension payment",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6ac60a65-104e-437c-81a8-35a4ec7678b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "aamend pension payment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "809fd560-1a30-487d-ad3e-336f983b5913",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend regular payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "84343521-2e16-4d79-ae8a-3b670729d73e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change a pension payment without a form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4b3cc6b7-6bbf-4d08-a7a4-99e4f191d863",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change the amount in a scheduled payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6c024735-afb2-4846-a6d5-0ce0a2472e83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i edit pension payment without client signature",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c4d3a65d-131a-455c-a52d-ef24bdd11646",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i reduce pension payments on the platform",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "227126d5-c561-457c-9f5e-9fb26c2ba9b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i reduce the amount taken from acc't number xxxxxxxxx for my pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d1798dd9-b9ec-4eef-acbf-29ac400e1c51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i reduced the amount taken from this account for my pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "57d23aea-dfe3-4c31-b0fa-c795f1948735",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change in date for pension payments",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ba41d28-781c-459f-bde0-8d2475ee9910",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change income",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9e981073-8939-43f8-8ace-bb9587ed85c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change monthly amount for regular withdrawal",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "440595ce-2b73-457e-8aaf-60a957c77f37",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change payment value",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b2b86842-7271-46cf-b49c-9e663629c92c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change pension payment",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "06650da7-1aa2-438d-a5bd-7be1afd8e992",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change pension payment from yearly to monthly",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a6187797-6e74-4c2f-a488-1e1511034991",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend regular payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1136e751-7efd-4c8d-9212-35e76e91923c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change a pension payment without a form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5f84b83e-d9cd-4d3a-9af4-403d7fde7e66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change the amount in a scheduled payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e4481b54-c51a-401b-8f09-47e7f50a8525",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i edit pension payment without client signature",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a93a1931-c964-4c93-9af6-041b851a1f2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i reduce pension payments on the platform",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "83ac8e04-2a8f-496f-93aa-387b31dc8e4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i reduce the amount taken from acc't number xxxxxxxxx for my pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e2dc1331-b828-450b-9450-f43b10ef2057",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i reduced the amount taken from this account for my pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "be649bc5-2b7b-4eac-87e2-bc679e9b08e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change in date for pension payments",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b343a82b-31ce-4edf-a7e6-869adffd51fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change income",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3b8855bf-c39d-4d35-b971-6dd75067fc99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change monthly amount for regular withdrawal",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7e4f1f26-de14-4ee7-a664-b344072e7340",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change payment value",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8357a563-3cf0-4f5a-8d49-b29ca87910d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change pension payment",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0884364c-404f-4bad-bfa5-8e77e6c6a19c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change pension payment from yearly to monthly",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b61dcc14-afc0-47f8-95ff-f8f95b91320d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend regular payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "50e14e02-92ef-4d45-9769-c9b63a0c8389",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change a pension payment without a form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "45f53734-8d96-4ee1-ad3a-1e9049dd2a5d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change the amount in a scheduled payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e4008c7e-d2de-43d5-92a4-6ad8b98ffb5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i edit pension payment without client signature",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "62911540-d20c-48c6-9216-fc2c17214372",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i reduce pension payments on the platform",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "160bdaec-8f0d-4d34-8362-ce79a7aedcd5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i reduce the amount taken from acc't number xxxxxxxxx for my pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "03a9c04a-39f4-4c27-b17b-8715bbb09c32",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i reduced the amount taken from this account for my pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8a6d826e-a62a-4a84-a1f9-a3a87058539b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change in date for pension payments",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9f7196d7-2e71-47e1-8d2d-7ef2a599af45",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change income",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2c2fb10f-e82d-4ba7-847f-619e73f6db01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change monthly amount for regular withdrawal",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c8505268-926e-4177-8d20-6a81f505f813",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change payment value",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "94983078-4e3f-43a0-9c21-963ab724ac0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change pension payment",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "baa3e1a5-4208-461e-aeba-9b8ee41dbf6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change pension payment from yearly to monthly",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6115274d-13c7-4242-af13-4901976e79d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does my pension payment come from cash",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "31143efd-5e22-4bb5-a821-6989f721045c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "edit a pension payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "afb41cc2-6374-4cd8-8506-43cdb9cf47bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "edit a scheduled transaction",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "6529eeb9-5dc6-44fd-a114-7e5ef8676fbf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am trying to set up a re occurring payment from our super fund and it appears to only let me choose once it",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a9a05462-d3e3-438d-818c-2abdb73f76ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i change my monthly pension payments",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f1f2f650-175c-4da9-b65e-956f6a2c6806",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i increase my monthly pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3d79c66f-7a0d-4554-9bd9-c5e70e89f26d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i increase my pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "99e42ad5-d231-4494-b8cf-a28864fa329f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i pause my pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "39708362-2ac7-4ba1-97ac-d6f9f71da23a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i alter a scheduled transaction",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "55613f86-d411-4036-95b8-8dcc24f99754",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change a scheduled payment",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "88882043-779b-4d6a-9ae0-13956c87436f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change the monthly allocated pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "450d9102-ee24-4222-a777-34e830063e25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i edit a scheduled transaction",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ce5f76c-e931-4af0-96b5-1d054cda2a1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find out where a regular payment is being done for an investment account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "255d93f7-6468-4048-a53a-b05070213e47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make a scheduled transaction",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "45a43dd8-c876-4033-9d84-8ac9d0609e7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make changes to my scheduled monthly payment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0dc14323-b64e-4f4e-8d68-af74b103c8f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i modify a scheduled monthly payment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7fc35120-4f25-4ba0-ba98-3b97b8346dbf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i schedule a payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3867b9b3-b487-45dc-b372-91a7770883b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to change the level of a pension payment under scheduled transactions",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1e6c6676-785a-48e4-9634-c97d73d51f0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to update a bank account for a pension payment",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "8700e388-1914-403a-ab30-acbfe9f98875",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to cancel monthly payment request",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7c843799-52c2-42e0-b443-57e628c6e50e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i chose to cut my monthly pension payments to 11 percent at the start of covid i would now like to reinstate the full amount",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3c87fca3-03ce-4f2a-834a-fca236ab21d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have made some partial withdrawals already this year how do i change my scheduled pension payment to take account of these withdrawals",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "70902d19-12ec-4ba7-aaaa-ed25920923ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have submitted a full transfer from super to pension request how do i instruct monthly payments v yearly payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a99a3fcd-cb1c-4bf3-a11b-9d7cefc1a708",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to reduce my pension payment from november 1111",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "481303b5-192e-4814-8eed-e8b35b8289fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to schedule a pension payment",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ec8dc7a4-be64-4839-a887-f8818dc83bc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension payment change",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "56390d13-89af-4fb8-94d4-5f240c5fdebb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "regular payments on weekends",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "b391e4bf-bc94-4936-b134-41961182df45",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "scheduled transaction",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6563de7c-cba8-467f-a9e6-9be3ad98af17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "stop any further pension this financial year",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7cbf807d-c3ba-4326-8ec3-9a9783845c2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when can i change my super monthly payments",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "85f084d7-56a5-4afd-9b2b-c20ae2dfe246",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i see if an investment account is paying out to client on a regular basis",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d12dcd76-2b99-4bc0-ab2d-b29dc48fc0ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "which form should I use to increase my pension",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  } ]
+} ]

@@ -1,18 +1,32 @@
 {
-  "name" : "kcb_feedback_categories",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "NOT_CLEAR",
-    "aliases" : [ "not clear" ]
-  }, {
-    "value" : "NOT_RELEVANT",
-    "aliases" : [ "not relevant" ]
-  }, {
-    "value" : "NOT_USEFUL",
-    "aliases" : [ "not useful" ]
-  }, {
-    "value" : "OTHER",
-    "aliases" : [ "other" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "NOT_CLEAR",
+      "aliases": [
+        "not clear"
+      ]
+    },
+    {
+      "value": "NOT_RELEVANT",
+      "aliases": [
+        "not relevant"
+      ]
+    },
+    {
+      "value": "NOT_USEFUL",
+      "aliases": [
+        "not useful"
+      ]
+    },
+    {
+      "value": "OTHER",
+      "aliases": [
+        "other"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "kcb_feedback_categories"
 }

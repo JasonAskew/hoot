@@ -1,17 +1,35 @@
 {
-  "name" : "Intent-Message-Post-Animation",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Awesome.",
-        "alternatives" : [ "(y)", "Got it.", "Great!", "Thanks!", "Thank You!", "Perfecto.", "All right, we are almost there.", "Ok, just a moment.", "Sounds good.", ":)", ":D", "Ok!" ]
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Awesome.",
+          "alternatives": [
+            "(y)",
+            "Got it.",
+            "Great!",
+            "Thanks!",
+            "Thank You!",
+            "Perfecto.",
+            "All right, we are almost there.",
+            "Ok, just a moment.",
+            "Sounds good.",
+            ":)",
+            ":D",
+            "Ok!"
+          ]
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Intent-Message-Post-Animation"
 }

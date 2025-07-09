@@ -1,13 +1,16 @@
 {
-  "name" : "kcb_search_tx_spent",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Your outgoing activity totaled ${spent}."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Your outgoing activity totaled ${spent}."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "kcb_search_tx_spent"
 }

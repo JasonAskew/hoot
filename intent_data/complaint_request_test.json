@@ -1,0 +1,28 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "complaint_request_test",
+  "intent_name" : "Complaint_request",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "1981d54d-57cd-4237-8c93-876c6ae03a0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "complaining",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8c685801-faec-4101-a4f1-1a80b6fa242a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact complaint",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f75eb618-219c-4f18-8a1e-1c2f6275f733",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for complaints",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

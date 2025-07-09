@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "pension" ]
+  "categorization": {
+    "tags": [
+      "pension"
+    ]
   },
-  "name" : "bt_pension_refresh",
-  "display_name" : "bt_pension_refresh",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_pension_refresh_response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_pension_refresh_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "Can I do a pension refresh for this client?",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "Can I do a pension refresh for this client?",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_pension_refresh",
+  "display_name": "bt_pension_refresh",
+  "alternative_question_eligible": true
 }

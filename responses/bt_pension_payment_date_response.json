@@ -1,64 +1,83 @@
 {
-  "name" : "bt_pension_payment_date_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
       }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account_superinvest_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For information on your pension payment, select ‘Pension payments’ from the navigation menu."
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_account_superinvest_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For information on your pension payment, select \u2018Pension payments\u2019 from the navigation menu."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For information on your pension payment, select \u2018Pension payments\u2019 from navigation menu."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For information on your pension payment, select \u2018Scheduled transactions\u2019 from the navigation menu."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For information on your client's pension payment, select \u2018Pension payments\u2019 from navigation menu."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For information on your pension payment, select ‘Pension payments’ from navigation menu."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For information on your pension payment, select ‘Scheduled transactions’ from the navigation menu."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For information on your client's pension payment, select ‘Pension payments’ from navigation menu."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_pension_payment_date_response"
 }

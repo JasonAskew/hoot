@@ -1,23 +1,23 @@
 {
-  "name" : "BT_SupermergerwithMercer",
-  "display_name" : "BT Super merger with Mercer",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "BT_SupermergerwithMercer"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "BT_SupermergerwithMercer"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "BT Super merger with Mercer",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : false,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "BT Super merger with Mercer",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "BT_SupermergerwithMercer",
+  "display_name": "BT Super merger with Mercer",
+  "alternative_question_eligible": false
 }

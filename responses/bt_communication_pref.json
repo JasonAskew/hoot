@@ -1,50 +1,73 @@
 {
-  "name" : "bt_communication_pref",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "You can change your correspondence preference for your account from paper to online statements. To make this change, select ‘Chat to consultant’ for assistance."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "You can change your correspondence preference for your account from paper to online statements. To make this change, select \u2018Chat to consultant\u2019 for assistance."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "LIVE_CHAT",
+          "payload": {
+            "parameters": [
+              {
+                "name": "campaignId",
+                "value": "3392686470"
+              },
+              {
+                "name": "engagementId",
+                "value": "3392718870"
+              }
+            ]
+          },
+          "label": "Chat to consultant"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "POSTBACK",
-        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-        "label" : "Chat to consultant"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "Help me sign in",
-        "intent" : {
-          "name" : "bt_login_failure"
-        },
-        "label" : "Help me sign in",
-        "question_display_text" : "Help me sign in"
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "bt_login_failure"
+            },
+            "label": "Help me sign in",
+            "question_display_text": "Help me sign in"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Correspondence preference can be changed from paper to online statements. To make this change from your client\u2019s page, select \u2018Account details\u2019, then select the edit icon for \u2018Correspondence preference\u2019."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Correspondence preference can be changed from paper to online statements. To make this change from your client’s page, select ‘Account details’, then select the edit icon for ‘Correspondence preference’."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_communication_pref"
 }

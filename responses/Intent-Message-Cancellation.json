@@ -1,16 +1,21 @@
 {
-  "name" : "Intent-Message-Cancellation",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "The questions I was asking you have been cancelled. How else can I help you?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "The questions I was asking you have been cancelled. How else can I help you?"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Intent-Message-Cancellation"
 }

@@ -1,0 +1,2404 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_not_working_test",
+  "intent_name" : "bt_not_working",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "ff29fe59-ccc0-4ba6-b9ee-721f73dafbf2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you please email my June 11 Tax summary. I cant access teh system, it says we seem to be having some technical difficulties... i tried yesterday too.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "56d29787-2ff4-49fc-9a8c-f48a3341e6af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ERROR MESSAGE",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "463481e2-735e-4455-84b8-d503fe96dfae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ERROR-1111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0d87a8e8-a3f9-4c32-b133-388f7b3f00d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Forgot username\" come back with ERROR-1111\"",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "155c25ff-ff19-4872-9f92-2288bb8667e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon, every time I try to log in to to I get a message We are experiencing technical difficulties. Please try again later\". This has been occurring for the last few months\"",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "806f52aa-f784-4bde-bf74-e4eb906f7855",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello, when I try my new login it says the site is experiencing technical difficulties. I need to get the account open. Please help.",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "4ff74245-0866-4f4f-8c2a-cc65bbcab369",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am facing technical difficulties",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "aa9f9751-d878-4198-a160-3b9428e7d075",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am getting alot of error messages when I login",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6c64866c-2e77-4ecb-a4fe-606d20c56c1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am not an advisor I am the account owner. The link you sent me says I have insufficient permissions to make a payment from that page",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a2f7d253-0e0f-4016-9bd3-9e086b6e22c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't get in to the Panorama website",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "237e7e88-839e-4a43-ac0f-9e37c103f438",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I did not ask for insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "90cb2126-0e88-493b-8b04-f38e47bef886",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I encountered an error when accessing to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "153e0701-7fd1-47d9-89ad-5530bdd595a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you please email my June 11 Tax summary. I cant access teh system, it says we seem to be having some technical difficulties... i tried yesterday too.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f727c186-4184-42be-b132-a7146a095e13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ERROR MESSAGE",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0cd2b5b5-ff56-402f-a476-93472082ac60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ERROR-1111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "de261e05-7d63-44c8-8d90-9350002f7512",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Forgot username\" come back with ERROR-1111\"",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "94e0fdc7-fbdf-4b11-a22d-42e4813431b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon, every time I try to log in to to I get a message We are experiencing technical difficulties. Please try again later\". This has been occurring for the last few months\"",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "d688893c-4adb-4bd4-97e2-65e832e68379",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello, when I try my new login it says the site is experiencing technical difficulties. I need to get the account open. Please help.",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "651dd8de-0814-4c5a-aa15-ff9ef4fb731e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am facing technical difficulties",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "072e9219-9d53-47dc-b3a8-d887f8812e88",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am getting alot of error messages when I login",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "42fcd7a2-eb0f-4f87-ba4b-1743520fddf7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am not an advisor I am the account owner. The link you sent me says I have insufficient permissions to make a payment from that page",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9624635c-be4f-4583-a1a5-dd0dab8b8bbe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't get in to the Panorama website",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c95c32c2-3efe-4ded-801e-623bb1251be0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I did not ask for insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7c03fd1e-6d52-427f-b0d4-56563ecfc0d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I encountered an error when accessing to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "aa0bac95-7702-4d24-a1b4-9ccba39a0ab3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I keep getting error message",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bfad88f2-d170-4154-8bd9-83e30915c576",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help with technical issues",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d261ebc2-4789-4f90-8954-e308f223f7a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I seeing weird errors when I access the website",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "44244fe8-75d6-47df-ae65-93a32a54475d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "It doesn't work",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "136e6f40-95bc-4539-8480-dee114f1a342",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Just read my question and reply",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "725e7573-5588-4021-b949-2772f7368565",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Neither. Was my question no clear?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "51c06926-715a-4c08-8165-8cd75a89498f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Please tell me how to print my Investment page. Each time I try, I get a message that I am limited to 1 page only, ie the first, and I need the whole portfolio",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "d093af47-aaf4-433a-a36f-1b01c5f7fac5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Receiving internal server error message",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b6a8cbb6-ab19-4efc-b6f3-257ff0af09f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Something is wrong with the Panorama website",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "60ca7c96-b348-4aa9-843a-a0bf9fa1d241",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Technical difficulties",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "245477ba-a0bd-4f24-b1ff-6275e10ba9cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "That's not the question l had",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "34eaa757-0786-40ba-b299-ecd8b3a7e2ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The Panorama website is generating lots of errors",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5c995c5b-571b-47bf-aa78-e7845a612be2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Trying to get my log in id but got ERROR-1111",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "9ca0d98b-6953-41dd-a839-bb20f5f1846b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We are experiencing technical difficulties. Please try again later.",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2cb2a099-2e02-4261-8c85-d4cf152f4d5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "YOU ARE EXPERIENCING TECHNICAL DIFFICULTIES",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "34d0c0d7-2b72-484c-8b29-17375dddd67e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "already done that",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6633cdc1-e7c7-4cf6-8bba-9ed1e386d68f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apologies - i made an error",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "ab83ab44-b928-4fe1-a975-35ad0fca0c38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asking to select a current or future date to make a payment i have selected today and it keeps asking the same thing what do",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fb798aa3-ddb8-43ae-aeb3-36dc137d45f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bad requestyour browser sent a request that this server could not understand download form size of a request header field exceeds server limit",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "ebe63599-b1b6-462a-bf44-8da419f26f87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but it does not download just gives an error message",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "8d9134fa-0ed4-418c-b9c8-42b84fead3c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "button did not work",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "21e09ca3-2bd3-41e0-af79-a8ed0ea61f90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not find a client under search panorama customers when opening a new account for them",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0fba63c2-b1d2-41f8-a801-98d7a933a7d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not find the declaration",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "5d797e63-9ba2-4ca4-9db6-aaf222349f68",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not get to go to page",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "91b99b20-b494-46c4-b0ba-b131882efd8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not submit applications",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "cee7e68a-b69e-4c1d-9fcd-64adb1bc1ae6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you help with error - 1111",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "85003a17-fd63-4770-93ba-82993a01f98d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me if your website is down",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "73f0d2b4-5e72-4992-b440-52b5b95356d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me why i can not trade on my account i recently submitted forms to enable this",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ceb3ba2a-8eb3-4bc9-bf9e-8a1150f8b559",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you resend email with ref no 111111111s as this failed yesterday",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bf04ff59-06c9-4825-b1f7-03d9ac92ebc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot download account access and permissions form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f10a4e73-27ee-4a7f-a451-76fcbbe966c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant access this page",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fd3a32fd-7ff8-4280-b731-7be6d14b343f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant see a clients account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "eef1a257-42ff-455c-8c5e-39e5a8313462",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash management not working",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5c813089-f51c-4111-bac4-adb8211cc94d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apologies - i made an error",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "5fc4890b-8cca-4278-9320-f64e0a141cf2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asking to select a current or future date to make a payment i have selected today and it keeps asking the same thing what do",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "91b43df2-e19e-4c53-92fd-9cf5d26c6565",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bad requestyour browser sent a request that this server could not understand download form size of a request header field exceeds server limit",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "2596508c-6bf1-4cef-b773-5aa2e3294c94",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but it does not download just gives an error message",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "19107fe2-c469-4f3d-a6fc-65be9d36bfec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "button did not work",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2faa3cce-e725-43eb-933c-f34e57e2b502",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not find a client under search panorama customers when opening a new account for them",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "b4448d85-c27a-48d6-8013-48dbf125e192",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not find the declaration",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "9cb879da-4ebc-494e-a83d-b7442b056116",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not get to go to page",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "776245e6-9c0e-4c9d-84e1-16b8e8988e3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not submit applications",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "be33c705-10e4-4d5c-9f1c-5351bd3d97af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you help with error - 1111",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "49629c03-b091-4b07-a35e-2d716da46ef7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me if your website is down",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "f3a658d4-4bdf-484d-958f-f5e86168ac19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me why i can not trade on my account i recently submitted forms to enable this",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fe957e7d-ccff-439a-bd44-978d39dc06ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you resend email with ref no 111111111s as this failed yesterday",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ae65b677-a9a5-410b-93f8-74c95de0c3e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot download account access and permissions form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ed9e05f3-bada-4d22-b315-e9e1ccfbaad6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant access this page",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b30d9fb0-b988-4dab-93e6-f6b6884852bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant see a clients account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3319f48a-6987-42a8-a7d0-3fb9b184abc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash management not working",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7e2939ff-0450-4d61-b882-2bd397ca6bad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apologies - i made an error",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "456947a7-c7b3-41de-b899-7ae074f0b7fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asking to select a current or future date to make a payment i have selected today and it keeps asking the same thing what do",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2bdfa0f7-6201-4d3b-8ad4-800614ba903d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bad requestyour browser sent a request that this server could not understand download form size of a request header field exceeds server limit",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "69e816b1-092e-4310-aeeb-e60c700d5eb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but it does not download just gives an error message",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "b85e0d30-8c6a-4455-b9ee-35300798cfb2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "button did not work",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ba101ca9-9748-4fe5-a583-99ae04c0afca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not find a client under search panorama customers when opening a new account for them",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "6df3904b-f110-46b1-8c13-4ccdf3240c29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not find the declaration",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "097c8ce2-d5e4-450b-96ec-3aaab0f3fcd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not get to go to page",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "015b33b9-bf44-4155-a3f4-38d17b0246ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not submit applications",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2738c651-8313-4497-a109-30d67bfeb43b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you help with error - 1111",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "bd2b7223-6458-4fd3-b24a-46db10dd7eae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me if your website is down",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "6ab8e8ee-bc25-4262-b67e-db48ede188a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me why i can not trade on my account i recently submitted forms to enable this",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bebf3eb8-0542-42a6-9bb0-ef7f1cc4c670",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you resend email with ref no 111111111s as this failed yesterday",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bbffa5d3-ae61-4cfe-8e70-a81995353e77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot download account access and permissions form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5986d6c7-a7b2-4e35-ae00-4e56ae914a44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant access this page",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ba6dcc4b-6993-4239-949f-39fcb8d8a5cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant see a clients account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "70a5cab8-5135-46e8-a3bc-51e4a010d185",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash management not working",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "62447483-445b-48b7-9928-c1f4984da4c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "claim a tax deduction not working",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f4e33c46-53ae-48eb-97b0-4293c9d23c97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "clicking but no change on the page what 's next",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a2327218-3376-45a7-b3de-546df549874c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client online portal issue",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f2a8a5fd-ef80-4d2b-b8b8-3bcd62fa8477",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "code box wont open",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "82888d82-7100-4528-aa63-d52bb034025a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do not have access to go to page",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5babd9b7-0127-4487-be0b-1d692fdbb9f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does not answer question",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3d829fae-dbae-49b6-9113-63f1bd006e3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "download error",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "1b821582-d07e-4995-b6e4-8ec20e5116f9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employer xero account does not recognise panorama super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7b2cad0b-246b-46c2-b4b2-d319bd131ddd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error - 1111",
+    "tags" : [ "bt_platinum_q4_2023", "test_platinum" ]
+  }, {
+    "id" : "1d44a82e-7140-4f6c-b1ba-19a4bcb8c8ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "67e2ddcb-41b7-4e4c-9524-9a50677f39d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error 1111 has come",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "1cfcb32e-0c8b-41e8-881a-ac13e6230b24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error 1111 is what is coming up",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "4378a767-28e1-4124-947b-91d4c83489f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error : start date cannot be back dated or a non-business day",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "bfd7cdcb-8de7-4ea5-8e02-3db8e0ef6b21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error code",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "91239e35-88a6-4699-a099-0165b127b192",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error code 1111",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "f1abe9f9-0601-48b4-b32c-0428cfd4a4d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error code 1111 when trying to login to see bt margin loan",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "d5dcf05f-7cea-4b28-a541-bc807835be4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error message when opening an account",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "c460d804-9069-4ad1-bf25-a65690ddf4d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error on account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c6b30826-967b-4a70-92eb-a3e6910d0c2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error on external assets input page",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "e03c3669-ae50-4689-b6e8-e5908e21c0f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error resetting password",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b3fd78f4-9710-4922-b7b5-cb69ce2b4fda",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error when scheduling payment",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "95f92181-9588-4834-97d4-f39a07706090",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error with forgot password",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "62b8171f-3f05-4c0f-8ff3-1ff448f40468",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "errorERROR-1111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5d9cfa5a-26e3-4045-8cb4-6aed24815594",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "forget it - its bob a hassle",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "09ec97ff-f02d-44b8-8e1f-dac3af904102",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "getting error Unfortunately we were unable to submit your application. Please try again. If you continue to see this message you should save and try to submit later.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "4fa46cc9-e1df-4416-9998-85351a55c7a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "getting error when scheduling payment",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "a51d3aa8-3dbb-4c26-b02c-1f7dbdbcbc9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "go to page button not working",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "8373ed49-ec64-4c09-8ec5-c58456d0dd60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning i received an error - 1111 when trying to recover my username what does this mean",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c4d4fbad-c83a-45ae-8854-ae39f3200d04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have done that but having problems",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c574dee2-be4b-40a5-8738-c3d04ed0a40d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "having trouble with my registration code the one sent on my advice does not appear correct",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1ceb1345-e686-4b44-80f5-94c6c526e5fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello - what is wrong with your site",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "22adcda4-7c46-4d8a-a866-1a603cc6fa5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am trying to reset my passowrd but it says errorsomething unexpected has happened contact us or chat online for assistance",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "df999121-9d1d-4ad0-b22d-f2e4d81b7bb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello my bt app is not working from my iphone are there any tips to correc this please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "de4c29ce-7f65-4512-bb68-04235bd3ebba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello the client search bar is not working properly",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9aa72c1c-d9ed-4a3a-80e6-5adf88632f06",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue i am having trouble signing onto the bt panorama website are they doing work on the website",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "e81f99c3-c394-43d2-a485-38d11eaf10a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am having trouble contacting the people who are associated with the changes to admin fees email has failed and support will not get",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "2e13e12f-22cc-46a9-af00-c1ac9fa15778",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am having trouble setting up pay anyone and bpay billers",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "30fc52f5-4ea5-4187-8db1-21e6db783246",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to download a transaction statement for fy11 in a csv file yet it will only allow me to download as a",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1d756692-a32f-42c0-b3b9-8fd8365e4531",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i can not login to my account error - 1111",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "11c39e20-1c2f-4e65-8a88-553ba3b91a0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have an error message coming up saying asest must be specialised when i try and chanfge pension payment to fortnightly",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "07584927-4fcc-4133-b5dd-ec2f13cbe5db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have forgotten my user name and when i enter my details into forgot username i get an error message",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "348217ab-0f47-490f-b388-17e04bcb20dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have forgotten my username and password and when i have entered forgotten username its indicating that my details do not match your records",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ef077a12-d82c-48a8-8e24-cb981c12fe1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to transfer remaining balance but says insufficient cash",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "983a9245-af19-4c99-94cc-e5ab52694d0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to update my details but the system will not let me",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "efdbb784-0bc4-4fe6-8162-c5d6c953c56a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to withdraw money out but file document for the file wont upload",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b431af3e-fc7e-4955-9c51-dccad1037dec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi im trying to find out my username but saying something unexpected has happened",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "897b3dc6-2d40-4de9-b874-6ffa89354d55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi may we know the reason for a reversal of direct deposit debit",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "94794990-24b0-4eb2-8d8e-10cbc1f2c629",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi the forgot username page gives me error - 1111 when trying to click next",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "9bff8042-a741-48ca-9e62-5fd975745eab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi the new way of historical performance reporting is dropping off one of your benchmarks",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "b73a783e-3b75-4d44-8c8e-7fe6f5528bb4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i am trying to see why i cant access an account but it appears in the search tab tje account is the jv",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "7d038875-1257-4a05-bea9-ee5995df1dce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is my username - an error 1111 showing when i put in my details to receive a sms verification code",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "560c2923-8dc1-4ee6-80b0-af323830cd6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi why cant i add a member in transaction category",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "86fb182d-8fa8-44c5-ae73-0787f3b5d939",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i find the go to page",
+    "tags" : [ "bt_platinum_q4_2023", "test_platinum" ]
+  }, {
+    "id" : "8b9e3966-e3fe-4f1f-a2e0-fac476454820",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make a payment i have tried twice and failed",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "c26195b1-43a4-4407-9f65-cab2d1c3bd49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to report a datafeed error",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "72c25a25-484b-4176-bc6f-e55952a8352f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to select go to page",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "f3fb4ca1-37cc-40a8-a656-e8f2e050678f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i already said my query above",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "39b5629f-7298-4f2a-bac4-c8c1229eaf82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am am still unable to access the end of financial year 1111 reports my screen continually says we seem to be having some technical",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "807d7c62-8111-49b2-b041-46e1c94c4156",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am attempting to register and it will not accept my surname",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "36ef5002-8176-4cf2-bce7-e54aba86c1b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am getting an error - 1111",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "6e05e091-014b-469d-aebe-1a16c58dbabd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not registered cannot use forgot menus",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "934ab3ee-9c98-416f-9b59-3e073278a04b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to do my id requirements but the residential address field is not working",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "653fadea-b408-41e8-83cd-d8448aca3299",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to download my personal tax deduction notice dated 11 April unable wont download the document",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "09affc46-b8fb-4b6e-8193-38ac79535d1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to fill out a withdrawal form on my ipad but can not seem to type in information",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3c4ebf59-8330-4f8e-ad55-9b4df36af277",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to log in under forgot username - message is something unexpected happened",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "751132c2-0d1e-49e4-a828-cc1ba48971a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to make a payment and when i press continue nothing happens",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f8fbe67c-75f4-42f9-a1e7-89953e5bbf57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to recover my username but it says error - 1111",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "ffff64fe-e4fc-4ae8-bce7-c76e16c42e8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to reset the password but when i try to receive an sms verification code following error message is received something unexpected has",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "82087c2d-2915-4a33-8983-40aaf007654f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to send money from this account it says select a current date which is today but the icon will not recognise the date and will not make the payment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b11b4ca7-cea6-424b-9090-5ee8e1e1d6a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am unable to place an investment order",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1eae7820-1e90-4b95-ba1a-764aed81bab2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not download my annual tax statement",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "5b52d31b-fb33-4352-9b7b-76c551577747",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not download the withholding declaration form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1efa00df-fc2f-4bba-a675-1aadbbdddfb8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not login to my bt account it tells me this application was not found the account application has been withdrawn",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "dc3a7e66-f6d9-40c8-9371-ea25fa3636dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not open it the link does not work",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "656343b4-afe9-43f5-8f25-5a9163265da1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not remember my user name and password when i clicked forgot user name says something unexpected has happened",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "3bc7ba23-defd-403b-938a-2d485e75c482",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not sign in it tells me we are experiencing technical difficulties",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "d6586e15-7c58-4240-980e-7fe08050ae43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cant change my profile adress as your system errors and says come back",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "d51a5bd3-2260-4d48-8df8-274841c778f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cant see anything there",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6d4fdbc5-2f46-4318-957b-3124bbb72ea7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cant use go to page",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0cacef09-0bf4-4cd5-922d-c0c6fd7c5436",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did but its not found",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "643fbc75-2b01-45e5-877e-9ef0fa039940",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i dont seem to be able to find the reviewreports for dam1111au in lonsec research is this under a different name within bt",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "6ae3dc71-b645-40d1-b819-9b7edd63683f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i dont seem to have reports'on my navigation menu i have dealer access level online",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8771b77b-7007-4b05-930b-a36474c80454",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a message something unexpected has happened",
+    "tags" : [ "bt_platinum_q4_2023", "test_platinum" ]
+  }, {
+    "id" : "d03c51b1-fa22-457e-943d-ccfe2c1685f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have attempted to sign in but received t his message something unexpected has happened contact us or chat online for assistance",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "13ec4b65-cc03-4d77-aca6-a94cf58592d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have clicked on the go to page button nothing has happened i am still on the messages page in my browser",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "8c92336a-a8fe-4b58-8b36-03e6cf248f12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have done this",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bc1f8236-9731-4bff-8e17-77a8b4ce2716",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have received a code by sms but it says something unexpected has occurred",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "857efe99-8da7-49c4-98bb-05bdbf3b8d08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have tried but it wont let me again",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "16308cf9-8aef-48f2-81e5-6cd69ed6bef0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have verified my email and registered but when i log in it states i am no longer signed in i keep logging in with",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "58898fb3-a63e-4ddf-bd98-5ee2ab524a8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i keep getting this when i log in",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "40b35d49-7699-4af7-b1f9-d7fc3d63eb3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i know how but your system fails to execute",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "0950c369-78f4-42c5-b63c-9060f12d1478",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i know it has been processed a nd alteeter of acknoweldgement has been received by email but having trouble downloading once in the document library",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "f9374ae0-6b25-46c2-8f7a-bfc9ad3029c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i know the transaction history but the fidelity website says that 111 cents per unit was paid on 11 jun the panormam does not reflect",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1ba4ecd9-4a7b-4f4c-bea0-1eb1083a134e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need another issue fixed",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "e4247d63-2ba5-4f7c-8128-26ad832ffc42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need tech support",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "8077b56f-e84f-43bd-b864-3d5985ac3f5d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to print the advice fee form i have just setup cant see where to download",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b964410f-cdea-41c4-8316-0d088b2bf1ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i received an unexpected error message",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "df9da4c3-49be-47d5-8dd6-5ee376f13716",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i received these details earlier this year but all correct as i understand",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "84a53e0b-cfca-4a7d-83d8-291336844b23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i still can not find the mail icon",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aae01bcd-d33e-479f-aee6-5fa9b84a2ef0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i submitted a form that wasnt processed by bt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ad6cc194-12aa-4357-8325-0b896d7ca7b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i typed a message but the investmeny stopped before i got an answer",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5eaf24df-5f0f-4299-b947-05636f9ca2cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like a partial withdrawl form emailed to me is that possible this site is not allowing me the download the form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "90a416e8-5666-4f0a-a9f9-4278da0fd1f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im trying to place an order for a client who has 111000 $ in cash the net sales / purchases is 111000 $ and yet",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "30ef2c02-6c70-4cd5-877d-0e02721104d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment order rejected",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d75e2544-2c91-4c8a-b281-1999ae9aed07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is the bt website not working",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "95b8de4e-175e-4c86-92ba-3485344314b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a paper version as there does not appear to be an option to add linked account to be able to enter the details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "892648c5-c392-4955-b236-8d2ab12b0ac8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a problem with the panorama app i try to log in and just get a message saying we are unable to log you",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0eb86817-881e-4c59-8033-0045c08e0502",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there any system issue with bt portal right now",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "45114b35-fba9-46b0-b3e6-e2336d6bde6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there currently an issue with the bt app",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8dcb084f-b971-42ae-9725-e4e7c8acd218",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is there technical support available",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bf23db9a-0791-4428-96ee-f911a028af66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it 's not allowing me too add beneficiaries",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6d7441a7-afb0-4d71-8f97-cc723253c63b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it does not exist",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7293e993-e534-465f-9a89-b6af1cec9c48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it has my number but said something unexpected has happened",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "f84d8fb7-208f-40b5-a0e1-661e85be3646",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it is not forms though",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5b449531-c2d9-4e1a-8dd1-7ac8e7f714e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it is not showing me balance after each transaction",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d2e1d8e7-6266-4e3d-b660-b45f5a2e7899",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it said techinical difficulties",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "a00d4746-17dc-45d8-ac17-74884a33b41c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it says i am not valid",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "a89024e8-69fa-4445-9706-a47233a954bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it says server cannot find the page",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "45219659-d26a-45b7-8e9d-3d2410f6ca11",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it says the page i am looking for does not exist or cannot be found",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "eebb0653-6e46-410e-919b-17dfe5659e47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it will not let me log in - unexpected error when i hit forgot password",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "f901720c-18c0-46f8-9e2f-2fbf5d2e71c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it will not let me select etfs",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "aa7aca2b-dd67-4499-890a-7caf6a5bae78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it wont let me do it",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "79743dfe-5142-4082-8323-09bf9990d2ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "its an easy question",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "a0a8aabb-0156-4b31-822f-ffc5d7e06ce3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "its asking for my info but then it says something unexpected has happened",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "76a61f4c-6129-44d9-93f3-a6a47a8c28a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "its ok it may just be a technical issue i will try again later this afternoon m",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5d2b3907-152f-4516-9e97-822940e3dfed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "just made a phone call to get my user name received an email with username insert here",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bbe700d3-a912-451d-8d80-ffbbe402fa9c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "keep getting this trying to submit you must confirm you have read and understood the advice fee content declaration and personal advice declaration to continue",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7799e8c1-2011-49ca-87fe-a3987dec8c5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "link doesnt work",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "07010704-d10e-48e1-ae70-c6956f69125c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "lodge technical error",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "59729953-956f-4a21-a767-3d22504d3b86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account will not verify",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "ff9ca1bb-8087-4d41-8a86-3e190f4f5c5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my closed accounts are showing on the bt panorana app but not my active account can you assist please",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fc20dc09-f75e-43f2-ad2d-e531365c7e50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my details aren't in your system",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "261f416d-9fb5-45de-a013-658c49b23f17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my investment orders page should reflect all orders placed and does not do so",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2db0b579-05d7-4bcb-b5b8-632ca445aea0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my request is not in service requests",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4fbbe999-716c-4dea-b872-af7fee525fec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my username came as an error so i requested a new one i gave my details and it is coming up as error 1111",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "e88d852d-0680-4da8-bfe3-b98e8dc5c4f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "navigation menu is not working",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "91fc803d-b388-4cf0-b5a7-60c3c60a8468",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to know if bt panorama webiste down",
+    "tags" : [ "bt_platinum_q4_2023", "test_platinum" ]
+  }, {
+    "id" : "e369229a-2f62-4efc-a6f1-7cfa2b24b3ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no drop down box for code or name",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "3d1d9883-bf5c-4268-8031-a9eb6847e23b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no that didnt work last time",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1c1bf115-8135-4746-8263-f0641bbed5b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not having luck with bob links",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "c4fd9d23-855b-42e9-acfe-08d82f695c4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not my question",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "03537910-8371-459e-804c-bfeddd1d7cc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not what i want",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "35dd0856-f709-47f5-849a-cf96df03379f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not working - shows as this product is not available for this account need help",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6de445ce-770e-4964-b2b9-6ac51e960f62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama phone line is not working",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5cefea71-b764-4e4d-911d-7e8e813e360d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "payment error message",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "b283b341-03ab-4ac6-be35-088b578d821f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pressing download on dva schedule does not seem to be working",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a628c22e-64e2-4dfd-96b6-8a3cfb84e7ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "professional registration not working error something unexpected has happened",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5b2a3e5c-15bb-4140-be12-28234268a002",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request password - something has gone wrong",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "0e5a1f9d-67c4-4b12-8702-be0c457ab16c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "saying my details do mot match records",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4cde8fa8-241d-4d13-8521-706feda839cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "says something unexpected happened",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e8bdf578-e397-4162-834e-876c2a4c2fed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "screen keeps coming up we seem to be having some technical difficulties this account has a nil balance but i need to get a copy",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "9e67c7c8-fe2e-4bb3-9b17-f898c56caccd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "seems it 's not available for a while yet",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "f67e076d-e778-4064-a8d0-41d234b0b524",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sign in has technical issues",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "c4c02b85-d86b-49cd-8844-5adb73462746",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "something unexpected happened when i tryied to recover my username",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "258e9991-889d-4515-a588-061bb08c1161",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "something unexpected has happened contact us or chat online for assistance.1",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "17072f0e-226f-4bb1-ad8f-79c89778a1a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry i do not seem to be able to find this form through either of these ways",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "586e857f-7faa-4638-928d-cffe7e6be911",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry i have done this and there is no 11 character code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b7cf2911-3dba-456b-9e25-b03a61d640ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry i was unable to locate the account details on the protal",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "48b5862d-b5cf-4d21-8d91-43931a72b67b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry must be me - cant see a go to button",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "c2c88d6f-d64e-4afa-baa0-7c16ce576d8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "still i can not find it",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5b824bf8-6a5f-4115-997e-9b1e5c3b9389",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "technical difficulties",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "9af3c16e-ccff-414d-8806-8da46dec971e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "technical difficulties document library",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "d40ac625-afcb-4e97-96f0-f68f5cbef655",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "technical issue",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "a5289a65-1bc4-48f3-854e-4ab827b7cfcd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "technical issues",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5b704189-83a5-46f1-9b14-70a5978a52a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "technical query",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "403478e6-9d9c-44ba-b6b7-0ed32a711b8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that did not help",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "41b8ed04-6f5d-416c-9429-16cc957e4c4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that didnt work",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ee2fca56-1a37-4d9a-99c5-a5dea29eddb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that does not hlep",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "435fbdab-67f2-48fc-a966-0f70eb374691",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that is not helpful",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "8ff6d11f-7e94-49dd-935e-d6b04ef7eba9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that is not what i am asking",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2e63f80f-6c51-42a2-ab83-4e3afd766f41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thats not an option",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0450802c-bcc4-442f-b022-41060bece64a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thats not what i asked for",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "164a6b5b-be36-4fc8-8882-491be9425f31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the computer signs me out a soon as i sign in try ing to see my eofy for 1111",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "8b1caecc-73a1-4841-9f16-9dbef9ee7007",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the date icon will not let me make payment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4b6e3c09-f62b-47f3-8dd7-98b33b80fbe3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the go to button does not work",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "11718735-7ebb-4226-80ae-ea37a9ddd06d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the go to page button does not connect",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "6d90fae5-100d-4ede-abd2-0d3dad80ca97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the go to page button does not work",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "76062ea5-eff3-4838-94f0-6016d9b20447",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the link does not work",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "410fda10-9b76-40ed-bab4-7adaf715eaf5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the page is not working",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "27373c29-5829-4497-a02a-921e35a97f5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the sell on 11 jan 1111 i did not do it i do not know what happened",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "88f56395-194b-4092-bf74-937fd7715517",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the show me how button did not work",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "980325fb-818c-4f89-91ce-cf985deb8859",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is a message that says i do not have access to this page",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "23356dc5-5bdc-4260-a93c-783a0e8667f9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is a problem with my accessing anything message is we see mto be having some technincal difficulty",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "a4ddaf1c-572d-46ab-b8d6-1f8d9531df29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there was no link for the video in the avove",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "780e3bda-65d6-4152-a955-e8e51255f895",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this button does not work",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3752c13e-a9ef-4a88-b8d5-ecac1fde7c50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this does not work",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f556d14b-3ab7-4fbe-a015-8c2da78553dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this doesnt work",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "e31f5e60-5f59-43b7-8c06-e648fca7ebf7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this is not working",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5ceb84ef-eb62-47e7-998e-db175f28b1d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this is useless chat vitual is hopeless",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "c4a472cb-91ae-4b8d-a8c7-9c9e7b8b42ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this option is not available on my screen",
+    "tags" : [ "bt_platinum_q4_2023", "test_platinum" ]
+  }, {
+    "id" : "32dd3497-c234-4aee-ad6a-ed315201f15e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trouble setting up bpay and pay anyone",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "43a2f214-a322-4541-8280-7730b8f8dd72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trouble submitting a form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b5d17384-e7f2-4d72-a268-a035b8780729",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to add a biller, won't accept biller code",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "d1e69c8d-4f52-4564-8f20-412745965a70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to change the password on the login to panorama and for two days there have been technical difficulties not allowing the process to complete",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "940ce718-e102-4607-83aa-3015cd9b1434",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to confirm my user name and i keep getting - error - 1111",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "9eaedbc0-4ebf-4093-9bec-c42288a85ddd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to down load investment account closure form but your system bad requestyour browser sent a request that this server could not understand size of",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "41b9711d-fded-4a2e-a838-d2d2bc5c3a46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to log on but says something went wrong",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "6c1d9d9d-a6af-401f-baf1-bd9357b598d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to login with forgot username when i go to the send sms page it 's told me something unexpected has happened",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "c1611b09-89b4-4f05-8f10-1ab732655192",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to recover username has come up with error - 1111",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "33d347a2-c449-44bb-958a-25eda21482ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to reset password apparently the forgot password option is not functioning",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "d394202f-03b1-4b98-a6e7-011d9ad04ba8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to set up a new ccount with username and password get message something unexpected has happened",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "f719db3e-47e1-460b-b447-9b8741d9ed66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to set up registration but not working",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "34939df1-9681-4b4d-9660-c70df37bdd46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to update cash investment stratgey but not sure what i am doing wrong as the submit button is not activating",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3e8c9f28-cbfc-48a0-ab5f-1a3b5a4b9ec1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to update email contact details as requested reference 111111111 $ but your site will not allow changes",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d005f325-a255-4ac6-b853-272026be7f5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to withdrawal an application keeps coming up with an error there was a problem withdrawing your application",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "774ce090-bb12-4b16-8564-327d166d0f53",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ueless",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "460ae925-6110-4b92-9ca8-af9a830ea4f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to cancel scheduled transcation",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "388bbcea-6962-4ad4-b2ce-3dba65fb6cd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unsure what you mean",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "a73c6796-d46f-48ee-b967-b81455b04473",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "useless",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "005720d5-16f2-48a3-9606-e8c917bf5752",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying my registration is not working",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "a48e40fb-1c03-4485-8472-18a5e018522a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "very slow",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cc2d64d7-5056-43f1-987a-c09a0099e714",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "warning error in order",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4770f837-a04a-4db3-83d6-367263a6d7a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we are expecting that bt will backdate the investment to 1 july - seeing as it was a bt glitch that stopped us being able",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e70e55b1-e00d-44c8-923e-40626cf8cf19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we seem to be having some technical difficultiesplease try again later",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "b253377f-95ca-4d11-bdf7-c0843448738a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "weird problems with the acct",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "ebeca766-315a-402c-9565-17b295c20d98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "welcome emails not sent to new users added",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3ae64c51-5adc-4b3a-82f4-439942dd85af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what and where is the go to page button",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "654e09ed-3d8b-4116-96bd-44eeb828267c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the technical difficulties",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "91f4fed2-606c-4215-bff5-1da75a71c18a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that did not help",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "9437320e-f59c-463a-b6ea-d7abcfdf2bd8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that didnt work",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "44a165d3-2d43-4eb2-9aab-48fe74dd1509",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that does not hlep",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fe74c215-1109-45a9-af54-5dedd53ad7a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that is not helpful",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7c096604-6cfa-456b-a929-7de5cfbfbe72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that is not what i am asking",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "b53ffbba-d753-41ff-b2b3-18c489f6f598",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thats not an option",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4fca68de-3647-4be7-a94a-97983db023b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thats not what i asked for",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "38e0e000-1b57-4153-960d-812c7c84886a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the computer signs me out a soon as i sign in try ing to see my eofy for 1111",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "d14ebaa3-8ce5-44e0-8af9-3b1c71a23562",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the date icon will not let me make payment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a7aa0469-dffd-41ef-89b2-6cede39fe316",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the go to button does not work",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f1968db9-bbce-4f2d-b58b-e9035fd965ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the go to page button does not connect",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "edabea79-2977-483c-86b3-f8df62aaeaf4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the go to page button does not work",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "b5aaf5c4-406a-4be6-a297-798e781648ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the link does not work",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "76196d6e-7b8b-420e-91bd-f7aaf55e1efc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the page is not working",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "3f4c4f0a-eb19-4bef-9c0b-d19b1a3c3852",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the sell on 11 jan 1111 i did not do it i do not know what happened",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "93cfc9d4-3d48-44bc-ae16-2449870398de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the show me how button did not work",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "ae3494fa-8b05-4895-87af-1d03c727bf70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is a message that says i do not have access to this page",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1b32660f-1378-4a90-b163-00b47053d043",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is a problem with my accessing anything message is we see mto be having some technincal difficulty",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "09d5cc56-c130-4b58-b8c3-8c8b99529f2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there was no link for the video in the avove",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "08b9adf6-d615-44b4-ba24-0e4fd4fa4578",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this button does not work",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "79eaddef-94a3-488e-b0be-5a0766a8f084",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this does not work",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7ade7ee7-85d8-42ab-bd75-880501b5fce0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this doesnt work",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b510a0cb-f48b-4fbc-96d6-01aed7e16984",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this is not working",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c69ad41a-e7bc-450a-86de-531dc6286c36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this is useless chat vitual is hopeless",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "a0f84867-ad0e-4858-a416-11774b8c607c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this option is not available on my screen",
+    "tags" : [ "bt_platinum_q4_2023", "test_platinum" ]
+  }, {
+    "id" : "a5a2245c-8526-49f7-9763-654aa88d149f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trouble setting up bpay and pay anyone",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2476b249-72fe-4b40-8f89-378ef9a38952",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trouble submitting a form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8efdfe3a-7438-46e6-bde0-9c060104e841",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to add a biller, won't accept biller code",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "268deb0c-1162-4dd1-a772-7d1f8697b181",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to change the password on the login to panorama and for two days there have been technical difficulties not allowing the process to complete",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "a902c9cf-89d1-4e77-b653-18714a5001d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to confirm my user name and i keep getting - error - 1111",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "1eed357e-965d-4e4f-9d04-4e1a1ba17802",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to down load investment account closure form but your system bad requestyour browser sent a request that this server could not understand size of",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bbfe2478-9837-490a-bff9-7976b25cf332",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to log on but says something went wrong",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "44dd1d43-d5aa-4769-9a35-5e1c4416b021",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to login with forgot username when i go to the send sms page it 's told me something unexpected has happened",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "7c1b7848-c963-407c-b6cd-e079fcb46c8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to recover username has come up with error - 1111",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "6e41e5f8-5680-4751-8c4c-181d723bcdd5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to reset password apparently the forgot password option is not functioning",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "1472b564-d0e6-4ec7-9afb-23a235d0ed66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to set up a new ccount with username and password get message something unexpected has happened",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "fd9a8e67-3a29-4bab-a0ef-605e60ce4d5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to set up registration but not working",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "08e99bac-5548-4e47-a7f0-70840a81fcf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to update cash investment stratgey but not sure what i am doing wrong as the submit button is not activating",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "573f6099-e51f-483b-9055-cb43b2f42917",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to update email contact details as requested reference 111111111 $ but your site will not allow changes",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "b40d8802-d452-4651-9280-fd79e4378236",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to withdrawal an application keeps coming up with an error there was a problem withdrawing your application",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "e6e5c0aa-8ac1-42c7-ad6e-064f4abf75f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ueless",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ed89466d-9e53-492e-ad94-0e7003e32a1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to cancel scheduled transcation",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "04018420-1170-4480-a8c9-e9e2b36274e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unsure what you mean",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "ba7c70e6-23c6-43b5-8e4d-6f0ee7c7faf7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "useless",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a356e4a2-8316-49e6-8aa5-787859d1efe1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying my registration is not working",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "e05e7bdb-2b24-4362-a60e-6507b2ed327a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "very slow",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1abe511d-4cb5-4526-9b7a-97b8a0ddf0d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "warning error in order",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fe5c8954-0a0f-4078-802a-add4bb5efb6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we are expecting that bt will backdate the investment to 1 july - seeing as it was a bt glitch that stopped us being able",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d3ecb861-96f6-476a-8c1c-af57b7fff351",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we seem to be having some technical difficultiesplease try again later",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "725ab8b0-8f7d-45de-8da3-47511bb6303e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "weird problems with the acct",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "b51185c0-5ce4-4db2-ab1e-5114f2aaa075",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "welcome emails not sent to new users added",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e3947a9a-6236-4de8-bc43-e2cc09b81b82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what and where is the go to page button",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "df179887-acf8-4aef-886e-4b25691ca951",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the technical difficulties",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "a88e9a93-8dd5-4043-9940-d89971d1330b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what happens when your investment order doesnt go through",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6bea9ec7-0a4b-43a9-9652-b00fa36a5d6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is error 1111",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "57f8614e-eb27-437e-b9f5-b7d9ee6e8f0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is technical difficulties",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "dce47022-1fa7-4466-914c-6aea9d0ee144",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the error in the data submitted",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "4ed2c2b0-30d5-4925-a456-6a4b9d224e8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when i clicked forgotten username it showed error 1111 and was asked to contact you",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "6c86d229-11f3-4b99-af33-78a22f782827",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when i try to download form it comes back with error 111 message",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a991fd9b-ac4a-49cf-bd1c-d0b096feacdf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when i try to get an sms verification it tells me there are technical difficulties is this because my mobile number does not appear",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "e05dea3f-dc1a-4542-860b-e875f69e38b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when i try to recover my user name i get error 1111",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "af94a1dd-6bb4-4d43-b78b-1b4fccb26683",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will your platform work please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "0174f23e-5d69-4824-8197-158645f73a51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the go to page please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "28104c18-98a3-4f9c-a6b8-50f6f3521629",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is go to page",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "134f03f6-5dc8-4a20-b003-3cdd751c1a7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is go to page button",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b364d314-374b-46fa-ad19-64a83ac22d0c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is go to page button located",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6df36f46-92eb-477e-898d-234cc39a5267",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the show me how form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "09d6280a-1552-4351-ac7f-dd9dff301da0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why am i not able to add a cash investment strategy",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "213c45fd-0fe2-4f23-923d-867c75273d8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can i not replace a new fixed term arrangement during an existing fixed term arrangement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "91d6910a-fa58-45a2-a6c0-aa8feed2c299",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can not i process a lump sum wdl on super account client is 11",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7cfb9035-729f-4813-8e8e-86b9d2731a33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can not i trade on my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "79059b16-baf7-440f-8efb-c7de961dd9f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why does the somthing unexpected has happened keep coming up",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "cd43e9b0-d978-4e10-88e8-63403f722372",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why experiencing technical issues",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "fab02f52-73d2-4b54-9004-57085112ad72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is my pop up window blocked",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "9b0fd1f3-c11e-4c38-8cd8-b247b0d73def",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is there a problem with the online site",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  }, {
+    "id" : "368a02f8-8e80-4873-8c3c-1660b991cd50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is this site having ongoing technical difficulties i have been trying to access my account for many days with no luck",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "cf34cec5-e18d-4bc4-8150-a451688746f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why the outage",
+    "tags" : [ "westpac-plat-jul_2021", "test_platinum" ]
+  }, {
+    "id" : "8eabfa84-ba3a-4782-b8c3-7e539d05948e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "will not accept biller code",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "1d36850b-0c5c-4b6b-a4fc-da315556b644",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withdraw from sell down why i have the error saying you have no amount available to withdraw",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "cff29c1e-820b-472f-a6be-e308504f1222",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wo t work for me says i have no access",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0b1dcb51-11fb-4af1-b296-6db2eb7bc912",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wrong answer",
+    "tags" : [ "bt_platinum_q1_2024", "test_platinum" ]
+  }, {
+    "id" : "3a4710d6-c399-4cc1-9ef7-5cb56b27fc46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wrong link idiots",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "495aeef0-3332-488a-a81c-16bc845bdaa2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yep but it does not give me the option that i want",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9e405962-54d9-4a04-8341-3f0236b88c07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yes i know that but what are the name of the forms to cancel",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9e1b9405-1a0d-494c-8e3b-80e41635b576",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yes thats correct but the field is blank",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "32a1fc9f-c0df-4bf7-851f-5d995c1369ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "you are having technical difficulties - i shall try again later",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "fd6b7b4f-a283-46af-b471-3260b6010e08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "you sent me an email advising me to do it and i cannot",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "100261b1-423d-4cbc-afd7-5fe51b8971b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "your details page having technical difficulties",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "test_platinum" ]
+  }, {
+    "id" : "e80391c4-745c-4a1a-a1bb-d122c1885bee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "your password reset does not work either",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0c914835-b05b-4559-be85-8fe4626234e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "your system is useless",
+    "tags" : [ "westpac-plat-q4-2021", "test_platinum" ]
+  } ]
+} ]

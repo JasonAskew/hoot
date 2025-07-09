@@ -1,0 +1,620 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_pension_payment_amount_train",
+  "intent_name" : "bt_pension_payment_amount",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "9d25eb3b-9f9e-4615-9770-378e34aa1219",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me about how much I'll be receiving as my pension payment?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "2805ec65-50bb-49ff-a459-26aeb18ac6f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How big will my next payment be?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "362204f7-5299-427c-a36d-36eb194f60c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do I get for pension payments?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "55b5f909-98e7-4238-888a-fd4b187d7f41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much is my next pension payment going to be?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a84df753-586b-4f61-b418-f0c43aad9fc7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much is my pension?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "2558d37b-c81a-4484-9ac3-a885d02d2909",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much money do I get in the next payment?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f1eb2b06-1faf-4892-910a-a31074e025a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much pension will I get?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "984083b5-157a-48a6-b088-4ef971da3b53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will I get as a payment for my pension?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "5d9d4cac-da4d-4d29-bcf4-e72549b7d664",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will I get each month in my pension?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "7684d514-b3f9-46f3-a6de-f6d0d3dde12d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will my monthly pension be?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "99ec0ac6-75b2-4f7c-b426-267257d2a477",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will my next pension payment be?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9fd903c1-4cff-4be9-a3a9-9a09d9ea0117",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will my pension pay each month?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "5faadee6-8180-432d-bbfa-24ad6eeaddec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me about how much I'll be receiving as my pension payment?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6b11dc79-4a82-4e45-8384-e3cf1d45c59d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How big will my next payment be?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "2c186c95-9299-45cf-97e3-c79321faf157",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do I get for pension payments?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "557e0be1-aea7-4fca-a20b-0ae71ebbaa66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much is my next pension payment going to be?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "7696a37f-2c69-48f2-93d9-b326c6c11410",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much is my pension?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "0d6f4848-a8ed-4f03-8604-b805ab879f7c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much money do I get in the next payment?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6629e8b7-1fda-4dc8-b82f-eb8e4abe8fb5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much pension will I get?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6fd37d0a-6c10-4b63-8ceb-d9bbe3133bc3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will I get as a payment for my pension?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "5362b57c-6f07-4a09-8469-74c859aca67d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will I get each month in my pension?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3c51ba18-d923-485d-bb7d-2f85ebdf3057",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will my monthly pension be?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "237f9be1-7884-4987-b350-53153d82f5d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will my next pension payment be?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "73ec3705-0f09-4a33-ae30-84a6a7841741",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will my pension pay each month?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "960945aa-e3dd-45ec-905b-cec4cd5429b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know my pension payments",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "0d8d8843-cd0c-4443-a7e4-f107890bf01b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me my pension payout amount",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "e0f0808b-7941-4291-b7b0-d1a3817e0c9e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me my pension payout amount every month.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8df7eb5f-01b1-48eb-9ecd-98bcb7a545d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how much I will receive for my next pension payment?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "502b7c49-6219-4624-9048-689736cadb70",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What can I expect my monthly pension payments to be?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9ff5ef8a-c189-4505-a8b0-42916c0b4663",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my cuirrent monthly pension payout?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "0924fd03-2f26-41a7-ab9c-b19f14a02b08",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my pension amoun?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "7a75d5e9-924a-4889-ab0c-506b52e67891",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my pension amount",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9f2a870c-a681-43b1-96be-569e9ff1834c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my pension monthly payment",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4b9d3937-f806-442d-90ac-fde8810121f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my pension payout?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "df2ec131-dce3-459b-af34-33193341773a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the amount I will receive as my next pension payment?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "1c12ee7d-360c-4a73-a2e8-c368f25bd869",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the amount is my pension payment?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6dcbfdf1-55d8-439d-8d12-13891d5fa367",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the amount of my payout from my pension?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b2eb4dc6-92ee-4d29-ae22-69f371346cd5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the amount of my pension payout?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d66b9d31-0777-4f58-887e-d82df4385add",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the payment amount for my pension?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8f84103b-e636-44f3-ac35-a7b6daea68c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the total for my pension payment?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8b544637-36c8-4d73-9402-048cf576cfa0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What will be the amount I receive in my next payment?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "958f585a-638f-47bd-9832-8d616a5a7ed6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What will my pension payment amount be?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b13523f0-4ceb-407a-aba0-469ef9286d83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's my pension payment plan",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "fcb23d76-62f5-4229-9c12-282898520c08",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the amount my pension pays each month",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d92f11fd-fde6-4886-97a1-04be56293749",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see my pension payment amount?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "bfc59ccb-5be3-411b-92e9-3531a380f2e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual pension calculation",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4c19766f-792f-4fec-ada5-a336014ddf4b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual pension calculations",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "32f37179-d713-420c-bfae-79d0e6ea74da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual pension payment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7132d216-673e-4b0d-bdf2-a6c6bf26def7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asking for pension details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9a40f46e-94f0-4f93-bace-46816341f80f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "calculate pension payments",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "6c675f72-14a3-42c9-86d6-bc956043c6c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual pension calculation",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1842b42a-71c6-4eaa-a4f5-c81e812df551",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual pension calculations",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c22b6318-f094-4023-91a7-c396117219c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual pension payment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a11430e1-6522-4d8a-99fc-95c3b734fe72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asking for pension details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f39e510e-fd2c-46be-bdd8-6617e4df5d00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "calculate pension payments",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a85d52ad-4a6a-4217-8618-6179cf3ef112",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual pension calculation",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bed4cba2-5f97-4d96-8ed3-d209bfe1dfa6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual pension calculations",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e55f98f9-2392-49de-82c6-b7bcf37af6f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual pension payment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cc52bf43-b2bf-40ec-826c-7efe07665097",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asking for pension details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "98a0c3d0-7b81-4f48-b06d-f5dfb826fe47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "calculate pension payments",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "dd48b1b8-b97c-4657-a7e5-20ee65f1411b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client pension payments",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "9bdefc10-b90e-42f5-a73a-d8426317cec0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning where can i find my income stream please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "94da36a5-abb5-43a3-8761-edcafc65b4fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i would just like to confirm the monthly pension payment for this client bob white ‚Ä¢ bt panorama super ‚Ä¢ pension ‚Ä¢ 111111111 he",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "9a3c5c47-ac11-473b-b7c9-a23df7c4f3a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much do i get from my pension each month",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "7a92503f-a52c-439a-8be4-fe9ada0f5f11",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how much is my regular pension draw",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5d571e72-0e65-4622-8a1a-c31ea0cb1ca7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much money will I receive in retirement",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "b7b954c0-aafd-414e-98f9-9cd7e46ce4da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much money will i get from my pension",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "5c035e22-de8b-4c7d-97a1-fc3657696a6a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much will my pension be each month",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "24f2488c-ce6e-48ac-8f26-144ad9141a42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to find annual pension payments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6bd708cf-5c6b-45af-9f81-b36a308cb7be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to find pension payments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "19d7b50b-30e9-4f51-98d0-f0ad26d7d8bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i 'd like to make a query about pension payments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6fce7d1d-e43a-4907-9b61-7f66ddcbdd33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am now on pension account this is new how much is my monthly draw",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8dfa127a-b4b0-49c6-91c7-dc2d5b951dc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a calculator that can determine how much my super may be worth in 11 years"
+  }, {
+    "id" : "53970644-aa47-40d3-8170-80815c0f4428",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it is for a pension account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0b512714-041f-44c4-98a5-9506fd01b0ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "min pension",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7f0a2152-d9f0-4baa-ab24-63fafe06623e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum pension",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "50b40c34-03b3-4936-bb5a-5d897fed0451",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my direct debit is for 111.11 $ and i cannot see how this is made up",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6ac46d02-a104-4f6c-a97e-28fc1b54fa48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to check on pension payment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "27438f11-8206-4681-b61e-61d9c222a319",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension details",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7b825514-adb3-4031-8018-f314c2c793a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension paymen",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3a075eb8-6f34-479b-8f50-6d56a203da41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension payment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fd42664a-811c-4db7-93ae-242585892c21",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "pension payment amount how much is it?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "263e2c57-5730-4bc7-a213-c4ed54aa6f2d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "pension payment amount what will me the amount I get?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "df6e046f-17f1-4b65-8d2d-e24b76da87d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension payments",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "33405c50-0d65-4f44-baf6-e95d93ac3ceb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "pension payout amount",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "a9ee43f1-31ff-4449-99db-213daf01440d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension query",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "10c3ab61-e5a7-432e-9c44-1bad283de95b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "re pension payment",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d5e78c14-4639-4d01-9b57-a463f9bcd4a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "set up pension payment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5e971072-a9a2-466c-a1e4-cc4a808a2b54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me what is my pension payment",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "68626c5c-e508-4eb3-904c-292762a58ad3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what amount will be due on my pension",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "5dfe3ce2-b766-40a9-acb8-de9595cfd3b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what amount will be due on my pension",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "5ec56a77-c31f-4d41-a109-3b33320e8115",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is is pension amount",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "fcce0367-b2af-4266-be1f-a6ee6e902287",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the amount of my pension payment",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "6c58a5a2-583a-476b-8d1e-972693fedfa0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the monthly payment from the pension",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "13d44ffb-bfb3-4193-ab14-90138921c9dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what will be my pension payout each month",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "29855eed-788f-4dcb-8457-ce9929dccd94",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what will i receive from my pension",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "5c000440-0087-45a4-a20a-32b94f1e1b30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what will my pension payment be?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "e253140f-3ae7-4907-bd81-f7762852f7f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what will my retirement check be next month",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "e4ee6ca3-7d65-4186-a23b-7e12db514d12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what will my retirementn income be each month",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "b2d06b3e-97fb-47d8-9e2f-3e67a4e5411c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find pession payments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dda056b8-892d-4541-a399-b579cd9c7115",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the pension payment",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "894a4650-1c50-494b-b91f-b15beac5c714",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is this not showing my next scheduled transaction"
+  } ]
+} ]

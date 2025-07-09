@@ -1,0 +1,1498 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_tax_and_annual_statements_test",
+  "intent_name" : "bt_tax_and_annual_statements",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "aa812d81-6835-4cc6-affc-8c9f06ea0f17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "11 / 11 annual statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3216e7c6-94aa-4894-8b96-19d61fffa04e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 annual consolidated tax statement",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "63868387-9b00-4974-a9e9-ebc63f0f99c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 fy tax statement issue date",
+    "tags" : [ "wcp-171", "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "3e4e07a5-1716-4993-825f-4d003bd4128b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 tax statements",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e286ceff-cefc-4798-a074-ec5b0fc6d52b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 tax statment when",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cf258c8e-53e9-493d-84a6-3c7547cefb20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "11fy tax statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d824e9cc-465e-4a7f-bc1d-11a92243728b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Annual Tax Statement",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "238f686c-538d-4194-b241-59d4e46deb32",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Annual statements",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "d5278c1c-67bf-4ae6-8d40-ffccea44866d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Annual statements for 1111 and 1111",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "f105ba4d-32e9-44bf-a168-d8d8e88c5ed4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Annual tax statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "836eb131-9c5e-4adc-9a16-0e31e05cd543",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Annual tax statement for 1111/1111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "72f5b2b1-21ff-4c7a-9e61-11f1847dfda5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Get Tax Statements",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "74f4bb5b-8bce-44af-a60c-6a1d1b0a114e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I need a statement claiming member voluntary payments as a tax deduction for last financial year.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "08557d37-97b4-44d5-a440-b0c6bee03675",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I need to download Aannual tax statement (11 Jul 1111 - 11 Jun-1111 ASAP. Where can I find it please.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bb3b8fc2-c92a-4c8c-81be-b5ec6f8f17d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, can you please tell me where to find our Annual Tax Statement document for 1111/1111",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "71ea8141-e74f-4849-9f25-99e9416cbbd9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I access my annual tax statements?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "1669f78f-79b6-488a-9878-815c67e1a4f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I get a copy of my annual statement",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "11609c00-ea92-4a36-8d71-ec7b4dea4c56",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I locate my Panorama annual super statements?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7fedaa24-cc28-4471-9a0e-ece150074bbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i get my end of financial year tax statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "955a0c09-0948-4595-a474-3d98f040772a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do print the statements for my tax return for FY 1111, 1111, 1111 and 1111?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "26505726-f2c8-4763-a776-416ede0e8fed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I contacted your company a week ago requesting a copy of my Tax statement from you as I accidentaly deleted it from my computor The man asaid it would be sent to me either friday of last week or Monda",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e16a23ca-96d0-404e-9d97-ef5578240d41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "11 / 11 annual statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c42c7ae6-7ef1-45f7-8f97-2f4979cc5a3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 annual consolidated tax statement",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "33eed4f1-cc84-4386-8000-f870357ece71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 fy tax statement issue date",
+    "tags" : [ "wcp-171", "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "02e4b50b-0f67-4968-99f9-a7a4c0b04262",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 tax statements",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "88c05de9-4c6a-42db-aa82-8af9436a50c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 tax statment when",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "99dcc0a6-34ed-4db3-b571-bbd42c78e67e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "11fy tax statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "501b314a-3416-42a3-bb68-adfd4a0e61d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Annual Tax Statement",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7ec60426-341e-469b-aaae-8c3e6e53fad4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Annual statements",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "7954552d-5a2f-4dd3-82b0-3532e1979132",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Annual statements for 1111 and 1111",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "59d4f9f8-c6b1-45f2-abfe-c712d252cc47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Annual tax statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9e7cf8ec-18d1-4378-a61b-5fa7303affd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Annual tax statement for 1111/1111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a2cef2f6-7414-4e2e-b32b-517f6886388a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Get Tax Statements",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "78ad1675-600b-4beb-8a11-079ce1e3398e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I need a statement claiming member voluntary payments as a tax deduction for last financial year.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c199a622-a597-40c2-a49f-11a1d175a371",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I need to download Aannual tax statement (11 Jul 1111 - 11 Jun-1111 ASAP. Where can I find it please.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c10fe718-e365-403b-8a5a-029f99b61445",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, can you please tell me where to find our Annual Tax Statement document for 1111/1111",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "fd35f785-7bfe-4f0b-b5b1-6a269633246b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I access my annual tax statements?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "0dc1d51d-d44e-4602-99c7-b9a833ee0a66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I get a copy of my annual statement",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "8b2ccbf2-166e-4af6-9bca-f706030e9d2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I locate my Panorama annual super statements?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "88b3bac8-5aa9-4cbd-a392-f7ccf79e2b2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i get my end of financial year tax statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "dfb4c84c-d401-40cd-ba3e-6da464595d74",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do print the statements for my tax return for FY 1111, 1111, 1111 and 1111?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7eac2c6d-7062-4ea0-8172-70687a60f268",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I contacted your company a week ago requesting a copy of my Tax statement from you as I accidentaly deleted it from my computor The man asaid it would be sent to me either friday of last week or Monda",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9b120e58-b1e6-429a-bc68-67f744a1eb03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need my tax statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ba3a4b07-fde3-4d24-8c15-fcc93bf77d5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want a statement for the 1111 calendar year",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "85d387b1-81b2-44f9-832b-1cceb3f5e5ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I would like a copy of my Annual Statement for taxation purposes",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "83a19ba8-69c7-4c5f-aafe-4eca426cb984",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "My tax man has asked me for a copy of my 1111-1111 statement. My financial advisor reminded me to log in to my account and check on line, but I can only see the statement for this financial year. here",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ce0cf3a2-1466-4cd0-9483-fd4bc6c88d58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Panorama tax statement",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "47dc7282-2225-4d24-987d-067a70b1b484",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Pre-migration Wrap statement",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "e0c453fd-691c-450a-89c0-3acaba19925f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "TAX STATEMENT",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "928bc581-c304-49a8-aeca-536b287cc82d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tax documents",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "20897d9c-fe11-44b4-adb1-cac0208a67af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Tax or annual statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7fa21fab-2569-45ad-9dc6-7d0a2ccfde33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Tax report",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "def1a47b-232d-470b-bdbd-7748ad3740f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Tax statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d39c27d0-9d8a-48ad-83a5-e0307a742688",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Trying to download annual statement for financial year 1111/1111",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "04948bda-23d8-4be4-91fd-e677f55f3aca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What happened to my BT Wrap account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b7ccee41-e863-4bb6-8623-7bec5a2d274d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where cab I find a FY1111/11 Financial statement. I Bob this for tax accounting purposes",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "cc7163f5-3aaf-47b3-a1b5-cec60eee2535",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "afternoon i would like to know when tax statement would be ready for a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c0b3898e-45dc-4d17-bc93-0719e4839ae3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual investment statement missin",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "adf706a6-ed13-4346-8ed2-53663ee8fde2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual investmet statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "373bfcb7-2873-467a-a6e2-2f4ade5bb2f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement 1111 - 11",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "126ee92b-9dc5-44ed-b940-abeb7f9c6ba7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement 1111 - 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4d97137b-d768-4f75-86c6-5385ed333066",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement pension account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "78379110-9d87-4c2b-9954-9a79f31ee699",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c887cb96-7d04-40ed-b762-270dd080d29d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual tax",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4ba2ea4b-1c47-4098-b325-51d973b8d92f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual tax report",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c1de9d66-b6fa-4cfa-87b3-f0d316609ee0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual tax statement 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8cbbbb4d-925f-49c9-80d1-93c66f5f7e94",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual tax statement estimate",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a86f9cfe-8e9e-4a76-8254-524136f67640",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob tax statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a07f654e-4bf9-4c24-8d0f-82695d8889a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt tax statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5ba7dcbb-b6ab-4ed2-9e50-5bde40ecf2e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i ask for annual statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c18399a6-a407-4d47-8c39-1a30d934c012",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you direct me to where i can find my annual statement for 1 july 1111 to 11 jun1 1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bbf55b92-ff5e-4653-9b28-2b90aad0a7d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please advise when the annual tax statements will be ready",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6a8b2588-a91b-4a41-9f39-caf82509ccd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please advise when the tax statements are likely to be available",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "91753ee7-682e-4404-b27c-6c48bec2bf28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me which report is the annual tax statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cbf68e3d-970d-4735-9b6c-912393569ef4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot locate fy11 annual tax statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "80098238-d624-4acf-856c-e4de3f38af63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual investment statement missin",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9db03bb1-fdfc-42d6-9524-205a19d1029f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual investmet statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "19f5c138-faf5-4683-8fa1-506f51b0a994",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement 1111 - 11",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e7a87365-71bc-4335-86a5-dda2a9b891dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement 1111 - 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "65adad6c-66b1-4b02-9d91-b11d84ac1b91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement pension account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "66a53c04-469f-45fb-992b-8321b6b184ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ceadd099-3379-4216-aeee-783677515687",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual tax",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7d3fa09c-2761-40aa-9467-160472386aa4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual tax report",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "46a8e1c2-9b85-46f6-9c1c-cff6e5178050",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual tax statement 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "91183e2b-e000-42b0-8d68-a5f22ecf386c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual tax statement estimate",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c68998c0-0923-48ea-829d-889be52706a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob tax statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6c6c50fa-a354-41a5-a750-67411274ffa2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt tax statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8e90fd5a-836a-4ef0-ab6b-c7b1d8a07559",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i ask for annual statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "68a7446d-eb71-418d-b523-ca381f0ca03e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you direct me to where i can find my annual statement for 1 july 1111 to 11 jun1 1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3c008145-791b-44f3-84b5-ec6a6c3046eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please advise when the annual tax statements will be ready",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d1fae250-5749-4943-96a0-3501c3af2114",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please advise when the tax statements are likely to be available",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d42848ef-045a-4184-beb1-a6586c098722",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me which report is the annual tax statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c889dd3d-3c40-444b-a479-a5a379dc1751",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot locate fy11 annual tax statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4b56690b-a2f0-46e7-a6d0-d914d4336c60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual investment statement missin",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a8315c97-752b-45b0-b44b-3d9be7cfb361",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual investmet statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bfdd9415-af84-44be-8f1b-68375655757a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement 1111 - 11",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e034668a-194a-48ee-abb1-bd61fac10de9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement 1111 - 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "864af4ed-5858-40f1-8411-cb70ebe77f69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement pension account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b342b3be-b64e-480b-aef9-6f9a011b83bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "769ffd1e-4ede-4a14-adfb-d19209d3c8b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual tax",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8a054a21-fe2c-495d-a3e5-9d8eaef815ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual tax report",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a9ace3df-3a77-4263-ac50-1a63e9699fa7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual tax statement 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "869a3ad1-5d2f-4d40-9fc3-9dcf47b4cf71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual tax statement estimate",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5b413c5e-d970-4e68-8a5c-e9df1bf8d036",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob tax statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "91e53249-0d08-4c76-a2a1-3b448d42a740",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt tax statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ce026e14-69b8-4630-a1be-006eb07bdd6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i ask for annual statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b7715c32-2acc-4e5a-828f-a5584be9f5f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you direct me to where i can find my annual statement for 1 july 1111 to 11 jun1 1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "be87d42b-daef-482d-b195-f24e3aff5fc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please advise when the annual tax statements will be ready",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9556fc6e-465a-45b0-aef1-b6b6decbd383",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please advise when the tax statements are likely to be available",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c40386fa-df62-4d63-9f16-554468bee8c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me which report is the annual tax statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "afa77eff-c8a8-4878-92ac-13dcfa1ecadb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot locate fy11 annual tax statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "02347681-7476-4e04-923d-8472f74bafa6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could you tell me when my tax statement will be sent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5b0307e4-5233-4153-aa18-a9124d047667",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "division two fund annual statement for 1111 / 1111",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "69ac287d-5a2f-4b01-9a9f-2b4aa2bd780d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find tax statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d7300508-1cfe-4de1-97fa-1d2ef52f9865",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "for tax statements how do i know if a client is t1 or t1",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0611e639-9e3d-496b-8bb7-221015403b50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "for the tax statement how do you find the tranche",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "eeacabdf-d78a-47a5-959d-2f7505ebf0da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fy11 tax statement status",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e8be73c1-579d-4d69-9115-599c7866e8e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morningi am attempting to lod in so i can locate our fy11 income tax statements",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5d8e42ab-2cc3-4c8f-b5a2-0a53ba45c2a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hei what the hell bt you doin i can not downlead my annual supper statement please sent it to me as sson as you can",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6435d7b3-2c95-475a-8f36-6a5b9773be2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am trying to download the annual tax statement for year ending 11 / 1 / 11 please help",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "acb5cea1-795c-4249-9d12-c952eaf4b560",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i was just wondering when the ats is going to be released",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d3dd328d-86f6-4871-ab9f-755f966bbeae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi could you advise when the annual tax statement will be available for my account please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8ad1f3ed-f9ff-4f41-bd61-95a4d84ceeda",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i get a statement from 1 july 1111 to 11 sep 1111",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7fee6686-be45-4d4a-a76e-5b250065c68b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am after my bt super statement for tax",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0f12bec7-170e-40a5-846d-325adea0a940",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am bob - i need to take a print out of my annual statement to submit at centre link",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eb6872eb-4aed-45cf-b519-f61ec74a0c0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to find the annual tax statement for 1111 - 1111 and can not find it under the reports tab please help",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "01bcd824-be52-4280-99dc-7d52a1858d72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team tax statement for 111111111 had an estimated arrival of early september however it is still yet to be generated are you able to",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "582ec08a-83ee-499f-affe-a32a959874c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i need i need the annual tax statement and the annual investment statement for 1111",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b0e9e8db-f961-4ae9-b179-849e021868bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there when does the annual statement get released for 1111 - 11",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "911d1b16-2f55-4ae4-a4a3-a14f02e96739",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi when will i receive annual tax statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2b93a830-d207-47c3-899a-04d807cfc598",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi when will our 1111 - 11 tax statement be sent to us",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7bf53e57-cbfb-4d71-9973-37b78c6cacc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi when will the smsf tax guide be available for download please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2e599299-ec59-4655-98f5-2ad734036ec9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i find a clients tax statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9e61a955-9ee6-4c6c-b2f1-8d5c8394c9e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i get a annual statement for my income protechtion contributions i cannot locate it on the website",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ecad8b1d-dcdf-4fdc-a295-1a2f3ddbc784",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where is my annnual s/ment located",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "07bf496a-7a5f-4a2a-a205-3da179a21343",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i access my portfolios ldi connect 11 and 1 - annual taxation summary for 1111 financial year onwards",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d63583c1-7c10-41dd-a3a2-417270e11d6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i download annual investment statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5ebbfbdf-8062-48a2-969c-dff21d3b3c95",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i generate my smsf 1111 annual statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e7439a50-f73a-4a70-8983-87179e5198de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i see my annual statement",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2c3b1af1-1053-491d-b846-ed6d2f835d4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I get the annual tax statement for 1111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2cef00d6-ca73-42f5-80c7-9ddb73ce1720",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i access a tax statemnt for the 1111 - 1111 financial year for tax calculations",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "98bda62a-2db2-42c5-9221-1ba514ea4689",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i access information for completing a tax return",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c81289a2-9090-4629-a59e-a59466641247",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i access the library from my panormana account for tax figures",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d6f1308f-3cc1-49e9-a554-7c97441b9fdd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find an annual statement",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a499caf5-fda9-4ffa-a375-8572ec0437a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find annual statement for 11 / 11",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4599ca05-530d-4f58-8d3e-5196d0f3bb60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find out when my tax statement will arrive",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9fc2562b-9c0d-4f68-ac91-2fc9b3b4981a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find out when the annual tax reports are ready",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0859f924-ea50-47a2-a897-55234f67cae4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find tax statements",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e3171754-031a-4498-b36c-0ca43455fe15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get my annual tax statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c53208f4-a929-4d0e-8d2f-231ed953d783",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get my tax statement",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "43a06952-6035-427e-851f-89936cc14f7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get my tax statement for the financial year",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e00abea3-443d-42c2-9377-f61d35a633ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get tax statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9b00f9e9-c54f-4c7b-8057-84249f8f9fde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i print the copy of my cash management statement please plus annual tax statement july11 - june11",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ed69319-43bd-4dd4-bf0a-78a8707b82d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to find annual statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "016c7d87-1fab-47ec-836a-a88c66b4d3f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to know tranche number",
+    "tags" : [ "wcp-171", "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "50f23d6c-31d7-47d2-8ef6-9978b28256e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for annual tax statements for fy 11 - 11",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ab69f0dd-25cd-4152-ae34-d7abd9b86958",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for the 1111 - 11 tax statement but cannot locate it",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "088e8eed-8895-47ca-a5e1-fdacf8d00fe4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for the 1111 - 11 tax statement but cannot locate it can you direct me to where it is held",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8903cb23-04f3-465e-af80-6095ca97e6e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to access our annual tax statements",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dfdc90fc-453e-40b1-a000-398750911e64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am unable to attach my annual tax statement to an email to send to my tax agent",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ad5e2938-2bd1-4900-ad50-179ecef2a4bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a statement for the financial year for tax",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0336d2d8-3df2-48cf-ac8b-1fe92903b54b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need an email of my last annual statements as at 11 june 1111",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "028848df-4e41-4b30-bef5-872551a966d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need my super statement for tax purposes date range 11 / 1 / 1111 to 1 / 1 / 1111",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "be78df30-2749-46a6-8d7d-92b47893758a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need tax statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1f61f441-9305-4860-be8b-694128a2c392",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to get end of year 1111 for tax purposes",
+    "tags" : [ "westpac-plat-050321", "merged_from_vpaunknownrequest", "test_platinum" ]
+  }, {
+    "id" : "04b7a077-de90-4d3c-acb9-62c0b73bb3b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to get my annual tax statement 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d4d95c75-2dc2-4806-97af-f4d2fb500504",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to have the annual tax statement and the annual investment stratement for the tax year 1111 - 1111 re-sent to my sign on",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7a74a874-631e-42b3-b910-92488a23ed77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to obtain some documents for taxation",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a89ebec1-1c4c-4a51-b15d-270f78af50b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i only seem to have centrelink dva statementsmy account was migrated to btin may last year and i need a tax statement",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c076005d-e2dd-4d5a-a7c5-8447caccd6c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i recieved notification that my annual tax statement was ready and it isnt",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5aaa912c-ef61-439e-8273-89366419cf02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to get a copy of the tax statement for the fy1111 / 11",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9afe9b64-2544-46c4-8721-571895562302",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to send my accountant an accumulus wrap annual tax statement for 11 june 1111 where would i find this and how can",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "43f4457f-bf1c-4096-af94-a37c3f7e400a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in able to check recent bt super for life annual statement",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a3e75aa2-ae45-4e26-99fb-7b6757776e61",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in which annual statement can we see the investment income paid in cash",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5112a401-fca0-48ff-aede-797929f40b97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance annual report for tax",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d427a8c0-0796-4d34-981f-5fcad6c72db0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance tax statements",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1bdb91c1-7238-460d-8201-9c6a46a35fbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is annual statement for fy 1111 available",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "146bff41-6d1a-46d9-98b1-944106383aa3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is my 11 - 11 annual tax statement not yet available for the p and j bob family trust 111111111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f1bfe46c-13e9-4020-8e14-63223a1060e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it is not letting me download the annual statement 1 july 11 to 11 march 11 and i need to end of june 11 as",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "14202a86-946d-484e-a2ff-f28c4a17f370",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "just annual statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "aab1ec34-5443-460b-b64c-b4432e6e3c10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "margin loan statement for interest paid in fy11 - 11",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1de23ec8-51ac-4dbe-8a0e-ce2ae75fc10c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "may i be sent a copy of my annual tax statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8bda2cf9-135e-412b-9ca2-32ab7b658854",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my accountant is chasing teh annual tax statement but i can find such a document on teh website",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "188b50b2-7f5c-40f2-96a2-c7d5130423bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my accountant is waiting for the tax statement so he can finish our books for 1111 - 1111",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "91610d83-b05a-4c8d-9862-062daaceaed3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my accountant wants the annual tax statement 1111- it says it was available from 1 august 1111 but when i click - it is not",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bcd768c1-660d-4ec6-b3b9-5527f1d561db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my annual statement for fy11 is still not available",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "472ba369-9dbe-4cb7-87fe-adb54cb4d567",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my tax statement hasnt been generated",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cde11a4b-aa4f-4fbd-b1e8-da73f465aa26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need bt annual tax statement for 11 - 11 year",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ddf35a04-9fba-4970-b57f-53b0138fcb17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need one complete tax document",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cb0c0abd-89dc-469b-a2fa-0b0653462a5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pt panorama investments tax statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9d5e7514-5ea5-4abd-878b-3d774ff21c21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "require a copy of my annual tax statement for the period 1 july 1111 to 11june 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bb5bebcd-15b8-46b2-be67-a794ea374db8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "seriously‚Ä¶ i need my annual tax statement to complete my tax return‚Ä¶",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f17c577a-e3d5-4562-8d03-63af8774569a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "smsf tax guide",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "38e4c326-30ff-4665-898f-df8bc3928bba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tAX REPORT",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a243a8b4-0088-468e-b59f-aea85884931b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax and annual statements",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7c3d1afc-9bd1-4f09-8ba2-4e531113a618",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax document",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7abfbbc6-7d71-46cb-839f-50ebcf13542c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tax documents",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "d0c1c00e-7ec2-4caa-8b21-d6656753b0e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax info",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cd84aea3-9921-402b-821a-7d15472052c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax or annual statement",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f44da5e2-4110-48f0-baa7-006234b54d93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax reports",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c5801c9b-2eed-4c0c-8413-e36314ea40bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax stament",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "20bf1f64-73c1-418b-83b0-eeca59b29798",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax statement 's and reports",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "da6b2c37-2f61-4090-88ff-f181fd2c3cfd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax statement for 1111 financial year",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "051f3578-8c6b-4732-b936-39b20bdbcef1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax statement for asgard",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6a636a59-910b-4c6b-bf79-2893bf74f248",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax statement for income protection",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cb6a0055-4f34-4f39-9119-4d8a7574404e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax statement investment fund",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2ef7c980-eeb8-47bf-8fe3-afa292198d24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax statement pls",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "062fdc1c-15cb-408c-8cfd-5f45896d6d7a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax statement release date",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f1abb3a0-a8ea-45a3-99a3-008cf360e409",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax statemetn",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "989fe5c9-afc9-4aaf-9ef2-28efe70a4391",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax summary",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "b8bc42c9-540f-4ff0-9743-3ba209980f7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to find my tax statemetn for 1111 / 11",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "decd084e-7aeb-4946-89f7-a52ecaf6612e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trying to see tax statement for last financial year",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "73f46341-9217-4889-95ba-585f1f9974db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we are waiting for the tax statement",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0b3f6f23-7e42-471d-82a5-0765be175f6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to find my tax statemetn for 1111 / 11",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b1e8996e-ad40-4605-a822-1c8688cbe9d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trying to see tax statement for last financial year",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "91e784ea-2ace-4c6a-bf3f-d4ed07a95d29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we are waiting for the tax statement",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d16ab28d-b5ea-4742-816d-5640503d50d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when can i expect my eofy tax report",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "15cef29f-07b9-4525-acf4-77798862f311",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when can i expect tax statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5ea3e592-f49e-40f6-9df3-31586aacbe5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when is my annual tax statement for year ending 1111 will be able to view",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d1d35af5-b731-4f1c-91eb-96836b30adca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when is my annuity annual tax statement due",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3fd7ca1b-2862-4629-81b1-0d93ba983101",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will i receive my bt panorama tax statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d8b94ec9-5783-4225-8a85-b39620d23d81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will i receive my payment summary",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "765cb84e-2526-407f-9adb-e7bb0a8e3176",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will i receive my tax report",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ea3745e7-4215-4086-8e53-2add373e3ef1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will my annual tax statement for the period 1 july 1111 to 11 june 1111 be available please",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "110c5368-005f-4466-9fe0-2ad05f9118f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will tax statements be realeased for 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "387af517-4364-4140-92e7-e3565a1f8ff3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will the annual tax statement be ready",
+    "tags" : [ "wcp-171", "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "9614ab41-5190-479f-9ceb-bcc9e1830442",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will the fy11 annual tax statement be available",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f63ca6a0-aa99-4749-a466-6d7ae832069d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will the yearend tax statements be available for account 111111111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "91157712-e931-440c-8ad9-a492daac1109",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can find annual tax statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b3632853-9eb7-4885-b1ad-6a14e8f89faa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find 1111 annual financial year statement",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "113b088f-e51b-4052-a763-26e8f26f3ee5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find annula tax statement",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "56ae34bb-dced-4937-afdb-f9c060ae4803",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find commission statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "913306ca-2893-4e1e-96d9-1020fcd53e83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my annual super statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a74289c8-005e-46af-bd15-b028e60a4525",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the tax report for last financial year",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9143ab36-262e-461d-a989-c0b5168185d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i fund the current tax guide",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4b42ac51-e858-4cb8-a674-15ec61a10447",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i get the annual statement on my super account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e9c755af-a875-4504-bfd0-b942bbe451b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find bt tax statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d355d96b-b3fa-4267-9eeb-3a5a9254120d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find my tac statement for FY 11/11",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c6003393-d8c0-4bba-a060-5cf13dd45d82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find my tax statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1f556346-9e4f-475a-bd2e-9c3340803249",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is my annual tax statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "67a90d7e-04ed-4eee-b190-611aa883a0a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is my annual tax statement 1 jul 1111 to 11 jun 1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "90c3170e-6f55-40bb-806c-8ecbb570b9a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is my clients tax statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e717942c-3a7c-4c59-88ba-ff4572d4cca4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is tax staement for 1111 year",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6139ea44-b8f9-4a3d-bdd8-969215c77e68",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to find bt annual tax statement 11 - 11",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a1edde3c-fa39-4218-a283-347dad4ff13b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to find my annual tax statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a28e5cc4-b79d-48c4-9e49-05ecaf43b65a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to findtax report",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "16bc931d-8b8b-44a1-b38e-da5c02a2db20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "would it be possible to get an account statement for the calendar year 1111 for the purposes of a us tax return",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "f0cab5c4-0c51-4219-b684-9f11c8222723",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "year end tax statement",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  } ]
+} ]

@@ -1,23 +1,23 @@
 {
-  "name" : "bt_eofy",
-  "display_name" : "End of Financial Year",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_eofy"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_eofy"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "Information for EOFY",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : false,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "Information for EOFY",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_eofy",
+  "display_name": "End of Financial Year",
+  "alternative_question_eligible": false
 }

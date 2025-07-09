@@ -1,0 +1,1114 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_min_account_balance_test",
+  "intent_name" : "bt_min_account_balance",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "0baaaf88-432a-48f4-993a-35b2d87b95a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any deposit for opening {@users new} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "90f6e21b-5439-4f92-b9f8-c7c2de3d7852",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any deposit required to open a {@users new} {@account_type saving} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5a968e54-49a0-4f45-8379-6446e5790ad0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any deposit that I need to pay for the opening of {@account_type saving} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "12398444-8914-4ec2-ab2a-3096f3a367cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any minimum balance require to maintain",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8e7b0338-9e4e-4984-9491-4079d9fa0970",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any minimum deposit to open account as a working foreigner",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e475e75f-f411-406e-8449-9054a48ae0d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Because I cannot reached the minimum balance that required in this {@account_type card}...",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5e1e9f15-60f7-4a22-9581-5c5323b67647",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Because I don't have money to keep minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "30c6e92c-955a-45f0-8701-b4189933624e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I know the minimum balance for this account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "35e480ee-57c6-4876-bb4a-2827a63a1428",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I maintain zero balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ba616575-86d1-4a5c-af9f-54bf30124d9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cut off for the minimum balance required?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "32894bc2-f521-402c-8d70-8a8f6cfa14ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Did you change minimum balance recently",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a006483c-9e60-49bc-9e88-112b020cd43b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to keep minimum balance??",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a1f7f28e-80bd-4ddc-a373-942cbbdd36f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to pay for {@users my} account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "78e20d7d-5f20-4804-99e1-866c13e7d8dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to have minimum balance in {@users my} account ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a525d2b2-94e7-4453-8b58-9325863b6945",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to maintain a minimum balance in {@users my account}?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "7da3b558-5765-452f-88b5-e28de4a77493",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to maintain a minimum balance in {@users my} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9589f866-f6d4-4a34-8b45-b77232aaa957",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do i have any minimum balance penalty in {@users my} account ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ba2081a7-a525-4768-b399-207336b8ce35",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do i have to maintain a minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a043f7a3-b2db-4941-8e2f-2084c97d242b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do i need to maintain a minimum balance in {@account_type savings} bank account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "47b98f27-433f-467a-a0de-2f503c4f81a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do i need to maintain any minimum balance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "485fb6d7-2f79-4b06-97f3-17d8fe6c0b10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you charge for {@users new} accounts?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "30a8261d-380c-4c1f-954f-d53c8a3cbf3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, please could you check if there's an ongoing adviser fee applied to account 111111111?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "07c4b312-f585-4547-b900-f72f7ce9cccf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How if I cannot maintain minimum balance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4de432c6-d9a0-40b8-82c2-567b0f2c5c0e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many minimum balance of account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "37d1548f-7292-4f16-b7a1-a88361c8dfc5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much does it cost to open a {@account_type savings} account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "864e6100-6b4d-4840-8c5c-37d6d55f741c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much for open {@users new} {@account_type saving} accounts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e512441d-e779-4eba-9b92-da4b115afb70",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much initial depost needed to open acct",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8541a3b0-7a12-4cea-af87-0409eec213ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much is the minimum average daily balance for bankname Multiplier Account?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "21433268-d4b3-4624-a3ab-070537e30855",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much minimum to open a account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ef1cf378-d3fd-4bf2-8c13-92e4b6fbdbc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much should i maintain minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3d85445e-4a5e-4995-af46-211e9b6f7937",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will I be charged when I open a {@account_type savings} acct?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "21595a21-efe4-4172-9cb0-5c85b5c7edb7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much {@users my} maintaining balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4fe62e72-bcf0-4e18-b027-69fdd3831304",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any deposit for opening {@users new} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "102aa864-e790-4b8e-9356-989e1ad4401d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any deposit required to open a {@users new} {@account_type saving} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bba38446-fa82-4d5e-986f-67c10320484a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any deposit that I need to pay for the opening of {@account_type saving} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "66472856-4ed3-4d0e-8092-b3267fb0ca59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any minimum balance require to maintain",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "35c0e012-ce37-4eb4-8000-c7e628dda91c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any minimum deposit to open account as a working foreigner",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "345ed151-b4e2-4832-8484-67f54fa23c2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Because I cannot reached the minimum balance that required in this {@account_type card}...",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cf6389e6-d55a-471e-8f6b-e6cba16df582",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Because I don't have money to keep minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9f60e32a-c9c6-4f36-8e8a-6764f06337cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I know the minimum balance for this account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "03b9eb3f-fda6-4bde-843b-5192157c68e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I maintain zero balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "71f92ca9-f6f5-40ed-aaa2-893abbafcf91",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cut off for the minimum balance required?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ddf17a2b-0357-4a7b-9e7e-a2fb8a5e421e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Did you change minimum balance recently",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3eae6228-174f-4221-bbdd-6279804b16e1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to keep minimum balance??",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "12c8b082-ffe9-4fc5-a67e-76c9b2c54d1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to pay for {@users my} account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "171fa772-cbbb-41c7-a3b1-3b0aa41489d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to have minimum balance in {@users my} account ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "aab4d8b2-77f5-4aeb-b00f-6f24c1506f26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to maintain a minimum balance in {@users my account}?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "0054354a-94b2-44a3-be1c-93a0fb3ce5fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to maintain a minimum balance in {@users my} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b0869b53-43eb-4213-a0f1-9289d290cc2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do i have any minimum balance penalty in {@users my} account ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5e34d100-6876-4c95-9de9-b04d38c9db50",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do i have to maintain a minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7dca5e4a-30da-44e9-8d9b-f03604b53325",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do i need to maintain a minimum balance in {@account_type savings} bank account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e6f7f0c9-dab9-4a02-bd7b-b01d88a50651",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do i need to maintain any minimum balance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "22128a97-f2c6-453e-8134-2d9e04165eff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you charge for {@users new} accounts?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "c45115f2-a9d5-4626-844d-3783d90b4997",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, please could you check if there's an ongoing adviser fee applied to account 111111111?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "8ec22b86-37be-4e52-9454-6b134bf6e794",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How if I cannot maintain minimum balance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "35f31f33-db59-43d8-a541-64506c479e30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many minimum balance of account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "110fbfc9-4572-4607-b16b-3e1cbfedf201",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much does it cost to open a {@account_type savings} account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "b3aff16f-826c-40ff-94a6-27ca76ab0717",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much for open {@users new} {@account_type saving} accounts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3cf87fcf-7897-45fa-a8b1-79b3c4034035",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much initial depost needed to open acct",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c6845334-0e91-45db-b60d-d3599a25e337",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much is the minimum average daily balance for bankname Multiplier Account?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "37c749a8-069e-466a-bf0a-7af1bbe82812",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much minimum to open a account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f9cfddbe-4079-4572-a5e7-3e429946263e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much should i maintain minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d83d35bb-9149-4179-89d5-040b27554997",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will I be charged when I open a {@account_type savings} acct?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "e6cc40c6-b87b-4a69-b35f-096323e4e1c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much {@users my} maintaining balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c56f24d8-50cd-4196-84a6-375c84eaafe3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have maintained the balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f4f0b734-bd0e-4b31-bde0-425770e3261f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want know what the minimum should be in {@users my} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5e30c6f0-28eb-404e-bfe9-59f25ddfcb00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to ask about account maintenance fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "91476797-6491-410d-a4d9-53621bad4186",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to maintain minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2240f825-6879-4e0e-8220-5cf31d2b2ac4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "In {@users my} {@account_type card} need minimum balance ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8c8c358d-d1b7-44a7-bbbd-951fa5b3f0f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Initial deposit",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f12332c7-cb5e-467d-bb47-485ca0aea7d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a charge for opening a {@account_type savings} account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "6cc92075-0ee7-41f6-9df3-ce4a37fdd3ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a fee for opening a {@users new} account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "90354f33-b346-436d-b805-20f483a81d0d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a fee to get a {@account_type retirement} account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "c979926e-802d-42b5-995f-3618844c34f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a fee to start a {@account_type 401k}?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "c02e7a48-ad98-4b93-bd32-77f57cc60100",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a minimum deposit fee on {@users my} {@account_type checking} account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "e6c4f18e-11ff-4920-8508-12f095bf4691",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a set fee for creating a {@users new} {@account_type checking} account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "d96944a9-c8f2-484d-bad8-4cd95ed70ee7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "MINIMUM AMOUNT IN {@account_type SAVING} ACCOUNT",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b339235f-91ea-41b5-befa-7fd6fc05ae8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Minimum Balance For Non Metro Cities and villages",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "b4d5488c-98fb-4185-be4a-94cfd39be066",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the min balance in {@account_type saving} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c9dfbed8-8309-4307-ae84-72a79c3f368f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the minimum amount to open a {@account_type saving} account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "bd79ef95-af81-4083-b755-3e914f4682e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the minimum average daily balance for bankname Multi-Currency Autosave (MCA) Account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "45ed9c4b-1799-4b7a-8097-edb047cd8107",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is {@users my} Minimum Average Daily Balance (MADB)?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ef4ef517-7495-4156-b990-0b7d5b2f9391",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What should be the minimum balance ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "63027618-27bb-4b46-85fa-18cc26a904aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What will I be charged for opening a {@account_type savings} account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "806a2e95-897f-46d7-8c86-92e7b2961a3f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the amount I will be charged for opening a {@users new} acct?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "e0c91b0d-ff31-463e-9a6b-b5816e046d2d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the fee for opening a {@account_type savings} account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "f5aa614d-8e29-4a4d-a87d-f065918ef8c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will I be charged if I wanted to open an account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "720a3612-48b1-4bfd-9562-743b8c37e977",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account balance needed to keep panorama open",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "edee85a1-4a9e-4f95-8968-216f9f334541",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "account opening fees",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "48d45a67-b995-44f6-9648-079588c94bad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "after a withdrawal what is the minimum account balance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "571ac1a5-fed6-465f-87c9-773893f253e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any minimum balance is mentioned this account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8487d9af-62ee-44c2-a0f9-0d429d7b2174",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any minimum balance should I keep",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b4e8e88d-debe-4db0-9e3a-29387e8ca2e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any minimum duration to open a {@account_type bank account} for foreigner",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "52a62a4b-d23c-4bb2-9298-32a36aa110c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there account opening fees on {@account_number 1234}?",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "c5f54b1b-602e-48b8-99c0-70aad7288207",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there upfront costs to apply for a {@account_type loan}",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "4635fb70-8d54-49d5-b205-ee666e51ef9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "avarage minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "122cbbbf-4cfb-44a1-97a5-d73d5d4eb796",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "but i have {@users my} friends who told me they dont keep a minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9859f555-33cf-4926-a11d-2034e422700e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i increase the minimum cash balance for {@account_type cash management} purposes",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7acb4892-b390-4c1c-92cf-fc075db4887e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash balance minimum",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2d7db16e-870c-481b-8779-9fd559e8326e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any minimum balance is mentioned this account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "818a258c-e872-4c4b-8dec-a88c75c2d99c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any minimum balance should I keep",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "53d9e7a4-8e95-4e64-a17f-be6debaa6a48",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any minimum duration to open a {@account_type bank account} for foreigner",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b8ed10e4-e96d-46aa-807b-48284d9d58c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there account opening fees on {@account_number 1234}?",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "790afe14-7342-441f-bd50-c21cdc9258c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there upfront costs to apply for a {@account_type loan}",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "882911c5-4c4e-4ab9-8323-4e47111d15ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "avarage minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2749b13a-5d8e-42b7-857d-27744d94b77a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "but i have {@users my} friends who told me they dont keep a minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "253c5e82-8f64-4b21-b5d4-208119a3d284",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i increase the minimum cash balance for {@account_type cash management} purposes",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "cf5b8702-29d4-4d1c-9d76-a35175c11b1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash balance minimum",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "992d01e4-dc02-4a12-9fb8-dc9d6ea5a110",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any minimum balance is mentioned this account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0a21ce98-488f-482a-a34b-2a62dba313e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any minimum balance should I keep",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "934d719b-8afe-4fd7-abb4-cb6561e60c80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any minimum duration to open a {@account_type bank account} for foreigner",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "07d2082d-24ee-4e07-8e8f-8406a259c914",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there account opening fees on {@account_number 1234}?",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "22887e30-3ab6-4997-824e-22aac356343f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there upfront costs to apply for a {@account_type loan}",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "ad10d25e-d347-4218-a13a-1540834192e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "avarage minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "603558ca-36b6-4d74-9e00-b113c163d3df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "but i have {@users my} friends who told me they dont keep a minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f06a222a-528e-472a-a37e-be699848aed2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i increase the minimum cash balance for {@account_type cash management} purposes",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "5723ab4a-3e7b-4c7d-bcb3-8e3b23fb02af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash balance minimum",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "738b598f-5c0c-4f2e-a718-4005ade6cb9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do I need to maintain balance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0e16e767-83a5-4cde-a0f2-356b49131aca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i have to maintain minimum balance??",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "76b3562e-83f5-4a92-a1b6-2ffb767e2580",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i need a minimum balance for {@users my} {@account_type card} to be ready",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "af2b7522-8c3f-4fd7-9678-f6e81eb44289",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do you have a fee foe opening an account under {@account_number 1234}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "59c10515-f3e5-4c04-92b0-3fc56eec5476",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "does {@users my} account require minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "31f854c1-a12f-4fc0-9857-219cec072727",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi ,is.there a minimum balance ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f2a1783a-062a-4354-b0c8-fa35d81d5da7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi {@users my} self is Bob. may i know if there any condition to keep minimum balance in this account.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4329e4a1-5aa1-4933-b288-60cd19f42dcc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hope there is no minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c2d7936f-a8cb-4031-8096-f5f7384117af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i bob the minimum cash",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "dc0afa9b-8681-4250-bc5d-da01e94d41e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much amount to be keep as minimum balance for {@users my} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fb19f86e-fd65-441f-a68c-6ca8c3b055cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much for the opening {@users new} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f93891c6-7a10-4890-beea-27706cb24c4c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much is the initial deposit",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "064f2752-5bbc-4cc3-9582-e14425a02a80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much minimum balance should be in {@users my} acnt",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f64774f8-b6f7-4043-9c10-42addff69d00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much minimum money I need to keep in {@users my} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0fb7321e-bf29-4686-956d-2069e30f508e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much should I maintain balance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b3114ac0-7435-40f3-be2d-7459fb927f7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to check {@users my} minimum average daily balance",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "77f202cf-7b2d-4474-a189-733ed94fd798",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to update minimum cash balance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "13dba5c2-f89c-4837-ade7-d2b95515c3fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am just wondering what the minimum account balance is for bt panorama super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "652a0afd-ea8d-413e-81f6-aaa50163d414",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want minimum standard balance which client needs to keep in cash account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a680feb3-e0eb-4175-8556-a30ccba2add2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is it free to open an account",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "9a643f1b-4217-4a17-a20a-d23023bb2fd2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is there a fee I need to pay to open an account",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "bf37a0a0-518d-4f8f-a6fd-5e7606e9c77c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is there a fee for opening an account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "b43bb4b3-9d88-4d8c-8f54-0936fdbc8359",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is there a fee to apply for a {@account_type mortgage}",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "0db1a50f-cfee-494e-8ebd-505b6a14d63e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is there a fee to open an {@account_type investment} account",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "03796d00-f4cc-43c7-92e5-4b1f9ca1fd38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a minimum one st deposit",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "721e5250-707e-4729-ac6b-0b2d23fb4e30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a minimum opening balance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b9360923-8ee5-4315-8b8b-a43b859dba3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "let me know bt compact super minimum cash balance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1ca0d048-8e18-4d7a-9b88-ba94c9f6396b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum account super balance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4702fce3-2397-4bbf-9fe6-024e6458002f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum amount in super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c5444f09-4da4-4fd4-8bbf-50265d47b823",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum amount to keep this account open",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4253dcbf-ee2c-4727-bd35-702a5b9d0d9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum amount to open a super account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6991d8a3-d41a-4103-83d0-1b2e3b642d10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum balance compact menu",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "81721be9-c990-4f18-999a-e1091bc2b1bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum balances",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5cf15edd-f37f-4793-95f2-d7df1db32844",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum cash account amount for {@account_type investment} account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "814db57d-9469-44e1-92d6-c54c313f9ef6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum cash balance for bt panorama super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ae82ad46-d9b4-4919-b331-ff88460784b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum cash balance on super account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a63b01f5-e530-487d-87df-af104e1acdcb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum cash holding for a bt panorama {@account_type investment} account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5917a1df-eebc-431f-8e51-1d29426f538e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum super balance before fees are applied",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "1ffae6ea-b7fd-474f-a462-f3c48a386ea5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum trade",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "c377bc83-d825-4fce-8f02-63487d52524c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "should I expect an opening fee charge for account ending in {@account_number 1234}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "d5ebbf1d-61eb-46d8-8372-3ca3693c953c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "superannuation minimum balance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a66e9c1a-93e8-4aa7-8a4e-db6d8adfbe3b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update minimum cash balance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ae784e76-e1e0-40a5-bc32-da7ed0411ea0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the minimum cash balance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "758794d8-c406-4524-ab8d-5494c9de4c93",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what can I expect to pay for opening an account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "3bc0dbde-2172-419a-9b89-29afcc8f0867",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update minimum cash balance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c4f11c10-a151-4954-8496-d467366188ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the minimum cash balance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b04e9a36-c5c2-4c1c-ad93-5443c65c93f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what can I expect to pay for opening an account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "d4a27456-5086-46dc-b67c-9db0b0d1bf63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the charge on {@users new} accounts?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "15ba8668-6c58-4386-8e73-fed67152ad1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the charge to open a {@users new} account",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "8ca2aada-09d9-41a6-91e1-a87b6258c4ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum account balance to keep the account open",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0bde8cdd-1d4d-4c7b-844a-09cc828c4486",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum account balnace",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "982ae1f5-88a6-4e5b-86d2-61ca46138783",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum amount i need to keep {@users my} super account open if i rollover to another fund",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e44ca894-df63-4891-bb82-14f342772005",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the minimum amount to be kept in the account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "db72f27c-9799-4233-bc8f-1c6e4b1d207a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum available cash required on {@users my account}",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6778538c-8a5e-4100-a4ea-060f2632a62d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum balance that is required in a cash account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3526ea54-0127-4322-84b9-be12ca7a8fd8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum cash balance on a bt panorama account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e722796e-b148-4bdb-9ce9-90c19056f4e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum cash balance required in bt panorama {@account_type investments} acct no 111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bafab133-8712-48f3-bf56-20192b96fa9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum holding in a bt panorama account in order for the account to be kept open",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "c00a9d1e-38fc-4825-8bf0-de8569e30457",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum holding in a super transaction account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e2eda35d-154c-4f5f-9f36-2ad01964830b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum required balance",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "31cbd50b-e535-4746-b8e5-7285c4c8fd8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the minimum balance needed on account {@account_number 1231 2412 4402 4324}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "abb67859-a62b-48de-8dcc-46152e0ce4a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the minimum cash required?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "0e364031-0c6d-4dbb-8617-d55de5385271",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the payment on a {@users new} account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "50880306-90fb-4d77-af78-2b21d5a183b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats {@users my} minimum balance",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "111751ac-22fc-4ca5-af1a-bb43af6a7e09",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "will there be a cost to open a {@account_type checking} account",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "bb623134-1c73-4e8d-abe9-6da412799d03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "with managed funds of approximately 111111 $ what is the desired minimum available cash required",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a042aece-43ab-4f84-8500-416f90ab9931",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@account_type investment} account minimum cash",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

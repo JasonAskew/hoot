@@ -1,0 +1,484 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_change_name_test",
+  "intent_name" : "bt_change_name",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "b382c7dd-80a5-4081-abd8-2fc659c97536",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Account name change",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "eb3e8cea-c8d4-4158-8b1e-c97e35781e2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update my name online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fdf51323-ff9c-4bdf-b7b7-059cc20ab7e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there I'd like to amend my full names",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0c332c69-37d6-46e3-99d8-17e5507d46e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, i'm wanting to change my surname back to my maiden name",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "81e9c3c4-36b1-46d2-9ff6-9e2a1f5fcb44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I edit the account name?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "38c01373-42ab-4fd2-98c6-6975c3bae7bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Account name change",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "555f9853-0807-4b7a-b768-3e17ee6c1eb5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update my name online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4782c625-0770-42f9-9990-98a16c428f1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there I'd like to amend my full names",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c110a7a9-c3c7-4a92-a6dd-cc6318c9400c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, i'm wanting to change my surname back to my maiden name",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "24b0f836-ce0e-41b0-ac51-a08a254ef6f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I edit the account name?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "adc904a9-174b-45c1-ba91-3c5322975f5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I just got married and need to change my last name",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3c71e4fb-8904-44d4-a93f-4f19b0e7cc24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to update my name",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "14b003f0-283e-4ea3-88f5-8113b23cae4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to change back to my maiden name",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "72d0f293-2bd2-4b91-9047-32e24a26e037",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I would like to close my account but I need to change my surname from maiden to married. How do I go about this?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "76f40a6c-f816-44d0-a6e4-98dff8ee8a71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account 111111111 - what date did the client update her name on this account",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "fe3bb1f2-9cdf-480b-8687-30b4b40edbfb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super a / c 111111111 the surname is spelt incorrectly should be bob not more",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0986a9dd-aaec-46cd-a93e-3e0a1cdc95e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we email change of name form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5074af1a-cc4f-4bb3-b9fd-a85436c7f10b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account name",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8e1489ca-16a1-48ec-8b63-a222335f9951",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change details to married name",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e2078455-e6e0-48bb-b4f4-f8819b5e1097",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change full name in account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fd13c8df-59bd-43b7-b794-4f63e8ea88cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change name is smsf account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "445f1266-91e5-4bc5-8a67-9d54994a22ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change name on super account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1c2ef53a-cfef-4d0a-b8f4-5c7c645606f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of account name",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e5b4edbe-bb17-4eb8-87a7-f06e860a2ac7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super a / c 111111111 the surname is spelt incorrectly should be bob not more",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "38a9ee06-4823-48dd-ad57-a06d58c62bd6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we email change of name form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a6d08af7-94df-42db-a2fe-52dcc4dda1e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account name",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "efcc934a-a5ba-48c6-b10b-a70de6d18e17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change details to married name",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "71c3aac9-de7b-40cf-ac20-4ec7bc35f43c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change full name in account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cd0d5939-94b4-4cf2-8003-14b53a50bc0c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change name is smsf account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "1047e1ea-a9ed-4f12-b041-559668e8aabb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change name on super account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e7a24cd6-bca2-4f68-b11f-a6554d5c3437",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of account name",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1e20fbde-9bfc-43e0-a0c3-e4f12f8460c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super a / c 111111111 the surname is spelt incorrectly should be bob not more",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5866c7dd-6a81-4593-aee1-2715fbd64f0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we email change of name form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "44f52c1c-2217-4e4b-9c2a-139fcaef3166",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account name",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b6e62b9f-c549-4b04-8b98-834d387fca3b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change details to married name",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e8341118-4ee8-43ef-956d-0057dc93ccbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change full name in account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6056251b-066e-4caf-8972-aaead6fcd269",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change name is smsf account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d3bb6878-3342-4813-ace4-1e11a93de6ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change name on super account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "73bac291-4a50-4bc4-9dbe-d42bcb20d464",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of account name",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "55c43959-e2ea-4845-9efd-71fb7a053bcc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client name",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4dfff702-21c0-47dd-9c1a-f35c5239579e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "correction of one st name for a client",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "18f908f8-72aa-40be-b7d9-b48795048671",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello - i am trying to update my details / name on my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "347d6131-7f5a-40cd-aea9-5eaddc088498",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello my bt panorama superannuation clients has just got married and changed names how do we update her account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9f859893-a915-4304-a77d-381211629f61",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have been waiting for someone to send me change of name forms as i am divorced and want to revert back to my",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aa264c11-58f2-493a-9c52-46bb5c50a32c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to change account name into our smsf name - how do i do that",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "44894b7a-0e34-45f3-badf-5cdb29434e56",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can I change my name for the account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c43ae1e7-0e70-45c7-a7c8-1477a2f104c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i change the name of the fund",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ebcfe756-5e85-4fec-adaa-5f8359a58911",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change a clients name due to marriage in panorama please",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "05fdf042-d4ad-457d-99cc-6ca30b90e070",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find a change of name form",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0e4008fb-34be-420d-acf7-8dba36122171",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does a cllient record their change of name",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dda990f3-8400-45be-81e2-f15334ab501a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to change name",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "16057434-65fa-4a34-a3cd-b41dad23fcd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to change name for director of smsf corporate trustee as director changed name from divorce",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "86dd831a-01d5-424a-ad47-cc0f16883c83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to transfer the name of the investment to a superfund name",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "b9119f9b-f541-4141-80ab-499d23399ce3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "last name",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fc0b8d14-8f93-44fa-a081-c1fa67517053",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "last name is not the same as your records",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "80f3a38c-2583-48b2-914e-1f78debf6805",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "name change",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d83fe13b-94ba-4d21-9258-6df4df0aeccc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "name in bt panorma is wrong",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7728df57-b52c-41ca-b09e-2b62399e4ebc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "name spelt incorrectly",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "67428107-d99e-4178-888a-fc8937d9efca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "name update",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5664b841-ce9e-41db-96bf-b22bb3036950",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to update the client 's name",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "348ba563-e889-4ee6-af69-5d00981c21a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "our client 's middle name is spelt incorrectly on her policy how can i have this updated",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8eaa4c37-7f89-410b-bda0-6330d87f906c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me where I can hange my name",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1a78f7e0-f410-45d3-8a70-4bb3843b2ead",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "smsf change of name",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0cedc4d0-2c7b-40cf-8cc5-58f22a8b901e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks but we don want to remove it we would like to edit the name",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c9523f59-c3a6-4edd-9303-af38f73cffca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "typo on name",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ebe3c3ba-3550-4e4b-8699-5f33c6c270fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update members title",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cc1265f3-3c8b-4297-b9d8-3b1d3164c698",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update my full name",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "8ba0d3ad-9b73-4ec2-a946-d07a3496cf2a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update of name on account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "c692bb3f-1596-467a-af98-88ee9c5b9e99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what do i need for last name",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d5bcabb5-15e3-4da3-abd8-032300005bfb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks but we don want to remove it we would like to edit the name",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d18e6753-b08a-48af-9347-935d631c4a9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "typo on name",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "44c1c2fb-f898-4962-9dbb-1ae0650e4efd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update members title",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "86f64c19-dfa2-43be-829c-d27389e1ad20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update my full name",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "46380553-a947-4cf5-a722-b6a04fb7d49f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update of name on account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "dab67541-b6e5-45cb-83de-cde8bf4218f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what do i need for last name",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d80a4b96-c7a5-4b9e-a54c-a8d70e3094df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what supporting infromation is required for a name change",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5cee0226-3bda-4dd3-8b56-933fccc4e238",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "which forms do i need for change of name for investment and super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6fd4c40e-8030-416b-bdc5-844583778c36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "xxx my last name xx xxxxxxxxx xxx x xxxx xxxxx xxxxxxx xxxxxxxxx xxx",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b60c94b4-c4e5-4fe3-bd09-3aaff1016ade",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "xxx xx xxx my namex",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  } ]
+} ]

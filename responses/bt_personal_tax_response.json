@@ -1,374 +1,481 @@
 {
-  "name" : "bt_personal_tax_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To lodge a personal tax deduction notice, you will need to submit an intent to claim form. Please select the 'Open form' button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To lodge a personal tax deduction notice, you will need to submit an intent to claim form. Please select the 'Open form' button."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Once processed, a letter of acknowledgement will be available in your client's document library."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "/content/dam/secure/panorama/pdfs/forms/Notice%20of%20intent%20to%20claim%20or%20vary%20a%20deduction%20for%20personal%20super%20contributions%20(Personal%20Tax%20Deduction%20Notice).pdf",
+          "label": "Open form"
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Once processed, a letter of acknowledgement will be available in your client's document library."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "/content/dam/secure/panorama/pdfs/forms/Notice%20of%20intent%20to%20claim%20or%20vary%20a%20deduction%20for%20personal%20super%20contributions%20(Personal%20Tax%20Deduction%20Notice).pdf",
-        "label" : "Open form"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account__advised_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Your financial adviser on file is able to claim a personal tax deduction on your behalf. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "914087",
-          "label" : "Adviser information"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_account__advised_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Your financial adviser on file is able to claim a personal tax deduction on your behalf. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "914087",
+              "label": "Adviser information"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You cannot lodge or change a notice of intent if Panorama has begun to pay you an income stream based on whole or part of the contribution."
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To lodge a personal tax deduction notice, you will need to submit an intent to claim form. Please select the 'Open form' button."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Once processed, a letter of acknowledgement will be available in your document library."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "/content/dam/secure/panorama/pdfs/forms/Notice%20of%20intent%20to%20claim%20or%20vary%20a%20deduction%20for%20personal%20super%20contributions%20(Personal%20Tax%20Deduction%20Notice).pdf",
+              "label": "Open form"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You cannot lodge or change a notice of intent if Panorama has begun to pay you an income stream based on whole or part of the contribution."
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_btinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To lodge a personal tax deduction notice, you will need to submit an intent to claim form. Please select the 'Open form' button."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Once processed, a letter of acknowledgement will be available in your document library."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "/content/dam/secure/panorama/pdfs/forms/Notice%20of%20intent%20to%20claim%20or%20vary%20a%20deduction%20for%20personal%20super%20contributions%20(Personal%20Tax%20Deduction%20Notice).pdf",
+              "label": "Open form"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You cannot lodge or change a notice of intent if Panorama has begun to pay you an income stream based on whole or part of the contribution."
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You cannot lodge or change a notice of intent if Panorama has begun to pay you an income stream based on whole or part of the contribution."
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To lodge a personal tax deduction notice, you will need to submit an intent to claim form. Please select the 'Open form' button."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Once processed, a letter of acknowledgement will be available in your document library."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "/content/dam/secure/panorama/pdfs/forms/Notice%20of%20intent%20to%20claim%20or%20vary%20a%20deduction%20for%20personal%20super%20contributions%20(Personal%20Tax%20Deduction%20Notice).pdf",
-          "label" : "Open form"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You cannot lodge or change a notice of intent if Panorama has begun to pay you an income stream based on whole or part of the contribution."
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_btinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To lodge a personal tax deduction notice, you will need to submit an intent to claim form. Please select the 'Open form' button."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Once processed, a letter of acknowledgement will be available in your document library."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "/content/dam/secure/panorama/pdfs/forms/Notice%20of%20intent%20to%20claim%20or%20vary%20a%20deduction%20for%20personal%20super%20contributions%20(Personal%20Tax%20Deduction%20Notice).pdf",
-          "label" : "Open form"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You cannot lodge or change a notice of intent if Panorama has begun to pay you an income stream based on whole or part of the contribution."
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_personal_tax_response"
 }

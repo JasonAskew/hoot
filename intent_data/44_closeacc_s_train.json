@@ -1,0 +1,4465 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "44_closeacc_s_train",
+  "intent_name" : "44_CloseAcc_S",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "7ddc80a6-f907-4a3f-ae9a-ac622de7656a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 am closing my account and need information on the process to follow to complete the task",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "735601c3-4998-43b3-9403-3be1739e260c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "111111111 account closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "728ad2c2-5d3f-4edf-adbf-15db470d8593",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Close account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "dda0f790-ab21-4d6b-85ce-67f6a021dfad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Close super",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "8aa3ceb7-7363-44ff-85c4-a09bdb459177",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello Blue, I am considering cancelling my personal Financial Adviser as I am at the age that I am happy to leave my panorama account as is (ie in a balanced account). However my enquiry relates to a"
+  }, {
+    "id" : "65f99631-d834-44f9-9e24-b96f84e33144",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi team, Can you please advise how to cancel an Investment account that has never been active",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "8e43e03f-d6c7-4603-8404-939a6816c19a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I close my account ?",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1d72fbcc-9753-4ef8-b302-79006d6b3ada",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I close the account?",
+    "tags" : [ "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "85279136-deda-484f-b764-36e7cf6b2799",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 am closing my account and need information on the process to follow to complete the task",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "28218364-3ab1-4fb4-83a4-c1e0d19bfce9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "111111111 account closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "17dbd43b-d6f4-47c3-afc3-77f5ca2968cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Close account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "19a71310-886f-44b7-8686-1cb89adbeb18",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Close super",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "48a3f368-d781-4400-936d-ec8e0e6d6ba7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello Blue, I am considering cancelling my personal Financial Adviser as I am at the age that I am happy to leave my panorama account as is (ie in a balanced account). However my enquiry relates to a"
+  }, {
+    "id" : "962bdc45-1ae1-4ad5-9e66-ad2e88b34109",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi team, Can you please advise how to cancel an Investment account that has never been active",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "fd59f583-38a7-4ca0-bb5a-9eb7eb12cdb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I close my account ?",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9513691b-4aa6-4090-a588-ccf3dfcda378",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I close the account?",
+    "tags" : [ "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "6c3b730b-e101-49db-9e2f-7832dbf64383",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I would like to close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b8cf4fd2-3a33-4b3e-9edd-034d091594f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What does it take to withdraw all my cash, will it close account ?",
+    "tags" : [ "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "f0739a0d-afa7-4b2c-a997-623e7cbb0998",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "a closure of an account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3b40d6a7-f0e3-4a45-8b61-4ef96e06d010",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account close",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8ec63135-f466-4b50-9f77-b2954455dc1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "83da99bf-621d-4b6f-b111-0ae73c4fb110",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure -"
+  }, {
+    "id" : "ef72fc59-d147-4b76-a332-c45475f69ff9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure and rollover form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3157c1d3-1ba4-4545-a9d0-c22d7dccfabd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure and withdrawal",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "81ffad61-c080-47c6-8507-01a3a027ee54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7ecd85ad-1eec-4d9b-af1c-788a1db69ec4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure form for investment account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9974769e-01f6-4c5b-bd0a-16576b14ea7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure forms",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8a69949d-7523-4212-80a7-f22c7919ab1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure nil balance",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d1c0938d-55b0-4fbf-a02e-f0633b404b16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure now",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b02c3547-efc0-4bf0-be8d-444ad8a86f2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure request",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "ea97514d-bba4-461a-9890-53a20b762189",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure smsf",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b632247b-0fd0-4d5f-99d8-3a9ab70a5068",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure to another bt account is id still required",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e1a8f229-85bb-4e9c-84c9-90c2ff13691e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "accoutn closure form"
+  }, {
+    "id" : "d5d1b54a-8479-4941-984f-f5c3ddbcea6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "assistance in closing a panorama account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "63514f32-0145-4515-87d9-a3b80871a6a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "assistance in filling in closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ceb6e88f-6087-42a8-8fff-9b28375399c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "authority for synectic to close our bt account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2935d58e-5f84-4a84-8e55-2323ca727fca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt bob closure form",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "4b89306d-7fa9-4719-b10a-91c7bd664bb9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt opt out form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2b487e8e-9612-4e58-acc6-34cdcbdc9321",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama account closure",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1337b3c4-065a-4151-9c67-8355e2a4184c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama cma closure form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f1810f3f-fa25-4b8a-ad02-ccb77f661b43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super withdrawal to close account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3253d6cf-4e3e-47a0-a71d-70643b6073c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super withdrawal to close account form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6af760d2-941d-4192-b664-4a03cfc6eb80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "byi am trying out access to my account but can not find how to close it after viewing as i can with a bank app",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "e1a02199-bb3d-4bf2-a1c1-ea39b220a4b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can account closure form be emailed",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "1b2b5b0f-98a5-4314-b61b-984a3f9a15d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i close account when leaving the country",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2b37e674-4340-4e44-8cfb-d83cb901cd42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i elect to close my account when the balance reaches a certain value what are th costs to exit",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f2d92f83-2fa6-403f-ac26-5adf521f193c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email in account closure forms",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "6598cd8a-0202-4c6b-911e-f0634315a524",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email through super account closure form or does it need to be posted",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c6710cbd-d3ee-41b2-afee-d073f65abb13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i retire and cash out my lump sum",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e5150de0-af72-4911-bdd0-4c90abac5fa6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i send super account closure form via your portal or email or does it need to be mailed",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "6b47fca0-aaf2-4aa0-8179-d67528e06e6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload an account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e83a1c15-d590-4adc-8b11-8f65f1767276",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i withdraw and close the account online",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "eadf5541-7f2f-4b08-b9e9-f8f787023038",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can my closed accounts now be removed from the portal"
+  }, {
+    "id" : "dd9ed13f-1358-4763-9068-7603f6ae9296",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not close account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "33f58e2a-5fb5-4292-a927-6444202f776c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can this account be closed online",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "6f8cf000-cd80-4111-9b60-d23e93a97a5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you accept emailed account closure form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0a95fffa-2a87-4bd8-93ec-376fa5c124e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you confirm how much notice i have to give if i want to close the account and if there is a tax liability -",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "44a26118-0bc7-432c-bc3d-751191b36f66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you help me close an investment account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ef9f4f91-6f37-4f3a-a0df-710e5ff3797a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please assist me with closing my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "55a9b926-b268-4122-a608-8fad131c9d4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c5324c53-454d-49a2-bed4-da29c61ce66f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please email me with a form to close my supper account as i am retiring and not working any more",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "74622aab-b6b6-4c6a-b5c5-9e22e782f3bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me a link to investment account closure form i can not access the forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a00840a4-a467-4991-8351-6246ac97103a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me an account closure form for itzick bob",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "51ef48a1-c59c-4fc3-9ca3-b760a2e1a29d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you send me the account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4c1124a5-e634-471b-b888-12ba8ecf8a93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me how i close this account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e7cd413d-73de-44c1-8a97-29dbb25ae5b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "8baff8e6-e63c-4c0b-a702-81df9ea21ad8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel my account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "d5aa6edf-a01a-458d-a818-fdb2142d9e05",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel my bt super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3f178c5c-bab4-40f6-bc88-1b8a80b9c1cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancellation of account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dfe91155-b3bc-49c1-9561-920dedd81fb7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash management account closure",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a4d18069-4032-42a8-aff4-352c4bf53a48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my superfund",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "7b4fff40-32e2-4d37-b72a-988d5de1324c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "assistance in closing a panorama account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8c922fc6-594d-474b-8f16-7a2c71aef845",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "assistance in filling in closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "eb1f8e0b-7127-40ef-b2c8-272a405c8023",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "authority for synectic to close our bt account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f80ab341-1ccc-4df7-8dfd-8863aa053ad0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt bob closure form",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "4bbd5a5b-9857-4eff-94bc-7c45d31132d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt opt out form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a30a60c6-e3cd-4b6f-9f5e-19c18d59a27c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama account closure",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "fa4df893-3ccc-40c1-a01b-bafdd26d50bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama cma closure form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e2d3281f-38cf-498d-ab59-68ab4f4351b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super withdrawal to close account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b3e41dff-36bb-46bd-bb46-1b833ed86220",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super withdrawal to close account form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1823f6c0-fc08-4c1a-98c2-72afed34824e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "byi am trying out access to my account but can not find how to close it after viewing as i can with a bank app",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "b73e1cdb-4f99-4b5b-9054-5fa1a5100abe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can account closure form be emailed",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "a4d8fa5e-efcc-4c23-8979-05b6346f2f7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i close account when leaving the country",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "21c85ae7-e559-43bc-b2dc-5a13032cc692",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i elect to close my account when the balance reaches a certain value what are th costs to exit",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2b9508a4-1fdf-4b7b-98e6-1e35ac3370cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email in account closure forms",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "936daefe-4c04-4a80-877d-799640abd809",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email through super account closure form or does it need to be posted",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "302f8500-e628-491f-9490-3e0c9feae3a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i retire and cash out my lump sum",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "48310544-9f0a-4ba9-bccb-1e59ac7b01a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i send super account closure form via your portal or email or does it need to be mailed",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f670a94f-1b18-4bbb-b9f5-05b1a08c18a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload an account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "cd7a0419-b1be-43cd-b65d-0cba689cb357",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i withdraw and close the account online",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c0d479b3-8306-4d6e-98d9-93961b5fe666",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can my closed accounts now be removed from the portal"
+  }, {
+    "id" : "c81f20a3-1bab-4589-b5e0-a83689c42bd6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not close account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "f85b3e40-8fe6-4e27-941f-e33eae5ed20c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can this account be closed online",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "56b0134a-69b0-4170-aac3-a4158a865f2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you accept emailed account closure form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a05dcbc5-d70b-43d8-8b4d-7fedf992ceb5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you confirm how much notice i have to give if i want to close the account and if there is a tax liability -",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b2e1e1a6-b8be-4128-b53b-cd4fca4c99ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you help me close an investment account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "caaf779b-7695-4c7c-887f-19696b2f34cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please assist me with closing my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "431db73a-6911-4fc4-a21a-9aabf4a8129f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9ccbeeeb-fcb6-4092-8d93-350a9ecc6928",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please email me with a form to close my supper account as i am retiring and not working any more",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "7d2f3242-6130-4a88-b499-9f7f3ffbc5bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me a link to investment account closure form i can not access the forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ab3b6b3d-60a5-4acc-9b93-740b59f48d02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me an account closure form for itzick bob",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f2025fbe-5fa5-4734-b3c8-d89b7d687b79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you send me the account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d978b400-944f-4603-acfc-39cf4e7cdeaa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me how i close this account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b405e939-472b-44b4-90a4-6d0d9e0148b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "3605d640-0f9d-4856-8cc8-c972e6a4c0b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel my account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "022889fd-f1d3-4048-bda2-8d14ec4193aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel my bt super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3ea824fa-a216-4730-82d5-895ae498d41c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancellation of account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "03e96298-00a0-464a-963a-c9398d7faadc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash management account closure",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "19e9bd07-c77b-4153-8278-6425be19c57c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my superfund",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "401e3012-7e1f-4ad5-bc1c-352302c18476",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "assistance in closing a panorama account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "74982eaa-6c98-45d7-b572-1259d02d8670",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "assistance in filling in closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "426a2f12-7c72-4524-a935-8ace2f72e866",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "authority for synectic to close our bt account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1d2ab0df-c3ee-47dc-8849-0e5c56ce6cea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt bob closure form",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "3dbebc39-f10b-4370-8706-1363242a14df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt opt out form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "cbcd40a5-7491-4a2c-939d-9b2fc419ff75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama account closure",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "812089fc-7291-4c33-a214-ffb64dc3f16f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama cma closure form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "57c0ed3f-9969-4932-94aa-d15cb3ea5025",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super withdrawal to close account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c6c302dc-b434-403f-9973-ca70f22d9444",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super withdrawal to close account form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5f8d1a80-f647-4587-8ed6-c5ccb17f9074",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "byi am trying out access to my account but can not find how to close it after viewing as i can with a bank app",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "63b2546f-5560-422c-aa4b-2fbb6e6798ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can account closure form be emailed",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "56140d30-84c3-4f87-9224-f148677aa47f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i close account when leaving the country",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4bca9ceb-3eb6-4743-9286-c236258c8017",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i elect to close my account when the balance reaches a certain value what are th costs to exit",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5768741f-51e9-4058-a2e0-aad5bd32cef1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email in account closure forms",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "362a3a43-9734-4aab-804a-dde0c18c8eb3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email through super account closure form or does it need to be posted",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "a496490a-32a5-412e-af09-3e0c77903113",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i retire and cash out my lump sum",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "162a692f-3a97-4747-ad92-0e4fa16e5d55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i send super account closure form via your portal or email or does it need to be mailed",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "6ec834d8-b813-47d5-84af-256404c40b18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload an account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "19614456-80ea-4855-ac9e-fe9252283fb2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i withdraw and close the account online",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "255e9452-9c21-4722-a8ec-e4629a30ca60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can my closed accounts now be removed from the portal"
+  }, {
+    "id" : "e8e87e9e-ab4d-4383-a719-deea87fe165f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not close account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "db414faf-5113-49d0-804d-40700c3403fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can this account be closed online",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b9e5aa10-c4f5-4220-bf97-c8f323470f0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you accept emailed account closure form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3e9d955a-5c5e-4616-b7a1-d3a64fbe308f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you confirm how much notice i have to give if i want to close the account and if there is a tax liability -",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9dcd6993-e8b1-4dfa-8982-69ccdb798985",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you help me close an investment account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "530f72df-c211-4728-9787-a13f143110f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please assist me with closing my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "455e6da6-0883-4c2d-80c9-47268359d74e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f8e90952-9692-4fbd-ab9d-0fe032eb6231",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please email me with a form to close my supper account as i am retiring and not working any more",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "1c4f3182-2cd3-48a9-9c4c-605ee47a5755",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me a link to investment account closure form i can not access the forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7fffb8a4-8100-4ce3-8dee-9bb914667da3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me an account closure form for itzick bob",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e5e9e354-7f2a-4da9-9dfc-e04478870ec2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you send me the account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bf1d2039-1c47-4699-a520-6d9f9830dec6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me how i close this account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3ba2f6c0-4b99-43f1-8ad0-2af2b92e4bd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "d273f2a9-c96e-4cab-93b2-355afc8f0026",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel my account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "9660276f-6899-4d18-9489-8a8fe6311711",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel my bt super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "258aee8f-7bf6-4dc3-b1ee-1c93e414e7ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancellation of account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c1ce8900-970a-4ced-80ec-f0b1239829d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash management account closure",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e281fdd9-0f67-4a05-938e-c15d78b210c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my superfund",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "78cb3bca-8e10-4472-a074-87da3a548f34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "claim account refund after closure of account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4fd32e1a-5375-478a-9c76-54f1715e5e85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client is closing there bt account which forms do we need to provide",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e641c756-a947-4afd-bb4e-dc1b4200af75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cloase account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3534cfd4-8d17-404f-9429-9aae8b1cbe77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close a cash account"
+  }, {
+    "id" : "75914f09-4a10-4aef-9f73-9dc9984c9d10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close a client 's account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3b01ee9c-6054-4f99-9e36-280d73476d46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close a count",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7c605dab-5744-4830-be6c-ca655c9b76cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close a margin lending account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2ab013dd-3ade-45e3-9133-80c1c3ab5f30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close a panorama super",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2ae942f9-f0be-4b1b-8882-ba93c68f3ddf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close a pension",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7d7df004-795b-4b4c-a2cf-dcb52d695164",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close a pension account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a133e3b9-40aa-4e28-a07f-a70a6e47bf1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close a super account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e62d372f-5ba8-4674-b243-abcdb06c339a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close aacount",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c5f1ca68-6790-4081-a97d-eac52f870f59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close acccount",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b5b75234-f8bc-4619-bead-a7258864ae23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close accoount",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8dd93cd4-b266-447b-a5f4-ddf68c67c85e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close accoun t",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e7dc00d5-3e4b-4ce0-a3a0-3f0b0c0f2e9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d1b5a0b1-cc14-4cdb-9f16-bcd236f4baab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close account and rollover super balance",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "05b2659f-3c79-4861-925f-7b292b9a3ffc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close account and transfer funds",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8750038f-e94d-4057-afb6-9bf144b7a515",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close account i no longer wish to invest",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3d33140e-217a-4704-b333-c33f09ef35a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close account online",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "24a1d186-d34c-4702-bc6a-32260db3538d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close account please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "78eb941f-1478-4b4b-9ee3-ca8c59f530d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close account pls",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "54f4c87a-4b2d-4e06-b6a1-a2955ba77067",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close account process",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3c72cf3c-07a4-456d-91d0-dd71a22037a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close account?",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d2080dde-569b-40bc-ab38-aa0ee3f80346",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close accoutn",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b849fa76-7cf6-443a-8f58-2830190358a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close an account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a933521e-4dc5-4dcf-a3f4-2df5fea23537",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close an account form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "6c10ca11-42a6-4d23-9e43-5cd748421f23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close an account withdrawal form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bdf54c44-f6c4-478e-a684-4e5de37b641a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close an investment account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "66e180a5-0bcd-4c37-9ea8-0177c6afed8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close and account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "77eae426-8243-43f4-a6b3-8f82ef70b4d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close and withdraw super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4c0d7677-1ba0-413b-8bf0-6c458c8dfa47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close bt account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b5c98491-9523-4ac1-987b-461879f48bfb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close bt invest",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "0719e58b-fee0-4f1a-9b95-62483867fc88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close bt invest account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "45efd6e2-5e49-4866-8638-a8d522fccc82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close bt panorama investment",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "adb155ff-0b27-4171-9fe3-4859ada953a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close bt panorama investment account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "15e0ec26-da7f-4995-88ac-f4eda643e79e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close bt panorama pension account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "36ea2952-deed-49c0-a448-27f73f16fac4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close bt super account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "045d9fc6-e6e7-48e2-81f6-091a15fb526d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close bt super fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "cda14dcb-78a1-4361-9196-0a7b8d207855",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close cash accouinht"
+  }, {
+    "id" : "8ec82d33-b8b0-47ef-89f4-bd6fd3256f60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close cash account"
+  }, {
+    "id" : "3b0ebdbe-92b9-4252-ae7e-e0aac3b52cab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close cash management account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8a200d58-3cc1-4435-a0e8-65a4eb44a242",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close down my account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f218c2de-e815-4561-bc0f-e5b9899f5e56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close down super account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "35f2ae96-849f-491c-841c-37781efcc9b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close investment",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7b889ddb-a3ec-46e1-812a-594beca011ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close investment account"
+  }, {
+    "id" : "92876570-9512-476c-94e0-d7844630e33c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close investments account"
+  }, {
+    "id" : "c7f1abd2-e410-41dd-8632-51acc4726f4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close my",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "5200ce34-8ac6-47b2-a514-607a17ca6045",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close my account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "ff187f8a-1496-4ccb-bdbd-fac4c12903eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close my account online",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f4711f8e-06ea-471b-907b-33b28c877977",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close my bt account please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e8e999a2-7525-4514-94b9-c171b524842b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close my bt super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "1a04d495-0e1f-4207-a251-5487c7c7860b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close my pension",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2dffaac6-e2d1-421d-a065-83ff4454c6c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close my smsf account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ad40b023-9062-49b9-a4ea-c32d114d4686",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close my super",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "115cf333-668d-4830-891a-33d713ed2186",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close new account with 1 $ balance no other super accounts as retired",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "69087a0f-ed7d-4a04-9e34-127dea60998a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close one of the accout",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c7bc87e4-a370-47a7-8205-89a640627346",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close panorama investment account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "888143f3-1a0a-4ca7-92f5-045d69d54ad8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close panorama pension account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "efa2f75b-8e13-4b92-8ef4-c7902f19203a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close pension",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "98ab8588-fb02-4956-8327-87e4fc214046",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close pension account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "57212dde-2a3b-41ec-8cea-47fc8f842928",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close pension account online",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "253ecb66-1441-4966-86e6-08fa5233c38d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close smsf",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6adae1c2-b926-43d2-981b-10fe47376ae4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close super",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "c145baca-b64c-45e6-8e0b-cfcdae214d98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close super please",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "7fd4cff1-bf5c-46f8-9fac-f550455a6a7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close the account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f7d909ab-f5f6-48a0-80e7-0fd1dbe40455",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close the accounts",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ea922d36-1bba-4342-ac77-f65c42330794",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close the investment account"
+  }, {
+    "id" : "d1788c61-8121-477d-95bb-c4ef9fff1068",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close these accounts and give me back my money please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "32b7dd88-27ad-42e8-8b31-28fcdda6fae5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close this account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "746a82e5-f3c2-4cdb-a309-6b9f97ba1b40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e5840ed5-12c0-4555-b8f8-2d5586b08f04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing a clients account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "11621636-bfec-4650-bc7b-9edd1f4bd3e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing a pension account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bba953fd-869d-4f6a-9eaf-6d1b48995aeb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing account fee",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "684586d6-5a93-4173-ab4b-fae82350a540",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing account procedure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d409dcc8-94e6-494c-ba3b-a6fbaa6c2fdf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing account what do i do",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "24688cf9-d997-4aa4-8a1d-21a79adc5d2a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing acount",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9d0c07c9-460f-4eb4-8c40-9f23d7dce03c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing empty super account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "baff4652-cb4d-4664-8d15-0b47e809a80b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing panorama investments compact account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f18d963c-258a-4247-b045-7b41615cbec6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing smsf account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cfa2d6dc-fac0-4b83-9a63-6a29cf7c0ed0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing super",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ed4293d3-f5e0-4433-95dd-c32013cd9831",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing the account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1df4ddc8-ff5e-4076-85bf-90ee854ee1aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing the investment account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7d60bb2c-c817-4785-8d7f-e42b68915ce2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing this account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e43efd0a-ff2b-4e8b-a1ef-b12bbe744414",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closure",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "2ac7b79d-4c23-4cb2-aa0a-62070f4c3bbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closure of bt panorama account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "573d4819-03e6-4f2b-a6aa-7fe2147c8b4b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closure of smsf",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5dedd906-4003-4901-bd65-27f738cbd2d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closure withdrawal",
+    "tags" : [ "westpac-annotations-jul_2021", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "51493dc9-0700-428f-bdf5-daf1264cab94",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "colse account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "956248f9-1d1e-45a4-9a65-53e99d5d61f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could you please advise how i close my account thank you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d2b134a3-0527-4453-9fb3-db928b737ad6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could you please provide me with a super account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9b4035f9-cc15-483e-8981-b23203f35f91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could you please tell me - if i withdraw my funds and close this account is there a tax implication",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c09b439d-79ed-47a3-9464-933fcf05bf0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "delete account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b56760d9-8218-435d-8851-ec79c2b0190b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "delete account application",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c89341ec-4e15-4707-9d6f-c0c0318b42b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "delete inactive account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "84440674-9f8c-43d5-a418-211c4e2a3411",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "delete unused investment account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a6c8056d-4a04-4b1c-9f56-28383b0ec352",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do clients need to sign a form to close their investment account thanks",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0f62a529-b0cb-4eb2-84e8-1367f9b33f27",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need to close my account if i move my funds",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f3ee3cbc-0ade-48f0-80cf-2763f174a9dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need to sell my investments before i close the account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c91e85d9-4f28-4003-96d7-cc39358bb847",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do not use this form to close a panorama super account refer to super account closure form but where is it the investment account closure",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "fa8feec3-e94b-4bce-a72b-8dc103e31822",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you accept bt panorama account closure forms online",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d1c8fbef-6509-45e6-8b50-d1f515047df3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you ask bt panorama account closure forms online",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e797215a-5ea9-4fe7-83f8-802dce069639",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have to post account closure forms",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8ea5d1ba-33e9-4f6e-b06a-14b68f56a1cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you need id for an account closure request",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "58472d10-3840-45d9-9eaa-f7947fc94baf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does a bt panorama investment ac full menu automatically close of a client withdraws 111 percent of the funds",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "16171de2-f258-4921-9650-fcb51e75a8ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does a super account closure form have to be sent by post",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d97dfc2c-ba4f-480d-82c5-1b13c4d6d713",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does super account closure need to be mailed in",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "cbb332bb-67df-4102-b8be-484383494e0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does the client need to sign a form to close an invesmtent",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "e498529b-075a-445a-a553-97f76aac2449",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "early closure penalty",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a2aba7ca-688a-43fc-8ba6-a7b70ad7dce8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6da09f95-ee6e-4050-bc09-d1696d5b633a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for account closure",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ace8f0b2-67f1-40e4-804c-0180b4677bbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "exit form for bt panorama",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f6c3ff74-27eb-4953-bdbf-943005de1c1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "exit fund",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "4580810c-fa6a-4627-af80-aa6c8aaa8eea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "exiting fund",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ed9e7694-ac87-4f3e-8b27-86aebd4185d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "exiting the account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f59013d5-b453-4a55-b9ac-cf2e126b4a1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fees closing account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "56b17bad-8abd-4073-8e1f-e9c58dcd3b83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fees for investment account closure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "714610d0-cdfe-4081-96ed-5f7baf5b3cdc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fees to close account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "4118a482-7b63-4086-b387-58e7e7e2ce6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find super account closure form there is a direction not to use the investment account closure form for super account closure",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c1340349-4c1e-4524-ac1e-84b7360b0c0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "finding an account closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5646af75-9de1-495f-9f5a-b7049cc4c917",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "for full account withdrawal and closure do we need to have a form signed or can we withdraw funds assuming client has met condition of",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e5467762-3178-4d6e-b5ed-e730548298d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form to close account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1c529c42-a2e9-429d-9a2e-5f67f5725174",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form to close pension account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "732dd751-e63b-4f53-968e-9332e64c2317",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "forms to close a margin loan",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0760ec4b-56cd-431c-a9bc-1c4f3c910036",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "full account closure",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "df19f56d-451c-419f-a3e2-1898f1800c55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "full redemption of account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "78a80553-a295-438a-9b00-3731308372b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "full rollover out",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "02f33b0d-8c47-4fb3-879f-cbb6b99c5bbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "full withdrawal from pension form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "59b500d5-b60f-4f24-ac35-850430880d47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "get account closure form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "177ae265-7528-4f62-be29-1208d6332a30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "get accoutn closure form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a1ec7e50-01c8-431c-8587-fb8c9d5e7273",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "get statement and close account and withdraw funds",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "25e9724d-f0a8-4b78-a1ba-114e3c44178f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning can you please release my super to macquarie super",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7cb5f4eb-4d89-467b-a327-1b8b6a91f6c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning if i close an account during the year do i have to wait until the end of the financial year for a tax",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "212f2e87-dc07-4441-a8f0-a11d4744c80f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello can i please confirm how can i close my bt investment account and have the funds paid back into my westpac account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "e11658b4-1076-49c9-b7ed-fea9abb4ade4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello how do i close my panorama account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "af608acb-df94-4bc9-bf4f-8fdf9cc15319",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i 'd like to close my account to go with another super fund could you please confirm the exit fees",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e1857d9c-aa4c-4a6f-b520-035c3298354e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i 'd like to close this acocunt please i have been on hold on the phone for a long time and this is all",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "9b4bc706-fa72-44ff-9306-2e10ab138f46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i have registered for a different super annuation fund and would like to cancel bt and have the funds transferred",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3ca5fe18-c31d-4b30-9d47-796da6a90238",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i just want to close my account please",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d1e159fc-daa7-448f-b579-0d47b6d812fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i wish to cancel my account on westpac but they said i needed to contact you",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f9fddf1b-0c4f-4570-8867-5ceba6d67d51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i wish to canell my account on westpac app buty they said i needed to contact you",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ead962cf-b5d2-46b7-af97-23dc2ad63000",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i would like to close my investment portfolio and transfer the money into my nominated account what do i need to do",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3b1225ee-098b-4e2e-9707-8687fac26866",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello if there is a linked bank account that is not verified can we withdral full balance to that bank account and close the account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0b7e8c60-5201-4a9f-81fb-fa97901c28f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello there how do i go about closing my bt super account please",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ed70c85c-8019-42b8-b8f0-45fe26994fd3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello we would like to close this account how do we go about this thank you",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "629fdf7c-e25a-4192-8b37-fe2a971fec7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey i want to close my account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "616e3ee2-7fa3-4d44-a321-3eb96b85370b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey i would like to close down my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e3c7821f-1fa0-45a5-82ce-e749b05f58a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - how can i close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f55997a3-0e37-4f04-8797-2333713ab83c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - how do i go about closing my account"
+  }, {
+    "id" : "0a42be09-4dbe-440f-a29e-3b5089d2eafb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi a client wishes to close their bt investment account which form do i need for this",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f7f95b05-1334-407e-9992-8889f7a869c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi am i able to email a super account closure form and if so to whom",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "5dd68c08-4eb3-4395-a377-8a1d3a61e720",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi am wishing to now close my account how do i go about that please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "efdb625c-bfd7-473f-ae23-7b26b39cc686",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bank account has been added can account be closed now",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "242f3566-69d7-4a07-a15a-ec430ce23c7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bt where do i go in the bt portal to close my account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "4d6af72b-1b27-414d-81d8-4d87f104ca95",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i speak with a consultant regarding how i roll over my super to another non bt fund thanks",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6cceb3ed-3cbf-4c49-b843-5c822327b003",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you please advise how i remove remaining cash out of this account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b11d9c7c-0348-4053-b65d-d5677e1ddaa0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi good day how do i delete my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "daa5f51d-d23e-46a5-9043-deab718a4f5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how can i close my account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "91cf96e5-c3be-44b4-bf66-0c7f29020037",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i access a report for a closed account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "bd5b8980-5c46-4814-9650-eb4785cffba7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i cancel my account i no longer need this account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4b78e659-328c-46a8-aac6-e5a362adb9f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i close this account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "b1c8bd60-5499-433e-8bbb-e463bfc918e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i submit a super account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ac5b1260-554f-4ff8-95fe-a4a515052f1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i 'd like to close my account please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "642d668d-1934-4058-965e-3413ae18c3bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i 'd like to know if i have to pay fees to cancel my account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "5ed413f7-d75b-42c1-93ac-31003438b4dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am looking to close my bt invest account and return the 111 $ in my cma back into my westpac choice account please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bee296a2-ff57-4002-9585-d4ff96f0c0a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to close the account where do i go to do this",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "91a228d2-243e-4c4d-a5ea-891bb94f0798",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i currently change my job and my the company had chose the super for me so i decide to cancel my bt super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "de2bc60a-b730-439b-95fc-fefb9375e767",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have but money in my account by mistake and i will like to get it back and close my account please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b752ca37-946e-400f-8f08-f93885bffcf1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have moved back to new zealand and am still recieving updates on my bt super account i believe i need to close the",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e6fa6852-3afe-437f-b4fb-905f15092462",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have set up a new super account and i am leaving bt are there forms i need to fill up to allow this",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c5a4f430-aa6a-41c8-b5a4-0f9278ae2edb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i just want to check that my super account is closed",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "debdab8a-b873-4969-b60b-85afe96cf247",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i like to cancel my account and get my money back please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4080c032-75d7-4fd3-b852-aa1df31cf12e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need a closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "22c282d6-7aef-4e92-9cf3-ed906eea578b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need help closing my bt invest account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d6a6be47-6e97-4405-9f86-8c58c62a78d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need the form to withdraw and close a bt pension",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "9d335dc7-9790-4946-8991-6915247570d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to close an account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "abd322b4-02d1-4fdf-80e9-3c3d3df1a121",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to discard to payment subscription orders so the account can be closed but not sure how to do this",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "de48e3a0-6ac5-401c-91ae-5524171ea299",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to get a super account closure and withdrawal to you for a mutual client can i email and what email address should",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "995bfaeb-f639-4cf0-906c-ac8b73bb554d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i really need to cash everything i have out and close my account how do i start this",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5758696e-32c0-41d6-b244-bb826426c041",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i requested my bt investment account to be closed i have not received necessary forms via email to authorise these instructions please advise",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "6a45189d-d98e-467b-8723-9ce3ea5d9497",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to ask how can i close my bob",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b5294260-cf48-4bd1-9f41-625f197af225",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to close my bt account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d2f23110-166f-4804-a598-9a8781d9176a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to switch super fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "75ada44b-a33f-4052-9511-d998f3652342",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i wanted to transfer my bt super to my new super hostplus could you help me thanks",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "41aaa2a8-4047-43b5-8f6e-5a5d07b66d02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i was just needing some advise on how to fill a investment account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "14d79e5c-bb24-477f-beea-b95f94a05f58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to cancel my superannuation account and withdraw all my money out",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f3cc6e8d-f2bc-4e01-9afc-b6d59cbb9348",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to close my account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c1e0907d-7da8-4309-a23b-a079b9539895",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to close my account and withdraw all my funds",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cf4fd01c-abfd-4dd1-8825-a04f53d651b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi i would like to close my account please",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "2d926a1a-f79e-4e8a-ad7e-a5d6aaf9fd26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to close my bt account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "247cc719-06a7-4923-8522-3df00c4d7b42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to close my bt super and transfer all the amount to another super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1fdc0cdd-20de-48d7-a50a-a9e4da970017",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to know how i can close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4a4697c3-1d7c-4c20-bda6-d49ead429abf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi if a client wants to fully withdraw their account how do they do this",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b231a32b-e618-430a-ab68-04e1f9057b9c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi im an advisor i have a client with a pension account that he wishes to close which form can i use please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f86c14c1-c1fa-4eff-a21f-e247f491df66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi looking at closing this account how do i go about that",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "08dfb036-9439-4f38-b872-1f8fe8159054",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi need to close the super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d9f6b6df-47a4-49a3-b3b5-2c14fb1d0a58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team do we need an account closure form if we all fully rolling over the account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "045e3961-2b7b-4d7b-b269-fcc15123feaa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team how do we obtain an account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6349a201-a1bb-471e-abea-1604e252f3b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there how do i close down my accounts",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "be7ccb4f-03ee-49d3-a40c-39923cbf1eba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there how do i close my panorama account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c51c3301-f2a9-4e59-a4f7-2629fb9723dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i 'd like to close my bt account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d2bbf657-e412-4f5c-9a1a-e89d04d4f31c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi we are wishing to transfer fund to our nominated bank account and close this account who do i need to contact cheers bob",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "11a1bba5-06a8-4ddd-ad38-733217c0b140",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where do i find a bt panorama cma closure form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8887926b-65d0-45b0-875d-da936aedd324",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi would you please be able to confirm exit fees i would like to close my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4a3abf37-c692-435f-adfb-205aa525fdc4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hii closed this account and now a small amount of money has into itcan you transfer into my other superlike before and closed it properly",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "80aed524-a1c4-4efe-8d37-adfcc7199bc3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hii would like to close this account pls",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a5085a9a-e70f-47d8-b3ba-237cdb54684d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close a reopened super account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a9230858-14d7-4f06-a1c7-7e423e164873",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "55ef7172-8de4-45b6-bf86-d55f359cb260",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close an account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "dc066adc-5155-4249-b74d-c8c0b51a09b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close bt invest account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3c48f968-1670-4899-a4ec-f42dfb67d7a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close my account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0917bd4a-8303-49c3-8c3d-8ea227305da6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close my account and get all my money back",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "bca8f604-a28f-499d-85ec-176f6703b682",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close my account and move the fund to the uk"
+  }, {
+    "id" : "fd0fd33f-0727-4e91-9268-71c852c569b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close my accounts",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "954803ec-776a-49c2-94e3-bbf75e8a9383",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close my bt account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e509f252-7d55-452f-84f0-6de507848129",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close my super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "62ea4bee-1073-48f0-90b9-eecbd4329dc4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close this account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "28a57405-82c2-40a2-a46a-e380158ff260",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close this account and draw out the funds",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b8a4a974-31c9-4c96-ab25-bdc594ec4415",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i exit out and cash in my bt account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fbbe4fdf-4d5f-4baa-a919-7754f6378da4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get access to my fund and close my account"
+  }, {
+    "id" : "eb1bed7e-3f15-4e14-93e3-c5193922b845",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get all my money out and cancel my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2c68f67a-7892-4aad-933f-227fef46440a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i roll over this account to my smsf and close it",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "66529160-5dcd-4d85-8d21-cdac6be26095",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can l close my bt accont",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6e513250-cca0-44e3-a529-fbb61799f71d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can we close a super account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "154dab84-9610-42c4-877c-44022c6d825d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do close a client 's account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1b8171ce-0633-40d2-b7cc-691830fa0520",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i cancel my super account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "550fac58-bba4-4d87-abd8-a80a45e6c310",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close a bt investment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "df1d4bb1-7564-49b3-8207-25979ae9a829",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close a bt investment compact account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d10ed48f-d9ee-42f5-add9-20b185a54928",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close a bt panorama super ac it has nil balance",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "992493e9-0c0e-428c-a016-34c1d944183f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close a cma account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "fc1521aa-eebe-43ce-b155-d0514ae7a9db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close a pension account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "98c570d5-1588-4700-8765-2a42b45daac0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close a self managed super fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "6d604faf-b1ec-4fcd-ada2-8f301a679ece",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close a super",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "6c94fef8-3230-4907-9c7f-1b20a5498f1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "3c99a9e9-f09f-4ad1-854b-dda0493e514d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close an account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "b04b98bd-c6d6-4c7c-8394-50df0891927f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close an account and transfer all cash out",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ad0dd02a-0326-4f5f-82f1-57dfa004015f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close an account to get all funds release incl the min 111 $",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fe92bc8b-06f9-4bb5-8f42-85b9b31faf6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close an investment account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "14d5d509-3640-42cd-9584-e8bd781e3c2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close an investment account for a client its all in cash 11111 $ or so",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "02dd400c-af07-4e29-88a8-13db4d39cb6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close down my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bd8acef0-8470-423e-af3f-7f4ea7545f62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close me account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f970c8be-b6d4-450b-b911-ffa207a94b30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c243766e-3fde-4701-83ce-430e5e889b64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my account and transfer funds to a new smsf account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7ae6a5a0-1865-41fe-85b9-4e3c64d0c34f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my account and withdraw funds",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "50e350ca-6aae-4e4f-b6b0-648cdba1d54f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my bt account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a1287e24-8c9d-4d6b-8ffc-d97395cb6501",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my bt account altogether‚Ä¶",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "34f7383e-77a5-4a03-afd3-ed1138dc6165",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my bt invest account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3a1240c3-b75c-40b8-b3e7-ea3e00b242ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my bt super account"
+  }, {
+    "id" : "e834bd85-5e32-43aa-89f4-c64150a42c5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my investment",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0ce595bb-87ba-44c3-b512-04b4b23b0806",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my super account as i have retired and the fees you take out means that the funds will be decreasing so",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "6ae57c44-ae73-47c0-8dd5-9b4a49f9c120",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my superfund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c801b720-dde2-4580-9c02-0879762ffd5d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my this super fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "aa35fed1-183e-446e-a68d-cec132cb4f77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close our bt panorma account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e362bd37-38db-41da-8f62-5784a22aa876",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close the account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "6803d2e0-235f-401d-a806-b669ee12b341",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close the account and transfer the assets",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8fe3f3ea-61cf-493c-be33-c4bebd26e2e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close this account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e6e89de9-4a71-4125-9c4b-10f79257afdf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close this account and have the money deposited into my bank account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f9b3b286-c7c4-426c-9812-9816774c7ba1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close this bank account as i am transferring the funds out today",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2f6d0260-b3ae-4b5a-8ea1-dbf214c6211b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i delete a clients old bank account"
+  }, {
+    "id" : "c9164337-3018-486f-bc9f-90946e4b88dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i delete an account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e61679f6-2e2f-4fe4-ade7-87e97a425c71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i delete this account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5fb016e7-9268-44da-b28d-a81a40869e9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i edlete a clients old bank account"
+  }, {
+    "id" : "bbacd822-a1da-46fd-9217-673569033839",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i go about closing my bt investment fund",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "872a6aa0-ba83-4872-9c4f-ceecf4266919",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i go about closing my smsf account with bt panorama if i am opening it up with another",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8d22336e-ab59-4c87-9e6c-760996eeaef8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i locate the account closure form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5c1043f3-1277-4bfe-ade1-85b1c6787a4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i request a rollover out",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2901b1f4-accd-477d-8fc2-99d76aafc22a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfer my bt super balance to another super fund and close my bt super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f613018e-7c50-4491-a646-5a83fd33b49f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfer this to a new super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a5ec2f39-5ce7-404b-bd21-e769e3cc262c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i withdraw money and or close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b3db9c27-07fb-4404-bf2f-4e1d2db85251",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i withdraw my cash investment and close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0295af0e-f542-42d1-a6ab-240ca78503ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i withdraw my money and close the account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b0872820-307c-40bc-b740-30e43a873e43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do we access a closed account still need details for this finanical y ear",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "8bf52e5d-f293-4343-9b9d-cdbc9fdda287",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do we obtain an account closure form for a client",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7f5c910d-e007-435d-923a-328e226d36cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do we request to close the account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1984f31c-ccd9-4854-bcde-54404f8b882d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you close a bt panorqama super account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b2e51ae0-a0ec-4d02-beda-43ab85b66206",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you close a cash management account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7f85aa77-6f03-40f9-af2e-749897748761",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you close an account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "fdc9b15f-fe46-44da-a63f-8a361d91a8d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does client close down account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dd952265-5ed2-4177-9a91-8070a0d8ebf0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close a bt panorama pension account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "79d72d5d-4735-4e6d-b122-9ff08270160c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close a cash account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1a6a5210-2f8a-49e6-9568-6d0b6e2a109a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close a pension account to bank",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8a4d2d71-b829-444e-8341-dff7ae567166",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close a superfund account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "45d5cd62-de06-4c89-b853-39aad5a9678b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7cfff40d-0d79-4c6b-882f-d2c1892062af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close an account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "21ff32a8-da84-405c-97de-da3e478177f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close bt account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "a178b1de-c13a-4ded-b375-d298b305ef88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close bt panorama account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "c24eed57-db15-4238-a29c-79392f2d4f7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close bt panorama account for smsf",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1e009c6b-33ea-42fc-8dd7-7ec354806d40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close down an account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7e261061-ea4c-4773-ac6b-c95bd18613cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close margin loan facility",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "30057dd7-8585-417c-a5c7-d59ab4fd92a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d2dfe690-95be-4bd8-ac8c-56b01f5e6057",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close my acocunt"
+  }, {
+    "id" : "5b464c4f-07f8-4560-b5dd-e0263bf303f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close my bt account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "3ceb6d35-f8ad-43c9-ad26-72af4b09a945",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close my investment account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "bfe6f268-09cb-49a2-b8f5-93f801e37569",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close the cash account"
+  }, {
+    "id" : "9316ef94-7a57-4393-9db1-6bc2563f231f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close this account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "7cde408f-a395-4338-9069-958c08256a73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to delete an old account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d9d34995-b958-4139-a25b-07e90adf02e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to lodge close account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3d2d0e42-682a-4948-aec3-bec0ecdde767",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to make a full withdrawal and close a super account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8a4cd60a-5167-47db-b585-5d0d31030efb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to redeem and close an account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d8db2f3e-3d65-40a9-93f5-6faeaa752f7a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to remove a linked account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "e7ab21ba-fbd1-44f7-a822-e67bab4d832e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to terminate a user",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1c11f992-1968-4372-b9e3-8ec407fc1fb9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to transfer my bt super to plum super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3125906e-3288-4655-8571-30ee2490ddec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to withdraw small cash balance and close account bt panorama investments compact",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "af688543-de1e-4c5e-905e-a7505c4644d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i 'd like to cancel my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7051a2e0-36cd-4f14-83f8-c438bc6f16a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i 'd like to cancel my bt panorama account and have requested",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f0e1ec1f-3d99-4e9a-976b-1f94c74c661b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i 'd like to close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1651988d-5421-4497-a0d5-3120affc6929",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i 'd like to close my account please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3b249bda-b11c-4223-a542-11b6cd98fb42",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i 'd like to close my panorama account and withdraw my cash account",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "87879bb7-3aa6-4a9c-8958-ee289abcd398",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am 11 years old now and would like to close my account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1ffc2bee-7cb9-41e4-86c1-f75b5f4ef706",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am asking if you have all the information required to close the viridor account 111111111",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b331ffad-a2f8-4a58-9dc3-78796981ea99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am closing account have no linked accounts where do i transfer the money to",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "816a8a36-d9ae-4197-ba56-05cf7155b3b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am closing my account do i need an identification form this sems to be to open an account"
+  }, {
+    "id" : "eebee927-a0a5-4d54-8513-091a8dfde258",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am having trouble transferring cash from bt to a super bank account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "99cb178e-8064-4f59-9d9c-4e70a143b9fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am leaving bt",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d802c14c-33da-4353-9cea-62c123d81870",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking to close an account can you please assist",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e4a78a9c-e0bd-46a8-a92b-27619513f30f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking to close my panorama account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "cfbf5cf0-6eb8-4842-b4a5-55144a6544d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking to close super account and transfer to another provider are there any fees and charges",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2865015e-317f-4d23-a2e4-b83082de34bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking to no longer use a financial planner and would like to close my panaroma account can you please advise the process are",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "34ab1a17-619b-4c9a-a817-a68c287e646d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not wanting to close my super account but my investment account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "78b45e26-d694-4059-9e4f-d0a878ad8a89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am now 11 and no longer workingi would like to close this account and transfer the funds to my bank account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "347a8487-079e-4148-8e02-7aad4d3ca461",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am now retired and wish to close this account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "0d703967-a35f-4295-b95c-33ec2abb9e6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am over sixty - five and retired how do i close my account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "50bc5b6e-417e-4cf5-a411-e7bc6485611a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am over sixty five and retired how do i close muy account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9b2f3193-6257-4614-97f0-a161a5094880",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am thinking of closing my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "de82b778-4581-4964-ab2b-4b8f1b7f9684",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am transfering funds to pension panorama account how do i close investment account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "25f35d52-581c-4ff6-a616-8d890756caa2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i am trying to close my account",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "75ea927c-d52e-4c52-81c4-0c85a4c393d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am wanting to close this account and have the funds transferred into my westpac choice account can you tell me which form i should",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b64e9ff5-8a55-415a-8049-e19b8ef1559f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not find the appropriate form to close my smsf account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "ca400050-fd9d-4ea4-a3fe-53dad9faeda2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i changed jobs i am not longer with bt super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e5d40fdf-cf0d-4513-a043-248118c808aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not have access",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "470619f4-3af3-4249-8556-b9539d032529",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not want to close the account just delete the old one",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d2c04acc-7944-4127-8f21-22fe89ab6b67",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i do not want to close the account only leave the page after viewing it",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "c8774423-b7a8-4aa1-9c3c-c7d8968d5bee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i don t think this is the right form i am not closing a super account can you please check",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f653f2a0-dd2c-4a61-b16a-7d901fcb91f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i had requested closure of account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8ee01c36-1490-41aa-840b-a15d03bde70b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have no investments just want to close my bt account and get the cash out",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b9145863-fe2d-4985-949b-d8c79080544e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have retired and wish to close my account and transfer the money to my bank account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e8fc8948-7bb6-451d-a9d0-785a3786d5ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have zero balance how can i close my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7508cb18-28f5-472a-ab65-9702cb59ad7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have zero balance in my account how can i close my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f9c8bcba-b091-4395-b0be-cedf516bc41d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have zero balance in my account how do i close my account thanks",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0e1fa87e-600b-4159-b5af-042df8597160",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a form to close account and transfer assets out",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "036c7996-b126-4986-9976-cdced1148be8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a super account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "79361f53-eafa-47ba-9957-f999b1f8bd71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need an account closure form please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "85aa8467-f483-4fae-a74f-8dc8f80cba29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need an account closure letter please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7814a4b5-859c-44ff-9a4d-4eae0bf8cfbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need and investment account closure form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "5caea134-6d02-4f57-a5be-7b186715dce8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f5751c23-bb2e-442f-9f46-f4c49b2fe718",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to close my account and discuss the fees for no service ref xxxxxxxxx$",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "7028ffc9-c4a7-4477-9c9d-8cc14d8407c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to download a request closure of a panorama investments account and transfer of all funds for but clicking on the link starts a",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "95d5c8df-d91a-4ab3-8af0-ce6538160c21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to fully close a clients account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "18bae610-5b40-4183-b2c4-0c20c7cebd70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to sell down my investment and close my account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "88a9a624-8532-4d81-87dd-94e05f900a1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to withdraw and close my account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "6e94859f-20d9-4021-9fca-e8f83d087fbd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i notice you have nothing about get your super i would like to close my account and receive my super",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e46eb3a7-692d-4d4e-b0df-4ad9e73a9bcd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i opened a pension compact in error",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "abd3396a-db0e-4c2b-936c-50f9c8ed553d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wanna close my super account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "1598bfe7-2eaf-468a-80b2-ab15f17278ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want this account to be closed",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "94fd1289-29e4-4fe4-9f9f-0a96c84e30b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to cancel bt super and change to a new super fund what 's the procedure",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8954108a-8bf0-47ad-9007-30062a9296e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to cancel my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bdcbea39-add4-403b-94b7-7fb3e80509a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to cancel my account please",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d3235b6f-24ce-4852-b435-a30479111e7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to cancel the one that i accidentally created it has never had a deposit or transaction done on this account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "e1f48fc8-576d-4aa0-bcbf-9cb5dc2da05a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to cancel this account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "aa1ea74c-9e8e-4e36-8cda-73b9e4ace11b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to change funds to unisuper how do i close this account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "bd54bcfe-069e-4cc9-869d-5445835dbba4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to change my super to another super fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2cd35443-fc8e-432f-99bb-9fcf1d2e08dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close a smsf investment account but cannot find correct form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "50f4321e-5f4a-460e-a63b-be78b7487c14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close an account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1d3b9c5a-9330-44e2-8768-c6bf897fbe72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close an investment account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "15eb5b35-316a-4053-b3c0-a249572b1355",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close bt invest account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "02d37b88-0ff4-4ecc-8e53-c15dce4989d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close bt invest account how can i do",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "54e64b81-7c40-420d-92a8-61599d758e8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close down acount 111111111"
+  }, {
+    "id" : "00b8ebef-abb0-4255-a990-acd6391b7853",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my acccount",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "cea4d199-65d6-4c8d-a5e5-a5dcaf7b14ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b09f5fb9-accf-47e1-a24b-49c1f1cf9f32",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my account - how do i do that",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "41878949-5a59-4309-801e-74b89fd4e9f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my account and cash out my balance",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5a8e1711-14e4-481c-b910-aed076264f5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my bt account"
+  }, {
+    "id" : "e092ec56-0f76-4e78-b7fd-4786e627cc30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my closw",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "6241846f-182d-4a75-8ad2-7d536134bbf9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my investment account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "96703af2-77b8-4455-96d7-b90ba9e1de0c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my panorama account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "944b6122-52b4-4b8d-930a-9510a79793a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my smsf fund please email the form to me as i can not find it",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "1c3ce1a9-d3b4-47c4-ba27-7441e8812e3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "35f201f3-d13f-4756-9622-b634bb1e5d67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close this account",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "e21e3348-458f-48ff-a0e4-a63cdb6bc2a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close this account and move money to another",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "49981308-c96b-41e4-b679-f898863127d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close this fund and move to another fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9c9e2ed8-254e-4950-a1b1-6469fa34d5b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to do a full rool out",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1ac2502d-bf60-4889-9e65-09e57b36a237",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to get out of bt super not roll into it",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "ebcd6189-e242-4ac3-a0b9-4678a5e8c1c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to leave bt - how do i do this",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e2b9ce78-05b0-4f33-888b-c474fb238a03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to move / close this super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b5fc7a75-3402-49ea-b21b-7d807fe7e9af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to opt out of this fund",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "187c3e1e-190c-4698-9426-dbd890e317b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to roll this one over to a non bt fund as performance is terrible how can i make this happen",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "76a6d25e-bdc3-4c6e-9dac-a0c7c640034b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to roll to another super fund",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b88aa304-4381-43a4-8337-a4d9543c7dce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to rollover the funds and close the account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f734bad3-19dd-49b3-b4a9-446c1407cde3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to terminate my contract with bob how do i do this",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e9cee458-6518-4ee1-a876-a7f3e9974bcb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer all money out of my bt financial account and close the account i am not enjoying bt financial i want to",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "b0dff1a3-bc96-4ded-be14-3c8bfafb63a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer my bt super to my smsf i have completed the form titled super account closure - how do i submit this",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c68c4e46-a99b-4c7c-a3a5-48fdc51663e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer my insurance to another super fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "daaf7f58-5280-499f-9290-beb56781bed4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer my super and close account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3621e666-a77e-430e-bd91-0325aea530b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer out of bt super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "39929781-5bb1-4638-ae3e-a81de44c25de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer the funds out of my account to my westpac bank account and close my bt account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "2c8310d9-d808-4271-9c01-35b7aca0c684",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to withdraw all funds and close my bt panorama account funds are to transferred to a cba smsf account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "938fa6e4-3534-4823-8b6a-749ae0b6c628",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to withdraw cash and close account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2635820b-7170-4f76-83b0-92dbfea2e678",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to withdraw my money and close my accout please advise me on the procedure i sholul follow",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "4ebfb814-3d70-4fe2-9ac1-53e10994e080",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wanted to consolidate my bt account to to another super account and cancel my bt account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e16ff901-f918-44d4-ab4a-8fb1c7f4de60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i was to close a bt super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "eae7ad7f-9233-4d66-88b2-a773f23bc24d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to cancel my bt account and transfer the money into my westpac choice e bank account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "125211a0-add6-475d-a62a-9136a6ae8d1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to change to another super fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "be2fc184-7c6c-4c47-a084-f4beb1133b2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to close account after final transfer out",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b9dd3039-566a-47c9-9747-bb2367fee605",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to close account no 111111111 - can my account closure form be emailed to you",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5775b318-d346-4f2a-820b-d85c7b80e58a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to close my account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "da7166bb-4b27-4019-812b-d949a9353341",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to close my account - who do i contact",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "02533620-ddd7-44e6-8c80-a0cce4029678",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to close nt and place in a interest bearing account due to non performance of the small amount of super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5d1e58b3-8d33-47a8-b748-2496b92825a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to close this account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "980f99e4-b862-44ba-8caa-0e398b130e79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to close this account it was incorrectly transferred from westpac",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "52eb2ec0-3bce-4360-81f5-cd26f5fcd303",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to close this super account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "36592cc2-230c-4f86-988e-2ad632c22d41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to move my super to a different fund",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "1e20cf05-f697-45c5-ac58-c05eec66b9e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to transfer my bt super funds to another super fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "76a9bea4-8188-4e22-9e10-f9e8847b871a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to transfer my insurance cover and super to another provider",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "3fdb1141-7503-48b8-a544-48d073f517d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to withdraw my funds and close bt panorama account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "12ad63b2-1009-425e-90b9-f9e939a388c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i woul dlike to close my account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "96657811-7221-4bd2-abf8-4f262a58e7bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like a cancellation forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "73d27b9b-80cc-46b3-b996-5a0f16d64708",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like a form to close an account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d4fb5d23-d2f2-4fd6-9158-2269f6bce0a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to cancel my bt super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4dcc2779-d525-4fac-a051-8a02668b66b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to cancel this account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2b7bd4cd-eb7b-4734-a006-22e0cdc0dad8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to close down this account please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7e5fe4b8-7976-48e2-a254-bceb70edd4d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to close my account"
+  }, {
+    "id" : "6d120c9e-2c5d-4c68-afc2-9d5e23f371ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to close my account and transfer the balance please",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "85920569-6d42-4566-9610-9dacce0e3f9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to close my bt invest account"
+  }, {
+    "id" : "3dfa142d-a2d0-47f8-9a3e-d1ab94e7b14f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to close my bt panorama account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3d128803-dc92-42ba-8c76-2acb006826c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to close the bt investment and the cash management account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0905b1b1-bcbb-4eb6-8239-6eb825f47dbd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to close this account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "059db44f-5c89-41d7-b380-d3b2730ca445",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to switch funds and withdraw from bt",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f0408384-65b0-42a9-a9f4-f5c9aae852ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to transfer my cash funds in their entirety to my nominated linked account then close this investment account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a1b48467-0608-412b-9f83-a9ea6e468df1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "iam wishing to close this super account and take the asset as i am no longer working i do wish to retain my annuity and",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "9a2359bf-466a-429d-a587-89dd4499d5a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if like i close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "17d26fa3-494c-4228-9a79-3d9f4c310cbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im wanting to withdraw my full balance and close my super",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b7fad429-5985-4332-b61d-cc0859cf1f9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "inactive low balance account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d8266c9c-a016-4485-857a-e9114881d8ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment account closure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0043c40b-f4c7-4379-a0d1-647a2186198f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment account closure form",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "e3af05e6-691f-42e3-ab88-4d2951d6f7ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment closure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c280f5e5-b6bf-4922-92c5-86e1a5a50582",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment closure form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5119a853-5e3a-4f47-a101-debf8a699773",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a form to close down investment account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "51142689-2535-4f7c-805f-8d242e4ab6b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a form to close my bt super and transfer it to another super account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "bf7d28a9-8f1e-4eaa-94b6-c570ba596681",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "leave bt",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "511f12ca-28da-4f2f-a820-1c4c6d67cc89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "leave bt and use a more reputable super fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0d1dc0e1-cf64-42bf-bfd5-8841447613ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "leave bt super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "45b705e2-8509-4cd8-a362-9d19ec86f593",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "lodge an account closure form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "16095b83-3768-4720-9e55-baf60f4d0de1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking for a super account closure form please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1bd4b4c5-9450-412f-98db-4ba3848d91ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking to close the account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "475d1c2a-05a1-471c-8467-f40a900eaae2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking to shut 111111111 down",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "94b6a651-80e2-49d3-bdcd-a7501c5932f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "move account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2ed016e9-d97c-4ea2-b362-a9322ab94f18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "moving super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a498299d-ee39-4087-8388-8adf3fef6ded",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account has been closed",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c2283476-7be7-42e9-8b97-2e5ed3f29a4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my portfolio is not doing well what is the procedure to change to other company",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "fff95728-1ee5-4706-82d3-6322e19f2bf1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my super is inactive and with low balance",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "49398816-efd6-4567-9390-17eee6504c20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my super is inactive low balance account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "be395edf-0814-4764-b18c-4e5fe77a6222",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need supera ccount closure form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "718b2523-3043-436e-9e12-0b443479cf00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to close an account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "375d40d6-1fd4-4876-bc65-91c34e490d20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to close smsf account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b68a4c91-e0c2-4a19-a77a-41ac358b0705",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "needing an investment account closure form please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "81150c13-e38b-4002-8f49-07feeaab7c86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no close the account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "893d9225-7393-4454-8ca8-2c906adb5cc7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i need to rollover out from bt super",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "763c870e-6dcb-4576-843c-032c34651e18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i will be leaving bt - no exit fees so not an issue"
+  }, {
+    "id" : "84795216-7c59-4fa1-94e0-ed26283b76cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not happy think ill cancel my account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "304c508c-a916-4c1b-baea-f6504b8b3a41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "now i would like to cancel super that i have account with you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "434694b4-cb0d-41b8-a7c5-89f4e8f3d1bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama invesments smsf account closure",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "0ff7fe87-ea36-4ebc-84f4-013aa418c798",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "paperwork to close an investment account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "fa4d823b-2619-44e9-9a93-6bd1e5eb7a84",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension account closure",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f6078a19-e021-4e66-bb78-39cac0c55d28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension closure",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f0539462-fcdc-49c5-aeb3-2b6602b6ef77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension commutation form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7682e0ef-f328-4b75-9866-bf272003c169",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please can you send me the correct forms to close my account as i have been placed in and on permanent disability pension payments my",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c0d0a7c0-3929-4b70-9ed4-ec6d90c61f26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please cancel this account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bb2957d8-aa12-4770-a44d-04d174f24447",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please close account 111111111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a74517b3-99b8-4e2b-b827-92d966e68822",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please close this account it bob not get used",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0c773367-c80e-4a6b-9a8d-510f15c0d57e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please closes account 111111111",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6c506a09-b47a-48d9-9cd0-8c0129799920",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please i would like to close my bt super account"
+  }, {
+    "id" : "83a427c8-4363-4bd1-9fb9-1b914a9134b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please send me the details on how to switch super fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "358b1abb-709a-47b6-ad61-96af90847b17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please withdraw my entire portfolio value to my linked westpac account and close my bt account"
+  }, {
+    "id" : "d0e991af-5426-4efb-b382-4934470379d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "remove account from panorama"
+  }, {
+    "id" : "bd30c00a-f576-4ae6-90bf-6a16ca6b85c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "remove an account from bt",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "00a9bbb1-530e-48fd-a20a-a257135d55e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "remove balance from westpac",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2aa1fbeb-704f-45a2-989f-bfd8c3760fed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "remove closed bt invest from platform"
+  }, {
+    "id" : "df1abbee-be50-4129-a5d2-a4ef643331ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "remove funds and close accout",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9984ed70-311b-4b42-a546-bf5f7aa1887b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "remove my funds and cancel my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "45082af5-0eec-43ed-be5d-14383f6a6075",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request closure of account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2303ff11-b62e-494a-bafb-04165d1e62e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request for roll over from bt to oother account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4c6088c3-826e-49db-a265-319cbbf35189",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request super account closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3260f812-407b-466e-b052-52ad8573f42d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "roll out fiull account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "aa7cf8f3-b3f0-452e-991c-f4ce246cab35",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "roll over super into differant fund",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d5fef889-8b3c-457e-b8de-0356ed318276",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollout",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4e31f2b5-d58c-404e-9880-621e5b8fcd06",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollout tool",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "00b470fc-f549-4045-a964-0af6e5006fdc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover out form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "30fe8d50-ec0e-407f-a4f3-7fae2f746c52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover to another apra super fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4ec2feae-ad63-4220-bf80-0a08b243e880",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "send account closure form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "6456828a-de93-4d1d-8950-597d8e3b45d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "send closure form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c43fd504-1f81-4b2b-88aa-0f7a9f2818ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "send me an account closure form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "39ffd275-b8ab-45f9-a81f-bdb9ecee65da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super account closure form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "006452c1-7cbf-493e-bb86-9a3c6ab80faa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super closure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "88e988c4-eae7-4e61-985d-ca6b9ddddc94",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9dd88e28-deec-45a0-aed1-98695b137fb0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super pension account closure",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "17795667-51fd-4818-821c-518851fa0e20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tell me excatly how much it will cost me to close down my account with you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b5477a23-75b4-4b20-896d-17e0ec3c44db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "terminate account and transfer funds",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "44d4482b-bd12-408a-ba22-ac092e218127",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the account is not a super acocunt"
+  }, {
+    "id" : "44ad251e-134a-407d-8e3b-9184bddb4115",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the investment account closure form says not to be used for super account closure",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "04a57160-808c-4e0a-8762-839f22a05095",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is no super account closure form on investmen account closure",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "db62421b-df26-4668-9a00-bb0e986a22f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is only an investment account closure not a super account closure there are no funds oin the account what is the problem with all",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d4dc417c-7b00-4ddf-bf85-cd097eaaf6f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this form says do not use for a super fund closure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "14e111c9-fd9b-40d6-971f-cbaef7395efa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time period for acccount closure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "136b32f4-5a37-4ad7-9477-5b83be4b2d54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to close a super account does the form need to be posted or can it be emailed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "cb639bdd-19c1-4362-8de6-7981c8414c3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to close an account do i need individual forms for each investment or just one form for the overall account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0361a976-027b-45e4-b8e5-89c9034440a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to close an investment do we select make a payment",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "cb65a21c-d89d-4097-b6c5-fec5dcf04d08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tranfer to another super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e9350d54-af17-405a-a85a-718e096f8bc2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer all cash close account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "da816bb2-18ae-4731-af31-0ba5f68f80f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer cash close account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1e6bc4b6-869f-487c-8f0a-8631b031cc26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer super from panorama account to another super account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c497bb90-4796-4b65-b48a-b7051ce35981",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer super to amp",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a3123d68-f9e0-4a35-9dfa-5c361b7027b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer to another super fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fadd997f-6fd0-4850-8870-7b49957b8df3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer to other fund form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ef42cb65-7e32-4434-8b75-2e68bf51c6f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer to self managed superfun",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6fd8d988-b252-43ed-8519-05e16b42d100",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transferring the remaining cash from my recently closed account",
+    "tags" : [ "westpac-annotations-jul_2021", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "43aa6921-3b7d-4fc7-8bbe-74c78b892c8e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to close my investment account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3c1013a6-f454-470f-a1bc-cf9d1f65f87a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to close the account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "fdf5ea4b-db84-471e-b792-5d6043378eb9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to close this account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "301c2750-5bc0-4d1b-91b2-5cf17bf54e9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to obtain a super account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e9738eec-c09c-45b9-87bc-ee4ccebff448",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to obtain super account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "31c6b710-e233-445c-9adb-0c7d0566469e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to shut this account please",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "5a1e64cb-5f94-4bd5-85cb-c7ad2ebc1bf0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we are closing our self managed super account and transferring it into an aussie super fund. i have transferred as much as i could, but",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bb2b3259-8f3e-45e5-893e-7da8c4c1c40d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we have a client that wishes to close her super account is there a form to do this",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7a01526e-9108-4b5e-9017-ab38732fe6f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we want to unify separate superannuation account what panorama form do we use to transfer from panorama to qsuper / australian retirement trust",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e14bb0e0-1b40-4558-b627-256246a2e006",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we wish to close the account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2eea6647-a767-4bf3-8528-00139c4df8e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the 1 options in section 1 of theinvestments closure account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "380bc0bb-d986-416c-b79b-eb973ccd7205",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the requirement to close an account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1684f01b-e9c6-42fc-bd3d-8846ba5535d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what can i do to close my super account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8ef1131c-d2ad-4557-9d3d-53e09f663ca6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what do i do to cancel my superannuation account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "442a17f6-da1f-4c56-b4b7-74dc0886cad6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "terminate account and transfer funds",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "61aa2ae4-65ab-4018-aa86-cdb165fe01a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the account is not a super acocunt"
+  }, {
+    "id" : "b060695d-1bc2-4f5b-8ee0-571550789685",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the investment account closure form says not to be used for super account closure",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "119b45b4-030e-49f8-8606-342536511ecf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is no super account closure form on investmen account closure",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0c62b534-6efc-4d15-a03e-57245716ddce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is only an investment account closure not a super account closure there are no funds oin the account what is the problem with all",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4f06305e-d0ac-4c52-bf47-28bb8a9b5c54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this form says do not use for a super fund closure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d8c93552-a875-4f22-a5cd-fd8bd263b584",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time period for acccount closure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "648a78f1-f063-4f95-b7a2-26cf6822f8e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to close a super account does the form need to be posted or can it be emailed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ce17b1de-7ec4-4063-852f-47586887b8b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to close an account do i need individual forms for each investment or just one form for the overall account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8fa3e92e-cdb9-4a51-b224-fbc7e457af13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to close an investment do we select make a payment",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "981e6f06-8ee8-40c6-9309-6dea93b9ba46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tranfer to another super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d81e1635-fb14-42d0-b683-f65565b45b2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer all cash close account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "814e2c10-75f6-44b3-a603-cae640927c44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer cash close account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "893e02c0-e7a3-47fb-9245-a5f8b87af727",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer super from panorama account to another super account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b110566f-7dac-4e05-9f2e-879e34c4f135",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer super to amp",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4fb6915f-2fba-4d5e-9a94-3dc628c1e830",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer to another super fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f92f7d30-88db-4834-a5fe-28b438b7daf4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer to other fund form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5c34fa11-56f0-43db-b417-4246c949ff59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer to self managed superfun",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ad88b9d8-a6ac-42f2-83f0-c6283e42b6b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transferring the remaining cash from my recently closed account",
+    "tags" : [ "westpac-annotations-jul_2021", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "61708f20-c24c-4655-aaa2-f35c3e5a336d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to close my investment account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2ecdaef1-69fa-4af2-a62a-ecd562fe91b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to close the account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a73771d0-1ad7-4740-b426-666722c9cf22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to close this account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f6f2c8ed-a4e6-484a-8230-afa0f10c912c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to obtain a super account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f950e439-fbab-4df9-8479-2f3da55255cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to obtain super account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "78531f43-06d9-4d56-af51-0340397f13b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to shut this account please",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "c07d3b48-01ea-4ad1-aea3-85eb7b237a7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we are closing our self managed super account and transferring it into an aussie super fund. i have transferred as much as i could, but",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "cb42a146-3118-42a7-85a2-91a0249d69ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we have a client that wishes to close her super account is there a form to do this",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5f473bf5-6cca-44d5-b0b7-47f0389a8adc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we want to unify separate superannuation account what panorama form do we use to transfer from panorama to qsuper / australian retirement trust",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e7470b31-2f1a-48d2-ad89-c085ee3322f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we wish to close the account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5bfa6f09-400f-4651-b8db-be9b2a5cf2fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the 1 options in section 1 of theinvestments closure account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "806235cf-9479-40c2-8662-62f2ec6a79a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the requirement to close an account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2366608d-36b6-4db3-bf20-79e25512855b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what can i do to close my super account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f9b570d8-9410-482d-b094-900cb1d3fd89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what do i do to cancel my superannuation account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "10152c73-a520-4bfc-9e45-fb99c48c6cf5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what do i need to do to close my account i am 11 so i meet the requirements",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "46deabb1-fff9-488c-9817-c854f23c468c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what do i need to do to close the my smsf with bt",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "db16ac6d-85cf-42d0-a47d-ce95f78bca06",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what do we need to do to close an account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e11b04d3-b26d-4cd9-b515-526bc8cd1958",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what form is required to close an account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "78c39795-99fb-49ae-8c09-7a6bfb14ff55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what form should we use to close an bt panorama investment account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1f19983b-d0d4-41b9-ba88-eae1b8b574f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what forms do i need to transfer an investment to another platform",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bc30b65e-e619-4bca-ac33-14140333907c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the cost to close",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "95b32487-b4ae-45fc-8944-9f4b4d8ddfbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the name of the form for full cash withdrawal and account closure for a super account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "629f2e20-bd69-45ee-9b46-4c9094dac78c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the process for closing this bt panorama account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "859b23f9-18ea-4d56-8318-9d7904012639",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the process to close an account and move all holdings to an external platform",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "05f01dd2-b9a8-44d0-836f-18675aa9b7d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the process to close an account and roll the balance to another super fund",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "fee34fac-6fe7-4269-915c-c20eb8d5de54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the process to close off a pension a / c and transfer funds to an investment account with bt",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c70b4ef2-77a8-4a73-864e-2de7ed0fdc4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what supporting documents need to be provided with a super account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b0109464-ab09-4425-8029-7ea8cc5ba495",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what to close my account and consolidate into another super fund‚Ä¶how do i do it",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9d506d11-a7d0-47a3-b4a7-6c423ee3cfe9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when i close my account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "51b328ca-d99d-4bf8-965f-ba2be1499ca6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wher to download an account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2d4d209a-0176-4a27-a87a-d27156af9775",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where are account closure forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "77572d28-6875-4acf-b779-a067ffea7e56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the account closure form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c6eb10c1-630f-4afe-baa4-8655033bea36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the form to close a bt panorama investment account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "525e8812-2c14-47ba-811c-dde0710d4240",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i get a copy of the super account closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d729bbb4-6626-49f8-ae03-124d8a712923",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i transfer my current balance",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "68254eef-913e-4703-8090-95ac108b734d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can if find and account closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2a09935f-5d04-4544-afa9-0be4b63d3cf5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can we find the super account closure",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b445c9cb-71ca-40ea-9fb8-2b20f3a70df5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find page to close the account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5f4473bd-9a97-4bb3-bc7b-8b72eead7e42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i get account closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "af5abef8-ed5f-4e05-a4a7-46ea8a25c94b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where does one find a super account closure fom among the forms in document library",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "dc6335ac-8fb1-42b9-a0b5-5c0e9f6041b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the account closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e2aa938e-eef5-4efb-866b-1f2b8998a4c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the form to close an account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "86695ec7-a4db-4aa0-844a-39473e5c71a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to send account closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "feb2b3af-05a9-463e-a92d-d0f448458e41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where would i find the super account closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "70bfeeeb-4682-41df-8c40-04ec512e4a93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whom do i speak with to close my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c015e2dc-9413-4d89-9a53-a8db92a3c8e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why closing accounts takes time",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "29d093d6-37a8-4087-ad77-e5aad0a08c99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wind up",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "69457920-e5cd-445f-9c12-2b2f0a6535d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withdraw and close account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "82d54d9b-0e1c-4931-b30c-3fb6c70c33f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withdraw and close an account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "d020b67c-f73f-42ad-9b19-921af445031f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "would like to close my account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "75d379a7-3bc4-43a5-b106-0d2d99ac81af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "would like to close the account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4146c75a-270f-4843-ae10-95c692f4a4e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yes correct i 'd like to close my account to go with another super fund please confirm the exit fee",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b761d130-eb85-4bec-b5f7-4d2fd9133999",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "you may be blue but i am seeing red i have started proceedings to cancel my bt panorama a / c",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  } ]
+} ]

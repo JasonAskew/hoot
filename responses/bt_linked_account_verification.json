@@ -1,169 +1,200 @@
 {
-  "name" : "bt_linked_account_verification",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "I can help you verify your linked bank account to enable it for direct debits. Please select the 'Show me how' button."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "walkme",
-        "payload" : "865656",
-        "label" : "Show me how"
-      }
-    } ],
-    "quick_replies" : [ {
-      "type" : "INTENT",
-      "payload" : "Link a bank account",
-      "intent" : {
-        "name" : "bt_link_account"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I can help you verify your linked bank account to enable it for direct debits. Please select the 'Show me how' button."
+        }
       },
-      "label" : "Link a bank account"
-    }, {
-      "type" : "INTENT",
-      "payload" : "Change linked bank account",
-      "intent" : {
-        "name" : "bt_linked_account_change"
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "walkme",
+          "payload": "865656",
+          "label": "Show me how"
+        }
+      }
+    ],
+    "quick_replies": [
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "bt_link_account"
+        },
+        "label": "Link a bank account"
       },
-      "label" : "Change linked bank account"
-    } ]
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "bt_linked_account_change"
+        },
+        "label": "Change linked bank account"
+      }
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "A bank account can only be verified before pension commencement."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "I can help you verify your linked bank account to enable it for direct debits. Please select the 'Show me how' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "865656",
-          "label" : "Show me how"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "Link a bank account",
-        "intent" : {
-          "name" : "bt_link_account"
-        },
-        "label" : "Link a bank account"
-      }, {
-        "type" : "INTENT",
-        "payload" : "Change linked bank account",
-        "intent" : {
-          "name" : "bt_linked_account_change"
-        },
-        "label" : "Change linked bank account"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "A bank account can only be verified before pension commencement."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "I can help you verify your linked bank account to enable it for direct debits. Please select the 'Show me how' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "865656",
-          "label" : "Show me how"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "Link a bank account",
-        "intent" : {
-          "name" : "bt_link_account"
-        },
-        "label" : "Link a bank account"
-      }, {
-        "type" : "INTENT",
-        "payload" : "Change linked bank account",
-        "intent" : {
-          "name" : "bt_linked_account_change"
-        },
-        "label" : "Change linked bank account"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Adding a linked bank account on behalf of a client will skip the verification process and enable it for direct debits."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If the client adds the linked bank account, they will receive a 1-cent deposit in the account they want to link, with a verification code in the transaction description. They will then need to retrieve the code, sign in to Panorama, and enter the code in the Linked accounts/Accounts & billers section. For more information, select 'Help & support'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_link_account"
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "A bank account can only be verified before pension commencement."
+            }
           },
-          "label" : "Add a linked account"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.panoramaadviser.com.au/content/secure/panorama/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/payment-and-deposits/verify-accounts.html",
-          "label" : "Help & support"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "Change linked bank account",
-        "intent" : {
-          "name" : "bt_linked_account_change"
-        },
-        "label" : "Change linked bank account"
-      } ]
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I can help you verify your linked bank account to enable it for direct debits. Please select the 'Show me how' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "865656",
+              "label": "Show me how"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "bt_link_account"
+            },
+            "label": "Link a bank account"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "bt_linked_account_change"
+            },
+            "label": "Change linked bank account"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "A bank account can only be verified before pension commencement."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I can help you verify your linked bank account to enable it for direct debits. Please select the 'Show me how' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "865656",
+              "label": "Show me how"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "bt_link_account"
+            },
+            "label": "Link a bank account"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "bt_linked_account_change"
+            },
+            "label": "Change linked bank account"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Adding a linked bank account on behalf of a client will skip the verification process and enable it for direct debits."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If the client adds the linked bank account, they will receive a 1-cent deposit in the account they want to link, with a verification code in the transaction description. They will then need to retrieve the code, sign in to Panorama, and enter the code in the Linked accounts/Accounts & billers section. For more information, select 'Help & support'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_link_account"
+              },
+              "label": "Add a linked account"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.panoramaadviser.com.au/content/secure/panorama/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/payment-and-deposits/verify-accounts.html",
+              "label": "Help & support"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "bt_linked_account_change"
+            },
+            "label": "Change linked bank account"
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_linked_account_verification"
 }

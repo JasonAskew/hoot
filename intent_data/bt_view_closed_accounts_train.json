@@ -1,0 +1,898 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_view_closed_accounts_train",
+  "intent_name" : "bt_view_closed_accounts",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "087b1288-e46c-4da8-bac6-d790d7367e21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon, I am seeking information re closed account no. XXXXXXXXX in the name of Bob. On 11/11/1111 a \"Good value payment\" of $111.11 was paid into the cash account. Could you please advise d",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "58c51d9f-3288-49df-955a-3cd4fc324af4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon, I am seeking information re closed account no. XXXXXXXXX in the name of Bob. On 11/11/1111 a \"Good value payment\" of $111.11 was paid into the cash account. Could you please advise d",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e9b0b262-2b70-4947-88e0-10d28617451c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "access closed accounts",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "d0c0cb58-a40c-4d9c-879d-00b5fa57410f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "access non current accounts",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "734fae5d-f910-4f3e-8b1b-b0fd8fd65549",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closed need statements",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5c313a93-8ac8-446f-a552-62287b704c1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closed reporting",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5aad6212-8d45-476e-8c38-a59a4a493d5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure statement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "04e87210-1a16-4627-a56f-9e8fcea9d848",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account has been closed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1b8899b8-3779-4c02-825b-81037e3c4374",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement closed investment account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a1465dc5-199a-467a-a098-033723363322",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement for closed account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "799542de-a890-4782-add2-7c24060f56c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob young - closed account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "ac083159-5412-4333-8f9e-d57674a74e86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i access reports and extract transaction data after i close an account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ec7edd37-07a3-40a6-b293-37f0db20e41d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have a letter to confirm an account is closed",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a3145f1f-69fe-4029-895e-ddea20fd7049",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please get an account closure statement for a client",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5ed58904-b2f8-46a3-83c8-20815872f32b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i view a closed account online",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ede21404-3f69-41c6-a80f-21fdd3af7d15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we re-open bob 's closed super account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cd965575-6663-4a0c-8d19-3a2cfaa5a3c6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot access exit statement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0967cd41-794d-4051-9006-fe7d5a8334d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check closure status",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d86da39a-5723-4435-b70e-fa10410c9b50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check status of account closure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1e8c5875-1811-45ce-81e4-e5520fce0660",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement closed investment account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8be9052f-9272-4ed7-aa6a-3b0244cfb381",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement for closed account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "dfad9d16-e1bc-4594-847b-ef956be597ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob young - closed account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "84198f46-39e7-4166-ade5-092ac7fcc24d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i access reports and extract transaction data after i close an account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "99e95069-e752-4602-8124-3a14603f1c60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have a letter to confirm an account is closed",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "36a67c42-bd3e-40f8-8fd0-96cb5e8a5840",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please get an account closure statement for a client",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "211135bc-aff4-4e3b-9e52-be155c648413",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i view a closed account online",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a04e322d-cfee-4c96-8ca7-c3fbc83d6796",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we re-open bob 's closed super account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ca96bc82-6423-4925-8ee7-778dcc91a125",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot access exit statement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0e6df519-8618-4542-a147-3d9d9be53629",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check closure status",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f638a2b9-243a-4a41-bc72-c61ead6394e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check status of account closure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bec3f3a8-977f-432b-9675-cf180d9f07c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement closed investment account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a2121006-0d31-4911-892e-e40134cb2b6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual statement for closed account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "aee23c46-61a9-4242-91c5-89748629daeb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob young - closed account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "f8805ffa-55ce-40ba-b579-3e4ff4e1fe52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i access reports and extract transaction data after i close an account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fe2734c5-c400-4126-81c3-589672379b56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have a letter to confirm an account is closed",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "036f2588-eb6a-440c-84cf-6f00414b7931",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please get an account closure statement for a client",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7c8fdcf4-1582-4c54-ab5f-fbf4697a41bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i view a closed account online",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2adc6038-06c0-4e15-810b-87296068be63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we re-open bob 's closed super account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e1182c7e-4d30-49bb-8027-dbd79add9a6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot access exit statement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "932b6dc9-61b4-444a-8dd6-bde690ede80a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check closure status",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "43b29e45-c3af-46d2-805b-dfb157168fff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check status of account closure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0c955700-f755-4e4b-a219-ef9c62273152",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "checking closed account balance",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "42df343c-64d2-4863-83f7-6a80fdaf644b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client account no longer on bt",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "57ce9e24-a685-479b-aeb7-31724f6bdf5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "clients closed accounts",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "e612e962-c593-4145-8e56-7f90506dd304",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closed accoun",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "71019c05-7489-4951-a45e-039a4315d540",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closed account exit statement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c880b308-9a5d-4dad-aa60-a94fbfd07be1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closed account tax statements",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3bbfbdd9-3087-41a3-8520-0daa59667de2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closed account view",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "59980055-e80a-4eee-b21a-a9c2da1b6026",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closed accout",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "16fbe4a6-1fe5-4100-8b61-bb41fa05614a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closed an account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a3762f66-2085-4d2b-8b0b-8f1e2bb1554a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closedacount",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "95152c94-e017-441e-9528-fb0abff342e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing statemen",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ec032ac3-a83c-461f-887d-95677276bf04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "during the year the client transfered ll funds from one account to the other how do i get the tax statement for the closed account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "237036c0-6a86-47ac-909c-29ce9fb454c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ensure account closed",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "70895838-5871-4fe4-b169-169db735698b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "gain access to closed panorama account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "232abb1b-2e63-4015-bba7-7cb42be69b5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "he closed account 1 days before",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7fd96c67-26cc-4fbf-8836-615ed28e5440",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i get information still when i closed account year ago",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f18b3a7a-a425-472b-846a-bde4cc18ce21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you please send me a full report and statement of my closed account please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "29650d29-1ef1-48aa-9cf2-83defca91ab2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am just trying to find out if my account is closed i have moved to a new fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "295078fa-21e4-40f2-a3bc-53e74346fae4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i can not log in to my bt panorama super account it does not come up at all all that comes up is a",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "432f69f7-3dbb-41ce-864b-6e500bb55689",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to request to be sent an exit statement for a client 's account that has been closed",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d8ac006a-f49f-4db0-9fc7-c91b83526eb4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like a final statement for my account that has been closed please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4e59012d-9274-4dca-8235-59954c70875a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to request to be sent an exit letter for a client 's closed account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a1e5596b-92d0-474c-9cf2-91c63beafcbd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi if i have closed an account can i not log back in",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "1ee43131-11d8-438f-9818-cd6010db3081",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i am trying to see if i can get details of the super that i once had with bt can you please help",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bb9c64a3-b98a-4918-98c0-bc5693933ef1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi when an investment account is closed do you issue an account closure statement and when it 's generated",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b03e59d1-4cc5-463b-b4bd-a10e25e4521f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where do if go to to find closed accounts",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3ef86ec1-894d-4ec9-9cee-189d9f7d5920",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i find a closed accoun",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6c276bad-d3a5-4acd-a724-28d6a712c0ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get information on a closed account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c4c51545-11a2-408a-bec9-ecbc0acb96bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i search for old super accounts",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8c2fa684-5768-4dad-aad2-883e8a16e251",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i access a closed account to get tax statements",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "eb59ebf2-76f2-49c8-8d58-98cc78a50659",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i access the tax report for a closed account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6cea230b-d5d5-4a83-aa59-aeb5df666d9c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find a statement confirming account closure by rollover",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b985b9b4-b000-4302-beed-d152990dedf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find closed account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "762c71b6-6b32-41d1-8369-05765538ad3b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get a closing statement for my account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1b56aa39-886f-4077-8c44-f10ec44e4c6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get a report for a closed account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d42311c8-af55-4cab-9891-240bbeebd795",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get statements for tax purposes for a closed account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b9ebe1a0-e693-4c48-aa3b-1f770980110d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i look up a closed account",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "efb3365d-81c3-4f5f-9ceb-0d97e91cd406",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i obtain statement of closing my fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d8bfc1bd-3d47-4b7b-986c-d61b59918141",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i search a closed account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a22d420e-121d-443d-88a9-8a1ef0931997",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i search for a closed account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "85676a12-1713-4c10-9f6e-9fe66e413370",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i see closed accounts",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "67060e77-e9e6-44fb-920b-3edafd10f7f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to check closed accounts",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0b6c7a7b-60cd-4d2f-8477-f718ba108245",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to find closed accounts",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "8c18fe87-6d3d-497b-9616-ee94de9c64de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to look for closed accounts",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ec9a4b95-958b-4604-a608-844ecc111712",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to search for a closed account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "974d7de8-72c8-4f95-aa25-f341f1322bdf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to search for closed accounts",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9f6710d3-f190-41d0-a46b-ae98b5c8ebd4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to view closed account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "28300d2a-b22d-41a7-bd33-e85d6a7fc359",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for an account that isnt visible on the portal",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9eaafc05-8d6c-470d-a423-422a0f283520",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to download annual tax statement valclar trust an account that is closed can u assist please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "6bb86dc9-e487-4b39-83ef-490adfb1889d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to get my bob account details as i was a bt member but my account got transferred and i am yet to",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a323079c-3d03-4701-8d49-d8a75a02fd57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not see my now closed annual investor statement anymore",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "228caf49-cc3b-48e0-af19-b85de379027a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i closed my account and cant access to my annual tax statement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2196bf8b-8fb5-4b81-9561-adbcc9528b21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i closed my bt super fund and need a rollover statement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "be93d568-7ec8-4c97-8e23-f4a75212a4bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have been to the document library but it does not have a final statement from the closure of my account in july 1111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "95a580f5-4150-4901-886a-e5e0b3723548",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have closed my account with you how can i access the interest from 1 / 1 / 11 to date of closure i was",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "69e42877-fa91-445b-afb6-cdafa6f19196",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have closed this account and i just need a letter to confirm closure",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ed01247b-5199-4710-ad86-905b14fb2d49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have just closed my account but need the statement for tax returns",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "74467e77-b909-470a-9e41-e48ff20f9af4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have just closed my bt super account but need a copy of the transaction for tax returns my username is rejected saying my accopunt",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1f0d9e4e-617b-4824-bbd6-c73135ef2a82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have just gained access and it says the account was closed in 1111",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b945dcde-662d-43ea-9b25-cb70bc8c87db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i know the account has closed but i can not seem to get the details for tax purposes",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5c3d3069-2bd1-4644-a585-2bebe3154a89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a closure statement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d0e67be6-8dc4-4722-a4f9-9be538ea16ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a copy of my currant / final statement as i cannot access my account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "619cb777-ce77-4093-bce0-358646cd28f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a final statement for my closed banbt account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d287c537-7184-4f6f-99d7-b6a12679dd39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i recently closed my panorama account but need to download reports for tax purposes but it is not permitting my access",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3c81693e-14cb-47bc-a911-0a23d4f55137",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to print final statement but my account is closed how can i print statement",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f42733ed-e931-45c0-ab18-fe79fd11efb0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to see if i can get a tax statement for a closed account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3663e5a8-406b-4007-afd0-8c86e638fc7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "information on closed account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "6631395d-0ccb-41b9-9467-6febab6e356c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it 's a closed account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c874297c-f290-4206-85ce-43c46dbdbdf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking for a confirmation of account closure report",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8dcbcc52-a425-4258-b413-1a303ef098c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account is closed",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "13201ae0-2f17-4716-a8ac-f4f39e59ed80",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account is closed but i need the tax statement",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f7553ab0-5a5f-49ca-9e77-04d79de4a8de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account was closed on 11 / 1 / 1111 and i need an exit statement for my bt panorama superwrap account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "07712081-bd40-43f6-ab5e-86ce9102b99b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my super closed",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "13a0a605-90fd-46c1-902a-93e2995b78ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my super was exit on 1 april 11 how can i got previous statements",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3681f831-2778-4424-baaf-b0c82bc69b7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need an annual tax report pack for this client for 11 / 11 they have since closed their account but we should still provide them",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8fe569a7-c163-4c05-abc5-4a8e7a4dfa73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i do not require a form the account is already closed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "169d33b1-9008-4953-b9a0-f54f9126f236",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open a closed account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "add03d68-2fac-43c9-9cf5-a07653ce1aba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please for about the 1 th time will you email or post me my centrelink statement as my account with bt is now closed",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b9a72596-6cf8-4f5f-b65e-c736ddff27df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reopening closed accounts",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5d3f8327-b3a3-45f2-92a3-86890ad14dc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "report a closed accopunt",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fb37469e-b6ed-4dbd-a034-9d070bd7bca7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reports from closed investment account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "764498fb-6943-4474-8463-13b7f5dd3406",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request reports on closed account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2ef29849-b704-4f00-ba49-520cc75a0d54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "search closed account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e3719833-2dc3-4ee7-85a1-1ab17251b557",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "search for closed accounts",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "408a2624-2e90-46d4-bd52-6ead48fecc66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "searching closed account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "cb62aa55-4624-426d-b6a1-679a39d7fb3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sg on closed account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6fb7f422-c6f9-4710-b28d-5bf013c52346",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "show me how to view closed accounts",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5b9b7741-92d3-428f-a69b-4f18b95bd823",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax statement for closed account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "44be3e4d-41e8-40cf-90d1-3379b68f29fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the account is closed i cant log in",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "23dd70aa-2113-4004-b9d6-6dc0c892c235",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to view an account which has closed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5de80991-fc47-4261-9074-dc41ef21bfc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to view closed account for client",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e07965d6-1749-495e-89fb-05244d0101a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view closed accounts",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "6a7e50e3-3559-49ad-a84e-b2e6c5b9165c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view closed accounts annual statement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "648fed9e-ba8a-4c5a-a710-bd482d5e3e37",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the account is closed i cant log in",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "89e57773-a826-4b6f-a472-8c52e7f2ba93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to view an account which has closed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9ce3c42a-c505-4f42-85e9-af3357fc92a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to view closed account for client",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1084efe0-0c9c-4ac8-bc74-3ea4537ae481",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view closed accounts",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "333598fd-dc03-4ac0-a68a-9d5ed1765ce2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view closed accounts annual statement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d7c0881d-3bda-49af-97f9-f6b121b32d23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what if the account is closed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0cddaf9f-cb92-4a13-9859-234bd16da95d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will exit statement be available for bob slater - 111111111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8ef325a3-5cbb-4ee5-bb54-3ab9c912d483",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find close clients",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a55db546-07e2-44d2-bea6-97b578b203b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find closed accounts",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a014a6f4-457f-402a-ae70-e715d764c758",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find tax statements for closed account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fced5553-54a2-4839-ab7b-cd198a6f220a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the closed accounts",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1131fcc2-2e1b-4eba-b2f7-af3d45779c37",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the closed investment account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ccb232f1-1514-40d8-a892-fbc7f8adc368",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the show me how to view closed accounts",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "12ea3b27-9ac8-47a4-9311-f1494ee5e9c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withdrawal amount for a closed account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  } ]
+} ]

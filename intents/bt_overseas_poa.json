@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "faq" ]
+  "categorization": {
+    "tags": [
+      "faq"
+    ]
   },
-  "name" : "bt_overseas_poa",
-  "display_name" : "bt_overseas_poa",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_overseas_poa_response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_overseas_poa_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "Is it mandatory to has a POA on an account if the client lives overseas?",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "Is it mandatory to has a POA on an account if the client lives overseas?",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_overseas_poa",
+  "display_name": "bt_overseas_poa",
+  "alternative_question_eligible": true
 }

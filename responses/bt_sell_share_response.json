@@ -1,118 +1,150 @@
 {
-  "name" : "bt_sell_share_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "I can help you sell a managed fund or share. Please select the 'Show me how' button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I can help you sell a managed fund or share. Please select the 'Show me how' button."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "walkme",
+          "payload": "864365",
+          "label": "Show me how"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "walkme",
-        "payload" : "864365",
-        "label" : "Show me how"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account__advised_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To buy or sell an investment please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To buy or sell an investment please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To buy or sell an investment please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I can help you sell a fund or share, please select the 'Show me how' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "978626",
+              "label": "Show me how"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_investor",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To trade on your account, go to 'Investments' and select 'Buy or sell an investment'."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If you are a BT Invest customer, go to 'Investments' and select 'Invest more' or 'Withdraw'."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If you have a financial adviser, you can ask them to submit the request for you."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To submit a trade for a client, select their account, go to 'Investments' and select 'Buy or sell an investment'."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account__advised_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To buy or sell an investment please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To buy or sell an investment please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To buy or sell an investment please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "I can help you sell a fund or share, please select the 'Show me how' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "978626",
-          "label" : "Show me how"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_investor",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To trade on your account, go to 'Investments' and select 'Buy or sell an investment'."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If you are a BT Invest customer, go to 'Investments' and select 'Invest more' or 'Withdraw'."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If you have a financial adviser, you can ask them to submit the request for you."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To submit a trade for a client, select their account, go to 'Investments' and select 'Buy or sell an investment'."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_sell_share_response"
 }

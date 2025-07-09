@@ -1,13 +1,16 @@
 {
-  "name" : "bt_primary_email_postal_address",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "You can update a client’s primary email and postal address by navigating to their ‘Client details’ section."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "You can update a client\u2019s primary email and postal address by navigating to their \u2018Client details\u2019 section."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_primary_email_postal_address"
 }

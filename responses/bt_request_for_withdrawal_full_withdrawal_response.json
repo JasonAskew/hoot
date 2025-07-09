@@ -1,309 +1,412 @@
 {
-  "name" : "bt_request_for_withdrawal_full_withdrawal_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To close your Panorama account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Investment account closure' then follow the prompts."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To close your Panorama account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Investment account closure' then follow the prompts."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To see the status of your closure request, go to \u2018Forms & requests\u2019,  select  \u2018Request status\u2019, and use the 'Actions' menu on the right hand side to 'Track progress'."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "internal",
+          "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label": "Go to page"
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To see the status of your closure request, go to ‘Forms & requests’,  select  ‘Request status’, and use the 'Actions' menu on the right hand side to 'Track progress'."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "internal",
-        "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-        "label" : "Go to page"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To close your Panorama Super account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Super account closure' then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To see the status of your closure request, go to ‘Forms & requests’,  select  ‘Request status’, and use the 'Actions' menu on the right hand side to 'Track progress'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To close your Panorama Super account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Super account closure' then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To see the status of your closure request, go to \u2018Forms & requests\u2019,  select  \u2018Request status\u2019, and use the 'Actions' menu on the right hand side to 'Track progress'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To close your Panorama Super account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Super account closure' then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To see the status of your closure request, go to \u2018Forms & requests\u2019,  select  \u2018Request status\u2019, and use the 'Actions' menu on the right hand side to 'Track progress'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To close your Panorama Super account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Super account closure' then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To see the status of your closure request, go to \u2018Forms & requests\u2019,  select  \u2018Request status\u2019, and use the 'Actions' menu on the right hand side to 'Track progress'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Depending on the account you wish to close, we may require additional documentation. Forms are available on the full Panorama website.\n\nIf you require assistance, select 'Chat with consultant' during business hours."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Depending on the account you wish to close, we may require additional documentation. Forms are available on the full Panorama website.\n\nIf you require assistance, select 'Chat with consultant' during business hours."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_investor",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Depending on the account you wish to close, we may require additional documentation. Forms are available on the full Panorama website.\n\nIf you require assistance, select 'Chat with consultant' during business hours."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To close your client's Panorama account:\n1. Select 'Go to page'.\n2. Select 'Submit new request'.\n3. In the 'Rollovers and withdrawals' section, select 'Investment/super account closure' (depending on the type of account you wish to close) then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To track the progress of an account closure select, 'Go to page' and use the 'Action menu' on the right hand side of the relevant task."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To view Panorama accounts that have already closed, select 'View closed accounts'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/adviser/tracking/pano-service-requests",
+              "label": "Go to page"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "1267550",
+              "label": "View closed accounts"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account__advised_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To close your Panorama Super account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Super account closure' then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To see the status of your closure request, go to \u2018Forms & requests\u2019,  select  \u2018Request status\u2019, and use the 'Actions' menu on the right hand side to 'Track progress'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To close your Panorama Investment account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Investment account closure' then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To see the status of your closure request, go to \u2018Forms & requests\u2019,  select  \u2018Request status\u2019, and use the 'Actions' menu on the right hand side to 'Track progress'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To close your Panorama Investment account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Investment account closure' then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To see the status of your closure request, go to \u2018Forms & requests\u2019,  select  \u2018Request status\u2019, and use the 'Actions' menu on the right hand side to 'Track progress'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To close your Panorama Super account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Super account closure' then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To see the status of your closure request, go to \u2018Forms & requests\u2019,  select  \u2018Request status\u2019, and use the 'Actions' menu on the right hand side to 'Track progress'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_btinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To close your Panorama Investment account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Investment account closure' then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To see the status of your closure request, go to \u2018Forms & requests\u2019,  select  \u2018Request status\u2019, and use the 'Actions' menu on the right hand side to 'Track progress'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To close your Panorama Super account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Super account closure' then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To see the status of your closure request, go to \u2018Forms & requests\u2019,  select  \u2018Request status\u2019, and use the 'Actions' menu on the right hand side to 'Track progress'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To close your Panorama Super account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Super account closure' then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To see the status of your closure request, go to ‘Forms & requests’,  select  ‘Request status’, and use the 'Actions' menu on the right hand side to 'Track progress'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To close your Panorama Super account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Super account closure' then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To see the status of your closure request, go to ‘Forms & requests’,  select  ‘Request status’, and use the 'Actions' menu on the right hand side to 'Track progress'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Depending on the account you wish to close, we may require additional documentation. Forms are available on the full Panorama website.\n\nIf you require assistance, select 'Chat with consultant' during business hours."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Depending on the account you wish to close, we may require additional documentation. Forms are available on the full Panorama website.\n\nIf you require assistance, select 'Chat with consultant' during business hours."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_investor",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Depending on the account you wish to close, we may require additional documentation. Forms are available on the full Panorama website.\n\nIf you require assistance, select 'Chat with consultant' during business hours."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To close your client's Panorama account:\n1. Select 'Go to page'.\n2. Select 'Submit new request'.\n3. In the 'Rollovers and withdrawals' section, select 'Investment/super account closure' (depending on the type of account you wish to close) then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To track the progress of an account closure select, 'Go to page' and use the 'Action menu' on the right hand side of the relevant task."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To view Panorama accounts that have already closed, select 'View closed accounts'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/adviser/tracking/pano-service-requests",
-          "label" : "Go to page"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "1267550",
-          "label" : "View closed accounts"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account__advised_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To close your Panorama Super account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Super account closure' then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To see the status of your closure request, go to ‘Forms & requests’,  select  ‘Request status’, and use the 'Actions' menu on the right hand side to 'Track progress'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To close your Panorama Investment account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Investment account closure' then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To see the status of your closure request, go to ‘Forms & requests’,  select  ‘Request status’, and use the 'Actions' menu on the right hand side to 'Track progress'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To close your Panorama Investment account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Investment account closure' then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To see the status of your closure request, go to ‘Forms & requests’,  select  ‘Request status’, and use the 'Actions' menu on the right hand side to 'Track progress'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To close your Panorama Super account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Super account closure' then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To see the status of your closure request, go to ‘Forms & requests’,  select  ‘Request status’, and use the 'Actions' menu on the right hand side to 'Track progress'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_btinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To close your Panorama Investment account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Investment account closure' then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To see the status of your closure request, go to ‘Forms & requests’,  select  ‘Request status’, and use the 'Actions' menu on the right hand side to 'Track progress'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To close your Panorama Super account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawals' section, select 'Super account closure' then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To see the status of your closure request, go to ‘Forms & requests’,  select  ‘Request status’, and use the 'Actions' menu on the right hand side to 'Track progress'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_request_for_withdrawal_full_withdrawal_response"
 }

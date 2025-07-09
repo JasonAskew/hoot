@@ -1,64 +1,101 @@
 {
-  "categorization" : {
-    "skill" : "payments_transfers",
-    "tags" : [ "service" ]
+  "categorization": {
+    "skill": "payments_transfers",
+    "tags": [
+      "service"
+    ]
   },
-  "name" : "bt_deposit_funds",
-  "display_name" : "bt_deposit_funds",
-  "description" : "Intent to show procedures for funds deposit",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "messages" : [ {
-      "clarify_response_name" : "bt_deposit_funds_clarify_contribution_method",
-      "input_mode" : "HIDDEN",
-      "slot_name" : "contribution_method"
-    } ],
-    "rules" : [ {
-      "criteria" : [ {
-        "name" : "contribution_method",
-        "value" : "bpay"
-      } ],
-      "response_name" : "bt_deposit_funds_bpay_response"
-    }, {
-      "criteria" : [ {
-        "name" : "contribution_method",
-        "value" : "cheque"
-      } ],
-      "response_name" : "bt_deposit_funds_cheque_response"
-    }, {
-      "criteria" : [ {
-        "name" : "contribution_method",
-        "value" : "direct debit"
-      } ],
-      "response_name" : "bt_deposit_funds_direct_debit_response"
-    }, {
-      "criteria" : [ {
-        "name" : "contribution_method",
-        "value" : "eft"
-      } ],
-      "response_name" : "bt_deposit_funds_eft_response"
-    } ]
+  "webhook_name": "ClarificationIntent",
+  "webhook_params": {
+    "messages": [
+      {
+        "clarify_response_name": "bt_deposit_funds_clarify_contribution_method",
+        "input_mode": "HIDDEN",
+        "slot_name": "contribution_method"
+      }
+    ],
+    "rules": [
+      {
+        "response_name": "bt_deposit_funds_bpay_response",
+        "conditions": {
+          "type": "condition",
+          "payload": {
+            "operator": "==",
+            "slot": "contribution_method",
+            "value": "bpay",
+            "clarify_slot": true
+          }
+        },
+        "description": "\"contribution_method\" == \"bpay\""
+      },
+      {
+        "response_name": "bt_deposit_funds_cheque_response",
+        "conditions": {
+          "type": "condition",
+          "payload": {
+            "operator": "==",
+            "slot": "contribution_method",
+            "value": "cheque",
+            "clarify_slot": true
+          }
+        },
+        "description": "\"contribution_method\" == \"cheque\""
+      },
+      {
+        "response_name": "bt_deposit_funds_direct_debit_response",
+        "conditions": {
+          "type": "condition",
+          "payload": {
+            "operator": "==",
+            "slot": "contribution_method",
+            "value": "direct debit",
+            "clarify_slot": true
+          }
+        },
+        "description": "\"contribution_method\" == \"direct debit\""
+      },
+      {
+        "response_name": "bt_deposit_funds_eft_response",
+        "conditions": {
+          "type": "condition",
+          "payload": {
+            "operator": "==",
+            "slot": "contribution_method",
+            "value": "eft",
+            "clarify_slot": true
+          }
+        },
+        "description": "\"contribution_method\" == \"eft\""
+      }
+    ],
+    "default_response_name": "IntentMessageError"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "CANCEL"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "CANCEL"
     },
-    "outgoing" : {
-      "allowed" : true,
-      "allow_resume" : false,
-      "confirm_if_cancelled" : false
+    "outgoing": {
+      "allowed": true,
+      "allow_resume": false,
+      "confirm_if_cancelled": false
     }
   },
-  "display_sentence" : "How do I deposit funds to my account?",
-  "slots" : [ {
-    "name" : "contribution_method",
-    "entity" : "BT_CONTRIBUTION_METHOD"
-  } ],
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "messages" : {
-    "IntentMessageCancellation" : "Canceled. How can I help you?"
+  "display_sentence": "How do I deposit funds to my account?",
+  "slots": [
+    {
+      "name": "contribution_method",
+      "entity": "BT_CONTRIBUTION_METHOD",
+      "message_contents": []
+    }
+  ],
+  "machine_learning_enabled": true,
+  "messages": {
+    "IntentMessageCancellation": "Canceled. How can I help you?"
   },
-  "multi_inputs" : true
+  "multi_inputs": true,
+  "state": "SAVED",
+  "name": "bt_deposit_funds",
+  "display_name": "bt_deposit_funds",
+  "description": "Intent to show procedures for funds deposit"
 }

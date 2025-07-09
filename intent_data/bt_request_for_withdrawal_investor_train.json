@@ -1,0 +1,70 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_request_for_withdrawal_investor_train",
+  "intent_name" : "bt_request_for_withdrawal_investor",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "db7596bd-2393-4534-9b03-c859b4f640e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Make a withdrawal",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "32a773f3-f5f5-4f34-89a8-c119f64975a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change superannuation fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ba3a08a0-dfbd-4bbf-8ee4-41c2bb3c8908",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change superannuation fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5ec41539-5e52-4908-9aa4-854f3c345c66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change superannuation fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3478c1d5-28d6-4040-864a-23363e3d47e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fees for transferring my super to a new super",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "e7068b4f-69ef-4558-bb0d-c53b07ef24f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello is a form required for a {@withdraw_amount_type partial withdrawal} lumpsum payment from a pension account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "a17d6179-f491-4fb9-91e9-2f44b40d17c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "make awithdrawal",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "34f964a4-929d-41ad-bdd7-1b6c9b89a2c6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the conditions of withdrawing funds",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "dc42d34b-9eb1-4583-9cf8-e103f7f30160",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the conditions of withdrawing funds",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8d9014a3-ddf4-4ebf-a2cb-15d9d6cae075",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the smallest amount i can withdraw from my super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  } ]
+} ]

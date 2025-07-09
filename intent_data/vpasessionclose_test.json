@@ -1,0 +1,88 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "vpasessionclose_test",
+  "intent_name" : "VpaSessionClose",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "88b838c1-bb70-4a40-bb2e-003246a97d81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bye",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9c76bafe-f863-4dc7-91ed-5daed519e019",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bye",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "87d6b823-22d4-42ad-9d53-061abdac1a52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I'm finished",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "4ec7009e-b2eb-4119-9a1a-f7dd618489e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close for now thank you",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "672fe101-18e8-4749-b812-ce1def1a7e5d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close thanks",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6c9b4d1a-8568-447f-a735-784e6bfddc92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "finish",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1e6c49cb-bac5-462d-90bb-88f85bac8766",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close this conversation",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "36678a7e-4c89-4958-92f8-d983633a0f1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "signing off",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7ecf5d79-5a7b-4431-b7da-0ce1d12f3987",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry i think i have all i need for now thank you",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c321ae3e-fcee-42af-9570-846dd3c23ad1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "terminate",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5e988526-fc06-4b4f-933e-476831a64004",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "that's all i have for now",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "a99d115b-17f2-465b-bf39-784559078b51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "terminate",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8e1ad9f3-c107-44bd-aad3-ad6134f94d66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "that's all i have for now",
+    "tags" : [ "test_gold" ]
+  } ]
+} ]

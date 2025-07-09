@@ -1,16 +1,21 @@
 {
-  "name" : "Message-Mortgage-Loan-As-Category",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Your loan (or mortgage) account doesn't show any transactions, maybe due to your bank's policy, so I searched for loan (or mortgage) in your other accounts."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Your loan (or mortgage) account doesn't show any transactions, maybe due to your bank's policy, so I searched for loan (or mortgage) in your other accounts."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Message-Mortgage-Loan-As-Category"
 }

@@ -1,0 +1,469 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_refund_payment_seed",
+  "intent_name" : "bt_refund_payment",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "73cc9cd9-7abe-4383-a01d-b1f756415a4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I undo a withdrawal?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "5b2611a9-48ea-44e7-8745-155a8da50328",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cancel withdrawal request for my account",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "0eb0808b-75c5-4df0-8f57-b5bc72d90816",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give a reimbursement for an accidental payment.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "41dcb637-bf2c-4c41-b2c6-151d99c186f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give back money from an unintended transfer.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "7a6f33e8-d89e-428c-974c-a6c0f3eb80ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give money back for a mistake payment.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "88278ef4-ef64-44c1-baef-c2d39beac8ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i refund an accidental payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "a249bf06-f016-4f97-8ab0-fd3b7524d41d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I undo a withdrawal?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "f8f321ff-3e36-4690-a268-68554f790119",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cancel withdrawal request for my account",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "03fd65b0-2103-4fc7-abb6-536e40a0dee5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give a reimbursement for an accidental payment.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "54b1b8ab-d01b-490b-abf5-705cbe5ee97f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give back money from an unintended transfer.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "d6421160-8161-4da2-9166-4add2ed47cc7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give money back for a mistake payment.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "e8269768-49d8-4cbc-adc3-aa12204ee759",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i refund an accidental payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "a19cb3e7-607f-45e4-a72d-5b4ad06541e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to cancel a payment ASAP",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "7229eea4-5a30-43fb-932e-77d0675afea1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to stop a withdrawal; what's the process?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "2204207a-53b4-419f-8802-5b815af1831d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to reverse a withdrawal?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "11a0c3bd-5f32-45ed-b12e-d42b14d3c1e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Issue a refund for a mistake payment.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "75a31dcf-502d-4afd-a138-ce671678b8a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Please assist me in canceling my payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "a5de09dd-2403-4478-8a7a-fbf7e4cd748c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Rectify an unintended transaction.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "fa52e28e-89f1-4332-b114-1de1b7034236",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Refund money for a payment error.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "5bc0a197-9320-48a0-9141-2812eaeabc46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Refund money from a payment mix-up.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "ae794d1b-4c44-41d4-af2b-8e2644c44bac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Refund money from an accidental transfer",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "f0282c71-c0c7-4730-a816-a80eeaca3f7f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Reimburse for an accidental payment.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "7032068a-6645-4ffc-b603-09412471e34c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Repay an unintentional transaction.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "685c98f5-5ff3-4dad-be98-d76064fba3d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Return funds from a payment mistake.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "7ee12990-c357-4c13-8ba8-98019c06779d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Return funds from an accidental payment.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "db015c66-63c5-4092-a3cb-d79ccc05c0ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Reverse an accidental transaction.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "b3761dab-80a9-4e6d-ae0d-c5acf7c106ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Revert an accidental payment and refund",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "dce24282-5704-42f5-94ad-b0f20897eeab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Revert an unintended payment.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "a0c8bf80-212c-4be7-a0cc-c2f165541fe7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Send back money from an unintended payment.",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "9a6bf1a3-4109-43a6-9af8-ded63b216d56",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What steps should I take to cancel a withdrawal?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "ceb8de36-97be-47fd-ac6f-d9eaaf19b932",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "accidental payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "a4b18b41-16f6-4794-b8f2-ef4c270814aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i refund a payment i made"
+  }, {
+    "id" : "c8814018-ca29-4bb5-9d88-e39ec3230ac9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel my payment right away",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "3b9fae7c-542e-4a1d-bfb4-a057e6bfed25",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel my payment urgently",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "0a385f94-d6e0-43df-8b8f-9701c8721836",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel my withdrawal",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "2d075e27-d257-45ae-99ff-22e16d71b578",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel my withdrawal urgently",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "9d914662-af84-41e7-836c-bd9273f57978",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "8195f143-4c96-408e-a32f-d98be0b94b4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel payment out",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "6bd850c1-8920-401d-ac5a-c80927255b63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel the payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "7e880921-ed9a-4913-be07-d0e7ee6eee64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel withdrawal",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "0ae09e50-6755-41fa-9a32-3b72bd251786",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i refund a payment i made"
+  }, {
+    "id" : "03ecc74b-74af-4e60-a16c-345cbff65c15",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel my payment right away",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "fe876cbd-1299-4f7c-867a-059c9d42fa13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel my payment urgently",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "69219ad9-e73d-4868-8e05-4db3a92e948d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel my withdrawal",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "4453bb5b-1f78-4e60-bf89-e33a7038b89e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel my withdrawal urgently",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "aa26d316-5c4e-417d-9da8-07574545bb85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "a4799643-34f4-4ffd-b954-546f9fc87136",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel payment out",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "7ac316b6-f3cd-4cc5-af87-2b9b75be0c0a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel the payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "c442471b-30a6-45af-b129-9003c45d32df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel withdrawal",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "1713be42-3ea5-4a66-9ece-cf3a98a59e96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i refund a payment i made"
+  }, {
+    "id" : "c77bf604-3947-4d7e-bcdf-0d9deafbd8cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel my payment right away",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "97ffca53-09e7-41c0-9c4d-e70f969daffd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel my payment urgently",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "048825e1-4d03-4bef-9e3f-6d5e6e098990",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel my withdrawal",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "68dc02e1-a741-4d59-95ef-ab5345f769ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel my withdrawal urgently",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "a278f4be-0ce8-4623-aabb-d1f7e21512eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "87ce6427-f854-4459-a1a7-d4a91a2505d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel payment out",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "3d1ec9a2-e86b-4d39-9e34-eee3217796ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel the payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "f6d68454-a82a-47d5-bbd9-9c3dd0fdc71a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel withdrawal",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "fcf039f5-2890-4891-86e7-66a9ebfbcadf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i cancel a withdrawal",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "e4488626-a842-41b0-8c28-48adbe446d3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i cancel an accidental payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "01d37be4-3b64-485a-9da5-38802f4d554a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i made a payment to the wrong account",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "b803f066-5d62-47e7-8f18-7b62544e4894",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i mistakenly made a payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "976f625c-e1e4-475e-af03-a485aa0b7e13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "incorrect payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "4ece3414-0d3f-4711-98c2-e7652e00793f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is it possible to cancel a payment out",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "d438ec9c-79f9-4d30-8df1-6b413f4b729b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is it possible to cancel a withdrawal",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "7cbd28f3-fc17-4a19-b1ac-de9d2dcd66db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "payment cancellation",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "e3d720a7-d953-4305-a037-880795a29810",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "please cancel withdrawal",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "121c1c5f-fb1f-424d-8993-aacd525f6f32",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "please refund payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "6cf60ae0-faec-4226-8df6-bc4bf4461803",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "pls cancel withdrawal",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "1fd436db-a5c6-4203-bbbe-775a48556df4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "stop an accidental payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "5031e07f-4c48-46b8-ba7a-4c4142e75e6a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "stop pending payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "ce796625-08ec-429d-93ab-3211661bf6d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "stop pending withdrawal",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "029bbf94-45dd-4293-8f34-4ec7c0d76f97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unintentional payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "df3645fb-ee16-449c-8d42-d48a7cd2c599",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unintentional payment",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "2e072105-48bc-46aa-acd8-b849f932e833",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats a man gotta do to cancel a withdrawal round here",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "b77bb432-fad2-40ed-8e63-2b81d4cf655f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "withdrawal cancellation steps",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "227cc1e2-1de9-4390-b603-a60aacb9d8d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to stop a withdrawal; whats the process?",
+    "tags" : [ "data_sync_addition" ]
+  } ]
+} ]

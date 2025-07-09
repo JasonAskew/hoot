@@ -1,16 +1,21 @@
 {
-  "name" : "Intent-Message-Retry-Previous-Steps",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Edit Previous Steps"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Edit Previous Steps"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Intent-Message-Retry-Previous-Steps"
 }

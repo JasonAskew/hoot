@@ -1,16 +1,21 @@
 {
-  "name" : "Message-Register",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Great question. I'm glad to chat, but for me to help with that, you'll need to link an account. Please log in"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Great question. I'm glad to chat, but for me to help with that, you'll need to link an account. Please log in"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Message-Register"
 }

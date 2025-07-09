@@ -1,0 +1,276 @@
+{
+  "test_info": {
+    "segment": "bt_account__advised_super",
+    "intent": "advised_super_add_funds_intent",
+    "trigger_text": "How do I add money to my BT super?",
+    "timestamp": "20250707_125833"
+  },
+  "payloads": {
+    "start_session_request": {
+      "context": {
+        "device": {
+          "os": "Mac OS - 10.15.7",
+          "model": "Chrome - 137.0.0.0",
+          "type": "web",
+          "id": ""
+        },
+        "platform": {
+          "name": "web",
+          "conversation_id": "",
+          "session_id": null,
+          "version": "3.5.0-RC.5 - build 6",
+          "user_id": "5ece450782c937c6db19de093f2e4fb8"
+        },
+        "user": {
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "product",
+              "value": "BTPanoramaSuper"
+            },
+            {
+              "key": "userType",
+              "value": "Advised"
+            },
+            {
+              "key": "accountType",
+              "value": "super"
+            },
+            {
+              "key": "accountSubType",
+              "value": "accumulation"
+            }
+          ],
+          "time_zone": "America/New_York",
+          "session_id": "",
+          "locale": "en_AU"
+        },
+        "api_version": "5.8",
+        "features": {
+          "allowed": [
+            "nlu_details"
+          ]
+        }
+      },
+      "type": "START_SESSION",
+      "payload": {}
+    },
+    "start_session_response": {
+      "context": {
+        "user": {
+          "session_id": "node01osqnwg0pkx1zozqy8v3iqbk0240175184351217111f6aa77-20e1-47dc-80e5-2696af2c742a",
+          "segment_names": [
+            "bt_account__advised_super",
+            "bt_account_super",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "product",
+              "value": "BTPanoramaSuper"
+            },
+            {
+              "key": "userType",
+              "value": "Advised"
+            },
+            {
+              "key": "accountType",
+              "value": "super"
+            },
+            {
+              "key": "accountSubType",
+              "value": "accumulation"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": ". \n\n\n\n\n\n\n\n\n\n\nWelcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit?\u2019"
+          }
+        },
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "Following this message are helpful buttons for common queries to get you started."
+          }
+        },
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "How can I assist you today?"
+          }
+        },
+        {
+          "type": "BUTTON",
+          "payload": {
+            "type": "POSTBACK",
+            "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NQ_52weliU-mkYKOsiQ9wmsS8dQ_Ka5En6YPeBYD6u-_lB62v-rCrbdrYZaFZk3t9ASsgKeE9FSwr6P7vRNPFxDdHOHqTk8mq0555Ukmxf71qeCvB2x8LvWRjiChUFVmwpAB2w-1P804M8pk6Q8B7Xk",
+            "label": "Change contact details"
+          }
+        },
+        {
+          "type": "BUTTON",
+          "payload": {
+            "type": "POSTBACK",
+            "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NQ_52weliU-mkYKOsiQ9wmsS8dQ_Ka5En6YPeBYD6u-_um4Q9KtK0Dzku-YmDCoS4EOghN1ZpcTYl7-QnnHyECieKK9Bl23_mxdykwjamMFCUraje6Y8hC1VliX_qEaJZ-UoXW-8wLOIGjL8faW8Gpo",
+            "label": "Status of request"
+          }
+        },
+        {
+          "type": "BUTTON",
+          "payload": {
+            "type": "POSTBACK",
+            "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NQ_52weliU-mkYKOsiQ9wmsS8dQ_Ka5En6YPeBYD6u-_rNjOqLeH6N0prXDheE_mubFtiDOlRpV5b46vuqn-qClvswauiT8vlFaWDAaZfqoTB58JBu5qwr59_AsZYCQdjzNEWt3ayolZicjtU6PpTU4zEDtrnhpqyz_5GiFdMzqug==",
+            "label": "Tax & annual statements"
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "user_message_request": {
+      "context": {
+        "device": {
+          "os": "Mac OS - 10.15.7",
+          "model": "Chrome - 137.0.0.0",
+          "type": "web",
+          "id": ""
+        },
+        "platform": {
+          "name": "web",
+          "conversation_id": "",
+          "session_id": "node01osqnwg0pkx1zozqy8v3iqbk0240175184351217111f6aa77-20e1-47dc-80e5-2696af2c742a",
+          "version": "3.5.0-RC.5 - build 6",
+          "user_id": "5ece450782c937c6db19de093f2e4fb8"
+        },
+        "user": {
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "product",
+              "value": "BTPanoramaSuper"
+            },
+            {
+              "key": "userType",
+              "value": "Advised"
+            },
+            {
+              "key": "accountType",
+              "value": "super"
+            },
+            {
+              "key": "accountSubType",
+              "value": "accumulation"
+            }
+          ],
+          "time_zone": "America/New_York",
+          "session_id": "node01osqnwg0pkx1zozqy8v3iqbk0240175184351217111f6aa77-20e1-47dc-80e5-2696af2c742a",
+          "locale": "en_AU"
+        },
+        "api_version": "5.8",
+        "features": {
+          "allowed": [
+            "nlu_details"
+          ]
+        }
+      },
+      "type": "TEXT",
+      "payload": {
+        "text": "How do I add money to my BT super?"
+      }
+    },
+    "user_message_response": {
+      "context": {
+        "user": {
+          "session_id": "node01osqnwg0pkx1zozqy8v3iqbk0240175184351217111f6aa77-20e1-47dc-80e5-2696af2c742a",
+          "segment_names": [
+            "bt_account__advised_super",
+            "bt_account_super",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "product",
+              "value": "BTPanoramaSuper"
+            },
+            {
+              "key": "userType",
+              "value": "Advised"
+            },
+            {
+              "key": "accountType",
+              "value": "super"
+            },
+            {
+              "key": "accountSubType",
+              "value": "accumulation"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_deposit_funds",
+              "intent_confidence": 1.0,
+              "display_sentence": "How do I deposit funds to my account?"
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_deposit_funds",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    }
+  },
+  "session_id": "node01osqnwg0pkx1zozqy8v3iqbk0240175184351217111f6aa77-20e1-47dc-80e5-2696af2c742a",
+  "results": {
+    "detected_intent": "bt_deposit_funds",
+    "confidence": 1.0,
+    "expected_intent": "advised_super_add_funds_intent",
+    "match": false,
+    "response_texts": [
+      "For now, I can't help with that. But I'm always learning."
+    ]
+  }
+}

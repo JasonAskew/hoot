@@ -1,0 +1,6 @@
+var additionalHeaders = this.kserver.CoreAPI.getAdditionalRequestHeaders();
+additionalHeaders['Authorization'] = "Basic c3lzY3VzOjIzM2hfYWRqS0pzYWU4Mw==";
+kserver.CoreAPI.updateContext({ "api_version": "5.4", "device": {"type":"web"}, "platform": {"user_id":"M053448"}, "user": { 
+
+}});
+kserver.CoreAPI.startSession();

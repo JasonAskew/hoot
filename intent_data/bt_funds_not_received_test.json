@@ -1,0 +1,28 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_funds_not_received_test",
+  "intent_name" : "bt_funds_not_received",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "dd0fac8a-0dc4-4ae1-809a-5280fad3c2fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution amount doesnt match payslip",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ccc974f2-683c-4b92-8bee-d86f6ab59447",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cant find contirbutions",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f6aac75b-e9db-40b2-81a3-c3953c8c8e81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "missing contribution",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  } ]
+} ]

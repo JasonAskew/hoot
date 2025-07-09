@@ -114,9 +114,11 @@ class IntentNavigationTestGenerator:
         for content in message_contents:
             if content.get('type') == 'BUTTON':
                 payload = content.get('payload', {})
-                if payload.get('type') == 'INTENT' and payload.get('intent', {}).get('name'):
-                    intent_name = payload['intent']['name']
-                    if not self.should_exclude_intent(intent_name):
+                if payload.get('type') == 'INTENT':
+                    # The intent name is in payload.payload.name structure
+                    intent_payload = payload.get('payload', {})
+                    intent_name = intent_payload.get('name')
+                    if intent_name and not self.should_exclude_intent(intent_name):
                         intent_quick_replies.append({
                             'type': 'button',
                             'intent': intent_name,
@@ -214,6 +216,10 @@ class IntentNavigationTestGenerator:
                     nav_type = nav['type']
                     segment = nav['segment']
                     
+                    # Get source response content for turn 1
+                    source_response_data = self.responses.get(response_name, {})
+                    source_response_content = self._extract_response_text(source_response_data, segment)
+                    
                     # Find expected response for target intent
                     target_response_name = intent_response_map.get(target_intent)
                     if not target_response_name:
@@ -239,6 +245,7 @@ class IntentNavigationTestGenerator:
                                 'user_input': initial_trigger,
                                 'expected_intent': intent_name,
                                 'expected_response': response_name,
+                                'expected_response_content': source_response_content,
                                 'expected_navigation_options': [n['label'] for n in navigations]
                             },
                             {

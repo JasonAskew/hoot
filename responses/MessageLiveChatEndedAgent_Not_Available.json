@@ -1,0 +1,30 @@
+{
+  "categorization": {
+    "tags": [
+      "live_chat"
+    ]
+  },
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "AVATAR",
+        "payload": {
+          "state_name": "agent_disconnected_bodymovin",
+          "display_mode": "TRANSIENT"
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "There are no agents available at this time.  Please try again later."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageLiveChatEndedAgent_Not_Available",
+  "display_name": "No Live Chat Agents Available",
+  "description": "End session message when all the agents are busy"
+}

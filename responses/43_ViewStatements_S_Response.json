@@ -1,226 +1,267 @@
 {
-  "name" : "43_ViewStatements_S_Response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "What type of statement are you looking for today?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "What type of statement are you looking for today?"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_tax_and_annual_statements"
+          },
+          "label": "Tax or annual statement"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_view_reports"
+          },
+          "label": "Report"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "bt_tax_and_annual_statements"
-        },
-        "label" : "Tax or annual statement"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "bt_view_reports"
-        },
-        "label" : "Report"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you sign into your account and please ask me again?"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you sign into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "What type of statement are you looking for today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_tax_and_annual_statements"
+              },
+              "label": "Tax & annual statements"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_view_reports"
+              },
+              "label": "Reports"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_bulk_reporting"
+              },
+              "label": "Bulk reporting"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_centrelink_schedule"
+              },
+              "label": "Centrelink schedule"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "What type of statement are you looking for today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_tax_and_annual_statements"
+              },
+              "label": "Tax or annual statement"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_view_reports"
+              },
+              "label": "Report"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_centrelink_schedule"
+              },
+              "label": "Centrelink schedule"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "What type of statement are you looking for today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_tax_and_annual_statements"
+              },
+              "label": "Tax or annual statement"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_view_reports"
+              },
+              "label": "Report"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_centrelink_schedule"
+              },
+              "label": "Centrelink schedule"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "What type of statement are you looking for today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_tax_and_annual_statements"
+              },
+              "label": "Tax or annual statement"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_view_reports"
+              },
+              "label": "Report"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_centrelink_schedule"
+              },
+              "label": "Centrelink schedule"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_investor",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To view the latest statement for this account, select 'Go to page'. To access statements older than 3 years, sign in to the full Panorama website."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "32",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To view the latest statement for a client, select the client's account, select 'More' and then select 'Document library'. To access statements older than 3 years, sign in to the full Panorama website."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "What type of statement are you looking for today?"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_tax_and_annual_statements"
-          },
-          "label" : "Tax & annual statements"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_view_reports"
-          },
-          "label" : "Reports"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_bulk_reporting"
-          },
-          "label" : "Bulk reporting"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_centrelink_schedule"
-          },
-          "label" : "Centrelink schedule"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "What type of statement are you looking for today?"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_tax_and_annual_statements"
-          },
-          "label" : "Tax or annual statement"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_view_reports"
-          },
-          "label" : "Report"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_centrelink_schedule"
-          },
-          "label" : "Centrelink schedule"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "What type of statement are you looking for today?"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_tax_and_annual_statements"
-          },
-          "label" : "Tax or annual statement"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_view_reports"
-          },
-          "label" : "Report"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_centrelink_schedule"
-          },
-          "label" : "Centrelink schedule"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "What type of statement are you looking for today?"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_tax_and_annual_statements"
-          },
-          "label" : "Tax or annual statement"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_view_reports"
-          },
-          "label" : "Report"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_centrelink_schedule"
-          },
-          "label" : "Centrelink schedule"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_investor",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To view the latest statement for this account, select 'Go to page'. To access statements older than 3 years, sign in to the full Panorama website."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "32",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To view the latest statement for a client, select the client's account, select 'More' and then select 'Document library'. To access statements older than 3 years, sign in to the full Panorama website."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "43_ViewStatements_S_Response"
 }

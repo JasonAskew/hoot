@@ -1,0 +1,556 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_auto_invest_test",
+  "intent_name" : "bt_auto_invest",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "2d2c0f3b-fbd5-4cea-a871-c0d4710a3c00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I setup auto invest in Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c4746b89-a8a5-4534-9245-02ae2fc763e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can a Panorama client invest their extra cash automatically?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "12ff4375-0c5d-4dae-bd30-09b4a3224e39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client auto invest their excess cash automatically?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dff9201c-ff47-4af1-803c-eeaf31dfa2e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my excess cash be invested automatically?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3182032b-a50b-4a65-8085-d11fdc4694f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does Panorama support auto invest facility for available cash?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c17cadcb-11cd-415f-bf5d-61f6932fd498",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello. Currently automatic reinvesting of cash is turned off. When I tried to turn it on, it said my investor hasn't set it up. How do I go about setting that up so the cash is earning money?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "ee7d04dd-b7ef-46fd-8a7c-02b7e99328c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello. My surplus funds are being reinvested automatically, but the web site says that automatic reinvesting is off. Why is that?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a14daa98-c3cd-40b9-ab2d-0947ebdd3d96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I have sale of my investments in progress. I want to switch off the automatic reinvesting, however, I have a notice on the investment page that automatic reinvesting is on. How can I deactivate th",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d70e6105-d4bb-4feb-9562-d2cd94da5881",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I just wanted to check that any distributions in our portfolio go to our cash account. Can you please confirm.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "764d23aa-220c-4750-be97-c97e3f5c1d51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to set up minimum cash on investment account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "eddf97dc-0591-4c68-9928-b02f4d97843a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I setup auto invest in Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "92f2e020-689e-4c93-9a89-884208ac6949",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can a Panorama client invest their extra cash automatically?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "30537cdb-bb29-458e-8014-2aa0879977ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client auto invest their excess cash automatically?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dd81b6e9-6e5e-42bf-917f-0bb699683fe2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my excess cash be invested automatically?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dd49777b-ccdd-49a8-9541-13468898c0a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does Panorama support auto invest facility for available cash?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "95a80c9f-ea66-4e57-bf9e-01f7d8e17709",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello. Currently automatic reinvesting of cash is turned off. When I tried to turn it on, it said my investor hasn't set it up. How do I go about setting that up so the cash is earning money?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a8476c3f-1d7a-4d6a-bf47-fa7c5ea22ef0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello. My surplus funds are being reinvested automatically, but the web site says that automatic reinvesting is off. Why is that?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fd4788c8-f8a2-4436-b505-506fdc0f6950",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I have sale of my investments in progress. I want to switch off the automatic reinvesting, however, I have a notice on the investment page that automatic reinvesting is on. How can I deactivate th",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a3614dfe-d7c5-491f-967c-5a596ee58534",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I just wanted to check that any distributions in our portfolio go to our cash account. Can you please confirm.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a4d178a8-d0fd-49ac-9998-57a67888661c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to set up minimum cash on investment account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a5efccd9-e376-416f-ab46-1d0dc9e26fc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to set up my investment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f35f7225-6194-444a-86b0-c5835f22f25b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible to auto invest my access cash?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e57df991-6766-4e96-8704-c8a549515dda",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a feature in Panorama that allows a client to set up auto invest for any excess cash they have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9d4fa3b9-5e20-421c-afa6-7000bfa83ca3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to auto invest my client's cash?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d5fa2259-c05f-4687-8353-eae00876165a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Show me auto invest",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "2e92bb82-68b7-4a96-b72d-48f3ac070bf5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the process to invest my client's excess cash automatically?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a105674d-5ca1-49ec-be8f-8209f0651b00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are distributions reinvested or paid to cash",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "46bfbacc-b92f-47b4-b000-1d2e13d16144",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "auto cash investment seems abnormal",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bd9ca061-5410-4a13-9e1e-323f4758ceb2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "auto sell",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9f4af260-9be0-4612-858c-83d2c69216a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "automatic reinvest",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ff330430-e183-464a-995c-f7fe9579bae4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "automatic reinvesting",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "73005dee-b0c5-40a5-85fb-4f75a02910b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you reinvest income on bt panorama super account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8d0ebc50-9692-4551-908c-9350d0789e22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash investment strategy",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "6bf832a1-501b-478d-81e4-39057771d6a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash investment strategy set up",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "425314d5-56bd-4cbd-be45-55f7becdaaf6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change distribution",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "208f2c56-6961-4c7a-a5be-cdabef280f7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change distribution option",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "72d45680-3113-43bf-897f-ef10fadd8854",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from reinvest to cash",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0c6a189f-c82d-4919-b1a9-9fee2bb559e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "changing dividend preference",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c5062b8c-a808-4a58-bf28-8c9fa8d3bf7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are distributions reinvested or paid to cash",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b83fd9ea-3403-4fc5-88b0-956f5cc6c5c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "auto cash investment seems abnormal",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "025b0821-ed70-4940-b636-d859c71d61c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "auto sell",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "145efe11-42e6-495b-a42b-f88ceaf98bae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "automatic reinvest",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "23dd424f-3751-4ce4-a51e-ca8e51c42e86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "automatic reinvesting",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a9a80b4d-2864-49e3-96c7-38d9c419ba8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you reinvest income on bt panorama super account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8ca2bd5e-7457-48e0-bcbe-b15e6d0d2413",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash investment strategy",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "30d449a0-d98c-4746-8971-75de16361da9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash investment strategy set up",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5c1d922c-293c-470b-bb5a-530e38da9c38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change distribution",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8aa1f9ea-28e0-4c9d-a664-070ad254ebe0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change distribution option",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ff2c186-1dab-4870-9d3a-ece9a442ddc3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from reinvest to cash",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e5211722-0357-4fa0-b021-c66db0df4f02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "changing dividend preference",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c25bfe18-456b-4d6e-b9fa-e22c6c287d35",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are distributions reinvested or paid to cash",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "45b73ce4-4f85-4e31-83ab-a668933511e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "auto cash investment seems abnormal",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1dc79f8e-4dd7-4821-a2bc-026d0636aa46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "auto sell",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5f0ae259-aa14-4846-80cd-3b74ff80dc37",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "automatic reinvest",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "47e60e70-315b-46b5-98ec-c6c0bacd921b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "automatic reinvesting",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "f6686ac8-0810-429b-9336-dadd8cdbbc29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you reinvest income on bt panorama super account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "37da093e-0c1f-4b20-a028-caf6f65a10a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash investment strategy",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "6005a44c-df8b-4997-8e8a-0922f18f0db8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash investment strategy set up",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "88d617a9-52dc-436b-afab-13571b400d7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change distribution",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "eb73b6b4-cac2-49f1-8533-88a3db886487",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change distribution option",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5a57de59-8c4f-415f-9633-3e938a9ee212",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from reinvest to cash",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "97d1ab2d-794c-42da-a094-55b254650fc2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "changing dividend preference",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7d6209b6-ac5a-4bee-a02a-b9a61399fe05",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "dividend",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "666d3478-7859-4ee7-b06b-0137e88c2abb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "evening i want to transfer 111 $ per month from another institution account to my bt panorama account please advise",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "149a37e1-ef42-4a29-96f0-9f495ac9b444",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue where on the bt pnaorama platform can i do to make sure drp is turned off for shares / etf 's",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a6f838c5-e696-4629-bb42-92adc579e89f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there id like help with reconciling fees",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "eaa698d2-062a-48e0-bf44-b7de81c99a17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i see if income is reinvested",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "71736de2-2a02-405e-bb29-c5e651ced5f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change from reinvest to cash option",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "db0827e1-9011-401d-9dfe-1a31175f13a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i stop distribution re-investments",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8297b4bb-c0d9-4856-a00b-7399c0afb94c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to auto invest",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "294f20d0-606f-48dd-a638-904f7cc57bf8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to change distribution option",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e58ea10f-cc5d-4ff6-90b3-39519a6594b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to rebalance portfolio",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "14c1c3e1-d748-45ac-9f3b-719efaf9fff9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to set up an automatic investment strategy",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e459dafa-bc0e-4e79-b145-201a4aa7c4d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am expecting a distribution from",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4a567408-ae75-4d80-b76b-8361f6e4ae18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to implement automatic cash management instructions",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cc432dbc-e8df-4b65-b4ee-cc10bb436c14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to turn off automatic re-investing how do i do that",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f7c1e1ad-924b-413c-a2ab-a2adb7536e8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i need to automatically sell down an investment to top up the cash",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "35c0de2e-8741-4383-bc06-918556759ae5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pay dividends to cash",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d466ab6a-9bf8-4bd8-a9bc-728bce3ef762",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reactivate automatic reinvesting",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "33167116-7de1-4c46-9e9c-cdb97b7d9f15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reinstate automatic reinvesting",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a3b8b2c0-6077-4a2a-b25c-478f94f174c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reinvest",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1cb60ec2-072a-423d-b241-deb8232d4419",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reinvest dividends",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "51bbf0f1-007c-4bcc-9094-1a1cb88db00a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request reinvest",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a05c6b58-58e9-46e0-a291-643188ad86c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "set re-invest instructions",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "12047748-9141-4b78-bfa2-0d9d41f25a7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "stop reinvesting du istributions",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c64702e4-fc53-4307-9966-1b9c9081ffde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "turn off drp",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "653f9fd9-1287-454b-bc11-c87975874fb9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "turn on auto investing",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2ee9d33e-9c97-44fc-a7e2-0b10b803e8f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "turn on automatic reinvesting",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "838da2c8-fb07-46b2-8048-9950fbf4187f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "turn off drp",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "1d72efb5-9d83-4677-9d2f-6a5e03a554b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "turn on auto investing",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "98101163-563d-4b05-ae31-75eb719f4cee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "turn on automatic reinvesting",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  } ]
+} ]

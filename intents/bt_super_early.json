@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "withdrawal" ]
+  "categorization": {
+    "tags": [
+      "withdrawal"
+    ]
   },
-  "name" : "bt_super_early",
-  "display_name" : "bt_super_early",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_super_early_response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_super_early_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "How do I access my super early?",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "How do I access my super early?",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_super_early",
+  "display_name": "bt_super_early",
+  "alternative_question_eligible": true
 }

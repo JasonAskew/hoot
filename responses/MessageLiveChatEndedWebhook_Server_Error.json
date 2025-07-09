@@ -1,0 +1,30 @@
+{
+  "categorization": {
+    "tags": [
+      "live_chat"
+    ]
+  },
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "AVATAR",
+        "payload": {
+          "state_name": "agent_disconnected_bodymovin",
+          "display_mode": "TRANSIENT"
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "There was an issue with your live chat session.  Please try again later."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageLiveChatEndedWebhook_Server_Error",
+  "display_name": "Live Chat Ended Technical Error",
+  "description": "End session message when KAI ended the session because of a technical error on the Live Chat Webhook"
+}

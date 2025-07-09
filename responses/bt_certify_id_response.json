@@ -1,29 +1,34 @@
 {
-  "name" : "bt_certify_id_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "You may need to provide us with a certified original copy of your ID so we can action your request. This will be specified on any forms you need to submit. Certified original copies of ID must be posted and will not be accepted via other methods, such as email."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "You may need to provide us with a certified original copy of your ID so we can action your request. This will be specified on any forms you need to submit. Certified original copies of ID must be posted and will not be accepted via other methods, such as email."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://www.bt.com.au/content/dam/public/btfg-bt/documents/professional/support/forms/certified-copies-guide.pdf",
+          "label": "How to provide certified ID"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_mailing_address"
+          },
+          "label": "Postal address for sending ID"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://www.bt.com.au/content/dam/public/btfg-bt/documents/professional/support/forms/certified-copies-guide.pdf",
-        "label" : "How to provide certified ID"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "bt_mailing_address"
-        },
-        "label" : "Postal address for sending ID"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_certify_id_response"
 }

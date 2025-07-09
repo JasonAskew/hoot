@@ -1,117 +1,142 @@
 {
-  "name" : "bt_amend_advice_fee_placeholder_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "This query does not apply to this account type. Is there anything else I can help you with"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "This query does not apply to this account type. Is there anything else I can help you with"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_general_fees"
+          },
+          "label": "General account fee's"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "bt_general_fees"
-        },
-        "label" : "General account fee's"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To navigate the Advice fees page on a client's account, select 'Show me how'. For information on establishing, amending or renewing an advice fee, select 'Help & support'."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To view pending or completed fee consent requests, or to upload a signed consent form select 'Go to page'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "1082573",
-          "label" : "Show me how "
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "/content/secure/help-and-support/bt/en/adviser/managing-your-clients/monitoring-and-reporting/fees/advice-fee-types.html",
-          "label" : "Help & support"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/adviser/tracking/consent-center/pending-consent",
-          "label" : "Go to page"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/adviser/business/pano-tax-invoices/fee-revenue-statement",
-          "label" : "Fee revenue statements"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To navigate the Advice fees page on a client's account, select 'Show me how'. For information on establishing, amending or renewing an advice fee, select 'Help & support'."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To view pending or completed fee consent requests, or to upload a signed consent form select 'Go to page'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "1082573",
+              "label": "Show me how "
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "/content/secure/help-and-support/bt/en/adviser/managing-your-clients/monitoring-and-reporting/fees/advice-fee-types.html",
+              "label": "Help & support"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/adviser/tracking/consent-center/pending-consent",
+              "label": "Go to page"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/adviser/business/pano-tax-invoices/fee-revenue-statement",
+              "label": "Fee revenue statements"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account__advised_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Your financial adviser on file is able to amend your ongoing advice fees for you. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "914087",
+              "label": "Adviser information"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Your financial adviser on file is able to amend your ongoing advice fees for you. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "914087",
+              "label": "Adviser information"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Your financial adviser on file is able to amend your ongoing advice fees for you. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "914087",
+              "label": "Adviser information"
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account__advised_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Your financial adviser on file is able to amend your ongoing advice fees for you. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "914087",
-          "label" : "Adviser information"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Your financial adviser on file is able to amend your ongoing advice fees for you. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "914087",
-          "label" : "Adviser information"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Your financial adviser on file is able to amend your ongoing advice fees for you. Please speak with your adviser for more information, the 'Adviser information' button will take you to their details."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "914087",
-          "label" : "Adviser information"
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_amend_advice_fee_placeholder_response"
 }

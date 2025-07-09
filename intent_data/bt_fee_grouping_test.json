@@ -1,0 +1,472 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_fee_grouping_test",
+  "intent_name" : "bt_fee_grouping",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "288f95e6-9558-4220-8ef4-f9413bb38c73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Adviser fee grouping?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "6b1c344e-97d1-4796-a22c-0289443cef6a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there discounts for fee groupings?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2721de75-4176-4432-9764-e806471b491f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can I group accounts for fees?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "bb4215d6-1cb6-4cbd-88b4-523dbdee651f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Family group",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "2582c8aa-fe3e-4021-826e-1d88420391ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How are fee groupings set up?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3c9a0bcc-4ce4-49eb-8e8e-3ce9ad45e27d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I add family members for fee group?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ec2e9ef3-f61b-40b4-9a29-ed984ca66c93",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I consolidate accounts together for fees?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e35c48c7-bb44-4391-b30d-f01764c969f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to set up discounted fees for a group of accounts?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6f3b0bbc-5bb0-4bc1-8227-1ffe9f61796b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Adviser fee grouping?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "f9d086d9-f169-4576-ba3e-bc81b42edfa4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there discounts for fee groupings?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d02ba22d-d0c1-4ac8-917a-e41a76c40a96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can I group accounts for fees?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "bf33af96-eefd-47f7-ab3a-7542003865e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Family group",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b0963530-7dc0-4eab-9623-7e06dd943a7c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How are fee groupings set up?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e1d50ea5-b402-46c4-965d-d537b7dbd74a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I add family members for fee group?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2f23cbd5-19d3-4719-818a-a7bc7eb990aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I consolidate accounts together for fees?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "87d47044-71b3-4278-b426-cb9142db63e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to set up discounted fees for a group of accounts?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7f0e93ea-f1f6-4403-9ee0-6c3739f55049",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to run list of expiring fee consent for the dealer group. Can I run it by delaer group as it seems to want to run by each adviser? Thanks",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "143c0018-d820-4dcf-a974-da43215cc7e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to set up fee grouping.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "55b8ea30-45c8-47f7-a400-06fc295f2e92",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a maximum number of people that can be added to a fee group",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fe61b10a-e89b-4bc4-8037-46d23047a98b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the process for setting up fee grouping?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b56ecd70-bbe0-4b40-98e5-d0d05c1ae31a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the process for setting up group fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fba2c9b9-3bfb-4d19-a84f-a9ddb1f204f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "admin fee groups",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cbd87064-41ee-4ec9-93fc-b520dff1bde3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adviser service fee account grouping",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "76081446-3114-4a98-9c9f-288b36b9cf7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are multiple accounts automatically grouped",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "694da38c-4175-4906-8906-1f30db839863",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can / how do i do this on panarama",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "dfa5fef2-20d7-4a83-ae51-b380eb68a19a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i group account for advice fees?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "750ea872-070f-484f-baef-d3a424ba1735",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i run report for fees charged for multiple clients",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f241d3c9-fe8a-4330-b419-e4ba45dd3402",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you group accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ae9d9cb3-bbb0-44c1-8f40-3c5b36ab6710",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are multiple accounts automatically grouped",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a4e111bc-f766-4b67-a02d-5527245afe4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can / how do i do this on panarama",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "74cdb0ec-15e9-4057-a52d-b58bed7b8be1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i group account for advice fees?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "764da867-21fe-4199-8fce-24b1008ca46c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i run report for fees charged for multiple clients",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e6f7715c-c92e-48c6-bb98-0108fdf4dce5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you group accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7f1e5f37-50d8-44a2-a1e8-bc25935eac3b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are multiple accounts automatically grouped",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5d793293-5631-48fd-a72c-7615a30c7012",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can / how do i do this on panarama",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "91195acd-3cc2-4e35-8af8-847491aadce3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i group account for advice fees?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "9a87271d-92e1-402b-86d6-492381d2ca44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i run report for fees charged for multiple clients",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0ea546da-ad69-4149-8856-4be3c8d30e1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you group accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "920840a5-15f4-4b44-9eb4-4fd65e14e797",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client group pricing",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3771ae1a-e769-4b09-a8e5-ba93f34eed80",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have related pricing for family members",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b5c82ff0-6717-4251-80fe-9e69e2c8333e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "familu linking",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bc6dc33a-b458-4a59-8a3c-56f87fcca819",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "family account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0f74ed77-84f3-484a-bcb7-dd7224db6b28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "family discount",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9fcd8d28-c40e-42a6-9f6d-9ce5a4f868cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "family fees grouping",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "614a7fea-2620-4239-8638-addff14e45d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "family linked accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "05814d59-2f1b-44ed-b67c-b8e28a445e50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "family linking",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "da76f910-589a-4ad4-8e5a-6fdadab1f8b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee aggregation",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b582389a-df13-49df-8e70-1e79088fddf1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee aggregation with linked accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3fee6550-3448-47f0-b856-a3b2f55a4b38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee grouping",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "32a39ba0-cf7f-4e76-bfad-4ad379db1f0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee link admin",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ba2ac4f6-bb55-4e54-ab73-57144ed67baa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee linking query",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ed20a3da-34bd-4144-8ab9-9275d50eb213",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "group accounts togeither",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "85ff82c9-570f-4dce-85c6-4af65184299b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "group client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dcd7ab44-040c-4c28-a2db-15c60f179ee9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "group family members together for discount",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c6803ce3-98eb-4bc0-85c1-3bfad2a7b794",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "group fee form",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f7169e23-e827-4744-a063-7995a218b034",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey team just had some questions surrounding family fee aggregation",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f25f5eaa-6b31-4715-89d1-b0bb6bfc9dc8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team good morning just want to inquire if bt panorama has fee aggregation applied if the client has two bt panorama accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "38c44f78-7194-4a83-b661-a7c5ec9cf4ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i tell which panorama accounts are grouped",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "16ec08b8-5dda-40fc-bf68-9677ac828040",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i create client group",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8f1856ae-9d2f-4db4-b740-f732ef60d87e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i create group fee linking",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8305e0b2-81b3-4525-96b6-437becce6cb7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i family group",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "5ccd2bf0-63da-41f0-88d2-9bf16c9205d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i know if an account has family grouping",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e31271f0-ac0c-4ace-8bce-57875ee5662a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i link client accounts as a group",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ea0750b3-8328-4dcd-8cb4-6c6b83f24efd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i tell if account family fee linked",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ed8ac1cc-888f-4e32-b679-ea8af778c309",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to add family grouping to accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bb30dc2d-17e9-4fef-9372-a287f64ab1b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to do related groups",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "00fce70f-ab56-4638-83b7-faaa16017a65",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to family group",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "019d5e8d-6c1e-4831-a69c-4f29bfad5561",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to find fee aggregation on platform",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7ccd2e32-2fc4-4104-93c2-418803d01163",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to setup family fee aggregation",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cefbc9b1-75c1-4c05-9086-1a208bfbb7e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a question regarding family fee linking",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f46e6383-2b16-445c-a3c7-96efe2592f3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "kindly enquiring regarding family fee linking",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6a2fc8d5-b631-4724-a39b-3e98d6d9ca48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "related group",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0545f7d5-72b7-4c66-acf2-22e14562e61e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "report grouping",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4f005a0b-7e52-4cb2-8a80-92c993423e0d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the steps to set up a fee group?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8bbe236d-a34c-4e25-94c2-93d2e64848f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the steps to set up a fee group?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a3b3df74-d3f7-4cdf-a153-bf3b71517f55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is procedure for grouping client",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "23a1dc4d-8988-4969-87d8-6ea1008083b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the family linking calculator",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  } ]
+} ]

@@ -1,0 +1,142 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_pension_payment_date_test",
+  "intent_name" : "bt_pension_payment_date",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "0846fc7c-c261-4b3e-b501-2b8dfed8fcce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me when I will get my pension check",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4a97b896-fde5-454a-88e1-a16d672cb31c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How often will I getg my pension check",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "01feceb7-7529-47a4-9884-17114b8355b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How often will I receive my pension check",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1101c84f-ff02-4edd-b3a4-0c7a78edf2e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me when I will get my pension check",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "698c9419-560d-4c1c-969a-8196a7ea9837",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How often will I getg my pension check",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bbe36bc8-5f75-4a72-9625-946272e28a85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How often will I receive my pension check",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "72cb7c80-69c9-488c-afae-8562b2187fab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i please check on the next pension payment date for a client",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "785eff89-26f6-482d-97a4-15ddc2d753a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i change the date of a scheduled payment",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "71c74d66-6d6b-47f2-8963-c1c7ec7d20a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "on which date do I expect pension payment",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "18abe6db-5cc2-4e0a-a0d0-37886696a2f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "on which date do I expect pension payout",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8c86b857-ff90-42d6-977e-e383c5432c47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension payment dates",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "22691fb9-1f45-405c-b515-a2b4177d327a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension payment frequency",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "49513aa5-5b2f-4968-8dad-b2a7c383436f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what date will I receive my pension",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6619cd18-5430-44d7-a213-05a7f9989a17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what day will my pension be paid",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "30e21971-36ce-495a-bdca-4757f1f83b74",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what date will I receive my pension",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bb57d716-8557-4525-b8f7-d9c75793ad47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what day will my pension be paid",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "7eb08265-0e9d-476c-b29b-1a090e80653e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what does expected due date mean",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "6593b3b4-070b-4393-8c58-14fd18f24502",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the payout schedule for my pension payments",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6db140f6-db00-4988-99d1-b5daa72c7693",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when are pension payments made",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3454b633-af7f-4e57-8a5e-fb73c95c060f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when are pension payments paid?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9cb2c302-d94a-4c29-a840-1c8b4f361bd8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when pneison payment will be sent to client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "af950813-1416-45e1-a037-032a81bcfa8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will my pension check be deposited into my account",
+    "tags" : [ "goldset", "test_gold" ]
+  } ]
+} ]

@@ -1,0 +1,634 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_linked_account_change_test",
+  "intent_name" : "bt_linked_account_change",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "d4bd667a-b362-4bf2-9bc4-0fcb9fbca09a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a linked account my primary account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ad9ae036-1399-42d8-9b8c-0a1fdbdcfd54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change a linked account on a pension plan",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "4aa0d17b-03b0-4d15-a819-cee73156f120",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Delete Linked Account BSB 111-111 a/c 111111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b0873f04-f680-496f-9074-c6aa8750204d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a linked account my primary account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2c290ee2-df0b-4253-869d-8450fb447cc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change a linked account on a pension plan",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "4ec0fbb0-6c10-4491-bd69-5d029ac3b26d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Delete Linked Account BSB 111-111 a/c 111111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bce1f9c0-4551-422b-b207-e67304ba687d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to changed my linked account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9b43ad33-2329-440c-b1d6-df5eb2159f85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make a new account that I want to make my primary linked account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fe219c73-baff-4d30-a3d8-ec5cbb2149e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to change my primary account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5f10abf8-6bf2-4b36-b8b8-f790aa7dea8b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Please help me to change my linked account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "244bb492-1edf-4566-8c2c-20970eee4a38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account for dividend payments update",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "102eccf1-d91e-4a42-b25f-3a65c11f89aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend linked bank account in pension",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "41864f90-4a33-4abd-a82d-4d39b304413b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account details incorrect",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6fa6b4d7-f201-4c21-be78-885e1bd1fbcf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank details for withdrawal",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e2ff808f-d1be-4ff6-a4c0-7aa9c08c47d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "billers tab",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "41508a22-097f-4799-a4f5-9179525baf15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i edit my payees",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1b575ceb-dce3-4fde-8ba9-203d7fce6099",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account details where money is withdrawn to add to total",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0c955540-5651-4417-b364-3ab015a27f24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account pension payment is made too",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eb967014-eca6-42c9-bc36-a2a4f45cefec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account permissions",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b28a90a2-8dcd-4c6d-be04-6f66d1e80c97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change bank details super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ea15abc9-f24a-419e-aea8-390b67f2d3d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change clients bank account number",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "679c2c98-baa1-4da0-9730-57c030894cad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change credit card that insurance payments are charged to",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0a1a8c27-b63e-4964-b848-4623b35c2b95",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change linekd account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "119bf861-625e-47fb-bb82-5edd3d7581e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change linked account on super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e291d996-1e4e-472b-a61b-e0e4d0cdae83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change linked bank accounts",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e3753a6a-3439-491d-8764-e1818ffb5d2a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my bank account to another account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "8477be5f-920d-423f-bcb3-1c533dedac1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change nominated account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fd403371-c51d-478b-a7a6-5702d91c5d0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change nominated bank account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6ecb5a6c-3a97-417c-a919-7362c8f79341",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of bank details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "55b99c58-d7ba-44c7-be06-55c7ffbd913e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "changing bank account details for fee deduction",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "eb4d240d-7cca-40d5-8eaa-cb32d4ffa0ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend linked bank account in pension",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "93b9f94f-fed6-4916-a3f5-1868e42cf8c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account details incorrect",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9fe127e7-7cfe-4d6d-a15c-34391c7271fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank details for withdrawal",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7d284fed-2ad8-44a3-aa9f-5acc4f1d623b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "billers tab",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "08643cb0-c46b-4f79-8dcd-d69b1e0f9439",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i edit my payees",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c60c17ad-bad6-476a-834a-4d86156010a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account details where money is withdrawn to add to total",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8ce21a9c-9c70-45ad-a601-98113edeb888",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account pension payment is made too",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "562533ad-36f7-40b4-abdb-a2defed04567",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account permissions",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "aaf12b99-5dc4-4a9e-976b-6ff06e9675e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change bank details super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "724ea3e2-4ba7-4f58-b461-edd9a2946401",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change clients bank account number",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6d59be97-b030-4d93-8403-444baf9b9a4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change credit card that insurance payments are charged to",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ec0046a2-5f2c-4a2a-9946-da68af8f6b8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change linekd account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8631be69-43f1-45d2-a30c-3385a543f8e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change linked account on super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "18b8d0ec-05c4-4614-8c9a-621f5bb38371",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change linked bank accounts",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2a698dae-953e-49bc-b144-5e093a3739fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my bank account to another account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "bdb3fb34-e109-4430-860a-6d625d0e7ed8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change nominated account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5949ffb4-cdf4-4f7e-9dbb-0ce798db5810",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change nominated bank account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b2953f1a-9ced-411a-9992-ca160367ce71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of bank details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "12ab70bc-3b04-4ba9-ba88-520f812bda91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "changing bank account details for fee deduction",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "8e78e5cd-70fa-41ad-a470-01d49ef566c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend linked bank account in pension",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "76086df4-d38b-4def-bdb0-14c2389de948",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account details incorrect",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b297de29-d4e9-4881-9df4-5401c6cca356",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank details for withdrawal",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e16e4a15-7cdc-4f34-a972-07f58ced78f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "billers tab",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b34e31f5-bbca-45f6-8a60-756c07fb466a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i edit my payees",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d0814b00-23ef-424b-9dff-0c74df2592b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account details where money is withdrawn to add to total",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "12394fde-210f-4d0a-9980-ab3cfcb77720",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account pension payment is made too",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "34eaf3c0-19d0-4bc3-a4ce-e665bd06b591",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account permissions",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "5756beb8-8a02-4898-a7cc-d20f47fd1882",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change bank details super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "44b503da-3f77-4201-9ff6-a47c30ff3bf5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change clients bank account number",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a17019c7-24df-4085-907f-2b4791e4e461",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change credit card that insurance payments are charged to",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "14e15daa-d547-4e6c-b6b8-d9acf50df785",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change linekd account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2bbe8628-4859-4f58-97ac-db4f6e3b3296",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change linked account on super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "80c838cf-db50-4ec7-bd6e-01f189bb0356",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change linked bank accounts",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7f5f23b4-07a0-4f4c-9e2a-0d3cd2dce2ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my bank account to another account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "09cedf61-e7bc-4d44-b2dc-41390fc602d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change nominated account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "92618cc4-2165-4b4c-9f64-8f04ccc1bb70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change nominated bank account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eb91ecea-bfbe-4af1-91c8-56ec02e8d7ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of bank details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e600f3cf-125f-47f5-beec-ef77a9930194",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "changing bank account details for fee deduction",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "13b2a428-4562-4e6f-9129-a044bb4b61a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "delete a linked account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "be9c9aae-808d-4f27-acb9-76ef5d0c9e60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team just wanting to check how do we change a linked bank account for a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "003ba0b8-d4c8-4a5b-b929-650ef5b2a077",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team we have added a new account how do we remove the old primary bank account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2f0b94b7-6da6-4774-a45e-40293f2dd34f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can change my banking details",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "50192319-6388-4d31-bf36-ce79db86cfbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i change my scheduled payment to my priority linked bank account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "13732476-1371-4b76-b080-9ba8c6895731",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I make a change to my primary linked account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ff4711bc-74e3-483c-91b7-0ac24bc63de5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I remove a linked bank account and add another bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "56ea8d07-9ae2-4d99-89b0-63a74e02e622",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I update the linked account I have on file",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ab984a6c-768f-4f26-8f7a-bb3fe3072093",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change the bank account for a clients pension payments",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "58d8b03b-bf55-42c3-94ab-5cf3770242d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change the bank account from which my monthly payment gets deducted from",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7cd2103a-5fda-4bf7-adb6-bf389b74a25f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i remove a linked client from an smsf account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "da992a27-4d5f-46ab-a7d9-bde57f10eddb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i view linked bank account details on a super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ad715019-0903-4a05-be02-a5bab8416a44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do we remove an old bank account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4f121d9c-910e-4b69-b380-0f27620f53f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i changed my linked account to one ending in 1111 and ticked it as primary accounthowever my pension went into the old account ending in",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "43ddcad9-cf37-480e-beba-24281f65ffa1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have added a new linked account and set this to receiv pension payment i want to remove the previously used linked account can i",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ea26069a-9fcf-4580-92ac-3d49169071e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to change a linked bank account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fbf5010f-3098-436c-b557-f02f4e0f4d8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to change my bank account details where do i do this",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0a2c643d-7143-4c08-b05b-ea195dfc2a25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to update my bank details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c80ee001-a282-41e5-8bb3-8a5b43972b86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to change the bank account into which pension payments are made",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "41373203-e773-4e52-8b0c-11845497eb64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to change the pension bank account details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "101b469a-4586-4693-9081-a795e0f8ff43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to update the my bank account details",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "3d537c2f-98bf-4729-a970-d5cc381e6bd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a form to change bank account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4b3e5cad-bf4b-40db-b1b8-82725fc5de22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "morning how do i go about updating bank detail for the direct debit please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8b04df30-ef56-491b-8915-fb29ac956066",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my bank account is incorrect",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ff210d70-3a87-4ad4-9a05-505339ead5bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "our linked accounts are gone",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5a54c389-2612-42dc-b959-4d3bfd37c45e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "primary linked account change",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "546ddfee-d9cb-4e86-a7ea-68e8d9b7d4d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transaction bank account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "149b5d1a-6bc7-4984-952e-6d68524dd279",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update linked bank account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "c1c5bf1f-aef4-4908-a808-f1e2abe23418",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transaction bank account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "83877c20-e312-4bb5-875e-ec92b25f7a82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update linked bank account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "e98d9c07-3d32-4f75-963f-af18685bae66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the process to change my linked account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0360a3fe-38d9-439b-868c-a8c1da45165c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the process to remove a pay anyone bank account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "570bf4b5-e4fb-4c26-b582-b0f6499c9f98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i change my bank account details",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "abff9d68-9b11-474c-a485-3b0b7f02ead8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the clients linked back account for withdrawals",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f30e80cc-8825-4634-b60c-b55c7a15bd8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i go to change my bank account for fees",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b5579711-144b-4ea0-a71b-c780828689a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the accounts and billers tab",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

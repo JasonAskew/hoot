@@ -1,0 +1,777 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_financialplanupdate_seed",
+  "intent_name" : "bt_financialplanupdate",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "f2afdfde-99d5-4ad9-a23e-80285255b4f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me setup goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "11b96d52-63a2-401f-bedb-e1784fbc2f17",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Edit my last response",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "271e81f6-bf62-476d-8e11-b8457129a6fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Edit my last response in my financial goals?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0eef939d-d563-4a42-b4eb-73fbd38117ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create my financial goals?"
+  }, {
+    "id" : "cc5a8f00-4fec-4d1d-a077-58c9c97ba7f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create my financial objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3b832c93-be5e-408b-8bcf-aad7960640df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create my financial plan?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "44c61706-bee0-45b6-8145-fca4789c061a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create my retirement goals?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9bfa2a64-d694-486e-8f0c-7f77221cf0c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create my retirement objectives?"
+  }, {
+    "id" : "28827218-ebaf-4e2e-9063-593079f8494b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create my retirement plan?"
+  }, {
+    "id" : "0564926e-525e-4a3b-8166-42b8b9c9c855",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I define my financial goals?"
+  }, {
+    "id" : "77586894-89ab-49ca-aecf-797c8a7f9654",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I define my financial objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b1d4153e-2dda-430f-8973-8583ecdefbbd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I define my financial plan?"
+  }, {
+    "id" : "a5bd0d9e-a6d1-4bea-98f5-4d4eaf02430e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I define my retirement goals?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "eaae1628-7c93-4745-b42a-fade8c1adc57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I define my retirement objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cc0e2a54-02cb-4749-ab43-193292927e31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I define my retirement plan?"
+  }, {
+    "id" : "198e64d5-454d-497f-b074-f45bef3acb78",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set my financial goals?"
+  }, {
+    "id" : "3cae2f2a-e5c1-4810-b0b7-0ad3776479b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set my financial objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0617b6c2-d91a-418c-b386-724e6af84f1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set my financial plan?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "91af036c-3f35-4b38-82be-9876689bdbfc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set my retirement goals?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d43c63f3-42f3-4c42-9cb3-4c76e7319fe1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set my retirement objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "33f59791-f00e-4cd7-bb19-b644a97c6f79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set my retirement plan?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8dfa9797-4d82-4069-9b5b-874dd6c3623a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I specify my financial goals?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a0a5a7d3-76a7-4d22-8352-8ba6afdcf5b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I specify my financial objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f93db3a5-470c-4ccb-bb17-10e7fcf133f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I specify my financial plan?"
+  }, {
+    "id" : "fa094cd4-83fb-40eb-9106-1eb9f0746f4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I specify my retirement goals?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6cf45fd0-9e9e-4212-b5c5-ca68681b4661",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I specify my retirement objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8168d408-f613-4b9b-a70c-3e6b5afc77c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I specify my retirement plan?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8c92dd0a-6dd7-489d-a56d-c9609a7e7fec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me setup goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ba1c0ee9-4477-400b-b3d2-fd335c6d6a11",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Edit my last response",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9023c8e7-9171-43e0-bd6d-b2fad4f84b2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Edit my last response in my financial goals?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3fd8bf24-9250-4390-8965-db2368ad3565",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create my financial goals?"
+  }, {
+    "id" : "72f42bdb-6b31-4d64-92f2-71512929c4ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create my financial objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e8ac80c2-246f-4dbb-a5d9-2825e84e4762",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create my financial plan?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "12b0950a-01f6-40a7-91df-a82059453928",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create my retirement goals?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "36bb1c4e-07dc-440c-a18f-0d6901db837e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create my retirement objectives?"
+  }, {
+    "id" : "4a653137-c753-4fc1-b69f-3678cb0a98dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create my retirement plan?"
+  }, {
+    "id" : "4e2c251f-73ab-4b34-bec4-7ae75be1e6bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I define my financial goals?"
+  }, {
+    "id" : "9ffda015-5aa8-4f94-85e8-1624b985913e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I define my financial objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "707968a0-f8ae-4fe5-b685-f6af5bf25dbb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I define my financial plan?"
+  }, {
+    "id" : "bc245029-e88a-4b3f-bc87-f0a9848e0f88",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I define my retirement goals?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ae57daa3-8f80-41c6-b4e6-6753380533d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I define my retirement objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6084ab56-3bbb-4a94-9c6b-ea5542afcc0b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I define my retirement plan?"
+  }, {
+    "id" : "c74bf329-541b-4195-ae0c-9a7bee776542",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set my financial goals?"
+  }, {
+    "id" : "fd7f67bd-af76-46d6-ba0f-c06035cd757c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set my financial objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "82531f17-70d6-4f95-a44d-57cba407b963",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set my financial plan?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d1ab139b-9127-4ae9-a987-72334adeb554",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set my retirement goals?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7251bebd-8460-4aa4-90d1-aee611f0ba8b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set my retirement objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b47e598a-b45c-4cbb-a036-8663bf497eeb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I set my retirement plan?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "79865563-6781-4ccf-a6a0-7435028cccb0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I specify my financial goals?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "656dfb80-ea9d-4730-95a5-80cc52a85ace",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I specify my financial objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7a7201df-5796-432e-8608-097b556362ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I specify my financial plan?"
+  }, {
+    "id" : "f42b06ad-2529-4627-a51c-f398b609a9d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I specify my retirement goals?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "75a6d4d7-7acb-489c-b8e0-e122c3e6dff0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I specify my retirement objectives?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "58246b82-3ea5-4c45-9d87-d69ef8db413f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I specify my retirement plan?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "006764a8-d519-478a-9d28-74ec1de7d3c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to change that",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2da66baa-55a1-4cbf-bc2d-349247809e8b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to create goals"
+  }, {
+    "id" : "fca0ac42-e313-4ebc-97f1-aa2d9a523f60",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to set some goals up for retirement",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1efa4ecb-62fb-40ad-aa22-03a9c8d1efa3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to update my goals"
+  }, {
+    "id" : "18c7cc09-3d76-4961-82a2-4dd1363b061b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Wait I want go back",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "951b68e6-77ac-4175-a3ed-58106f5e5d5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i setup financial goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "41d6f58a-df9e-4af1-a250-93b4f06f10e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i setup financial goals?"
+  }, {
+    "id" : "b26fd03f-34f5-4d0d-b411-87ea3549eb8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can my goals be changed",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b1c5cfd3-6375-4d15-a45a-b3ba099823a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me with retirement planning",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4708e2a4-87ad-445f-9e11-df1a96a33679",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i setup financial goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "173227b4-7890-4f1f-b03b-b7ecc8f38ac9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i setup financial goals?"
+  }, {
+    "id" : "1ac3ebda-e36d-49b3-8bba-5cdb2807aaf9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can my goals be changed",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "40a53f09-970e-4079-8997-8bc7ff4dc8c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me with retirement planning",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6a8c2b80-f363-4849-883d-f4d3bf131e97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i setup financial goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7e2ce4dd-12e9-480c-9c29-1124c5515774",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i setup financial goals?"
+  }, {
+    "id" : "92edce32-3731-4a39-a8cb-70e67d38fa90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can my goals be changed",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5494f2a3-3227-45e9-949a-72752a86900f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me with retirement planning",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "776ab571-04c1-4ae6-989e-460618aeacb0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "create a savings goal"
+  }, {
+    "id" : "b6f20295-02cb-4a21-9564-c9071757806c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me with financial planning",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d4faf765-0666-422f-8121-86c23c9ca717",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i change my financial goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a77e191a-4d6e-4478-980e-29ae8ecd2646",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i change my financial goals?"
+  }, {
+    "id" : "895e6039-8fa0-40f2-b55f-8b67adf1bc63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i create my financial goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "16d78551-8b4f-431f-94f0-388c105bb403",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i create my financial objectives",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0c880c42-2ae1-41d8-ad81-125fc3ecbacf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i create my financial plan",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0ab40af5-7c3b-42ff-96c9-0df561b4b90e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i create my financial plans",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "72845b10-371f-459c-8e46-f8222462d4b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i create my retirement goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0f29de4f-b16f-446f-b479-a350d9d9a806",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i create my retirement objectives",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "54b30b5e-51db-46b3-8ee1-9dcf7eb49be2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i create my retirement plan",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "93542313-ef66-418f-979d-ad8ed2f9738d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i create my retirement plans",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "88b013a2-e70f-492b-b23a-031d885f893f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i define my financial goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "81542af9-bc03-4830-8a67-9ba1bcb5784f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i define my financial objectives",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2dcb1b9d-8119-491f-8ca1-4b157d49d749",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i define my financial plan",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "01547125-00df-4564-8d44-2507ec8ecfad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i define my financial plans",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "311e3277-dc70-43c1-bda1-4f96d1cf6e8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i define my retirement goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "32e83c40-bdc6-49d9-9f09-77ca685b2edd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i define my retirement objectives",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "94cad577-7dff-4696-b98c-f1c0b5c200f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i define my retirement plan",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4d724c16-33be-4abb-a86f-3ead39f7d01f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i define my retirement plans",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b78e5a34-46dc-4f48-86b6-5756caec43f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i go about changing my financial goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "db1e2a2d-0bd9-4f13-80b6-cd9c0c8918ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i set my financial goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "51006a63-ef9e-45da-9e0a-e9aeb0ca2d7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i set my financial objectives",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1884fe33-7b5d-49f6-bef0-da17ce6d1681",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i set my financial plan",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "bdd486d8-08a3-4402-b13c-67a03b177ff1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i set my financial plans",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ec11c2f8-309c-439f-8d52-e8035d113a20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i set my retirement goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e2267676-03e6-4f60-ab15-795d5c54d3e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i set my retirement objectives",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4d61f8ae-1fc2-49cc-947b-f2f40e1342a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i set my retirement plan",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "53931382-fd48-4fc1-a5dd-1d4b7eb6bbfd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i set my retirement plans",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e3c00754-f4ec-4d85-a9e1-fe701ffae2a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i specify my financial goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b87af5d1-3319-45fa-a32e-0ed1550b9369",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i specify my financial objectives",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "69601fb4-464d-45fd-a0f4-13df6aaa4896",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i specify my financial plan",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b55509cd-204a-43c9-8edf-eb49d5099c53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i specify my financial plans",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5b89be87-15d4-410e-869c-2329b80cbfde",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i specify my retirement goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8378f259-7543-4909-81fe-4dbbdfc062b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i specify my retirement objectives",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1af97025-7e37-4d32-8abb-54fc71851f4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i specify my retirement plan",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fbea9261-1c7a-4d7c-a091-891f5cb9df70",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i specify my retirement plans",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ea890c61-7780-4d98-850d-d20563315131",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i update my financial goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "68279701-772c-4663-91cb-6cf392baa28e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i update my financial objectives",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "dcd1210f-b9dd-4593-9a66-df2fb6bf6fae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i update my financial plans",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b75c21b5-4db4-4966-9e04-901bdc6e9059",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i update my retirement goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8af63cf2-3d19-483f-b347-0ba32e4220d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i update my retirement objectives",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7f416501-8749-403c-9c47-2c8222f1582f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i update my retirement plans",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e9db473c-cc04-49f6-9f8f-f738ab3a645b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i am going to buy a new home, will this affect my goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f42b1bd1-6b51-4ba3-8f19-5d182bce8bab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i am going to get a new house, how will this impact my goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "859bc388-0344-4572-86a0-f228aa8cd4f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i am no longer saving for college",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "bef79c72-1c47-48ed-a8cf-c77e55dca510",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i am not interested in buying a home anymore",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c4e61df0-f188-418e-91a7-a0495a7f4d9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i have a child now and would like to set up some financial goals to cover education costs",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2b1b772e-f817-4380-8272-da4a4e0b0aa9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need to change my retirement goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "01fcf505-938f-40ee-abce-a61a9220c214",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i set up my goals but now i want to change them",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6d3f293a-9146-4583-9a7a-97083606e22a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to change my financial goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "12fff42c-1087-407e-a141-e632c7c9811b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to check my investment goals"
+  }, {
+    "id" : "88ba901b-ec7c-4265-984a-e41d225d7c5b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to make some updates to my retirement goals",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "79b458b6-da3c-44c2-b0e3-a8d03bdd956e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to plan for another house",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "28aa883d-fb61-4dcf-9f90-4d2eeb9ed6fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to setup a financial plan",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "80c76026-28c6-4eb1-943f-dddd5834d0fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to start saving for my kids' education",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "83dccbc1-2687-485a-a6d2-caa16b3ffca5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like to change a life goal",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b5c7db28-9285-4550-a9ab-3d5a2456bf7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "inquiry about goals"
+  }, {
+    "id" : "1ec6d309-cff3-468a-b138-667e37adcc10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my retirement plans have changed",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cfe2fb96-8e3f-4686-8bf4-b0ebe4c3b8c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to start saving for my kids education",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a56cc060-366d-4e52-b201-7ff5af2ecfd4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "id like to change a life goal",
+    "tags" : [ "happy" ]
+  } ]
+} ]

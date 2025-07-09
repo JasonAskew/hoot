@@ -1,17 +1,27 @@
 {
-  "name" : "Message-Un-Implemented-Intent",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Oops. I'm always learning, but I can't help with that.",
-        "alternatives" : [ "For now, I can't help with that. But I'm always learning.", "Can't help with that, though I'm always learning.", "I'm sorry. That's not in my bag of tricks. Try me again.", "I'm still learning, and that one's over my head. Apologies." ]
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Oops. I'm always learning, but I can't help with that.",
+          "alternatives": [
+            "For now, I can't help with that. But I'm always learning.",
+            "Can't help with that, though I'm always learning.",
+            "I'm sorry. That's not in my bag of tricks. Try me again.",
+            "I'm still learning, and that one's over my head. Apologies."
+          ]
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Message-Un-Implemented-Intent"
 }

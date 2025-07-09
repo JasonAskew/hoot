@@ -1,0 +1,517 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_edit_tfn_seed",
+  "intent_name" : "bt_edit_tfn",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "b7a7d1f6-393e-4e85-b1f0-60e0433f62f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Add TFN for my client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "85491084-0da0-409c-96fd-a8d98bc7297d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I add this client's tax file number?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "55c484bc-d37d-4d18-8340-59e724780cc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend the TFN on behalf of a client",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "aff0f4ec-3cd4-408a-b2f8-834e40adf981",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I give you a TFN for a client's account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "944036fc-fcd8-4431-8e76-2424dd4075a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I put in the client's tax file number over the desktop?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "8db9db88-d286-4e05-a126-1b12ca9fbd45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update my client's tax file number?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "d875499b-0b5b-403e-b5d3-780ba4e15870",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update my tax file number?"
+  }, {
+    "id" : "6474022c-e40b-4fda-af84-f9608c693887",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I upload my TFN?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "f4a925eb-44f8-4d8e-a83f-cf4cb767b322",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you add your TFN online?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "b42a2de1-a666-4af7-9ea3-6fda28153059",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the client need to confirm the TFN on file or can I?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "2f45337b-b881-4a83-b13f-3f41274eaa56",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me change a client's TFN",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "8fa85ad6-65dc-4b5d-a412-7672ba38e90b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I add my TFN?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "59575b02-3348-43ab-b618-d38f9da38b82",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I quote my TFN?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ae5db7aa-78e3-495d-8215-cd8dd5cb7244",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add TFN for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "9193c83c-d2c7-4372-b927-1f4559bea0c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add my TFN?"
+  }, {
+    "id" : "cf7811cb-1326-4e9c-a27d-9ccdab2b9447",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add my client's TFN?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "9e94bbd4-b970-45a8-9a27-3513d6495d54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I amend the client's tax file number?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "c14296ae-3fcf-40ba-84bc-0c41017571ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change TFN for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "388a4b30-7f8a-4ac6-9535-12a73de3d6b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my TFN?"
+  }, {
+    "id" : "eb9d46ac-7573-4401-8ac9-f5a9d1fc063c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my client's TFN?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "03766e9c-fbc1-4b55-bb20-569afc51d2a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Add TFN for my client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "fd59327c-76ce-4de3-b88c-28439ff431a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I add this client's tax file number?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "9983d42f-0396-4f2c-92f3-5fa77f116a5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend the TFN on behalf of a client",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "db8fb2ba-fa51-4200-baf4-6b892b9a21ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I give you a TFN for a client's account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "02d0d3aa-fed0-4921-8437-85f0eaf02374",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I put in the client's tax file number over the desktop?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "98909827-6200-4802-9473-a15b7e5d9a6e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update my client's tax file number?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "40fc22df-1f0f-4d2d-b395-62651abf4b04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update my tax file number?"
+  }, {
+    "id" : "aea689c1-f983-4783-9801-d80387fa6e16",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I upload my TFN?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5d0244c1-5cea-4c62-957a-17ba2a37bfe9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you add your TFN online?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "b581daf2-2eb4-41db-9b36-97613fae9b40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the client need to confirm the TFN on file or can I?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "26f49d95-fd1f-47e1-b88d-d84fe4b61ed1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me change a client's TFN",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "c6729600-7119-4acc-9e0e-eaddfd2a7a05",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I add my TFN?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5c37dc93-cc96-4198-9a49-a792ea7a4ce5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I quote my TFN?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "657591ed-0742-4a25-887c-998e1f75c166",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add TFN for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "1562f4ad-0d05-4a7b-8dbc-20d357c602ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add my TFN?"
+  }, {
+    "id" : "e7d6af31-c14d-4c7c-baf6-10b511c2ff94",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add my client's TFN?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "18ea62e4-b22b-4f7b-9150-4e91abc8297b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I amend the client's tax file number?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "96794361-e00a-471e-90be-03870ed9e8d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change TFN for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "758a4c62-f399-49fa-8848-9d92beda74e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my TFN?"
+  }, {
+    "id" : "484b43de-1441-4b8b-914f-e47eb3a42919",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my client's TFN?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ea4f3f64-4e42-48d4-8b78-707fe34e756b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to add my TFN.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "d87484be-a0d9-4bb0-8dab-99fe842c63fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to add the tax file number for a client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "4d2404f7-1e45-425d-906d-f3b6c5eb19a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to quote my TFN.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "abbab179-d54b-43f0-94d4-dfb9f5f0fd1b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to add my Tax File Number to my account.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "7c6d3b88-af89-4660-8ef9-e07ad51a0ab1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to change the TFN on an account?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "b502c241-1aee-4a18-9a7c-e87f16fa45f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to update my TFN.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "0abab489-7636-461b-9df1-5f2b8dfc123a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to upload my TFN.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "a48ec52e-66b4-421b-9a26-9def24d2ef1b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I wish to quote my TFN.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "286e5bfd-5d1d-4238-b094-72e6bb2495e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to quote my TFN.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "a1cce1d4-ac73-40bd-9465-f2abf0cfd0b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to have the client's TFN recored please",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "8107da62-9c21-44cd-b84e-655b0de24146",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible to update my TFN?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "cbde5f2b-4c36-43f6-81ce-e466102db29d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way for me to put my TFN on my account?"
+  }, {
+    "id" : "e626d76a-21e4-446c-9e3e-5aaea7714a41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way for me to put my client TFN on my account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "d49e97e0-cca8-41c3-b235-23c28578008f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My TFN needs to be updated, where abouts is this?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "67915155-3e13-4d32-b0ed-b3517c905706",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me where to go for adding a tax file number",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a428b6c9-5dba-43a1-92d2-76b5c155cde6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Update TFN for my client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "6e53e7df-8576-4e3c-8b54-eb554e884e3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Update my TFN.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "37fb89a7-3a7c-421f-8592-ad620293ce9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where abouts would I add my TFN?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "df6a279c-0890-4de1-a45e-46067e3875e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where are the tfns listed?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "37c95580-0553-4dd5-ac39-02e79d248084",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I add my client's tax file number?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "42812e2e-d27a-422b-8456-98e2817b9b7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I add my tax file number?"
+  }, {
+    "id" : "d3151ae1-cec7-4b1d-ab3e-8e8c5b65b68c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go to upload my TFN?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "8b8453d4-51ce-41b6-a06f-198e3c91971e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I upload TFN?"
+  }, {
+    "id" : "eddc6d1a-068d-42c1-b524-13d78db01391",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can upload a tfn for my client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "7c50058f-b234-4166-b5e8-25ac21adb442",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I add my TFN?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "18f09b6a-849c-4d46-8f5f-df7889a20e90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to amend a client's tax file number",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "b2335bba-e867-4c0d-835b-99472b205b9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to record a client's TFN?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "31120228-8bca-4a88-9a52-d321fecde639",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to update my TFN?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "a5982c31-de1a-4f08-81a9-801669b3c80d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are we able to add a tax file number for a client online?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "705ae517-1637-4130-959f-c703fe0039e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change of tax file number",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "45a25c07-6b7f-4285-9324-28afd062bac2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are we able to add a tax file number for a client online?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b905c4d4-aebc-4233-965d-9aa4e148a8e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change of tax file number",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "ab1d0b51-0c29-4bf9-98ad-7a1f9b91f1bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are we able to add a tax file number for a client online?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "96b629f6-2c45-407f-bad7-1e4aefece138",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change of tax file number",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "44b24781-dd54-4777-bad5-05e47208ee9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me change a clients TFN",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "4d7d97e8-7a14-4191-b7d8-1daa8ab7f581",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to amend a clients tax file number",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "612e529d-2fac-4475-82a4-2a3c417c1892",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add my clients TFN?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "3698f9df-bef4-47ed-9406-1125fb5084c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I add this clients tax file number?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e0b52f71-4abf-40ed-a834-f65b773a05f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to record a clients TFN?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b40ee9f7-4d74-48c5-92f8-cb7634a4bdd0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I give you a TFN for a clients account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a0032854-5020-4d3e-a772-e5374916f7d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update my clients tax file number?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "4d2b18b3-21ab-4079-8e4a-f5c371357245",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Id like to have the clients TFN recored please",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ef3fefcd-bc3d-4c7c-82c1-942170e3d492",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I put in the clients tax file number over the desktop?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "cb1eb073-6e21-4f3b-8271-e309242ba485",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my clients TFN?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c993d9e8-a41f-4166-a646-e5f56883963a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I add my clients tax file number?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "2097dd6e-107a-4aab-8547-6013c33dff0e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I amend the clients tax file number?",
+    "tags" : [ "btmarchseeds" ]
+  } ]
+} ]

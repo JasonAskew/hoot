@@ -1,0 +1,358 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "46_depositprocesstime_s_test",
+  "intent_name" : "46_DepositProcessTime_S",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "f1c2102a-0dce-4f24-9bcd-5957a1a82cb1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cash payment made to a priority acct . How long till funds clear",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "d2d8ddfb-7c0d-45eb-b8e0-9c00570eba54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does a priority payment usually take for the funds to clear",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "0f9baa4a-e8d1-4166-8d36-926f054c8fc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take after I deposit cash for it to be credited to my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "69bd1ee2-0ae4-4c76-a26d-a77196dfd802",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for funds to clear when making a cash payment to a priority acct",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "19363764-0a47-4321-a2de-6507c53056e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much time will take for credit check to my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3c90ce4b-f9b1-4e34-ac5c-b9f99047c213",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How soon after I make a deposit will the funds be credited to my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9771502f-3624-43c2-8366-dc2bd938c596",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How soon after making a deposit will I be able to use that money?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2aa4ed4a-6e76-4d2b-bf7e-f5b95baa6d32",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cash payment made to a priority acct . How long till funds clear",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "38530ce0-2046-4c58-9efc-c1e2405a0883",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does a priority payment usually take for the funds to clear",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2739325c-ea34-4fb7-b1e6-f2560787227b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take after I deposit cash for it to be credited to my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "26787a52-e041-40ea-8be4-db64f61fc68d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for funds to clear when making a cash payment to a priority acct",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2bf9a296-d8fc-45a6-853e-7a3292d5a426",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much time will take for credit check to my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "150866d9-37fd-4fb2-a572-c6aa41547e89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How soon after I make a deposit will the funds be credited to my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "362e737f-b62e-465e-9565-7580acaab6e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How soon after making a deposit will I be able to use that money?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a431b21c-3acf-4248-9c8d-488977556209",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have made a transfer from other accounts to my account how much time will take to deposit in my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b63ddb6d-1579-46bd-aac7-852323c792a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I just want to find out how much time will it take to credit into my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "69c14f07-9ffd-4fc8-852d-8c85b8543aae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I just want to know the cash when it will be on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7ba51e52-81ba-4f46-8e39-3fa734c09dd1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know. that how. much time. it take to deposit from international transfer",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "79d9a7b7-ebe4-4933-ab50-1af7dc36f5b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Insurance cover deposited but not showing up in BT web page",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "bb587550-173e-47a7-8795-fa6f59bef07b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "No how long till funds clear",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "853aefe2-5314-4cf0-a897-09d2424ec37c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Or when is my fund gonna be available to cash",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "60bf3229-7091-462c-abfa-4d11f680cf62",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Priority Payments how long till funds clear",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "36fbb5ac-343f-40ab-b2ce-fbcf74afb4e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What time tomorrow with my mobile deposit be available for withdrawal",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e6f32366-77a8-4e4c-aa25-6ae434674ec0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When do deposits become available",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7473cb5a-c2e5-46d8-b653-314aac03c8d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When is the money available after a deposit",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "80b73cb7-c743-47bf-8378-97c37681cb52",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my deposit be available?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d8c0e990-c9d1-4fd9-ba67-3a8e49affb05",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise how long it usually takes that bt transfers super into new fund that i just opened",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "438910cd-ff72-4a99-bf73-d4f663bdcce8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise how long it usually takes that bt transfers super into new fund that i just opened",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "84574940-2738-4850-a5ae-0582695acf7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise how long it usually takes that bt transfers super into new fund that i just opened",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "30b8fb71-14a8-48d4-a5ba-97d28628764c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have not received remittance for contribution to the super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3e56d6d8-8fd0-489e-aaea-8612969e8479",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i deposited 11 111 $ into my account in june 1111 and it is not showing up in my balance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b3b356b0-7a79-40eb-98a0-5fbce0983731",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - can you please tell me why funds transferred into a panorama account via bpay are treated as uncleared funds and how long does",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "becf7f2b-5fdd-43fd-b49f-187680a3810d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i made 1 x 11111 transfers from this account to my super - i can see the deduction go out but not the money",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "53e68d62-f80a-44c4-802b-654298e9fa00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi just wondering what the general time frame is for a deposited amount to clear into an account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a98aa9db-f768-4e5a-9bdf-fb559e38e04e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi my friend deposit in my account but how long will it takes",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "05618737-03bc-4789-b6d2-0d286a8c3a88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a deposit from a linked account take",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9f69a585-4c91-4812-9ef5-eb9fc592e4db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for a contribution to show in my account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ec0d8c1-9b24-4acd-8635-197cda7e360d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much time it take for credit money in my card",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "160b5f2a-7b2e-42f9-8204-1a29058ba01f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i created bt investment account yesterday and transferred money from my westpac account but the amount is not recognized in this system at all could",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ead913ac-fc18-4524-906d-4210f597ed15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i deposited into bt panorma how long does it take to show up in the balance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ae58a2f-d62c-4c16-aa50-75259e95f494",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did an online transfer how much time until the transfer is deposited to bt account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "26b057e0-5776-4daa-a155-1830d44b4f1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not know why i can not see the payment made by my employer on my super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9cce2ced-23de-425d-b7b1-c2292efeaa7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i just want to know when can the amount be credited to my acc",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e6a5116c-38e4-44f8-a64b-67b59416bb6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i made a $111K transfer to another account yesterday and it is yet to appear on my statement and or into the other account. Can you advise why",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "432e068a-4cd2-49e4-9be3-e9840d3bd2c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i made a transcation on sunday to my westpacaccount can yo let me know wwhen it will be deposited",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ea4f8fe9-1570-40ea-a9dd-1143e78d1300",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i transferred 111 $ on my westpac app to my invest portfolio linked but i do not see the money",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "71f51043-c44e-4b38-8652-2ee59b8f3776",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "made deposit and no money available why?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4f96277c-e79a-423c-b11b-1d7b10950d3a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "mobile deposits when will my funds be available",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7e30db1c-ed13-47f2-a7da-df78292564ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my deposit has not showed up in my",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "efeb736e-ccfa-493c-9a2c-db85ea7267f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "okay. when do you think it will be available",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "f7f1fb14-6f92-4d07-9d5b-f66ba2ae7e96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "on 11 november i added 111111.11 $ to this super account but the addition is not reflected in the balance showing why not",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "04b50b32-142e-48d3-bf0f-c93f98d184cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the 1 cent deposit does not show on my ac",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "fd110241-22b4-4b44-a444-be2996ebf219",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the 1 cent deposit does not show on my ac",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "f8d75f60-b953-4e25-b6ac-35e7aff1fad1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when is the fund available after using a deposit machine",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1dfd2ca7-b315-4ccf-974e-fcdb9f405c27",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will amount deposited be available",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e2ae603d-65f7-498b-a491-22ae09a89c40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will fund be available if the cheque is deposited yesterday at 1 pm?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c90817c5-fa8e-47ee-b5d1-8c941d91666e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will my deposit be available",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "bff74e4a-d671-423f-9506-6eba7a06255e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will my deposit show up",
+    "tags" : [ "platset", "test_gold" ]
+  } ]
+} ]

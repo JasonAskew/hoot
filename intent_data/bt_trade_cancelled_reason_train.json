@@ -1,0 +1,747 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_trade_cancelled_reason_train",
+  "intent_name" : "bt_trade_cancelled_reason",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "9f035b4d-8207-44d6-88f6-4c5da69783e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "1 Orders for WBC shares have failed. Why?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "84f575b4-c2d0-4a3e-8d2e-2b99fc839343",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 orders for wbc shares have failed why"
+  }, {
+    "id" : "e5c4b7ab-3aa3-4793-9489-7003d28d8a59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you let me know why my trade was cancelled?"
+  }, {
+    "id" : "971113f2-64ae-45f5-a1ba-621e06d62c63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you see why my trade was not accepted?"
+  }, {
+    "id" : "13dd523e-dee2-4835-9c1b-814e48ee7615",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the reason why this trade was cancelled?"
+  }, {
+    "id" : "45fb40ab-8f7d-45d0-bb0f-81101417c1ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why a trade I made was cancelled?"
+  }, {
+    "id" : "6780c088-39b8-4c4b-92df-46ad49e64c66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why a trade was cancelled?"
+  }, {
+    "id" : "4b928b9b-74a5-41d8-888a-362966a2616e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my share trade was cancelled?"
+  }, {
+    "id" : "345b6e14-361a-4258-b4b0-67cbfeffd05e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my trade may have been cancelled?"
+  }, {
+    "id" : "2eeae8a6-41dc-4898-9989-734d119ae07f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my trade was canceled?"
+  }, {
+    "id" : "e6faa928-f2e3-4636-a114-1e1e0e93444f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my trade was cancelled?"
+  }, {
+    "id" : "592946bb-d7de-45ce-b83f-8dc8f72c9a27",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my trade would have been cancelled?"
+  }, {
+    "id" : "636a01ad-0bbc-4499-8740-4d80781e78cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why the trade cancelled?"
+  }, {
+    "id" : "db260f88-6eaf-4581-b6d0-04852003b441",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why this trade was cancelled?"
+  }, {
+    "id" : "60e964e8-55c7-4c0d-adb9-84e2a8c87569",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why you cancelled my trade?"
+  }, {
+    "id" : "64282d6e-e3ae-4b91-ae9b-eae96a877d76",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me why my trade has been cancelled?"
+  }, {
+    "id" : "a837e4c8-a257-442f-a9d7-99e5ba424fd8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain the reasoning behind the cancelled trade"
+  }, {
+    "id" : "c3c9dc3d-ff06-4721-ab02-f1e355ecc4c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain the reasoning behind the trade being cancelled."
+  }, {
+    "id" : "777bf029-07ce-4cf8-b481-9eada96642d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain to me why the trade was cancelled"
+  }, {
+    "id" : "088fec3e-c92a-4932-a500-dd19e3643bb8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain trade cancellation"
+  }, {
+    "id" : "c26abd1c-7bda-434c-9ea7-37df37b4724d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain why this trade was cancelled?"
+  }, {
+    "id" : "2170f199-1abb-4188-8e0b-5cb80da8fa2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello, my trade was cancelled, can you check on why it is so"
+  }, {
+    "id" : "6586155c-0c4a-450f-8a41-ecd0dc3bb8af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check why my trade was cancelled"
+  }, {
+    "id" : "79f921cc-5e79-43a3-86c5-af5a85d45bac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find out why a trade I made was cancelled?"
+  }, {
+    "id" : "4db44ace-589c-424f-bd6e-c7c0c813db0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How come this trade was cancelled"
+  }, {
+    "id" : "b133bbe0-90c2-4a5c-a535-052209e03f4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check the reason why my trade was cancelled?"
+  }, {
+    "id" : "ff148699-1370-4e7c-ad38-2b9a5818c464",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How has my share trade been cancelled?"
+  }, {
+    "id" : "76d61994-4a5d-432c-9443-b513c7da9862",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How was the trade cancelled?"
+  }, {
+    "id" : "2bb5966d-4e3a-40a1-abcf-872576402201",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How will I know my trade share has been cancelled?"
+  }, {
+    "id" : "ed66df41-d3bc-4758-a30e-37a319e1807d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't get why this trade was cancelled"
+  }, {
+    "id" : "cfca8052-400e-4887-be30-5ef84a77bc1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't understand why the trade didn't go through?"
+  }, {
+    "id" : "af14853e-b5ca-4374-8ad1-23cf731ae22a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "1 Orders for WBC shares have failed. Why?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "2d577d83-aa02-40ce-82e6-97762b74453d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 orders for wbc shares have failed why"
+  }, {
+    "id" : "50ef0649-8e06-4253-a697-ed14117ea0d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you let me know why my trade was cancelled?"
+  }, {
+    "id" : "ae0d37e7-d430-4761-8551-e22cc1957877",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you see why my trade was not accepted?"
+  }, {
+    "id" : "4a3c100d-1118-4433-8ee0-4935bc5e060a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the reason why this trade was cancelled?"
+  }, {
+    "id" : "7c98adab-1cc2-44f5-a15c-e1cca5ff868a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why a trade I made was cancelled?"
+  }, {
+    "id" : "088157a5-43e5-4c3d-83f0-b20fc29cde9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why a trade was cancelled?"
+  }, {
+    "id" : "cb7e09c7-379f-43ea-8abd-47e9605976b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my share trade was cancelled?"
+  }, {
+    "id" : "3c9e653d-d166-4bd1-a9cc-2f1a4e4b951b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my trade may have been cancelled?"
+  }, {
+    "id" : "5569d6f9-39e8-4fba-8ad4-cbb2cb3bd0a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my trade was canceled?"
+  }, {
+    "id" : "4a993372-76e9-4376-b81f-93dab10b5e7d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my trade was cancelled?"
+  }, {
+    "id" : "dcd5e78c-6294-4965-a1d7-d8f042ba2ba9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my trade would have been cancelled?"
+  }, {
+    "id" : "1231bdf8-b7da-4980-ab69-144bcdf48273",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why the trade cancelled?"
+  }, {
+    "id" : "557d61f4-3020-41c4-9959-4fdbd08a4593",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why this trade was cancelled?"
+  }, {
+    "id" : "595e56be-9c5d-4e22-a416-c96af86fb2d0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why you cancelled my trade?"
+  }, {
+    "id" : "a0e6de1c-7a6a-4091-a098-aca488924110",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me why my trade has been cancelled?"
+  }, {
+    "id" : "25fa9a98-a276-4981-90c3-596948125dfe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain the reasoning behind the cancelled trade"
+  }, {
+    "id" : "24553735-b082-4a80-ac9b-abfd26303a60",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain the reasoning behind the trade being cancelled."
+  }, {
+    "id" : "ab5ab2a3-8a16-4b56-ad6e-f5a85e8ad708",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain to me why the trade was cancelled"
+  }, {
+    "id" : "b2a7083c-c1ce-4f86-89e4-a6d7085a2c9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain trade cancellation"
+  }, {
+    "id" : "4715d187-031e-4520-8e16-d2f6e909f67b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain why this trade was cancelled?"
+  }, {
+    "id" : "5c7be18b-d225-4348-8fcc-94b2bf48c182",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello, my trade was cancelled, can you check on why it is so"
+  }, {
+    "id" : "b4ed0dfd-6c89-4f38-97b2-a9f150fa582f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check why my trade was cancelled"
+  }, {
+    "id" : "4fca03c2-b2ca-4878-91fd-7dd1e85558fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find out why a trade I made was cancelled?"
+  }, {
+    "id" : "82db91ee-9baa-46f0-bda3-2736d6224587",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How come this trade was cancelled"
+  }, {
+    "id" : "5509374d-4ebd-44c1-821b-67335dbe7ece",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check the reason why my trade was cancelled?"
+  }, {
+    "id" : "8755cd7f-d3fe-4555-9091-a5965df60030",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How has my share trade been cancelled?"
+  }, {
+    "id" : "ea649661-11a7-4294-8a6f-0030555900bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How was the trade cancelled?"
+  }, {
+    "id" : "2c8c5a8a-04d7-428d-8be6-62a199d1723b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How will I know my trade share has been cancelled?"
+  }, {
+    "id" : "55ba0eb4-3b0c-456e-89d0-1a05ff710f23",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't get why this trade was cancelled"
+  }, {
+    "id" : "ad4aadfc-887b-4fe1-ae42-2b17607fbb3a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't understand why the trade didn't go through?"
+  }, {
+    "id" : "c2f289cc-5803-46ee-a4b6-93804b41927a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to find out why this trade was cancelled"
+  }, {
+    "id" : "ad140876-0150-443d-9243-ea82e81bdad4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know how the trade got cancelled"
+  }, {
+    "id" : "b0a048de-5d41-400a-8df9-3ca2047a25e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know why my trade was cancelled?"
+  }, {
+    "id" : "1ee84edf-443e-4908-ba7e-7cff3cb343d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know why the trade was cancelled."
+  }, {
+    "id" : "7ade2c34-123d-4354-983f-21ceb8d7c1aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like an explanation for the cancellation of my trade"
+  }, {
+    "id" : "41f52d9e-85c4-4fb3-a87b-60ee5a2276ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to know the reason for my share trade cancellation."
+  }, {
+    "id" : "7188ff4f-9d4d-47ac-923b-f00c3785473b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'm trying to fugure out why my trade was cancelled, can you help?"
+  }, {
+    "id" : "9601020f-6963-464e-8b02-49226a5a198a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My trade got cancelled and I was wondering what the reason is."
+  }, {
+    "id" : "4ad3ec5f-0d66-423a-9965-5f007ea463a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My trade shares have been canceled, why?"
+  }, {
+    "id" : "7b56b015-4ccc-4f17-b11d-49d469ac282d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My trade was cancelled, can you check on why it is so?"
+  }, {
+    "id" : "a8cba1ba-e345-4ce3-a22e-09bc8c4da2c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Please tell me why this trade of mine was cancelled?"
+  }, {
+    "id" : "f97b6fac-210d-4104-923a-bbdff8f725e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Regarding this trade, why was it cancelled?"
+  }, {
+    "id" : "d60f85a6-a04a-4d29-9c33-73bc5f25c298",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Shall I know why my share trade cancelled?"
+  }, {
+    "id" : "f8b504db-9a88-41f6-bd51-2cd0e05639bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me the reason why my trade was cancelled."
+  }, {
+    "id" : "84d3f2e9-6387-478d-bed3-6ad8cae841ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me why my trade has been cancelled"
+  }, {
+    "id" : "6db2023f-6c2c-4626-b5c8-1b301d9e7f09",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me why the trade was cancelled."
+  }, {
+    "id" : "f1b892bd-33ac-4567-86eb-6d90e918f7f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me why this trade was cancelled"
+  }, {
+    "id" : "015431bd-9284-42d1-b3b7-075ef7507f80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The share trade been cancelled"
+  }, {
+    "id" : "8968b59d-5a73-47d5-8315-105480d50678",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The trade I just initiated was cancelled and I need to know why"
+  }, {
+    "id" : "aba913d4-9a9c-46d5-a2a0-08b251585f54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The trade was cancelled"
+  }, {
+    "id" : "3c8aea08-7901-4065-bafb-c9996378c98d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The trade was cancelled, what went wrong?"
+  }, {
+    "id" : "9c682d10-289d-4063-8348-634d9cf78df2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What caused the cancellation of the trade?"
+  }, {
+    "id" : "9e9de7b5-47fc-41c7-b5e8-445259cfb5b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What happened to my share trade, why cancelled?"
+  }, {
+    "id" : "5a5437ee-99a4-4f70-9e3b-3b73142ff6c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the reason my last trade got cancelled?"
+  }, {
+    "id" : "969cad0e-0482-431d-a9f3-082bb1ca9bfe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the reason my trade didn't go through?"
+  }, {
+    "id" : "6059bf4f-1567-4671-8e24-784df4c4884d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the reason this trade was cancelled?"
+  }, {
+    "id" : "da14c851-7f82-48f8-8d84-6a88d22a77d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to find out why my trade has been cancelled?"
+  }, {
+    "id" : "6da195ca-a302-4104-a269-da6e90d92f10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do i find out why my trade was cancelled?"
+  }, {
+    "id" : "4f3dba26-1901-4ea7-abfc-504f6199d14d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why did my trade get cancelled"
+  }, {
+    "id" : "df3ccc26-e5c6-4763-a897-fb61be9d2e53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why did the trade get cancelled?"
+  }, {
+    "id" : "2cb72f2c-c5d2-46e2-973d-edd8ba2ee91a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why did you cancel my trade"
+  }, {
+    "id" : "856ba479-b814-429c-93ab-c932890e0272",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why has my share trade been cancelled?"
+  }, {
+    "id" : "d9f92d04-4ee0-49ba-9f5f-ffd37eaab886",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why has my trade been cancelled?"
+  }, {
+    "id" : "3de77244-1796-40b6-9756-11b610e66f9e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my share trade cancelled?"
+  }, {
+    "id" : "9a01eb8c-8232-4766-bcc0-0202bbed3345",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why was my share trade cancelled?"
+  }, {
+    "id" : "3c788948-859d-461a-ad4a-f7d50d7ceaf0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why was my trade canceled?"
+  }, {
+    "id" : "9c27a7d7-4a94-4f82-a4a2-a20ae98cfd0b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why was my trade failed?"
+  }, {
+    "id" : "c9118e47-eb81-42cf-9169-44d518da0847",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why was the trade canceled?"
+  }, {
+    "id" : "24aee3dd-dcfd-49d0-aace-c9a4434abd23",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why was the trade denied."
+  }, {
+    "id" : "cef2af40-bdbb-4fef-a378-101d7689e6ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why was this trade not accepted?"
+  }, {
+    "id" : "68ccdff6-f1bc-4aef-b1c6-cd302686a798",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why would a trade be canceled?"
+  }, {
+    "id" : "3b666860-c6ca-42e8-bc38-266bf74f8856",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any note/reason about my cancelled trade?"
+  }, {
+    "id" : "1b814c4f-c436-4528-904b-15ab230b6d68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any reason why my my trade was cancelled?"
+  }, {
+    "id" : "5d5fd76d-843b-4d5d-b756-066e56b422e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me why my trade cancelled?"
+  }, {
+    "id" : "bdeea155-5095-4763-8b22-a0af2bdd29ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cannot order any trade, all cancelled"
+  }, {
+    "id" : "d3a23b89-2bfe-4167-995a-896c2abde8ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any note/reason about my cancelled trade?"
+  }, {
+    "id" : "be64391f-195e-46e1-b909-8bf580566dd1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any reason why my my trade was cancelled?"
+  }, {
+    "id" : "516e6e24-fa0c-4b0e-81b8-127346d05972",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me why my trade cancelled?"
+  }, {
+    "id" : "1346e937-8061-43b9-a7a9-3541e21633d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cannot order any trade, all cancelled"
+  }, {
+    "id" : "263187e0-d811-47ae-b74f-917bce4d1f90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any note/reason about my cancelled trade?"
+  }, {
+    "id" : "51401437-e19b-4473-bdf7-c71e30587a9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any reason why my my trade was cancelled?"
+  }, {
+    "id" : "f7611377-0506-4861-b572-b72ee4da53b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me why my trade cancelled?"
+  }, {
+    "id" : "da0e827a-6c66-45d0-bc04-bf382ca9e0ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cannot order any trade, all cancelled"
+  }, {
+    "id" : "e009d32a-0d8d-41a6-9005-9647a390c5e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "for what reason was the trade cancelled."
+  }, {
+    "id" : "ca6ad55c-ff8a-4740-b160-468467a9b1d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i check why my trade was cancelled? please."
+  }, {
+    "id" : "4c5d73b0-590b-479c-8be6-c60bd9fb9222",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need details as to why my trade was cancelled"
+  }, {
+    "id" : "4b281c8a-1916-4798-bfde-cddfea64e332",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my share order was cancelled, why that happened?"
+  }, {
+    "id" : "4159a2a2-9916-4382-911b-6ddcef1ec029",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my trade suddenly got cancelled"
+  }, {
+    "id" : "22c9aef6-6e99-42ec-a9d2-28d3857d9a75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my trade was cancelled, can you check on why it is so"
+  }, {
+    "id" : "a511df79-a7cc-4456-96ba-527c522e65be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my trade was cancelled, help me please?"
+  }, {
+    "id" : "889aa8de-c758-4ac0-95aa-237fae7a7fcf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my trade was stopped, why?"
+  }, {
+    "id" : "541c64c8-a088-414b-ab03-88bf671b417c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "reason for my cancelled order please"
+  }, {
+    "id" : "8c0d77b6-5e21-437e-b0e7-283420b6537e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "reason why my trade was cancelled?"
+  }, {
+    "id" : "220c20cd-ac40-4737-b4b0-5703f3d52dea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the trade got cancelled why"
+  }, {
+    "id" : "078d87e5-d0b2-44c0-9d22-41366bf0d0a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the trade was cancelled why"
+  }, {
+    "id" : "8e926e5a-568a-45ab-868d-5036e1db2fbe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade cancelled, how to check"
+  }, {
+    "id" : "6b70a784-8aa6-431a-80f7-decf3da17433",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade cancelled, why?"
+  }, {
+    "id" : "5c9b04ad-cadc-4d4f-973b-83d5acc683be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade was cancelled why?"
+  }, {
+    "id" : "f1175a85-1aa6-4d20-9f60-1b3b4c58af78",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the trade got cancelled why"
+  }, {
+    "id" : "a17cebf9-180b-41ee-8ca0-d16aee17e15e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the trade was cancelled why"
+  }, {
+    "id" : "9ac85df0-b7d0-4cdd-ac83-d34a26385466",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade cancelled, how to check"
+  }, {
+    "id" : "4e6fb3dd-3020-4aed-b8bb-ce4b3b891c98",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade cancelled, why?"
+  }, {
+    "id" : "79e215fe-8039-4bb8-86af-616a3139f05e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade was cancelled why?"
+  }, {
+    "id" : "2031eb23-5ea0-48ec-be64-fe480472b39e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what happened? trade got cancelled"
+  }, {
+    "id" : "338c6d02-c857-41bf-b9cf-3154eb1fd888",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is mean my trade cancelled"
+  }, {
+    "id" : "a4551371-68d3-4357-9c80-2cbecebf6134",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what was the reason for my trade cancellation ?"
+  }, {
+    "id" : "9373e841-15d5-42cf-8a67-95ef576479a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do i find information on cancelled trades?"
+  }, {
+    "id" : "cced15ca-eba3-438e-964c-255a522949b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why cancelled my trade"
+  }, {
+    "id" : "a6e5b112-d237-467d-9c0e-ba43911c7d48",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why did my share trade get cancelled"
+  }, {
+    "id" : "4a9b4250-c6a4-475d-93fa-1d84ff194b40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why my Trade is cancelled?"
+  }, {
+    "id" : "c4e1e6d4-9d2e-4a13-bec1-11b727c3c0ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why stopped my trade?"
+  }, {
+    "id" : "d60b798a-b91c-4f92-b753-a792d4f198d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why trade cancelled"
+  }, {
+    "id" : "2ab53c98-81ba-4425-9fef-0049017bce76",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why was my share trade canceled"
+  }, {
+    "id" : "af3b7f71-4cef-4b6a-802c-f2130a78efa8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why was my trade cancelled?"
+  }, {
+    "id" : "6871ded6-f31b-4f3c-a7dc-3924b809c344",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why was my trade was cancelled?"
+  } ]
+} ]

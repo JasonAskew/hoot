@@ -1,0 +1,2662 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_product_application_test",
+  "intent_name" : "bt_product_application",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "fef90011-0b98-40a7-94d7-c63956e83624",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Account open",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d84eae6f-8540-48ef-963f-a52edddd2a34",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Air miles {@BankProduct card} I want",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "028a3b78-b273-401a-93e0-d3fc46d053ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Applications",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c67c26a9-8fb9-4b03-b06f-7962a075ef41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Apply new amex {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8bcf0f17-3ba7-48d2-8e4a-b9084f8dc4e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Apply online",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "7715fb58-1ae5-48f4-a3e9-7d8680a70df9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Apply smartbuddy",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0137626f-d355-4a18-8938-094931e9be21",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Apply {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "1614d996-c5f6-4314-a83e-b9bc6be3f890",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Apply {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "1247a3d9-2f27-4ad8-9fac-37ce65326269",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Applying online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e9a4e416-14a5-4425-b0b7-aac520e2edd4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you serving {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bd4b3b87-1a74-4d3c-a5a9-1bc351a05fd4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you serving {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "9b43bac2-d6f1-47fb-a31c-72bd2fefece9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bridging {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c88f2ac4-8c2b-4205-9ce2-96778df71fa7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bridging {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "a30aa5b6-4052-49e5-bdcf-ce23c78299ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I apply for the {@BankProduct credit card} ??",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b9ebcdbd-d611-41fa-b3ce-0b51f7dfb721",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get a {@BankProduct car loan}",
+    "tags" : [ "exgs", "bankname", "test_gold" ]
+  }, {
+    "id" : "66f80456-a49f-4251-b375-f72556c725fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get a {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "77220b2c-9e24-481f-a52a-d25cb9770cec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I know how to open a new account with you?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "abbb28bc-6094-49e9-8e85-1f3c3fc7e80e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i applied for {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "faeebc07-7b21-4c4d-9eb0-01504312e7e1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i get a {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3c6e7e12-fd70-443a-ba21-5a367e658829",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i get a {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "ca34d497-bb7d-4ef4-9b0c-ab3397b8038f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we appy online",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "75779e8b-babb-43c9-9683-f3e28a4bf668",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me create an account?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "f354b882-9a9e-44a3-8ecb-2cdc8f9574ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Company account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "77390373-ba07-4e91-9dd3-433049147d2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "DBT ACCOUNT",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1f524277-dd6a-48e1-b764-af99fe71bd66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you offer a {@BankProduct credit card}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "03cfba88-5c74-4cf3-b0e5-a893de1abeb8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "HOW TO APPLY FOR BONDS",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "ffbd092c-bcb8-4962-ba4c-13f0296b4e87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue, The application method used for a BT Panorama account was incorrect - the application was meant to be completed via offline approval with a signed form. Is there anyway to reverse this and ge",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "3ac9ebbe-6fb2-4be0-85ff-bc598d392ee0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I want to know more about digital {@BankProduct savings account}",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "1f6a1bea-2906-4050-91b1-026abe39dcaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I want to know more about digital {@BankProduct savings} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0828e5ae-f42d-44c0-8dba-5965d37ba8f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi sir i want {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "940d497e-83bd-4df8-b411-538fd74c6a07",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi sir i want {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "1f1cb450-e4d5-4012-85a8-ac6bef45b7d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi. How can I open online account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "619cdb91-10c5-4734-83fa-b1cc3eaec9f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi..i want to apply for this {@BankProduct card}",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "3c87efe4-9f63-45bf-83e0-35b2277f487b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I apply for Singapore {@BankProduct Savings} Bonds?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "4fb9da86-581d-4617-9baf-ba5bc7961bfe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I apply for Singapore {@BankProduct savings} Bonds?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a7346444-2950-483d-9576-e7591457d6ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get a {@BankProduct credit card}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a1c6435a-9588-4991-a12d-60e3010ee8da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get a {@BankProduct debit card}?",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "5adba961-957e-443f-8711-9eb69b2f0454",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get virtual {@BankProduct card} in my hand",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "165b588b-3b22-42d7-bf2d-0f81f285c200",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I open a multi currency account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "c24efd4b-8814-4907-baf5-dd7bc73dd013",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I open my wallet account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7b574ea8-364c-4866-a67c-74f99f8bc3ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I register cod",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "ef7f3090-17a1-4685-abce-730c710aea18",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can i get a {@BankProduct credit card}√Ç¬¨√É¬∏",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d521acf5-6617-4c62-8976-3890f51d259a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can i get a {@BankProduct loan}¬¨√∏",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "ec91a9ec-4929-4e72-a2fd-cc68ff242ea4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I apply for Debt Consolidation Plan (DCP)?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "d66021ff-f7fc-49af-a869-6a4315a3d782",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I apply for a new {@BankProduct credit card}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3a51bf11-e049-4bc0-abd5-24e5e29933fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I apply for a physical token?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e36ca918-f2c3-46c3-95d5-09803050017a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I apply for digital token?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "5544f2de-e51a-42ca-b07a-4acddbc8a64f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I apply for {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "67bf00db-91b9-4cd1-8e24-0a9f839ebbed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I apply for {@BankProduct line of credit}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "752e1d0a-8fc0-45e6-9b41-d55cf2813acd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I open a recurring deposit?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "6ebd6037-71fd-4ecb-9a8b-9dff7784e52b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I open an account with digital banking?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "93baaab1-5987-4c3e-9743-c71a4e93f0b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I open an account with you?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "1469df02-771f-4031-96cd-31901399a795",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i open an {@BankProduct investment} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8ffb0270-bc95-49f5-9ac4-487e5be2faf6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does the bank need to process my debit / {@BankProduct credit card} application?",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "47e2e162-18c0-40dc-96ac-44219eea3c1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does the bank need to process my {@BankProduct credit card} application?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0e581ff9-e3fb-4660-afb6-69d2a3768ea5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How open ac",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "12ff9c0b-e1ac-4241-805d-44f57071c4e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I request for {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cd518ac9-15dd-4cd3-9df1-bdeabae61b51",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I request for {@BankProduct debit card}",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "5cab764c-0a85-420d-99b8-d0e63b1f11d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "863a423e-f0e2-490f-a3cb-1880cea677cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for Phone Banking?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "8ed0a23b-1b99-43c4-b895-66a71764075c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for a {@BankProduct credit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "dcce8ce6-2619-4185-88a8-3a02c96a111d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for a {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "da314f05-fb9f-492b-be44-7e4574f08305",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for deferred payment",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "8c01781f-81fd-4f92-8d91-8032f44554a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for new {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e0dc8942-18ce-4e01-b5fa-fab25893241a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for new {@BankProduct master card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "6bcb8bd9-2187-4f95-be8f-589176160712",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0d654d49-b3cb-494f-aefe-54c3997fd882",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for {@BankProduct credit card} balance transfer?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9df1f8b3-8324-48cf-bf94-8d6f8c9db4d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for {@BankProduct debit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "917072d1-3b2e-4fb5-9751-0d4614f9b40a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "de505ff6-7c36-470f-bd5e-6bbd04e21776",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "7c2b6e1d-5c44-4538-8c9e-55dc2cfaa77c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply paynow",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7e38d145-f7da-4d65-9561-8dd660f530f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply the lone",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6f68e616-8a9f-4e1d-8eaf-1f0ce8155e16",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "717176c9-a38a-420b-adc7-93c68849648a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct credit card} via app",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8947afb5-52e8-48b4-90ff-4f00e8268874",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct credit card}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "18f0b794-5efa-4ca1-be64-8161d44265d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct debit card}?",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "fda822f6-647c-4afa-a48b-3f456b0e83b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "cd55c26f-3cea-4a0c-94b4-0240698af6c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct loan} via app",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "677f196a-ec09-49ed-8a82-a31218bff497",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "dbb1cbe4-c626-4be6-bd1e-fd7ee4dca4b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct personal loan} in bank I need {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankname", "test_gold" ]
+  }, {
+    "id" : "c3fc8680-379c-4a8c-b223-b1c8b9a88a98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to create a new account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "33b07f45-a2b0-4478-99e8-7c2cc2d02930",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to create fixed deposit",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "c5865ae5-6b37-4311-a837-f6ad8665284b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to create {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b3b9abed-68d0-457d-ad37-b42d6ae74cd5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to create {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "af18b268-ac07-49b7-8e78-2e11025178e1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get a {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0e546a25-dbce-446e-b6d9-ee0d2461589d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get a {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "0f1de064-81be-42cb-bf29-11ee2f4e83c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get physical {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "284c92e8-8cc0-4444-a326-0eea0e6fe651",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get physical {@BankProduct debit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "fd5cdcea-a03d-4b5e-822a-1854bd981345",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3a4be4d6-9956-46a7-b7ce-c036b91d5bd2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get {@BankProduct credit card}'s",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fab461a4-d70a-4647-83f1-b9d808b3d14d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get {@BankProduct loan}'s",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "b8a46ea0-c8c9-43fc-ad03-78aac0fae29e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "7f079041-d36e-4e0d-8558-7c07878bfc4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to open TFSA account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "c59d7196-2dd2-47dc-b1c3-0d16dc5a79c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to open a Count Managed Portfolio",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "c8702238-f52d-4d18-8a78-cf9b62eae97b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to open a cpf {@BankProduct investment} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "baac7acf-f526-4d81-97de-507ca65dec1b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to open acct",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "b33dfa25-8dc2-4605-b7c5-d55985766cd5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to open multi currency account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7fa791c8-ff20-4b7b-96c2-e1e5bae970f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to open new account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b6a18dbf-a9cb-40be-b5ba-fa0b46808421",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am on open workpermit I need {@BankProduct credit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "36b0debc-1508-4eff-a00e-e25658effe2e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am trying to apply for internet banking",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "51004f79-22e8-48c0-be11-11cc420fbdda",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am want to open {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4056b2a7-a20d-4692-b4fd-31882589e388",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am want to open {@BankProduct saving account}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "5be3b068-0a08-485e-9cb7-567f091b6668",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Account open",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f7e2d762-1b13-4ba8-b7f6-c90f771e8095",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Air miles {@BankProduct card} I want",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bcefe41c-6b34-46e2-b1a7-c955e1ec0d62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Applications",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "947e92c2-00f0-45c0-ab0a-f0f1ffc7b504",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Apply new amex {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "72c56ffc-967a-48f6-9b22-b95ff29122c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Apply online",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "a802aaef-6786-4a46-be66-b3b7cfe318b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Apply smartbuddy",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8e351b4e-1d85-4e02-964f-249680fbfc3c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Apply {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "06813746-cf44-4fd8-a77c-420f93269b9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Apply {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "96339cd6-c863-42cc-a4d8-82785e06da84",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Applying online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "85b76e90-9037-4c87-a351-6355eef47eac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you serving {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e7cecb03-9647-479f-8559-1763f6718726",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you serving {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "5361e0dd-a5ef-4713-831f-3fd283a1a2d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bridging {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6962c57a-7a30-4710-80c4-07b9a0667203",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bridging {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "27fe8095-21ef-4495-aa6c-92350aa17311",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I apply for the {@BankProduct credit card} ??",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5b1dddda-aeed-4f66-8cca-cc9d48d4fb07",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get a {@BankProduct car loan}",
+    "tags" : [ "exgs", "bankname", "test_gold" ]
+  }, {
+    "id" : "db387850-9a1c-4708-b7b9-8561846f746d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get a {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f1af3119-bcb4-432c-83b7-68a7f74deedf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I know how to open a new account with you?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "f58a2109-eec1-4e02-9619-8c6806b0cea6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i applied for {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "21894f7e-9e8e-429f-8177-3b9afeb96e4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i get a {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "00f56468-b502-448b-8744-b4a05734ba3f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i get a {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "c7004244-98e7-488e-bc74-95ba2396aec4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we appy online",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "c6a9c5a4-3b7a-4d7f-9a5d-1860b8907612",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me create an account?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "202bc8cb-91ca-4613-b454-904379e3c824",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Company account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "76c9226a-1705-4016-aac9-7e16d89bb429",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "DBT ACCOUNT",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1d337a0a-c779-4e3d-9104-e9893c096766",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you offer a {@BankProduct credit card}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4b96779d-8fac-4530-bf1d-485db6c48c6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "HOW TO APPLY FOR BONDS",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "ed83f881-767e-42c9-acf4-9334bb28aa0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue, The application method used for a BT Panorama account was incorrect - the application was meant to be completed via offline approval with a signed form. Is there anyway to reverse this and ge",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "ecf29463-1dc7-40ae-96c6-02c1047c206a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I want to know more about digital {@BankProduct savings account}",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "ceff0f54-f244-4cd0-ba67-621752300afa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I want to know more about digital {@BankProduct savings} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a9b0b549-5bae-4461-b7b6-c28a4c6ded22",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi sir i want {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a4fef2c4-5521-442c-9a1b-b66b19f89ea8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi sir i want {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "7b8f7d8e-866a-41b9-a544-64000e27965a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi. How can I open online account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "8db0bd27-a978-4d4a-9ad8-7a2f937c1dbe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi..i want to apply for this {@BankProduct card}",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "0a97d088-20de-484a-82b9-f38420f91e38",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I apply for Singapore {@BankProduct Savings} Bonds?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "e5b64003-f723-4166-b03c-2de06eb81b5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I apply for Singapore {@BankProduct savings} Bonds?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9b3e1f59-9242-448f-ad63-cc98e0298778",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get a {@BankProduct credit card}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1e8a1010-ed09-4f84-aeaf-9ac7b38fb6dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get a {@BankProduct debit card}?",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "908dc96b-5565-4665-99b5-4a0b67e6be40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get virtual {@BankProduct card} in my hand",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "17a9dbda-dedf-499a-a5cb-2caa634d707a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I open a multi currency account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "3f007a8b-676c-4931-9bc1-867a525263a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I open my wallet account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "caa3ea42-2450-4949-9b29-d2aa34168ad5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I register cod",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "5600704c-14a4-453d-9c67-91d1b4ba0465",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can i get a {@BankProduct credit card}√Ç¬¨√É¬∏",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7dd758c2-6409-4d2b-adc2-97be5787f4d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can i get a {@BankProduct loan}¬¨√∏",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "e33d7999-b9ad-4065-bc16-8e8459b30387",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I apply for Debt Consolidation Plan (DCP)?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "5ab960a7-0f3c-42d0-8986-6d4506983958",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I apply for a new {@BankProduct credit card}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b8ac62bc-14d2-4200-a564-f94ad17133fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I apply for a physical token?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "eb89b2df-a916-4893-9e1d-0d181f744b12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I apply for digital token?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "b27645a6-6a28-4518-8692-d24e48924a7f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I apply for {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3ef6a56c-84d3-4490-ac54-e357c9b504f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I apply for {@BankProduct line of credit}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "94fa1573-678b-49cf-bf3c-92470ac547dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I open a recurring deposit?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "978d7ee3-e1a6-4063-b00f-396b83e7131c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I open an account with digital banking?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0066d7a1-e365-4f36-bb9e-fa638fc951a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I open an account with you?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "e7e2483a-0954-4f4c-9968-8bddc8ba1b14",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i open an {@BankProduct investment} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "366f0aee-e1aa-421e-948d-1839154de590",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does the bank need to process my debit / {@BankProduct credit card} application?",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "b758726a-5105-447c-9ea1-d6182e30a5b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does the bank need to process my {@BankProduct credit card} application?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0a722980-ec78-43b2-8241-eec5ca3eb2b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How open ac",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "316e17f6-bcfc-4c62-b6e4-b885238df476",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I request for {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "09c2a2c5-3267-4777-bcdc-090c7d6adbdb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I request for {@BankProduct debit card}",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "4e8d96f6-93c4-4d8b-a484-b53314310c79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a979d3cd-048c-47db-9000-f3382355732c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for Phone Banking?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "c39510c5-2016-4811-a1e0-13ce059339f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for a {@BankProduct credit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "6eb68fba-df84-4f21-bd93-7fc6996a24cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for a {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "6b178c69-23c3-4291-80ad-03e2a41cd58a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for deferred payment",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "50e0b2a8-8ed8-4bbc-bb8e-cfc3a6da5482",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for new {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cd8b73ee-d56b-460d-a03c-2bf759117f72",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for new {@BankProduct master card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "ac2379e1-263c-494f-bee3-13701cc77814",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ff4c21b0-5c83-43c5-9543-3afa18a79f94",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for {@BankProduct credit card} balance transfer?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dfb1960c-9769-4fc0-adb6-5ef18a87796b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for {@BankProduct debit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "2ab879b9-c1e4-4075-84f2-14319940f122",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "ab696225-db5a-4a9c-915b-f801a466ea2d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "b22ee634-18b5-4238-b2cb-ec4d90c42ed9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply paynow",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b57db21c-e8b8-47b5-9e08-c4afc615c1cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply the lone",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f789ce07-e2e5-4d59-8c52-1583f396bffa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "df1d0af7-d280-4556-856c-7713b4a8a472",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct credit card} via app",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7bf03c0c-175a-4bd1-97b8-1cc2bec94d1b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct credit card}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e1d540be-8aab-4f6c-9b59-6d39a9522bd5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct debit card}?",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "42e4620c-537e-4a93-9080-c9d4e1cdc589",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "8ee7b2f2-7f04-4610-8967-e865dbb03b4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct loan} via app",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "455c4769-ae29-4340-950f-1a79160a84be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "d69602b5-2133-4797-a873-443a7b924c1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply {@BankProduct personal loan} in bank I need {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankname", "test_gold" ]
+  }, {
+    "id" : "9a0ab21e-8456-4698-8633-feec6e709f59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to create a new account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b67c0ae7-fcc0-42c2-ace4-66eef87bfeab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to create fixed deposit",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "7ba45ed7-046c-41fb-a513-b20a29c2dc10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to create {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "78888ce6-ae32-476d-a380-7465033fbce3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to create {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "f0de7ef0-edff-4823-84c9-1abd9b763dd2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get a {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "63e210d0-fca2-4ed0-95ac-64258cf849d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get a {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "906c3105-d613-4ebf-b8ff-91b15072ca3e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get physical {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9626c230-8ce1-4c1b-9a2a-bfa2f2c26737",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get physical {@BankProduct debit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "0009fad6-2fb2-438a-a051-7a10f54fcd4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fd361cb6-242b-47de-8bde-a8e061280e98",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get {@BankProduct credit card}'s",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "87880151-19bb-49f7-a6df-66a38ef3744a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get {@BankProduct loan}'s",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "849d4297-4246-444f-88ea-e6b0eaaa32c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "10de506b-3c59-488e-b1c9-cedfdcae4967",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to open TFSA account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "5bb6be0e-4f87-4002-91d9-16c064dfa1fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to open a Count Managed Portfolio",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "2002d4f4-551c-40e8-a322-7afb91da044c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to open a cpf {@BankProduct investment} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3c358e40-6ca2-4aa8-a10a-4861ca4efe90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to open acct",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "dd8700e9-d99c-4929-ac45-298069970a77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to open multi currency account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ff127864-34c4-4f12-9045-d61769c8fe43",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to open new account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f5f28c26-4120-4547-93a7-11ae55047033",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am on open workpermit I need {@BankProduct credit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "e002d992-1b1a-4d89-8025-5afa8e799192",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am trying to apply for internet banking",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "40d874d3-3afa-4545-b4d5-be364295392d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am want to open {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8c904c29-ecb2-4d2a-95b4-747cc9fb6c31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am want to open {@BankProduct saving account}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "75b6c25d-929c-4cb7-9ea5-ae7c46707de9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have an account.I need a {@BankProduct loan} .how to apply for getting {@BankProduct loan} and how can I know about the eligibility",
+    "tags" : [ "exgs", "bankname", "test_gold" ]
+  }, {
+    "id" : "a8e5063c-b637-4a45-94fe-8ef59bc3040c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need apply new {@BankProduct card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "63a0fe92-4c60-4696-af1a-9a280efebf1c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need business {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c394d201-f080-4277-ab4e-39ac01c8f087",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need business {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "1e62cf42-475a-4bf4-a965-73df86858622",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need lone",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7b732e59-b275-4e0a-a95f-2807db34c080",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want persional {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6e032a53-5ca5-486f-8c67-d7fea768a7f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want persional {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "1057044e-1307-4b9e-a3c2-9bcb4c78edc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want set up my Account BT thanks",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "cec2e874-6dd2-4998-bcef-21e4138288f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to apply for balance transfer",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c1508011-65eb-4b75-9763-e6ef5d12c3a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to apply for special {@BankProduct card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3ce38a9d-3e74-4f40-875c-a803723a450f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to apply for {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e718d41c-f08c-45bb-ad70-ec8fea914aab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to apply for {@BankProduct line of credit}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "df024e19-8f91-4080-8346-c01c3d5a7e4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to apply for {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "eac235eb-46b7-463c-a44d-3644b55ee8fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want to create an account with BT super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5888faa9-fa3b-4e0b-9140-f9200669056b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to get {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "86df0251-ea93-4b51-a2a8-2d4a495d8191",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to get {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "4a2c986a-1f9e-4640-bc61-6119f862ef8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to open a new account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "fa61910d-77da-47b5-9f86-b3796f863634",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to open {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9a882e73-5f56-4ec3-8196-24f6098e5596",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to open {@BankProduct saving acc}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "9a411133-55f0-4094-bd84-1ea3c63c1ce3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "73c4ce95-a43b-4da0-a97d-5aa29110ade3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want {@BankProduct debit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "a5c5198d-bbde-4575-ad47-281204816409",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "0c98ffde-e8d4-417e-8ce8-7937607e3bcc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "c26bbd38-4add-4df4-92b0-c4d015c8fcac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I wish to apply for internet banking",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "ba4b4d72-9797-4467-8478-a563094b740c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to set up an RSP",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "ff8f418c-860d-44b4-9327-af5cc111e12c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is possible to get student {@BankProduct credit card}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ebda709e-8067-4515-80df-ecfaa016671f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is possible to get student {@BankProduct loan}?",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "579f827b-5910-4dcd-94f4-6f98ffe15718",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is {@BankProduct credit card} available",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "27035627-ec4f-4641-8fae-e5cb47205fe4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "KYC",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "76df7357-493f-45c9-ada0-bbd9a666a780",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "LEARN TO APPLY BONDS",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e75d31f9-8764-4f11-b869-a9f26be2286f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need a {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "afd7cb3c-12f8-4a7f-bda1-87b199651301",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need a {@BankProduct loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "96e4e371-2be8-46e8-93b3-44451601800e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "New account application",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "97592224-1770-46cd-9378-64ff674f266e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Now i can application foam",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fb124948-bce2-4027-8606-d95d76271377",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Online account how to open",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3836dc2b-f542-403e-8977-b2b0a35c59dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Open Account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "68ba5352-4888-4bbf-8bd2-86a65e1bb45f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Open account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "acfd3075-20ff-4d28-9805-94a514ae2458",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Payments account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8527cfb8-df6f-48e7-9b4f-03267c9900bc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Persnal {@BankProduct loan}.?",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "609ebf90-c1ca-44a3-a03e-1b3babe682b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Procedure for getting {@BankProduct credit card} in this bank",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d029c72c-50e9-4720-9a6d-8478afde8783",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Procedure for getting {@BankProduct loan} in this bank",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "ab1c42d8-ac55-4d43-a78d-754c0987c7fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Switch {@BankProduct credit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "ebdda096-d27e-4b7a-8ba6-56c6ac0e6cf8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "To apply to a safra {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "af5e72e9-14b8-4f19-a854-270ae12fd2d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Types of {@BankProduct loan}s",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "a214af62-07e7-4035-922c-627d2080db96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Want to open a 1-month time {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "02a37a30-b9c1-4da4-8fc7-e11f62563183",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Want to open a 1-month time {@BankProduct deposit account}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "9f747301-1402-4053-b765-47251df24e8b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I need to apply for d1pay?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "0eee0f73-aa5c-41dc-8333-c21878713573",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I need to apply for {@BankProduct credit card}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7699612c-68cb-4e98-9503-2a9958b30d6d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where to apply for retail",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "70516086-7c2e-4169-9dc1-6424d08ff12c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where we request for {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9970fb5e-df06-416c-b1db-3b3082a312a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where we request for {@BankProduct debit card}",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "32c5714c-8626-4f95-8c53-8f456b59f154",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Zip code is not in the list, so how can I open an account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "4fa19acc-0edf-4ec6-bfad-5dc48810abc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "a drop down box says please clik on open page",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a00a54a6-d775-4e25-a222-793f2f4a6e34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account application",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ed432a4-57ab-42d2-8de1-c0541ed909eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account application alteration",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7328952a-a39c-4432-9ef8-9a206e8fe135",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account application is stuck in processing status",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "510d6cf4-5ca4-40c3-ad91-500a08e7e04b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "application",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "41021699-38d4-49c4-9c31-108896575d40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply amex {@BankProduct credit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "21ba3dae-e4e7-4f15-956b-8ad4364ff8a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply for big purchase payment by credit in 11 month instalment payment",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6d2668c5-74d3-4516-9fd7-5e31418fde55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply for digital bank",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "38e11e40-f9f6-4620-a62f-77ca2909bcb6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply for new ATM {@BankProduct card}",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "d39b7fb8-e05a-415e-8b50-2aed08344614",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply joint {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4cbb86a4-25bb-4435-8d27-880cb69b5062",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply joint {@BankProduct savings account}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "f1ebb98f-8124-42fe-bc59-e069821a3eb4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply new {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d5cbe3e8-b4de-4ac1-ab23-9226090b93ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply phone banking",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9d553b5c-96bc-4257-afc4-2a0092219503",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply {@BankProduct amex card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "c77536ac-c9f4-40a8-a06b-22fbe14caf09",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0479dbdf-bb24-4bb2-a919-20bf9905fbc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are term allocated pensions available via panorama",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5874ce98-c3b9-4c4e-bc79-acc666e7c998",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "as part of kyc reivew",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "a2d58a0f-6d8d-4e00-b40b-987362dbcb7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "brand new application",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4c1f8727-19a2-4d7a-8280-750989a5c832",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super application",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "79041959-184f-4991-ae19-9ece7e3a87d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but super for life",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "5d5c3afb-19c8-4c65-a1f7-76d54aed0930",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add another {@BankProduct investment} account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c81d4f90-9a5a-45d7-9872-f146bec992c6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i open an {@BankProduct investment} account without an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "435a0637-cb02-45cb-a5db-8850466743ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i set up {@BankProduct retirement} account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bb01fec9-7a67-4298-a33a-1024b2a3ca4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i start a new term allocated {@BankProduct pension}",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8a437e3b-881d-4a06-8bdd-42d364763bd9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you help me to open my account please",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "5f9c2c39-fe09-4028-a7c0-de79462e7073",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please provide me with an update on where this application is at has it been sent to the client yet for approvalbob reading",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "23230aee-597d-40e8-8721-a7f32704bc2a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me where i can find an additional application form for panorama super",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eab0cd3c-8236-463f-b3c6-57eb82e6f322",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "application",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e47ad298-5a93-4288-8b7c-fff3dc50487d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply amex {@BankProduct credit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "42cf2119-1573-495b-b697-f8b30831fb1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply for big purchase payment by credit in 11 month instalment payment",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4201c0a0-bf47-4f61-897b-9394933a6406",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply for digital bank",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "32856e74-9654-4b6d-868c-814c0a51ea21",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply for new ATM {@BankProduct card}",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "ef142206-848d-4d03-b3c4-358cba7b77fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply joint {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6e6f2fe9-fffd-4a8e-902c-7a0718e732b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply joint {@BankProduct savings account}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "55ff69c6-a0ba-4622-8c2c-8d8533b7ca66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply new {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "18426c37-1cf7-401c-ac70-79ceba7f084f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply phone banking",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "46ccdd85-36a8-46e7-8bd0-8d5f1ffd64a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply {@BankProduct amex card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "ae23cb20-6c30-4012-af5c-fa19786efc2b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ad51cd04-ac6b-4e48-9a62-819e2bff400a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are term allocated pensions available via panorama",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6261f581-f162-4415-9dcc-b3d3080f37cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "as part of kyc reivew",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "015e726e-b739-4beb-8756-52e5def444d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "brand new application",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3a6e20b0-995a-46e1-ae69-ed6bd2371744",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super application",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "70c93e6d-244e-46f6-9178-e89c60a6c107",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but super for life",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "4861c63e-1013-4d50-9f41-bec0b87341be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add another {@BankProduct investment} account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5afc1fef-2e96-4bb6-98bf-5b416f769034",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i open an {@BankProduct investment} account without an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6f1c6462-1bb7-4020-bcb2-2ebf00eeaaca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i set up {@BankProduct retirement} account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "106352d6-a787-4355-819e-8093748984a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i start a new term allocated {@BankProduct pension}",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d32015c8-c670-4bb8-995d-3a961c47bde9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you help me to open my account please",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "a18b7c0c-5a00-4a4f-89c2-1b89b5acabb0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please provide me with an update on where this application is at has it been sent to the client yet for approvalbob reading",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cb0807e3-1b2a-4c00-8e8e-c84a67b91104",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me where i can find an additional application form for panorama super",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "17e3d9d5-679f-4292-b854-c2d4b4b1d3a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "application",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e0276fa3-7949-427a-a941-e95cf9636dae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply amex {@BankProduct credit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "1214ecba-1af2-49ba-829a-abd674941a30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply for big purchase payment by credit in 11 month instalment payment",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "388ed048-03ef-4ca7-8f37-6d32d56fbc7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply for digital bank",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c56f6783-87b5-478d-92a3-63870e3c5c7c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply for new ATM {@BankProduct card}",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "e9dee8ea-5576-43ef-a07f-67a07323aebc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply joint {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3d797a95-f596-44e0-bb83-642188377ac0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply joint {@BankProduct savings account}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "0fe3f0a2-4abc-4699-b7c2-4c5828cc7ef1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply new {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bf74fa8e-a716-4765-9467-e778d04b0f33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply phone banking",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3a5683cb-86b3-4bc6-94f5-5f4d3c4849ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply {@BankProduct amex card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "ceb9d43d-600e-4a8b-9e74-6cfc9ea12eaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "apply {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "177108bc-5949-47f5-b128-6b94ad950db8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are term allocated pensions available via panorama",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "23afb1ee-db38-4f3e-b816-d9b3eb80dc53",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "as part of kyc reivew",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "a3d51f03-4eeb-4193-bd88-a28f2b6e2839",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "brand new application",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "65bdbc31-9528-4f47-8883-55db85a4938a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super application",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e21562d9-9f7e-4dd6-a906-58801fdc9f3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but super for life",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "caa9936c-84a0-4027-88d1-07a04d819c41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add another {@BankProduct investment} account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e253b7f8-e26f-4270-89e2-ea814735c190",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i open an {@BankProduct investment} account without an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d55d95e9-d0eb-4de0-bd93-dfe28cd692f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i set up {@BankProduct retirement} account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8a0a5402-f06f-4e85-84be-8f9d345a2d88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i start a new term allocated {@BankProduct pension}",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2fe2a23b-2a3f-402c-8e58-71aa41e92b70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you help me to open my account please",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "4ea3723a-7e85-4364-9ac5-1c2d6a228aa2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please provide me with an update on where this application is at has it been sent to the client yet for approvalbob reading",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "26dcf123-5b55-49e1-b439-f45b12e3d5ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me where i can find an additional application form for panorama super",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "74ce0dc9-d446-4509-8388-24bb347a92f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client has accepted the account still showing in pending",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "78219237-d566-4613-8b2c-87709d085e8e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "convert to {@BankProduct pension} account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8097c350-7bc5-4168-84c9-e5b4e94c729b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need to create an account one st",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b3565e59-3470-4801-ab82-ccadbe688c4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need to open an accumulation account one st",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2249a917-e590-43bd-833d-bfdf9f3789eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do not have an existing westpac account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "482b0fdf-d237-4dab-af3e-ed78d7fec907",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you accept new clients",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a3958aa0-6028-417d-8336-c1caf481ad6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have a paparbased application form for new {@BankProduct pension} account thank you",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4c0b7cfd-3807-4c4f-a90b-850329ee7364",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "giro application",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "fb0cf3b6-ffc2-4bf1-837c-de48f3e69f4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello how do i open a testamentry {@BankProduct trust}",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "16b65884-a7b7-418f-8570-8d87ebdb3d99",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi i need a {@BankProduct saving account} ...i am from delhi",
+    "tags" : [ "exgs", "bank_product", "test_gold" ]
+  }, {
+    "id" : "4f593c7f-0921-4a6f-b4fb-31d00e74c969",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team where can i find the form to open a new {@BankProduct investment} account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0d8efeec-00b0-4944-8a71-ed31b06a4e52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there we are looking to open a few bt super fund accounts could you please provide me with an information brochure to present the",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "206d4c84-1940-483d-be8f-dc81043733cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where do i find a supr application draft that has been made",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "95c406e0-d681-472f-b1a3-1d46f9c33faf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i get a new {@BankProduct checking account}",
+    "tags" : [ "gold-member", "test_gold" ]
+  }, {
+    "id" : "af4f91b8-8aa0-4553-b221-51ff8d504400",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I apply for the retail bond ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9871b9b0-deb0-45f0-8e98-ee75fd19bbec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I open a {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0f11b0c3-574f-4de3-add0-d64ee146d562",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I open a {@BankProduct savings account}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "1d5a8606-b173-4681-89b5-c24ddc8613d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i convert a super account to {@BankProduct pension}",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "50022f78-d8ed-4b04-90d8-af6f5d8ff63c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get an unadvised account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "28970c09-acd3-47e7-b662-8088bb70feb4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get that account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0eda464c-7eb1-46f6-8c60-69b468e1dd95",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i get {@BankProduct credit card}",
+    "tags" : [ "gold-member", "test_gold" ]
+  }, {
+    "id" : "b72d056a-8b0c-4093-82bd-7aa99561c87f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i open a tris {@BankProduct pension} account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fa4cf2da-83dd-4f04-9e1c-5397173e7ae6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i open a {@BankProduct credit card}",
+    "tags" : [ "gold-member", "test_gold" ]
+  }, {
+    "id" : "ab8d1dac-fe87-46d2-949b-a106ebd49ca4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i open {@BankProduct savings account}",
+    "tags" : [ "gold-member", "test_gold" ]
+  }, {
+    "id" : "6e89c53f-1970-4f4e-a91b-c03cc22d8acc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i start a super fund",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "92c0de31-ae4b-48aa-8524-635c8395c1dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i xreate a new account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6d2d6666-8765-4388-a68d-8f3d33d62a7f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to apply for digital internet banking",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b865eaa1-4b06-42a8-b7b3-cc2e608a1020",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to apply for {@BankProduct credit card}?",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "056d8ff2-3123-4f10-8a71-befd974ec585",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to do {@BankProduct mortgage}",
+    "tags" : [ "gold-member", "test_gold" ]
+  }, {
+    "id" : "856cac7c-05bb-488c-ad65-d0d92605ef3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to i make a super account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ec517bfd-084c-4ad2-9910-972e42243f31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to open account",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "49738694-c83e-49ee-99f2-ce9fb4407a98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to open account for client with active epa - client is in care and epa will have access to account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f2f8b723-3e02-4e85-8d5e-d5cf9b51a948",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to roll super into a {@BankProduct pension}",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f8fd02a4-870d-457f-9881-6f32e4697d6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to set up an account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8900bdfb-4e28-48ca-93b1-a4fc2d97acae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to {@BankProduct loan}",
+    "tags" : [ "gold-member", "test_gold" ]
+  }, {
+    "id" : "eff31608-660a-4357-94cb-1412ee7ccbc7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am creating a panorama account do i use my super account name or create a new one",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "96e00338-5ffb-48d5-970f-cac383748937",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not opening an account it was an existing bt wrap account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "6e6eaf01-7096-49b6-a62b-3a1d0e2e6659",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cant to open my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0dd392e6-b561-4b31-8cab-fc73832b1470",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i did saying i am not a member",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "e7d2f6e7-2cb1-4d8e-bee0-ba2d4d2b5054",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not have an account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "13e7ec03-c45a-41da-a923-0ff88dc44d75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i dont ahve an account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ce3e5969-f5f7-4530-9b11-a10a86918c81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i dont have westpac",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "f49f3e81-e4ab-4ed6-9d19-f0aad1896ae0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a bt account and i like to open a bt panorama account what should i do",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1ce94a39-2dda-4aaf-aeb8-fdcd9ddc8bae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a client with an allocated {@BankProduct pension} ans she would like to open an investment account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d5720715-da7d-4535-ba0a-30257b90f001",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need a {@BankProduct checking account}",
+    "tags" : [ "gold-member", "test_gold" ]
+  }, {
+    "id" : "054d14eb-be38-4654-9f2e-8d40c255b271",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need to apply",
+    "tags" : [ "gold-member", "test_gold" ]
+  }, {
+    "id" : "fa9bb066-f7e7-49c2-9ca8-a18155d42c99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to open a new {@BankProduct pension}",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4f58d2d6-1876-4d53-b366-c432a9f56839",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8a1e810e-4014-4912-b269-c44fd8982d36",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need {@BankProduct debit card}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "d443f2f0-15ce-4b6b-8855-d0da8be82cad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want apply for {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "07d87bae-bb3b-4afa-a326-866883534ef0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want apply for {@BankProduct personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "a7d51144-6db2-460c-9320-cc13cb95f784",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to open a new bank account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "61d157ae-b9de-45c1-b6df-e2d05df8bed2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want {@BankProduct credit card}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "18dabc6a-fc24-4e94-9c60-679b23a20141",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want {@BankProduct savings account}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "013ca87d-1aa5-4747-8236-05ee6e6c2201",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to register an account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6082fd14-f490-4137-81b5-5111eb46d6c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'm looking for cash order application",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b373a778-cf1f-414a-b783-8523760d2a27",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im using commonwealth bank",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "411bf141-a480-4a04-b339-5c4ca209193d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "intiial application",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "9bf1e7e2-1032-4f84-9888-c5cbaa43fe8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is this available for super accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7db41bc7-34c9-48bd-956f-3b923eef61e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "joint account opening",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "dcbc581c-a53b-48d9-b24e-b33bbd4cf85c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my birthday changes from 11 nd to 11 st when i try to verify",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b32a8f6c-d5f6-4214-9d80-9635999459ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need help with application",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7be3c044-cc0e-4687-a67d-e6484d89bb89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new account acceptance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1ac34f84-b495-4d89-aefe-003ea31f1932",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new account opening - what identification do you need for existing account holder",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dde27c6c-8bfb-44a7-b6f8-4d28f544f5fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new adviser set up",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ea487c95-079f-438a-a78b-4c62cf9dc737",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new application",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "338ab246-8bf1-4856-8812-fe1242fbdd3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new client account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bd5e550f-0328-48d0-ba27-84986e32a077",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "none setting up new account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "787ffa45-db76-4699-a3aa-4509cedad63a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "online application",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "506ee35d-f491-4dfd-97c3-765bfc15dfe5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open a BT Panorama {@BankProduct Retirement} (Compact Menu) account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0ce62329-ccaa-4de1-b695-dca70d167f4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "open a {@BankProduct checking account}",
+    "tags" : [ "gold-member", "test_gold" ]
+  }, {
+    "id" : "4d4faf76-ef40-4c9b-91fc-7bc06535c3d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open an account for an existing clien",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7c1a66d6-f8c2-409d-8fa7-a6555358ea77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open an account offline",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cc8bdf34-0c7d-45a1-98d9-e7006188e047",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open an individual account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "f7afeee4-3799-4725-9aa7-5ef423df4a08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open an new account for clients",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "fbe116bb-9322-4e03-974f-32fa37508b35",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open cash management account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8de2a708-a9d4-4ca9-8a08-2fcee4c29f60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "opening a new account for existing clinet",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "580ca225-8f8a-4522-b80d-908720d89676",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "opening a pensio account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e6cb09ab-844b-4429-8719-8db196e1be41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "parsnol {@BankProduct credit card} offar",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a92c8496-ca1a-4748-b6e4-34318443e9f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "parsnol {@BankProduct loan} offar",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "43e62ee6-a71d-413c-9fa4-abcebd47edcb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pending appliations",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "619b1fb1-3d96-4cbe-ac4a-e8d0c1e2bac4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "posbkids account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2e7cd137-3ee5-402d-a399-c2293f36b230",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "set up account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "f075200f-f79f-477d-9d56-43f5374b57f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "setup a bt panorama account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ef9e9052-dc6f-4d87-8acf-c63624614f5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "start an application",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2406fcb1-a9b7-4f5c-9475-889af5347692",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "try a creat a accout",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d785fd0e-d439-4f5b-b012-dd69b8f927ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to creat log in",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "2c9b1c8b-0606-4837-90e4-6edc4b334990",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unble to submit account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d303df57-b199-47ee-ad81-5c4feeafd6b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updtate account application",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "199bf560-6d76-4ec9-ad51-bc8be54c5b97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading new account application",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "e767f605-11cb-4e78-849b-7835b136137c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what about a paper account application for a new {@BankProduct pension} fund",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9be1285c-7a82-4f3e-82ee-51db19cc7b01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "try a creat a accout",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8ccc3f3f-b617-4525-b617-a13b28217321",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to creat log in",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "024895ae-4008-4ffd-afa0-02d918773e93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unble to submit account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "468af428-5e42-44a9-b4aa-1ffdc676d679",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updtate account application",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "737abca5-6579-4135-ab35-99cea9dadd98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading new account application",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "9f300c33-f8bb-4a43-aaec-241ffc4a2057",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what about a paper account application for a new {@BankProduct pension} fund",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e47534b1-f6d8-4117-b1cc-9ed3edac188f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what you need to open {@BankProduct savings acc}",
+    "tags" : [ "gold-member", "test_gold" ]
+  }, {
+    "id" : "f8767d6f-3408-49da-adc7-379e20ffddfe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find application form for individual to open offline {@BankProduct pension} account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ee7b4d7b-9eb7-4e9e-8f5d-8bf3131c42e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where to apply for retail bond",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cac59543-344d-4738-a7c3-6a7c16cb2535",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wish to apply for giro",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "62c8c2e9-467a-4ff2-84d9-f7ca89bf0c61",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "would like an application for an existing account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "77c58deb-369a-4b1b-b8b3-9b5c451e45db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "would like an application to apply",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "509d49c1-9569-472f-9b98-58e6804c30e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@BankProduct Chequing account}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "2b54e840-3a56-4a37-b26e-f43dfaac6277",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@BankProduct Loan} private",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "02dcb97d-d990-4914-b110-84004e0bc127",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@BankProduct Personal loan}",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "d7d232c2-80e4-43e9-b651-0875970d724a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@BankProduct Personal loan} required",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "e52a4b26-bef1-4f46-a379-98c20fd51242",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@BankProduct Visa card} apply",
+    "tags" : [ "exgs", "bankproduct", "test_gold" ]
+  }, {
+    "id" : "bf6a5ecf-17a3-4da8-86b1-5b3f443409b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@BankProduct credit card} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "61a05093-e220-405c-a50c-7314de0f546a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@BankProduct credit card} apply",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "79d86388-1699-4d1c-b9ce-97e6affdf475",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@BankProduct investment} accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f286384a-498e-4406-af09-c43fc062b54a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@BankProduct pension} application form",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "84e2287c-a55a-4fc5-aab8-f806e6213ee6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@BankProduct smsf} application forms",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  } ]
+} ]

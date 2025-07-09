@@ -1,12 +1,22 @@
 {
-  "name" : "kcb_reward_type",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "points",
-    "aliases" : [ "point", "points" ]
-  }, {
-    "value" : "miles",
-    "aliases" : [ "miles", "point miles" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "points",
+      "aliases": [
+        "point",
+        "points"
+      ]
+    },
+    {
+      "value": "miles",
+      "aliases": [
+        "miles",
+        "point miles"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "kcb_reward_type"
 }

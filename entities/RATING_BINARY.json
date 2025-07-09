@@ -1,12 +1,26 @@
 {
-  "name" : "RATING_BINARY",
-  "type" : "Enum",
-  "system" : true,
-  "options" : [ {
-    "value" : "0",
-    "aliases" : [ "👎", "Bad", "terrible", "poor" ]
-  }, {
-    "value" : "1",
-    "aliases" : [ "👍", "Good", "great", "excellent" ]
-  } ]
+  "type": "Enum",
+  "system": true,
+  "options": [
+    {
+      "value": "0",
+      "aliases": [
+        "\ud83d\udc4e",
+        "Bad",
+        "terrible",
+        "poor"
+      ]
+    },
+    {
+      "value": "1",
+      "aliases": [
+        "\ud83d\udc4d",
+        "Good",
+        "great",
+        "excellent"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "RATING_BINARY"
 }

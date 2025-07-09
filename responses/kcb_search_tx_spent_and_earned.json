@@ -1,13 +1,16 @@
 {
-  "name" : "kcb_search_tx_spent_and_earned",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Your outgoing activity totaled ${spent} and your incoming activity totaled ${earned}."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Your outgoing activity totaled ${spent} and your incoming activity totaled ${earned}."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "kcb_search_tx_spent_and_earned"
 }

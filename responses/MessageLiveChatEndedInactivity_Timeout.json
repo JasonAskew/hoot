@@ -1,0 +1,30 @@
+{
+  "categorization": {
+    "tags": [
+      "live_chat"
+    ]
+  },
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "AVATAR",
+        "payload": {
+          "state_name": "agent_disconnected_bodymovin",
+          "display_mode": "TRANSIENT"
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "The chat session has ended due to inactivity.  Please try again."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageLiveChatEndedInactivity_Timeout",
+  "display_name": "Live Chat Session Inactive",
+  "description": "End session message when the conversation was inactive for an extended period (no activity between the customer and the agent)"
+}

@@ -1,282 +1,365 @@
 {
-  "name" : "bt_commence_pension_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
       }
-    } ],
-    "quick_replies" : [ {
-      "type" : "INTENT",
-      "payload" : "👍",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "1"
-        } ]
+    ],
+    "quick_replies": [
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "1",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4d"
       },
-      "label" : "👍"
-    }, {
-      "type" : "INTENT",
-      "payload" : "👎",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "0"
-        } ]
-      },
-      "label" : "👎"
-    } ]
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "0",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4e"
+      }
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To commence your pension please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To commence your pension please speak to your financial adviser who will be able to assist you. You are able to view your adviser's details in the 'Account details' section on the navigation menu."
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If your pension has not yet commenced, please select the 'Go to page button'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/commence-pension",
+              "label": "Go to page"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If your pension has not yet commenced, please select the 'Go to page' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/commence-pension",
+              "label": "Go to page"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If your client's pension has not yet commenced, you are able to do so by following these steps:\n-Select 'Overview' section on the navigation menu for your client\n-Select 'Commence pension'\n-Follow the prompts to commence your pension."
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_assistant",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If your client's pension has not yet commenced, you are able to do so by following these steps:\n-Select 'Overview' section on the navigation menu for your client\n-Select 'Commence pension'\n-Follow the prompts to commence your pension."
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_dg_manager",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If your client's pension has not yet commenced, you are able to do so by following these steps:\n-Select 'Overview' section on the navigation menu for your client\n-Select 'Commence pension'\n-Follow the prompts to commence your pension."
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If your pension has not yet commenced, please select the 'Go to page button'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/commence-pension",
-          "label" : "Go to page"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If your pension has not yet commenced, please select the 'Go to page' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/commence-pension",
-          "label" : "Go to page"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If your client's pension has not yet commenced, you are able to do so by following these steps:\n-Select 'Overview' section on the navigation menu for your client\n-Select 'Commence pension'\n-Follow the prompts to commence your pension."
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_assistant",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If your client's pension has not yet commenced, you are able to do so by following these steps:\n-Select 'Overview' section on the navigation menu for your client\n-Select 'Commence pension'\n-Follow the prompts to commence your pension."
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_dg_manager",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If your client's pension has not yet commenced, you are able to do so by following these steps:\n-Select 'Overview' section on the navigation menu for your client\n-Select 'Commence pension'\n-Follow the prompts to commence your pension."
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_commence_pension_response"
 }

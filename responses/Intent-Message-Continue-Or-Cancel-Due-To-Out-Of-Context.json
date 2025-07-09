@@ -1,16 +1,21 @@
 {
-  "name" : "Intent-Message-Continue-Or-Cancel-Due-To-Out-Of-Context",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "I see you seem to have lost interest in the questions I was asking you. Do you want to continue responding them?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I see you seem to have lost interest in the questions I was asking you. Do you want to continue responding them?"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Intent-Message-Continue-Or-Cancel-Due-To-Out-Of-Context"
 }

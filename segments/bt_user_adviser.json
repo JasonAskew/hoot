@@ -1,13 +1,16 @@
 {
-  "name" : "bt_user_adviser",
-  "active" : true,
-  "criteria" : [ {
-    "platform_type" : "web",
-    "customer_data" : [ {
-      "name" : "role",
-      "value" : "Intermediary"
-    } ]
-  } ],
-  "description" : "bt_user_adviser",
-  "enabled_actions" : [ "bt_request_for_withdrawal", "bt_request_for_withdrawal_investor" ]
+  "criteria": [
+    {
+      "platform_type": "web",
+      "customer_data": [
+        {
+          "name": "role",
+          "value": "Intermediary"
+        }
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "bt_user_adviser",
+  "description": "bt_user_adviser"
 }

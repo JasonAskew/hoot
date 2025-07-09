@@ -1,74 +1,96 @@
 {
-  "name" : "Bt_Deposit_Main",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "What method of deposit would you like to use?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "What method of deposit would you like to use?"
+        }
       }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query, please sign in to your account, then ask again."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For Information on how to assist your clients to make deposits or contributions into their accounts select 'Go to page'"
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query, please sign in to your account, then ask again."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For Information on how to assist your clients to make deposits or contributions into their accounts select 'Go to page'"
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "Bt_Deposit_Main"
 }

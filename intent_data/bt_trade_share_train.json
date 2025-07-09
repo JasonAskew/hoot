@@ -1,0 +1,2355 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_trade_share_train",
+  "intent_name" : "bt_trade_share",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "6549344a-0500-4a1b-b8d6-8f26eed7e97c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "After depositing money, how to I choose what to invest?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "b4b22141-d5a5-4555-a516-7303bf462c38",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i trade a managed portfolio on this {@account_number 048787020} account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ce83479b-1722-4d74-82af-2bf289b34c10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me with trading a managed fund on the account {@account_number 048787020}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3cf8a1db-eaee-4acf-bd7e-1053c7f364ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "For acc {@account_number 048787020} I would like to trade some stocks",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "03f3258b-2377-42db-8714-6180089c853d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "For acc {@account_number 048787020} I would like to trade stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "87aab674-4e7a-412a-b077-b5e9b18470de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I was just wondering what my current investment option is? I thought I'd set it up for a low risk conservative investment but it appears to be growth and potentially high risk (which is what I was",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7c27509e-9bd9-4b91-b0ea-3f03e9628c84",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I start investing",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "11fe278f-e7e3-4637-9b30-146a291d93c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I switch to a different managed fund?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "020bfd08-792c-4f26-ad6b-8d852fd75246",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i trade term deposits for acct number {@account_number 048787020}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ca899359-3a88-4dd0-a077-0c6c137bd561",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How is an ETF traded on account # {@account_number 048787020}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3091f75f-34a8-496b-86f4-fa83544bdea3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to change portfolio",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "7e6f0a87-f256-419c-9c91-2a833a1c15fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "After depositing money, how to I choose what to invest?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "ec66cc6d-334a-4cc1-ab4f-86a2adb8c96d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i trade a managed portfolio on this {@account_number 048787020} account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7e6956c5-c615-4aff-8080-513676af5a3d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me with trading a managed fund on the account {@account_number 048787020}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6c0677c0-6e8d-4db4-8b61-0de7a56efa7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "For acc {@account_number 048787020} I would like to trade some stocks",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9af93e2f-baca-4830-a87e-e7a13c8a563c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "For acc {@account_number 048787020} I would like to trade stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fc749a8c-8547-4b76-a424-78a1890d7213",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I was just wondering what my current investment option is? I thought I'd set it up for a low risk conservative investment but it appears to be growth and potentially high risk (which is what I was",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "cf5019bc-1276-4f2c-9914-22fea4a18a93",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I start investing",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "68736d5a-3d4e-45d7-946b-08178a3ae11b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I switch to a different managed fund?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "4d190996-6444-4fb8-8350-c8c9f261a0e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i trade term deposits for acct number {@account_number 048787020}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1cb9deb5-1ee1-4fe3-861a-98cdf06cd7a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How is an ETF traded on account # {@account_number 048787020}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e6cc7c9d-c2fe-4a24-9d8d-4a6bbf79ec2d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to change portfolio",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "4b633f8d-d68a-4e9a-8cb2-bb1a7519490d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade shares on account number {@account_number 048787020}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "47cd47d8-b5f7-45a2-8d87-d4d7dd1b32ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to switch my investment to a different ETF",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "c8a12498-1aa3-4661-baec-15f168a8ab66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'm not happy with this fund I want to shape it myself your performance is poor overall",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "cf2a129a-b62b-4b19-b7db-267c8f8c72df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Looking into trading managed funds on the account {@account_number 048787020}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "160f6a8c-02cb-4f91-9f05-0803a5bef5e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "advanced moderate multi-blend fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "02513966-e524-4cc4-83a7-5da215dd27cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "after depositing money how to i choose what to invest"
+  }, {
+    "id" : "38ee8a15-a278-480b-838b-9ab88368050c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are we able to trade mfunds on this platform"
+  }, {
+    "id" : "5c7b6501-6acb-45a4-87b0-06b39e9d4af4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are you able to change a couple of my international shares",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5e70d10a-dad8-448e-86ad-22d4e53de886",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob how do change my super investment to low to mid level",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e7b48377-7e83-44b1-8218-2c0db4760ed3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob how do i change the investment to low to mid level",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5d356e88-ab35-4ef4-b692-33f9a85d6f79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bulk trades",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "95fe00d3-5fb5-4d4e-ae5e-a65188ce59f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy and sell same day",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "807ce6a9-f388-44e0-9fc4-b554812f167a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy or sell investment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "488dd542-5391-4ae8-8170-cbb53942aa90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy sell query",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a27000fd-ce11-4b3d-ba7d-7e7166fd98e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change my portfolio",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "23f2fd21-5d4a-40b0-8388-95d451898a4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i invest from my cash account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0ad6d260-4470-4229-a57b-b794c4e0c923",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i liquidate my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2b31da72-83ea-47ce-915b-b4c665fade7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i sell and buy shares the same day"
+  }, {
+    "id" : "e32ecb96-fc38-4885-a7d0-1e0b13adf5e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i sell and managed fund and buy another at the same time",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "48850dea-5377-4f4b-afd0-7ef86dc8725f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i split across different lifestages",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "81dcc978-7435-40e5-bf26-efb9c3c20ecc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i trade shares",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "da5bfabe-6d48-407d-8993-118c8e0f04f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i trade shares on this platform",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2412f16d-ec39-4c66-b8ce-cae77a354ef5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i use this platform to invest in international shares or only asx11",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "fbf88512-5b84-415a-862d-5ef6f92c851e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise me how",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "8be784fb-dcda-4f51-a628-1b2e37d6e774",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you trade an mfund"
+  }, {
+    "id" : "c4ad6bf9-759a-4fbb-8b46-fc917cfbabc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant place ipo trade"
+  }, {
+    "id" : "fe733102-c740-465d-8c2e-615b3737208d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from high risk",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "62e72fe9-1e70-44c4-9697-f19ecf1c0c1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change investment",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3d6901a2-3d8a-4f23-b13e-825aa57c31fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change investment mix",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "58695355-f02a-4209-9518-2aa8aa2001c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change managed funds",
+    "tags" : [ "bt_train_q1_2025" ]
+  }, {
+    "id" : "7f18c2f3-56c8-4926-a816-f5816f92c79a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my bt index defensive fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1a6dfb22-559c-42d6-b3c9-49a50386f23f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my investment portfolio",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4b1b2c0b-e89e-42da-ac45-4e96056e6104",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my investments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9ab5947f-2941-4c76-8e5a-3ca0402b06af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my super from 111 percent cash to a mixed portfolio",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ba465e0e-172c-4039-a17d-66d5a392ce6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change super risk profile to growth",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e405d529-764b-4063-b916-d72b0c3938d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change where my money is invested",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "d6f32dcb-ff9e-4f86-8063-da9300179d0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are we able to trade mfunds on this platform"
+  }, {
+    "id" : "933d6163-b2af-49ef-b166-55e2f86d02ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are you able to change a couple of my international shares",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0ca5f2e9-836d-4250-be8e-2043de86c455",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob how do change my super investment to low to mid level",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6e459e8f-7dff-418d-bbdc-3ead0eab26fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob how do i change the investment to low to mid level",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "26ea9f9e-4b4c-44c8-805c-7ed474966274",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bulk trades",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "19f64969-c636-4ac1-8755-addde18a8d0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy and sell same day",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9534c9cc-45b6-4d90-b058-ba06e8ad0b59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy or sell investment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "64b73a71-a8cd-4d13-9208-06b3c8881bb8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy sell query",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2fadee0b-efc8-45d0-8293-c5a96be1bd27",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change my portfolio",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "627f0861-ad94-49db-a42d-9b6ba7a6baee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i invest from my cash account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c7cc9f2e-5a39-4122-8e64-c7af98efcc4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i liquidate my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1bc3c329-abf0-45b2-ab5e-cfcf6cba6a80",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i sell and buy shares the same day"
+  }, {
+    "id" : "eb2e4289-755c-410d-b837-46bc0c2f6f86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i sell and managed fund and buy another at the same time",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "095ac39d-7651-412c-a81b-364519e2cc9c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i split across different lifestages",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "eb3a95e1-218a-4340-b1cf-78daecaf7cca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i trade shares",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "8f2991ec-41dc-49f9-aed0-9c39d1153ad6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i trade shares on this platform",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2684d91c-0640-45e2-887e-e8bc2e0b4f1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i use this platform to invest in international shares or only asx11",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "23df690d-386d-4834-a154-676722cf9ebf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise me how",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "bfa6ccad-79a2-4965-96cb-fee75ddd8896",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you trade an mfund"
+  }, {
+    "id" : "c0df17c1-b286-423e-8f9f-28cf20d6f5f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant place ipo trade"
+  }, {
+    "id" : "3287cdc5-b472-4b86-b730-8c3ca92aea4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from high risk",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e65c6535-0d8d-4e13-923a-55b9df45872f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change investment",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d9dc8140-c93b-4145-8775-2431fdcf3c49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change investment mix",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e3929dcd-edab-4c50-825e-032adb66f20f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change managed funds",
+    "tags" : [ "bt_train_q1_2025" ]
+  }, {
+    "id" : "63b64809-91d7-44db-8b7b-e5ff3fb580cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my bt index defensive fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "74e34243-205a-4f68-84d9-bc8a8e4f8608",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my investment portfolio",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "64a15dd6-1002-4ff6-b81e-06b6eadcb008",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my investments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5f1442e0-d306-4b18-8391-56ed386e6ca8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my super from 111 percent cash to a mixed portfolio",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5858491f-9872-4091-bc32-f39bfdcc95a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change super risk profile to growth",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "210b5a71-d808-42b1-80bd-a619bf2fc0e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change where my money is invested",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "9a741197-0253-4700-86fc-ff298b1a6f74",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are we able to trade mfunds on this platform"
+  }, {
+    "id" : "fa57fe54-0381-4ec6-ba52-6ae93a95b17a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are you able to change a couple of my international shares",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "dd8022a5-ce88-4f07-9f5c-b6f19a5c1c99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob how do change my super investment to low to mid level",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d27565ee-303c-468d-b888-53a5421a20e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob how do i change the investment to low to mid level",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "de5e0060-afe5-4dca-b93d-717c6111027e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bulk trades",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "071e4e59-727b-4e45-ae70-b05e152f1e79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy and sell same day",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b1eb66cd-7ed8-49c5-896d-e2cc28d6d832",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy or sell investment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ad782467-591f-4d5b-9c11-9dd8fa09b2f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy sell query",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ba8cd32a-b0d4-4e16-8a84-f3b253fa4089",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change my portfolio",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "cf1d6e4b-8631-4d46-ad7f-d965b1b6a1b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i invest from my cash account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8be9c23e-48b8-48d1-92aa-6f744333ddcd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i liquidate my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4cb77d7e-db98-4970-a0a6-e1af5017d63a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i sell and buy shares the same day"
+  }, {
+    "id" : "bb472e64-cedb-468e-adba-471ff45a477a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i sell and managed fund and buy another at the same time",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "9dd10e7c-a321-4872-9a89-0d1f16dee51d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i split across different lifestages",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "41b60c9d-4c2b-4259-b98c-e23722d8254e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i trade shares",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "cf818e6a-4bbf-41fc-82d1-233a2880323e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i trade shares on this platform",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b8cfb5ee-069e-4acd-8382-12e5ac79d33e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i use this platform to invest in international shares or only asx11",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "e89db345-b0c7-4ed8-a6b9-3c7c4c2f8c08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise me how",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "62764ce8-44ad-4a22-b9ca-b505ced7bad4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you trade an mfund"
+  }, {
+    "id" : "fb13e808-90fa-4a93-8c10-3c4fc2da8e46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant place ipo trade"
+  }, {
+    "id" : "82fe215e-7442-41cc-82fe-1eb2cf96696e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from high risk",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0e142018-1f47-4666-af20-a1efe937ca3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change investment",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d291285e-18e9-45b2-b039-01172c1310ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change investment mix",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "790c72cc-b90f-4bae-8b01-8d9b12acd5da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change managed funds",
+    "tags" : [ "bt_train_q1_2025" ]
+  }, {
+    "id" : "406b95d5-47d9-4b7b-86f5-aedcaa9c1055",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my bt index defensive fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4dbd892e-315a-4979-8071-96840bfad4c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my investment portfolio",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c213fa93-cc8f-4987-b785-2f0c8ab5e1c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my investments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d1e892db-545b-4cc0-896e-6dc3a01cb4a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my super from 111 percent cash to a mixed portfolio",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1fefabf2-1c6f-4ce2-b0a6-b48f18b79cf5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change super risk profile to growth",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "06667027-b949-43d2-95ff-f42849b4daa4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change where my money is invested",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "80982efc-f0d6-4a8f-b3bf-1d6778aae0db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "complete switch",
+    "tags" : [ "bt_train_q1_2025" ]
+  }, {
+    "id" : "1f38e13d-9c9e-4134-a3c3-16d3020416ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "conversion of shares",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f4d6f087-c998-4bbf-b1a2-1c72dba28aba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "currently i am sitting at 11 percent cash and i want to be around 11 percent",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "acb28ced-e9c3-41fb-bc32-2a2a47b7d069",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "dimensional australian core equity trust",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a0b15043-9fb2-4861-b3e1-2729ae4b1fcc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do a trade"
+  }, {
+    "id" : "d9aa3356-ea41-4289-979c-b63a5027fd3b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do trades need to be placed before submitting an account closure form",
+    "tags" : [ "qa_updates_2025_q1" ]
+  }, {
+    "id" : "b88686d3-af4c-4de9-8ae1-1409b020d884",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form to change an investment",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "698ae99e-9264-4fb0-8192-1d86f231ecab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning i have a question about buying us stocks",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "cf33bf3f-b96b-4d53-b521-323243d7eda4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello can i please change investments to be held in cash",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "25872608-8238-4bdd-a801-d99db7294078",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i do trades on an account we are going to be dong pension r-set back to super to roll more funds into",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "a9ca08c8-abb3-4904-8018-7916d0145216",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i change my investment profile",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7c92ebce-2e84-4149-8b7a-7dd7dfdb7572",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i place a trade to sell the entirety of an investment",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "229ed358-3ee4-4f28-83df-8ae9380a8038",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to know how to invest available cash as per the investment instructions",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e9077cb7-4b63-4473-bb19-148bcc719e2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi please show me how to switch from managed fun to managed fund which i am holding right now",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3033756a-d5fa-46cf-8753-2d0aced6d370",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi, i want to place an order online to invest the funds(cash) in my account in some of your managed funds. However, i cannot find the corresponding icons/options on the screen. Please advise where t",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "0b4bd8b7-2288-47e1-82eb-a9c6a4bb53c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i change allocated percentages of my investment strategy",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "f3c756d0-e1b2-4704-818d-a81f37bb04cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i change my investment portfolio from high risk to medium risk what options do i have to choose from",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8e0922bd-25d3-4347-b38a-5ec3db30296e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i change my portfolio",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "170852c0-91c9-4d43-9e30-dfbc675c7092",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i choose where the money is invested on this potfolio",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "057a1ab9-eee3-414a-8cea-ad671494899a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i execute trade",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "da956f28-d423-412f-909b-a642d2f17ba4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i invest manually in my super account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "bb12053c-ea66-450a-91a2-c647a3b3331d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i invest some of my cash",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6944236f-3ca4-4072-9f5d-ca3a201ddfde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i make a trade",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "85cc02a2-2015-4c0f-9006-07e2c8d68333",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i move my funds in low performing portfolios to high performing portfolios",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e077f31e-cd87-4b69-ae56-9b0c8e80d33b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i move my funds into a managed portfolio",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "a495454c-e1aa-43fb-8eb9-87488ea4eec7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i place a trade without an advisor",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "70ea6903-38ac-40c2-99f9-dddc7ed419b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i place etf orders",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0e1378b6-e44a-40d3-8b27-40b1b3ecdc5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i set up a share trading account linked to my panorama account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "f166bdfd-d133-4281-8df8-6ea634f91caf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i switch into a different fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0c2df521-a3ea-4c74-9be3-51f4cc09e699",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i trade shares",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "8d1e1912-fb67-4b7a-bca7-5b5bccc6ac7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i update my investment profile",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b6970011-7771-4448-814f-48d2dd5f939a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i access share trading platform",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "33d5215c-c71d-4f23-84fd-113748301558",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i arrange for shares to be sold",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7de8822e-3258-4cc2-b157-245cb2f5624f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i buy or sell shares via my smsf bt panorama investment account cannt see option",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5ae3dcfc-3dde-402b-b7cd-9f1efd1f4ab4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i cash up from my portfolio",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1adc3352-a034-4fe7-bdf6-8558f5aeb343",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change investment funds",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "25e22687-bb2a-42e7-926a-0e2ded154652",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i change investments",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "eff89575-7af9-4b24-a03d-73acb886f12f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change investments from cash to shares",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "0df807fe-40f4-42b3-9fec-1b5d3b41ca9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my investment mix",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "22d4ef3b-3297-4660-84ca-08fcddc18f7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my investment option",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "92de6fda-7a3c-4616-8389-eb746d2adb2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my investment profile",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "13b3ec5b-e04b-4dc5-97a5-103fa038d219",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my investment strategy",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "af8dfbea-7def-4061-ac70-0555b13856cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my switch my investment options",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "927ac7cd-08e3-4222-995c-fc08dfbd466c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change the make up of my current portfolio",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ff63cacd-f7dc-4ef8-a27f-cc94c684771b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i complete a switch",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1eb97f59-d5b8-4f16-bc0c-f2808dffcaa8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i complete a switch of invesments",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "be35f18e-393b-44a2-8e90-57fd08c30839",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i deposit to a specific fund ie ‚Äúbob high growth fund‚Äù",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9ff7d67f-a753-4334-aff5-ca073ac9c7a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i do a full sell to cash",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "d6c7a4e6-ca91-4903-897a-5c18639cf944",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i do a rebalance",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ff087957-e7e3-4f71-b8b1-9f82e6be65c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i do a switch for mr bob",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "690105b7-3bf7-47b3-bf9c-aa39911d9474",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i do bulk transacting i want to do a sell all on an investment for all clients",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4e60a9d8-1e3a-433f-9a38-fcfc4d60e14e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find out minimum trades sizes minimum holdings etc",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "577dedc3-a825-4f3e-867a-a108a980df9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i go with investing as mine is turned off",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "598730c2-8412-4c61-a962-7244fe73e392",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i invest in bob",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f0d2a5d0-18d3-4988-b950-e15af012bf2e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i invest in joint names",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "4a280b9b-e0cc-4bef-b152-827bcfed361a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make a trade",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "2021867e-1b42-485e-84a8-1616436efcf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make investments",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "42f08495-a5f9-448f-8fc6-cc5305b56930",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make my own investments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "91c0d95f-4e6e-4d86-ab29-d08c07702bab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i move cash into investments",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "19b9a4d5-afed-42b6-86aa-9262b4c555b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i move money from my cash account to an investment fund",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7d603ea4-c1f3-4d91-bcb7-e65f6921b3e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i move my super into cash investment",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9f854dfa-943d-4f56-abdc-5220f213ad4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i place an investment",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "60dc1c01-6472-4e6e-b3a9-d517fbc0144f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i place an order",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "838cbdeb-f5cc-40e1-bd3c-a8de2b799c33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i place trade",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "60d8bdac-f7a0-4f3f-9c2f-d5b7b3083baf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i request converting available cash into an investment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "67cb5319-cae6-4d5b-ad00-bb83c3e98f3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i sell down an investment to get more money for cash withdrawals",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c6a64f01-4c33-4321-a3d0-1a29a0295f04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i set up future investment strategy",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bca0055e-6d81-4006-9f70-4f335d2fcdfe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i switch investments",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "2156180f-b510-4e09-a31e-11ccc0457df0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i trade",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "f169bf85-0819-440d-8ad5-bb5b60112bb9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i transfer funds between investments",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "6122db4d-e34f-4205-86f0-e250a155426e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfer funds into my index growth",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ca8e7460-96da-4985-ab6d-98649176517e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfers from transaction account to my managed funds",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e5ecccaf-9c71-4247-a9af-b614162386c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do make a trade",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "8991997f-7e52-47f9-8b84-8e50e5c5624e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to change bt growth portfolio to something else",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "4530d2b1-b720-4469-8d0e-30ea78a2889e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to change investment profile",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bbf7e029-6e44-4e9f-9c80-6f0ac1cfb955",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to change investment strategy",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "0dd66dca-660f-4526-aabe-5f10e3103057",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to change portfolio"
+  }, {
+    "id" : "62fabd6e-ae78-46e8-9f30-baf6bdc7d265",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to do investment orders",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "825a7f62-60e7-44bd-95f7-e28652225f2a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to increase the investment p√¥rfolio",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "503d2a28-81aa-4a94-b4a8-218bce70fc1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to invest with cash",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "0b9424e7-433e-46b6-afcd-6bef4a638d38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to invt",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ac9cc9cf-0c94-4370-9c60-d9a5f7bb09e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to move money across the cash account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1348bfe6-4125-476f-b38a-94f2ae4dd6d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to move shares",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c5f30b97-94a7-4d65-8a33-6a4e1340ef6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to place an order",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "76c23de6-1b62-4963-ba63-cb545fa39b07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to place trade",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "299e588d-2157-4bcd-9fe2-82a0f56741bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to reweight an account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "dcf28ee5-9311-47c1-9a39-61312cf666c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to sell down",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "12fba486-60c9-4b48-8d21-97e0613e4436",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to sell down investments to cash",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e8bbb927-99e1-4359-9014-16122da5850f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to start investing",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1dce9b3a-a6a0-4e67-99e2-50f11392adf2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to start trading using my self managed super fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7ee89878-6e02-440d-b6ab-274ce09f2ccb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to switch",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e6f691b5-3a7a-4ebd-a2ff-b3eabc3d354d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to switch current investments",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "02669925-953b-493b-9612-c5d291eec1bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to switch funds",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d367af4d-e542-4eba-8bac-2721ea53a9e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to switch investments",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7626acd5-4bcc-4f50-a1e9-33b7d63c324c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to trade",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "f2ad6375-5dae-4eee-a641-9dab65c5efca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to transfer funds to cash",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "713aa8b5-b720-4e62-92b5-ad6864090eb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to update investments",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "180ddf78-9f2a-45db-8ff8-92d5ad785841",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to you make an investment switch and buy new managed funds",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7d2700cf-dc19-4e94-9616-9d36a23140e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to switch funds but it does not seem to be confirming",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "6e376505-9b39-49f5-8141-f460548b7e47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am waiting for a response via email as to how i can start a share trading a / c i",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "50b69ebb-9448-47a7-a985-6a51c7e902b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am wanting to invest funds in a cash management account i can no longer find this function online",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0fb61e3b-aef5-401d-a393-71ce865a3113",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not get my cash account to invest",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6a8af283-f10d-4906-ab87-dc88acfe31a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cant seem to place an order to buy cf1",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ea687914-3ae7-48b8-8f3a-12167dde5eb2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have changed my investment mix wil my account detailes change",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "599ef1dd-681e-4af9-99ff-a7ee385c58c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have international equities held by netwealth asml holding n v",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9257cb30-92c2-4091-b0f0-edd3144176af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have lost over 11000 i like to change my investment but i am not sure what to choose for investment",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fae70924-6c4c-4638-8b01-294292f9a958",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i have shares on another platform how do i transfer them into this platform",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "54e2bc38-4abe-47da-a7d7-a63a8333d172",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need assistance with placing trades"
+  }, {
+    "id" : "5508b7b7-16b9-47bc-a654-637214653463",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need information on what i can trade",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "c90d7f91-8e52-48f0-9d8f-110041563424",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to change my investment profile",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "59367c2d-ca36-47a2-b1e8-0f3bcab16824",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to invest this super fund how can i do this",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7cc88beb-2ffd-4182-be00-400b0f4f5bd6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to know how to trade",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "0d4fe05d-076f-4790-8b39-f2adb068298e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to place trades",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d0eb9eae-d39b-425a-abfd-a95d72ca62d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to reweight an account - how do i do that",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "76ac4999-bf76-4526-918e-185ea74a95b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to sell some managed fund to add to cash and i can not figure out where to do this",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "96b93313-dc2b-4cc0-9208-318f9b888274",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to trade on an account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8ffa4070-3c10-424b-968d-de935daced42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want change my investment mix",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b5df81f9-0a68-4b65-8025-cd823b69660c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to buy shares on us stockmarket",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fb9e9092-5839-4f3b-a274-069746441517",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to change my allocations of my investments",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "355d51e7-0e59-4b30-9db5-0d075ea1662f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to change my investment type to : bt mysuper 1111s lifestage fund",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "0d82b5b0-bdbc-4f48-903d-b2acc0c8f6d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to change my investments but need advice",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "48ab5a5c-b1b1-40ec-8134-fd652ea58b40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to change my money to a new fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "593a7ae5-7bf3-4349-80e8-3ddd5df9977d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to change out of my current platinum funds into 1 other funds how do i do this today",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3fac7ddf-5a7d-4d00-925f-bd07bda44ce4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to move from a high growth portfolio from my balanced protfolio",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "80d5dcf5-51d0-4831-963f-e7c905af4ada",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to switch investment options",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8fde1af1-b901-4747-af4c-0274ef9c84b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade on the market",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "ab0c45b7-efe8-489f-9d78-1b5d3973a9e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to understand if you trade them one st"
+  }, {
+    "id" : "ceb9de91-a816-45e4-b3f0-1ec0836879fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i will complete the trades today"
+  }, {
+    "id" : "eef267d9-120e-46c2-b8b4-e0edae61ccd3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to change my investment profile how do i do this please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3044133c-2f4d-4ef6-97cc-79703379d798",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to chance my investment",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "d61ffd29-1e8f-477a-a5a8-d9cef7bc1f1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to change how my super is invested",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "6da95d04-f496-42bb-834f-b15da3dc6ebb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to change portfolis",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a546dbb2-7d9d-4fae-8850-8272602c316c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to know the order of sales for a partial disinvestment",
+    "tags" : [ "qa_updates_2025_q1" ]
+  }, {
+    "id" : "0fedffc3-b40e-4ef6-9e06-332e45921574",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to make investment changes on my super account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "55d61006-9666-4e83-8490-e071afccf2b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to make super investment changes myself online",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5e606dd1-a3f3-40f0-ae4c-1e43c1f5c83d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to place an investment order",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3cda5e79-1de1-4681-9d8b-ab42b8427af9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to trade on my account"
+  }, {
+    "id" : "a5993fca-b4be-4934-a7c9-7a8197ef6b0c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "idelity wholesale plus australian equities fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ca7e6d26-6c85-40d0-9b41-7014b61ed977",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "import shares"
+  }, {
+    "id" : "4e407469-32b9-4b28-a5c2-bc9557000f56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in bt panorama can i trade all asx shares",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "79f7c491-42d1-4958-a0e8-d8c8c6bd2a13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "invest in shares",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e8eb893f-9897-4e4e-9898-7bd48da619de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investement switching",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "eff43854-7e09-4754-b3e7-d51c4b0490a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment change to low to mid level",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9d46324a-2004-4c39-95de-37c81be24a56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment changes",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fb0b5de7-98ec-45ca-83d0-5f7f3cdeb812",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment limits",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "29571d1f-a3a4-4c96-bab5-12ea338c8e83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment of cash",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8d0e1fa4-c681-4074-a25d-eb7c0e6643fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment order",
+    "tags" : [ "bt_train_q1_2025" ]
+  }, {
+    "id" : "a891aa46-5206-46d4-bf1d-45e6c4d213bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment order forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f54dcdeb-a5c0-4e65-a5de-92a762aceac3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment orders - do they need client signature",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4ef98b50-5a9f-46b9-bf7f-078d28008ebf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment rebalance",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "5b5308f1-a74a-473b-b15f-f06eb72adde9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment switch",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "c1011bfe-76d4-439b-ae7b-6351e762631b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment switch help",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "70df2660-c081-49e6-a215-d42793d081e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investor trading form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "2647cdb3-03e6-4c42-81e7-4e7c7f0dd509",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "listed security",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ce9fa68f-bd37-4305-99c5-8c2904712958",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "listed shares",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "72f25450-1e12-4a65-b1f9-febf37cb2595",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking to change my super portfolio",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6cc6081d-019a-4c71-9cab-44637df4d656",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "make a portfolio transaction",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1dec69bf-c88a-4f43-92ed-17c9e3296380",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "make a switch on investments",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "804722de-c6fc-4fdd-8ed7-4db8c66eb374",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "make incvestments",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6d168ec7-a0f3-4b45-be25-fc3d1ae92e22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "make transactions in shares",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b0db7ffb-096c-491f-b83d-14a08de65d3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "maker a trade",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "ee5708cf-5c2b-4933-825a-6b91b69e3d75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "managed fund swithcing",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "286c25df-3b18-4791-8df5-9084742ce815",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "manual trade request",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "38c9145a-48e1-4dcf-b92e-deb3e869cff0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum amount to invest",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1c59a3a1-6b49-45da-acef-619ff4764810",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum order size",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "24d8f96a-a459-43ad-baaa-a5abc03ad991",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "move money to cash",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7490563b-bd23-48aa-a435-6bd3ccdb3fd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "multiple sale orders for one 1 client",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "fc7f7ce1-ec9f-4cd6-a7c2-fc75bb0d8268",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account is not allowing me to invest",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "50a318d1-13e4-4863-8fb4-545b31af0345",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my advisor told me my account is a self-managed accoint therefore i shall be able to place investment orders myself",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "237263b4-373e-4ac7-a6c9-69e34d8dd431",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my cash account has grown very large in the bob week or so - how do i drect funds to other investments",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b173d7e9-e364-4dfe-b2f1-b5e88a1f696c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my investment risk has changed from medium to high risk am i able to buy more of the same investment by changing my target market",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "32454d7a-f51e-4693-bc14-c45879c7498f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my overview shows % of investment in Australian property. i want to move my cash to this",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "866a5b3c-8f00-4ea9-a1ab-c8d5a58fb692",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my overview shows of investment in australian property i want to move my cash to this"
+  }, {
+    "id" : "4674801d-16e5-4507-a9d6-2b618f6d63f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need advice re international equities",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9ac9808f-4602-436b-92aa-6d6c8979844a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need an investment switch form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "69a432cd-d098-44a5-95cf-18f42b758b1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i want to change my target market",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cf060589-d92b-44f4-aa8f-b7b48e42391b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no just need the trades placed asap please"
+  }, {
+    "id" : "eb038af2-89ad-44ea-8748-1354c9d0929c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "online trading via account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "1b25f470-a922-454b-b1a1-65ebd1b0c338",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "place a trade",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "da991f5b-9082-4eda-a826-d7eee1b0f160",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "place an order",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "9478dc84-0836-4db5-bc2e-af37834a8798",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "place as order",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "584d2432-905c-48ef-b1b1-a4a3e49e0c1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "place investment order",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "11cd8426-7441-44f8-821c-411708d6d191",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please advise when the platform will be operational to place orders to buy and sell",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "d262627a-be97-4de1-ae72-e76de3cff7bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please help with trade request",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d36f6d21-f132-4876-85ed-bffb8aa1654c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "problem with placing a trade",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7bc3e2ed-e679-4e09-88aa-ffef386cecf7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rebook trade",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d6617e05-1378-4466-a6d2-740012f1c15d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "redirect the 111 $ per weekcontribution to a new investment - vanguard balanced index fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ed5f9da0-f29a-4a3b-94e0-54f206217064",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell all managed funds",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dc7e9af2-bbe9-4cb9-9c90-cb93ce77451d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell down assets to cash",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "90a377db-c1ea-47b6-8461-bac6b5f06d45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "share price",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "4813c931-9766-4466-b199-f575420ea479",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "share trade"
+  }, {
+    "id" : "60c098a1-8379-44f5-baf5-ce40224ca3b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "share trades",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5c75a9ee-e553-4ce2-9774-90c347c0e653",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "share trading",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3c915b76-2db2-400b-a14e-482f4754e8ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "share trading on westpac",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "acad90b3-4a71-4b78-b839-604359eff6bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "shares and trading",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9890a2b6-4774-4457-bdbd-f242c60dc92c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "shares invest",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "989d72ce-bd93-474e-ae90-2417e2a0f017",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "shares investing",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "64e24b69-951f-4991-8eb3-b1184e64fab2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "smsf investment strategy",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "ffccf971-3b6b-43f4-b5b2-fd4acec4d231",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "stock trade time"
+  }, {
+    "id" : "0fa02086-4f16-4d10-acc2-5f59e0616194",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "stock trade timing"
+  }, {
+    "id" : "c3a39b89-04a4-46a0-ae40-eae547e37efa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "stock trading",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "abc2d8cd-affe-4e3d-8af7-5587ddf8d779",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit an order",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "037510e6-5836-4509-a15d-e104ad242086",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit investment order on bt asset administrator pension account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e9a61cda-58b3-45af-8405-df86fa091ce9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "switch",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d3927f5f-5e60-4510-9eb3-3d97ab084b2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "switch investments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "79eec407-8151-4753-aabb-b521f4c450a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "switch transfer funds",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f7a6c3b7-cc07-467c-baf1-81ebc873cf66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "switching investments",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "2560a2fe-7a77-4fd1-b84e-c5d7f9b09232",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax rules re selling negative investments and reinvesting in good performing investments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3b0a9b0d-7815-4417-ab40-3d8dacde5609",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trade asx shares",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "dccc9895-8f23-4d92-8723-e6f87d3534e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trade redemption",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ef7b161d-bed2-4e8b-be14-e20a587afb89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trades",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "f3ef06a1-08b3-4fe8-9e12-9186a2f45ffd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trading rules",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "149332e8-b0d7-47fd-b486-2513242c519e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transact shares",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1149b03c-53a0-44a3-a37a-cb746faa2d5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer cash into an investment",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f717344c-09ba-4723-be2b-4728310ade6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer cash to managed fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "266ae6ef-64a6-4162-b5cc-774807a07ced",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer cash to managed funds",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "691aab47-cd7a-43fa-9e37-c2c5286e86f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer cash to my balanced fund",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b2f0d236-d8f5-43df-b680-06d125d0fe7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer eft",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b1c9d4cf-1926-42fc-acb2-c2c427407db4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer funds from an existing bt cashmngement account to a 11 months bt bob term deposit",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "66049ec0-0956-4662-aba4-5dcfe4372f8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer shares",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "03c0ac88-e67a-489e-9c97-ff1f369f1927",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transferring share holding top another broker",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "19de7a3d-c22b-49f3-92ea-427c7ef54f59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to chane investments",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "c95d36ff-b8b1-4a15-8c40-a5e38b7e29e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to submit investment orders",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2d8caabb-9736-4b04-8408-5e459d9323d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unable to trade some securities",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "5e91aa39-d5ca-472b-8763-4c738b78bde1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update investment instruction",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2740ae41-5ee8-4f08-b436-1d140340ed31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update managed funds",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bbe66acc-7b4c-4082-8d0e-0e43662e0b53",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update shares",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "15bea41e-68e8-46d1-a17f-664727a1f75d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "us stocks",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6807f589-b562-44ac-b144-9de6e4a0fa88",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "view available shares to be traded",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "47a513c5-ca97-4e3f-845b-827a72b92f31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to change my investment to a growth fund and not balanced how do i do that",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8e899d12-5438-42a4-a647-5eaa7c9f846c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to do a trade",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e16f3e51-f4c8-4229-b6db-7aa66a7ecc57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to invest 11000",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7f0b36a5-24dc-47f4-8219-f200623ae368",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to trade share but not on asx trading anymore",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0f4fa576-1207-4b05-a3f0-6c1842480415",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want trade on this platfrom",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "36cb0aed-b8f1-4f03-88bd-6a5d811df432",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trade asx shares",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "131d11ec-a6bd-4f83-8d07-6f03d9687243",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trade redemption",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8e03c27b-8a36-4af8-a1aa-ea95b425d89e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trades",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "8a5763e2-6591-4227-b4c8-8a5fdad982a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trading rules",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "84a1cce4-f4e5-4e06-a5b2-6694ff89c969",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transact shares",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "51153adc-2526-42fe-ada9-efcb971744e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer cash into an investment",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "34137c5e-17cd-4eec-b4f0-249c1d3dbc20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer cash to managed fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "87e8f4ca-22da-413a-b899-476fc69dd101",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer cash to managed funds",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "14c28f91-188d-4919-9dc8-c69bd5559a4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer cash to my balanced fund",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7fb6d16b-43ea-4817-84db-246b678d856e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer eft",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "09b97588-a618-4fe9-9f26-8b9e855f692c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer funds from an existing bt cashmngement account to a 11 months bt bob term deposit",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "22c06ddc-dde1-4e77-8f4a-13b1cd05bd5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer shares",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f2dce105-3700-4ddc-8749-75e4348bf8d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transferring share holding top another broker",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8c511529-1ee9-4ebe-82b9-9384226d57fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to chane investments",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "c42a49f0-02df-410d-a54f-98a2074298e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to submit investment orders",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b40f02e3-3fb8-4134-948b-82236b8762ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unable to trade some securities",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "eb972d5b-5c7f-4c30-93a0-d3af06d3ccca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update investment instruction",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b9db71ce-f758-42a7-839e-6e21263cf0ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update managed funds",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4a950851-db2d-46b7-820b-2a0034c65144",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update shares",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "4545e62a-1c5c-48b1-9205-80450b1b40d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "us stocks",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9ecfab36-6a13-475c-936d-0c20a877a39e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "view available shares to be traded",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "85ce5211-a6ac-4605-82af-f35e764d5cfd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to change my investment to a growth fund and not balanced how do i do that",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "91bc9029-2ffd-4557-b174-651679ddd72f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to do a trade",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "958bdb98-05d8-49f5-9880-2fa24f153456",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to invest 11000",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "568dbdd8-39d5-4fbb-b047-594f418aff14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to trade share but not on asx trading anymore",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "29c74328-cb2f-4bbd-8352-3c6c8bad87c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want trade on this platfrom",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "cdcf006d-89f0-433f-ba26-43b55db301de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what time can i place trades",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "085bd57d-7d6d-4807-b234-e1819fbfdcf6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what time do managed fund investment orders need to be put in by",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "84c3c6d3-07c8-4af7-9c0b-0a846eb9e7e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what time does your market open so that i can process a share purchase",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b0049ba0-b2a4-4290-96d3-cbbbce958962",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when can i trade",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e4fc1760-d9a1-4cbb-9c9a-bcf948587fe9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when can we place direct equity trades",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2e7f09f1-b17e-42ac-a351-c967817fdabc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the buy / sell",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "764cd0a8-615f-4e79-bf4b-1a2347edffcd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find an investment order form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "29645b58-bf90-4353-b002-f3e3fc6eeed7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find form to change super from stocks to cash",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "01188bc1-9b2e-47fc-beff-44d5885436b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i go to buy and sell shares in my portfolio",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b2eaf81e-79aa-46d2-8b6a-de77216151f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i go to change investment",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6bd68b76-15e0-4483-ac36-d61b7ff85bb8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the investor trade instruction form",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "d014b041-3d72-45c5-9a1a-6a729a1a23b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can not i invest money",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5e75b97d-d3ef-4d00-883b-caf2ee4acac0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can not i place an investment order",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f9185560-a04a-4615-94e7-fe0802999a75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can not i place an order",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5a925d7b-49d1-4ee7-b4df-bcba42b12e7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why cant i trade listed securities",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b54fcf43-f626-45ef-b7b1-0d90b2fa79fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why cant i trade some shares",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "156d173f-6625-44ac-9fff-6ed217bc5b0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yep where do i place the trade",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  } ]
+} ]

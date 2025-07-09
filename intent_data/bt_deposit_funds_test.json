@@ -1,0 +1,916 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_deposit_funds_test",
+  "intent_name" : "bt_deposit_funds",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "92cf51ae-8869-4466-8539-4f1ec0ae0f7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Add salary continuance to my super if I'm",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d7287cde-cb8b-4d65-926e-2901368d94cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I deposit funds to my super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8a01ecff-7aa5-410e-bfa0-63b4eae100bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a deposit via my linked bank account to my SMSF account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "179a6361-4c6b-42a5-ab6b-c899fb6637f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I top up an account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "07e591d6-15ba-4b85-a5f9-a254305cfb55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Contributing",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "704728c5-4f65-480c-b093-1a961f9dd8d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Has a 1.11 deposit been made to Bob Super Fund?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ab932458-d1fa-4240-874b-00a6bb9aa5a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi my client (#111111111) has a {@contribution_method cheque} that she would like to bank into her BT CMA. How does she do that?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "783c4add-4490-4e31-8f5e-f7edfb354236",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a spousal contribution for super invest account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b4f45ccb-213c-4303-952c-8cac2a19611e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I pay to mutual funds",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5c9bc404-cde4-4a59-b1e4-4f6df00e2596",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I send money to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a2a8bb20-bf41-41b9-a903-70c35cf9a1aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How much can I deposit?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "735612ba-18e8-4509-a6f9-9c7c03fdaa4d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to deposit {@contribution_method cheque} for my BT Panorama Investment account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "751638e5-659b-43cf-9ad4-100895e585a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Add salary continuance to my super if I'm",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3598e847-40cc-40eb-b051-9026540b41e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I deposit funds to my super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "89efcb5c-47f5-4a53-b6bf-f992fe4b4002",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a deposit via my linked bank account to my SMSF account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fc7c52ae-f8cc-423f-86ea-0cde0dcae123",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I top up an account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2c8d2624-0245-4e4b-ae19-e14129d273c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Contributing",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "019f3b57-d227-4f53-84a9-87fa2f90d735",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Has a 1.11 deposit been made to Bob Super Fund?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "2acdb715-7093-4415-8a40-c91f6e00bf10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi my client (#111111111) has a {@contribution_method cheque} that she would like to bank into her BT CMA. How does she do that?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "25a720ca-fae5-4133-b6ea-06072b9582db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a spousal contribution for super invest account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "07db16d6-610f-4de0-9146-d4b2ddb99efe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I pay to mutual funds",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d0ee32db-0fec-4d7c-8529-b75a641cdfa9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I send money to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "aa6f4fac-0192-424f-b1f6-2e226d698e54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How much can I deposit?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "0d079b39-5890-48ab-b832-2f0c1f50e2b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to deposit {@contribution_method cheque} for my BT Panorama Investment account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "68887043-b471-43c8-8eca-eec4b49720d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help to make a personal contribution to my super account through my linked account.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c611a3e0-5dc2-4e9f-82fc-bea8f2fb2db7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to deposit two {@contribution_method cheques} in a BT panorama account. Can you help me where I can do that please?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7d65e25d-6845-4e18-b4ba-e8882569e601",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want to make a non concessional contribution",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "7f09ba79-defa-446f-8a78-6adcdcbfae6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want to transfer funds from my attached Bank Account into the SMSF Bank Account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e26722e5-7563-4d6c-96c9-49164e26fc46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I'm a sole trader. How do I make lump sum contributions into my account?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "920b5db4-de53-4c9a-b88e-2e720a10df16",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Make a deposit",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "ea10a7e3-5cac-41c7-8f58-a2a5ed4c23a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Personal contributions",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ad744daa-d458-4541-8244-41da2e92edd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Super contribution?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ab18b840-ca89-4744-a0f0-03941110d19a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where can I deposit a dividend {@contribution_method cheque} into my account? Tried to deposit at Westpac as the BSB said BT Panorama Westpac but they were unable to accept it",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f9910906-e936-4f38-ae01-cc40be75ffe3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "acc 111111111 how do you make a contribution to this account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "33ffc942-4de0-4a1c-8704-c1043aa3945b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add funds to a pension",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "771b6eee-6147-483d-9860-4959a911ce32",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adding contrubutions",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "651b818e-3ce0-470e-9b94-27abd1febdf4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "assign personal contributions",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b30ac4b7-deaf-4c33-aa9b-0f3c5383e0a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob do i make a deposit",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7f02eb41-b405-4241-9c58-250aae41bd75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I add money to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "61674d6b-bdff-46d0-a813-04ed5fa8b7bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i make cash deposit into my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "78f1bde8-28e0-42ec-be57-e375fece80dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i make cash deposits into mu",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ee84b91e-9596-443f-9e4d-db226adb51ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash in",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5e3a2b23-b49c-4828-b7fb-cf595fa2b6dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "assign personal contributions",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "615ca907-7df3-4922-a3bb-195c1353626b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob do i make a deposit",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "222a4c10-fdbb-486e-833f-ccd7bb9be087",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I add money to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c8a36694-bf3a-45e9-9be3-78b930593b39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i make cash deposit into my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "91635312-c0fc-4c75-8134-27d196dd3081",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i make cash deposits into mu",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4cfa8e41-30af-44e9-99b5-a45f955d9bd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash in",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b5202c8e-02f3-4d55-9799-aad7544fa5fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "assign personal contributions",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7895ff83-9db8-4cd4-af8f-0c06d0104711",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob do i make a deposit",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7e18981e-45dc-4b68-8cf2-94dd9bf5df04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I add money to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "76c78061-085c-4649-88e5-1cf87f4ad741",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i make cash deposit into my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fafbd0fd-0cd0-489d-ba25-910120e47de1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i make cash deposits into mu",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "90139990-4b33-4824-b378-94d02daf9f28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash in",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "426bbaa7-ea53-4345-b3bf-10a20a4544c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client make contributions to panorama",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f9f56528-9b44-46f5-91e5-5357d32d07df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribute to super",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "46e82a96-fc9d-4638-af56-2106b6f62a90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4f5bf4bc-adc7-4290-95b1-f25fb086d3ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution caps",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "4d3ca933-8f27-4e9d-b3b1-829753e9ad35",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution info",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ff7df30-d3ef-42ec-873a-5442e36b78bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contributions in installments",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "4363f739-ffbc-4c54-8cdd-8740d4ed56a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "deposit",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a188e589-39ce-41e7-a1fb-fb496104507a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "deposit a bank {@contribution_method cheque}",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "6d397b66-fe29-46ab-b16b-68178c7cb071",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "deposit {@contribution_method cheque} into account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c4d93da5-5f77-4918-965c-1b518c7359d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "deposit for investment property",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "0a5ea6fd-ec79-41f4-b7f2-641f3f76a01a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "deposit money to my BT account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6e827bbb-6693-4da7-a9f3-4d4c9f2c61a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "deposit to my account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "2d226b88-0024-47e5-9013-d2720296ee4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "for depositing funds into the client account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "65bdaaa9-6b0b-4d60-9202-30d42100f9c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "forms to deposit into super using concessional contribution cap",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "92a350ab-57db-4bc4-aaa2-5386646d2b85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello can you please deposit into my account by direct debiting from my linked bank account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0410c7ac-4a66-4347-8f70-11ee7f6bd5d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i change future contributions to be invested into a particular funds",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "3f507776-1b7a-493e-892c-d9ad89bdaa18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you please advise what account numbers do i use to make a deposit to my super fund",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "af754d63-54e5-4d53-926c-b3528aa84557",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how can i make super contribution from an overseas bank account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a7da10c4-0c2b-4720-b879-a95337f76501",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how does a client make a contribution",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "44dc3927-15ad-4d72-a539-581937ae4f8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how much can i make to personal contribution before 11june1111",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7f416744-4b0f-472b-9f89-6bd5080a5def",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need a form so the client can make contributions to his super account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "151e993a-4bc6-4a9f-97dc-cd6537c79d56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there - i would like to make a personal contribution - how do i go about that",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "81bbbdec-f226-42e0-9a0e-04024bd4005e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where do i find the {@contribution_method bpay} details for our client to put a non-concessional contribution into their superfund",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d0b20964-b64d-4674-9d38-289284b47041",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ho do i make a payment into my super fromy westpac account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3416718a-4dad-4578-bdc9-8584e8127531",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i add money to my investment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "032b727f-e0d1-484f-9d3f-64c852520b25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i contribute",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c656f31d-f14a-4547-bd42-e1459fcf6390",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i make contributions to my super account?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "3097bc55-f7fa-448f-8960-d59d3fcd687e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i resume the monthly contirbution",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a6c9dd36-6eee-4391-aa24-a433b78c3dfb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i allocate funds to member accounts",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a34fc2b9-b941-4df4-a831-da82c60b9a16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my automatic contributions account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "dd4ba4ff-6860-4bc3-b6b9-14fe07286410",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i contribute more to super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c2bd14f1-92ef-4d31-874d-4966767d06f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i contribute to superannuation",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c89cf958-b596-47ef-a302-647e5c39a1d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find out what types of contributions have been made to a clients account?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "5864d52a-4467-439d-844d-e09a0620b883",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i invest cash into a managed fund",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "74dde2b6-94a7-4617-9204-fb66f074cea1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make a {@contribution_method cheque} deposit into my bt panorama investments",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b28d4c59-b6ea-473c-aed3-4af0b73f4ebd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make a concessional payment",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e64b0a40-64be-430f-8111-9f24172698c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make a contribution to my super accoun",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "df7d52c8-04d6-4ad3-973b-27b080c89ca9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make a deposit from my bank account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f845bb6b-3adf-4794-9fd6-e9e4b0f36285",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make additional super contribution",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "64109e86-8558-4860-b3df-0cb8ec252ec0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make contributions to my super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "146d21ac-d76a-4531-aa2a-3db170e7d7f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make exatra non-concessional contribution to my super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8819f8b0-7cf0-42cf-b2eb-09daa48f5627",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i receive SMSF funds?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "2c5cfa39-d98f-4d15-b683-593af8901e4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i sell a term deposit to place money in my cma",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "6ef02bed-1603-41e9-80ff-e5d1d9fc1b18",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do make a deposit",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2997d6e7-12ff-4a8f-887a-e7a272beec17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you roll my bt term deposit for another 1 months the web site is clunky it talks about buying an investment i am",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "885ac0dd-a6ba-4c19-9893-61084818e200",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to cash in",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8daac4ac-dc83-45ca-81d8-043b9ac1f435",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to concessional contributions",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ad312eae-3da6-4f7f-9715-c412e5df718c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to contribute when 11",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "f445502f-521d-4a32-a944-528f9fd60053",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to deposit for buy investment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2821b617-d98b-47f6-9ae2-bf6a5f72c8c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to make a cgt retirement exempt contribution",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "67906f66-58d8-4106-822d-478bb4dd1216",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to make a deposit",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "0202715b-6f64-4900-beb3-a7b78a34b822",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to make contributions to super",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "81eb5ccd-f452-43ea-9270-e5dc19787561",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to make ncc in an smsf investment account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8f24c256-e5b0-4684-b2a9-936951af77f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to pay into super account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c21df33d-6a2b-4dbd-9b75-7766ab6bd377",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to transfer money",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f482a7a9-5f75-49d2-a5fb-84ae496335b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to add funds to my current investment by {@contribution_method electronic transfer} but the order says i have not enough funds this will be",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "51ea5a76-c52a-4775-9da9-3ddafb175b35",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to add someone to make a deposit",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3cc14f93-ea5c-457e-92de-146ce88c3264",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to add a cash sum to my super 1111 $ how do i do this",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8f8c06be-cf05-4504-8cf1-030595c21bed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to add funds into my account by {@contribution_method electronic transfer} how do i do that",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "88a0bf8a-bc93-4fb3-9eca-4992de44254f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to make a contribution",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e5ffce65-087d-4eaf-8c25-c0980ea6e020",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to pay my own super for life",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3d466249-325d-43c6-becf-0800f63f5ded",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i wanted to deposit a bank {@contribution_method cheque}",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "e16fb0a1-c6ff-4d52-9854-12330270cffd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to make a lump sum into my super before the end of the financial year it will be a personal contribution for which",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3b1f6855-7398-46d1-a720-bcde4b6a7ca3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to put more money into super account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0aa428de-a1ae-4a61-9c93-be5df6f02df2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would live to put my money back into a managed fund how do i do that",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "d652d653-2bff-42c8-b092-2528d4a22691",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a limit for how much can be deposited via {@contribution_method bpay}",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "da8d0433-bc64-4668-bd90-7052acaedb8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it will be a specific amount to go from the bank into the panorama account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7cd1b8e4-2dcf-45f6-85b1-cc22f0027c93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "linked account deposits",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "43a35497-c87d-414b-b2ee-04f63a52bd9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "make a {@contribution_method bpay} contribution",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "93ce5618-ca73-4f7b-a247-9ac3abdee85f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "make a conribution",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "23546306-076a-4ab3-924f-d3beaa8c5e4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "make a personal contribution",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6624bbb9-a052-422e-84fe-e68afe7a9e4b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "money in",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f9bbdeba-768d-4db6-9381-84c9938e12f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pay {@contribution_method cheque} inot account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "efb09413-3265-4241-9b44-b731b5f9f8c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "paying insurance",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a0c725a7-3afb-4e97-a772-10a06794a38c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "personal contribution injection",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0809abed-f861-42d5-afab-61943b5e5c52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sending funds",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f2000a94-3b56-41ac-89a1-02274d019fea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me how to deposit funds into my panorama account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bb168aab-3746-442e-b9e0-8f34cc2a3198",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "spouse contribution form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dfc88fff-9922-486f-ba45-b12bdfeeaf04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "spouse contributons",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ade244f5-a12e-4fee-9002-535f5c85a141",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super payment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "90fce813-fdce-4864-958e-40336198d800",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "superannuation personal contribution",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9dbb8d6f-5f11-4363-bcdd-48e89733177b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer money into my cash account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4dc1d4d3-3c93-44de-92b0-c651efd946f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "transfer shareholdings into bt",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "c7e210dd-c41f-4ef7-85fa-4acd55358ab8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wanted to deposit a {@contribution_method cheque}",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "15ced129-1e56-4132-ac51-c7b090dfce8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we are wanting to write a chq to rollover funds from a smsf to a personal super account xxxxxxxxx who do we make the {@contribution_method cheque}",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1d62debd-0449-4a4d-8a80-e0c13b15b9a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what amount can i do a personal contribution",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5b2baf49-8bec-432e-bc0b-9ba1d0b32eb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer money into my cash account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "27669bc6-ab08-46b1-9584-dc5eeb297470",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "transfer shareholdings into bt",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "d863826e-747a-4870-87d2-2e8b681c2631",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wanted to deposit a {@contribution_method cheque}",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "a53abd92-676a-41ec-8a68-c292164726ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we are wanting to write a chq to rollover funds from a smsf to a personal super account xxxxxxxxx who do we make the {@contribution_method cheque}",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c0764293-c3c1-409d-9db0-49c73df2b51e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what amount can i do a personal contribution",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0a36f02a-c3d3-490a-be78-59a42fba2359",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what information does a client needs to bank a {@contribution_method cheque} for her smsf with a Westpac branch?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "da408bc2-73aa-4db8-887a-80832a89e1db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the contribution details",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "41a4eb7e-e508-448d-9c2b-c2840ce45c41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the option for {@contribution_method regular deposit}",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "05ffacb1-ccdd-4378-8319-1f99f2f43c3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i click to make a contribution",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e0c8867a-480d-4375-957c-7bc962755633",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the form to make a downsizer contribution and non-concessional contribution",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f8f2ecf8-eb6f-40f3-a1ef-5a94bc32393c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is your downsizer contribution form located",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  } ]
+} ]

@@ -1,0 +1,400 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "vpaconfirmation_test",
+  "intent_name" : "vpaconfirmation",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "69e969f9-3630-4e42-ad8d-84563393e059",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I dont",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5e061f34-4450-4d76-927d-fc053e8a314a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I dont",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b68334a3-3526-46f7-b4dc-499e36bb9108",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "NO",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "3b7030bb-87bf-4aa9-9932-c6d39ed144ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Nah",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "18e60bbe-24bc-46d2-b67a-619ca5d3eb31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "No",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "552c81c2-9c4c-4d23-80aa-375c7eeb67a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "No I dont",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b6a9a5fc-ae74-4abd-8a09-2ee2a765843e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "No it was via BT direct",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "956a2a7c-1d6f-40d2-b0f2-154accd02e27",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "No thanks.",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "a5cb6e42-5b46-480a-92a5-847ef6bc5828",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "OK",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5496ff0f-4d0e-4ac2-8763-a8cdc28ac6cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "OK I'll you again later.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "1bd4ca20-65af-49b9-8b46-38e6f8ffe6ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Ok",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "580bfb18-e287-45c8-9fbd-2d2376d8c635",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ok?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "412c8cd6-8a32-4315-9662-42aea05377e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Okay",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "3cacf3fb-ed55-4d25-a5ad-6b118435f9d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Sure",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0473ed68-9121-4bd4-8643-10b88b60874c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "YES",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a76912d1-f059-4b6e-a8a8-95a1de28896a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Yeah",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "193a3e95-fd48-468a-87af-508940fbff21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Yes",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "ef18d153-f5e3-4c2a-bab9-89d1c19651b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "absolutely that will be fine",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "78f89e12-fa70-446c-8a53-3ca8abd1686c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "both",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "823122ad-e8b9-484e-b612-3675b828d3aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "both",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "ab6d2e42-8e63-4ced-b891-4801cb25726b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "both",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "8db8d3db-d703-4cb0-8951-53c222cf9084",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "great idea is right",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "a3260843-a27a-45a9-b0d8-a078917ac3e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "great idea okay",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "20c9aecb-9bbe-45ef-8e03-fd607409fbf2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "great idea that would be true",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "2a116e4c-28db-45da-be82-23e9a9f0f145",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "great idea would be great",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "040e2bbe-c143-40e4-b391-08002995d7dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "great is great",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "fea7bf53-4a6d-4940-ac71-606cbeead92b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "great that would be right",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "af711d9e-9c2f-4359-8dbb-23a179f2be14",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "great would be fine",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "316017cd-80fc-4455-b34d-15026a892f44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i think so is right",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "39e22930-2847-40c5-9166-e12015ae6f18",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i think so sure is",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "de18f9e4-898b-423f-b777-98fc0283158e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i think so that would be true",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "c3c38a08-7a27-42e7-b242-66d6ac50b459",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i think so will be great",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "9138be15-717f-489c-bee3-d9999b53eb8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like to go ahead",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "d71dffa4-e7b6-47ce-a837-032a1fb78bd6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "incorrect",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "607edbf4-536c-4835-ace3-2fa867517d67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b2ea705a-19c5-4d84-ab22-87c662ef808f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no I cannot do that",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "243f500a-ef70-4590-bcbf-71c0473fc31c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i can not",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eacc1f6a-fb34-4b02-b6e2-95069743b266",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i have it thanks",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "26edd31e-eb3e-4472-8b5f-6958f6ac37ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "no it's ok",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5d68e457-15be-416d-b985-1ecb8e48c24b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no thank you",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1cf47614-1cfb-41dc-a2cc-bb3dfe5c2e90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no thanks that 's perfect",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b912e721-32d8-46a1-a309-6c6e6c133b7a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no that was the question",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9db45694-16d3-42e2-b040-93865876b604",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "non of the above",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f2b95f30-8ff6-4422-a850-cc2ce79136ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "nope",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d5a12a86-ad18-4deb-9fec-32c101170c14",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "nope correct my transfer",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "be0e979e-a787-40f5-9ca2-dfda1c595ded",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "nope that is not right",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "aa19eeb2-9ac5-4819-bf9d-cca81582edb0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ok great thanks",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "671612eb-b5a1-4fcd-a8e3-38f876fed57f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "ok no problem.",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "5e1c930e-d269-4166-a9fa-0bd9c85d3f9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "okay that is great",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "1d4197ab-211c-4f1b-b13b-6ef0145ebe4d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "okay will be great",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "10dfd107-22fa-4825-b485-d22a1bffdd49",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "okay would be correct",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "892f003c-5c17-4937-9272-ad73df2c9401",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sure i know please proceed",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "6de58344-298d-4639-bad0-71a4c3bb6376",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sure will be correct",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "a7092b08-0509-433b-8bd3-4c684cd30799",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "surely not",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "67593b38-ea36-4cb5-a2ba-5437893c38ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "that looks good",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "45e9f2a4-ef6f-42f1-ab3e-b958b0c823e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thats not it",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "be78211c-c01a-4381-96c0-f0ef2e6a1bfd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "that looks good",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "0a2856e2-6457-43b1-8c20-0b246f786542",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thats not it",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "88f7fc80-665d-4f7a-bce4-3dfb65f32872",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wrong",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "53f2c2eb-29c1-473b-a1ba-c913788dcba0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yea",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5597ad3a-dbef-4005-aae0-5eaff0bd41f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yes",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6f45d081-84f8-42ba-8f92-f79529843750",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "yes i know please proceed",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "e353eac9-2cfc-41f3-98df-91fe34e92d57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yes it does",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "63810c1d-2bcd-4017-980b-b96977758390",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "yes it sure is",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "a07212e3-8459-4fd6-b1d3-e5811bf93c99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yes sure",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  } ]
+} ]

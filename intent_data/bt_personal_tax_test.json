@@ -1,0 +1,682 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_personal_tax_test",
+  "intent_name" : "bt_personal_tax",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "de9e3bef-cdb6-4964-ba51-a13b53a44fb9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can a personal tax deduction be claimed online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "521d72fb-df5d-4946-870f-e4ab89e34954",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Claim deduction for personal super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1cc37c3d-0f92-4517-9564-fa73a3039dae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning , i am wanting to complete a \"Notice of Intent to claim or vary a deduction for personal super contributions\" form for my tax year 11/11. During this year I migrated from BT Superwrap to Panorama ....do i need to complete 1 forms?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "c7eb9e66-0d42-4dd5-b7c1-4814d0ddeaf0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Guy's, where can I find my Acknowledgement of Intent to Claim form?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "61c9ba21-cb37-4a15-9b2e-8b351e0528eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I sent a form off to you for intent to claim in February. have you received this as I need it for my tax 11/11",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b44fbf89-cd6f-4147-bf91-47edfa830156",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i lodge a notice of intent to claim or vary a deduction for personal super contributions form.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "1902447c-b0f6-4cf7-ae09-9f10527c9c0c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How much notice do you require for me to lodge a Notice of intent to claim form?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "80914491-8ca0-4583-b880-3cd77d525218",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can a personal tax deduction be claimed online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5d47a27b-4019-4645-9936-9fb981fc2091",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Claim deduction for personal super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7a8d3de8-efb1-43b9-a8ea-c233f16bd760",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning , i am wanting to complete a \"Notice of Intent to claim or vary a deduction for personal super contributions\" form for my tax year 11/11. During this year I migrated from BT Superwrap to Panorama ....do i need to complete 1 forms?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "6479f41a-4c58-4731-bff2-4eddc162e731",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Guy's, where can I find my Acknowledgement of Intent to Claim form?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "666761bd-9e0f-42ff-bc0b-3bab20e27ace",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I sent a form off to you for intent to claim in February. have you received this as I need it for my tax 11/11",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "cdf517df-e3e6-4ed6-9714-774656019d63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i lodge a notice of intent to claim or vary a deduction for personal super contributions form.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b6db6156-0db4-44cc-b49e-1dec42e45930",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How much notice do you require for me to lodge a Notice of intent to claim form?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a0cff7ad-8aeb-4c94-86bb-45d3aef499fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help with personal tax deduction.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e52a71c3-983e-4627-8253-659c12e35185",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want to claim my contribution on my tax what do ineed",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "00f07450-9898-4ed7-b2fc-000e2be3b0cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I've done all that but I can't find the forms deductions",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "324c8601-ad95-4e5e-b80d-a3be43728fa3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible for me to claim a personal tax deduction on behalf of my client",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3da11014-07f1-44eb-b220-ce685cebed65",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Notice of intent to claim document",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "012ccdd6-f273-4e6b-9a42-189b731a3dc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Notice of intent to claim or vary a deductionfor personal super contributions",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "25b812eb-a7ab-4e05-befc-86da681fc483",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Reduced Imputation Tax Credit",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "f8b06ccc-6192-4518-9fe7-f9cf46bbaec8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me how I can claim a clinet personal tax deduction",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e7d97908-20bb-4a4c-bdc7-a499f120eb53",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Submit a Deduction notice",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "29ccc3b9-2a5c-4fe1-95a6-d7bc520e0ac2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me where I can claim a personal tax deduction",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e357576a-3f9f-4a41-8355-1569d48d865c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the claim process for personal tax deduction?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "820b334c-e247-44a5-944a-f9df25e4c591",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where do I find the form Notice of intent to vary a deduction for personal super contributions",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8a9c2b17-d3b5-4521-9a70-6db4db786521",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where in the system can I claim a personal tax deduction for a client",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2c34a178-9b99-4ec3-8d6b-bb7b15b44655",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Year End Tax deduction",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "961e0c3b-ce6f-43f9-a08c-32dcd50a0b66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "acknowledgement notice of intent to claim a deduction",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dcc462d5-bff5-44c0-a31d-eb43375fd191",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apparently i need an intent to claim form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "00027d88-9ea2-4175-9bbe-b5306c21b4e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you lodge a notice of intent if pension reset is in accumulation phase",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "443bae34-603d-40f7-b721-c2790f4598bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me a document the notice of intent to claim or vary a deductionfor personal super contributions",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "3252359c-5f76-41ee-81b4-b077c0ba787a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apparently i need an intent to claim form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e02f6ae1-24d4-4e28-90a1-929db2ac20f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you lodge a notice of intent if pension reset is in accumulation phase",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "1728fb08-1f09-4683-94d2-6ed7158d3338",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me a document the notice of intent to claim or vary a deductionfor personal super contributions",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "2f35c89d-10d0-4204-b261-2dd10c32d696",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apparently i need an intent to claim form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9b8a9b27-fb6a-4eb8-a6ce-63e3401f9548",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you lodge a notice of intent if pension reset is in accumulation phase",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "e5a51745-d3d8-4d2e-a39c-29ef9375f7c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me a document the notice of intent to claim or vary a deductionfor personal super contributions",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "dbfb1833-67b8-4392-a9a7-fa04143d0fa3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "claim a personal super deduction",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "39fab951-6f01-454e-bdba-696468da24f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "claim deduction",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "19ece876-846d-4c5f-a79e-16fd0d5f2d97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "claim tax deductions",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0ac85a32-34cc-4b8e-90f8-6817ec65cb06",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "claiming a personal tax deduction",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "89284215-454e-4c02-b5f9-c23175a6179a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "confirmation letter of personal tax deduction notice for migated client",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a4a34022-e0dd-473b-ae0d-f71ec0493724",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact mail adress for Tax deduction",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7ca87c44-c6bd-4373-911a-5f63ffcd7dad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution claim a tax deduction",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0b428704-4dc7-4aab-9bcd-c73dccefd7c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "deduction",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ff664f70-f229-473d-abdb-de5fd6f36b8e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i upload my notic to document library",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "171e3e8c-6fa2-43a7-a60b-6f915ee2408d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for sending notice of intent to claim a tax deduction",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ba34bdd-c700-47e9-b510-857e71ccb3a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "has my claim been lodged to australian taxation office",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b5e8ac08-2979-4f4f-9eb9-0400ce877c84",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "has the tax deduction been taken out of my account to the australian taxation office",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "32acaa7a-6c85-47b4-8046-bb8dfac68bd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you please tell me if a notice of intent to claim was ever submitted on my account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9fc81777-abb7-4ec2-9ea5-1713f4e71421",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am having issues submitting a personal tax deduction form ref 1111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b6bced84-b26f-43e0-bdd1-386f30cbe4a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have filled out a form - intent to claim or vary a deduction for personal super contributions",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "94afd788-bba3-4ab6-9225-88c37370904f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to provide my tax accountant with an intent to claim form for my personal contributions for the 11 / 11 fin year",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c668f332-3077-48c7-adad-a7e07212cd28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i sent an email last week for notice of intent to claim form for 1111 i required a reply from bt stating it has",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d5a32873-5f25-47c5-a06c-547a4d767406",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i made a personal contribution to my panorama super account last financila year and made a tax deduction on the full amount i",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4d8ac242-4506-4696-b62c-051bc50263c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i claim a deduction for personal contributions?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "16b15c61-e87c-471e-953f-c77209d7b0a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i claim a non-concessional contribution",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "317efe36-7b7a-4211-8118-c6bfc69230d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i claim a tax deduction for personal contributions",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6a01797e-4d24-4424-9692-a47945f1cdac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i download my tax deduction notice",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c822e780-4deb-4a09-bae6-51db1cb1a7e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i submit a notice of intent to claim or vary a deduction for personal super contributions",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8b6b7461-f9c9-4558-b097-f7a555ff53de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do l send completed notice of intent to claim a personal super contribution",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f81c3914-6650-4828-a04c-f1573350afe9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to a make a deduction notice on my clients super account on their behalf",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e3f8b2e2-127b-4e2a-b4a5-e33d431df7d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to fill tax return personal deduction contribution",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d6884a43-e7b1-4fb0-a317-23b6d0b82d03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to work out i notify that i am claiming my personal superannuation contribution to the ato",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "83bbd33b-1416-4d89-af2f-8c10c00e1961",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a notice of intent to claim tax deduction form signed for a client and need to know where i can upload or email",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "794c21cd-a14e-481f-81c6-0062c77b0679",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have not received the notice of intent to claim",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4faba817-3387-454c-97bd-ddbface988c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need a notice of intent to state that we are claiming our contributions as a tax deduction - can someone help me with where i can obtain this from please?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "cf0496e3-167d-4652-9207-a8ec52467424",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need report for claoiming superannuation on my tax",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ceb50055-a5c2-44b6-8fb8-35b83a7f15c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the form to claim a tax deduction",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0965eb69-824e-4f1d-862b-d19bd76111d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to upload a notice of intent to claim how do i do it",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cad61d08-421e-40bd-bd36-6c10833cfbb4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want personal tax deduction acknowledgement",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1d65647c-b0c0-457c-a871-b3e37b9976f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to make a notice of intent to claim form for a personal superannuation contribution",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "65bafa90-6cf1-48f4-b555-e9ec997edc3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "intent to claim",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "02e13698-c88c-4430-9c7f-1abef6bb62f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "intent to claim tax benefit form",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d5f23d61-d4b9-495c-b944-b5926578b6ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "intention of claim a tax deduction",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b3db0bc7-732a-4d84-a770-b6520f148417",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "intention to claim super contribution from tax",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "1cf045d5-1801-4b6b-aaea-223f9a4d368e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "intention to claim tax deduction for personal super contribution",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "88092368-73ba-4a1e-98a3-43f286587ea8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "lodging personal tax deduction notices",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "227b74dd-0fe0-4949-9886-14b5258fd4b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my personal contributions for fy 1111 / 1111 were not pre-filled by the ato and bob i am not getting a refund on them what",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e2fe18e4-322a-41bb-9efa-3ea9a80a9feb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "notic form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c8646e64-9c11-4d3b-87e2-f6ce800aad16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "notice of intent form for ato",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "52ed1471-145a-4fdb-851e-c423d02c0123",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "notice of intent outstanding",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "918805a0-0c2b-4f6d-b051-73fcca607aa1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "notice of intent to claim a deduction fomr",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "65015929-6a0e-44ea-9257-6ef94eeee224",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "notice of intent to claim a deduction for personal super contributions11 / 11",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "16f0f4ac-b4db-4edc-bdf6-8a446976e499",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "notice of intent to claim a deduction form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8092f372-794c-4ae4-a38f-e2c98a816c9c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "notice of intent to claim my super as a tax deduction",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "eced3ddf-337a-4b9e-91b6-f68e1f0196ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "notice of intent to claim tax",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "be328a48-11c8-47ab-85b5-fe43d67d2f2a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "notice to claim a tax deduction",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bc3c78c0-d5bf-4e9d-b498-a125340da55e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "notice to intent to claim",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "771f86a3-6b62-4863-92eb-38b21b657d40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "personal super contribution deduction notices form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "621ba7ca-99ed-4e8f-9d9d-fdba1d8d752f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request a deduction",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6790f3e0-6341-471d-b7ca-a1a7b9fd32a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit a deduction notice",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5c830a5b-a14a-4101-a7f4-31749f12c5cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit notice of intent to claim",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "19672010-f3f7-4058-9f6c-77bce8150b29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit notice to claim tax",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "238cc141-fc8f-4313-945f-b82423d383d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax deduction notice not showing on client record",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "78eac50f-44d1-450b-a072-49d8458770af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax expense",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "059c73d3-0717-4ad4-85ab-2bd97af6f2cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax intent to claim form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "712aca3e-d588-4e86-9a48-298fd442e3f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax refunds",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dd030c01-6e94-46d3-9f2b-79ca12de56bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax that has been withheld",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "9392ef6e-2189-4e73-a9df-40a37b0bd2fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when is tax deducted for concessional contribution",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a4374a3b-a4c5-4f6e-bcd9-8f2547a3956f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i email the notice of intent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fca3082c-ecba-4641-9afb-5757bbc84333",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i foind the ato intent to claim for please",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4c38b25d-491a-405b-9fd1-d2be97d6e43a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send a notice of intent too",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e8e27645-93f0-43a7-b609-9a3f81254a6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where i can find a form for notice of intent to claim a deduction for personal super contribution",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c614866d-bc5a-4a56-b405-826b9729423f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to send notice of intent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "301282c2-89e9-4d71-a664-29c422bf0332",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where would I find the notice of intent to claim form?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "1bfe2248-5b6f-419e-a78f-a6efd90af7ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where woulkd I find the notice of intent to claim form?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "35188a79-b661-45dc-b3d5-f3c87bb1f63c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has contribution tax not been deducted",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "32c2acba-cfde-40ed-9aef-8635f80cda6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "witholding tax",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e307c929-f412-4b08-bf58-831bb6ba4b38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "would like to confirm why contributions tax has not yet been deducted from a client account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "903d3957-32a3-40b0-9109-bf20eaa2e01a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "xxxxxxxxx notice of intent",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  } ]
+} ]

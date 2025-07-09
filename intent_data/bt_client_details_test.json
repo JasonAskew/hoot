@@ -1,0 +1,1234 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_client_details_test",
+  "intent_name" : "bt_client_details",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "ac259e6c-1b3c-445c-87a9-5c4fe059ec6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Amend clients details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b6e193da-6371-4259-b35d-32f924cd44b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can client details be changed online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "29e803e2-1cc0-4192-80a2-205988ff5359",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change contact details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "08c8201b-67e8-441f-afd5-6e451fb7bc09",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change of details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c43cf87e-509c-4d2d-9992-e2d80807e6e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change of details form for client",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d1269c8b-32a0-4e4d-820c-87408e572c38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Goodmorning, i need some help regarding changing contact details on an application that is pending",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "04fdd3a4-03cd-4bb7-9398-17d22dc0af3b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I am based in Japan and would like to change my personal details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "7326f22c-d0f9-48cc-a182-08cf0e0a25fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I need to change my contact details",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "5d6ab089-388b-428d-a8f5-ef3345334d57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Ho do I amend Clients Details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "82da4cd1-6a02-4d05-bf6b-6b2bcf0d8455",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I amend client details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8664fd4b-cb95-4e18-bf76-d3fbe3beed99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I amend client's details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "6fe4f775-9c1e-46ad-b474-2f699b8c4d2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I amend client's details?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9f9072bc-2405-41e7-8fd5-348aa9cf9320",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I amend clients details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8d9495e3-3ff3-4695-9f27-aed416d7e03e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I change by bank account details",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "614322a4-f4f0-4166-a1f6-e19c6d884457",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I update my contact details",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "ecdc0272-c8d4-4fa6-ace9-a880e4f2e762",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I update my customer profile",
+    "tags" : [ "goldset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "3396e575-5ff0-43d2-a9f4-c96e7070dbb7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I update my details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f0c523e3-1ae1-4546-a7c5-b6b319b9b176",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i amend client details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "da98e583-3569-441d-80f8-fe171df44ea6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to amend my client details?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3dd3e2db-fdc7-4c95-b128-08b781245421",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Amend clients details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "96b241d3-e198-4580-81c4-a6c166b45b70",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can client details be changed online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f75108ad-bdd2-4cff-b4e5-fc42b749a97b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change contact details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7732d588-4904-4504-9371-0252ef4580ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change of details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ba567a8f-6dd8-4598-943b-e19c72ab9470",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change of details form for client",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9d9711f1-16d3-4e6e-bd7e-ff7d88f96f87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Goodmorning, i need some help regarding changing contact details on an application that is pending",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "3f11872e-b49e-46a6-8e23-62c5d92831da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I am based in Japan and would like to change my personal details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "cf98b27c-2a24-4817-b3a1-3189a152ebe6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I need to change my contact details",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "fb2554e1-334e-483f-9bf8-dadf322835fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Ho do I amend Clients Details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0b9ee3f2-2c95-4362-b170-eda5c87e3514",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I amend client details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6bd22c0b-2341-4878-a360-a529784a0ea9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I amend client's details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "73550157-4691-49fa-96a2-bc7a2c67a8e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I amend client's details?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0563afe2-a658-407a-9b16-0a5c5ab7d12c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I amend clients details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "731690ad-7f26-4973-9c7e-23eca1ae88e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I change by bank account details",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "96dc81ce-c1c1-428e-8454-4a2eb012f844",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I update my contact details",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "68166849-c90a-41f0-ba40-3b747aa63652",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I update my customer profile",
+    "tags" : [ "goldset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "1efd7851-1148-4591-a302-fcf505a0ea6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I update my details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "af349602-44c1-4bda-88bf-c441d6596f68",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i amend client details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3fa7206d-94e2-42dc-b75f-775e42cd2ed4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to amend my client details?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3cc0435b-343c-40d6-a2f5-f75194cf6a81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to change my contact details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "7c968f9a-e35a-4db0-9c25-53dcc3850f9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to change my contact information",
+    "tags" : [ "goldset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "ea8c9df5-b1af-4cbe-99ff-a3087005cc15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to check my Details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "5d87444f-2e70-42d0-bb99-3bd5f1923c10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to get a form to update my details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d18c19a8-680d-4f79-aebf-d2937c3d2609",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to update my client details",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "423e4705-9c06-4e60-8163-e06a9a8aee61",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to update my details and this is the link bt super sent me to do so. I have never logged in before.",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "60870480-69d1-4211-9bdc-babe5d375a8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to update my super details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c22777c7-4352-46d3-b869-0a65b61743b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Please advise how I can amend my account details as we are looking at closing the cheque a/c.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ad03c8f0-cd58-4185-9af4-903b406ae38a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Postal and residential",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e10bbd6e-5dc4-4f08-93c6-ac51fd07a47c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Saying details don't match, they are same as my policy",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "91d4fc03-9d86-40c4-a910-c3b00cee434f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Update SMSF details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "49893f47-3482-475f-811d-c4ecf27dcfa6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Update banking deails",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "240fe6df-576e-4abe-97f6-8727001527c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Update client details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3a1c9909-0bed-470e-b3b9-aa3635760e5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Update client details please",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "6c9911e5-055d-4b6a-b888-925d55fefd15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Update my contact details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "00099e1c-e814-4e8d-bc03-831f39b06691",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Upload Contact details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "e970b4f1-67f3-4f4e-8a05-cad79e411d30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I change my client's details",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cd7edc44-f485-4ddf-9add-3404ea5845c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can a clients details be amended online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4a65e05d-1fce-4f84-be53-5d5332dca3a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I update my contact info",
+    "tags" : [ "goldset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "320879ec-a274-49a2-b9c6-89d9d9d9baea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where to update the details for my client?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0735658c-6fd8-4002-9cd0-0faca8b46c93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "a client has asked me to update her email details",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6077bd43-3d36-43e2-b728-3cb9c2d9c1a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add primary client 's email address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "987fb8b9-f3c8-4f9e-a829-93adb2872df3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend client residential address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "64e41906-99d1-4324-a3ba-57360e4f0ed8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amending business address",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d002821c-1a9f-437e-9067-0f9a9fc4fe49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a client update theit contact details online",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "38bafa72-0a4a-4e7c-bbae-ca8c8e87ea10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i advise our clients new postal address",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f7935a57-bae3-4f80-b22d-a3285fe33915",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i use different email",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "59e9c3d6-4a39-4cd6-b733-ae18f4300d19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please update the address for wadandi superannuation fund account number xxxxxxxxx",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "6fbcf008-3332-45ae-bc33-0446d4cbced9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you upate residential address here or do i need to call",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a6daae12-b3c4-45da-b027-c3e28656d78d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cant udpate emial",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "12593637-0bdd-43a3-9c91-891b9cf02a8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change a address form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3fb0e2f9-799c-4e3f-989e-520201f27127",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change address on self managed super fund",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2dc379d9-86c8-47cb-8f55-5ba78f4d2028",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change address on smsf",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0be6349d-8db8-4bd3-b14f-cc33c35f1cc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change contact details",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c774bc24-c65d-44cc-98d4-db39d3028240",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change member details",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "32940aa5-3b6d-4be4-8463-e271b496074b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of postal address",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "95dec01b-b2f2-46e2-b676-8e17dce5d0a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of residential address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c7b46d96-c8b1-4a7d-8e1f-ecaae001048b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change personal info",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "27465160-5611-45b6-9cd4-b05082a6ca2a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change postal address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c0c8845d-ee68-4c58-97c2-9a17a7d4698f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change postal addrfess",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "57fd2c25-d4c5-41cb-8298-606cdb96a7af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change residential address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8a11b15e-a051-42bf-b153-737473ad4682",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change smsf address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c8d662a1-fbff-4971-b2cb-38a3c35d00e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change to postal preference",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "49c2e707-5759-4a50-8898-948f2ddce11e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend client residential address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b2d06603-d3fc-4ab9-aecd-fe3120a1466e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amending business address",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a539237a-31b0-46d1-a8fa-65420e3360ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a client update theit contact details online",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "88284e9a-eceb-4dd4-932b-22fc95aedc0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i advise our clients new postal address",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "58b5b766-05ea-4b03-b8b9-3f417be4e7f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i use different email",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1b885c3b-dee9-41a7-87b7-c73877ae4ed5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please update the address for wadandi superannuation fund account number xxxxxxxxx",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "5ad281ce-2e73-4128-a514-b080f592db95",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you upate residential address here or do i need to call",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "3fd49281-fa8f-44d9-94f2-13bcd682b075",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cant udpate emial",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "06d73d3f-8010-4aa1-a701-b7238e515723",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change a address form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d3cd05c1-ebfc-46f5-9b92-29a2b8d675f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change address on self managed super fund",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "aac10c91-0e25-403c-b400-ad1ea4c9f22a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change address on smsf",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "c384d53a-a0d0-4b2c-8c90-042a4d5be299",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change contact details",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f003e04d-43ef-4724-aabf-6d5a90bfbd2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change member details",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2f17801c-3699-4af5-a69c-26862b0b8986",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of postal address",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fd883f9a-9ae9-434a-a5af-1985793675ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of residential address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "15f47a48-539e-44d3-88e1-671d9024de2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change personal info",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "43ed6932-bc05-4fd8-82d3-256a83795f23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change postal address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "83c67e66-d841-46fa-b1b8-921e2dff1913",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change postal addrfess",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "21cc665c-c615-4fd5-a239-d1c18c4f10a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change residential address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "396cbf92-ecda-46c7-8999-9cce6f837da5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change smsf address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e65ec292-ad18-45d2-939f-66ca4cd7c321",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change to postal preference",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "831a9844-0b1c-43a3-be7d-4c48cd581bab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend client residential address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6752196d-cf4f-4a04-a4a7-d21469502079",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amending business address",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "401d0332-aebf-4539-b7d7-d67bc34db76d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a client update theit contact details online",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c31680c3-80bc-4f96-a7cc-f944c484c8cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i advise our clients new postal address",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b9182846-728b-4239-ae54-64b3266ca9bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i use different email",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "53950a67-96b5-447e-ad24-5f81fa7f7328",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please update the address for wadandi superannuation fund account number xxxxxxxxx",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "4b30d525-6810-4cfc-9494-409039a56dbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you upate residential address here or do i need to call",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "efadfe91-597a-4c69-ba44-1d7a3afa7ad0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cant udpate emial",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "a09c5605-034a-4e77-bcf2-9047d19e26b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change a address form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8e5f11b8-4b9d-4593-b43e-8d58083b42ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change address on self managed super fund",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2d31af70-8c7e-4529-9641-49c0dca9792d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change address on smsf",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "55b82c1c-8232-4432-8791-afedf8feb0ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change contact details",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "224eb89c-c14a-41d1-9310-149e3d53b37d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change member details",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "546c07ae-6ad6-4a1e-aff1-f6f6947e2c1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of postal address",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5444a2b3-57bc-4866-8e8d-8752eee254c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of residential address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b8cf5690-f516-442f-b862-3f9ad899e781",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change personal info",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8dc6768a-8158-45f1-8979-9a86e2b6192f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change postal address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f31cc1a0-e12d-4779-9b42-81c035e7acf1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change postal addrfess",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "a90fad7f-5ee5-4457-9851-1c83edba1d48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change residential address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "433203e4-4e5b-4488-84f0-3fd5d51d8c1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change smsf address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5ed62f98-0e06-4de3-b5af-32a0b97b541f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change to postal preference",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "6c260196-3d4a-4e15-a61f-8f42ffe17682",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client 's contact no",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5cfaa6d5-2025-498c-9862-f340b5dd3e02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client mobile phone",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "de11e7fd-13c1-42b6-8ee3-15e065cb7707",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "confirm details of client",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0fd38c03-85d3-4667-ba0e-993931fec671",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "contact details?",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "89f7dd12-78dc-4a3b-81ec-4018fba2d267",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "details do not match records",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "4ba38918-6a5b-4ed5-a3c2-6c31b447512c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "edit client details",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dd7bd5f8-7eaa-4729-90d9-e290c4a1c78f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email or postal address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2cb5ea61-4b30-428a-acdb-e6c6d1fb4a66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue i need assistance with changing a adviser of a client",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "9fb0c1ca-ba96-4332-baa2-056bd9976760",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bob michiels xxxxxxxxx and 111111111 has an old address can you please update to 1 bob court laidley heights qld 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f41fefbc-5ba6-4d6b-a62b-749a37a6f4b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi could you please update the residential address to be the same as postal address for account xxxxxxxxx",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c88e9b4e-b912-4703-8de7-f390acd1340f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i amend a client 's details",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9f2ef4e1-a563-46f1-a685-602d2be6dc4b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do you change a client 's postal and residential address in bt panorama",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "afd77ca1-92a0-431f-b74e-98c8ae2b2db4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to change the email address where the correspondences of a certain super account to our support email can you assist me",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "07865e78-c732-4867-9335-6e945d79e5a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team what is the best way for our client account xxxxxxxxx to change bob email address",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "69aef4cf-6f6b-4371-9288-00f765ccc4dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can I change my contact info",
+    "tags" : [ "goldset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "e6243b25-603d-416d-885c-f153ed6d6746",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i amedn client 's details",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "859b3705-f3cc-4762-b108-ee62bb1fbd22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i amend client 's detail",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5bc18707-7440-415e-abac-c7f9d172f0e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i amend client 's details such as residential address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6dd9647d-e8b6-4be3-8354-f0d2d15b3ea4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i amend client details on account xxxxxxxxx",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "986962af-5305-40af-a0f3-e954a86900b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i amend client's details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e33a9092-0434-4700-93b1-f3bd60a24891",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i amend clients details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "179794ae-f6a4-48af-83bf-b9f88ba90489",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change a client 's residential address please thank you",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ed17bea2-8837-402a-bf67-063c4f7b50c6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change clients residential address",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6dddfd1e-0aa3-4ad7-9fe3-1a4bf0c8df56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my addess",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "4b2b7cfc-6d16-4d9c-a520-1eb9dd6232ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my mailing address",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "81e0c420-cd4b-49c5-ad99-007c89f0b7bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my on record email address",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7b1b84fa-1389-492f-a51d-ccddd94fc6b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change residential addres",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a8b73049-ea44-4222-8506-fa626687c8ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change the address of my corporate trustee and the address of the fund",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2e5c0c4b-71f5-44c4-a608-2cd708b62d1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i edit my personal details",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "90bb6089-2d0f-4e32-a501-051ff9c9a82c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do l cgange my clients address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c57cd192-59e2-4ff6-9718-3f944bd4a5e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how t ochange clients home address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b0469ebc-4049-4bff-925f-07a6f7280db0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to update my personal details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a65f1064-a4ec-443e-8cfe-1ff64d002642",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not change my account details",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "23d41e1f-361c-4135-936f-c1fb28d16902",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have already changed my details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e3f7e7f9-29b9-479f-898d-c6ee56032da5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to advise you of change of my contact details how do i do that",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8b0c8d88-52ad-41ea-bcdc-e22f1d2f3604",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to change my residential address to an overseas address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "473bb226-785a-4ddf-9e7f-af07e8946d38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to change my residential address to an overseas address and cannot do this online",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "6e27b7fd-1ab9-4e86-a262-da6d5dda3c4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to check an email address",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "298e0de7-34cd-40ad-9391-5a9863e8f40e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to update the contact address for wadandi superannuation fund investment account number {@account_number 111111111}",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "eec3fdaf-b910-4b31-968e-0fc0c68d874e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to change the address of the smsf it is no longer in bob heads but should be registered to the same address",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "be73830b-22ee-46a8-8fed-e945d8275d5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to know what my clients registered phone number is",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "33531cc7-4c27-4349-8347-f8e9416cce54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "incorrect name for a linked client",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c521517b-a748-4718-8678-90cafc284b8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a change of details form for clients?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "343ab85c-97a3-4e4e-8345-0c5a3d154eef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my details are badly out of date how do i update them on line",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a8facf7d-5b26-465e-86bd-b43276701e57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to change contact details on account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "da9268e1-91b4-4988-9dc4-a8d6cf19eba4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to change personal information on bt super account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "778be309-dcd0-4fb8-b242-e2ec4ede67a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "need to make changes to my personal details",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "ed14ee46-be30-4fce-abec-962033895695",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to update address for client",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c0132ff7-8a7d-446c-8608-ec2477e9a5c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to update bob 's residential adress",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d811eb44-3df5-4570-bcdf-11515c136906",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ow do I change client details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0f56f62c-b48e-4b44-b94c-b547fc77b59f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "personal details change",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0504c103-9faf-4e85-b64b-c6c590ec43f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "personal detils changes",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "97d6e735-5ed7-43a3-947c-b07032915418",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "personal information was wrong",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f928bbfc-de3c-48f3-8c67-27bf28424295",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "residential address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6a680186-67d1-446e-9cc1-4f3a2f598050",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "some of my personal details are incorrect. how do I edit them?",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "0017670a-a974-4fe3-a27a-4cb1574e4546",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the client is already on bt panorama",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "f4007163-bfa2-4a0a-bb9c-7c2e1655234b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update client 's email address",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7cbd6d60-258f-4dc8-b3eb-a26e2b865850",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update client address",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "4b5ab700-94d3-4747-8c28-d0433c8df740",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update clients details",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b699ad9e-5ee5-4b39-8092-96b750c3b771",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update director details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0ce18a3b-2e51-4430-8440-3bab583ca2fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update email address",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0ebea004-e840-48c7-968e-711e59a67db5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "update my contact info",
+    "tags" : [ "goldset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "82f3d582-e537-4e99-ad74-c612f89bbd12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update my detailks",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "1c2b80f4-0922-4fe7-9eee-8cd9174fb326",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update my profile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "82160b6b-68e6-40f1-a280-13ea18331a16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update residential address",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "28146a69-198d-47be-970f-0e487b0cebfb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updating client details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4283071f-3568-464d-bbdc-218d8daf127c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the client is already on bt panorama",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "ac9a6f90-453e-4bef-a500-fb4b33871e7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update client 's email address",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "da446ea2-25af-4cdc-bb5a-5d3045262d4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update client address",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "6f77adac-5222-45cc-9063-dc891f42d515",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update clients details",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "274f2368-d5e9-43c9-ac60-a689e20436fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update director details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "494c10f8-32b2-41be-b95a-53331e5d9d39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update email address",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b7a6023f-d9de-4057-8a2b-2e604e6d4916",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "update my contact info",
+    "tags" : [ "goldset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "ed360ff1-0ed7-4895-a47e-ad544fa71db3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update my detailks",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "49a00b06-e2c4-4232-99d4-fb9188842391",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update my profile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1a05a614-24aa-4e0a-8d5d-a6f7c60e9350",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update residential address",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f9228464-9017-4b81-92a8-7b1c1727538b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updating client details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e7a82fad-2a46-4235-89d4-da20d796ab90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where are personal details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9b36ec4e-8214-45d0-b301-a09c54f3831a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "xxx xx x xxxxxx my email addressx",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6d95ebac-6ad4-4953-af29-f04d176e2c26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "xxxxxx date of birth",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d2b5f407-9c35-494d-b8ea-39052a807297",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "your details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  } ]
+} ]

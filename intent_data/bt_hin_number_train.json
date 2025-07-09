@@ -1,0 +1,994 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_hin_number_train",
+  "intent_name" : "bt_hin_number",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "d5b9315e-a94e-4d7c-b026-23c27731d135",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi there, just wondering where you find the HIN number in BT Panorama.",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "30bc2e33-7fa1-4b31-a602-2ccd91815a94",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi where can I find my holder identification number thanks",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "e4009443-47ef-4ade-928a-01d2459dc038",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find HIN?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "2197a48e-6116-48fe-8f98-1bcd2b45024c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi there, just wondering where you find the HIN number in BT Panorama.",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "2ba0b9f6-cf90-4a18-9b06-997b67f288c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi where can I find my holder identification number thanks",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "eccde72d-5f8d-4be7-8e29-9afacd1bff46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find HIN?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "94f42d52-118e-4714-a99b-67f02e9f7265",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is my HIN number?",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "eac7d913-1c08-4e8d-b92b-fe9b03617a39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my HIN?",
+    "tags" : [ "bt_corrections", "merged_from_vpaunknownrequest" ]
+  }, {
+    "id" : "5005e07a-d67d-4fd5-96bf-a5b0989463ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where are HINs found",
+    "tags" : [ "bt_corrections", "merged_from_vpaunknownrequest" ]
+  }, {
+    "id" : "bf1e657a-5657-46d1-8285-5b5db8136087",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply for custodial hin",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b72c339e-0db7-4de0-9306-45f7e494d5d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply hin",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ecf292b5-cfcd-467c-9e48-93f1c671db27",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are my shares chess sponsored",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "09fa5df5-c190-40f7-bc06-abccc077449a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are shares held as chess holding",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3bda058b-3915-40f6-a656-af5db5e9171f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are the listed securities in my portfolio held under my hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bbea8fc3-14b1-40cc-af80-33d4243c7e01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob can i get my hin",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "96be78e0-ab17-4722-b379-a0a8adc3590c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "broker pid",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2604f039-aa5b-4cf7-907d-d0fcbda80685",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i convert from a nominee hin to a sponsored hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fca681de-1329-4728-b13d-952372d410d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i have PID and HIN number",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "d91f1339-e1c2-45f8-b24c-b8cab83231fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer to myself on a different hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "76f7bbd5-2475-4724-aa1b-040f60ae595d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you confirm my hin number please?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "0da28a77-2630-4f21-834a-e0797b81e4e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me your pid number",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "108665a2-1f8f-416d-b65d-ed959d495f7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me about what is the nominee model hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1bfa6372-d85a-47cb-bb6c-cb960380c618",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change hin",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "a8366d4d-19c4-4826-8058-885a9804d845",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "95d8e59b-3790-445b-a7da-40617a79112f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply for custodial hin",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "00460359-1e26-4a40-ac4c-72d742bf7888",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply hin",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "106de26b-9aa6-4f79-9577-9a45e4063c23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are my shares chess sponsored",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "62acfe7f-7ee0-44db-8048-bc2c73508d81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are shares held as chess holding",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d504dea4-c470-424a-9c1e-d02988f86723",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are the listed securities in my portfolio held under my hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3abdd17a-4669-45fa-a56d-e6a2e03e9f74",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob can i get my hin",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "de5936ac-8934-4989-a746-c1499f620266",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "broker pid",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b12121d6-3106-4b1a-ae14-fcf7497442c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i convert from a nominee hin to a sponsored hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "6edf88c2-263f-4f8b-a376-b3ab002b9c29",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i have PID and HIN number",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "3c822bc2-c466-4b67-9539-9ce463731fa7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer to myself on a different hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f04d129d-edb2-4151-8882-5bcb29877d4b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you confirm my hin number please?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "fdc73e6b-ea5d-456c-9923-09d5fbcb5cbf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me your pid number",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "18fcc7e1-2f75-4752-ad60-1ac70eb99a4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me about what is the nominee model hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c53d4e1e-efb3-4a55-8950-5c2232205fdc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change hin",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "5426ee5a-9654-4580-92cb-07b1f2cbcbe6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d82b4ad0-a1f5-4190-94ce-10ff17c77366",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply for custodial hin",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d956a345-b8c1-41a2-9f25-b6208a525d41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply hin",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "72d83018-0da5-49fc-b46a-43b52f0dbf2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are my shares chess sponsored",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "da13fb60-2eac-4597-9ae5-10abdeddcb0c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are shares held as chess holding",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "21733a93-6f0e-462a-a0a8-886e96392d0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are the listed securities in my portfolio held under my hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ee93b98a-da6c-4d5c-81b0-c4420e6aba85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob can i get my hin",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9822e806-accc-42f7-b9b5-b8aabc38c082",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "broker pid",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "125aea2c-197b-4501-803c-d3af8e4409a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i convert from a nominee hin to a sponsored hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "521948bd-4b56-4c56-a280-e9b073527f31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i have PID and HIN number",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "ec02e0eb-0818-4211-8f3f-db37154d6486",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer to myself on a different hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "164c9d2e-519a-467f-a1db-ba2ecf9f4109",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you confirm my hin number please?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "c0be14c3-1e31-41bc-b1de-a434d816c179",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me your pid number",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0bbd9e20-6bfd-4700-b7f0-4c283d734fc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me about what is the nominee model hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2bd66a44-9bcd-4107-90c3-7ee4f23262b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change hin",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "0ff649bd-590c-4265-9291-6eb80829e6d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f8c0e1a6-3590-449b-956c-8a1d484f75f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "chess shares",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fefa5bc4-d55c-4370-9168-c905bdfab50a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client has an individual sponsored hin can bt update the client 's tfn / abn in the share registry",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "311e0672-ae68-488a-9789-b1fa9ef60f6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "custodial hin cost",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0806ad29-11da-433a-8569-a2da8b0e98fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "custodial hin fee",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c262e180-2bb5-426c-8e1f-71be1361ab55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "custodial option",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "798966c1-2570-43c6-b01b-d9444b49bf38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "custodial or nominee holding type",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "99c4a123-3f01-452e-b38e-1c10372de947",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i have a hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5d631b83-2a95-4c68-91d8-12fc471fbe49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i have a hin and where can i find it",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "380f5597-98ef-497a-8156-d1982d674784",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does a client have a hin",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a047d085-2348-4d60-9080-74a0bed40b1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does a investment account linked to a margin loan need a hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cc683d82-0589-476b-8c9d-f45d6a75326c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find hin",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "18d9b264-7c88-4c68-8977-6c65e572c95f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find my hin",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "f1d6dea5-0627-4f12-94d0-acc553f82259",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find my srn",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "714b4141-2215-46fe-9dd9-9b2498a0468b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue how do i check if this account is nominee or hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5dab44da-a112-4a01-9ac9-c6b3a72ea18c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i get my hin",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "09853e1a-7b28-4f37-9148-6977855fca57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am looking for my hin",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7628ab02-8006-44f5-82f9-d2c1a645ab30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to know the hin on my client 's account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6efad656-f598-47c4-8e00-3fcd99c12d67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there, just wondering where you find the hin number in bt panorama.",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "851d7ea2-1138-4430-b38d-c2b2e8924251",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi we have this panorama account 111111111 and we are settling dvp against this account please provide hin and pid",
+    "tags" : [ "merged_from_vpaunknownrequest", "westpac-annotations-050321" ]
+  }, {
+    "id" : "44124b37-45c7-4ca6-bfdb-54a0e53177ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is the broker pid",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "10df8b70-3691-4d14-9e7a-fd534e57bfd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i find a client 's hin number on the portal",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "76d4fa81-4350-45f0-9e05-5297c0c09492",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i find my hin number",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b9b8d9ec-2d3d-44af-8e4a-e2b58f0c5be0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi, can you please assist me by providing your hin?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "cba77738-2a75-4d51-aa15-a340ffa4a3ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi, we have this panorama account 111111111, and we are settling dvp against this account. please provide hin and pid?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "6452c057-794f-4408-a698-f4e4032b846a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f547648c-c02e-4699-a395-fe5f151cde88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hin address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9f221519-77dd-4f80-9413-89ce3a3d8a1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hin details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d8f24a22-4166-4927-8e61-2c5bec6470e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hin for bt panorama investments account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c1d42911-6bde-469b-b7a7-b952d614cb9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hin number",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cc182302-badf-49cc-aee8-79a951aee505",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hin number for my bt account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "dcf270c6-30b2-4a7f-bc5f-de38a1ccd3ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hin postage amendment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3c2169ef-121d-4e0c-806a-ea0d3a3565d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hin registery",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7130ad70-d91d-4f88-b414-ce452cdfa7a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hin registration",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a4f28751-bfda-4e97-bc79-a30b1e9c258f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hin request",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "29d3f477-75b3-4bd6-bf0a-fa0c82d9a355",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hin srn",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "897f8cd3-52dc-440f-8bc6-eb814ed5f80a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hin type",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b39705b4-0cb6-4327-898b-007a9ece60a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "holder identification number hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "443bc6ef-91ba-4a9f-9f2e-ea90794fdede",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "holder identification numbrt",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "c5dcce7b-41ef-4f23-af65-f2b36f66a1ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "holder number",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "3dd4d55a-3396-4392-96f6-a6d3f0d75fb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i find out the srn / hin numbers on a clients super account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c35d469a-4526-4236-8470-ba8b10102c3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i check a clients hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "807d9f37-dbf8-431a-a7fe-f8ba63a5c991",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find a clients hin please",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1af84edd-fb34-4311-a729-c566ef584348",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find hin?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "4c03bc99-6e8f-4c40-9da9-83bb7c362c9e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i find my HIN or SRN",
+    "tags" : [ "bt_corrections", "merged_from_vpaunknownrequest" ]
+  }, {
+    "id" : "1d7583dc-7f75-46fa-86e8-4cde6aa5514f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find out my hin number and postcode to access my trading and icome information by my accountant",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ee8e1190-16ec-4c68-ab22-2987663562c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find someone 's hin",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4112980f-39e5-4161-b2b2-9e22f985ff78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find the hin for my investment ac count",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "fef96595-b1a8-4bab-a529-e2c29ea20f4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get my hin",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "0de8d084-44d4-4afc-aab2-6b2a0a6ebf0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i locate my hin number",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c09e2351-f907-4a9b-ae5a-06f8c8aca6c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to find the broker details of bt so i can transfer sharers to this new account i need the broker pid and",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ec3f49ac-cca3-4e0c-8ca8-d87cdd18cc9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need my hin / srn for bob education centres as i need to vote onlin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f492b21c-3406-487b-9878-1a638dd57404",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need my hin / srn for bob education centres as i need to vote online",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c65a6d4c-ac7e-44d3-9841-b421c8eebe82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the holder identification number for the listed securities please",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3cf418af-bb76-4518-bc06-b023d920fc63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the pid number for our client bob page 's bt panorama pension account 111111111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5fec2fbd-770a-4adf-9fb4-2cb01b71a000",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to check the hin for a client 's account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f2b37187-4995-4e24-ab9f-45af38c810bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like the hin for account111111111 lpease",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8a46094d-7fcc-4205-928a-d744d36112a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if i wanted to transfer my direct share holdings to a 1rd party broker, what is my hin number for transfer? ie, where can i find this?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "e7931986-f5d1-4349-b21e-e6b6aa0b4d9c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im trying to find my clients srn number",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3ac59a16-978c-41aa-a431-881a63829db7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "individual holding number",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "04e26884-8916-4b02-b560-08f20e244ed8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it says individual hin that is the same as nominee",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3945d814-ef16-4583-a2d0-4038a8ce5f4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "more information about a sponsored hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "33559c67-a3e8-44ea-9bbc-386c0bfe141d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "move hin from custodial to nominee",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3b0abdc1-a198-485d-aa65-6302c1051586",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my accountant has asked me to provide my hin can you help",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d6203ffe-06bb-4826-882a-9ef482549d1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "none of the above can you explain what is a hin number",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "e57222fc-1af1-475c-b52a-8088bd00300b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "obtain a hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a5699030-734b-4933-a504-37a539eae984",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "obtain sponsored hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "6076928d-518d-4451-860a-be1cf11ee03b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pid for panorama investments",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "b6593f1a-0da9-401f-8e48-30fbea2a7261",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pid number",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b2555ffa-8287-43ab-9e3e-42e1298bdc3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please advise hin number for my account",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "2c044dfd-94a4-42e0-b962-b34a1bcdd131",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "security holder reference number",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "24802a03-1f69-4eaa-adac-ae3d4ed72d57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "share registry",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "3e243c71-0c58-4494-97d0-376da0278d4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "shareholder reference number",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "4d8a95ec-5d12-4471-9dd5-ce849d9cee5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sponsored hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c6228656-003a-4d4e-b09e-de41e3948182",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sponsored hin address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9e28dabd-cbf9-4c4f-b324-619d80de30dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sponsored hin registration",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "32ff4848-ff4f-4512-9edd-9040026523a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "switch custodial",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "07381ada-7def-4ca3-b066-51dfa3396356",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to find the pid details",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "6d0259b3-93aa-4b22-861d-211f676be5ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view hin",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2c4f3ac2-b646-4b90-8780-21ba8de7aa1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to find the pid details",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a1a7e920-7895-442d-8941-19e512324910",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view hin",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "561b5baa-e6e4-405a-b81b-e3086649a3e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what hin options",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "c3343ea9-9151-411d-9932-4f69e4fafaa2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is my SRN or HIN number?",
+    "tags" : [ "bt_corrections", "merged_from_vpaunknownrequest" ]
+  }, {
+    "id" : "b93af55b-0e97-4ceb-8aa7-69ed5c152588",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my chess hin",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "d8fc95ec-7b90-4811-965a-0597f61bdb6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my hin number please",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "f846aa7e-0637-46c3-bbdf-1c273e2d8f9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my srn",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "ef5b6a18-8db5-400d-9c25-037cfb94f3b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my srn number",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7de06f7b-99a8-4ac1-b627-891bb6de559d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is panorama 's pid",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "04c8e082-577a-4a3b-a6f0-5f8f1044f926",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the custodial hin number for this account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c42800b5-b86e-405a-a1d1-86a211cb7f0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the fee for a custodial holding hin",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "fb371feb-4ca1-4fc5-88d4-0d3a822cb467",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the pid",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "093ca524-00b2-4d02-baba-569205eec01b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the pid for bt panorama",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1b7b7d9c-a9bb-49c3-87c5-7e05dca1f529",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the pid for this account hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "21f2ca40-ec0d-4e8f-89d0-4f60e57551c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your pid",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dad28c76-19b0-4c92-8c9e-7b3a3b6a8cc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats my hin",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "85013745-4d67-4b8a-bef4-6d6717e1f2a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where are hins found",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "b366e36a-46cd-4928-9fd9-e87b3c6bd0ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find a client's hin?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "a21db105-1a01-4743-ba3f-900beed4718d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find hin",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "17a7b0b8-86f2-450f-bedf-1a59d6497514",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find hin details for a client",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "a4263a2c-968b-4f36-af92-7895b4fcf2f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find hin number",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "3193e4ae-69b9-47fe-a971-7a083bc799c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my hin",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f124e5c1-c6d2-4d22-9914-9e299ad81578",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the client account hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4701385a-84d7-4309-9738-02be3ac89119",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the hin",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "11346f4a-aece-4a4a-9fa3-3539ce10292f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i get hin of client",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "505d8423-4689-4c82-a15b-ffd4a165044e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do I find my HIN",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3a45d4ac-3246-4a4f-be62-72e3c760178d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find my client hin details",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "561edfe5-9def-4324-8c8a-7563842c1e5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the clients hin as a sponsored arrangement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7eefb578-1cd6-48df-87e4-606b527955db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the hin number",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9bdb5f55-b9de-475a-bc14-07ddae4dd686",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where is my HIN",
+    "tags" : [ "bt_corrections", "merged_from_vpaunknownrequest" ]
+  }, {
+    "id" : "5de5d5ca-9e4d-4b0a-aaff-fa08882ea709",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is my hin",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "99b12f6d-f33b-43d0-8f00-e29f0fed6303",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is my seller hin",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  } ]
+} ]

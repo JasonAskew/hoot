@@ -1,18 +1,22 @@
 {
-  "name" : "bt_personal_tax_adviser_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "I can help you claim a personal tax deduction notice for this client. This action is only applicable to super accounts. Please select the 'Go to page' button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I can help you claim a personal tax deduction notice for this client. This action is only applicable to super accounts. Please select the 'Go to page' button."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Once processed, a letter of acknowledgement will be available in the client's document library."
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Once processed, a letter of acknowledgement will be available in the client's document library."
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_personal_tax_adviser_response"
 }

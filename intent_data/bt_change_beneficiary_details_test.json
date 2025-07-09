@@ -1,0 +1,808 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_change_beneficiary_details_test",
+  "intent_name" : "bt_change_beneficiary_details",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "1f70498f-7c10-463e-9f57-e2f1a41e40a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Beneficiary nomination",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "04a2fab4-2e2c-4e49-bfcf-0a376403c143",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I add a beneficiary to my contract",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bbe1d177-74a5-4a4d-974f-65d6445c8f56",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update my beneficiaries",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f8312eac-3634-41d8-98aa-ad4ffa7296bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Changing next of kin",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "61131bde-aed0-4209-9e39-80e63c1f18ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I amend my beneficiaries?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d77a2b18-94a7-4768-a22c-54b6444f5b98",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my beneficiaries contact details",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "c66be869-4a00-4111-84fd-1f9bbd4ba4a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I delete a beneficary from my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7b90cfbe-9785-4d4e-88a4-1472e7463231",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Beneficiary nomination",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a94ed206-2524-463d-82cd-bff2212ee9fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I add a beneficiary to my contract",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "11b57240-e97c-4d59-a888-0f986ad88d63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I update my beneficiaries",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "58da0fd1-63b2-4de4-8ae6-27d207ac2376",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Changing next of kin",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "905591de-edba-4e3c-929e-5c59bcae4430",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I amend my beneficiaries?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "512890bd-b0a5-49ff-a2b9-a8bd0c65cdb7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my beneficiaries contact details",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "b7683604-680f-4d28-a646-51861bde534e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I delete a beneficary from my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "742a19a5-11b1-424b-af99-3e4d300ed996",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to add beneficiaries",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7ddcff28-089f-48ed-a34d-3e51162a8eeb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to change my beneficiaries",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "33f08592-e77b-418d-9300-71f0a284f5af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want to name my two children as my beneficiaries.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "9000f5e6-c144-42f0-924d-5743fa502bc4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to change my beneficiaries.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "90247694-e6cb-4d30-a1dc-f0fb3fd45139",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Linked account. I need to change the name of the account because my wife passed away more than a year ago. The account number is the same.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "782763a0-01d7-4768-af2e-b5bb459efa76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Submit Nomination of Beneficiaries",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f10ae21e-64b0-4650-b620-ec6085949171",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add reversionary",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "4a59fb83-9e5e-49ce-ae09-23cd70072ece",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend non-lapsing to reversionary beneficiary nomination",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "39e6e851-2b48-4cd4-a5c2-6d0d12ade53d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiaries",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "8a3c3ea5-f2cc-45fa-ad73-5a72a3c67189",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a0c2d24c-0667-4f61-8dbf-23c9f13807da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary bob s surname should have a capital k",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bc599ceb-287d-4b73-aeb4-0da4574c0ecc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cd9b6886-1fb4-477f-9308-670cea601f8e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7fbc3ba7-e875-42d7-b931-e48be050a063",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary list",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1b3fa950-eccc-4121-9c2b-3c6a9359f537",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary nomination for pension",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5edd2f61-a428-407e-aff9-303e7e8bbbbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "benefiiciary",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "961b7ebb-a72b-48e1-886c-d44a6dfcb968",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "benficiaries",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "5b1f0fc9-8558-436c-aae8-d34bd32994c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "binding beneficiary form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6826bc26-ac7e-43bc-98f5-bd41ab1b2d22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "binding nomination beneficiary form",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a2e5d7d8-9eec-4486-81fd-48bca16af3be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "binding nominations",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d45f59e3-6f27-4000-bfe3-7448923afb08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "binding non-lapsing beneficiary nomination",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9f44379d-c82f-4f3f-b4f3-66f1d6ec1b50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can clients add beneficiaries online",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8880ddc9-5aff-4a0e-bc4a-aeff922a1d34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you nominate in the event of your death to have your the listed beneficiaries to be paid via my will / estate",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3029c9f4-cb9c-4d2d-a257-9ad73070f602",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change name of beneficiary",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3b72b012-898e-4076-97d7-1a68560b40ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend non-lapsing to reversionary beneficiary nomination",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "24963f1f-6ee5-4a70-92aa-e1613c5a97f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiaries",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0b38ea24-1857-4a01-86a8-877c08c3b0b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "df683406-288d-46c8-accb-a1d41dfce7c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary bob s surname should have a capital k",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f4960098-b7b5-446a-9ccb-3efe29396f79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d98d766b-f1a3-4cbb-9459-79b3243e8b89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "49e80585-729f-400a-a80a-ea71d0068945",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary list",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "158c805f-b183-4efb-939d-876918f94e5d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary nomination for pension",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1dd47689-ee8a-42d0-8f54-aaa2f1d7b463",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "benefiiciary",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bd00d525-2fa2-43f2-9d21-22c3700a56d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "benficiaries",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "fb4c6962-3978-42e2-8f84-0861dd00db3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "binding beneficiary form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f67dea52-3f11-4fa8-ac16-3c48392fced4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "binding nomination beneficiary form",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "33dcf373-2e1b-4224-ac07-d2f0e64194fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "binding nominations",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c9c76666-4eb1-434d-9862-88d27ac1f215",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "binding non-lapsing beneficiary nomination",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "89ea9929-d27e-44f2-a002-b0b64db082bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can clients add beneficiaries online",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6134c841-3455-47cb-b54b-597b69d4488d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you nominate in the event of your death to have your the listed beneficiaries to be paid via my will / estate",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8d805ae3-eff5-4908-9da5-70bb38f55094",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change name of beneficiary",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "01a9aa52-e03a-4b49-9b19-1c97348f0d78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend non-lapsing to reversionary beneficiary nomination",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "af6780ea-1e29-420c-b9d4-cd7ec872a79d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiaries",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "8d449c2a-d61f-4942-a212-23d7b246132a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "812e8a52-867b-40df-9a47-5f3ba2539ea0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary bob s surname should have a capital k",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1916ca2c-6f2f-4b33-b15d-119069e3b3de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c0d67d17-5d3f-4079-8866-0abeaa9e185e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4cd3ac93-c4cf-46eb-898e-14ec677a474f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary list",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b0b3beb1-fd5a-4c3a-a9ef-b7458021ee80",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "beneficiary nomination for pension",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "48893ad0-bed2-4b91-b163-1188fb361d9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "benefiiciary",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b04916d5-3e63-48fd-8183-294ffa2cdbfb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "benficiaries",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "72fa2715-5aee-44c7-abff-9eb021dc665c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "binding beneficiary form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "131fb69f-99ca-4461-ab8b-089012bd0994",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "binding nomination beneficiary form",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "06235ee7-9e98-4dd2-830d-dcc6ea91f6f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "binding nominations",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ca421f16-aacb-44e2-9623-5a119fd6b933",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "binding non-lapsing beneficiary nomination",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0ef0252a-c957-48ec-8380-0b5c7ee6fbe6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can clients add beneficiaries online",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fe8e3c05-b7c9-4a10-a3e5-45c38259317e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you nominate in the event of your death to have your the listed beneficiaries to be paid via my will / estate",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9413e044-f08f-4838-ae67-8f726e18d78a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change name of beneficiary",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "31b7065c-89dc-4f24-a1e4-18983e1e34cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "child reversionary beneficiaries",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "70679d38-7710-453d-a68e-715a4a6d8df8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "death beneficiary nomination",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d2dab0bd-ff53-4c40-b153-cab1e227fc16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "death benefit forms",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1b5b98d3-49e4-42fe-8c35-1b3ee6963360",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "details on managing beneficiaries",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "465d9f62-5217-49a3-8774-db827c9b2679",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you allow binding death benefit nominations",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4894a37c-c836-4145-ae4a-2c321d144176",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have a form i can fill out to allocate beneficiaries",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ebb01c40-ebb5-4dfc-a750-79d4e7440d98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does the nomination of beneficiaries form apply for bt pension accounts as well",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b76a42e1-a1be-4094-b95f-86b43644c2f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find beneficiary",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ce4352a6-7b5b-408f-bcf7-261f791596e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi do you have a document / website which describes the process when a death benefit subject to a binding death benefit nomination is to",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "d4f88378-6135-4720-b4a8-d5f31868039e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am wondering how i can update or add beneficiaries to my account please",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2a0f958b-aafd-4de5-8e46-b7876dfaedee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i just wanted a beneficiary nomination form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "51f5fc56-2a1e-4dd6-9f61-2b72f28a983b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what are the requirements to pay clients to a beneficiary",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2bf33392-330a-4f9f-a111-95d4870356e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i change the percentage of beneficiaries",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f93e8e1a-4e9f-4948-9f9d-8b8f027c20ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how d i check my beneficiary",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "302a1bcb-94f8-4eae-85a0-6310f5220b42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I change the binding nomination?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0a80cea9-b382-43f8-80d5-514824e0f6c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i add an reversionary",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bbc2163c-fb3d-4722-91d3-baa866327ae6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i add beneficiaries",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "df4db4bd-0f47-4665-8810-1d584f9fa00e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change beneficairies on a client acc",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0b7fa7b1-02c2-4048-bd7c-47b5ffb78e9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my beneficiaries",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b1fb523c-dfb5-4635-b703-d90bfa051ca4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i change my beneficiaries contact details",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "df954d94-9c15-4738-a2ad-d6d7634b4c25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i nominate binding beneficiaries",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "741b3bf8-fe1a-4d94-a8ce-c38e3ae52848",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i open a beneficiary account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f8c58ce1-dba9-470f-affe-e4dadc26281f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do l make a non-binding nomination",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e3987475-0c97-40e4-aba7-af39a9fc474c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to action nominate beneficiary",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fb3f2c90-a53a-4d5f-a400-c2b392d5db34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to change beneficiary",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2c33bf14-68c9-4b62-8d74-fd290a4bf693",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to change the surname of beneficiary daughter is the beneficiary and has reverted to her maiden name",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d054a0e3-c52e-4906-9d8a-4a640e3f2348",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to make a binding beneficiary nomination",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "42be550d-b897-45ff-9ba1-16a62bd31f66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to nominated a reversionary beneficary",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "f4fb92dd-4c89-4321-b405-86913d1eb291",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am after a beneficiary form to set up secondary beneficiaries",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c8f49581-e06d-4555-b078-04ee66695f4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to check who is named as my key beneficiary",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f567b41d-c02a-4ebf-92a2-f4958c69acb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to change my nominated beneficiary to my sons as my husband is now deceased do i just cancel out his name and then",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fb98bff3-ab29-4a77-b100-9212121d4382",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to update my beneficiaries however am unable to login",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "9cb3de06-9f8a-4df2-87ef-ce467d0d28b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to change the beneficery on my super how do i do this",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "6794d725-b03f-41a5-b75d-474052d8a525",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in the event of my death i would like the money paid into my estate / will for the listed beneficiaries to receive",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dd61302f-860e-4589-b070-06bd1a1d1325",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "incorrect beneficiary",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "10b73f9c-ca3d-4195-a29b-1e1f82785cb2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a category box where you can dirrect any payment to my listed beneficiaries to be paid to them via my estate / will",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "28a6ba98-b405-4493-ac47-2ac64e119864",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it says i have nominated 1 beneficiary i would of thought i named 1 how do i find out who i nominated",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "69415b87-3d5c-40e9-bcef-55bc9af9d897",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "letter showing nominated beneficiary",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bcf56fb2-bb25-46c7-a507-df985f8c04dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my annual statement shows my beneficiary as bob however she passed away in may this year i assume my will takes over",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d54d3c0c-87a3-4f72-9533-be66e11be459",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "nominate beneficiary",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a3bf637d-c92f-4281-841e-ddf0e53eb001",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "nominate estate as beneficiary",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d259ec16-ff49-47bd-a92a-dd0d52437b69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "nominating a beneficiary",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "08c0ec3d-b329-4286-b471-a15ca53d4e16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "nomination of beneficiary form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fa63172d-a829-4a40-82a3-4e3c7accaff2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "non-binding",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5e7f08d9-422c-4ad0-af6a-b8d6075e4cef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not sure about the beneficiaries part do i nominate my children who are noted in my will as beneficiaries or is this different",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2818b9a3-3d58-4e93-82cb-c56b2d111a67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "on page called benefiiciary details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1c43d913-3714-44e7-847d-785ee8c62495",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "print beneficiary",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "27266bf2-7cd0-4a55-bc85-91c9bc6e9061",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reversionary beneficiaries",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4bf19f3e-51de-4a15-a9e1-a0c99ab7046d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "smsf nomination of beneficiary forms",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f276a4bc-5759-4b40-b879-609460238d91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super death nomination",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5277ed7b-9325-435d-a1df-75b33c988dbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "superannuation change beneficiary",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "017ba5e1-b93d-4a7e-895c-cb59f0d35d08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is no beneficiary nominated yet",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "95e8d758-8911-4467-b50f-4f53ec552c99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is no beneficiary nominated yet",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a75e64dc-df3e-4172-b658-e42bc3c4e435",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i check if there is a binding death nomination on file",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ffa73b0-9fad-422c-9b76-ea077cbccd59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find a bt panorama super nomination of beneficaries form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "60c3928f-e5a5-4eac-8f98-df39dcada2c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find a binding death benefit nomination for my client",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fea0183d-959a-436e-9930-92617eb9100d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find a binding nomination form to fill out",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d0e6705f-efbb-4ffb-938b-5cbae2f5e14b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find nomination information on an account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "611d9e05-ff59-4a58-95e6-2899aa7f670b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the option to have my money paid into my estate / will in the event of my death",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3e56ee56-684a-4f06-b718-67a794592aa3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to find beneficiaries",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "65fbf6e3-527b-461c-ad42-a8398b09f26a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can not i see the names of my current beneficiaries",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

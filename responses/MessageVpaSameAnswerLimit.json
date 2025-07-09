@@ -1,0 +1,33 @@
+{
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I missed that. Rephrase it, please?",
+          "alternatives": [
+            "I didn't catch that. Rephrase it, please?",
+            "Hm. Try saying that another way.",
+            "Oops. Didn't catch that. Could you rephrase?",
+            "I haven't understood. Rephrase, please?",
+            "Didn't quite get that. Try saying it another way.",
+            "I didn't catch that. Please say it differently.",
+            "Sorry, I'm not following. Rephrase, please?",
+            "That's not clear to me. Rephrase, please?",
+            "I didn't catch your drift. Rephrase, please?",
+            "A little lost. Apologies. Could you rephrase?",
+            "Didn't catch that. Would you mind rephrasing?",
+            "Lost you there, sorry. Could you rephrase?",
+            "Missed that last bit. Could you rephrase?",
+            "I've dropped the ball. Could you rephrase?",
+            "Oops. Signal fuzzy. Could you rephrase?"
+          ]
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageVpaSameAnswerLimit"
+}

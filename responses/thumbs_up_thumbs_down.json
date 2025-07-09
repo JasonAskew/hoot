@@ -1,29 +1,40 @@
 {
-  "name" : "thumbs_up_thumbs_down",
-  "system" : false,
-  "default_response" : {
-    "quick_replies" : [ {
-      "type" : "TEXT",
-      "payload" : "👍",
-      "intent" : {
-        "name" : "VpaPositiveFeedback",
-        "input" : "vpapositivefeedback",
-        "user_inputs" : [ {
-          "name" : "TargetIntent"
-        } ]
+  "system": false,
+  "default_response": {
+    "message_contents": [],
+    "quick_replies": [
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "VpaPositiveFeedback",
+          "input": "vpapositivefeedback",
+          "user_inputs": [
+            {
+              "name": "TargetIntent",
+              "value": "1",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4d"
       },
-      "label" : "👍"
-    }, {
-      "type" : "TEXT",
-      "payload" : "👎",
-      "intent" : {
-        "name" : "VpaNegativeFeedback",
-        "input" : "vpanegativefeedback",
-        "user_inputs" : [ {
-          "name" : "TargetIntent"
-        } ]
-      },
-      "label" : "👎"
-    } ]
-  }
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "VpaNegativeFeedback",
+          "input": "vpanegativefeedback",
+          "user_inputs": [
+            {
+              "name": "TargetIntent",
+              "value": "0",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4e"
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "thumbs_up_thumbs_down"
 }

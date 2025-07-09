@@ -1,71 +1,90 @@
 {
-  "name" : "bt_account_performance_available_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "You are able to view your account performance from the 'Overview' section on the navigation menu."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "You are able to view your account performance from the 'Overview' section on the navigation menu."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To generate performance reports:\n1.\tFrom the navigation menu, select \u2018Reports\u2019. \n2.\tFrom the \u2018Generate reports for\u2019 dropdown list, select a date or range for the report period. \n3.\tFor each report description, select from the settings in the dropdown lists to choose the information you want to include.\n4.\tIn the last column, select the Download icon for the report you want to generate."
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To generate performance reports:\n1.\tFrom the navigation menu, select ‘Reports’. \n2.\tFrom the ‘Generate reports for’ dropdown list, select a date or range for the report period. \n3.\tFor each report description, select from the settings in the dropdown lists to choose the information you want to include.\n4.\tIn the last column, select the Download icon for the report you want to generate."
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You are able to view your client's account performance in the 'Performance' section on the navigation menu."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_view_reports"
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
           },
-          "label" : "Report's"
-        }
-      } ]
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You are able to view your client's account performance in the 'Performance' section on the navigation menu."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_view_reports"
+              },
+              "label": "Report's"
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_account_performance_available_response"
 }

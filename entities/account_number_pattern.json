@@ -1,6 +1,10 @@
 {
-  "name" : "account_number_pattern",
-  "type" : "Pattern",
-  "system" : false,
-  "patterns" : [ "(\\d{4}\\s*){1,4}", "(\\d{9})" ]
+  "type": "Pattern",
+  "system": false,
+  "patterns": [
+    "(\\d{4}\\s*){1,4}",
+    "(\\d{9})"
+  ],
+  "state": "SAVED",
+  "name": "account_number_pattern"
 }

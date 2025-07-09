@@ -1,124 +1,155 @@
 {
-  "name" : "bt_trade_settle_time_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager."
+        }
       }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager.\n\nTo view the status of pending orders, select \u2018Go to page\u2019."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "TEXT",
+              "payload": "#/app/investor/account/{accountNumber}/investment-orders",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager.\n\nTo view the status of pending orders, select \u2018Go to page\u2019."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "TEXT",
+              "payload": "#/app/investor/account/{accountNumber}/investment-orders",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager.\n\nTo view the status of pending orders, select \u2018Go to page\u2019."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "TEXT",
+              "payload": "#/app/investor/account/{accountNumber}/investment-orders",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_btinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager.\n\nTo view the status of pending orders, select \u2018Go to page\u2019."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "TEXT",
+              "payload": "#/app/investor/account/{accountNumber}/investment-orders",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager.\n\nTo view the status of pending orders, select \u2018Go to page\u2019."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "TEXT",
+              "payload": "#/app/investor/account/{accountNumber}/investment-orders",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To view pending orders and download the 'Order confirmation':\n1. Navigate to the clients account.\n2. Select 'Investment orders' \n3. You can see any pending investment orders and download the 'Order confirmation' from the actions menu on the right hand side of the order."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_asim_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager.\n\nTo view the status of pending orders, select ‘Go to page’."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "#/app/investor/account/{accountNumber}/investment-orders",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager.\n\nTo view the status of pending orders, select ‘Go to page’."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "#/app/investor/account/{accountNumber}/investment-orders",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager.\n\nTo view the status of pending orders, select ‘Go to page’."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "#/app/investor/account/{accountNumber}/investment-orders",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_btinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager.\n\nTo view the status of pending orders, select ‘Go to page’."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "#/app/investor/account/{accountNumber}/investment-orders",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager.\n\nTo view the status of pending orders, select ‘Go to page’."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "#/app/investor/account/{accountNumber}/investment-orders",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "The time taken for a trade to settle is dependent on the investment that is being traded:\nShares and ETFs: Generally 2-3 business days.\nManaged Funds: Generally 5-7 business days, however this is dependent on the fund manager."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To view pending orders and download the 'Order confirmation':\n1. Navigate to the clients account.\n2. Select 'Investment orders' \n3. You can see any pending investment orders and download the 'Order confirmation' from the actions menu on the right hand side of the order."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_trade_settle_time_response"
 }

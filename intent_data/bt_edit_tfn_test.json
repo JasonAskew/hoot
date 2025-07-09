@@ -1,0 +1,328 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_edit_tfn_test",
+  "intent_name" : "bt_edit_tfn",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "feca7761-ddc4-49dd-a9a8-18f4a179114d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Add TFN",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "ae36b5ea-1721-4d46-a38c-022160d5be93",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I add my TFN to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b5b6a41e-8769-4ed8-9150-9f4ec921cbdf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I edit my TFN?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0126988a-0bc0-447b-8461-18db72317388",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add a tax number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c78bfe44-00c0-4ff5-b2a7-cf4be98132db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to add a tax file number?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8223e7d3-d045-499d-8ada-ccfbe86a950a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Add TFN",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "e7fbf3b4-79d7-4813-a8d3-888229301a45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I add my TFN to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c58b9779-b678-4e85-a3c6-8ed4488fcfa2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I edit my TFN?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f57d5878-8be7-4ada-9c3b-bf4cc109cf90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add a tax number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "24b9bf20-7861-46e6-b653-9cd00e965d06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to add a tax file number?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0f82c4fb-9dc0-4b19-9b3d-b99945864eb8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I like to upload TFN",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0db8483b-e3fe-40f5-aaf0-5aea3413d52b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to update TFN",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "50c327ad-6520-4fdf-a88a-2b7ec4092838",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to add a tax number to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "20a42de6-88e4-4010-84fe-42d3584eb200",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible to change my TFN",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "16c2bf60-5830-446d-bffb-dd6b2d0d0a35",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "TFN",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6c6d05ca-5795-4456-b6e6-97961a455eb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is the next step to add tfn",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "928d48b6-8160-462a-864e-c15e6778a637",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adding my tax file number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "af5e23a2-cecd-4097-a6b9-67967ac84366",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt tfn",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ae82f466-5de7-44c1-bcc0-1c08809eda67",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me change the tax filing number on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6e7a235f-5142-4e68-8f18-32b42893f5b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check tfn details of a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f690d020-01f8-4a1f-8a6f-3e40bf3c0c36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check that my tfn is attached to my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b8604da5-5f2b-45e4-9e1e-68c3a4282e40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt tfn",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f59219ed-6fd5-430b-aff5-6d7a3d7c91e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me change the tax filing number on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1e1702fb-f625-407a-b1a2-a2c35fa88aa5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check tfn details of a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "be1dc070-5bde-4cc6-b5f6-b8ef24414890",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check that my tfn is attached to my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3181a806-b1db-427a-87e0-5568c04c8666",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt tfn",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5c39796c-14f4-43b0-97fe-c409a228f10c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me change the tax filing number on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "79e6e535-b068-4e83-a8ca-35ab4d2e1401",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check tfn details of a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b44f5b83-d94f-456f-999a-1a710bbac4ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check that my tfn is attached to my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "935e139b-d17d-44fb-baf3-de5db3e68603",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "entering tax file number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9b1e2058-3a18-4646-94fb-86fd1f5b5dd8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good evening how do i add my tax file number please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cd9fb9e6-9721-4167-93f5-955181830a98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning i am wondering if my tax file number is on record with my superannuation i am in the process of selling my house",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "72295fb5-486a-41fd-a358-8b762d51bca8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i update my tax file number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c48c4b0b-03ef-4400-9dee-43e00199fc11",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i update my tfn",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b4d8510d-ba1b-4ac2-b581-9d7a953646d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to find tfn",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b14b2902-9dde-41a6-bef5-2b355f7be1b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to update tax identification number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4a2ac2e2-cf39-421b-b3a9-a7800ddff34d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking to connect my super account to mygov",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0760ae28-0635-4148-8b1c-35c33401fc54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not trying to add a tax file number",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "5420ea71-477a-4053-8ec1-0afd65551db5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need bt tax file number",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "f3c9fb77-d64b-4819-b46b-cfae2e54f756",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to update my smsf deed how can i do this please",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "7d966fe1-4169-4d27-8397-6a7246b2750f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to update my tfn",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "70bd2585-f35c-41c1-9d42-a88228d77154",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "im looking for the tax summary with tax codes - this doesnt seem to be included",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "857f3922-ec8b-42a6-8263-e7e22eee2034",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "provide a tfn for smsf",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0c4cc649-4a40-4c43-8dff-2020dbc8c103",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "provide tfn",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fd309b6d-f7aa-4f8c-996b-5446308817c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tfn declaration",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7712ef38-75d3-42da-82a0-53922eeb5826",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tfn for account no xxxxxxxxx",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2f1269d8-bd3f-415c-8b76-3823e3705b59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that wants to update her tin",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "85249452-196b-4fe1-bfaf-ca29ef9681e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tin",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dfd8f519-d934-491c-9385-5effb503eab8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tfn declaration",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d3c7d8a6-a881-4cfc-a5fa-39cee1a8ea50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tfn for account no xxxxxxxxx",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4de89047-fdc0-4544-90e2-f7c914d615c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that wants to update her tin",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5c7905e6-c4e3-48d8-9e09-30fe478b6176",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tin",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8b272b70-6872-490f-8f3d-c1a40efdcd56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is means fund tfn",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  } ]
+} ]

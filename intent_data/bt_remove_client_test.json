@@ -1,0 +1,412 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_remove_client_test",
+  "intent_name" : "bt_remove_client",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "df4ae14a-b774-442c-9ca4-45020e44047d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Advice Relationship OPt out form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "77b5c68b-6fb4-4194-9220-c119e9ff8eb5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I be removed from a client's account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "239b4ced-e08c-4d91-b474-f3c957d2320a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I remove a client from my advice?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ead0d2c3-5eee-4609-b3f5-554bbcaa9cd9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can a client be removed from my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6088fcf5-61c8-491c-971e-6f9e4e722112",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon what is required fo me to continue using your services but removing our financial advisor from the account.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "067ba35d-7000-4da6-b399-929c8b16cefd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I disengage myself from a client's account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6cd528c7-e382-40d8-ab1a-d0e8c664031b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about releasing a client that I provide advice to?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "da061ebc-3d69-4a38-b982-2aa97c13050d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do we remove ourselves as adviser?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "38038991-b9c0-493d-9949-3d5c17e8f7ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to terminate my client from my advice?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a3169ec9-a668-4a2a-868e-4c0074bfc4d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Advice Relationship OPt out form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "64d3b4df-8eb2-4d8d-a7a1-63de1c1d2b53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I be removed from a client's account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8e6b795f-05f4-4d32-841e-a7aefd655031",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I remove a client from my advice?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cd85a01a-d4fc-41f8-a095-ba32a79f41c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can a client be removed from my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "15e636c8-2808-4075-893f-7b1a6003f0df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon what is required fo me to continue using your services but removing our financial advisor from the account.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "41ffb657-6a91-48c1-bc6a-539fb4dc0d22",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I disengage myself from a client's account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b0554e17-9ee7-4f70-a208-162a0cf957e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about releasing a client that I provide advice to?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1fa1bcfd-2116-4c5d-aab3-7d6391ada873",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do we remove ourselves as adviser?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "da0e49c2-e05c-48de-b507-be0c19856811",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to terminate my client from my advice?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2ea20486-8d24-44b6-b01d-fc294cdd4e91",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I no longer want to provide advice to one of my clients. Can I remove them from my list?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "470892f4-187c-4d0e-8407-e17e036bda39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What to I need to do to take someone off my client list.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "beca34f3-b6fd-4d0d-883f-4c63b30f40d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the process for discontinue my service to a client?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "081c7272-f888-4c64-b1f4-be40ccd167e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I remove my client under my advice?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b38bdee9-e570-46a4-9c63-b9c14318115a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "advice relationship out-out",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b6c5be2a-ed82-4c65-af1a-9d3a649143fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adviser opt out",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fffcf8a2-3807-4846-9958-bd3ab2ed8a77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adviser to be removed",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fff87f29-ef0f-4023-a3ca-defa19bcaef3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "an adviser wishes to be removed from a client 's account the advice relationship opt-out form has no spot for the adviser to sign -",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b2c29a8e-7e2e-4942-9359-e55e612353a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i retain my shares without a financial advisor",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "dba6cc10-2731-45fc-8bfe-b488a6befe71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can the client manage the portfolio without an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e6cb9a39-0e61-4bc9-a271-1bdf5467b75b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "an adviser wishes to be removed from a client 's account the advice relationship opt-out form has no spot for the adviser to sign -",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b2b6ea2f-a632-42f5-acbf-43c1ef3e087f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i retain my shares without a financial advisor",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "453edf63-4e11-4caf-bf22-f191efce47ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can the client manage the portfolio without an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f32780b1-def8-45ee-8c29-0f307e33f67b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "an adviser wishes to be removed from a client 's account the advice relationship opt-out form has no spot for the adviser to sign -",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c1b0c9bd-80f2-4982-9480-e9c96dc62a1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i retain my shares without a financial advisor",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7d2dffb6-5fe4-40dd-b36a-147416096d27",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can the client manage the portfolio without an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b23eae28-9f2f-44b4-9be1-47fdfca70159",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client opt out form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "891eb5d3-0e0a-4ca4-8ef9-a74de4533ed2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "delete advisor",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "940a4dd2-73e9-4075-b6d7-769411c79b0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "disengage adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a8de3b99-688f-4170-b57f-779e2909e6d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need an advisor to operate this account",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "9176ec54-4da3-4b0c-ba1c-42c138f639c6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you need an adviser to have a panorama compact super",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "f9d40cab-e294-4093-b5b4-717dc4c42818",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does the client need to sign the advice relationship opt out when we just want to remove the adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bb29768e-6986-4cd0-b364-02c332d47871",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ending advice bob",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ef17cc5c-947e-439c-9853-faca8112d6ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form to remove adviser",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c128c0ca-da8a-4fc5-8ec3-9fe2fb9d13b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form to remove my advisor",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1efa8c0b-510c-402e-94d3-7bf27effa5e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello how do i set up a client with access to transact on their account",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "69c39e52-18c8-452f-b369-f3276f5f71e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - if we remove ourselves as adviser on a client 's account can they deal directly with bt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9cdf1329-2f56-48a2-834e-3f1a5c410d0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - our client wishes to manage this portfolio themselves - is this option available please",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "16929574-1fa1-42a6-bfd0-72f3fca9fd73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do we remove a client from under the adviser that is no longer a client of ours",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0abb9ac4-8a56-4aa8-84d8-591834509430",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I remove a client from my advice",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "e7d24f3e-7a5d-4480-b63f-0f9a219d7b46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change a client account to being client managed",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "8c8d2adf-a9f0-47f5-82d8-61ad07b9aebe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i orphan a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ce0c3397-32b9-4496-b7dd-b333e717a180",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i remove a client from an adviser code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ec15061b-496a-49a8-af26-2bdd107de8a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i remove an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "974b7cf8-f483-4ef1-9c4d-7a038ed227d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do we remove an adviser 's name from a clients bt panorama super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c5b3e8e0-b75d-40c2-938d-226be1087aee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to move an account to the investor managed service",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "042b0ae1-e928-4370-b02b-c08a46788374",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to remove a client from adviser code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "942a4e91-6955-413b-9a80-afeda6237758",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to remove a client without their signature",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fbc4ff16-b606-4a52-96d5-fb868551de69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i just wanted to check that a client has been removed from an advisor",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5d72e4aa-bffa-4374-826e-351375396f74",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the form to remove a investment advisor from my account so that i can do my own selling of my managed fund",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a0711bde-e632-44c2-999a-9d0509655cc8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking for removal of adviser form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "58928847-4d53-48c7-82a0-cae989911f3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please send me the pdf to remove an advisor permission from my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d41b42bd-cac3-4320-ab5a-3d54cbe41cce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "removal of servicing tights",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "96b43870-ab59-49cb-a0e8-0f52127ef55c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "remove a client from our business",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b3a85985-22d8-4390-9235-55f3628d775d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "remove clients",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9cddd788-b95f-48a0-8837-20bab3dbe431",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "remove clienty",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6b0f88ce-84fa-4427-abdb-3fbd261759ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "self advise",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5d611d79-f2d5-45fc-b835-6b68f2703332",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit advice relationship opt-out request",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2a3223f9-433e-4eb9-bd97-1638dc59e4cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what if i do not want to use that adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

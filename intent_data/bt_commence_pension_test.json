@@ -1,0 +1,334 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_commence_pension_test",
+  "intent_name" : "bt_commence_pension",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "284c4607-ac2b-4cbf-a5ae-b529dda8b2fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I am after some clarity re how Panorama works to top up Cash account for a Pension client ie. if pension payment approaching and not enough cash, what is the automated drawdown strategy? I could s",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "11d1b182-d628-4261-ace7-fc60fada0e8d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start taking my pension",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "79d88f1c-f91a-4b6d-8ff4-1fb70147c8f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start the process to take my pension",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "720a0f0c-9b72-4645-820a-2c988a49925e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am currently opening a pension account for an existing client and it comes back with the message \"Existing customer record can't be linked to this application, please create a new customer record.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5b1891f3-c8e8-4c5a-9a4f-1744aa2bed64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I am after some clarity re how Panorama works to top up Cash account for a Pension client ie. if pension payment approaching and not enough cash, what is the automated drawdown strategy? I could s",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "2a0446b3-4ae6-41b7-bd81-3a125149ea5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start taking my pension",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "00e8660f-4fb7-4b6b-bfa6-e77f874c8979",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start the process to take my pension",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "49b46486-f0a9-447e-8ad2-343a22bb6f05",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am currently opening a pension account for an existing client and it comes back with the message \"Existing customer record can't be linked to this application, please create a new customer record.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4b0abc17-cb59-4daa-82c8-8ac28effc740",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to retire, how to I go about getting my pension",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "26486d38-19e2-463e-a292-66912e8d34bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to start receiving my pension",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4e12230e-b250-4c81-aa69-a9c28f96a14c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Retired and want to access super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9dd6a74b-1b1c-46ad-b99d-e37dbf85e7b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "accumulation to pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "13653e03-0c2a-48ec-9731-d127553dc260",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "begin a pension",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3c0b0121-1b47-441a-be1e-519562d51f89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash rollover to pension",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b9aecaa1-dd6b-4046-81bf-3b8d1da33f7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of pahse form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6572f748-5eb7-4545-8f17-8d7183d8bad8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "begin a pension",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "884d6066-0744-4573-9166-088d437ef343",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash rollover to pension",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "afd6a0bc-a668-447b-b740-9923b4bccd60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of pahse form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "68a69af0-feb9-4231-87f3-ed0a0156b700",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "begin a pension",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bfb168b3-61c7-4717-9709-ad4ce3648f06",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash rollover to pension",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7af4fcef-585c-4a2d-b703-2821335afe48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of pahse form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6d90706e-8738-4031-85a7-a68b68690bac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence a pension",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "f623362d-63ee-4ad0-926e-2e3860e3eba8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence death benefit pension",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "63ebaba7-bf99-4915-88cb-8dc9f1ed3e8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence pension for this account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "776b410f-582c-4bdd-932b-411daa83222f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commence pension from super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1f21b380-8fd2-4d2e-b204-32b20e834075",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commencing pension",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d34a02fa-9413-46b1-9f7f-d5ecf0287aa1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "has this account ever commenced pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "99f6317a-aac8-4060-98f8-6528302d389b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello there i am currently thinking of changing from my super account to a pension account would i still get the good returns that are",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c0202069-90ff-44c7-b026-5ecef7eb2c0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I commence a pension account?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a8b9aeca-8371-485b-82ec-ce9769375fbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i commence / rollover an account based pension from an existing bt panorama super account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f9a8b99d-8d7d-4ffa-a8b5-a69d7e8d9024",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i commence a pension account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a73abaea-6070-491b-936e-94ffa333e8e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a pension commencement take /",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f0e3f9b0-5b1f-4ff8-a2c2-ddc285d6b52b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to make pension payment",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "1aacc3cf-919d-4a2a-a08c-2092f5dbd9ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have retired and i need to access my balance on a periodic basis how do i organise this",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3e2a0c2a-3637-4301-9671-89848f400c7a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "internal transfer accumualtion to pension account can we keep open the accumualtion account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "277f9fbf-6423-4772-9af8-09586d54464e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "one off pension",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ce738650-00e2-4518-9b39-b08bbd1d476b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension account schedule",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "268d2823-add9-4794-88c6-d9109abd0790",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension advice",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1a79e935-9e36-4350-8de1-5df124668049",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension commence",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7ee87fc3-0b54-463b-968a-6a5fb59d61f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension plan",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "47cf6c10-ef40-403b-86e4-e8cab9897991",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pensions",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "db19aa4d-c972-436e-8296-21ec3da1dcb0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reversionary pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d9253930-a1b4-4097-97c6-3e67d2750bf5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "start an account based pension",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a4d43318-0b39-4415-8f37-46283eaa3d0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "switch super to pension",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a2623156-910f-4eb4-8a01-4cdb91c29879",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updated client to retired",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f42e5fd2-ae1a-4621-a246-9ea35fe0cf15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to commence a pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1a024d6b-3925-4265-adb3-2999e5d529a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updated client to retired",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a643c686-3d9a-4237-97c7-0acb251d504f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to commence a pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2c38ace0-0bbf-476b-8928-642bc86a9fed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what forms do you need to turn super into pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e6f1c63b-9e5e-450c-9736-e5ab333ef5d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is needed to activate pension payout?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8e03cafd-02f6-47ab-8e9c-aed594e0bd04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is needed to get my pension payments",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8c4e81ad-8520-437b-8125-db615f73703f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the process to get my pension payments started",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1c5a5934-5901-4309-a451-6fe66b898b12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find application form for a person who wants to commence a pension plan",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8e80d8e7-6566-42f6-9639-88fc0b3fdf7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why pension not being paid",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  } ]
+} ]

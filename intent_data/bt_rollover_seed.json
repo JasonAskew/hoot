@@ -1,0 +1,312 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_rollover_seed",
+  "intent_name" : "bt_rollover",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "c7f6b674-e2e5-411f-b949-131e73700b55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I do a rollover into this client's account on their behalf?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "7249c09e-f913-4329-9131-f56127d8bfee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I request a rollover into Panorama?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "24b8b63a-8b14-458a-b7ae-e75ab74d2965",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I request a rollover out to an external fund?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "8b597798-fbdb-4ec4-9341-4e91dafb00b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can rollovers be completed online through Panorama?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "530c1740-8162-4c35-9fe1-267fb663ab58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we initiate a request online or is a form required?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6d3c555b-874b-4292-9d90-56a2b1244ad5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to do a rollover?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "87229d57-7da1-445a-ad5b-6e7f6b3b74b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need a form to do a rollover in?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "c78d78f9-fb4b-4322-a0f8-2a31f272186e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need a form to rollover my super?"
+  }, {
+    "id" : "6fdb0a86-3ca7-4ce5-b7e6-c8f23931c9ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the client need to confirm the rollover?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "4ec81944-25d7-4bc7-8937-e3d92c49af00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I roll funds?"
+  }, {
+    "id" : "67a13984-2433-4f0e-a2ab-d1a2fb9d48f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I consolidate my Super?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "b87ea073-54c7-4751-87ec-487040dfd91d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I rollover funds in?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "080295ef-2aae-4c9c-8c11-2026441618b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I rollover my funds from Netwealth to Panorama?"
+  }, {
+    "id" : "68662a20-b156-4509-82cd-430c5992ce0a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer funds from another super account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "50cf8466-1f45-43fc-9366-fa0fe908b4bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do we rollover funds from an external super fund into Panorama?"
+  }, {
+    "id" : "33fd43d1-3b39-4022-ad36-b53ad68f9ae2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to roll funds?"
+  }, {
+    "id" : "7e7a1876-a25a-4c0f-860b-a8a46dc33f6c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would we rollover funds from Hub24 to panorama"
+  }, {
+    "id" : "d1d0aaeb-c10e-4c0d-9dac-a0c211f14bc3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I do a rollover into this client's account on their behalf?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "e1c8151d-27fb-4858-b4f9-3ad2c9caa91f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I request a rollover into Panorama?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "84d3cd82-383e-4f7c-8918-006b6a40eab0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I request a rollover out to an external fund?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "f6c223ff-d8ba-4357-a461-243ef52103bc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can rollovers be completed online through Panorama?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "4ea38b64-11dd-4184-bd1c-28846f4233a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we initiate a request online or is a form required?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b4e872f4-4bce-4805-88e5-23b8eddfeef0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to do a rollover?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "af3f1bc5-4533-487e-ab76-75e3c15122b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need a form to do a rollover in?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "09bbba10-c39b-4155-84f8-7b5e26a863a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need a form to rollover my super?"
+  }, {
+    "id" : "e2fba9d9-1e23-424b-9ae4-7ca5a7a1099c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the client need to confirm the rollover?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "aaeba774-6785-46c4-8d33-0eab0dc49d17",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I roll funds?"
+  }, {
+    "id" : "fa32b79b-71cc-431c-995f-113ee553801b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I consolidate my Super?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "b9518254-4d92-47bc-bfd2-c2d984368fdf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I rollover funds in?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1b162deb-70f9-4f77-851b-21de137d5b93",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I rollover my funds from Netwealth to Panorama?"
+  }, {
+    "id" : "1a9ebf33-a1a5-4cc1-ab58-70b69ccc6aae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer funds from another super account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "9a92f986-ed20-4553-a31b-122e6cd06d4d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do we rollover funds from an external super fund into Panorama?"
+  }, {
+    "id" : "80a8a1b9-8e01-40f5-811b-d37e695bc177",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to roll funds?"
+  }, {
+    "id" : "66dd7e55-c318-45aa-9f7c-db52878b45ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How would we rollover funds from Hub24 to panorama"
+  }, {
+    "id" : "201d4fcc-7ce5-48a5-a7f4-0473d690b49f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to rollover funds to an external Super Fund.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "b73e7fa9-6688-4d12-809b-7b1d7d8ea002",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to rollover funds to my Panorama account.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "b651f8c9-0680-4184-8fae-2b4426a44284",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to initiate a rollover.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "04bd8f6e-960d-4c83-a672-7d51d5c077ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to rollover from another super fund",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "07fe0f91-539a-49ce-a865-44618265a9e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to rollover funds from MLC to Panorama"
+  }, {
+    "id" : "7fbe7b1f-1183-49bc-b1e5-d108c8af2f6e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to request a rollover.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "f81297a4-160b-42fb-9bbd-f28d9f28a894",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to rollover funds on Panorama"
+  }, {
+    "id" : "d97baf65-49c2-4ade-adca-0ae1ffe33649",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Our client has instructed us to move his balance from CBUS to his pano account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "027c13db-29ec-4261-b30a-7bb14ebcd9a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We need to rollover multiple balances into this account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "d192952f-58d4-465a-a7d3-053f24dbdbf9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We want to rollover our clients super from xxxx into this account",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "17cc96f8-b6b5-4323-b5ee-17bc003eee4d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We're rounding down some other super funds for this client and need to shift the balance over to this account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "91acb00e-6ec0-4d96-8564-58ac5202bdd8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I need in order to make a rollover on behalf of the client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ee499210-281a-42c6-81dc-1b49ffc1e97a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure involved in rolling funds"
+  }, {
+    "id" : "1469b680-ba0b-4c10-bb7e-23a1807df17c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go to request a rollover?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "9212fac3-4e8e-4cdf-a50f-e8ec07ad09a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to initate a rollover for a client?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "4ba58bbe-94d3-42b0-a15e-195ce2a9e695",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is information about rollovers?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "f75cf987-3dbc-44c8-b675-91c95c624346",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I do a rollover into this clients account on their behalf?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "a23c706f-d5ff-4ec3-a0a1-4d89e5c1498b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me in rollover of funds"
+  }, {
+    "id" : "e1b6b6b7-118d-400c-ac66-d6fed325cff2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Were rounding down some other super funds for this client and need to shift the balance over to this account",
+    "tags" : [ "btmarchvariants" ]
+  } ]
+} ]

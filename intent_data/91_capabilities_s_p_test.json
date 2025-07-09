@@ -1,0 +1,616 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "91_capabilities_s_p_test",
+  "intent_name" : "91_capabilities_s_p",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "f72f6b8e-140d-4151-b1af-6e7f7d55df87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Assistance",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "235d25db-fad9-4252-a436-c0ebb4ef819e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Assitance",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a18563cd-3567-4dfe-9106-9dfe5b2f85a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Banking services",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e71a0048-ff91-44a7-b8fd-8e2662596ab1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Banking terms",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ebfba733-fb02-4a96-a276-3ca99f2b2b13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bob sir/ madam, I received the information above,,,but am out of the station kindly advice what to do?? Can I do through this medium ,,through online,,Yours client(Bob mbambo)√∞≈∏¬§≈æ√∞≈∏¬è¬æ",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "90ee0409-4970-49cd-9a6d-162fe6c7fff3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "f40d0a47-49a2-40fc-a2d9-7aa5b67c9c22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you help me or no?",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "f436a376-8492-48df-8c32-ed44e384e85a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6b56ff8c-6880-47a5-a871-9f092efc66e1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Get started",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "f1e2fe64-663c-4cb5-bf7e-713ed4353bad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, I need help",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "6e22eaea-1495-4f0c-be56-22fc739cebb4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Help",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "8b681caf-f1e9-4d60-b82b-b376a3941bf9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help DisplayGetToKnowMe",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "7476877a-9aa8-4bc2-b46d-2806f179277f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me please",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "18b0884f-cba0-460a-a80f-c217c5c291ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey! Can you please help me",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "5f1d2488-d57b-454f-8575-9e790709d5c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue, just a quick question.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ea2d7182-550b-4450-b7e6-39539311b01e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I need a help",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "4f52c924-5876-4e74-97ae-92796a434065",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, i need help accessing my online super account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2ad2cad5-6324-4728-a9f4-ab62356e5760",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I be helped.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "983738db-d06a-4cea-9da4-52ac8eaf093f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I do this?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "deb547df-b81e-4e42-aabe-04f42a9c1388",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Huh, I didn't type that What can you do for me?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "46953891-149c-4cc2-9a8e-af57626fc98c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Assistance",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "fba0f6da-35e5-4f7c-b633-851de77f694d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Assitance",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "8b3cc4e7-6f67-4542-a9fe-f4bc4739d575",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Banking services",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d1753532-9a66-4f48-bbbe-6b9bacd22d22",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Banking terms",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "873045fc-29b9-4e1c-94f1-975882f60963",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bob sir/ madam, I received the information above,,,but am out of the station kindly advice what to do?? Can I do through this medium ,,through online,,Yours client(Bob mbambo)√∞≈∏¬§≈æ√∞≈∏¬è¬æ",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6f277e73-abda-4d16-af28-79faea02e622",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "b4492643-7788-48fb-9476-08dc336402ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you help me or no?",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "e24659ff-938b-4880-8a69-c35cde3033a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4ed34661-0f39-4036-9c8f-6c245f42cd77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Get started",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "fd43653d-15f9-4233-a00f-5e4711ba0118",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, I need help",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "d0a2f87d-14f0-40df-af4b-24fa0f2736b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Help",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "6df4b322-0301-4873-84cc-835a37d3fc8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help DisplayGetToKnowMe",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "ca9d3c60-e205-4adc-a4af-d47c046757fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me please",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "51ef1572-5e69-4e60-a3d9-fde49751cc39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey! Can you please help me",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "8f5118b5-c042-443d-9a4d-cf374255ede6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue, just a quick question.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ca66e58f-a2b4-488d-94b7-f51a31cdd2db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I need a help",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "6b650837-a38a-445d-80a2-f4ec5630721b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, i need help accessing my online super account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "85ad80c4-a9a1-4a89-93f6-eb6e2017b7a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I be helped.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "89bee9ec-98ef-4993-984e-69c5a4e87fe6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I do this?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "4eb167d8-187a-4eee-9213-8661b0551f33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Huh, I didn't type that What can you do for me?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "604baa6c-ea5c-46a5-8948-676acbaaeaa6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Is this something that you can help me with?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e0cac5a3-3954-4fba-92b2-f7b83d9bcd78",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "LET'S START!",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "86e2914d-fa6f-4a77-a95f-10de885f5b1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Lousy virtual help",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "88fcbaa7-0ecb-40d7-9b85-69b86aa3ef7b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "New features",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "cff3fba9-3b1b-4869-bd97-e4f5802859d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Really what can i do",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "598577a8-5ff3-4048-829f-6473e202c2d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Super help",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "19a812b6-3a5a-423f-978f-015f9f4abcf1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What can I do with absa",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "da8bed3c-89ab-446f-a9d7-ac74b7b513e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What can bot do?",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "0fae53d1-17fa-46fd-8d3d-da9c50a0c8dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What can you do",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "e9c1a50f-4997-416b-b1dc-8f5507a2bd2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What can you do for me",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ff88b84a-4561-4598-8b2b-439c65d636ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What can you do for me?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "523317bd-102b-4781-a252-09e45796f86e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is this",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5b0dff35-d81d-4715-9a27-0e65462c9ffa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What skills do you have?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f77da4d7-2888-44b1-97df-a9474060b861",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob can you help",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d874ba32-eeb1-43b5-bc4d-f9fc73d9d22f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can u help me",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6b1dd580-cc7a-4e8c-8c77-c0f52fde478f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob can you help",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d5b9a939-458f-4c06-81ea-b5690aa94376",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can u help me",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7f86f993-42ef-4d89-ae0d-2768721e47c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob can you help",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "27feec48-477b-45e8-add5-bbd7eb85f019",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can u help me",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d336a4fb-0859-4ce2-ae34-3426e3948c6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "enquiry",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0cf9b965-23e9-4004-b376-c32ba0ac11e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "further help please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0c425df4-ad03-460e-89a8-cf116c927f17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "general inquiry",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2f0170c5-b1f2-4720-b3cd-a3fb9fa9d013",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello - are you still checkin on this",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cb4db285-5c7c-4ca0-b1ab-7faa5fe29e28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello another question pls",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7d0bb9fa-88c6-45dd-8414-5f4f1a86f888",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello anyone here?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "fb5e2e28-f5aa-4e9d-8ff0-748212a99275",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i 'd like some help",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e171e03b-bdcd-4b74-8bf4-d4c1f78247b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ba8c28b6-be1d-48cc-8f61-93f4166952f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help me",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "29c2197b-6e1b-413d-a7d1-84ca9f13072e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help me blue",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7e242284-f5de-4cb0-a713-1e05448812df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help with using online",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "87d58943-4045-451e-891a-b0184ce66652",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hep",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6ab5559e-d76f-4bcc-ba1f-c25ce98815af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey what can you do",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3c7ba4c0-b496-4467-9173-7f6bad1c6130",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you assist pls",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4f03e71c-e911-4828-95ea-cbf000720c24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i got a question about bt pnorama investment accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f4548e2c-564b-4386-9ef3-10246f3a22be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i need some help with general inquiries",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "23262ff8-d2d8-49ad-b036-447e5e958dca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can I get hlep then",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "134b8504-7978-46e0-8f75-8ae582b1efd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get help",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "18b9125a-1b4b-4c47-a845-65959c49fbb0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i send the form i have just filled in and to where",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "81a2ca2a-c59c-4413-8ad2-a876c14dc0f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to fill in my details and it keeps i tried to fill in the details for my account and coming up the",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "b3fb3f90-6163-480b-ac2d-e4e32c1114db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have another question",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "08338099-00af-44dc-a0da-1a88164bc438",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i might still need your help",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "876c6d43-a750-4467-9f5a-811d4ba16222",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need more information",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e4fbb090-6ff2-40ca-8c71-e71fc7213a36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i still need help please",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c6cb2a47-8539-4a4b-b0e3-95cf0c5661de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like your help with xyz",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "30d2e49f-dbe4-4d99-a860-34e2953da4d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it question",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ae91e0f-ea0c-40be-90e1-0b6bbed64e90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need Bob help",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "62c1b441-2300-4db8-b3fb-36b7722d4388",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need help",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3294c924-1061-4e1c-b061-56a6b0afcae0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need your help re account 111111111",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a5998e48-5df5-4a9c-aaa2-378ba195612e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please assist me",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eb7b9094-cb2c-4e48-81b5-eb35c1adbbf1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "plesae help me",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "fcd32548-dbbd-4a68-babc-66af400d4102",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "quick question",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4cf1aad0-2136-4ee3-88af-a352915f07a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "registering online",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "79241791-b314-46cb-b283-60facba43b0d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me more",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8056b9f4-cefc-4eca-bf36-e004b2b769fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "4c372491-accf-402f-a098-ee0a37f0ffe3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what can i do for you",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cf393c22-ce20-4c27-9d6d-dc1d88ee8b7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what can you do ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7023a43d-c570-43c3-b4e1-c07be234ba7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "2bbdbb52-4818-4e98-bca1-ea124f1bceb0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what can i do for you",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3224310b-7cea-4b5d-9416-28126336056c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what can you do ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "49c6097a-688e-44f9-aa29-8f4ecd393262",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "who can help me",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6a4a5719-9110-4fec-9ac1-88dd19eb521e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "ÔªøPlease help me to find the solution of my problem",
+    "tags" : [ "former_goldset", "test_gold" ]
+  } ]
+} ]

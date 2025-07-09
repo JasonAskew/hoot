@@ -1,0 +1,26 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "anonymization_config",
+  "display_name" : "Anonymization Configurations",
+  "description" : "Type for configuring anonymization",
+  "collection_name" : "anonymization_config_collection",
+  "content" : {
+    "type" : "object",
+    "properties" : {
+      "sensitive_keywords" : {
+        "title" : "Sensitive Keyword Masking",
+        "type" : "array",
+        "description" : "Sensitive Keyword Masking replaces all characters in the input with 'X', except for the matched keyword or phrase. For example, if the input is 'My name is Josh' and the keyword mask is set to 'my name', the output will be 'My name XX XXXX'.",
+        "items" : {
+          "type" : "string"
+        }
+      }
+    },
+    "additionalProperties" : true
+  },
+  "system" : false,
+  "search_filters" : [ ]
+} ]

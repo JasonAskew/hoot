@@ -1,13 +1,16 @@
 {
-  "name" : "Message-BT-Session-Start-Mobile",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Hi. I'm here to assist you with using BT Panorama.\nPlease use key words when chatting with me."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Hi. I'm here to assist you with using BT Panorama.\nPlease use key words when chatting with me."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Message-BT-Session-Start-Mobile"
 }

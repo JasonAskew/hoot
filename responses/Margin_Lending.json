@@ -1,13 +1,16 @@
 {
-  "name" : "Margin_Lending",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Please call 1800 816 222 for any queries relating to margin loans."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Please call 1800 816 222 for any queries relating to margin loans."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Margin_Lending"
 }

@@ -1,23 +1,23 @@
 {
-  "name" : "Margin_Lending",
-  "display_name" : "Margin Lending ",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "Margin_Lending"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "Margin_Lending"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "Margin Lending",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : false,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "Margin Lending",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "Margin_Lending",
+  "display_name": "Margin Lending ",
+  "alternative_question_eligible": false
 }

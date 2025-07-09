@@ -1,0 +1,1849 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_buy_share_seed",
+  "intent_name" : "bt_buy_share",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "c5763c88-f4bb-43c7-9235-d1a5ab9f91f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I buy 100 shares of air brake?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "835e030b-5eb4-4604-bc93-aa0d0a006712",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I buy a fund/share?"
+  }, {
+    "id" : "b4b35b8f-d0c2-4918-9a72-75bb7fa8b8ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I buy a fund?"
+  }, {
+    "id" : "c2c07b85-7b53-4538-831d-2f2e3c9957f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I buy a share?",
+    "tags" : [ "protected_seed" ]
+  }, {
+    "id" : "95f350a6-df49-430a-bea6-b2ba3c1fecad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I purchase xxx",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "9935dda1-2525-4de6-b0b7-4165d9df131d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I buy 100 shares of air brake?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9fe7de36-923e-4e8a-9117-a2d681742b1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I buy a fund/share?"
+  }, {
+    "id" : "150b76d0-e876-4191-a165-b84694a439b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I buy a fund?"
+  }, {
+    "id" : "b588e53f-fb47-4d5b-9921-7c296b6ab50c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I buy a share?",
+    "tags" : [ "protected_seed" ]
+  }, {
+    "id" : "064f9a83-ceec-4cd5-9702-260895d5870e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I purchase xxx",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "a2ba2a83-062e-4aff-8f88-4291861e455b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy 100 Fox shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "72baddff-dacc-4b7b-9ce7-ae4ff1775f78",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy 100 share of FB with at a limit price",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "337f1405-2135-45ec-b96d-f2d6c0c9033d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy 100 shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "678b61ff-4618-4f79-b81c-bd2c9ded1654",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy 100 shares of AAPL at the market"
+  }, {
+    "id" : "f9b7086b-12a3-41f5-9ef3-717e7f0d9e2e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy 100 shares of FB at the market"
+  }, {
+    "id" : "9f06f9bf-a2c8-465e-93a7-3a4a950b6168",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy 100 shares of FB at the market.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "130eb3ce-17ef-4c17-b2cc-6e3e3ce0b1e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy 100 shares of FB.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ec443ea6-77f2-4bf1-a25f-907863e336c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy 100 shares of Facebook.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fb27b807-81d6-4372-9b17-e2629064fa8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy 100 shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "be48ade6-4585-47ca-bdf3-6cf3e002b1cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy AAPL at the market",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "afed8b3e-c9f4-4a3b-8afc-1d7e8f3ddabb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy Apple?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "aaf227df-e775-48af-b2eb-0ceb9b678165",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy FB",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9239b6a5-02cd-4971-9a12-57d867893265",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy FB at the market.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ee02b5b0-6e43-4fea-b313-c8b2beac6a06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy FB with a trigger price of $100",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "372129e6-e14b-4b0e-996c-2293d87ee71f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy FB with at a limit price",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a9b23935-c3bd-48ed-b42d-d559156da36c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy Facebook shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "213035ec-7b54-4ee4-9e20-d5f10f371dcb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy Facebook.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ecbcb148-5d8e-4951-8e8b-04f99654f5ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy a 100 shares of FB with a trigger price of $100",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1db2fc89-ea9c-4747-a6bb-0d34b07d3a34",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy apple stock.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "102e5f30-f351-495d-a260-ff4981d4a9d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy facebook using my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e0cd5354-7337-4f89-ab78-e01585ced576",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy facebook using my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c45760c6-800b-4efd-9ea3-287521f14a46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy shares in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "098d1b74-e276-4a21-bec7-1dbbc366a001",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy shares of FB",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c635be9b-58fa-4170-b6f2-cd92e8ebcb87",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy shares of Facebook.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b4073c90-e62d-40b3-b471-add64cbb0822",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy some stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9a4061e1-0a34-4887-825c-0d369b7a08ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy some stock for my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d94177ea-f6c6-4795-8ff2-fc74e03d1842",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy stock in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7d24dbf9-06ed-4605-a795-cf94c19ad284",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy stock in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6f9bffd8-f6a5-475e-b3e7-055581524a6c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy stock in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e762d81c-429a-4b11-a3dd-e7db6887d51f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place an order to buy stock in my 401k",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "63ec3443-5647-425a-8721-1d0202ba1061",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to purchase facebook",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "116cee94-17fe-48f2-bffe-d8513aa9f20e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to purchase facebook stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e87f360f-b171-4e0d-aa6c-f44319ce18a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to purchase some stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "28522d3f-8c0d-4a17-ad65-35d32e14e939",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to place an order to buy 100 shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b67dc3c1-7ddd-4447-b84f-3dfa5a194a4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need support in buying a fund"
+  }, {
+    "id" : "722750ad-a3cc-4b21-b41a-736200c99913",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need support in buying a share"
+  }, {
+    "id" : "5d2f571f-24ee-43f0-8513-d81559eb8bab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need support in buying a share/fund"
+  }, {
+    "id" : "a1a68e1b-52af-47db-a613-5a3ae7a8f4f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order to buy 100 Fox",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b06a89b8-a26e-4432-8e8d-48d6208726b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order to buy 100 Fox stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "752e4924-dc65-4e1f-a2a5-8c6243542d59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order to buy stock in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0cec4dd1-bcfe-49cb-9124-68a31a05f478",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The client has instructed me to buy 4,000 units in telstra",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "7f791899-2669-4116-b31c-3e8564a31b0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure to buy shares"
+  }, {
+    "id" : "6bbd1df4-ff46-48b1-886e-7f112c9ab7eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to buy a share?"
+  }, {
+    "id" : "ca6b5545-51a9-49e2-88f9-a83a3206531e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "a buy order",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ad532e48-6922-478d-a576-e474eee58797",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "a buy trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e3114bac-721d-46db-b0b4-92acfa310da7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 100 Fox Shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ff2e1bd3-d004-4894-bbd4-98d3e8f9e998",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 100 shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5733a2c4-0a72-4c76-b9f8-9948c9360031",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy AAPL using account 1234",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a10ef048-1386-44df-a246-8892b69cb822",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy FB",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c40d97f6-ecff-4bc0-9402-8890fb4eba29",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy FOXA"
+  }, {
+    "id" : "917383dd-1ec6-438a-a6b6-0a32ad99f577",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy Shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2b450d9d-2eee-4e19-8033-5d49c47b178a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy aapl shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c6fe4690-1600-4dc4-a5e9-554ab4bcd965",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy aapl stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7998c4b4-b90f-4b4f-b74a-eeb8d286486a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy apple 100 now",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d356629f-0ea3-4d04-83bc-9732d68a4506",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy apple shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2261d27f-c186-4942-848e-e4c57ae55a00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy artw stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3d8f7b47-5f4e-4354-8bcd-150675aa5464",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy dbvt shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d2caa24a-26b9-454d-85d7-3a4907a60f59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy equities",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8cc41952-6d83-48a6-a72f-1c27595c2d59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy equity",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c5806fb3-40d9-49d2-a9ac-a3340558dbea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy facebook shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "06eaa4b6-a579-4657-a5e0-834020bf6b87",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy jco shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ba7f341a-7e34-4295-b10b-2745316c5583",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy jpm"
+  }, {
+    "id" : "00157a53-0454-4c1f-be64-4d92308d7575",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy me some shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "02f07ef4-25a9-4e12-b702-81a2f4b018db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy mgi",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "542d80a9-96ba-41fd-b7b1-a3a5d0eef47e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "dad615f8-cb6c-4a94-b541-8ce9d9476f1b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more stocks",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a4d97c88-ccb1-4c5b-8fc7-a5362ecd9b32",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my aapl shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9169071f-9b38-48bf-97a2-c0066a56ad3d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my catabasis pharmaceuticals, inc. common stock shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6c787194-af6e-474c-bd7b-f5ab78615de7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my facebook shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3bb028a7-4f29-4ed5-85e5-69f2673be1d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my lyft, inc. shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5b18431c-6956-471b-8842-a96856cec4ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my oasis petroleum inc. shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ebbc53f0-75d2-418e-ac39-a1301c1a199d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my pplus trust shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "dee07158-3ab5-464f-920c-206aedc0a743",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my sierra bancorp common stock share",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "12e4b442-935a-4424-a93d-2b5d56426359",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my stocks",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fb509dcc-54cd-4982-86c0-3dd5162923c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my tptx shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "40ef5e14-f9f3-4fec-83c2-bebc63444960",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy pplus trust shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "03be3aef-3fbe-4b47-880d-2a11eed1a4e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy qyld shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "aa14bac3-2959-43ba-910f-2fb69bf08528",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy share in dell technologies inc. common stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8a86c54f-98ee-4149-b03e-65b9de9ed1a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares in aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d4d58f4e-6848-4500-ad9c-3026d4a7d194",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "58572e78-db20-46ca-8cfc-6fc21ffe6ca6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c2b06439-9023-4200-8e6b-f84fdb2fd63b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "93c1557b-d69d-4a5c-95d2-c7b9e55e400b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some air brake shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "59d12a2c-df52-4c6c-bcb8-e1c81e20977f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some inst shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "73ef6126-eddb-420d-a6b1-7d850d1cad13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some stock in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6c7394b1-fc3c-49aa-8564-1e4bb9b2b71a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some turning point therapeutics, inc. shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c8335112-abf5-4500-a4c6-2f7b8b7e8a81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "bcd4decc-c071-440e-a18b-128302336d20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying aapl share",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b8fb963d-294f-445b-bb1c-39c7ae785435",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying equities",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e9ab177e-8fea-4c88-9492-65d167a84739",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying equity",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "878365e3-c5be-466f-b221-9bd22a9f7867",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying marsh & mclennan companies, inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5c3a4a9f-119f-4f22-bc4d-cc887083f519",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying more stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c540ef11-e59e-43ea-93ce-53ffc2c67407",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f3689ff1-ee4a-4aeb-925a-5400c4a7aa77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cd1aa057-e34b-415e-87a8-286dd5142333",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying stocks",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "84a12831-d548-4279-b73e-4c98975e03a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy stocks through the bot",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9f85ea8a-a0a5-447b-83da-edf1a05d38c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i place an order to buy",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "034bc947-cdf4-48bb-9ad8-e7a31eb75434",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 100 Fox Shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cf141388-81e2-4e23-917f-9b59594f84d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 100 shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "bdf14336-844a-4b6c-8e49-d4676d1b3f46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy AAPL using account 1234",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1c0ed189-1005-4780-b82f-00c86328514f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy FB",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4d438913-f82e-4bf7-82c4-5fefa36de8d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy FOXA"
+  }, {
+    "id" : "5c742a5b-0158-41df-bf6a-0e6fa279c4fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy Shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "27261f38-c24f-4579-a7ac-a38abd7693c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy aapl shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7df544dc-7834-4227-b065-7601dbe45df2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy aapl stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2f8b6555-be1c-4278-a563-8f3323f17104",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy apple 100 now",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5fc18999-0b6a-4f49-8bc2-affb183c2d81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy apple shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f8fe5b09-d883-4f2b-a4e5-3ea927977408",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy artw stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f4d96a7f-7df4-4d71-8c41-ada57f036969",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy dbvt shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "859177fc-b4bb-48cd-9ad5-b60225c9dda0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy equities",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0562294c-4d38-449d-b302-181c9be38655",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy equity",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "534933e3-750f-49eb-b169-7517649df696",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy facebook shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7ce2f784-554d-4367-8595-0bbc2b5a2bef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy jco shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "bce6b84d-e529-4477-9909-9484cd387c98",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy jpm"
+  }, {
+    "id" : "2dd42e78-2ed5-4aef-af8f-60dac0b7fe49",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy me some shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "afcd29dc-95ea-4c9f-82c6-8a9759debc95",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy mgi",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "37555eb9-f14b-4049-9636-72840b45a331",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "61bb06b3-e48a-4548-a0b3-8b7f011624f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more stocks",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2095dadb-848e-4396-afad-7288096e6323",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my aapl shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8fe9df27-709c-471a-9be0-bae6ecbc3114",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my catabasis pharmaceuticals, inc. common stock shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a36f645d-cbb0-42c1-b9f2-b1a29c71b1ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my facebook shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f9895645-8c48-40d3-97a4-e66b9b8ad4ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my lyft, inc. shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a217146c-0272-4fd2-b648-f56aeecd8ab7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my oasis petroleum inc. shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "90a5d8ec-e9bb-4a71-ab89-6cfcdf1f9782",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my pplus trust shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5df90fd7-109f-4d85-be4d-a16576fa9547",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my sierra bancorp common stock share",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5a6269dc-4a37-4877-a64a-005ae47ca45a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my stocks",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "65ac26f2-f04d-4f64-bcf7-c70378bb323a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my tptx shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1c77fbfb-5860-468e-bb96-d91995ccb445",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy pplus trust shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "601c65e0-2c32-40ed-81cc-31dc8ed21e85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy qyld shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "642e6ca0-310f-4b00-b5e5-0c639a470a88",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy share in dell technologies inc. common stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7bc83ef4-2a83-42d2-8cb7-288662f6928e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares in aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8905d541-4ba6-4f4e-a5b6-1ccf0924b826",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "35f74d51-5b12-49a4-b98f-089d8d2dd504",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "50ba15fd-863e-4be4-9864-00326aeb62d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0ec292b1-37f2-474c-a7ea-8af32b348225",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some air brake shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0076aac3-b398-49f1-9526-d17f0cf46385",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some inst shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7b44c01d-bc4c-412a-945b-849b58f194ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some stock in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "43a779c8-6ac1-457e-a2f0-b59ac501b9ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some turning point therapeutics, inc. shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "709f3721-50cb-4b29-bdde-e8a8c116fb6a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cb29c554-26b4-4e1b-bdb4-00e02c7cb779",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying aapl share",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cd158909-befa-4e28-bb35-50e73f9e6876",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying equities",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9b826772-f0bb-406f-a926-487dc3ace2f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying equity",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "245f5f95-b58b-4807-8f5e-9d69ce51bbd1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying marsh & mclennan companies, inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ad6e6c42-ae96-4993-80d8-017c949696b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying more stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1e27b945-c1e6-4a06-a074-63ed96e20836",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f862bfd0-c64f-4b14-a76a-101aa6848d5b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ca4d6a3a-b56c-4751-906f-dc455d899064",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying stocks",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2278b86c-087b-4efb-9549-cfd4c8cf0ad9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy stocks through the bot",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "065e8859-8e73-4ea8-938e-107d489885c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i place an order to buy",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c0ade442-0776-4048-9be6-d3b77754dcc7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 100 Fox Shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "20c56b44-bdea-49a2-ad42-351fe5a5df47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 100 shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "233f7d63-75ac-401e-b22f-20d8ba3b2c7d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy AAPL using account 1234",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "68ed1b09-c3ac-4795-bcad-9efadfce25f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy FB",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e05c1d76-0df8-4645-8506-139abe7ce3bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy FOXA"
+  }, {
+    "id" : "faa54e5f-ba06-4305-ace7-cb5db6cf1661",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy Shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "daa18030-a71d-4067-8260-427cb6419bef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy aapl shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "aa71849e-6017-4621-b221-812a459b7a24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy aapl stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f8980b49-e91d-409d-97c7-9e3930ac92fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy apple 100 now",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cf7ac39c-e0ee-4fe4-a0f6-8ad2487d7d5b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy apple shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3a74f89e-2172-4c89-882c-052ef1afe201",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy artw stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "10a99401-7b1d-4123-b116-7f4d58942f45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy dbvt shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "82ec60a7-4ea5-453f-b888-c77e9b28c9e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy equities",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "814c45e3-bedd-4bef-9f1e-b77fc1617b85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy equity",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cb1f9651-1213-434e-a251-b8cb87fd9186",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy facebook shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f5d8c324-b8cc-4d52-8575-4b7bd7a02e50",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy jco shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "022a9676-3179-481e-91c2-45903cdd0dc3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy jpm"
+  }, {
+    "id" : "50f093b0-954c-4392-976c-15b786c1da52",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy me some shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8dfb0cd6-23f4-493c-aae9-0a5821f4f4ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy mgi",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "dec4b1c1-aec6-4542-b446-14447396c578",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "54bb5db6-1353-40ec-a42c-f4478f63b279",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more stocks",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9056a0c1-2efc-4142-8086-49eff17c4369",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my aapl shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2f8f14fa-debc-47df-b3c1-b243e62ac4d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my catabasis pharmaceuticals, inc. common stock shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6919418a-de6c-4dc4-982b-e4ea4c8bb390",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my facebook shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0698e5b2-5b3f-418b-be4c-2147f818ee56",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my lyft, inc. shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3970fc76-ffa1-4b8e-a64f-70d08e9a5ec7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my oasis petroleum inc. shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "41322ac5-2df8-49c7-8812-d6a6306c8805",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my pplus trust shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c5bfedbd-ea67-4481-a7ed-2be653543507",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my sierra bancorp common stock share",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7dba9068-dcc4-4c3f-8b41-629ce15a1bb4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my stocks",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ce176dc4-2914-47ad-8f48-cd03a653e53a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy my tptx shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d2cdced3-23ce-4811-bfd5-fdfaffae560f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy pplus trust shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4f130fb5-e4cd-4e79-a5ba-72fc24dc75f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy qyld shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7ecac4ab-e4d2-4360-944f-cc6b4da01776",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy share in dell technologies inc. common stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1e2d006b-16ad-43c1-8bd7-e45cb363863a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares in aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c5a4edcc-10dc-425e-af45-47547a2d67df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2331b314-0475-43e6-adeb-0cafc0e6fe98",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6964b8f5-eebd-4d25-ac9c-ab613d0d49e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e72b6b54-f699-4bba-97a4-b0dcec8b68bc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some air brake shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b66c6684-b934-4dcb-924e-62c94bbde5ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some inst shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a88f1636-9c12-4b6c-84ea-33dffb8d3a0b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some stock in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ba89b320-0d9a-4fc8-8f0c-0434dd197e7b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some turning point therapeutics, inc. shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d73479d6-b7ec-404f-8666-38977fe1def5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ccd61e8d-dfe9-4177-b148-9cf04795f322",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying aapl share",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ddec43ab-94b0-40b4-9d5f-6fbe87f7d301",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying equities",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "033c59d9-0b72-40e5-863a-db04116f88d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying equity",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e349c494-ff2a-4b8d-838c-256f2bd7ea49",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying marsh & mclennan companies, inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b13d8839-0dc9-47ea-b2a5-4424a4d5dc66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying more stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a092fe57-f2ca-4f9d-a00e-b3d64fd0817d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b91f6362-1be2-403b-ab63-9514840ab654",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "58cc8f93-685b-4730-9092-194f70b1d563",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buying stocks",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "94488c7b-7c62-44e7-97a8-208019076320",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy stocks through the bot",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7a4a967c-64d4-4d81-8248-2bafb29f8763",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i place an order to buy",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6e4a7b71-5eae-4a87-8bff-bddd916d6eb5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me place a buy order",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c35e74da-87ca-4d2f-ae13-09f9edc62662",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i place a buy order",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b8cc1f19-aab6-4b43-a0e6-582156540d89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i place a buy trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2af7b65a-731c-4a4a-b1c2-231f83147ec0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 100 shares"
+  }, {
+    "id" : "63a1444a-406c-4193-a6b3-cfaa49d09469",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 100 shares of alnylam pharmaceuticals, inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b2cff994-6cb1-4f32-b37e-d61a51becae9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 100 shares of facebook at the market"
+  }, {
+    "id" : "710c988b-8184-42e5-ae82-45a41745aa19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 100 shares of fb",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "73b98a14-614c-4a00-904d-15878afa4aa5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 100 shares of fb at the market."
+  }, {
+    "id" : "3e037d82-8aff-48bd-b9e0-0542c481e6a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 100 shares of miy",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4035519f-2434-466a-9028-f29168a7f2c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 100 shares of paas",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c2e24134-df94-4c11-9692-ac28b84c945b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 100 shares of stock"
+  }, {
+    "id" : "3d322dd4-51a2-4cd1-b293-b2b208905bfd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cb934de9-c80f-49b2-843f-5d33cef4d4f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy air brake",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "123b7173-dbfe-4657-b6ce-55b2376eee91",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy brpm.u",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "86c83b45-f6bd-4741-816b-67e5760087fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy cbio",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cb7b4f9d-8e6a-4f37-8410-49c6460021e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy ctib",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7eb55a8d-3a37-4891-b04b-41f56f0a97a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy ctv",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2ba27975-dcdb-416c-b3d0-8ecc5b5487f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy facebook"
+  }, {
+    "id" : "68272b21-2403-4e80-8de0-de8e9a600ac0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy facebook at the market"
+  }, {
+    "id" : "85b1a91f-9b6b-4307-bcb4-da7a4b2eea86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy facebook using my depository Account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "520034a8-9fc2-4f05-a7ce-c3c2731844ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy facebook using my depository account"
+  }, {
+    "id" : "4c11900b-0562-4d27-b59d-30b066ff6918",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy fb"
+  }, {
+    "id" : "5d23c37b-5024-4ca1-9ca6-02b298a4035c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy lyft, inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9ea1fd08-cff4-4df9-8e6d-fae233b31869",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy more stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c3bc3d3b-4438-4fca-bc81-980daeea519d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy my stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e2304b2f-4db8-44ea-8b73-16975f81e4d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy post",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e86565d9-b2c0-4dba-b983-550f52f08271",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy s&p global inc. common stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ae179a6c-0ac1-4392-a490-24d7df56701f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy shares in my investment account"
+  }, {
+    "id" : "890df972-7099-40fe-8fe6-fa29a438f6fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy shares of cisco systems stock"
+  }, {
+    "id" : "516c4691-8bc4-4cc8-9e4f-3dd67b00a622",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy shares."
+  }, {
+    "id" : "2cc6d4d7-287d-451f-ba84-8b238ea9e567",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy splunk inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "72b7eaa7-49f6-4b10-9e80-22cda6c8c2e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "17ac5db6-d152-40f6-b2b3-8c18cd528a71",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy stock in my 401k"
+  }, {
+    "id" : "9e2a3490-7a59-47e1-8aa6-c1ab80e84afc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy stock in my 401k account"
+  }, {
+    "id" : "f6d72dc7-3b23-4473-9725-2a039e9c4d22",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy stock in my investment account"
+  }, {
+    "id" : "09f21a53-14df-4189-8a6e-8fca557b3b7b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy xpresspa group, inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "eac5c9ea-357a-449b-96f0-8d42badae80a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place a buy order",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b6e13a4e-40dd-4a9c-9854-c0879feacaec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place a buy trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "dc21ae38-f325-4029-89b4-db58acf22d66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place an order to buy ewbc",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2f2ff78d-0999-4b4b-90c9-8c6bc09e1993",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place an order to buy facebook",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d7a6f3f8-b4a9-4177-be80-d73575c32aca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place an order to buy habt",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "bb4ddb7e-8bb5-4817-bfee-491a612062fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place an order to buy lyft",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b566319e-d2ec-4456-81a0-138b802cdf2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place an order to buy lyft, inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e0c5a619-c511-4870-9603-1553cb55be26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place an order to buy stock in my 401k"
+  }, {
+    "id" : "a28b9713-1d5e-45c9-8e76-16c5ef65b94b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to procure 100 shares of aapl at the market",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c5fd488d-8f34-491a-b25f-a59650485b65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to procure ctib",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fe25d382-0a8a-4e10-9e3e-7a8b2d15097d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to purchase shares of cisco systems stock"
+  }, {
+    "id" : "8bfd75b4-25a4-4a69-b18e-98325905a4f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like more aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c6069492-b662-4885-870d-3af38713757e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like more air brake",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "07d00d3d-3c5e-4454-8e17-98e4890334a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like more cowen inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "daa5d710-e515-421d-9117-d85652ade952",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like more ebr",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ed724292-ffe7-45e1-8523-65c8322e013e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like more mogu inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8a616b4d-dfc6-425e-9a1a-297e01436248",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like more pirs",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "be470d2d-c060-465d-b048-db79f985d8cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like more shineco, inc. common stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fa4bef71-e0a2-4ea9-995f-6fd7c1ee629d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like more tectp",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2f36c552-ee86-4cf0-9c6b-5a7c1aff8ac3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like to place an order to buy some stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "85799732-7e6d-44f1-9a66-8afd404e95ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "make an order to buy",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9fd7d8cf-0b6d-4fd0-affa-f360857871f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "more air brake",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1fe76329-3d71-4dc2-844d-f169e8b377ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "more equities",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cf288037-0c14-4b32-9144-1ef5fea89dd4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "need assistance purchasing a managed fund",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "4c230f77-c585-4155-9039-2f7b54015d93",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order buy",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "16352219-eb32-46fd-a87d-acfbc5bd8c41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "pace an order to buy stock in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d0ddd3c0-89c2-468b-8282-c707a6732973",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order buy pko",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "54aec788-ebb1-4c42-8e3a-60376de1d209",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order buy textainer group holdings limited common stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "660f9e3c-b8dd-411d-a40b-994e7225a0c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to buy",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "836efd44-bc39-43b1-8261-6eca0b14bca2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to buy aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "491365c9-6399-457f-b66c-6ad683a78281",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to buy air brake",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "dcc34420-1313-4da9-a2fa-ccd13c145cc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to buy ewbc",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2cb1274a-81d6-4745-9746-f4cd0ae1823a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to buy fran",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0536748f-92e7-4831-8268-dd92b5890717",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to buy graphic packaging holding company",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a7ece3b2-d662-4e62-826c-0cc267d83f76",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to buy prk",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8ae98a4e-0397-45cd-87f0-9d24dd803971",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to buy shares in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ab1596ce-48fd-457b-a96f-c1863695105d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to procure air brake",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "429de371-3343-4e2f-a0ff-e5738c73f68d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to purchase ewbc",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "48a7ccd8-5fa5-4e97-b0a6-75745eb9b1a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place order buy",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "769569b2-03c8-4b43-bd27-897b32f146dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place order buy firsthand technology value fund, inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "098f48a7-c4d9-4f00-b9b9-7dcfb4c6d019",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place order buy habt",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cda9de02-e4a2-47be-b993-f7d19ba48755",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place order to buy bridge bancorp, inc. common stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b963580b-f15e-45ba-a3ef-cb2c375e9332",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place order to buy genocea biosciences, inc. common stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d4080f35-8ad1-4553-acda-e253b261eae3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place order to purchase ewbc",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6a876d2b-010b-477a-b479-cb6f85d5a74f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "placing an order to buy habt",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1676c4d3-5ac1-4535-bdd5-5afa95fca9d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "placing order to buy",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d8734621-76b4-49c0-84c7-6dcbf476e98f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "procure equity",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4d70714d-09fc-41bd-a876-1958bf0e57ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "procure my stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "87ca71f7-25f1-4d75-97a4-b260a1bb9bf7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "purchase 100 shares of facebook",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "023f3958-1887-4bfb-8705-5a987335fc39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "purchase 50 AAPL now",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9cbbf190-0862-48de-8db0-f12e9441db59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "purchase AAPL today",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "47256fa4-241e-4e94-8c2f-0ae310007165",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "purchase more equities",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "03ea66d6-cc4b-4be1-a47f-e6972919ad5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "purchase some stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e02761e3-3e86-43c6-b976-2e6c5b103c31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me how to buy my shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ba4a2433-20d2-43b3-910b-9258e8ffe00a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me how to buy shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4887efa9-0655-4672-ad32-d964498ab122",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "id like more cowen inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "15146fed-8ba2-4fcd-8ed5-d2526b672d1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "id like more air brake",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a0d7aa46-090b-434b-b519-452d338c52fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "id like more tectp",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "feb121cf-4452-4f58-a387-ae861a9fac10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "id like more shineco, inc. common stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "128dfee0-b245-4cb9-8177-ed2cc422b9bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "id like more aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "97db7201-0dfa-475b-89fa-e474637650c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "id like more pirs",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "192705e2-f740-433a-aedb-7acad15383cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "id like to place an order to buy some stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "bbbee238-4e6d-4043-ad70-00cbfa137255",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "id like more mogu inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "51e270d9-91c6-4450-82bc-b82a8e048eaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "id like more ebr",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6458b806-5082-43fc-a3b6-b3fbdab1807f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Id like to place an order to buy 100 shares",
+    "tags" : [ "happy" ]
+  } ]
+} ]

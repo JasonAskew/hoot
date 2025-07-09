@@ -1,29 +1,36 @@
 {
-  "name" : "bt_asset_transfer_clarify_transfer_type",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "I can help you initiate an asset transfer."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I can help you initiate an asset transfer."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "What is the transfer type?"
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "What is the transfer type?"
+    ],
+    "quick_replies": [
+      {
+        "type": "TEXT",
+        "payload": "Transfer in",
+        "label": "Transfer in",
+        "question_display_text": "Transfer in"
+      },
+      {
+        "type": "TEXT",
+        "payload": "Transfer out",
+        "label": "Transfer out",
+        "question_display_text": "Transfer out"
       }
-    } ],
-    "quick_replies" : [ {
-      "type" : "TEXT",
-      "payload" : "Transfer in",
-      "label" : "Transfer in",
-      "question_display_text" : "Transfer in"
-    }, {
-      "type" : "TEXT",
-      "payload" : "Transfer out",
-      "label" : "Transfer out",
-      "question_display_text" : "Transfer out"
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_asset_transfer_clarify_transfer_type"
 }

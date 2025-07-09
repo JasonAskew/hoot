@@ -1,77 +1,99 @@
 {
-  "name" : "bt_payment_limit_bt_cma_no_bpay_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "I can help you make a payment. Please select the 'Go to page' button."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "internal",
-        "payload" : "#/app/investor/account/{accountNumber}/payments/form",
-        "label" : "Go to page"
-      }
-    } ],
-    "quick_replies" : [ {
-      "type" : "INTENT",
-      "payload" : "👍",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "1"
-        } ]
-      },
-      "label" : "👍"
-    }, {
-      "type" : "INTENT",
-      "payload" : "👎",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "0"
-        } ]
-      },
-      "label" : "👎"
-    } ]
-  },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I can help you make a payment. Please select the 'Go to page' button."
         }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "internal",
+          "payload": "#/app/investor/account/{accountNumber}/payments/form",
+          "label": "Go to page"
+        }
+      }
+    ],
+    "quick_replies": [
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "1",
+              "type": "String"
+            }
+          ]
         },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
+        "label": "\ud83d\udc4d"
+      },
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "0",
+              "type": "String"
+            }
+          ]
         },
-        "label" : "👎"
-      } ]
+        "label": "\ud83d\udc4e"
+      }
+    ]
+  },
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_payment_limit_bt_cma_no_bpay_response"
 }

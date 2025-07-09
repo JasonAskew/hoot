@@ -1,0 +1,604 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_how_logout_train",
+  "intent_name" : "bt_how_logout",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "41dae09a-4889-4f8b-be18-fc9f19982efb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cannot find edit button.",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "2567d8e9-579c-4c09-9c0a-2ad82beca06f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cannot find log off button - where is it?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "46325072-afb5-4ac8-a02c-b877a069707d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cant bsee bob button",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "81d9fc6d-9e12-4320-95ce-5943ab178d8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi i am trying to access the online account via my westpac account, but am unable to find the link - can you assist please?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "8533e26b-3112-4942-92bc-57847db78596",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, I just clicked on Keep Super, but it didn't load. Can't find that button anymore, what should I do",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "544d3721-f678-45c0-ac8a-bc0e55e843fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I Log out",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e3a4cd83-e534-43b8-9954-422dc1b1da52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I log out?",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fa244c6e-0559-4823-b1f2-fbe2ece0ed26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am trying to access the online account via my westpac account, but am unable to find the link - can you assist please?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "bbf518ef-a1ce-4424-a7cb-ea6953f55f64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I can't find the logout button",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "f7bdfa14-3ed1-460a-a83a-4e96c4e33ddc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I can't find where is the logout button√Ø¬º≈∏thanks.",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "e506457f-f67a-47ba-90d5-4f1544539d19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cannot find edit button.",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "958f9d10-faf0-4032-aab3-f1d7a1486e8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cannot find log off button - where is it?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "ffcd19c7-9266-4fe2-bb90-61fd9e3fde2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cant bsee bob button",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "453c29bf-c5a1-43f2-97b1-25d339dc965d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi i am trying to access the online account via my westpac account, but am unable to find the link - can you assist please?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "ee800565-22e1-4cd4-945e-f3c64ce530ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, I just clicked on Keep Super, but it didn't load. Can't find that button anymore, what should I do",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "97461a67-1c96-42a9-8d49-07c325cb39f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I Log out",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d7baefe7-8cea-474c-8ef5-0f2b5049ac86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I log out?",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1d9d0165-516a-47ae-9b5a-33520d8a94b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am trying to access the online account via my westpac account, but am unable to find the link - can you assist please?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "c4686adc-0aae-4554-b970-2bcef53e843f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I can't find the logout button",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "4d758baf-389c-4615-b494-01872593cb9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I can't find where is the logout button√Ø¬º≈∏thanks.",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "67c1f853-449b-4c45-8123-aabae2ac4b0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Logout?",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "479d935b-b9cd-43f0-8e45-5cd984507fad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where is the 'open page' button",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "ca5b64f4-390a-48d7-9eb4-d479672b0849",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i log out of my bt panorama or only through my westpac account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "29014603-6208-430f-b1a4-30afa2ee9c40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot see where to log out on the webpage",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "694e63c5-202c-40a1-b338-6c6ba48a7c5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i log out of my bt panorama or only through my westpac account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "4d5afaf3-f2a9-4d47-b727-c3f51fb698a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot see where to log out on the webpage",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ae8ce33f-4011-4912-aace-c2e8205592ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i log out of my bt panorama or only through my westpac account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "5e7f617b-a444-40ae-956c-f7fd3940401c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot see where to log out on the webpage",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "596e3cf8-4e9f-4371-95ab-1a23426fe3ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "got into account but where do i logout",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d82848cb-03ca-406b-a280-b274405e8fce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am in the overview for one account how do i change to see my 1 accounts",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "98ddd48b-5b41-4170-8cce-798cf2865d72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i sign out",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d8dc20d9-7f9b-4df9-a4e5-54ef725f33ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi, how can i log out ?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "9457deb6-5b6d-4cfe-b52b-316ba8182dbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi, how can i log out?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "81d40dfe-b414-400c-9592-3ce125b241e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i logout?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "7273b2c6-bd86-45bd-92f9-513076475282",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i sign out",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a5116afd-d7a9-4000-bf2c-59d4791f4fd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out of bt",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1f63899d-c7ac-4fc6-aefb-e6dc32e78c75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out of my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3d32b9ac-9ef9-4220-968f-30a10dc3d367",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out of my account when im am finished",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "170965ba-6f4a-4798-af68-8113107ce1c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out of my account.",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "455b4f04-372f-4fbe-85ea-7b571954d15a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out of my account?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "a3081cc7-e102-4599-9f78-2312f9d4c5b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out of panoroma",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "d40d829f-9ed9-4b6f-997e-a84015db0947",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out of this account each time?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "222aa28a-6416-47bb-a995-8364aacb7540",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out of this platform i cannot find the log off button",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1ac6738e-f22f-41f8-912f-a6419e2f9f5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out out of my panorama home page",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "ac8b6ce0-ab53-4cb8-818b-230343a7c15d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out securely",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "dc03e6dd-8fd2-46ec-9d03-e22320b66d87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out when i have finished my transaction",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "12dada35-14e8-4d84-a6f4-61f3c69014d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "48f2b391-6199-4b8e-86b3-02aacfe589d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i logout",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3f0966b6-3867-4e61-ab02-2b543d9d34fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i logout?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "98904cef-d2e7-4e11-929d-8255ca5e4324",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i sign out",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "53a117a0-72c1-4cce-a626-5f6daa7efb06",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i sign out it 's my one st time in here since migration from bt",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e7f9aa61-6262-445d-9b6a-4f20da2485ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you log out of bt panorama account page in the web?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "5ebd0b21-580f-48b3-8255-a183cddb9c46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you log out?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "757da3f8-fbee-4f62-85ed-ba2c193d44a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does a client log out of their account?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "0192c945-44e4-47d8-a5e5-add1ed1f379e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to log out?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "5eae378c-9269-4277-af6c-2d5a858171fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to logout",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "70a40ac6-58a0-4e3b-9b02-627575b81fd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am in the bt overview page how do i log out",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "6e4fec96-7db3-42a1-9825-b2e2452c2aa5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not find the log off button",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "03a6d3ee-4581-4355-b3f0-a93fa4c800b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not find the log out button",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "29a5c7ee-6616-434e-b01e-6f0fe171775b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not log out of my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a593d717-77d3-408e-9cc9-9dd09c3e8cda",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can't find the logout button",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "060c8a07-2189-45db-87f9-74137111db8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can't find where is the logout button√Ø¬º≈∏thanks.",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "32c7d725-2124-4dae-b3d3-b19d55a15d07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have just logged onto my account and cannot see where you log out",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "9c44eebb-6995-4c9d-b73a-806ab4a30be3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to know how to log out",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "57c6718a-023d-4ff6-8999-8e66c5864359",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to log out how do do it?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "d68c06cf-1c63-4d36-8141-57fa28ac2150",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a log off point or do i just turn off when i have completed",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8e6aa3a9-a1b0-40b2-b0d5-15ec524371eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a log out function",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "06d1e333-0597-4c38-b3a1-fee872742e0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there somewhere on this page to log out?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "dbb980c1-681b-4f3b-97e7-02d3734f2478",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "log out of bt panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d8a1bb3f-dc82-4ce3-bf47-eef18bde7d81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "logged out of my account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "25c9f3a9-2ebf-4d2e-ae8d-31b016ce36a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "logging out",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "a74694ed-f502-4af0-855a-7bdda410c9c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to sign out",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "021c2b66-1ea7-4ec1-a181-9e00a64d6e46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not log in. i want log out",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "c833ee54-be68-4d0b-b443-7a37b28b6462",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not log in. i'm asking to log out",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "b76d06f4-ff5d-437e-804f-f7f6d208ca89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not log in....log out",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "c9de4fe1-500d-4c76-86ff-e58be518bf5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "one st time user where do i log out",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bef95c49-942d-4de1-9337-00550628abdb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry what does that mean? ...i need to log out",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "0b15a213-0660-4eee-abe7-96f3acc262e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry, i can√¢‚Ç¨‚Ñ¢t find a log out icon√∞≈∏¬§¬®",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "1535edab-3928-4767-912f-ea7da2190a2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tell me where to log out",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "4162357a-7382-4866-838f-166b8a563c64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the only page i can get is the overview and it will not let me sign out can you please help me sign out",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c69888b4-d1c3-408a-95bc-8e5d28d12c0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there appears to be no log out button on panorama?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "4d822b71-c413-42ca-871a-ba6a48206762",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to exit panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "19e85982-3772-4eba-a12d-af24dc087a93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to sign out",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f32abb4c-701b-4ab8-b3f0-4c13265cc601",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the only page i can get is the overview and it will not let me sign out can you please help me sign out",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "fa88dd43-90f7-49f6-9c2e-b9c1c9b3f968",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there appears to be no log out button on panorama?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "525c0bd2-d068-49e0-8bfb-b5bb570874e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to exit panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d4bec0bd-d13d-4ab0-9d6a-7e33ad752f0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to sign out",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "466b13cf-820b-4846-857e-1f6788e24d32",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do I log out",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "21a18abc-b920-4b99-a99f-b1bc16ab4566",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do I log out?",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "02b10a45-2758-4f59-ae71-b343ccd1e6aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i log out please",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2a196fb4-2536-4e71-a8df-ae2e7ec2f0ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do you log out",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1ec217c5-0feb-4133-b11f-a338beb93e74",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where is the 'open page' button",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "ec82c3be-48fe-4086-a075-6e31a0680ac1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the log out button on my account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7eb51dc9-1d8f-4505-8ae8-3fac1e24cd59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the log out button on the home page",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a8292ce2-484c-4ed1-8655-35eb1b712cfd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the log out symbol",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ca7db870-c800-48dd-8da9-e38a6b3dad14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the open page button",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "702fdfc0-ba7d-492c-b156-8cd76661117f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where on the screen is the 'logout'?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "d26fd506-965b-48bc-8787-e9b3a007a9db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to find √¢‚Ç¨≈ìlog out √¢‚Ç¨≈ì button?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "264ba489-4649-4de4-a49c-fbad4a005ec2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where's logout button?",
+    "tags" : [ "nid_05-2021" ]
+  } ]
+} ]

@@ -1,62 +1,77 @@
 {
-  "name" : "bt_interest_rate",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "You can view the interest rate for your cash account in the 'Investments' section on the navigation menu. The interest rate is listed under 'Rate pa'."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "bt_term_deposit"
-        },
-        "label" : "Term deposit"
-      }
-    } ]
-  },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "You can view the interest rate for your cash account in the 'Investments' section on the navigation menu. The interest rate is listed under 'Rate pa'."
         }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For information regarding interest rates on Challenger Annuities, please contact Challenger on 13 25 66."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You can view the interest rate for your client's cash account in the 'Portfolio views' section of the navigation menu. The interest rate is listed under 'Rate pa'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_term_deposit"
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_term_deposit"
           },
-          "label" : "Term deposit"
+          "label": "Term deposit"
         }
-      } ]
+      }
+    ]
+  },
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For information regarding interest rates on Challenger Annuities, please contact Challenger on 13 25 66."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You can view the interest rate for your client's cash account in the 'Portfolio views' section of the navigation menu. The interest rate is listed under 'Rate pa'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_term_deposit"
+              },
+              "label": "Term deposit"
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_interest_rate"
 }

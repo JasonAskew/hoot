@@ -1,22 +1,28 @@
 {
-  "name" : "bt_amend_advice_fee_clarify_fee_type_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "For which fee type?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "For which fee type?"
+        }
       }
-    } ],
-    "quick_replies" : [ {
-      "type" : "TEXT",
-      "payload" : "on going",
-      "label" : "On-going advice fee"
-    }, {
-      "type" : "TEXT",
-      "payload" : "one off",
-      "label" : "One off advice fee"
-    } ]
-  }
+    ],
+    "quick_replies": [
+      {
+        "type": "TEXT",
+        "payload": "on going",
+        "label": "On-going advice fee"
+      },
+      {
+        "type": "TEXT",
+        "payload": "one off",
+        "label": "One off advice fee"
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_amend_advice_fee_clarify_fee_type_response"
 }

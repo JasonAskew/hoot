@@ -1,323 +1,782 @@
 {
-  "name" : "69_LiveAgent_S_Response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Absolutely, I'll connect you with one of our helpful consultants. Select the ‘Chat with consultant’ button to start."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "POSTBACK",
-        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-        "label" : "Chat with consultant"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://www.bt.com.au/contact-us.html",
-        "label" : "Contact details"
-      }
-    } ]
+  "categorization": {
+    "tags": []
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "I may be able to get you additional support. Some of the top things people ask me about are:"
+  "notes": "Corrected LP escalation",
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To chat with one of our consultants, select the 'Chat with consultant' button. You can also call 1300 881 716 (or +612 9155 4029 outside Australia) from 8:30am to 6:30pm, Monday to Friday (Sydney time) and a consultant will assist you."
         }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_forgot_username_password"
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "LIVE_CHAT",
+          "payload": {
+            "parameters": [
+              {
+                "name": "campaignId",
+                "value": "3392686470"
+              },
+              {
+                "name": "engagementId",
+                "value": "3392718870"
+              }
+            ]
           },
-          "label" : "Forgot username"
+          "label": "Livechat"
         }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_forgot_username_password"
+      }
+    ]
+  },
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I may be able to get you additional support. Some of the top things people ask me about are:"
+            }
           },
-          "label" : "Forgot password"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_register"
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_forgot_username_password"
+              },
+              "label": "Forgot username"
+            }
           },
-          "label" : "Help me register"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/personal/contact-us.html#super",
-          "label" : "Contact BT"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Absolutely, I'll connect you with one of our helpful consultants. Select the ‘Chat with consultant’ button to start."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/contact-us.html",
-          "label" : "Contact details"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Absolutely, I'll connect you with one of our helpful consultants. Select the ‘Chat with consultant’ button to start."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/contact-us.html",
-          "label" : "Contact details"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account__advised_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Absolutely, I'll connect you with one of our helpful consultants. Select the ‘Chat with consultant’ button to start."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/contact-us.html",
-          "label" : "Contact details"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Absolutely, I'll connect you with one of our helpful consultants. Select the ‘Chat with consultant’ button to start."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/contact-us.html",
-          "label" : "Contact details"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Absolutely, I'll connect you with one of our helpful consultants. Select the ‘Chat with consultant’ button to start."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/contact-us.html",
-          "label" : "Contact details"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_btinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Absolutely, I'll connect you with one of our helpful consultants. Select the ‘Chat with consultant’ button to start.:"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/contact-us.html",
-          "label" : "Contact details "
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Absolutely, I'll connect you with one of our helpful consultants. Select the ‘Chat with consultant’ button to start."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/contact-us.html",
-          "label" : "Contact details"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Absolutely, I'll connect you with one of our helpful consultants. Select the ‘Chat with consultant’ button to start."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/contact-us.html",
-          "label" : "Contact details"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Absolutely, I'll connect you with one of our helpful consultants. Select the ‘Chat with consultant’ button to start."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/contact-us.html",
-          "label" : "Contact details"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_public_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "I may be able to get you additional support. Some of the top things people ask me about are:"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_forgot_username_password"
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_forgot_username_password"
+              },
+              "label": "Forgot password"
+            }
           },
-          "label" : "Forgot Username"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_forgot_username_password"
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_register"
+              },
+              "label": "Help me register"
+            }
           },
-          "label" : "Forgot password"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/personal/contact-us.html#super",
-          "label" : "Contact BT"
-        }
-      } ]
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.bt.com.au/personal/contact-us.html#super",
+              "label": "Contact BT"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I may be able to get you additional support. Some of the top things people ask me about are:"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_update_other_contact_details"
+              },
+              "label": "Update your details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_trade_share"
+              },
+              "label": "Buy or sell investment"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_available_balance"
+              },
+              "label": "Account balance"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_mailing_address"
+              },
+              "label": "Contact BT"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I may be able to get you additional support. Some of the top things people ask me about are:"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_update_other_contact_details"
+              },
+              "label": "Update your details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_trade_share"
+              },
+              "label": "Buy or sell investment"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_available_balance"
+              },
+              "label": "Account balance"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_mailing_address"
+              },
+              "label": "Contact BT"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account__advised_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I may be able to get you additional support. Some of the top things people ask me about are:"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_update_other_contact_details"
+              },
+              "label": "Update your details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_deposit_funds"
+              },
+              "label": "Deposit funds"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_request_for_withdrawal_investor"
+              },
+              "label": "Request withdrawal"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_mailing_address"
+              },
+              "label": "Contact BT"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I may be able to get you additional support. Some of the top things people ask me about are:"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_update_other_contact_details"
+              },
+              "label": "Update your details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_deposit_funds"
+              },
+              "label": "Deposit funds"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_request_for_withdrawal"
+              },
+              "label": "Request withdrawal"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_mailing_address"
+              },
+              "label": "Contact BT"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I may be able to get you additional support. Some of the top things people ask me about are:"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_update_other_contact_details"
+              },
+              "label": "Update residential address "
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "76_ServiceRequestStatus_S"
+              },
+              "label": "Status of request"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_mailing_address"
+              },
+              "label": "Contact BT"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_eofy"
+              },
+              "label": "EOFY information"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_btinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I may be able to get you additional support. Some of the top things people ask me about are:"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_trade_share"
+              },
+              "label": "Buy or sell investment"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "76_ServiceRequestStatus_S"
+              },
+              "label": "Status of request"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_update_other_contact_details"
+              },
+              "label": "Update my details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_mailing_address"
+              },
+              "label": "Contact BT"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I may be able to get you additional support. Some of the top things people ask me about are:"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_trade_share"
+              },
+              "label": "Buy or sell Investment"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_deposit_funds"
+              },
+              "label": "Deposit funds"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_personal_tax"
+              },
+              "label": "Claim PTDN"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_mailing_address"
+              },
+              "label": "Contact BT"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I may be able to get you additional support. Some of the top things people ask me about are:"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_update_other_contact_details"
+              },
+              "label": "Update your details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_request_for_withdrawal"
+              },
+              "label": "Request withdrawal "
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_pension_payment_amount"
+              },
+              "label": "Change pension payment"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_mailing_address"
+              },
+              "label": "Contact BT"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I may be able to get you additional support. Some of the top things people ask me about are:"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_update_other_contact_details"
+              },
+              "label": "Update your details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_request_for_withdrawal"
+              },
+              "label": "Request withdrawal"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_change_pension_payment"
+              },
+              "label": "Change pension payment"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_mailing_address"
+              },
+              "label": "Contact BT"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I may be able to get you additional support. Some of the top things people ask me about are:"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_forgot_username_password"
+              },
+              "label": "Forgot Username"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_forgot_username_password"
+              },
+              "label": "Forgot password"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.bt.com.au/personal/contact-us.html#super",
+              "label": "Contact BT"
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "69_LiveAgent_S_Response",
+  "display_name": "69_LiveAgent_S_Response"
 }

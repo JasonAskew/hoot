@@ -1,12 +1,16 @@
 {
-  "name" : "bt_account_annuities",
-  "active" : true,
-  "criteria" : [ {
-    "platform_type" : "web",
-    "customer_data" : [ {
-      "name" : "product",
-      "value" : "Annuity"
-    } ]
-  } ],
-  "description" : "bt_account_annuities"
+  "criteria": [
+    {
+      "platform_type": "web",
+      "customer_data": [
+        {
+          "name": "product",
+          "value": "Annuity"
+        }
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "bt_account_annuities",
+  "description": "bt_account_annuities"
 }

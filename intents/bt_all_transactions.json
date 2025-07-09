@@ -1,23 +1,23 @@
 {
-  "name" : "bt_all_transactions",
-  "display_name" : "All transaction types",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_all_transactions"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_all_transactions"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "Used when unsure if withdrawal, deposit or trade",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : false,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "Used when unsure if withdrawal, deposit or trade",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_all_transactions",
+  "display_name": "All transaction types",
+  "alternative_question_eligible": false
 }

@@ -1,0 +1,2447 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_linked_account_verification_train",
+  "intent_name" : "bt_linked_account_verification",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "6c4b0b10-60f9-443e-b161-501ed605762b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "1 cent code",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "91d20711-67d4-433e-8662-d8b0993a9c18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent deposit",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "632e46d7-e4c0-4101-808e-218e84ab9b2a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent deposit not showing",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "f85a8ba2-aae4-441f-afc0-94cddd6e4644",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent deposit verification code expired",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "beea4187-b86e-4aa0-a735-58a27d1a8060",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent did not appear in account to be linked",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "61403f90-9841-4bd1-b61c-014d1c89051c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent verification",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3003bd89-7033-4095-a5b9-e89b169ee5e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent verification process"
+  }, {
+    "id" : "654eb83b-5a25-4a4a-ba2d-a321eb326dbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1c code for linked account"
+  }, {
+    "id" : "ad7c75d4-7cc8-4126-a526-1158e33de991",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1c verification process"
+  }, {
+    "id" : "6d083afd-e90c-42af-b4aa-3deef6ce7eca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ca you help me verify my linked account?"
+  }, {
+    "id" : "88a52a1c-ee73-4c31-9f5d-91839aab025b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you explain the process for linked bank verification"
+  }, {
+    "id" : "e69c6f28-5ff9-4ea6-b0e1-910c1799f8b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you give me some assistance with verifying my linked bank account?"
+  }, {
+    "id" : "0af1dd40-ed90-4808-b909-1d80bda6b687",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me complete the linking account verification procedure"
+  }, {
+    "id" : "c30a0d09-7c1a-4bf0-a956-d5adda14603d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me to verify my linked account?"
+  }, {
+    "id" : "b673b032-53ed-456f-83bb-609e01b17fa1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me verify this linked account of mine?"
+  }, {
+    "id" : "ab84949f-e1c0-4fc7-8e34-87e5b4917f1c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me verifying linked my bank account?"
+  }, {
+    "id" : "706a2f4b-36a8-41b3-a664-01086b86edb3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please tell me the steps for verifying a linked account?"
+  }, {
+    "id" : "677fc6b3-d708-4885-82e0-ac993adf7b37",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me about the linked account verification process?"
+  }, {
+    "id" : "08ed02cd-dd15-46d7-85de-a5fccfdfd71e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to verify my linked account?"
+  }, {
+    "id" : "9ef8b42a-d398-49cc-9065-61aa0111d8c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to verify the linked account?"
+  }, {
+    "id" : "1d1e8dd8-54bd-44fa-9e8e-7491ba506467",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you explain how linked bank account verification works?"
+  }, {
+    "id" : "df292af4-018c-4dad-93e3-c5dcc8b06809",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you help me with verifying my linked account"
+  }, {
+    "id" : "9a70cdcf-729b-4bb8-9fd5-c9a52f46e12e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does she still have to request a code or will that already be provided? I thought the 1c deposit was automatic once the account was set up?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "420f19ae-5459-4795-ad10-77ff94784552",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain how linked account verify works"
+  }, {
+    "id" : "cdb2fec7-6113-4d2c-8e24-5b6a4e176d21",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Financial advisor asked me to verify my bank details so as they can transfer my super money across to BT and set up my pension",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "25d01453-2c47-47bd-bf81-217461722bc3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Good afternoon, I have tried several times to verify my bank account and each time I log in the verfication number (from the 1c deposit) it does not recognise it. Please help?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "686d541b-4627-43a5-8858-b408cc05d684",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi Blue, I am wanting to make a deposit to my new Panorama Investments Compact account but seem to have missed the instruction to verify the account. Please tell me how to verify the account so I can make a deposit. Thanks Joy van der Poorten",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "0c0c090b-cb62-43b9-b56e-476975f30f1b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How are linked bank accounts verified?"
+  }, {
+    "id" : "b6177065-1964-4b0d-a101-5b5ccc3a2983",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find the procedure online for linked account verification?"
+  }, {
+    "id" : "981f897e-f4bb-456b-87b0-b349428f1d4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I tell if my linked account is verified?"
+  }, {
+    "id" : "aa22cfd9-6579-43c0-8c53-b699a2d07aca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I verify on my account that's linked?"
+  }, {
+    "id" : "b42adb27-e771-4875-9e8b-9c9bf8ce4ecb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can a get verified linking banking account."
+  }, {
+    "id" : "184c21c3-a5b6-4fa0-88e7-53d55d5525ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I verify my linked account?"
+  }, {
+    "id" : "5449d460-29bb-409e-8ea5-8dd483a948d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I complete verification for a linked bank account?"
+  }, {
+    "id" : "1a5e2343-2b1b-4e09-ac07-649f6ea65131",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find out how linked bank account verification works?"
+  }, {
+    "id" : "d88c1e51-fe5a-4df7-b18d-56f288623f04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get a linked account verified"
+  }, {
+    "id" : "b30e4e4b-77ae-4564-9dc9-652d34348154",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get my bank linking account verified?"
+  }, {
+    "id" : "70f117af-d904-4d38-9648-afd93fc70d60",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get my linked account verified?"
+  }, {
+    "id" : "a5f564e0-ce3a-4e2c-9f19-8a615bee6894",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about finding the details for the linked bank account verification process"
+  }, {
+    "id" : "8b1cb64a-ccfd-4f72-a2b6-75589b4f1f33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about verifying a link account?"
+  }, {
+    "id" : "6a21f02d-189b-43f6-9826-4c2e4e65226a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I use linked bank account verification?"
+  }, {
+    "id" : "261567fb-3371-4f1c-a717-28a13def79d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I verify Account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "de5449da-be29-4364-8075-1506029ccf18",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I verify a linked bank account?"
+  }, {
+    "id" : "62cc905a-5964-41f6-9829-320fc4d4e703",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I verify my linked account"
+  }, {
+    "id" : "65424e9d-0b47-49c3-a2f0-19d19103746e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I verify my linked bank account?"
+  }, {
+    "id" : "479edff6-66d4-46bf-8af2-ab322acada8b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i verify if my accountis properly linked?"
+  }, {
+    "id" : "c9c94989-e752-4423-ab96-66214a4a0b97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does linked bank account verification work?"
+  }, {
+    "id" : "6f1ea84a-66d3-4537-a88a-64c10016546f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does the account verification process with my linked bank account work?"
+  }, {
+    "id" : "13b993d5-b67f-4eeb-8bca-b84a3b63f7e1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does the linked bank account verification process work?"
+  }, {
+    "id" : "b1847e7e-9267-4596-8cd7-be3bbe40b5cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does the verification process work for a linked bank account?"
+  }, {
+    "id" : "c08a8f3f-512e-4994-bd44-cf79eec9d66d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How exactly does the verification of my linked bank account work?"
+  }, {
+    "id" : "5729e0b8-a5f4-48ba-9829-bd8ff6c6b38d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to verify my linked account if possible"
+  }, {
+    "id" : "1d4decbd-6183-441a-9b2d-e8fda1613c25",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I added a linked account on Sunday 11 Feb and am still waiting for an amount to go into the account so that I can verify it. Is there an issue? Cheers Bob",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "2384f26e-ee5f-4a8c-87ec-9fe4530ee9f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I didn't get the code to verify the account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "3d931bad-8c8a-4f00-98d1-4810d75906c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I do not understand how to use the linked bank account verification."
+  }, {
+    "id" : "aa60f975-363f-4909-9548-508ae2bdcf07",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't understand how to get my bank linked account verified"
+  }, {
+    "id" : "20f23b8d-fb27-41f1-81b9-6aafd44efa18",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "1 cent code",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "987b36ed-cd0a-4e33-8459-c111f8138bf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent deposit",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "50177ea8-c0a0-45c6-a4a0-b7287d38b412",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent deposit not showing",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "ee246dac-9138-455e-9045-14624edb54cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent deposit verification code expired",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "0975e9e0-7559-4264-99c9-efec284d5e14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent did not appear in account to be linked",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "53346e93-8687-45ac-9c8c-d8c83d11699a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent verification",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8a601cdc-d843-4607-960a-581ef9709948",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent verification process"
+  }, {
+    "id" : "eb12d1d7-df19-49d9-8f36-ae1c02a2904c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1c code for linked account"
+  }, {
+    "id" : "78344eaa-2912-42d3-9db9-7b79078bb7a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1c verification process"
+  }, {
+    "id" : "ed4be0ae-59ff-4b04-b8c8-8563046193d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ca you help me verify my linked account?"
+  }, {
+    "id" : "241b2e14-1b5b-40fe-9b8f-14ad3eb0fbc7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you explain the process for linked bank verification"
+  }, {
+    "id" : "23e7c538-0aba-43c8-81d8-06fdfe847e9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you give me some assistance with verifying my linked bank account?"
+  }, {
+    "id" : "37937cf5-ca20-40a1-95eb-32ba5c56ea4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me complete the linking account verification procedure"
+  }, {
+    "id" : "b91c3c38-db05-4b54-b363-f4e553adb1f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me to verify my linked account?"
+  }, {
+    "id" : "b5d388e5-e06a-446d-ad44-6f988c16c1f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me verify this linked account of mine?"
+  }, {
+    "id" : "d2564386-9f6b-49dd-a676-c291f1b09b9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me verifying linked my bank account?"
+  }, {
+    "id" : "de16ef8e-0767-4938-ae46-4a1b04f2aace",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please tell me the steps for verifying a linked account?"
+  }, {
+    "id" : "b96d87fa-31ce-449f-865b-0c3114559588",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me about the linked account verification process?"
+  }, {
+    "id" : "5fc86aad-cdc8-4e9b-8be8-31923719344e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to verify my linked account?"
+  }, {
+    "id" : "76c1adbd-0b5d-47c1-b470-c6270e1bcc36",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me how to verify the linked account?"
+  }, {
+    "id" : "3a157d17-dd49-4246-935f-6df3aaf65062",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you explain how linked bank account verification works?"
+  }, {
+    "id" : "fff36791-fef7-4d0a-a7c6-4601e48bb319",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you help me with verifying my linked account"
+  }, {
+    "id" : "82eefdce-46cf-4e8a-a7e1-e7b80c7941d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does she still have to request a code or will that already be provided? I thought the 1c deposit was automatic once the account was set up?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "747a92a2-de96-47c7-98a0-0a69365ba993",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain how linked account verify works"
+  }, {
+    "id" : "d6e327ef-0c11-4ca0-89e5-e04f25c688d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Financial advisor asked me to verify my bank details so as they can transfer my super money across to BT and set up my pension",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "ecf47d45-d189-4b8c-bd18-e8b58921b532",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Good afternoon, I have tried several times to verify my bank account and each time I log in the verfication number (from the 1c deposit) it does not recognise it. Please help?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "fcb0589a-d0fe-4b82-b84f-846649f69125",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi Blue, I am wanting to make a deposit to my new Panorama Investments Compact account but seem to have missed the instruction to verify the account. Please tell me how to verify the account so I can make a deposit. Thanks Joy van der Poorten",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "90c46baf-90bc-446b-af37-59aa4975049f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How are linked bank accounts verified?"
+  }, {
+    "id" : "95429f49-50ff-48ec-bd60-f15ed8b7ce21",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find the procedure online for linked account verification?"
+  }, {
+    "id" : "faf5c9b1-471b-4979-98d1-1d3090b8d5ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I tell if my linked account is verified?"
+  }, {
+    "id" : "8dcbdd44-01d5-4613-bb95-479ba03ab6c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I verify on my account that's linked?"
+  }, {
+    "id" : "3c0a887d-8c24-44f6-a506-bb34b872274e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can a get verified linking banking account."
+  }, {
+    "id" : "e3c00e74-e4a4-4281-8f13-d39dd022d5e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I verify my linked account?"
+  }, {
+    "id" : "02f9e149-da30-412d-8d20-f27e6e591fc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I complete verification for a linked bank account?"
+  }, {
+    "id" : "61cca3f3-59b6-46d2-a515-57f7c1610c19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find out how linked bank account verification works?"
+  }, {
+    "id" : "ac13e30d-a773-4430-8e3b-a10baeb0a84f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get a linked account verified"
+  }, {
+    "id" : "04efaa14-c946-43d2-87d8-3fc173c5ddd5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get my bank linking account verified?"
+  }, {
+    "id" : "2aec5516-e60c-4d25-a397-22eb7cadce2d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get my linked account verified?"
+  }, {
+    "id" : "d982efee-1343-48d5-9509-9578fa120b13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about finding the details for the linked bank account verification process"
+  }, {
+    "id" : "dffc6ad7-36e6-42fb-add5-2669bec92967",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about verifying a link account?"
+  }, {
+    "id" : "d433e955-9a87-4541-8ce5-f4a565989419",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I use linked bank account verification?"
+  }, {
+    "id" : "823953a1-f892-4f24-a9d1-be0052f7f68e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I verify Account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b2da7aa8-20ba-49ba-bfa4-68a8a0ea6f6a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I verify a linked bank account?"
+  }, {
+    "id" : "84e90abd-02e1-4c26-afb5-d2d7f89d6feb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I verify my linked account"
+  }, {
+    "id" : "3bf48149-df48-4bac-93a8-aadbdb7ca0b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I verify my linked bank account?"
+  }, {
+    "id" : "788464ba-b62f-4c99-ac99-816fb1bc2911",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i verify if my accountis properly linked?"
+  }, {
+    "id" : "95f18d82-7520-4ae3-9b45-1003f35af8c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does linked bank account verification work?"
+  }, {
+    "id" : "94611a1f-2922-452b-baec-072df0e37c8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does the account verification process with my linked bank account work?"
+  }, {
+    "id" : "17a1cea8-c50a-4356-b15a-05b74c00297b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does the linked bank account verification process work?"
+  }, {
+    "id" : "a447bb3e-fba4-4db1-9f19-d7b86d5fb115",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does the verification process work for a linked bank account?"
+  }, {
+    "id" : "97eeda9b-d878-4450-80ce-fe1a703068f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How exactly does the verification of my linked bank account work?"
+  }, {
+    "id" : "c792fca2-da9a-4b16-bcb9-3c2fd869122e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to verify my linked account if possible"
+  }, {
+    "id" : "9203d956-a49e-46ae-9140-6cb29846a2a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I added a linked account on Sunday 11 Feb and am still waiting for an amount to go into the account so that I can verify it. Is there an issue? Cheers Bob",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "be605a37-cf6b-4c89-9b42-1879fe56c725",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I didn't get the code to verify the account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "0e0c4909-cc8a-4a34-a192-3bd2941d47ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I do not understand how to use the linked bank account verification."
+  }, {
+    "id" : "8925dbce-19b7-415d-a06b-51e2646db2da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't understand how to get my bank linked account verified"
+  }, {
+    "id" : "79b7c5d1-b77e-4ead-a0f4-76dc71e0c3c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have put in my bank reference number and online it won't accept the code",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "fe5fddd5-4565-4f4f-bff5-da4f780ce93a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need assistance verifying my bank account so it can be linked."
+  }, {
+    "id" : "3d399c67-faae-46dc-a90f-f9a199690937",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need assistance with linked bank account verification process."
+  }, {
+    "id" : "67602b78-490d-4503-bc58-5c80777970b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need information about linked bank account verification."
+  }, {
+    "id" : "de79b205-6bb6-4ca5-bc38-537aa7d24895",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need steps that I can take to verify my linked account"
+  }, {
+    "id" : "5021d3e0-f8f3-4b74-90a9-4224dc595737",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to find more details about a linked bank account verification process."
+  }, {
+    "id" : "76a6bbdf-4a12-4294-b748-0bb0b5b0ec48",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to get my linked account verified"
+  }, {
+    "id" : "05998578-1972-4c91-ade8-cf0a94c06822",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to get my linked account verified and running."
+  }, {
+    "id" : "f3761224-d8b1-43ba-b869-f8eca8ae0026",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to get my linked bank account verified now"
+  }, {
+    "id" : "8bf3b3d5-9259-409f-8399-8b21254e9324",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know how a linked bank account verification works."
+  }, {
+    "id" : "9ed67c52-60c9-44d6-a99c-1dbe5c13264c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to verify a linked bank account"
+  }, {
+    "id" : "50cbd973-0f79-4321-984b-1729cb5862d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to be able to verify my linking account."
+  }, {
+    "id" : "0f1f36f1-1d90-48e8-8a6c-b405a408bd07",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know more about bank linked account verification and what the process is?"
+  }, {
+    "id" : "d710d5a8-35ab-4b70-bc0a-7114f6b10238",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know the steps for bank linking verification"
+  }, {
+    "id" : "df3a029a-3512-4806-8f5a-20ba9920c1b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to verify my linked account."
+  }, {
+    "id" : "d932e36d-39f5-47cc-9817-c14b348a647d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I will complete the bank linking account verification process"
+  }, {
+    "id" : "9e47b9ae-2b8b-44a7-a541-74af919cbdea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to verify my linked account."
+  }, {
+    "id" : "afd92983-9644-4ce4-9719-fbd9fdd469ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Inform me how to finish the linked bank account verification process."
+  }, {
+    "id" : "a1749b62-6534-4a33-86a6-c0ca9a9a189d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a procedure to link bank accounts?"
+  }, {
+    "id" : "28977a33-6207-42d1-9b7f-d8b1fc8ee431",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Linked bank account verify"
+  }, {
+    "id" : "1ff1cced-73c7-469c-a004-a5b24af971e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Linked my account verification please"
+  }, {
+    "id" : "8d159afb-dd80-4a5b-9c15-906f616a1a88",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account won't verify when I put the code in from my bank account",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "ac7854fb-16d0-4e78-8346-ad0064883d06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Resend verification code",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "b126c9de-9430-4bb1-8a53-c89568b7c455",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me how to verify the linked bank account"
+  }, {
+    "id" : "1fa02872-257e-4b6e-a834-2629094d23b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me about how the linked bank account verification works."
+  }, {
+    "id" : "327844d0-ba93-40f8-8608-45615aa38e5f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me the linked bank account verification process"
+  }, {
+    "id" : "516504a7-6986-486b-8ce4-b26af8cae0be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Trying to verify my account but nothing is showing as the needed code",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "2ee941a4-2448-4ea4-84c6-8b17e3f2fdad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "WHat are my options for getting my linking account verified?"
+  }, {
+    "id" : "d6b2d5a2-a8ed-4889-a9bc-213253e1f7c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "WHat are the steps for verification of linked account?"
+  }, {
+    "id" : "dbfb12fa-f1d9-4fda-a86a-8dae4a798227",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is mean linked account verification process"
+  }, {
+    "id" : "ffe28c36-6f6f-4c41-8d44-8448a7b629b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the linked bank account verification procedure"
+  }, {
+    "id" : "559ea451-d499-42d5-9afd-c5942990aed8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the process for linked bank account verification?"
+  }, {
+    "id" : "7ae114a5-9382-449a-9c8e-a5c348fd15c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the process for verification of a linked bank account?"
+  }, {
+    "id" : "5c5570e4-4e88-4f0f-b815-47662386018a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the way to verify my linked account."
+  }, {
+    "id" : "60c65c2a-c9a3-401a-a106-e6f2593c6995",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What procedure does linked bank account verification follow?"
+  }, {
+    "id" : "6ea0af76-352e-4516-9a95-a35be5acbf29",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What steps do I take to verify my linked bank account?"
+  }, {
+    "id" : "ed979ab4-2e17-437f-9750-1f36e98a4ac7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the procedure for checking linked accounts."
+  }, {
+    "id" : "a63177b7-0ca3-4a7f-9174-adb6633fc810",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where I can find details about linked bank account verification process"
+  }, {
+    "id" : "f4d96c5f-97c0-4134-97ff-c4d1461569e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I get bank accounts linked verified?"
+  }, {
+    "id" : "07e68ab7-fec9-4b80-801a-0528566ddd20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is the information on how to verify linked bank accounts here?"
+  }, {
+    "id" : "8af52ef8-79b2-4bd3-8ac3-cd9f9b804b6c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you tell me how a linked bank account verification works?"
+  }, {
+    "id" : "88e3462b-a458-48ef-a709-f6657905eca2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "account linked verification"
+  }, {
+    "id" : "c58fb875-30c2-4155-9a76-098df4852f62",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "account verification",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "0a308ea3-8b21-4605-b1e2-4ad21ca4e515",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account verify code",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "68b6200d-e119-4813-bafd-30c1810219c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add or verify account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "1f093163-f9f9-4851-ba20-5f76802139d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bank account verification",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "d641c9fe-be81-41a2-8246-d29bfbced9f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank nominated account details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8ba5d4f0-5a07-4934-a2d2-83ec1cd3d843",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank verification",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9c8ff162-0454-4270-9643-14907fa12054",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "banks linked account verifying"
+  }, {
+    "id" : "3726663a-3d9a-458e-8905-c3c3ac436e40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but my details shoe up on the scrren just need to verify from the icent deposit",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bc7a84f3-1e80-4ed4-8a01-3fd1374796ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot find 1 cent deposit to get verification code",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "d4b09979-e907-4e7a-ac7b-1b71e483c0e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cent code",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "cc893d7b-30fa-4020-9ed4-69470042aa2b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bank account verification",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "bafd5c49-4241-4186-8170-327cfbc3b4aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank nominated account details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "54cb9e76-abed-4873-89b7-3cdda079be8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank verification",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "e1fdc7ef-869c-45c9-bb7b-8cfe2dd3a0ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "banks linked account verifying"
+  }, {
+    "id" : "a0c96707-eb00-491b-b877-d4dcf8c15d78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but my details shoe up on the scrren just need to verify from the icent deposit",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8767f829-9780-4a12-8e9c-3e13d25d1f71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot find 1 cent deposit to get verification code",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "bfcd857c-31a6-4d3c-accf-e63bdcc654dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cent code",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "c9011152-b32f-4135-92ab-83f3e788b9fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bank account verification",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "b4a1fc3e-3d74-4cff-b512-deb65381ccaf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank nominated account details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d88a2dad-68f8-431c-a0fb-f0c0aa8b0904",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank verification",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "0d49b4b8-e456-4f31-aa00-70735c1075a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "banks linked account verifying"
+  }, {
+    "id" : "f4fddccd-f99a-41b9-964e-dd2639a51757",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but my details shoe up on the scrren just need to verify from the icent deposit",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "986d1df0-2794-46e3-bc53-362e249cac94",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot find 1 cent deposit to get verification code",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "cc22c5fe-252e-4af6-bb32-b92b12b78d58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cent code",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "70948dcb-8ae8-450e-b261-a20a5f81ec66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client has linked westpac bank account will they still need to verify 1 cent deposit",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "938c7d0b-ea82-4998-8058-030c951f96b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client training to verify a linked bank account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b5a742b7-1d72-4ced-a2a1-fb4f380aad3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client verifying linked account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4e6813a8-76cc-472e-a781-c68facab875e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "code for verifying account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "46b51c37-5191-446a-b9dc-ce6f98fea3c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "code to verify account has expired",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ad2c352f-c9fd-4a72-8ced-a135c9557a86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "confirm account verificatioon",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a521dd24-4ce4-4c35-9344-ff4eadc5dcf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "did i send verification for a linked account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2f52e0ee-fc1f-4911-badb-393d20ab378d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "did the client verify the linked account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "44f1b9e3-43be-4fce-97a4-d2fdd116926d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need the client to call to give a verification code",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "e6100ec9-26b2-4c9c-b7c7-ed6098130665",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need to verify a bank account on a new pension application",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e29385c1-be2e-4dd6-98ed-f5cf999a7421",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do verification for linked account"
+  }, {
+    "id" : "d5e92739-4701-411d-ae4e-e5fc3618421c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you need to verify a linked bank account for a pension account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "738b39a9-7191-478b-8036-a6b1d363b63b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does verification code for linking accounts include two letters and six numbers ot only the numbers",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d713185e-bd71-4fc1-b36c-55eaf6e9db23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "for account 111111111 it was activated today a client with an existing bt panorama account do they need to follow the 1 cent verification process",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "641410a3-2964-4006-9f03-71d10443b335",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "giw ti verify the link account I just added",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "2e528dfc-9662-48d6-8d1e-046153417590",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good afternoon i have tried several times to verify my bank account and each time i log in the verfication number from the 1c deposit it does not recognise it please help"
+  }, {
+    "id" : "2b510165-9a4d-481d-b52a-07795e87f877",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have opened the account but still need to verify when we try to verify its telling us the info is incorrect"
+  }, {
+    "id" : "42b72ae2-affb-4190-a625-16dbb7d8fcb2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello could you please advise how my client can have their linked bank account verified"
+  }, {
+    "id" : "84e2d67a-7cb0-434c-91e9-8c07a6902040",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i need to verify a linked bank account for a client 's smsf bt panorama investment account 111111111 could you please tell me what",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d068c6c8-d3b8-41f0-8508-495603ca9aff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - can you please tell me where the verification code sent to we are trying to confirm linked account bob",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ad21a0e3-4f2d-48c2-aad0-0aa8ba505191",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am new trying to verify account s",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "40407580-b7c5-4039-8155-65af2020c767",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to verify my account but can not find the link to do so"
+  }, {
+    "id" : "dd46ffdf-3381-4492-8450-d94e7ada6ae8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have changed my account and not sure whether it has bob verfied or not getting a message to verify but asks me to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d26c42a1-7f29-4265-8c79-e6e721eb4330",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have received my verification code to complete the linked account process but can find nowhere to enter that code it was there yesterday"
+  }, {
+    "id" : "51e9aebb-70a1-45ab-ab1b-8deabf082ff9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to verify an account but i do not seem to have a registered mobile number - how do i register my mobile",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "32e6aaf6-4cd6-4806-91a9-90aca79f685f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to verify my account so that the initial 1.11 $ can be deposited into my account i cannot find how to verify"
+  }, {
+    "id" : "e2a22063-0142-4d7a-bac2-362416d9ea58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi last week to varify the account 1cent was to be transfered this has not happened can you look into this please",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "f8d31362-4b59-4401-aea0-dc79b7849ae8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i am trying to verify my account but when i put the verification code in it says it can not verify",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "347bd3c4-46ec-4a5b-95ab-f756e20e9b41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i need a verification code please",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "a0172009-5e9b-4d09-a093-88b4c2fffcc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there just wonderinghow to verify a bank account for a bt panorama pension"
+  }, {
+    "id" : "c9c8c463-bbd2-4261-9fd2-6efeda9a1a97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi was wondering if my link account is now certify i have put in the code",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c1437f05-ec7c-45cf-9e4e-cab8721a9dca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can a client verify their bank account"
+  }, {
+    "id" : "3e12bf0f-c9a5-4df3-8524-0836b4df560a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i complete my linked bank account verification"
+  }, {
+    "id" : "4fecd59c-b338-4ef4-ad20-c8b03202bcb3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i complete the linked bank account verification process? please."
+  }, {
+    "id" : "e63ca324-41dd-4c19-89a3-365f9a2a6c62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i verify a linked account"
+  }, {
+    "id" : "73f9db0c-9498-4625-90ec-05585e69ce5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get client to verify bank account for a new panorama account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a55b26dc-fc1d-466a-8020-42ed53c97e5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get verification code",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "46b5be90-7386-40ea-b08c-5953ba980609",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i know if my linking account is properly verified?"
+  }, {
+    "id" : "68f25f5a-c965-4ae4-84e4-d1a130cdbb93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i request a verification code",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "833a0448-33ab-4e47-a32c-44817b13bffc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify a bank account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "dd974d2a-c8e2-453b-ab4e-8ab455da604c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i verify a link bank account",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "5ed6447a-0246-44f1-a0ea-5af358e5b048",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i verify a linked bank account",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "e4c15ca8-d406-462b-9d10-2bf8acb130c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify a linked bank accout"
+  }, {
+    "id" : "ffab4f49-2c26-43a3-92bb-ccb74b4b87d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify a new account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "591c9a9f-b9ec-42ab-90f7-964b0ab7b76d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify a pre-linked bank account"
+  }, {
+    "id" : "03dce9e7-4c72-43f6-9aec-c213459beb25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "39f1749c-7a00-424b-ab58-4325560efb0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify account to link accounts",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "6b134b5f-2aa4-4a2a-b527-3216989a9ff4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify linked account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "63b97e02-b7a1-4f1f-b742-f2940217ae8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify my account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a23a2b6a-aa2c-420a-bb82-9dc4c33b5f01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify my account a token deposit has been made in my account with a bt number what do i do with it",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d4e58872-a946-4762-a63e-8ec8439bfe50",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i verify my linked account",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "93cb451c-d214-4281-8019-404f0285270b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify the account with the code"
+  }, {
+    "id" : "93350126-77c8-461a-83ff-736ac82b651a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do is end a new 1c deposit to verify linked accounts",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ee6b58c0-d202-4c3b-a4df-107f0f0b37f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do we verify a linked bank account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "94083eb1-e370-490d-9092-707007cb0f4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you resend a verification code to link a bank account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "4f41ac76-c88b-468e-bd57-3150acd56455",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you verify a linked bank account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "cda1d0e1-17d3-461c-9fcd-dbfd524beab5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does a client verify a bank account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "642f3d29-0f41-43b1-b32d-ac8339a05ed2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does a new client verify their linked bank account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "be42ceb3-51fb-40d4-8e54-6ea27293b8da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does client verify a bank account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1fadd3bb-e739-4727-8963-8d2d4d6a6d87",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how does the investor verify the account",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "e1183f27-f36f-46f5-99c5-1f685255e009",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long for verification code to come through"
+  }, {
+    "id" : "4fc30b73-1792-42cd-8e7e-65a53ab22389",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how should I go about linking my accounts and verifying?"
+  }, {
+    "id" : "bac3be39-38b7-4ede-91be-e212f9e55aa6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to find out if linked account verified",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6c8d66d2-6dad-4ab4-b04e-c75aa4dd1764",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to get a verification code",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "953e9d96-32a1-40d4-a83f-b2a1960b3747",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to get the 1 cent cod",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "fe3eab51-ce84-44c3-8e86-afca9e771ae0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to get the cent cod",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "bdd67503-d4d3-480c-8156-881c94fcbfaf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to request 1 cent deposit",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ba0f8a01-ce22-472b-9241-7d049bc30f47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to see if an account is verified",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b13de153-82f1-4d6f-8a15-0ad535c4c2dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to verify a linked account",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "1a903afd-125d-409f-bbc8-312e581a714a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to verify account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "62c03e85-3ab9-4324-8584-fcf58031cd9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to verify bank account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "f029cfa5-f8b5-40f1-ac8c-b42f646392da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to verify link bank account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "47eb29e7-2079-4a60-a614-91e196267238",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to verify linked account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "428c30ed-09f2-4190-9a02-b0aea515983f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to verify linked bank account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "a11575ce-4b5d-4893-9e19-a1873f82ef82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to verify linked bank accounts"
+  }, {
+    "id" : "cda53a79-48ea-47de-af55-8471724fb2cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to verifying a bank acocunt"
+  }, {
+    "id" : "4f03fabe-7b50-40b1-9ea8-4ce5384d497f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i added a linked account on sunday 11 feb and am still waiting for an amount to go into the account so that i can verify it is there an issue cheers bob"
+  }, {
+    "id" : "3103c3dc-a7ef-4f74-bfe2-1ef0acba5d86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i am attempting to verify a linked account using the code from the 1c deposit description i am not including the bt i have made",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "927aa5ca-28ff-4f22-b062-ab49ebb6c391",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for the bsb where a withdrawal will go is that mty westpac account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2188461f-df44-4924-abbd-ff8eff1e1fb4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i am trying to get a new code to verify my linked account but there is no where to ask for ithow van i get",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "a3a79792-797a-485e-9da5-3051dc8bbc6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to get a verification code"
+  }, {
+    "id" : "0ddf03c9-e728-4a07-9d27-ae16cadaaf61",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to get a verify code",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "78b832cd-5633-43fb-8c2b-a56646082784",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to link two accounts to panorama the 1 cents are in my bank and i can see the verification code how do"
+  }, {
+    "id" : "652e5c87-9c00-4fb8-9a8e-fbe7589d4372",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to verify 1 linked accounts but can not see where to do that",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "789d8102-d6bd-472c-a70b-9d8b4332a7e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to verify a new linked account the account details are up but no button to do the vericicationjm",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b75023e5-63b3-4945-900d-94fd32370bd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to verify my account however it keeps stating it is not matching",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "39a7a6ff-bf14-4f08-8e3e-cbde3c1f4e5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to verify my linked account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "afb96055-7678-47e4-9fb0-fbd0acf6fd21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i bob a i cent deposit sent to a bank account for verification reasons",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2cff33e0-a37d-4203-ba3e-8fecf5609e25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have an account verification code but do not know where to key it",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "46558c8f-190e-4ba0-9a5a-db592cc1f5e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i have asked to be paid 1111 $ today - once of payment for today 11 / 11 how come it is not in the",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "dbb38793-06a3-4182-bda1-0fdf99f2dad3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have clicked the verify account button and cannot see the 1.11c appearing in the linked account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "332a123a-fa6e-4d9a-9bdd-82634d08dd26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have done all that but getting red alert that account is unverified",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1e3f82f0-200d-4ea2-9851-528120a2c7a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have found the page where do i input the linked account verification number i was sent",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "fa9e563e-fe27-4a5f-9b4b-c3aea9a39022",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have put in my bank reference number and online it wont accept the code"
+  }, {
+    "id" : "ec9051b7-e0ec-41a0-bf69-6dec050367a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have received 1.11 into my account that i want to link now what do i do",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bedcb4ad-648c-4fb5-953c-df2f99ff7431",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i havent received a verification number to set up linked account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "23926370-fbf2-4a29-b284-af55d17d7916",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to obtain a verification code1 so as to verify an account to link to my panorama account can you assist",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "99db9739-d15f-4bef-bc22-f949738f610d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to put in verification code where do i go",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a505a92c-f21a-4692-acc5-4bd0f5c7f4d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to verfity a new bank account but where is that page",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "0706bfde-20e9-4a55-87f4-ecb800383778",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to verify linked account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "2b8a8c5b-d377-40cd-9dc3-539bd3679deb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to verify my account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c778eb08-24d3-462d-98d4-58495c7511d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to verify my account can you send me a verification code",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "6bec8f1f-5be4-4c06-83dc-738941241f8e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to verify my bank account i have the code i need help to find where to put the code"
+  }, {
+    "id" : "e9ff0fb0-053d-4e03-807a-54f06352b83f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to verify my linked account"
+  }, {
+    "id" : "9921e619-2d15-4aec-821b-2504cd01a700",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to request for the cent code",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "36416b23-c16c-4f68-aa51-e633e89a17a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to verify a linked account cannot find verification to select when i enter my account"
+  }, {
+    "id" : "b6e2245e-7598-401b-a386-5f31fdda396e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to verify my link bank account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "e9bb237a-ad0d-4e6c-8b6a-153c5d77d166",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to verify my linked bank account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "4aafba07-06e8-46a8-a1f3-c6121d8290d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i was told to go to linked accounts / accounts and billers to request a code to verify an account ive gone to linked accounts",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "0bbc3e4b-ae18-4657-92dd-98cbc3d25da9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if a client already has an bt panorama account do you need to verify id again",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2c6ca402-f4e6-4394-a707-4a51bf946683",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im trying to verify my account with the 1.11 deposit that has shown up on my statement but there is no section to enter the",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f801a235-bbaf-4733-88ed-7d609d9babaa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is a 1 cent deposit sent to new linked accounts",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "c23dfc0d-d5a3-41a0-874e-d3412143fbf8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is the accounts linked on your end now",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "115576f4-1c2f-48ea-aaa1-9f075f69d125",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it seems one of my clients is yet to verify their linked bank account so how can i help them to do this",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "e573dcdc-6e82-42cd-87f4-6ebb1922066e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "it tells me I need a 1 cent code, how do I get it?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "507e675c-1473-4cab-a49d-77c60b5f0d8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "it tells me I need to verify my account i likned. how od i do",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "7edf5c9f-3572-416e-83c4-e615d4aab997",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "learn how to verify linked account"
+  }, {
+    "id" : "3b0a5e69-47ad-4bb0-9437-ec87c8ac8a08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "link account 1c code"
+  }, {
+    "id" : "c12251b8-32b1-4257-ad3a-32898282d29b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "linked account 1c deposit expired",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "d1805424-6865-4774-8ce6-7eb8cd522ff1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "linked account sms verification",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "34c56f3a-54a1-4d1a-9a1c-cb55f3982069",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "linked bank account is showing as unverified",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "92e397eb-183b-484c-b970-69fe1b74caea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "linked bank account verification",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ec12179f-163e-4b99-8883-373b5c02ebb7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "linked bank account verification process"
+  }, {
+    "id" : "a3502c3c-bdaf-41d0-807d-8895d98cddb1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "linked bank account verifying"
+  }, {
+    "id" : "2936ea20-ab83-4e67-9549-2c183e91bd7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my financial advisor says i need to verify my account but i cant see how or where to do this",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "670addb6-7344-4ccc-a09d-af056eea3fbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my linked account is displaying as unverified i do not use online banking with this bank how can i verify my linked account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "6014a7a4-2c2f-473f-9b17-16a80f35bf25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need a verification code",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "adb83aa7-c311-4379-b83b-840b6fb5fb99",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "need help to verify linked bank account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "9c3d70a7-8f30-473c-97e0-932b7c61b7bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "need help with linked bank account verification",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "c4b50bbd-c580-4ae6-bc8c-f1fab5b79582",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to check if the 1 cent was deposited with the code to verify a / c",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "08c15c91-71bc-4d6a-9a42-e21402dc3705",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to verify account not sure where to find this function",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "26e48606-ea35-47aa-a8a3-dbd1dcadc189",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need verification code for linked account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "228e0970-9d21-4b43-aba9-897f6631db65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "one cent code",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "0019f6d5-5cc9-49ca-b61b-694628aa94b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please send a five-code to link my macquarie account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ee53f7e1-c0bf-4ccb-80b5-95ec1a656a60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please show me how to verify a linked account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a5f6015d-2202-46b6-8dd8-2e49cc6525a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please show me how to verify linked account"
+  }, {
+    "id" : "e4081062-3874-46d5-9b2e-4c0722b496d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pre linked account verification",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "f9199b50-17f8-4b8b-8971-2febce70ba14",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "procedures to verify linked bank account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "36feee5e-1a38-4023-ab9c-1068a04ff16d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "re linked account verification process"
+  }, {
+    "id" : "4832a90b-f300-41d3-a49e-6efe7a2d630e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "register mobile number",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "070ca938-b877-41d2-b8e1-e1319e63b47e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request new verification code to link accounts",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d6148108-96e8-4beb-811f-2e755bb7d54f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "rocedure for linked bank account verification"
+  }, {
+    "id" : "080d09ca-f858-4f9b-8134-633b9a62c8be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "says to use verification code from transactiojn to account but no transaction",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f5155573-0418-43d9-8426-b5297b339b1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "steps to verify linked bank account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "4e437a1b-6bc9-4b86-b9f7-6aca0800f7ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me more about verification for linked bank accounts"
+  }, {
+    "id" : "269f5bc8-2886-4318-ba04-c592756afdf0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the bank details show unverified can you re - send to her the details she needs to be able to do this",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a5447fea-e8a0-4f89-8357-900d09f4a4f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to verify a new linked account where do i find the code"
+  }, {
+    "id" : "4d2ec520-0ea7-46f4-aa5b-e9e89167f476",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to verify linked bank accountcode error",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d5f43cd9-c56a-4cfb-927f-e3436740db4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unverified bank account",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "6771ea48-6f76-4e6b-b869-93c7fa630cad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unverified linked account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "09a17577-5be6-4dc3-b416-3e927126d7e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification account"
+  }, {
+    "id" : "31cdc1ae-7bd0-49d2-bed4-6da577db78a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "verification code",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "4d5295b7-c02d-4aa8-903b-5f4e80e329cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification code for linked bank account has expired",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "32d8db1c-9467-4784-b43f-2d6c5b846100",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification details",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "85b2dcd0-a43a-42c4-b2d5-0bbaacf1730b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification of bank account"
+  }, {
+    "id" : "3e06b400-ed7c-4d6c-afb8-4fba9232168f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "verification of linked bank account"
+  }, {
+    "id" : "81bcc0ab-ab70-4f53-b02a-c3c0e58f202a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification process",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b462e392-1906-445f-9842-3c3e4cef82c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification to update linked bank account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "37e4ba9d-0585-48e8-bffb-1bfc96fc357f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "ce0447ed-282f-4318-b041-3d0ae7321667",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify a linked account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "92c51828-3e5b-4481-a07c-d30565f98fdd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify abnk account flyer",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "f29012bf-227f-4c2e-ad83-bd20380287b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "97307642-fa33-4565-902e-49190b4e43cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "verify account linked"
+  }, {
+    "id" : "fd215985-d509-4fbd-84e4-33069719a923",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify accounts",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f1e71656-13a6-4531-a73a-7bb5595e9304",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify an account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0631664b-f603-4fc4-97ce-6f3c48bab2e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify an account with 1.11c deposit",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4be55014-cffd-4290-b836-0b7e30e30ead",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify bank",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f662c55e-9925-4fca-af2d-6ab188d6779f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify bank account not working",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1c37b0f7-3507-4f3f-a414-cba291630b9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify bank account pdf guide",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e8d16123-a822-4659-abb2-84279785ff1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify cash account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bc0e71c8-1ac5-49be-8330-24ce99b62d7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify id",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2a4d163f-8a5d-40c6-8dcf-3ba13fd29e61",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked accouint",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2f08f948-4856-4cfa-bc8e-10599048954f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked account query",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5ed130cd-7eac-446a-b9c1-45ac19298794",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked account to make a deposit",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8e4c1fe0-9310-409f-ac17-60560c851c1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked bank account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "53cd0054-e451-4e4d-b677-854260a8bf07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked bank details",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "880775f5-b4e2-4401-8b08-83b084ab111b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify my bank account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "bfade5a2-2f45-48f2-9b87-7213c6a2849f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify recent investment account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "33744b64-fb44-4df3-9a6b-66f7d366a657",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifyinbank accounts",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e7806a6e-c2ea-4396-b7b7-e6a0f095c5ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying a customer 's account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "0646a8b4-e71e-40d8-8bbb-15206112bde1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c04d9a3b-89dc-4d37-a125-1d2faf973fbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying an account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "88c90c90-a184-467a-919a-0b1cf48fbd42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying bank accounts",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c24a730e-8fb4-485e-b11f-90b8b63d06b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying linked account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f32dcb12-e1fc-4747-98bc-1fe9a37d80ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "verifying my linked account"
+  }, {
+    "id" : "6a0f91c3-90ae-4a5f-b1a7-0a4913a01083",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we have not received out verification codes to complete the linked account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "71878b24-8474-4d2a-baa4-79bf25f1d245",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "we set up a link to verify an aaccount but apparently the time for entering the verification code has expired our accountant told us to",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "3557d87e-3969-4515-90a1-82a81b04883c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what do i need in order to verify my linked account"
+  }, {
+    "id" : "ff495a5a-2c3e-48b6-bca4-9671eea4def5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the bank details show unverified can you re - send to her the details she needs to be able to do this",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "78754306-927b-4ee4-8ac7-bc2a5bdfb290",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to verify a new linked account where do i find the code"
+  }, {
+    "id" : "0be2e27b-603f-48e7-b6b2-d2243ab59208",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to verify linked bank accountcode error",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "be7ce38e-186c-4039-8eba-ff50d5dcd672",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unverified bank account",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "50202950-80c4-42fc-9fab-9f8931070d20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unverified linked account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ae622b83-d30c-4a59-8bae-a348b5149a29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification account"
+  }, {
+    "id" : "8fc17bcb-83b7-4fcf-b5f5-fefc6d1c09f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "verification code",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "93379100-f7cb-4f81-9082-2e488beaa4c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification code for linked bank account has expired",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8f5b67ce-16de-4565-bd02-e2a909ce749f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification details",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "078c5028-2ed4-41f4-9cb4-0e645438272c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification of bank account"
+  }, {
+    "id" : "88941887-9211-46b2-bd81-186c9701afc0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "verification of linked bank account"
+  }, {
+    "id" : "c5667c3b-a1e1-4b96-bed5-dc3387c261f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification process",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0a4bc409-e317-4a98-8105-da8137123050",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification to update linked bank account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "94e580d0-993f-4257-81a4-930292f7881a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "0631d0d3-967c-4efb-b7d6-9291a7f29ec5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify a linked account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "431818da-d118-471b-a522-c384b843e5e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify abnk account flyer",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "0fee540a-6cd7-477a-abaf-c36e4e61ac12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "6b432834-1029-4383-a74d-6b0afc193f33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "verify account linked"
+  }, {
+    "id" : "73c264e2-4f47-40d9-a3b8-1eb912dad4bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify accounts",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "47046280-5675-4592-bb9a-8bb13a1a69ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify an account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "adf7541d-1e07-4176-8988-1ddda8f8fdf8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify an account with 1.11c deposit",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9d6da4a2-3bd2-485e-969a-db1c385e1869",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify bank",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1a19f741-922a-422a-8816-e0f6dcaee035",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify bank account not working",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "eeb29e2e-7eb0-4c80-85df-b4c5851289f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify bank account pdf guide",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d68453d6-337e-4758-b0f5-8f77ac66afac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify cash account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "48ce0556-715a-44c6-b268-120a4453f9d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify id",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c27f85ab-5c65-4004-8c8e-cdeec02bcfdb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked accouint",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "29abe3b5-b033-4b1d-b862-59bedc595929",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked account query",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b4f342c7-e4b3-458e-8ea8-d7500350940a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked account to make a deposit",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "34a3cfed-2251-44ff-a9a3-c73244243da0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked bank account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "9e914e2d-d476-4e0d-b0ea-81f8ec7edbe1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked bank details",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "09b49338-b96f-461a-b4c0-48ffe9417768",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify my bank account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b7763e52-24de-4aa2-a4cb-6c1dcca528d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify recent investment account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "90b0eeb4-e442-45cf-93e7-a52157535196",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifyinbank accounts",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b8395ad6-0ad6-4226-9031-5fbeb5137652",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying a customer 's account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "02aa18ad-3e3b-4f39-8bd4-a948fc8855e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3eee3d53-bb87-45cb-8888-b315a95e6697",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying an account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "58460478-2244-499e-b8eb-54d7a9a019ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying bank accounts",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "f16c07ac-6d51-4b8c-a63d-2197d86d1c71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying linked account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3884a00d-4a79-443a-b929-aa408e08dd30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "verifying my linked account"
+  }, {
+    "id" : "34a0c70a-9bd7-480f-aee0-26f8468e8035",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we have not received out verification codes to complete the linked account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3cb4dbe1-ea5b-4f2a-8fc9-17a2067b0e1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "we set up a link to verify an aaccount but apparently the time for entering the verification code has expired our accountant told us to",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "f4f844a0-12d5-4cf8-b382-2e0ed2a2524d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what do i need in order to verify my linked account"
+  }, {
+    "id" : "63d53db5-f649-4488-ab1a-d010465b96b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what does unverified bank account mean",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "13fb6999-08d7-4fd4-b8b4-4aa8b264ac54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what if the verification has expired",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e99fe6c2-f96d-418b-9887-3c2471be7d86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the procedure of verifying linked bank account"
+  }, {
+    "id" : "eb467ea3-1ee5-456c-a048-bb91d4133cbf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what to do to verify the account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "c3ea5323-99ed-47ee-9c13-c3737e27ee63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what to do to verify the account I linked",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "efb22ed6-62fa-4881-8921-c8e946e33761",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find a demo video to help a client verify a linked bank account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f16489c6-6fee-46f9-9843-648c7d9edb71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the verification code",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ba476f2e-d7e9-4868-83d6-614459260863",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I go to verify my account linked?"
+  }, {
+    "id" : "1e136014-b14b-4e58-91fb-d96cc4f57f18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i enter verification code",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "80e55ff7-f3ba-411f-9171-589c0507e2de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find - verify my ccount",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c8fc9ab4-4750-4cd8-a03d-3301291a4ffd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the linked account i need to verify",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7745dcbe-5a69-4c39-ad93-3ca4a91172f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find verify linked account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "17e20775-fa67-499e-bed4-43a2d8f19b55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i get the code to verify",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5c0a9e89-2b75-4894-9dc1-cbab83742931",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i go to get the verification code to verify new account please",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "00e27acf-d73c-4759-8106-dd5224b79a3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i go to input verification code for linked accoun",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "08d95b98-f67a-4e81-a844-f3734070abf9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i go to verify my account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b2994b9e-8d5f-4831-9654-fe38950914ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i verify account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "abd31762-5001-44bd-8953-1939529f72b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i verify my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "56be5a48-7804-4573-acfb-1791656fd6ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the 1 went deposit to gain the code",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "70c91c15-bbb8-44ee-85b8-4ddedbd23a7a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the verification code sent",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2bb051b6-395f-4073-94e2-9119bd4e3de6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the verify account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5f41e4c4-662a-434c-b417-65128a0abdc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is verify account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "3c49c2c4-ee88-4c46-856d-0a6770b98641",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to use verification number",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "5cf84b12-2854-4f5e-931c-05b01f6c5ddc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where to verify linked bank account"
+  }, {
+    "id" : "25841697-98f6-48f3-abcc-b035c479dba0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wht is the cert code for the verif",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "82ba0239-eaef-41e6-baad-b9b803d4df75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yes it 's telling me to verify with code in transaction but there is no transaction",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "05976694-c492-47ba-a88c-4ec2e3ebdc12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "you just advised you will show be how to verify a links account and then nothing more from you",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  } ]
+} ]

@@ -1,20 +1,35 @@
 {
-  "name" : "bt_comms_method",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Having your communications method set to 'electronic' is the quickest way to receive any correspondence from us. If you would like to receive correspondence from us via mail, please contact us for an a consultant to amend your preference."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Having your communications method set to 'electronic' is the quickest way to receive any correspondence from us. If you would like to receive correspondence from us via mail, please contact us for an a consultant to amend your preference."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "LIVE_CHAT",
+          "payload": {
+            "parameters": [
+              {
+                "name": "campaignId",
+                "value": "3392686470"
+              },
+              {
+                "name": "engagementId",
+                "value": "3392718870"
+              }
+            ]
+          },
+          "label": "Chat with consultant"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "POSTBACK",
-        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-        "label" : "Chat with consultant"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_comms_method"
 }

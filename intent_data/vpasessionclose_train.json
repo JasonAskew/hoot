@@ -1,0 +1,963 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "vpasessionclose_train",
+  "intent_name" : "VpaSessionClose",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "b0f965a4-f7bd-4cc0-98ab-6f87a95fe85d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Adios"
+  }, {
+    "id" : "0acecfee-5d1f-4f9b-b861-da3789e19a4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Bye Felicia"
+  }, {
+    "id" : "94140378-f8df-4940-87a2-c24f103685be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "End"
+  }, {
+    "id" : "905469e2-bcc8-42d4-babd-c1ff847e1804",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "End session"
+  }, {
+    "id" : "6e51bd9f-477c-4283-9ebf-455c296eb68b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "GOODBYE -",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "fefa7772-5655-42c9-9d26-670d5af03138",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Goodnight"
+  }, {
+    "id" : "4e919f6d-0c02-4bde-9dba-069fd184d038",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hasta la vista"
+  }, {
+    "id" : "ccab72c9-96ac-45df-8af3-89dacbc75756",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Have a bless day"
+  }, {
+    "id" : "e328a256-af9d-4a45-a023-ed8eea6d6cf2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Have nice day"
+  }, {
+    "id" : "5f3a6dca-bcfe-4f98-9d27-92c5383377de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I log out of bt panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "fc465bab-ac45-4143-a94a-aaa48ac8b783",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am done"
+  }, {
+    "id" : "ed41aab8-9dc1-4ad9-bb88-fbe7825ed5a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am tired, may I ask more questions tomorrow?"
+  }, {
+    "id" : "73883bf2-ddc0-4229-bfc5-41f53f63aa6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Adios"
+  }, {
+    "id" : "98e1bfa5-4f54-4caa-a233-70f866553d18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Bye Felicia"
+  }, {
+    "id" : "f1d2f156-eba3-4c18-90c0-16bfe0a9cf60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "End"
+  }, {
+    "id" : "2f9f2670-bfe9-4a23-8e55-420ee66c7c75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "End session"
+  }, {
+    "id" : "cced7dfa-74da-495a-b34d-7db3e180fcb0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "GOODBYE -",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8f9bd921-a456-4639-b22f-8c7468351683",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Goodnight"
+  }, {
+    "id" : "420834ba-b165-4331-9bf9-419dddc10784",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hasta la vista"
+  }, {
+    "id" : "f6b5e9af-cbbb-4669-b2b5-e3927b52e822",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Have a bless day"
+  }, {
+    "id" : "2838e84d-a9e8-41e4-a850-5d18c865f0a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Have nice day"
+  }, {
+    "id" : "2e1c7eb4-6372-412e-9925-3c9349ded1c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I log out of bt panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a35c5a28-8802-40b9-8d58-b8d2b46b1ab6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am done"
+  }, {
+    "id" : "64349f1d-c438-4bcd-973e-42a1e21a9ec5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am tired, may I ask more questions tomorrow?"
+  }, {
+    "id" : "93df0960-f77d-4fb8-8a1e-17a5bcb46587",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I just want to close my bank page"
+  }, {
+    "id" : "eb34da54-e582-40b3-8c87-76087eabf574",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Log out ????",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f59f407c-3d34-4f41-9b5e-cc94c9e3504e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Never mind, goodnight"
+  }, {
+    "id" : "e6c7f8a7-0c4b-45f4-b375-bf6566a4811b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "No more messages bye"
+  }, {
+    "id" : "d72962fe-e2a3-4247-a208-d87e366a516a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Please close;my page of inf and bank numbers"
+  }, {
+    "id" : "ab224072-e29e-4f6a-9202-799b39387f2a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Sign off"
+  }, {
+    "id" : "f2bf7b1c-2a35-4fae-a787-371f3e468aaa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Terminate session"
+  }, {
+    "id" : "2c96ff05-14fe-45ce-b12a-d46a0e1bd71e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "That all have for today"
+  }, {
+    "id" : "402831d0-46ae-43ce-a18f-8e7cb9e77856",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "We done for tonight"
+  }, {
+    "id" : "7f789982-e35c-460d-acf8-0deadc447562",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "all done",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "4096969f-055e-4739-b5bf-7a551bdf55ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob that 's all",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "72931232-fcfc-496a-bb0b-82cb670266af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "by",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8f0edf91-0a5c-47ba-9d31-49c9292c9147",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bye",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "66514d4a-857f-471b-be32-b5a2241c8b52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not close the chat box",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a1ffb594-4ead-473c-976a-9664067893ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not see a log off icon on investments page",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "73052859-355b-4b08-945b-1ff6f7738a9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot find log off button - where is it",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "131ccd02-a93b-4667-b082-15dda954896c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob that 's all",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "06952f1a-2e11-4e13-9b2b-41c2b6d99598",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "by",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ce9b9d61-3d78-4de3-8df5-0f3a012e3f9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bye",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "271c4b45-1bb9-4b85-adde-883d72d37e6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not close the chat box",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "086cc0e7-81e9-4c8c-9a99-765cd4356099",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not see a log off icon on investments page",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "36d0befb-c8a3-4b0e-87d2-421283dd0e8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot find log off button - where is it",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b603bc45-634c-4c63-ac25-d240ccbf2468",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob that 's all",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c9fd1ab4-1f45-49d7-85c3-0c22fff3be1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "by",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "89b7f0bd-cbfb-4abb-bb60-54940f3c9f59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bye",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "3b24c4e9-8eea-4044-8f96-b1dcd78cbb50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not close the chat box",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "bc87d8e2-9803-4ba2-907d-ee7e1523483b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not see a log off icon on investments page",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d9a77276-faed-49db-b128-fad09bef3494",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot find log off button - where is it",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "276a0fbd-148b-4858-b7ec-2948fecf9ea9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close chat",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "82dd2db7-37b4-4f33-b307-f070079fac0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close chat box",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a32704cb-3fef-457c-9bb9-e5ccce0b3193",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close chat window",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "9a8d3f66-8b53-4815-94a5-7b4aa69bdeaa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close this screen please",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f0ea48e4-85e5-4ea5-8a49-3401612a766c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "end",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "15b77ac4-4835-4fce-8459-a2a7064f90c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "end chat",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5cdc96ef-4033-401d-bdee-718d00150cbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "end conversation",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "91b5f0c0-00bc-4c3e-b68d-6bd159e98d23",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "end it all",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "b12f79b7-ec78-4f0d-b065-b9e638773817",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "end of chat bye",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "eb37b687-ef98-4bab-a843-699fe31b56cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "end this conversation",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e1b5232e-e84b-41ba-abd3-afa4d2dc74c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "finish chat",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "64c2b02b-2462-45cb-b9dc-01b30217c065",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "finished chat",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ce27ab16-3820-46f2-bb93-3b6c47514019",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "go awaay",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e80eced1-3fd3-4801-a7c3-580cd1445b9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good bye",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ed0f789a-fe75-4321-ae4f-54107af053b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning can you tell me how to log out",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5773f0c4-7fea-4512-a1d5-7d6e8f52daec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good night‚Ä¶‚Ä¶",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a81109a9-be5f-4709-b430-425553e4079d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "goodbye",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2c3e98ba-b7d8-44ee-9771-25ed8d50d176",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "goodbye Kasisto please sign me off"
+  }, {
+    "id" : "e75cec3d-331a-4d19-92f1-384ea2d18942",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "goodbye MyKAI please sign me off"
+  }, {
+    "id" : "fb2e05d6-8c5d-4419-8ce2-2477913d8a6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have a bobd day",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d2b30ad3-8276-40e0-9bbc-9e89626d5936",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have a nice day",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "71cbc1d0-c819-42b8-9668-1466d61eb6ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i leave this page",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "e43f3556-f4e3-471e-a3ef-0df3b0a24516",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out of bt panorama",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "7701025c-5996-4205-83e7-09ddd15a87df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out of panorama",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "2a6949c2-ff07-4c4f-9a1a-2abfa46c70f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log out please",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5bb44d6d-8a1e-42f6-b92c-0c4cae9b5aa1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you log off",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "276b985e-be2f-433d-b291-7dc85d78301d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you log out from bt panorama",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "cd7d91ad-b76f-407d-8098-5ef4fe9db27e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you logoff",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8591a94e-0fed-40ff-aea2-7e36acad5384",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does one log out from the screen",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d3fd7532-2a04-4454-985f-54fc8ff2ad33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to log off",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "4ded1889-980e-4e60-a07b-4c48ddffcd2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i am going to end it all today",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "bbbfecf9-1d32-4de0-9709-a825d925bdb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am on the page how do i turn it off",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "195178a0-a022-4ff1-ab9d-705a761f4cc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i done need help at the moment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ebd3e95c-1c1d-48b9-bac4-f21d1215e05d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i have logged into my bt panorama account and now i want to log out but i can not see the log out icon",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "bbc4f8c2-f60e-42cc-8981-1dc17f580b54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i meant close this virtual conversation for now",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3f68e033-7a7d-4dd8-8529-3be03cb73610",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to end it all"
+  }, {
+    "id" : "8d05bd83-438e-4396-9718-ad397a6f4678",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i will just do it later thanks",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "1c1621a1-b7ff-40e2-aea0-c109cd03d77c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to log off from this information",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "3fe141e3-4448-4a41-abb2-ac711df4c626",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a log-off button",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "adefa91b-81eb-4761-98ac-407b4d45b263",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it 's ok - found what i am looking for",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "46d62047-f65c-4409-80f4-9af823159211",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "later thanks bye",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e9994198-6c95-4b89-ab3a-b3c09453770d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "leave page",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a50833d2-bf63-4ed4-aff7-3ed24fcc2348",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "logged out",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "6784c868-21c1-4158-a34c-e79dfa3f5b72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "logo ut",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "4e9b1576-0a95-4ab4-9fff-c55ff1c8ac93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "logout",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8589becf-3919-4189-91b2-8dbc4cd9c6f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "logout button",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "2fcf8eb4-ebc9-4f8b-8d85-7883478ae686",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no - that 's it thanks for your help bob have a nice afternoon",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0ede951b-2b91-4310-9b7a-e0228a4cd7ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no thanks again",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "30d6934e-1818-47b0-b587-a866ffbbdbc3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not now thanks",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ef2e99c8-32a5-40f4-8058-58e09f74835f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ok all good we can close our chat",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a868797d-a32c-422f-91a4-96f6b95a1950",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ok close",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5e1d8aba-c6fd-4089-8d67-2d40cab4abd6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ok close this chat",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d087400a-ad0f-42d4-aa36-42d23ba0185b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please close chat",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7fdee1ae-2591-4b6f-809a-a5fec9fe605b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please close this window",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e30b9199-0fb2-4d98-9d45-27483c6b3194",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please now exit this menu",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "5a1de2ab-011c-4a36-a826-4ec06ff3ecfe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "see you later",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4e60a36e-345f-4ea6-a28d-7c6afc8feed7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sign out",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6013fade-d800-4842-aebf-367aae6274cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry i have no questions at the present time",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c56eebb9-a2c9-46a7-8558-db188891fd3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thank you - have a great day",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "bb5d01b4-7aa8-4f47-aff8-0511dc0ddf87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thank you - no further questions or action for now",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3225ea0d-0d98-4d65-b8bf-b9bd3ce50a57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thank you - no that 's all thans",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e5e423a5-0e69-46bf-86b9-7fbca467baf9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thank you Kasisto"
+  }, {
+    "id" : "b18b784b-6a7a-494e-a5d7-855fe9d28b9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thank you MyKAI"
+  }, {
+    "id" : "1d358a0d-8df8-4137-b02f-63315de999e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thank you bye",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "93dc442e-2338-473f-8b69-6b292befab81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thank you goodbye Kasisto"
+  }, {
+    "id" : "845e8ee9-581e-4124-9941-09aa1abeaae3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thank you goodbye MyKAI"
+  }, {
+    "id" : "82903209-3830-44fe-80e5-e459dd50c24d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks all done a",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1651692e-72dc-4fe3-9b80-2b59d53ca60d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks all good bye for now",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "14a9b5d4-dda5-4766-892e-76bf278daf3b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks bye"
+  }, {
+    "id" : "72c26002-25ef-44cb-a493-c92b0c777e01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks bye for now",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d15ece01-15d8-4264-8923-e543da2c2b4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thanks for your help Kasisto"
+  }, {
+    "id" : "095b2194-a366-4c0c-9e01-5b7869cc7513",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thanks for your help MyKAI"
+  }, {
+    "id" : "5c0e8033-d128-4af6-a32e-2e1965551dd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks goodbye",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "0bc301f0-7a27-418d-aa67-00d68a832f1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks that 's all for now"
+  }, {
+    "id" : "df3626aa-5151-4494-96a9-4fa753e59faf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that 's all for now",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "54a83a5e-f462-4159-8b12-1b2b31e69917",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that 's all thanks",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f2e5c7e5-2ea0-4116-b347-1b581f205421",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that 's it have a good day",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c5bd27c6-d0db-49d4-bb81-4149fa04cb67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that 's ok goodbye",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ed4d10a3-84d1-464f-9198-0bb25eb09a0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that is all",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "02143b1b-b118-4ee6-9a31-b28d2fbc33b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that is all thank you",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "75caf8b9-f0a4-4cf3-931a-293847cbbec1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that was all"
+  }, {
+    "id" : "a873e206-d8ef-45b8-bafe-71dcc3d1865f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there appears to be no log out button on panorama",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "2534bd34-a805-4925-b4de-872a9c4fe26c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wait dont go"
+  }, {
+    "id" : "068f8d44-6841-42a9-a914-30a9646e54b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thank you - have a great day",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "25683a45-1de0-4d35-b9da-c490d6991037",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thank you - no further questions or action for now",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "06854d06-36f2-4b00-b34c-e2f910775e9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thank you - no that 's all thans",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3d8f6c4c-f681-46d9-89db-77abb05698bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thank you Kasisto"
+  }, {
+    "id" : "06d3ee67-12ff-414d-9f48-cfc17d56fe20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thank you MyKAI"
+  }, {
+    "id" : "e4ef0c4b-485d-484e-964e-039c9805f036",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thank you bye",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "74de7f47-358c-48fe-89b4-a88e0c0b9f28",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thank you goodbye Kasisto"
+  }, {
+    "id" : "870730f2-dd64-491f-8486-6ecd8dd7843f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thank you goodbye MyKAI"
+  }, {
+    "id" : "5da7da98-df46-4aec-ae94-c5f50c959271",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks all done a",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "517a1dca-735c-455c-84c3-c3971a075564",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks all good bye for now",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "6c56c6f1-8622-43e8-88ab-f9e3419ceb41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks bye"
+  }, {
+    "id" : "61867996-4e17-447e-a1d6-54d5dc3d5a00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks bye for now",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "0638a279-66d5-455c-8a45-be4ac499dfcd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thanks for your help Kasisto"
+  }, {
+    "id" : "91b0aeb5-6aec-4dbb-bd70-f72b3e1bd915",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thanks for your help MyKAI"
+  }, {
+    "id" : "09ac215c-86a9-4353-a2a6-f33be7de78e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks goodbye",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c345d213-80ac-43bf-8f9f-045bd8ce5b0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks that 's all for now"
+  }, {
+    "id" : "41417bb6-d452-4eee-9b62-aae308eb44b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that 's all for now",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "53ff3868-41f5-4d50-af8f-8116e433d7e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that 's all thanks",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1c613a56-bd9e-46e8-8f34-f5040e6dc504",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that 's it have a good day",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "448f109c-fe46-4e9f-8929-eafa0e3ef9f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that 's ok goodbye",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8ed1e18d-1ef1-49fd-a20d-dfaba92ceec7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that is all",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "262393fa-84b5-4e07-8ac7-cd1bc683ea9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that is all thank you",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "30a534ec-051e-4b69-a6e3-0ba10a4993c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that was all"
+  }, {
+    "id" : "5773d310-3b81-43e1-b0b5-9f280d948463",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there appears to be no log out button on panorama",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d5af81d6-1e15-4d67-b361-dbb534bbd585",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wait dont go"
+  }, {
+    "id" : "90972a3d-e13e-4570-9685-885f7eac6e43",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "yes and goodbye Kasisto"
+  }, {
+    "id" : "11ec60fb-b66e-468c-adc6-70c1d94d4b2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "yes and goodbye MyKAI"
+  }, {
+    "id" : "6a0592c4-8ff1-4fa4-96f0-9d12f10ff0a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yes that 's all"
+  }, {
+    "id" : "c7f021b0-f221-41b2-a679-5ee87edf32cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "you too bye",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "65494489-18eb-41f2-8c9d-98cf07ed1a94",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "you too chat soon",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "81724c57-f2c7-4e53-9dff-879fe662dcc4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "you too have a great day",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "5a90fef2-3590-4fc2-8759-43637761a691",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "you too thank again",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b7f3db51-476b-4960-9090-2aa287714eb1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "you've been a great help today"
+  } ]
+} ]

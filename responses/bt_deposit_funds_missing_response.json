@@ -1,36 +1,46 @@
 {
-  "name" : "bt_deposit_funds_missing_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Error: bt_deposit_funds_missing_response"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Error: bt_deposit_funds_missing_response"
+        }
       }
-    } ],
-    "quick_replies" : [ {
-      "type" : "INTENT",
-      "payload" : "👍",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "1"
-        } ]
+    ],
+    "quick_replies": [
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "1",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4d"
       },
-      "label" : "👍"
-    }, {
-      "type" : "INTENT",
-      "payload" : "👎",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "0"
-        } ]
-      },
-      "label" : "👎"
-    } ]
-  }
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "0",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4e"
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_deposit_funds_missing_response"
 }

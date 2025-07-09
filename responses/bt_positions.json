@@ -1,44 +1,57 @@
 {
-  "name" : "bt_positions",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "You are able to view a list of your portfolio holdings in the 'Investments' section on the navigation menu."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "You are able to view a list of your portfolio holdings in the 'Investments' section on the navigation menu."
+        }
       }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For assistance with the balance of your Challenger Annuity, please contact Challenger on 13 35 66."
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For assistance with the balance of your Challenger Annuity, please contact Challenger on 13 35 66."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You are able to view your client's positions in the 'Portfolio views' section on the navigation menu.\n\nTo view a list of clients with specific individual holdings, click on the 'Business' tab followed by 'Client holdings'."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You are able to view your client's positions in the 'Portfolio views' section on the navigation menu.\n\nTo view a list of clients with specific individual holdings, click on the 'Business' tab followed by 'Client holdings'."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_positions"
 }

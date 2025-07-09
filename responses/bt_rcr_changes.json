@@ -1,25 +1,30 @@
 {
-  "name" : "bt_rcr_changes",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "We now require clients to provide consent to BT when they set up or amend an advice fee arrangement, or renew an ongoing fee arrangement."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "We now require clients to provide consent to BT when they set up or amend an advice fee arrangement, or renew an ongoing fee arrangement."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "For information on requesting client consent for an advice fee, select the \u2018Help & Support\u2019 button."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/monitoring-and-reporting/fees/advice-fee-types.html",
+          "label": "Help & Support"
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "For information on requesting client consent for an advice fee, select the ‘Help & Support’ button."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/monitoring-and-reporting/fees/advice-fee-types.html",
-        "label" : "Help & Support"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_rcr_changes"
 }

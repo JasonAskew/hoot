@@ -1,0 +1,1348 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_security_code_test",
+  "intent_name" : "bt_security_code",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "e2108581-4bce-479f-93b9-f966fb713b46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 did not receive code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ec0b4012-1acb-4e88-a427-1d1af607aec7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 factor authentication",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "110ebe25-7b75-4d1a-ad3b-c850f4f82a41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "A Code was entered but I got message code did not match",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8bc8d611-8e69-40b5-bbc2-787ff3d974d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "As previously stated I am unable to receive the SMS for the security code. My number is 1111111111",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "4c743d96-bee4-400c-8db0-30d8627a43ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "First time logging in, stumped at security code prompt, not accepting input",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b9b53575-ebce-4a94-8480-798c821ea707",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I tried to get my user name and password but I couldn‚Äôt receive the security code",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "826d7f6d-6c23-41af-a242-118be5836f78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue, I've tried to enter the security code that was sent to me in a text message but it comes back with an error code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "891a8b8a-a973-4ff4-8ca8-a76f2a11fe53",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I‚Äö√Ñ√¥m trying to retrieve my username and set up a password however the security code (sent to me mobile phone) is not working",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2eb2878f-2db6-4541-8171-cb8059bf7112",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, I've forgotten my user name, but the code being sent to my phone is only 1 digits and not being accepted as a security code. I had the same issue last time",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ed244579-f564-4280-a304-831880d7e392",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, i have requested an SMS with a security code four times and received nothing",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "33505dd9-4358-42fe-8e95-229d91d814d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am Bob and I have provided mai Australian phone number 1111111111 and was expecting an SMS verification code but this has not worked",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "d846f046-ac00-4bfd-99d1-72d4e011c53c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am logging in but I am not receiving a code on my mobile phone",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "8e482f59-0733-4f16-ad6c-436483843edb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am not receiving a new security code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "00fe4155-fe1d-4274-a176-15c92bcc2d9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am not receiving the sms code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "25afaf0a-4f1c-4100-98c9-24dc0924cfa5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am trying to check my details, but when I try and get and authorisation code to my phone it is sending it to an old phone number, despite the fact that my correct phone number is shown in my persona",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8ea84013-b5d9-4baf-b9dc-6366a3a97bd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am unable to log in I request my user name and chose send me text. I have done this 1 times and system will not accept code",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "277a50a8-2120-413c-b8c6-2181bcc6d978",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 did not receive code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2b4bbf8d-23d8-49d2-a4aa-95574d231f0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 factor authentication",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "da4625f5-f22d-4c60-8b93-c38e1128e69e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "A Code was entered but I got message code did not match",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "16d96988-11fd-4b2f-a13f-d7452217f241",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "As previously stated I am unable to receive the SMS for the security code. My number is 1111111111",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a198d948-0c25-40f6-b037-2d3b3fbe213a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "First time logging in, stumped at security code prompt, not accepting input",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3f63d4e1-0b2e-403c-9669-d31b06583d52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I tried to get my user name and password but I couldn‚Äôt receive the security code",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "6eacbe4f-c4db-441d-ba30-67f938cd8532",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue, I've tried to enter the security code that was sent to me in a text message but it comes back with an error code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a74904e0-d40e-412d-9393-ffb0627a262b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I‚Äö√Ñ√¥m trying to retrieve my username and set up a password however the security code (sent to me mobile phone) is not working",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1566e85f-a8b0-4a1b-88ee-065b7d5f6ebb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, I've forgotten my user name, but the code being sent to my phone is only 1 digits and not being accepted as a security code. I had the same issue last time",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "30342274-c2fd-4843-a87b-83d1912b9715",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, i have requested an SMS with a security code four times and received nothing",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "74eb5384-e9ee-4d4e-8861-82aaf80cb907",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am Bob and I have provided mai Australian phone number 1111111111 and was expecting an SMS verification code but this has not worked",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "e5fe4934-7f3e-4e8d-b670-497b39ad8e18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am logging in but I am not receiving a code on my mobile phone",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "3e9ae12b-8212-4177-808e-f8a57e72d786",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am not receiving a new security code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3926f4cb-132a-40c6-88e5-f31b53a84ef1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am not receiving the sms code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "e7139b9c-a731-4bc7-b843-2e17be1a44fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am trying to check my details, but when I try and get and authorisation code to my phone it is sending it to an old phone number, despite the fact that my correct phone number is shown in my persona",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e1891883-b48f-4b28-acdc-085b81bb9553",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am unable to log in I request my user name and chose send me text. I have done this 1 times and system will not accept code",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "324dcf58-cc73-4fb2-9434-192314daa3a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I have changed my mob number but the new number is not being used to send verification codes",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "42ef9400-c883-4da0-b55a-24137824fc82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I have not received sms code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0cf4b5b1-1613-4502-bb54-89073a9966cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I have received two verification codes by SMS to my phn to proceed to establishing a user name to access my super. Neither are accepted by your machine",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7cb00e79-e7a6-4f3c-bc2e-a0068a7ab63f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I know how. I am just not getting the text message with the security number to my mobile 1111 111 111",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "2fec8274-8d08-4819-b99c-2c10d37243da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I still cant receive a text message with the security number to allow me to add a linked account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "d2c2db5b-15df-4021-8032-e452e78e3fd0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I wish to add a new linked account. Message tells me that an SMS security number has been sent to me but i dont receive it. Even trying again and again he text doesnt come through.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "86376173-6258-4306-b58b-91ab6e76db12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I've requested the security code twice and it aint working",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e22653a4-0596-459e-9023-deb68fee1fdc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I‚Äôm waiting on a security code to be sent to my phone to log in and it‚Äôs not happening",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "5ef42033-3070-4e38-90ec-2968b1eb6ae9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I‚Äö√Ñ√¥ve forgotten user name received a code enter it and it says it‚Äö√Ñ√¥s wrong",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "436cd636-6dd9-4406-abb9-0deb3592dafb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Keeps saying wrong security code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f1a6b837-ea24-4b6b-a6f5-ba5441c1b4de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "My SMS verification code is not working",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b5d70ffe-c377-4857-b1dd-cbded59a1c29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "My security code says it doesn't work",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a2b04dc4-bceb-4406-b3b6-9b17be03506a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Need secure number for BT app",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b5ba7ce6-fec6-470c-a2bb-25149bee4c1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "SMS code number not accepted",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "c13e7b1b-5e5d-448a-8ac9-a900b106ffd3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Security code comes up as incorrect",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "11d7e2de-8c81-418d-be97-fd627082d165",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Security code does not match",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3ba605c7-9aa0-4ec9-bce3-18b0c0e05c93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Sms code not registering",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "533063b2-f4e9-4640-a0a0-a6feb823fcbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Sms code not working",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "24782dde-a672-4689-b06b-bca97d249104",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Sorry is the security code same as the SMS code?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "181c2fb1-cb56-449f-9e15-4ad45aa54233",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "The app keeps saying the security code is invalid",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3e79cc25-85fa-4512-8b96-e5b87b5464dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "The code i keep entering it comes up with incorrect code.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "eaaeee4f-6594-4964-992c-89d369db65d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Why I'm enter the security cod and told me wrong number",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "c8fad6fe-877d-41e9-b2a2-deaf4ed4f8ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Why am I not receiving my security code SMS?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a8d3257c-b4cd-4aba-a7c6-4f9922ecec86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Why isn't my code coming to my mobile it is the correct phone number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4bf9b75d-79e8-4206-b317-e53a59c23f69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "activate 1 factor authentication",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f62b8c52-47ed-430b-ba0b-35a723582d88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob has not received sms code so she can register",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f51b46b6-af07-4c24-a747-fb49937827fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not access my online via mobile i am overseas and have an international bob and not my aussie bob security code sent to my",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "24eaabc2-9ec3-4075-99c9-7f2fc5cae358",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please resend code to bob my phone 1111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2784d92a-08ad-4070-8f0b-c7ed811b83f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot receive sms",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e970741b-f11d-495c-b370-0c14277e04b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot receive sms text for code for username",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d83cf6c1-50e4-426b-8692-7db6f5182929",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant log in as security code has gone to my husbands phone",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "f6c14638-3b63-4583-b5d0-62a6dc2d3892",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob has not received sms code so she can register",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f745f899-2fc9-4e98-ac54-2a64d13d8c64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not access my online via mobile i am overseas and have an international bob and not my aussie bob security code sent to my",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c01fed8d-5635-4984-8ca2-761438180939",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please resend code to bob my phone 1111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7062f06c-3420-4d51-9ad1-8e53caf4c3dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot receive sms",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "44327e8f-1071-4b22-9c81-1b88f283b139",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot receive sms text for code for username",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "45785f10-7196-4373-b462-2c9054bc303b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant log in as security code has gone to my husbands phone",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "9acc75e5-a1f1-4ab4-b66e-3d283f8dd684",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob has not received sms code so she can register",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9c2a177c-8a88-46d6-9d6f-0359d76d09f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not access my online via mobile i am overseas and have an international bob and not my aussie bob security code sent to my",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c7fe76e6-522b-46f3-b35d-dd99137aa649",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please resend code to bob my phone 1111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1617259f-27e8-44c0-b22a-2b31e0bdc07e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot receive sms",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6990466d-1b98-464a-9805-bd711a6b0c56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot receive sms text for code for username",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4ba9db80-6545-4286-bcdc-7be0698a7f6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant log in as security code has gone to my husbands phone",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "54993437-ee0c-4407-ad64-cf43cca89dbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "code incorrect",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e8d61274-c23a-4882-91e8-76665e1f3684",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "did not receive security code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c08e03ff-a990-47ee-bd82-e9c6c4cc6972",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need to set up two factor authentication",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "da4447d8-f829-46fd-890a-12096e1c7424",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "get an sms code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f4b1e45e-4510-47d9-82d6-57b4bb556aff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have not received an sms code on my mobile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "11231625-d8ed-45cb-a423-cd9a14d5f68e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have not received code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7c5e8b1f-fd31-4912-9a43-a71e8049e28c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "having issues with adding a new bpay biller it is not sending the text message",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "496f3dad-a20a-4762-89aa-ef65fef6cff4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello my mobile number was entered wrong when setting up my account therefore i cannot receive the sms code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "edab49a3-afa3-4e53-95b9-a3789aacbb7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello the sms code to my mobile does not come through",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3a6cfc9f-0dd4-4e69-a885-f05a532ffec8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help i need a security code i am unable to access my account have requested 1",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f02e7c08-4e48-4339-87e7-d2c205655808",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi forgot username but it is unable to send sms to mobile",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d8365195-8565-4ad9-8be9-85014c1e4a99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am not getting the sms codes sent through to change my personal details",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "237800f5-a80e-4ef9-9f09-4b71f74ab4a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am not receiving a security code to receive user name and password",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "734cd7fa-4d42-4f96-a13b-5cf95863fc9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am not receiving a security sms to log in",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fb2d7301-7e0c-4d96-97fa-886b28a91ef0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am overseas at the moment and not using my australian bob card therefore i cannot receive a security code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cf5415be-4e8a-4cea-88b3-45bb11d57328",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i can not log into my panorama account because i do not have the phone number attached to that account anymore and i would",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "87b5a293-6e69-4965-b7b3-41b033507074",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i forgot username i tried the sms code sent to my phone but it will not work",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a321fe31-d813-49cd-9761-387ee865f392",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have been sent a code but when i type it in it says it 's incorrect",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "31235ff4-357a-4668-8ea2-a635fa72cda4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have not received my security code sign in",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e9cdb8f1-5e78-4d7c-91b6-dd4c1f29343b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have requested a new sms code and nothing is coming through to my registered mobile",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f3a32daf-b749-4e6f-acda-3ab031404167",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to set up two factor verification on my super account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1ba19f54-8ee6-4e07-ab5a-03d64e1d2a46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi my verfication code is not sent to my mobile phone",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "722c8624-c99d-444a-bf8c-032240da490f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi security code is not being received can you help",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d655bd35-0ce9-4ce3-98d4-2b48beddaf21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi seems like i didnt receive the security code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ec48b68e-8c3c-4dbc-99f9-06fc2dc1200b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i do not know why i am not receiving an sms to my number to sign in",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d3182b4b-9fd5-43a3-b04f-d93d2523b176",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there the account is not recognising the code that was sent to me",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3a546c0a-297c-4c61-b9a4-206af9848b3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi when i login i get an sms sent to my mobile 1111 111 111 i want to change this verification code - to an",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ea4220d4-6db9-4df2-b0c3-17506609a037",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hii am trying to access my account digitally which i have never done before tried to find out my username but sms code is not",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5a223d25-7180-45ca-ba7c-d2bcc75c5196",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i send sms to a new number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "56ac6096-e921-428d-a71b-cbd57d094ead",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i receive cerification codes whilst overseas",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "359bd741-dee7-48fd-9327-fe88ee2d59ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i register a mobile phone to recieve the sms",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2f842d50-c3d8-4645-8bb2-c3b1989616f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i send my verification code to my email instead of phone",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3a2b3b68-39ff-4805-99a0-5152ce4f6f6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to get SMS, it didnt happen straight away?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "93ca374b-a8ef-4993-980f-fa0805501905",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am having trouble logging in i am not receiving a security code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6f39fd9f-df2c-4af4-898a-54ce270ff962",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am n ot receiving my verification sms",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "84f246d2-1411-41e4-a646-c9576a0044b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not gwtting my verificzrtion sms",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ed5c1948-3ddb-4172-a593-0f7d753e076a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not having log in difficulties i also tried to check my personal details and your website never sent the additional sms code to",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "da243966-9744-4de2-b692-44913b377ef8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not receiving a security code on my phone",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f9bbf40c-6f81-437e-aac0-df43361b37b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not receiving a verification code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5ede4f6e-fbbc-4f1e-a84d-0b80a257ba36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not receiving an sms code to allow me to confirm my user name",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "577d8267-4edf-439d-b203-61f59e69941b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not receiving my security code via sms when i try to log in",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9b4f32a7-86e0-4917-8ee4-939564047d93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not receiving the security code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "15d7f0a6-d746-429d-8485-b9447e79ef8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not receiving the security code 1111 111 111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "10961b8b-93e2-473c-a402-604985493ac0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not receiving the sms with the log in code",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "23a0613f-71a9-46bd-841d-37e97a6cb933",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to access my profile to check if my mobile number is registered for two-factor authentication however when i do i am asked",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "179222af-9753-4112-b4c0-2d7f6ab0f4ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to complete the details to receive an sms verification code which will then be used to recover my wife 's username it",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "4ef65cc5-db98-4a4c-813d-dbc7f06d8e07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to log in and have requested to get username however code is being sent to an old number so it is not",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e34a5102-f8d6-4d16-a955-f0448d5529ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to log into m account but i am not getting a security code sent to my phone",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cef33ecf-283c-49e9-9282-679b8bdb324d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to log into panorama but no security code came through i am trying to look at my account why was 1111 $",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e62165d3-a553-4af3-9570-e911be4b38a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to respond to a message but the system will not send an sms code to my mobile",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c0b8378e-6476-4d79-a003-5cb01207d696",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am unable to log into my account because code that they sent me",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "989085dc-183d-456d-b229-a4250139cd0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am unable to log onto my account i dont seem to be getting an sms with a security code are you able to help",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "59814619-a69b-431c-974d-676672cc8b54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not enter sms code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a51ec100-e9a1-4381-8a8a-1a9abedcd9a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not log in you were sending a txt to my mobile but i have not received it i guess because you only have",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "88bbb763-945b-434d-a3f6-b6a13661eef6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cannot log into my file because you are now requesting a security code and my mobile has now changed so i cannot log in",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bd751e2a-0f86-411d-a28e-44dd12adb117",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cannot recieve code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3fea832f-58c9-4038-8575-97bd6f1fb799",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i di not receive my registration code",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c9e80197-c902-496f-a576-0c92be09bc4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did not get a code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4aa21ff1-775a-40a9-8d02-a728fd461ca7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did not receive a security code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f53ca026-e9ad-4bdb-ba9f-521e70a9b9f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did not receive a text message",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b022b0fd-ec0c-4397-886d-3ad8124fb50d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did not receive my security code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5280bce8-7c97-48da-8e10-cf291bcc9931",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i entered correctly sms code but it 's not accepted",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d4b78880-0bb3-4649-a11d-ece6935e3260",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i forgot my login details and the security code will not come through to my phone",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "15f864b6-d190-474b-9472-1b7a306b3803",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i forgot my username but when i key in the code i cannot retrieve",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "210d06ad-bb64-4035-9b97-1104a757fe54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i had to get a security code and my account disappeared it is too fast for me",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b343b99e-0114-41e4-9795-ec7a45a7622c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have clicked forgotten password code sent to my phone",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1b88c99e-c0eb-4443-8d7b-450619480211",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have done forgotten password no code has been sent to my phone",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f8d5b5e3-c952-4c43-b0ca-3871afdef35b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have not received a security code to log in",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ca99ecd7-b286-48e7-8bd4-e7a20c2337f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have requested a security code to my mble and it has not been sent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "318e0a53-2258-4984-bdef-8a9af8a56684",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have tried several times to receive an sms with a security code to enter omn your website but not coming through you have my",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e851e60b-9638-449f-b676-e09427bc11c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i hsms code for registartion is it due to the repairs",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "209c1107-8147-4ce8-afe8-31ef497448e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i keep getting told the sms code is wrong",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dc106690-d2c5-4230-9073-cb00aa672a60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i received a security code by sms but it does not work",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "888e5ab9-f624-4a96-bcd8-b07e3df6251f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i spoke to a helpful consultant he advised to turn phone off / reboot it and then should work still not receiving sms",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d6cb525b-2471-42f0-83e9-48dac1a19492",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to resnd the authorisation code to the client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "770d7776-f072-4b01-8ce0-5b858c2f8790",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im entering my security code to retrieve my username and when i enter the sms code it gives me an",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7e97cfab-8cc1-4cc6-8224-8036b61121c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im having trouble with my code",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4b0f7f73-a873-4260-911a-014b46f55cea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im not getting an sms",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5e1b43f0-303f-4220-9aea-d5152f928a58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im not getting any sms code",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "e396e57e-4f33-4164-8264-c8da7c5e02a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im not receiving an sms code to recover username",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2c59af1a-453d-4fc5-b894-aa2c64e09d19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im receiving the sms codes to verify my number but its saying the code i enter is not correct",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f43e5bb8-e208-4f25-9a65-707ea48fb22d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im trying to log into my bt super account but is not receiving the security code the phone number looks correct",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7cbba712-bbe6-4b5e-93d5-126630945881",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im trying to verify my bt panorama account but it wont send me a code to do this",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7083b5cb-17dd-47ce-955b-e8e6d9ffdf78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im typing in the right code but it 's not letting me in",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b6effe06-b97b-47e9-a960-59e73288c7ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "issue with sms m",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4ef67fa8-a515-42a0-be20-c3e8d61c2dd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my husband and i have not received out verification codes",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d83bc225-634c-4552-bc11-0a040931021e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my phone has changed and i can not get the security code now",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "15829acf-d11f-4faa-bba2-08f36aab2f84",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my security code doesn't work",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a4b04f34-a0dc-4642-abff-b11509121625",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my security code is not coming to me",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "14274e1d-a339-4204-9b78-b8d1aea2a2f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my sms code is not sending through to my phonr what can i do",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b5d13905-f3c0-4a05-9b14-7b0e2c878b6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my sms code will not come thru",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3e3d99ef-3397-4ee7-b596-a8178c4a4a26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new security code did not receive last one",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "158960ec-4bbe-4db6-a41c-f868ae1e58c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no access to sms",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1b9e32d7-4e55-43ce-a73c-dfce8f22cd56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no sms verification code received for multiple attempts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7b1bfcab-4ec0-4a84-a1f4-b1771881663a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not generatingn sms verification code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4442b2a5-c563-4ac6-a946-b5df9c5e4fb5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not received any sms code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "54d6d75a-e7b0-4205-868c-120c54858287",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not receiving security code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b134841b-26cd-4aa2-a81f-425fe05984df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not receiving security code via mobile",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fe16c66b-c011-4e16-b4cd-a333ef4b29b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not receiving sms code",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "312b89b4-509a-4ac0-94b9-a3cf2aa5b3d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not recieving 1fa code from bt",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "00657dec-5bf9-4b6d-86ca-3b6ddcb101e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "problems with secuity codes and also telephone access",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bb6b0fc8-8bc8-470d-8e67-bfad08e0ba6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "security code entered not working",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a3fe3106-ac3c-43ba-968a-8c3ad35450e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "security code sent is not working",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0b7adc1c-6546-4ada-bf18-43fcb1e2ef52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "security ode is not being accepted when i have said i want to set up a new security code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5ae592bb-75b5-4d2e-ac14-397ffd651fc1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sms code doesn't work",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "7d637514-5395-42c3-b612-9ef6f9c5cfde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sms code for forgotten username has not been sent",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "367e0f59-c863-48d6-bea7-760d34742a16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sms code for getting user name is not coming through",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "213c34f0-f75b-490f-9507-82c1f3da6798",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sms code not workin",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bd743f20-fc0d-4e89-9760-c81b71d55891",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sms code to check user name does not work",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4b6a5f87-b6f0-48f5-b5ce-cd5b6c4ab694",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sms code to verify account is not valid",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "83c2bc14-0700-4fd9-af4b-509b17ca0710",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sms code verification is not working",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3fd7e9b5-81f3-41b5-925e-4bbf75851695",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sms security code not coming thru",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f84eea6a-efb0-4017-b204-95325296b953",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sms security code not received",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b3080b52-a0cd-4609-8539-a189c965f7a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sms verification number sent is only 1 numbers and / or is not accepted in any case",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "209426fc-4d50-428c-a280-7465db46357c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "so far no code has been sent to my phone",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cb82e5fb-a1ae-4e5b-8ca8-0d633e1f3d12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "temp password sent recently but account still blocked sms messages not getting to my phone",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b4fd74b0-f3b8-4336-959d-7a02607d5ea4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "text message is not coming thru",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "72999aa9-e22f-4c95-ae0b-5503ee84e40c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the code was sent in 1111 how can we request a new code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bdf7a064-d71b-48b0-abd3-91443c7fb623",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the mobile number for verification is incorrect",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "da698169-3a9e-4749-afa8-794f9509ae6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the security code sent doesn't worl",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c87747ae-3c1a-43a9-98c5-102ed2a8f050",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the sms code i have been sent says its incorrect",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "acefe797-0da7-4251-a26c-8db20c21b5d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the sms code that is sent is not being excepted - this has happened twice now",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ce04dc82-54be-4a93-bc74-27196c2c3abf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the sms has not been sent to my phone",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c351b259-c844-4036-b686-5ca52883fc43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the sms sent to me will not work - i have forgotten my username - thanks bob",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c9a67bad-6e87-45d4-8459-820fb58b9930",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to access my super and I haven't received a verification code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b6c24abd-5623-4e90-b666-ef32ac4fe9f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to change password but no security code is coming through on the mobile",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "73c7244e-30e8-46a1-a75f-776016997727",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to verify account but code not coming to sms",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fa0dc43a-5faf-4446-87c9-f29b3d148cd6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "two factor query code not received",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1bf64a6a-5aa2-41c9-a7f0-88bb2c698870",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we have been requested to enter an sms code and have done it twice but it is not coming through",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9d2a0131-6f6c-48ee-b889-130714a607fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "temp password sent recently but account still blocked sms messages not getting to my phone",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f148ee14-69b2-495b-b8d9-9370f946d572",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "text message is not coming thru",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bf29cd4e-1d1b-4a8f-8b65-8c264ac4c471",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the code was sent in 1111 how can we request a new code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c9e31ef6-6c94-4435-af77-66bb820f7fbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the mobile number for verification is incorrect",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "04d52db3-0345-4f39-89bb-da39aa150ca2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the security code sent doesn't worl",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c6a705be-e673-44e7-abd2-698ed03650ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the sms code i have been sent says its incorrect",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1afd09b2-3465-40b5-98a4-c3d8fb17d2db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the sms code that is sent is not being excepted - this has happened twice now",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "eb8a9f9d-f2c4-4e52-b06f-23867e91d4e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the sms has not been sent to my phone",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c88d4b39-3e96-45dd-bc31-c636dc99f605",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the sms sent to me will not work - i have forgotten my username - thanks bob",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2273cd1a-0fa3-440c-9eef-84e60bc22520",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to access my super and I haven't received a verification code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7019b785-badd-4713-84fa-55bfe63959d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to change password but no security code is coming through on the mobile",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eb26f01f-262d-4f91-8be6-b18fc1657a75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to verify account but code not coming to sms",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5aa830e0-81ef-4f17-954a-4fbe0a9d4eca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "two factor query code not received",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e562ccc6-ec60-491e-948c-a2dc717eb4b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we have been requested to enter an sms code and have done it twice but it is not coming through",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4dc5504e-52af-4c9a-b714-8f6c9a778de8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can we request a new code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7fa5238b-fd68-4133-9740-459a490f9957",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is the sms code not working",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "33137070-3561-4c6c-97eb-545c194c715d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why the code i receive and key in not work",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9134d5b2-befa-4aa0-b0cf-6bcb76bf04ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "will my verification code come by email or mobile",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ae8c214a-6d87-4177-bd96-b0a8380c51ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "your sms security code to approve your online transaction is 111111",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  } ]
+} ]

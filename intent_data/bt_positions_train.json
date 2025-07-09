@@ -1,0 +1,540 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_positions_train",
+  "intent_name" : "bt_positions",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "fe183e54-ee09-4a96-bb96-b2509397bf26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can {@kim_company_name_ticker I} see my {@kim_security_sector tech} stocks in account {@account_number 1234}"
+  }, {
+    "id" : "ae79656a-e8d8-4c95-a475-863b48036060",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How {@kim_company_name_ticker are} my {@kim_security_sector tech} stocks doing in my {@account_type Roth} account?"
+  }, {
+    "id" : "3fe43198-e581-4ad9-bc14-120e02b2688d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How's my {@kim_company_name_ticker apple} doing?"
+  }, {
+    "id" : "c9f06b89-e114-49c3-9f1a-f30c03b2c08d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can {@kim_company_name_ticker I} see my {@kim_security_sector tech} stocks in account {@account_number 1234}"
+  }, {
+    "id" : "d0b931da-19ef-4365-bbd2-14023fa65d0e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How {@kim_company_name_ticker are} my {@kim_security_sector tech} stocks doing in my {@account_type Roth} account?"
+  }, {
+    "id" : "ff8335d5-fde3-4d38-ad35-0e869667ffdd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How's my {@kim_company_name_ticker apple} doing?"
+  }, {
+    "id" : "aa26ba85-3f63-47dd-8daf-3cb5ca930e57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is my {@account_type Roth} up {@kim_company_name_ticker or} down?"
+  }, {
+    "id" : "622c0bcf-0449-4d95-bb5a-63f95cb32148",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "asset allocation",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "4af73e60-fad6-435b-a638-4d0e849c977c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asset allocation {@kim_company_name_ticker for} my risk profile",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8b535226-ddb3-40b0-89f5-eb77d27a6912",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "breakdown of {@account_type investments}",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "d2e3d7f3-9b5a-4339-ac76-758d6c3e4876",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt_positions",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1a40da90-c345-4051-89eb-8204fd60114a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you add this to the web {@kim_company_name_ticker site}"
+  }, {
+    "id" : "d9283856-24c6-450f-9cfe-6b87c92cb112",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you confirm this is {@kim_company_name_ticker a} managed fund distribution",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3a253678-4b8d-4fc9-91a7-7373b34e9e0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change date range {@kim_company_name_ticker for} portfolio valuation",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "803f750e-22f4-402f-aa04-84ba95a6eb53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "asset allocation",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "bcf4560a-ab7b-4c35-9d04-a8a32da5ec34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asset allocation {@kim_company_name_ticker for} my risk profile",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "456a7d1d-1f67-4656-93e9-dab068e7c71f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "breakdown of {@account_type investments}",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "6e382f5e-18af-4413-ab72-590289b85966",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt_positions",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "465a3d52-c867-4661-bd2e-5f89a09070a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you add this to the web {@kim_company_name_ticker site}"
+  }, {
+    "id" : "72d4fe66-8aa0-484a-a3a2-89d3dcdfe5f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you confirm this is {@kim_company_name_ticker a} managed fund distribution",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "246b8fa6-aa3a-4ee2-b339-75f1ee7c523f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change date range {@kim_company_name_ticker for} portfolio valuation",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ae73ccc4-8eb1-4484-9e7c-dae09f95b254",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "asset allocation",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "01e8335f-1991-46c4-9337-fba1152e741c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asset allocation {@kim_company_name_ticker for} my risk profile",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d78599cb-8231-4dff-98d5-aec5a4df53f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "breakdown of {@account_type investments}",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c295beb9-24f6-45b8-8d89-33cb9374795f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt_positions",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a266b415-8d0b-48ca-b217-00457e1f4a2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you add this to the web {@kim_company_name_ticker site}"
+  }, {
+    "id" : "035d7bab-6f45-424e-bb40-8b32b38e3069",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you confirm this is {@kim_company_name_ticker a} managed fund distribution",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8806a33b-7b4e-4c6f-90b6-cabaa3dfde34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change date range {@kim_company_name_ticker for} portfolio valuation",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0b463c50-552d-4d4b-8c90-deac7f01378e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client portfolio valuation as {@kim_company_name_ticker at} 11 june",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "7afdcc58-2e42-4e4b-b033-98779eb7671f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "current {@account_type investments}",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "77aea137-d05b-4cd4-b132-e66a7707c108",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "daily portfolio valuation",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9663cf2c-25bb-49d5-a671-1b253c3edbf0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i have {@kim_company_name_ticker a} holding in data dot {@kim_security_sector technology} - under yasmina bob",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "aefd8029-8fbe-421d-9b63-d0696122c787",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "get {@kim_company_name_ticker all} the portfolio value",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b36fed93-8ce0-4b05-b196-ad22ec6d7abf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello for {@kim_company_name_ticker an} {@account_type smsf} portfolio can i tell what % each members balance is",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "50f28953-4d7a-43d0-9ddb-1571573e44e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello how can i know which share i have {@kim_company_name_ticker at} now",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "97b9faba-7928-42be-bccf-ac53aa721fa8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "holding statement",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "178e8e76-fa65-432e-9433-1e5ed2a3a14a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hopw do i find {@kim_company_name_ticker a} client 's actual share and {@account_type investment} holdings",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c68f0f22-d49a-4a17-91ba-5e0beb68fe66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i view the {@kim_company_name_ticker 111} shares i can trade",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "637d2116-8550-4f04-8721-f606c6b337a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can {@kim_company_name_ticker i} see my shares",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c1f92e4b-72cc-4bd1-a664-cb15f2db59f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker apple} do I own in my {@account_type Roth} account?"
+  }, {
+    "id" : "8151ad7e-3586-43e0-93b1-eaccee60490e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how many shares {@kim_company_name_ticker do} i own in bot",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "64dbe0b6-dc92-4d6e-9b29-bbfe44ae69b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how many units {@kim_company_name_ticker do} i have",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c40cbd7e-41a4-4756-834e-296928109271",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker apple} do I have in account {@account_number 1234}"
+  }, {
+    "id" : "1938547b-a5be-4bdc-878f-e469a5858b83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker apple} do I have in my {@account_type Roth} account?"
+  }, {
+    "id" : "b402094a-a5ed-489f-a3c2-5e83e7719f12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker apple} do I own in my {@account_type Roth} account?"
+  }, {
+    "id" : "f1311638-d1be-493b-b2f8-d9e6fd05d90c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how often do portfolio valuations get updated in {@kim_company_name_ticker bt} panorama",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0896dbce-65f4-4cce-ac65-cd52aedfe52a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how {@kim_company_name_ticker do} i find group portfolio valuation",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ed91745a-dac6-41d6-aded-c6786b59ade9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how {@kim_company_name_ticker do} i find my {@account_type pension} account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0a83a9cd-02c6-49f0-8fdc-d083b538da38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how {@kim_company_name_ticker do} i find out my broker sponsored numbe for shares in my portfolio",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ae47911a-4744-408c-810d-ed8733bb475c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how {@kim_company_name_ticker do} i see {@account_type investments} under portfolio",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1b6dd7f6-6b7e-42bb-8310-4088b4e1c915",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how {@kim_company_name_ticker do} i view what my super is invested in like what international shares where can i see this",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "b0446a18-985b-476c-a9ba-d2dd96aed88f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hyperion small growth bob and 1.11 percent",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "8dd9fe47-eb20-4d3c-b31e-d5144551d1cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have recently take 111111 $ from my super the number of units i had were 11111.11 {@kim_company_name_ticker do} i still have the same amount after",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e1669033-819e-4584-a78c-06eebf14b38d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to do {@kim_company_name_ticker a} bulk portfolio valuation for all my clients",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "03b1a0a0-03c1-49a8-81b0-f3335af0683a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is my {@account_type 401k} up {@kim_company_name_ticker or} down?"
+  }, {
+    "id" : "06caf835-9398-42a7-b988-124efe007f6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "list of holdings",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dc2ac72f-a24b-4acd-8a6c-943ed8f45cbf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "list of the shares {@kim_company_name_ticker i} own",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d3726afc-6035-4b93-a282-4a14af167aa7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking fir {@account_type investment} stragety document",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "17ff30d0-8190-4fc6-9d6c-fcd1ddbc80fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "may {@kim_company_name_ticker i} know where to locate portfolio views",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "63dd8546-169f-4c31-a402-437525cb1abe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my stocks have vanished",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cab90b30-a522-4874-86ef-cd864e5f1905",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "not sure what you {@kim_company_name_ticker are} asking i am referring to the column in my portfolio value called estimated gain / loss all my {@account_type other} investments",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "8a023fcb-6c66-43f8-babc-f02f68de0e19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio valuation",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "bc498427-1f6c-4264-b95d-513c3a21b805",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio valuation of {@kim_company_name_ticker al} clients",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8ef2a583-58f7-4647-b932-32a47adbd626",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio value",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "14718e21-4fba-406d-b03e-a04433591220",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "share account",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "eb77b496-6472-48ca-81f8-25d6d8cc742a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sort {@kim_company_name_ticker by} {@account_type investments} used",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f1b68223-0df0-4b4f-a8fd-76d53035d59e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view {@account_type investments}",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1123cf43-6433-488c-967e-339abe606db0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wer can {@kim_company_name_ticker i} find my portfolio",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "81590905-3e22-4767-a72b-72e0ef35aa05",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view {@account_type investments}",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4f60700f-acea-405d-bffc-1f8ab068767b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wer can {@kim_company_name_ticker i} find my portfolio",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bcb01c82-9a9b-4f6b-92f0-fab4ab83cd6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what if i only want {@kim_company_name_ticker a} portfolio valuation",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1f4e7e1c-fcc7-40a6-a2ba-a1027a34b56a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my asset allocation",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "4f301909-715c-44be-887a-28d94e163a3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is {@kim_company_name_ticker a} position transfer showing in all transactions",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "60d1803a-d458-4005-a95d-5e81528bea07",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker are} the positions in my {@account_type depository} account?"
+  }, {
+    "id" : "60713739-b773-4423-b28d-e6f300d52b97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i see current share which i {@kim_company_name_ticker am} holding",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "af0cfc67-55f4-4048-b5b0-ac713402b873",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can {@kim_company_name_ticker i} access the {@account_type investment} details of this account please",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "264926e3-2738-4f80-9d1a-5b3add6c0f70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is {@kim_company_name_ticker a} list of what i have",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "ea8bb088-96b2-453b-89f4-f35062e66d7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to find {@kim_company_name_ticker a} clients {@account_type investment} menu",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "73ffd84e-ac70-4469-ba87-038873080f31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where {@kim_company_name_ticker do} i find the list of my international shares",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "9de0d94d-f5d2-4fa6-9881-21d7e81bd8fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where {@kim_company_name_ticker has} my ask shares gone",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "620725b0-be7e-4e78-a0fd-99bd47cf37cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "who owns my shares",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c57f9171-cb84-42e5-9224-0ab5f6b99b2a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@account_type investment} held",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "649d64b8-c904-4031-9d4d-e67ae740800b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@account_type investment} portfolio",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "39f6a472-79f9-4903-97ea-bc46408c9010",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@kim_company_name_ticker hi} i can not find the benefit components",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "40eab6b6-299d-45f3-bf31-b5063962e751",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@kim_company_name_ticker i} have international equities",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f64489d8-3ba3-419a-bd67-bef163d83c87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@kim_company_name_ticker i} just want to know how many units i currently have",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3bcf8d6d-17ae-45fb-828b-c295efb51a3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@kim_company_name_ticker i} need to access my portfolio of 111111 $",
+    "tags" : [ "bt_train_q1_2025" ]
+  }, {
+    "id" : "f2b64f46-358e-4b7f-a082-2eb28d383aa5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@kim_company_name_ticker i} want to see my individual holdings",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c118823f-c070-48bd-9be2-14f541ecad59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@kim_company_name_ticker i} want to see my {@account_type investments}",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d0fdf596-7738-497b-9796-efc9f1d4251d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@kim_company_name_ticker i} wish to see my portfolio",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "29fd4560-070f-4d65-b5b8-68843b526ebf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@kim_company_name_ticker i} would like to access my portfolio 's current position",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  } ]
+} ]

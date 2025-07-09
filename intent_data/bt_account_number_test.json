@@ -1,0 +1,1924 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_account_number_test",
+  "intent_name" : "bt_account_number",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "ebf86edd-3cb6-49ee-b0f0-ac79ebcda366",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Access account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "72796ebe-2a3d-48f6-b39c-d1ebfbe80b4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8cc41b08-4f09-4a76-9514-a66e84344f76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Account details.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4a6d83c7-f869-4ecb-861d-eddd331022d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bank account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "311c71e1-62f8-4965-835f-61f672cf18c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I find my account number on debit card card?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5f0357d1-7e0a-4150-98f6-9a98232086a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I find my account number on debit card?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "315369a3-f006-4042-9012-bbebfc88fba6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I find out my account number on the mobile app",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "9baa00ec-1786-4f73-aa66-b10cf6e72c4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I find out my transit number, bank number and account number?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "77905c96-1243-4c81-912b-00ee89940fbb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "39eee170-b9d1-427d-9173-da90a2c6a4f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get my account number please",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "570e387b-4a87-40bb-a788-a0db94f67d75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get my chequing account number ?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "3d03c95c-15ae-44fa-835e-d1a85294c92b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I locate my account number on visa card?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "4e445a84-5193-4c3f-aa38-93f25744614f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see my account number online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "403698f7-c901-47a0-a7a7-3399b2529e36",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see my account numbers?",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "244c2270-4557-403e-b4da-2ffc0ce884e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i get account number of my choice",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "8f130f89-62ee-47e7-83cc-93405401b7fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i get my bank number and account number of my account here",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "39f8a8f9-e663-4a7b-92e9-e3750285e7c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i have my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b4248939-e3ea-4fb1-9d8a-81173e6dd941",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i know my account number by debit card card number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "722a66e2-bfda-4b2e-8cde-782f799cdcb2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i know my account number by debit card number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "3589b2a8-c3ae-448c-9502-cc84bfbde2fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me and sent my account number? chequing",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "dbaae956-7501-473a-8223-5ecb2f3be486",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me find out which/what is my account number.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "85992dcf-f755-4ef9-a0d8-20dc6f1dd2d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me i need my account numbers",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5b567ffa-592b-4801-a9bc-614ad8b557a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please tell me what is my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "32ed3291-8ddf-47b1-be1f-c79a5efd86b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me what my full account number is?",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "78f259c7-9563-4549-9a35-80ef28dc4d13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cant find my Customer ID number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6e8ebb0b-24c4-4f54-8e32-294bba4bbb1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Check account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "04947356-2786-44a4-ad6b-3f280ff04bd3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you please give me my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0cd00b1f-a7bd-4f0b-b222-60b7d7612cb6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Display account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "115f9df7-49a7-47be-95b2-2e3bca0c23a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Find account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a544d16b-39a5-4d2b-8d5e-311a4dc949f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Find my member number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "307efc28-c044-4a96-82ca-1ae02b2bf846",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Finding my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "04f064c9-5f33-4df0-a6eb-7001db32a989",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Forgot my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3fc18519-191c-4830-8f8b-96e94550daa3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give me my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8049c516-8238-4a45-bda2-c96f1bfaee7b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give me my account numbers",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "8e3163ad-25e1-41bc-99bc-4aca542a9d9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I need my member number for my super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a493578e-7136-493f-b21e-ebde559f9a45",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I‚Äö√Ñ√¥m trying to receive my Super account details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6ca3b3e1-804c-4f4b-b488-af6c133b7557",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hey what's my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "a1a5e38b-fe45-4834-a7c6-0904d788bfd9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I need a welcome letter with my membership number where do I get this",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "120f1007-4751-4bf3-8495-6112f9e28624",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi how can I find out my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b9d70698-3ae2-4b3b-aef3-d3ab9c5f6fc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi how to know my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "fe1b07ea-47d5-476e-940a-bb1a9daf7970",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, looking for my super mbership number?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "82642d7a-569d-455c-9699-021e55adfb08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I am trying to find my superannuation account name",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "dd9d87d0-1e71-4d14-adba-fbff2a71b6dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, can you please help me locate my member number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "15d82ea3-df8b-44e9-b4d6-20c0a0b96c74",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I find member number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fc431f2a-9d23-4a2f-8f76-8bb3e944127e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find my account number in international format?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "da51afb5-062b-42ce-a6be-c253c342b942",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find my account number on app",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8a93fcc2-616c-4abb-8170-ffb6c4b8f642",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find my account number on the app",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b1c0f08b-d777-4899-96fa-43e694ee3592",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I find my account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6bdead9a-33c7-4c86-b011-990c686b60cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get my account number?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5321a9b0-fccc-48e7-abf8-0bc7950dfc1b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "8ffcc193-ebd4-4d33-9503-42af372cbc9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I send my account number to my friend?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "64139a7c-974e-453e-b352-a3183c28bac4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can i find my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "43ec88d5-75f1-4bbc-9d45-8df02f69aa4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How cane I find my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1c10c0f7-8119-456d-ab4e-739b50be3c1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I get a copy of my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "9c92fddb-9be1-4eeb-9aea-8c9fd65f9357",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I find my \"Member number\"",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b0b7f919-ca6f-4c35-876a-c7358d39f7f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I find my Member number?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a1d4fb51-4180-44e9-90ca-5ed14a75687d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find my account number ?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "24a4c602-4014-4d5f-b76e-c67e30def05d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I find my customer id number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bdd50e71-ec22-42c2-979c-8e0c0cd5a613",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I fins my member no for bt super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "26cd946d-d491-4576-bd7b-f6f2e8f351e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "15bd42f3-2eea-45bf-98ed-507bea5a35b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get my bank account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "3bce18c9-0343-46c7-96ec-ade82ab5fd19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i see my last bank transfer account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "9a4a2d53-45b3-4130-bf49-a295457347ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get a statement of my account number?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e257ac89-8fb0-49ce-bbf8-b59e20573341",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f033f02e-d466-4d34-9d7b-28987abd3531",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I don‚Äö√Ñ√¥t know my member number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8d6a5549-618f-4bed-a071-166a1d79aa8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I don‚Äö√Ñ√¥t know my number number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "59f35845-bf7c-495f-aaa2-e8323bc1b75b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I forgot my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "d5aa5387-7c32-4690-b3c6-0d5a9feeb6b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Access account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "628d6d92-632e-45cf-9bd6-491e86f6dd04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8aa7a5bb-e593-4691-8502-fe75b990f2c6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Account details.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "666b0dcf-6757-4b56-834b-0ba143b6d59b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bank account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a2ebbfa2-a552-4d51-9323-f80a4cce41dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I find my account number on debit card card?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0336129a-3904-4bf0-a151-d019be060d6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I find my account number on debit card?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "c8907f74-b44d-40bc-a434-9adee50d6f50",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I find out my account number on the mobile app",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "441225b5-50e3-49ea-9350-7a32b0125a2e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I find out my transit number, bank number and account number?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "b415dbee-866c-41b3-a1a9-de67d52d5e66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "109d99ff-9ce0-4f83-a41c-2ec57adbcc83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get my account number please",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "6c10d4e5-28dd-4880-985d-6acbcb3e3fd2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get my chequing account number ?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "ce15da65-b635-4d1f-99db-2fbe33f410e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I locate my account number on visa card?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "cc5714cc-bd11-4c11-81aa-37d4e9f56d14",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see my account number online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "67602fe3-32d3-4078-9068-fc72d3424663",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see my account numbers?",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "6a4aa24f-df5c-4230-b7a9-4f6e07987d1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i get account number of my choice",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "a2d7ee26-d929-4e00-9270-8b09db8c6bd5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i get my bank number and account number of my account here",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "2b0be9a7-7674-4149-abad-99437cf61f3e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i have my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "940863c5-f79f-43a2-a2e1-0f3806fd04b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i know my account number by debit card card number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ac5d4477-4b3c-4a71-a9c4-dfda3ff18303",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i know my account number by debit card number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "8972d60b-ffd5-415d-b4fe-2f8bd3f7122d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me and sent my account number? chequing",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "450c0c6b-bd17-4d6f-a60b-a885faa31b45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me find out which/what is my account number.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5fe358a9-e02f-41fd-b1bb-0369a186725e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me i need my account numbers",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fab1c832-858f-44f6-8357-3665164875c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please tell me what is my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1986074d-2e57-4499-92dc-ca72d45c1ab6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me what my full account number is?",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "4efae301-666d-4b55-8fff-23fef903ac7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cant find my Customer ID number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4528c121-9a54-42e2-a898-4834f1bd997c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Check account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "51b6e4c5-a794-4c8b-be59-a077d4a6c18f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you please give me my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "006a40b6-ca0a-4c4d-a760-78a79dfb99c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Display account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "4ae1e472-f9f1-45f3-8791-5345ae3868e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Find account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3d365cf8-654d-4201-96df-cdc367a46509",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Find my member number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "05168a58-155c-4b16-901e-392068f98165",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Finding my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "26bc857c-b4f0-4486-ac7b-d8c7d2d1f8b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Forgot my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6c53486c-d533-4145-ab72-3dca38060e98",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give me my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e268b564-32bb-4f26-bf3c-bf9dc8d85c73",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give me my account numbers",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "af41333e-a4ae-4682-9773-57f89f52b765",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I need my member number for my super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4556785d-6842-474e-ac78-4fbc28146cac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I‚Äö√Ñ√¥m trying to receive my Super account details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "12201eea-1e24-44f0-9e6d-56d5b4b03f77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hey what's my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "e1cf7a7e-238b-46c7-a842-f2131d6e6c71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I need a welcome letter with my membership number where do I get this",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8410a176-0481-4953-9aa4-409d8f05cdc6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi how can I find out my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "07b9311b-8036-432d-88d6-aed42a712134",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi how to know my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "412d442b-ccdd-4faa-b439-83183bed5f62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, looking for my super mbership number?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2576768b-1d14-428d-b067-79c4a39ddaf9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I am trying to find my superannuation account name",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "701c302f-beeb-49ec-9acd-36c7be28df56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, can you please help me locate my member number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7f5ff210-704c-4e52-9b02-060349bd3f7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I find member number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c915ab84-7eaf-458e-ac78-19e712653d5b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find my account number in international format?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "49a21107-7f15-42bd-b4d3-31f30276c427",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find my account number on app",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "16306440-fe72-4264-890f-3e6c6ea30c25",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find my account number on the app",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6ebb3b81-1967-4f8d-9960-bceb5152feaa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I find my account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e2984f89-9ab8-481f-8378-da6d5aebda5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get my account number?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ec971996-f79c-4d6f-9ec1-8ffac187fe35",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "09ac56f0-0272-497b-8fb7-9b574fc4da44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I send my account number to my friend?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "59eac866-28ec-4f32-b4f2-a2a1a20398a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can i find my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "f2b50947-5c90-42b9-b11c-26570577561f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How cane I find my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6b01e46b-5f6e-438b-b690-d08df60141bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I get a copy of my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "14325ab1-4302-4e3f-8ad9-476f06a3e610",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I find my \"Member number\"",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "dfc13150-3d2d-4fbc-ad8e-821f90e1d107",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I find my Member number?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a3ebdc92-dd83-477c-9943-74c511f8a256",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find my account number ?",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "f71da5c9-85ce-4491-bae2-40fda84260df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I find my customer id number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9f9fd6c4-03f6-4160-b195-9cfa1341a30b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I fins my member no for bt super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4785c473-f815-4de2-b8a0-5f827a448c2b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "37eb4133-6178-49ce-b184-f4eb832b278e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get my bank account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "750617e3-e42a-4f12-8ae0-d6ee32f2381a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i see my last bank transfer account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "f95e9506-3375-4782-8f33-3cf6937842e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get a statement of my account number?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "00dedc91-cdcb-4884-8dde-0d02a15b8459",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to get account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5515100d-994e-4c3d-a465-2f5640a17ec4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I don‚Äö√Ñ√¥t know my member number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3b377c42-6fc6-4363-a7bd-9d7183a5c496",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I don‚Äö√Ñ√¥t know my number number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "86a49f0d-707d-4539-9d4d-821d6f9fabd5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I forgot my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "98463b61-c65a-4b49-b922-0c9c79776422",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I lost my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "4f9b9992-7fe6-4813-b646-70e5bfc72eae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need a deed showing account details, benifeceries and",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9dd16867-ae2f-49bd-8ac4-d44c81afeec3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need account number for checking",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "f73a8cd5-23b5-411e-bc8e-946befa8b14a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help finding my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "8fa33c63-794a-4b24-a98c-a781c0bf541a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need help getting my customer number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5800e6b2-f9f6-4325-ad61-6619126b45ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "7d61291b-117a-4b06-b205-ba19cbab7f8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need my super details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "15f88ae1-f472-4aa8-a34f-4a13bfbe7e4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need the acct number of my savings",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "b72f0a60-bb93-4fd2-906c-c0f726b6fd0d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to find out my savings account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "11395563-def5-46b7-88ff-92a833b456fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I transfer 111 dollar BT Super yesterday from my Westpac account. But I am not sure that account is my BT account.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2202d6f6-93a6-4588-8067-3b393237c1b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to view my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4c04c4a3-812d-4771-a44c-75c7784fde5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "933d5e2e-a998-41f3-8ea6-eedc4146c45d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to see my account numbers",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "c2715d5f-0438-4e71-ba9a-6f84c8b92832",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Member ship number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fc592666-7954-429f-9672-5b6ff5d787e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Membership number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "aabf8807-2f8f-482f-aab8-01fc0560c383",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "My account number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e05dbf4e-5e16-46ce-b57e-4e69edc118f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "My member number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ac9c2b50-ea7b-44e3-bd6a-9cc8bea122f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d8ee7d02-cc21-44b2-a0ce-412bb8689953",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me the full account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "8335b6e3-1379-4919-b135-eee3c1f4784d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "5dde21fa-d27b-47b8-8579-20d582b28a7d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show my checking acct number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "5ace040c-9a00-492f-9b07-ef6329d59fab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "The member no is not on that page",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "017b4e43-2190-416e-a3e3-f006d17175eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is my account number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "31a4942a-3648-411e-9b05-271feaa09cb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is my account number?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a7bb14e7-2e42-4d48-968e-832bc359fd34",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the full number on my checking account?",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "ff9a4b86-412b-418e-8044-adf7388be3b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's my checking acct number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "7912246d-1645-4ab1-a62f-2ef48a388dd2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's my complete account number?",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "b0080271-7611-458f-a19f-3753b4928a80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's my savings account number?",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "73f181f7-8430-4514-a705-12af2abcf759",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8e29b607-f3f4-4fa0-8e07-7d653973089f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I find my account details?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "c562ce11-bf65-4355-8dbd-94801089898a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account ID",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6e03ea55-c23b-4a25-8a87-c5f3e7105398",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account id",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ec95b336-9de6-4be3-af6f-db2473dcc2e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "account number details",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8c3d0d8a-8571-4006-88fa-d605e4856137",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are account name and account number the same",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4b8f6291-2590-4ea3-a985-d5f2a14232ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "banking details",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "f5c05a2b-982e-4e4e-90a8-0868779f8801",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I get the account number for my checking accout",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "b7b63310-2c91-41e5-b44a-3e6a1cb6a2b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i know my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "db994e19-ade2-492a-9060-ea33a2895e54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i search for client using account number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "50835136-a916-4b2d-8072-5e69c8ebe35a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can send me my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a143f5ba-93d0-4601-8b41-7b35200c82d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you share my account numnet",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "5aaf365d-c6fe-44a9-9bec-53c7885c92ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me how i can find my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "b81d361e-b724-4dc4-9f6e-c0ceacea0626",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "19d7838a-8a8f-42cd-babf-35303acc2bf7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me my member number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c0b41fc4-5537-4b06-9a28-a88280adfc00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell my member id / client identifier",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cc645102-242b-454f-b232-c7299e9df11f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a8324efa-8166-47d6-b5a3-05581066ab4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check account details",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a4be7f4a-ad41-4801-8c83-b17ef7af0d2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are account name and account number the same",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e44b7168-5e07-432f-b41f-05ef3ae3aaf0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "banking details",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "18ed02e8-099e-4530-b50e-aebe3013b310",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I get the account number for my checking accout",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "1109e946-4bdc-4c1a-8dd3-f8c5b0a6bf86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i know my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "96f30419-f804-4419-8e19-c909b7b72362",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i search for client using account number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "29e3023f-a2f6-4ca6-8792-98b0f15b9487",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can send me my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9ead4a54-d79c-4b4d-8363-5c35b721d553",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you share my account numnet",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "c67fda1b-24df-43dc-a6ed-bbbfb7c4b10b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me how i can find my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "cc4646d1-e77c-4a26-87d4-51ff26866ad8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "6df3c2da-c238-4947-a688-ce20b9309eba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me my member number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c7eb8bef-ac02-49ec-bb70-f8d8a60f12af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell my member id / client identifier",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "739bf689-4ec2-4ad8-b0e6-76af1cfda790",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "90d0c0f5-fe91-450f-b6e0-e053a701646b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check account details",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "555fc67d-8f1c-44ca-95be-133b7938386a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are account name and account number the same",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "af7fda13-1923-46c9-abe5-a7c4b8845c04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "banking details",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "d3497fb1-1bea-4472-9e1c-220195e2758b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I get the account number for my checking accout",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "fc9570a8-01bf-480c-94cb-7bb468da6e49",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i know my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f462dfe5-4ea4-462e-beb5-6f4cfbefd1ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i search for client using account number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7ad6a9bb-f04a-4269-92c8-2cc6ce7fcd96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can send me my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c82aefab-6f15-495f-8363-315f10993dcd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you share my account numnet",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "bd3a9d82-2533-4d3a-acc4-c30217e1a6ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me how i can find my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "e025c23d-ff2b-4a4b-9fe1-35080d706470",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "cd9518ea-5372-4910-adc1-2df1fd985771",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me my member number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ff84baee-145a-4375-835c-4162a2623913",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell my member id / client identifier",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "20edb6dd-4bc3-40b0-8c03-348eb089c02f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change account number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8f9cc87a-f453-4dfa-b1cf-207b03bb42a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check account details",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5aa5b553-8819-46a1-a4c4-09211ecd4b33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client account ID",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "da7af635-74e9-45ad-91ac-ffb8c2a4a9f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "confirmation of my membership number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "37320d9c-02d6-41b1-bb74-bc42bc4026b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have accounts that start with 111",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "84dd084f-fd05-4c86-9658-e7364c2cf5df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you know my member number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "24bd96b1-5dba-40a2-8b68-97d1b5402386",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "forgot member number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a2c0bf70-52ca-466f-8c8a-770eaf2fe80c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "get my account details",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "77159717-d444-49cd-bd3e-1e143de2d882",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "give me my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "6dc9315a-e35e-4736-a4e3-6155c4d83b71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "has my membership number recently changed",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9cecca90-b440-4d1c-a593-345e175d5e0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i can not remember my account number because the previous company helped me register the account can you help me get my account number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5d3ddd00-6c37-4ccb-a740-75da0546219f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello what is my account number",
+    "tags" : [ "legacy_test_guai", "exgs", "test_gold" ]
+  }, {
+    "id" : "1c891592-0a81-4417-b53e-36dbe26bccf4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello, i have an old account number. How can I get access to my BT account online?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "4f1a4bf9-2636-47dc-be02-c6aa857bac86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey blue what is my member number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d6875e16-530d-4b38-af93-5de298e6ed29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey i do not now my member number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "445dab6a-2bbc-4454-8513-ca93abcefe48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bob trying to find out my member number",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cee5aff6-4834-4532-85a8-1af160aeb7d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you tell me my super details please",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "220fd1c2-efcb-4f83-9f1a-08841853b0dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi do i have a member number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1638766b-95fb-4c82-9bed-36147dd041b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how could i know my member number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cea17190-946f-450b-9df9-97d1ff117202",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i get my super account details",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2a1cdd2c-2ce1-46be-9255-2c0b133ac105",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am just wondering what my member number is",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e0a7f879-9b6b-449b-a804-29157da91701",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am looking for my membership number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8e602459-df75-4cd4-a700-ebb64a97e7cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to get my member no",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3cb57644-ec5e-40ce-88fe-04f6ffa90ca9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i can not find my super member details",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eca8b652-9ff0-4dca-908b-c06873e68698",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i can not seem to find my member number please help",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "71e0e309-eda2-4a72-8a44-e7e0215cc80e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i just wanted to check where i will find my member number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "11284834-dc7b-4995-9e8c-a2759539eff2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need my member number",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ee1b5ad9-073b-4806-a924-13b46c900fed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to know how to get my bt super member number",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "0cc55ff2-ce3d-47f4-ab62-d7e07ed57020",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi im just trying to find my member number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "74f54bed-be7a-4dc8-ba91-e02fdf4f79e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi is my member number the same as the account number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "80246d5e-1952-4ce9-9389-b87bb9c8ac8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there - I do not have details of my BT super and life insurance account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "9e1675b3-e499-4ae6-8fcc-0d2484271bd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i just want to know my account number and the super account abn number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9200b6b1-f824-480f-b1d3-b60eeb58fa33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i would like to find out my account name",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bc7ce4da-2166-48c7-9f17-85194547194e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi trying to find my super number",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e0a6b257-3197-475f-9376-2f0455cad8e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where do i find my membership number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aa6bff33-4aef-4b83-90df-3ad3aa1e15b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can I check the account name with account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b1ee8ffe-ce74-401b-8bf9-7713e5dc1726",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i access my super account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9fad5630-a3d5-4d2f-878b-0046eaf19c35",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i get my bank account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3e051138-9d39-4fee-b4f2-35b06d1e318b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I find out what my account number is",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "b75b65ac-499d-4644-b536-a11a21e29818",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i find my account number?",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "9c619d23-9de6-4c9b-a591-b43eefb74a18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find my membership",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0ee71f95-95e9-46fd-923e-2cb412848afb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i investor code",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "32d3d9a5-4afe-4931-b8ea-f49cc610c7ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i know my member number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6a071801-5221-4852-ba9f-d3c8ea2cc1ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i see my account number ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e57ee3cd-6c50-4fbd-85e8-1db7d1e7639e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i see my account number?",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "9b9fbcc6-80ed-4231-8b54-a42e036408dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to check your account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9d233bb1-47b6-4220-95d6-807746b68189",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying find my member number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fe934b2e-0f77-4930-a2c0-205687fa1715",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can't find my super account name",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "44b82f1e-7b2a-4fa1-8d74-3118a7304b31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i don't know my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "4ab51e7b-b18c-4649-91e7-6e702491babf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i dont know my account number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d84efe2d-ad08-488a-a6a6-3bfc30a24f01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have an outstanding super payment and have been asked for member number and account name where is this detail",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1931e627-a6e6-4af3-8441-1cb06c2a1dd6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i just want to know how do i know my member number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1c536c7d-5564-4ce4-ac02-cd45e3c4870d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to confirm my member number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "06cd3a24-926c-4a29-8811-14d39e460581",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to find my account number / investor number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5002ca50-3320-4ec4-8c1f-39555c5e4f67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to find my super number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5aea9d5f-5cc9-466e-8b6d-2c9470ee2962",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to know my account numbeeer",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "55b20a03-20d1-42b2-9ea9-80e0ace484e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to know my member number please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9f7c923a-a6ff-4d26-b5e8-9d4af339fed4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im looking for my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3feeae9e-d701-49aa-8ddc-b2456283254c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im wanting to know my member number its bob taudien",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bf2e6d8c-6bf0-4fa0-90a2-cdf2fec4d291",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is it the same that account number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "69984e43-75ee-48ee-8ecf-a22ef4e8de7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is my account number my member number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7dea45d7-9299-44a3-b803-8981f39de094",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is my member number 111111111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2a919e53-ce3e-4faf-9989-aa0a0fe36110",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is my member number the same as my account number",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "4261322b-5b0d-4eda-8b87-6dec4b9f3d2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a member number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ccd15119-997e-45ed-9404-02fd00558949",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is there a way to see my account numbers",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "b8aee6d1-d81a-4783-b1b0-484d99109252",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "let me know my full account number please",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "58327198-d85b-47d7-92f3-eb9b309042da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "member id / client identifier",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "34fdd5ec-e8de-456c-a15b-a4a344031a72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "membership id",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "71b00a5d-dbdf-4691-bb96-2402283deb1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account name",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8e5b929e-8b81-4e68-9b57-b870e2c72e5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my bt super account number",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "47d54050-df27-4db4-8ce1-408233355b69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my investor number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4999e54c-0f0c-4632-b91f-f48e6c1c4b69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my member account number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b4804782-c5f8-4ae9-af6a-fb0b1a0957c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my member number account number",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "8958772c-65b3-4eb3-a528-b1d9fe1b312a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need member number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "653547d4-c5a5-46f8-a087-565419976371",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to know my member number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c40e4c6a-8e5c-4b68-9a69-91f33a1b34b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me my account number for my savings account",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "f9f5e546-f12b-4f21-bea3-889a609f879a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trouble finding my bt member number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "15abc646-5b73-4547-8481-c08cacf8f432",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to get my super no",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2aca284d-b4cd-4602-94e3-4b07454c96ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what a my bank details",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "0c19403b-d21f-4f01-81a0-67340aec6f3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trouble finding my bt member number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a04bd293-69c3-4416-b132-3812e3fa2c2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to get my super no",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e4bbd0e4-d6ec-4e98-8523-e30fb91b3318",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what a my bank details",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7353f248-ffab-49f1-9ad3-28507ce641e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is member number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e1e22e73-a713-4a4c-8724-98766b75f46f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my account name",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "509768ab-1448-4a64-bd63-931a706713fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my account name i am trying to complete the updated form for my employer",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "976d28a1-c428-4540-88a8-02d3510f494f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my account number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6f464e42-a6a2-407a-b11f-6b598cfb2ec1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my investor number for individual funds",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ec407fdc-232e-4a51-9cb2-ab07e126f94f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my member id",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4e68531f-b9f3-4812-ab03-18966980444b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my member number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f87cf71f-4007-469b-aadf-d7e828b62e73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my member number please",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b0858839-23ec-46ba-9ae0-14cf67b2544a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my portfolio number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "567d05e8-9a36-45f1-a4b0-c2f0e4832789",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my product type",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0ae9561a-bcc2-40a3-a79a-730470f57b92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the duns number of my account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "09cfc179-c784-4be4-b559-d5d6808fa599",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the fund name for account no 111111111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "326c239a-349f-4a7d-af83-b9890cac272f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the isin number of my account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a75ee8a7-25da-4fe4-8e76-9137a0c600b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is this account type",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b80652ff-d6e9-457b-ae5c-29e72fe09e26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is this clients account number",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "15f8e3f5-ae5e-4dad-bd6d-578a40426aa0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what type of super account do i have",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d7dfabb8-dd37-4e23-a5d5-33b4a76c6fd8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's my account number?",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "758647ab-2d35-4bd0-a951-1a37ed1926ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's my cc number?",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "5bf4d430-b064-406f-85ee-0e7c85638892",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the full account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "ba4dc163-dbe7-4603-b39f-d4d21398ab72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats my account number",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cbacac11-99dd-4839-9e72-55dbce51e1c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats my acct number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "5c01db5a-7c35-4ba2-82fa-64d9f839b6cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats the account number for my savings account",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "4f99f6a0-48ec-49ec-ba29-cbc38bd7e3a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can I find new account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "133d419e-0687-41f5-881b-0df092f1ea12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can I see my checking account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "96cfa57f-25c9-4f93-8525-b58cf81713ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my account id",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3930e807-d42e-4c32-9d1d-41d3de304647",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my account member number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eae26313-5e58-4dd4-8b40-013da2c6dec8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I find my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "29bb6abf-75f3-4bec-a0aa-0df8f701200a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I look to find my account number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4669983d-ca85-4ba3-8183-30dda78eeebc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find a customer number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "14c07cda-ece0-424b-ad41-39ab52c6daa4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the account id",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b35a6f60-f494-4c5d-9fb6-536b8d7eefc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do i find the acct number?",
+    "tags" : [ "prodteam", "test_gold" ]
+  }, {
+    "id" : "8a4330a9-43ed-4318-9591-da0c06abba7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do identify my member number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b5677f13-1a53-47a8-8a74-11e78e3a047a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where is my account number",
+    "tags" : [ "prodteam", "test_gold" ]
+  } ]
+} ]

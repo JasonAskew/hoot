@@ -1,0 +1,54 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "kcb_feedback_survey_seed",
+  "intent_name" : "kcb_feedback_survey",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "7e8e3b50-7298-49de-a60f-1cee85e83056",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Feedback"
+  }, {
+    "id" : "e9a2d737-5f6d-405e-84b8-fb1fb833d48f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Feedbacksurvey"
+  }, {
+    "id" : "ca9c8304-8612-4c8f-84e0-b77d07564767",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Feedback"
+  }, {
+    "id" : "732bf65f-e9c3-4d32-83b7-2e188af12019",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Feedbacksurvey"
+  }, {
+    "id" : "f00710e2-bc63-420f-9fa6-d2e0ebc4c851",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@rating Ô£ø√º√´√©}",
+    "tags" : [ "unhappy" ]
+  }, {
+    "id" : "3882b0da-ded9-4b2b-abc0-e99da2f6940c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@rating Ô£ø√º√´√ß}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ba3e4182-d906-40fd-aed0-8bb01b1a1f47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@rating üëç}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "907da73c-dd26-43ad-9bea-2b1a95c1beac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@rating üëé}",
+    "tags" : [ "unhappy" ]
+  } ]
+} ]

@@ -1,46 +1,57 @@
 {
-  "categorization" : {
-    "skill" : "portfolio_information",
-    "tags" : [ "reports" ]
+  "categorization": {
+    "skill": "portfolio_information",
+    "tags": [
+      "reports"
+    ]
   },
-  "name" : "bt_positions",
-  "display_name" : "Positions",
-  "description" : "Intent to show what positions the user has",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_positions"
+  "webhook_name": "ClarificationIntent",
+  "webhook_params": {
+    "default_response_name": "bt_positions"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "CANCEL"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "CANCEL"
     },
-    "outgoing" : {
-      "allowed" : true,
-      "allow_resume" : false,
-      "max_outgoing_interruptions" : 1
+    "outgoing": {
+      "allowed": true,
+      "allow_resume": false,
+      "max_outgoing_interruptions": 1
     }
   },
-  "display_sentence" : "What are my positions",
-  "alternative_questions_enabled" : false,
-  "slots" : [ {
-    "name" : "kim_security_sector",
-    "entity" : "KIM_SECURITY_SECTOR"
-  }, {
-    "name" : "kim_company_name_ticker",
-    "entity" : "KIM_COMPANY_NAME_TICKER"
-  }, {
-    "name" : "account_type",
-    "entity" : "KCB_FLAT_ACCS"
-  }, {
-    "name" : "account_number",
-    "entity" : "ACCOUNT_NUMBER_PATTERN"
-  } ],
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "messages" : {
-    "IntentMessageCancellation" : "Canceled. How can I help you?",
-    "ValidationErrorInvalidkim_company_name_ticker" : "That's not a valid company. What company?"
+  "display_sentence": "What are my positions",
+  "alternative_questions_enabled": false,
+  "slots": [
+    {
+      "name": "kim_security_sector",
+      "entity": "KIM_SECURITY_SECTOR",
+      "message_contents": []
+    },
+    {
+      "name": "kim_company_name_ticker",
+      "entity": "KIM_COMPANY_NAME_TICKER",
+      "message_contents": []
+    },
+    {
+      "name": "account_type",
+      "entity": "KCB_FLAT_ACCS",
+      "message_contents": []
+    },
+    {
+      "name": "account_number",
+      "entity": "ACCOUNT_NUMBER_PATTERN",
+      "message_contents": []
+    }
+  ],
+  "machine_learning_enabled": true,
+  "messages": {
+    "IntentMessageCancellation": "Canceled. How can I help you?",
+    "ValidationErrorInvalidkim_company_name_ticker": "That's not a valid company. What company?"
   },
-  "multi_inputs" : false
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_positions",
+  "display_name": "Positions",
+  "description": "Intent to show what positions the user has"
 }

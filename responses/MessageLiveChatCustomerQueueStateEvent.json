@@ -1,0 +1,25 @@
+{
+  "categorization": {
+    "tags": [
+      "live_chat"
+    ]
+  },
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "AVATAR",
+        "payload": {
+          "state_name": "waiting_bodymovin",
+          "display_mode": "PERSISTENT",
+          "title": "You're now ${LIVE_CHAT.queue_position} in queue to speak with a live agent."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageLiveChatCustomerQueueStateEvent",
+  "display_name": "In Queue for Live Agent",
+  "description": "The customer's position in the waiting queue changed."
+}

@@ -1,0 +1,1846 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "44_closeacc_s_test",
+  "intent_name" : "44_CloseAcc_S",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "7e2e67fe-ed34-49dd-989f-d63bfdd02ed8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Account closure form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "567efb14-82dc-4c47-8e8a-36ed8db8cb94",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Account closure procedures",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a5135f70-ddbe-4e39-973c-9974b2317d06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Active close account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "982fd1aa-fef9-4ee8-b098-cde2c7b11fbe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Actually I want to close my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0588155c-34b7-4b22-99ed-5983746496c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I cancel an account online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6adc3e65-d26b-4abd-8920-fdf9c231175a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I cancel my business account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "95bb963c-6789-4a46-a59b-784f08ddc93a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I close an account on my mobile app?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7ec9c447-ba36-4929-b0c2-2c1883d9ce63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i close a account online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1d3a2bcc-de19-4cac-8ec9-69eb690fb1e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i close an account online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fb837494-2cb3-4375-a8f0-4762797fb8e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we close bank account onlibet",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "519e63cf-9a17-4a97-b436-74db3ff701d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you close my accounts please",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d329d593-ba4a-403c-a056-fe43394cb0c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you deactivate my bank account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c77aa8ff-e769-4356-9df6-95b767811fe7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please close my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "517e30d1-cf37-41f3-8fe8-01d6623867cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cancel super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2bb1f90b-880f-47c4-956e-641f900c1e19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Close BT panorama",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6b61c324-2b51-4c70-9dd9-b58180a7de43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Close Super account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c0f5282a-ca6a-4268-8c90-0e092b980b10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Close digital bank",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "b3c4a684-fe48-49b6-a6c7-015788eab86d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Close esaving account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "e53da87d-0cc0-4f42-86f1-83a88e54b72a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Close fdw account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "cf9c5249-fbee-4c9e-b368-b47b743d5a1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Close my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0d3226b5-3f4a-4819-9e93-f2f147e08cbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Close my account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6366ca7d-41c8-483e-bece-1a94c819f122",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Deactivate account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "31eccf4e-adc0-470c-b3ed-4d3e29f6ee9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Delete account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c8f741b7-55db-45fc-aac0-d13bc4a7594f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Delete my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4e95ecb3-e3d8-4462-b34c-e56d65ac0659",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Form to close an account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4b6b37e5-78cf-4c88-9e61-7c2972d870ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Good afternoon, I would like to close my account, how do I proceed?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c43f28da-5b02-475d-b5c6-8407e1c5f555",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "H I want to close my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9022fc21-9120-4bfe-b669-fcc05b9bca77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI. I need to close this account. Can you let me know how I do that. Thanks",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "2be67648-329a-432b-a2af-f4e411045451",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, can you please advise what forms are required to close a BT Panorama Super account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a953d603-45c4-4029-92ed-18a1dc35b33d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello, i want to close my US account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3a1443c2-f556-4757-865f-fde027817959",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Bob, quick question. Where can we find the closed accounts in portal? -Bob",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "f39c8156-48d9-4430-8725-92756288fe16",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I want to close my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "71089760-5398-4278-a561-f3f47d89783c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I would like to close this BT Super Invest Account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "3d06b539-fd2a-4a21-9059-f95b0100ef60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, We need to close this accidental duplicated account - HMT Bob Superannuation Fund ‚Äö√Ñ¬¢ BT Panorama Investments ‚Äö√Ñ¬¢ SMSF ‚Äö√Ñ¬¢ 111111111. Do we need to complete a form to do this?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "30d917bc-fdf2-40f7-a78e-bbe9e7804345",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi. I would like to close my BT Panorama account, please",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7aff93f9-6443-43f0-a472-c9062dbf1db6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi. I would like to close my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c6c35d68-e5e9-4298-a730-bdf75f4f4f18",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ho to cloce account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "aa6f1ab1-f4e5-4ff6-8ebd-91db8c882443",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I cancel one of my accounts",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "798214e1-e281-4617-9619-f7b8f52f8d6f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I cancel this account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2486a365-6db4-4e85-815b-47896c1e1719",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I close my account‚Äö√Ñ¬∂??",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6ddf1743-7e69-4cec-b514-b4caf352d038",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I terminate a GIRO arrangement?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "f043e1c6-c36d-47e0-8398-3cb1aa8f2139",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How closed account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "d4e259ac-fa5d-496b-aca3-f36479c4423a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I close an account?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "0a01dcc0-7740-4a53-836b-627edde8bda4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I close my account?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "061ed5b5-c27c-48d5-8446-8a40accc4190",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I close my bank account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "50b0e3bf-fb4c-4eba-963c-e71a608f6e92",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I close my savings account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "498cad4c-a055-4656-bf5d-701d38c8df8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i close eEveryday saving account online?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "445ed451-0881-45cb-bae4-183bdab93338",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How i can close my personal account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "de6330d2-e1d3-4ede-861f-0525ae01cba9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to close BT panorama account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e32217a7-2cb8-4de3-90ea-c75724a45daf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to close bank account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "7c2ec91c-e834-4655-bb8a-8bfecdbab04f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to close my mutual fund account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "862175a3-05f7-435f-9643-dea62d284ec2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to close my mutual fund account on digital bank by bankname",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "a2304b2a-49ad-4e05-83a0-e120e0be4b2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am now 11 and no longer working.I would like to close this account and transfer the funds to my bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e8cec158-032c-4f16-8eab-ec9d9fb4c363",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am overseas and I want to cancel my cash account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "1ff4c475-5dae-4544-8106-bd6d5c504251",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am overseas, how can I close my bankname bank account?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "bdc3d954-27f0-49e7-a59b-2e112afb9dc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Account closure form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "090c82f2-3af6-4ff6-89f6-ed67d1d51df8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Account closure procedures",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "54cbcc34-f66b-470c-8204-6b4a39343880",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Active close account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "c7c77486-ebda-48ee-bd9a-ac4df666e0be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Actually I want to close my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "785a45d8-de47-4810-bf82-256430fc18e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I cancel an account online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "59aedc79-9b8c-4921-a474-663ce4a89a26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I cancel my business account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "05476abf-cc44-4eae-9113-1c99ffa744c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I close an account on my mobile app?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bf41cbc4-f5a6-4537-9ca8-ec402ebf2e96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i close a account online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "512ee245-cace-4432-b1f5-3adeb841fa7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i close an account online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f0cbe2cf-0021-4a29-8652-03ff4315935e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we close bank account onlibet",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "c0b03c4a-2ffe-4e04-af0c-624191c94cce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you close my accounts please",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5be1aae7-0939-4926-8d7d-74909443b8ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you deactivate my bank account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fde22494-7d3a-4ad0-8800-449ba69358a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please close my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "12e04fa2-1ff4-4be5-9c51-2991810f2f5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cancel super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "170f9c5d-91e0-49be-b015-ad852c2caede",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Close BT panorama",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bb34f744-bec3-41d1-b0d1-27f5b27774aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Close Super account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "cd124905-d6ba-47e1-9305-f347b17cbf81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Close digital bank",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "0ee2ccf4-5a63-4cb4-a99d-bb1f42dff4b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Close esaving account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "ed954501-2448-4cc4-a375-d74df65403a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Close fdw account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "5c7e2af8-c280-465e-b19d-6f51ff636924",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Close my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f0e984c9-01db-44e5-a147-4a57413223ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Close my account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8706c599-119e-4910-b1de-77309d1213c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Deactivate account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "45a1a96e-dee3-472b-9878-c28df6def9f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Delete account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b9521c0c-4ea1-4929-900a-01f87545d0f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Delete my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b4ec389e-b883-4006-9232-b043c8966b86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Form to close an account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4defca02-04e5-4f2c-8360-13dd601a65b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Good afternoon, I would like to close my account, how do I proceed?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1fdefb3c-78e6-4b19-b635-2e6cab267afa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "H I want to close my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9b867b59-edbb-420e-ac6d-bfaa558e9b39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI. I need to close this account. Can you let me know how I do that. Thanks",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "63dc3912-78af-4258-9571-10b714591e60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, can you please advise what forms are required to close a BT Panorama Super account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "15bcdcd7-8197-49e7-8ec7-f2ff343cafb7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello, i want to close my US account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "86f5c30d-36a8-42c1-b5e8-feae5e746106",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Bob, quick question. Where can we find the closed accounts in portal? -Bob",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ae55b80c-21ce-4990-a886-a9fa81db5aeb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I want to close my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "db80bafe-2cc1-4f75-b1f8-7ee3778c2a91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I would like to close this BT Super Invest Account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "0dbc4d73-4658-4e4f-8b8b-a08e89dd9425",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, We need to close this accidental duplicated account - HMT Bob Superannuation Fund ‚Äö√Ñ¬¢ BT Panorama Investments ‚Äö√Ñ¬¢ SMSF ‚Äö√Ñ¬¢ 111111111. Do we need to complete a form to do this?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "256b45dd-71a2-471f-8747-d852233347b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi. I would like to close my BT Panorama account, please",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "3b0ab535-3734-4f57-ba95-0dcd63ede44f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi. I would like to close my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4834b158-b733-4495-8467-b6fa4ed71de6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ho to cloce account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "2d1738b4-311f-483d-bb4f-f1e7370a12b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I cancel one of my accounts",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "cdc0d30c-afe1-4976-9f9e-eb0990ca5c4c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I cancel this account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "75a2f61d-01b7-456e-a0cc-f53123fb8326",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I close my account‚Äö√Ñ¬∂??",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f3bc8ba1-bfb7-414d-ac03-f5e01a1a64de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I terminate a GIRO arrangement?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "87483a14-058d-4850-ae7c-ad709532fa70",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How closed account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "719ddc50-38d0-4a52-a764-4943f3ceade2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I close an account?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "cc8afaf6-c946-488a-b9e9-ebc2b09657e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I close my account?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "e92a83f5-c7a7-4619-a2e8-eeabeea6d2a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I close my bank account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "9d083c68-4df8-46a3-858e-a9a04390fc5b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I close my savings account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9ea7a04b-1a85-49e2-97c3-be1a582298d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i close eEveryday saving account online?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "61759713-e8f1-4177-af64-b05136e11185",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How i can close my personal account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "54e24a1e-1dbc-4f33-9868-56768bfa8973",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to close BT panorama account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3f6774d8-ec7c-4d67-977d-c00d542596dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to close bank account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "aeac1689-a8a4-4b21-be3a-1214b0f0245a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to close my mutual fund account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "0978b32a-d3d1-40a0-b1d3-81a3e53c9809",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to close my mutual fund account on digital bank by bankname",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "e6f79bc5-370b-4f2a-b98f-50c158daf406",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am now 11 and no longer working.I would like to close this account and transfer the funds to my bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "07af0b25-0c29-4a7f-9fe4-bd0525de639f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am overseas and I want to cancel my cash account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "d1d75d9d-740f-4bf1-be84-be4a8f33a643",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am overseas, how can I close my bankname bank account?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "ce9e099c-8429-4837-89dc-79b1f8ede8de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need pension account closure form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4f6f40d8-c642-4b5a-bb72-be3a31e2f1a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to transfer out the funds in this account and close it.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "33db9ca1-8c95-4b1c-a21a-a475ea7f4c75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want to cancel the one that I accidentally created it has never had a deposit or transaction done on this account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1387ef2c-5299-4316-b9a4-826107f43d89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want to close an account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fcd671a8-5087-4bde-9cd6-4bb92975c621",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to close my account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "f5b7ceb1-b945-4e3c-89bd-2bdcc1770590",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to close my loan?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "2ae2db4f-b6b9-4917-bd37-d7db840b748c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to close this account - please advise how to do so",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "f5772bcd-a59b-44ca-906a-30fbab788627",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I'd like to close my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7fe469fa-8a26-4641-bc25-012a45439ad5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I'd like to close my account please",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a03b6433-ba56-4c85-afe1-b43e89782929",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Investment account closure",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b68fd920-d29f-42d6-9e2c-cb41ccb33e92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Looking to close down my BT Super account, how do I do this?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "53564363-f28f-435b-9464-ae25c1dcaa5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Need to close my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "41fe4f02-4372-4b7c-b35c-836e725a250a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Super account closure form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6c687e65-4648-4ae5-ab07-62bc8e774d8d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Terminate home loan accounts",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "379937e8-07ec-42d7-bb98-b6b8a0239cfc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Update on closure of account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3f3121ee-6903-49e6-81aa-155461c8d7dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Wana close my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9019cd76-974c-4ad3-b97f-c5861a8b99e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What do I need to do to close this account done as we are now totally trading shares with our Westpac account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0d97f5ef-d10a-4e6e-aec8-ad68def7e863",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What happens when I close my Multi-Currency Autosave (MCA) Account?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "aecb6fa2-e289-40d2-b30d-ecfc86fad842",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closing form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a5122bfa-f294-4604-a63c-a2020ced504a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closure forms for investment account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a1200842-d167-4c4f-a756-f424862d0d19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closures",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b49f6a40-9f64-4c83-93bb-4780be48600a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "accunt closure",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ee6754b8-62cc-489f-981c-3718e6f74ad4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "and close my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "67685244-1301-4a29-ae20-3257253e8ea4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "and which form do i need to close the accoun",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6591e212-90d4-4d3a-a708-da9a0fc64ebf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob as well close my account and i will move my money elsewhere",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cb2c60cb-189f-4785-b8a3-612d59c505c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt closure fom",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "72b8f2a8-6e57-4203-a74e-edc0e3e05d41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama investments smsf closure form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "aa83a7ce-bbf5-471b-82fe-a8b98b4937eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super account closure form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "376c782c-63c4-4221-951c-80d8bd5bc479",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i close my smsf",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fe95698f-45e9-4ea8-a3af-577eccf6c9d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email account closure request",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "35b12cfd-9051-4bca-bc7a-d7c7963cc929",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you forward me an account closure form for mo1111111 account please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8f68363e-b390-4e54-bdf5-ce0bee59ba8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel my super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0f6442c3-d195-4d40-a5c9-5f225dad1bb8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "and close my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "463a0e85-643d-4f30-86e7-8a2a6184a278",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "and which form do i need to close the accoun",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4d87a94a-f85e-474e-b5e1-e375dfcb6919",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob as well close my account and i will move my money elsewhere",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3dcffb74-0187-474e-8fff-37c77e0c2d2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt closure fom",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7f9e50df-b032-42d5-8cbc-9a7d7f293830",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama investments smsf closure form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1fed3980-1f48-41a7-94b4-6b0cecea068b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super account closure form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2bd2b5b4-59e0-4b10-9538-6851c8fc5518",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i close my smsf",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8ae1b778-f590-4ee0-aeaf-e45d07bb8e95",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email account closure request",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "352354e6-894a-45c7-9310-71844afe31eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you forward me an account closure form for mo1111111 account please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "70ce6a52-4e25-4ebc-b8f4-0e59edb38f3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel my super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1b27f91f-dcf8-4a82-873b-e4d37a325f6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "and close my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4fc1d857-fc58-4c2e-b980-114214eb44f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "and which form do i need to close the accoun",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d8e98e4b-6735-465b-84ee-bd4cecfda5db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob as well close my account and i will move my money elsewhere",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0698d7cc-057d-4bf6-bb18-e10ba50c746c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt closure fom",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7cfc34ad-cbe7-4f05-82a0-4124d06a3fc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama investments smsf closure form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "809fc201-4f29-4a42-8f87-3d19be01e6e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super account closure form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e4a39dea-bf77-48d5-8e6f-14a69789469b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i close my smsf",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "179b7ad4-cdff-41ad-b252-43981710387a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email account closure request",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fe7b46da-9beb-4d6a-8cab-efd74b6ad042",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you forward me an account closure form for mo1111111 account please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "059ef8a9-5d7c-44ef-a221-74982b842a06",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel my super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cad50f06-5e0b-44e9-9c2e-1adb8d2fa285",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "clients need to close account where can i locate form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7f21d456-856f-4e95-9f74-cdcec276a609",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "close Esaving",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "debc6e18-2425-444c-86d5-39a2ea1bdcc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close a current account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4c81f30c-bfc6-49fe-ae2c-255745907a90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close account - how many clients are required to sign the form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0376436a-3eb3-4e20-a6ff-34c447aa927f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close account form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3f3eb6a2-7fd4-4d4f-aa38-9b4aacb42833",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "99c507c3-060b-4365-8f22-fd44c3b8fb73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close annuity",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "02eee23e-722f-41cf-bf8a-2e9147e44d07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close bank account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8faf7f3b-613e-471c-8280-d78373bc12d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close bob annuity",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "fcb1c885-0c8d-4e43-bd33-fc31cb9839ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close empty super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9f21a215-2d83-4d23-bee4-ec1805bd5604",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close fund process",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6c12bb52-9dd0-47d4-9268-697d095c9d11",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close my smsf",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5b301d5c-dbea-4b64-ad32-fb630ec24181",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "close super account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "01bb7c4b-e023-416e-a655-a754bec0c879",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closed account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "13b7850e-c6d9-492c-bc77-b5f7a9d37fec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing an account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d61ef863-2804-440e-9f34-87b4615b9513",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing my accounts",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ebaf9e95-8bc8-4595-b537-627590b7e23d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closure confirmation",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ed3d993d-6f76-419c-8868-0ca2e74aa4bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closure form",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "362ae26a-d795-4a22-997b-e392eeab2dec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closure of an investment account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e8c392a6-e834-4c8f-af07-d07e766def5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closure of annuity for account 111111111 we have received advising us that we can complete an investment account closure however i cannot obtain the details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "08fb0fb8-b6ad-44c4-b499-54f8de1483db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "clsoe my account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5f59bde0-2bb5-4dd6-9306-a585734afb6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "confirm account closure",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6c1a3e56-1aba-4002-b5ba-c72cf8b5972f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "confirm account is closed",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c8f2e9b0-a2b4-4e9d-8412-9a21fa42ed63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cost to close an account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "56bb247a-5773-42f5-9d44-be388b3502cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could i please close this account and transfer the funds to my westpac choice account so that i can pay out my homeloan",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6806aa5d-f84f-4e0f-8539-9939de2ffc63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "delete my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "853de11e-82bb-4e04-9d79-81218184fed2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need to sell down all the investment before close the acc",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ad284ae3-b416-417b-ac43-34762b22d55c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you need a signed form to close an investment account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ea22362-5173-4a79-80c7-afdf93795cb8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does the account automaticall close if you transfer all money out",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a7ebe076-40bb-4d7f-9dbe-43905869ff6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "estimated closure time",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7ee5480c-762c-49d9-ae29-bad54a9e4c0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form to close investments smsf account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "740b8530-5a43-4e05-be87-913489c6c150",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "full redemption",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4c1f22e0-082c-4ed1-8b21-1bac9397aa66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "full withdrawal and account closure",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1f855666-72e7-421e-a772-168c2684cac2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "going to close my account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "270a6884-f00b-4f68-ade9-92b1e6b2737e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning how can please transfer the remaining cash amount of 111.11 $ we want to close this account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c1a003f4-2fc3-4989-b6d1-90b00b7ccfe4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello do we have an authority to withdraw and close the account number 111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b47cf17e-8d09-4dc4-b63d-e77cd1a9deed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello how to i close my bt account cheers",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "654b92f0-8df9-4e30-95f4-8d81cd77f013",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help about my closure account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b02c9186-03e9-473b-8135-13d6a97bd570",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help find investments account closure",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8181408a-0760-4c78-bcec-9f5658412c84",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - how can i close my panorama account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a8b4b83e-bade-42cb-88a5-a10147129cc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i have these accounts closed and all funds released to the beneficiary",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "13dc9589-9d2f-4782-bfca-75a4b3a1d111",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i close my account and refund my money",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "60ce514d-17e7-48bc-a2e1-b879528e9fb4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how to activate my close account please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b5170313-97ab-411a-ad9b-bc7e5ca857a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i 'd like to close this account but cant find the form please assist",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "629f94ad-324a-415a-9a1c-43bfdf797466",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am looking to close an account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e48e1f19-155c-4fb4-b9d3-09e96195c608",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to find the account closure form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1810566f-beb1-409c-939f-90a37077f1f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need an account closure form please",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "b9169d8e-82ff-4e8e-b490-34b11181691a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to cancel a user and i keep getting a message that this cannot be done",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "99efabd6-e673-4714-813f-a1de797720c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to complete a full withdrawal and closure for an account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "746a5030-aea2-4b61-bd50-590d87d0f0de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to close account 111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "51d555df-f806-4ab0-831d-83475179f822",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to close my investment account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b80df913-cbf4-4a74-b1da-b645cbe326d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to deactivate my account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "78d91769-f09a-47ac-aa61-823a5ce10a28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to know how to close my account please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a5836412-a42e-4c58-bfd3-dd8052c02f9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi l wish to close my cash management account 111111 111111111 regards bob trebilco",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "49b5a8e6-2bba-47b6-a88a-dda25bc5d31a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team do you have an account closure form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "9dc9eef7-7593-4b2c-b5b5-cf4a2654e444",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi we are wanting to close the a / c and roll to another super fund - could you advise where i can find the",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "36484f66-7cf6-4458-a349-14a1da720cdb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi we want to close our account 111111111 received 11111.11 $ yesterday but there is still 1111.11 $ left and we would like the remaining",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9a27f091-5653-42af-97a0-b5a2c17589db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hiw do i close a pension acc",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "45ab4c03-bba5-442d-aa28-fb246678dae4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can close my accounts",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "741d8833-05a3-4db1-b201-314034f5067d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close my current account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5ddbc898-60a1-479e-9828-f8df62e9f8e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i close this account please",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a55f9aa2-a648-4f86-8afb-2317c02e7d8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i delete cards",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "df2b56ae-46a6-4ab2-99d1-3c03e3289a1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I close an account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b38e823d-7f5f-4a6c-b33e-673335c9a6aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do delete an account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1679148b-fd39-4b6b-b2f7-fa9f84e701f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close a panorama account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "78e0de7d-e3e9-41cb-9390-980eb44d563e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close an account that a client is not proceeding with",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4a922f09-004b-4d11-af5d-39634fae4b7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my account and claim the proceeds",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "bd5702ba-71e6-4bea-8e89-34a06c71f502",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my account, i have sold my shares. I have withdrawn all moneies except for 111 as it wont allow me?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3cf864a7-ba8a-40ac-b024-87ea3485eb99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my bt investment account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "02cbef6b-7a3c-4d74-a8c8-0f8892e2ba7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close my cash management account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2569532f-978c-46c5-b51e-0d07ca26afd8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close the account and return the cash to my everyday account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ccdd7955-b875-4201-b5b5-20d6cfbaa6cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close this acc",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "df4be21b-9f27-45e3-9841-5cdbd41f38c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i close this account and transfer it to my other super account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e1ce2306-97f7-4524-826a-3d397fcaaf8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i terminate this account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dca3af58-375f-4755-9294-a551a2eae796",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do we close a cash management account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2757de16-7cc8-4926-9fb7-ab665ccacfb3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do we close am investment account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e9919e49-a18c-4e31-81b1-22f4438f84ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do we close an account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7bf2b60d-20f4-49da-b3fb-f4943bd21c90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do we go about closing out bt panorama account for good and what happens to the funds in our account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4ec2483c-edc1-4a68-a082-63ffbe8f69bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to close account super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "70c5184a-37ba-4edb-9943-9d8217cf0d55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long to process account closure",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7d0d53ad-a055-4180-80c6-e6d30a71bde2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close a pension account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7e2b608c-73bf-4a8d-8dcb-9fb4b28c0e56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close investment account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9e61cef4-9b1b-4f07-8df7-49e772ffd341",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close my super acc",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1e2056d1-c4de-4ad9-8fb5-6a928bd33a89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to close trust account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "cd6dc505-6b59-4e3a-9334-4b7643797b59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to sell/close BT Panorama",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a7c5f0cf-808c-48e1-97ee-84db8c15c76c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to terminate my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9290a539-6892-49d6-9fa3-f6c2f7b9e99d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i 'd like to close my account to get the remaining 111 $ in my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6f89227a-75a9-463b-b70f-e2ecb34856c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for account closure form for bt panorama investment account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "890ba8ad-f8ce-4354-9376-bb99cf9588d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am now about to go into pension stage and would like to close the bt panorama super account and have the balance sent to",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "38c14e4d-b8aa-4126-855d-70ed71aae6ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to find the correct form for closing my super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7dfa05cf-5df4-47a7-a260-01bcc900c51c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i are trying to close this account and it still shows 111.11 $ how can i close it to show zero",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1e37fa39-1f46-4f41-996d-2f166ef71028",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not want to close my super account just my cash account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fb38dcda-01ff-430b-9ddf-b6ee4632c613",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have just become a cotrustee of my mums smsf and want to close the fund and distribute funds",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8eb29a0b-d3f6-4e7c-a2da-d9cb9419078e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have sold everything now can i close my account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ab93d50d-cbee-41d0-9013-47715b0a182a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the form to close an account and roll into1 an smsf",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a6469cb0-5fa4-4c5e-b4c4-3ba8ad3c24c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to close an investment accout",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ff4df1d0-2b59-4004-b8a2-4f15e2fde806",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to delete this account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fbf3fb99-ea82-4dae-aad4-15aee5b20939",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my account and send all money back to my west pac account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "70435958-5eaa-4cad-b270-ef6bff80a338",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my account and transfer all funds please",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b364aca9-c5bb-4e3c-9e8c-580078fc049d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my account and transfer balance to my westpac account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9f267fcd-fd92-41da-9bf3-a25704d8f5c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my bt panorama account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "534d7536-5345-469a-b44c-fc848e31cb88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close my cash management account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "de09d190-847f-45ca-b22d-6e24aaecb6ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close this",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e5e4e154-5415-4afc-a548-c6989d2320f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to close this account i opened in error can i withdraw all my money",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_all_cash_withdrawal", "test_platinum" ]
+  }, {
+    "id" : "df8b3abc-e1c0-4e33-96a7-c904f8e0d585",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to do a full roll out",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6a1d7e48-7936-4a18-8390-2c2cbb4640ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to leave",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "07b68ec5-265d-4467-8062-2628fd4b6475",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to terminate my account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e822c1df-dac0-44f6-af44-d718835eee6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to withdraw everything and cancel my account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c1254d92-5920-4681-84d1-07c55c710122",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to cancel by panorama investment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "91a3318d-72ba-462d-b008-32987ce2333b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to close this account - please deposit funds to my account 111 - 111 111111",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "51ebe4e0-77d9-410f-ad3d-c0fc19407451",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to exit from this fund what do i have to do",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "653adb6e-28e2-4c52-8290-e24601aa8ef3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to transfer the balance of this account to another superfund and close this account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a02e9ddc-fcfe-461e-8a3b-eb7dddfc0bb7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if i need to completely close this account how long to get my money",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "30793636-f24c-499e-82fe-5fa5f2da1fc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in closing an account can the client nominate a receiving bank account that is not in their name ie accountant 's account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "70b0523f-a690-4d29-bd68-d8f73d4770b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investments account closure docusign",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d0d1cc47-f85f-4087-baf3-5f171ef6fc7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investments account closure form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "04f227cc-a00f-44a5-99f3-6e618df8a839",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a way i can close an account and pay the proceeds to a different account than nominated on file the account the client",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0666772f-54e9-49c0-b4cb-74fa4fa81abc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is this the bt panorama account closure form to be completed",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c6a6f267-cf28-43a1-8def-2fc25b634bd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "morning witch form do i fill in to close smsf",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ba79e5ac-407d-4e84-92a2-8174809ab07d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to close account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4ea05c78-15e3-491a-a135-22d3735cb4cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "online account closure",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "802e669e-8640-47ce-8a18-eae4a6f8dae2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama super account closure form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "776dbe82-0291-4424-9aa1-2eab38205050",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pay and close bt margin loan",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f80730b6-8df5-4d51-b74b-44bf67c129f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "payout and close account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a89b8f2b-e28e-4f61-bd63-a928adb66a12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pclosing wrap account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9d53ce08-0257-4784-a052-242f36bbf9c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension closure form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d5ba7558-b39c-4ed9-926a-de3fb35f2801",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry bob does the closure request need to be mailed in with certified id",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3b201c79-70b8-42a8-9fc4-444b58b86381",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit close account form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "de0d7117-14e8-4c8a-9dc1-3cdb68059319",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super account closure",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4e6d6a58-0c88-4f5b-9d5c-c4f76a0ea853",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "supr fund closure",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "002c8cd6-d531-483d-8e89-3bc671050da7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tell me how to close my bt panorama account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "16d0103e-5e15-427d-a400-8c08e65eb4ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that is not what i asked i want to close my cash management account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bddd4434-50ef-4786-8afa-948e5a2f192c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time taken to rollover super account to smsf and close account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9daa67a5-9e27-4299-afea-539e95891cdc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload account closure form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e335fa13-313c-4c76-b10c-b42098aed1d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that is not what i asked i want to close my cash management account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "32db5021-aa29-4ef2-a462-2515c04cd6d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time taken to rollover super account to smsf and close account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "de551285-1e52-40a3-95ef-a4144f78a878",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload account closure form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6d89c3a1-a6dc-4552-9e0f-00614ca0e92f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what form do you use to close an investment account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "616c4736-7cb9-4dfc-8bd5-5bbac47c5d3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what forms are required when closing a geared investment portfolio aside from the normal closure form / id",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a4f0daba-63d0-4d14-8359-14d7a02613f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the best way to close a client 's account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c53f8e0c-853e-4701-92ec-cb9dfd4d8d30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find accoount closure forms",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bfcae811-5cfb-487a-a517-4911c5ad339b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i get a form to close my cash management account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "821c0b0a-2ce8-4f9d-8413-c4939c5befbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the go to page to close this account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d5b67725-e24d-4101-b60e-5a01a70d2e39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "which form i need to fill to close my account can i get the form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  } ]
+} ]

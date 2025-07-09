@@ -1,32 +1,37 @@
 {
-  "categorization" : {
-    "skill" : "account_information",
-    "tags" : [ "fees" ]
+  "categorization": {
+    "skill": "account_information",
+    "tags": [
+      "fees"
+    ]
   },
-  "name" : "bt_general_fees",
-  "display_name" : "bt_general_fees",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_general_fees_static"
+  "webhook_name": "ClarificationIntent",
+  "webhook_params": {
+    "default_response_name": "bt_general_fees_static"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "CANCEL"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "CANCEL"
     },
-    "outgoing" : {
-      "allowed" : true,
-      "allow_resume" : false,
-      "confirm_if_cancelled" : false
+    "outgoing": {
+      "allowed": true,
+      "allow_resume": false,
+      "confirm_if_cancelled": false
     }
   },
-  "display_sentence" : "request fee information",
-  "alternative_questions_enabled" : false,
-  "slots" : [ {
-    "name" : "account_number",
-    "entity" : "ACCOUNT_NUMBER_PATTERN"
-  } ],
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "request fee information",
+  "alternative_questions_enabled": false,
+  "slots": [
+    {
+      "name": "account_number",
+      "entity": "ACCOUNT_NUMBER_PATTERN",
+      "message_contents": []
+    }
+  ],
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_general_fees",
+  "display_name": "bt_general_fees"
 }

@@ -1,0 +1,706 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_pension_refresh_test",
+  "intent_name" : "bt_pension_refresh",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "c1a4274f-c277-48db-966b-cd33bde8ec1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can a client's pension be refreshed",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "702109be-b981-40c0-bb1c-140865c98086",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, I need some assistance in rolling over a portion of Panorama Super into this uncommenced pension",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "48b7bb30-2b55-4ad0-acca-e7fef108d4ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, when I submit a pension account application in BT Panorama, with multiple rollovers to be received, will an automatic wash througha ccount be opened with BT Panorama Super? or should this be done",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a175ad4b-ab9e-4aed-af7f-8e07e1a4366e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I request for pension refresh for my client?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2d349703-eb9d-4c24-aae2-b500801de7a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can a pension refresh be done online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "79472ce0-152d-48cf-8e73-cd26d5969e29",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can a client's pension be refreshed",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2a3a0e44-2ab2-4ec8-ae89-ed20544e62ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, I need some assistance in rolling over a portion of Panorama Super into this uncommenced pension",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a50414df-6bba-4a3f-93c3-a364cf174548",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, when I submit a pension account application in BT Panorama, with multiple rollovers to be received, will an automatic wash througha ccount be opened with BT Panorama Super? or should this be done",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "f5f84b05-1b42-4863-b331-ddb02c5ff964",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I request for pension refresh for my client?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ecec6eb1-b188-406f-ae65-76b5300b7f18",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can a pension refresh be done online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d4d1f0ae-9ba6-4bcb-a45a-fcb32da8b245",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible for me to set up a pension refresh for my client",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d49de603-93ec-4fd1-b502-b22d53be49a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to refresh a client's pension online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fb28cc6a-d2ba-4988-bbc6-a23f6db31708",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Transition super to pension",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "cd91240d-acd6-4d31-8bf2-0015698cd2d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the process for pension refresh?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ea768aad-daf1-443d-b7cc-017abb0b93d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Which form is required to move from TTR Pensions to Full Pension",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e2c75a14-0661-4235-bf52-100d73241321",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will I be able to do a pension refresh for my client",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6e1f2bc0-0de9-4b48-8be3-5f603cd80473",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "accumulation account to transfer to pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e28d579d-98fe-4ef2-bef3-bc1019aaa5f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adding super into existing pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cad1c057-79f0-4424-a27e-6b7604210915",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob de bob pension reset",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a55e6241-777c-4cf8-af63-e7c00ef785b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a migrated pension be rolled back into accumulation into an existing accumulation fund without having to sell the assets",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1c12785e-5dc1-42f3-848c-bc2263043a46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer 1 bt panorama super in to 1 new bt pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d3d606e7-ca5d-47ef-b3cd-5e9a9de335ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can term deposits be asset transferred from accumulation to pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dbf000bc-273e-4155-b10e-b191ad5f77e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can the pension reset be completed online",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1eae9e44-eb00-47eb-81d7-78b7f045d96e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from pension to super account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "629c6b8b-d7aa-4773-ab12-f374af6021c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from ttr pension to full pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "09c374b1-478d-40d7-aec8-80badf0ac2d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change pension eligibility type",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e1afea6a-18a3-44ed-9100-f7b83ae5a34c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "changing from a super account to a pension account will i still get the good returns that are happening just now",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "623c3d00-ddae-437b-ab20-322ecfd4137e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob de bob pension reset",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "74b54b4e-f768-4844-a62c-250b128d4b04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a migrated pension be rolled back into accumulation into an existing accumulation fund without having to sell the assets",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "48665e8c-1801-4292-a739-61c4b9ffd6da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer 1 bt panorama super in to 1 new bt pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ea8642e-b8e2-4c1e-92fc-7f8249060590",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can term deposits be asset transferred from accumulation to pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6608ffea-353b-4db1-abe3-2be88645f2df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can the pension reset be completed online",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "769b29f9-79b5-4fc2-82b4-816d0c2bf32e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from pension to super account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "55e0a9e5-1326-482b-9e73-a5ac85e0b358",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from ttr pension to full pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9a8faf9b-fdb9-42b8-820a-7cec8488226f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change pension eligibility type",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ad16e645-317b-48c4-90dc-777b432d7a78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "changing from a super account to a pension account will i still get the good returns that are happening just now",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b902c2a1-2df3-4823-9aed-103ecd4ea873",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob de bob pension reset",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "17b00555-8018-4470-befd-8b25584e50c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a migrated pension be rolled back into accumulation into an existing accumulation fund without having to sell the assets",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8f08c839-528b-4eae-8e30-4be534fcf0b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer 1 bt panorama super in to 1 new bt pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d92d1b06-e8ef-4498-aec9-533d479e21cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can term deposits be asset transferred from accumulation to pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6559f608-9101-48a5-97f1-12188beb965e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can the pension reset be completed online",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3e654027-85dd-4da3-bb99-5dfc9e8fcea0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from pension to super account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a08c78d2-bf46-406d-a91d-05c50c2e202b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from ttr pension to full pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "71785d06-e303-4981-9c4e-475435a48e76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change pension eligibility type",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e23741ce-496a-47e0-8f23-f4879933efa1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "changing from a super account to a pension account will i still get the good returns that are happening just now",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f0ac14b1-75b6-4014-90c6-ff23003f3050",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client has commenced pension and wishes to rollover to a new super account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f00bd0bb-d10b-475a-b020-4ac4d16f975a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution to pension",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "01ca30b2-3417-4615-88ff-1672334f4404",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "convert superfund to pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "92e1a42f-894c-414a-a963-98be3da0acbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "digital consent for pension reset",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "febf812b-61af-4ec7-aa7c-cf183a20b8a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need to open a new account to switch client from accumulation to pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "88781a32-e610-4e93-a2ce-1e9b7aa9c98c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "existing pension - add super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f0dc216e-559b-4002-b321-c89549b86a82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "for an existing super account to in-specie transfer into a pension account ab do we need new pension application form signed by client",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "23df5d0b-bf28-43d7-b184-ee09b3fff882",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "full account transfer from bt super to pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1040ec8d-f80b-4df3-8b85-fabcfd2f5803",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "full transfer within super to pension",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f28062dc-4581-4cec-a441-0d6086c09fb9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello client wants to transfer from super to pension but leave 11111 $ in their account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fec8c623-e232-46f1-a5a2-aa7a0e49368d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i would like to merge my pensions",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2c8d5478-6689-4a8e-8607-06ab61f3af4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey what is the process to complete a pension refresh - additionally what form is required",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9035e3de-b38b-45ee-9e21-224d4b653938",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi if we were cancelling a current super and creating a pension what forms are required",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5f41be49-b049-498d-ab39-062cb8c4fb75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team our mutual client bob saegenschnitter 111111111 is currently in ttr do panorama automatically transfer to pension now he is 11 or do we",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "24e0329e-c682-4eba-90fd-a50d82e2813f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change and accumulation account to pension mode",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2f5c1c15-5e6a-4d26-b08c-09ae3f0c9186",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i process a pension refresh paperwork",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1d5dce1f-e4c3-4099-9d0a-4c0e9a4025e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you establish a pension account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "059c68b0-61f3-47ee-9331-b3cf7cc1aaf8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you establish a pension account and leave accumulation account open",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6bc8a8d0-2fe8-4c6c-bcf8-75cc7b345c97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to chnange a super account to a ttr account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e739c58f-9c99-469f-8239-b1dbcbf01905",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to change from a ttr pension to a normal retirement account based pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "87a452bc-4da6-4aa1-bd7d-022afb296498",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to contribute into an existing pension account and re-commence the pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a9db47aa-b3c4-41d0-83ad-6cd70260ea24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to convert accumulation to pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "eed656e2-2f5b-4da8-9739-ebe563693e07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to convert ttr to pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "22b992e0-1def-4f77-b275-6b578c4d645f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to reset a pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "acff10b5-07f1-41b1-a129-943c4452e265",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am bob i can access my pension account i would aslo like to access my individual account no 111111111",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "86d3b66c-0d62-4ef1-ae0e-0074ba739ded",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a client with an accumulation super account and we want to start a pension how do we do this",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "0d45cec0-4afc-4c68-a61f-bedf85b9fada",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have recently retired and i need to set up a regular income how do go about this would that income be taxable if it",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "79c89f03-f265-465c-b4d5-f18e8702ac9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if a pension refresh has been done would the account say ttr",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2be4cc6a-0f29-475f-ac7c-e2a5e26b13dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if transferring from super to pension account does the existing adviser service fee arrangement go to the new account or do we have to submit",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2f5594b1-bddb-4366-b556-00c2d4eab847",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in specie transfer from super to pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "00aac136-7a6b-4c1b-aa0d-d755bb59d71f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a simply way to consolidate pension balances",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a50e3cc9-87d1-4191-aace-f5b6f8a8b0b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "move from ttr",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d98a056b-16d3-4c2c-aad3-01df0b08a2ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "moving to pension phase",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "661658bf-2423-47d2-8d71-3dd5c4d7c0de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need pension reset form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "db0b86e9-ba3f-415d-b575-1647c3a2734a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "partial ro of existing bt panorama super leaving min bob to new bt panorama pension",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "ace54920-9484-488b-afa5-9eda9a27fccc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "partial tranfer to retirement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "978fdec9-d83a-4470-9993-821002b83ecc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "partial transfer to panorama pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1d9ee9c7-6ef7-4b94-a830-6ca7ceeed3a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "partial transfer within super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "58d20746-e811-46fa-a955-4d507cc14c5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension conversion",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5c073a26-7585-4d20-8e9d-c6f33832df4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension recast forms",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "77bd2dfb-6cbf-4852-bd7e-9a71f7f7b937",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension refresh question",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6ffa497d-363a-4660-a4e4-db40161f535a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension reset",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0e5fcc5a-259a-433a-b76b-f1a27996050a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension reset / full transfer within panorama super form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "64e1a9fc-d8cb-4e19-a5f5-7774ad716473",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension reset cut off",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2380b0e3-bb21-4092-9d9a-97579ddc4e88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pensionrefresh",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bb863c31-1e9e-435e-b2bd-d07d76e78c12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please direct me to the pension refresh form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "bc3335b0-d2a6-4697-bbbe-745d5d20a6c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "recast pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e5e64992-2352-49f9-b2e3-5d88b584e734",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rolling over from accumulation to pension can you inspecie the current investments",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6c8c2973-b4dd-45c6-8571-bc56b4d98845",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "single client in pension mode",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f15a58df-f158-4515-99bd-984090d97f19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super to pension conversion",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d4906888-a0f2-4776-a6dc-4c619fea1618",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super to pension pension refresh",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f9e6d5a6-6a2a-4139-9d6b-ac6fd03ba02a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "swtich from super to pension",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e08d1588-da73-4c24-887f-1db6faa76212",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is a term deposit in a super we are looking to transfer the super to pension phase",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "853d3aa4-5a45-454d-bb81-1115bf97bec3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer account from super to pension",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "418d2670-73e1-4fb2-ac87-3cc84639f905",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer cash from super to pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "80678882-daf3-475b-8075-2a0ab84ceb4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer my ttr account to account based pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4febaa20-1de4-46d1-8d83-5920806b7143",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer two accounts to pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a40d15f2-375d-49f3-ada0-480f32f19c76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transition to pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a4e63b0a-db36-43aa-b87d-cc63c2397f04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we need to transfer balance from account xxxxxxxxx to ttr account 111111111",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "98c93441-bebe-4ab8-9cd7-5aee0bb45375",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what do i do once i have filled out a super to pension transfer form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9482aca8-bd4b-4cc4-a88c-44df0b6178bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is a term deposit in a super we are looking to transfer the super to pension phase",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "81ef620f-d62b-49f8-80b2-e4a9f0fa3125",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer account from super to pension",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "372d3c8e-080a-4862-99ae-76a396def860",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer cash from super to pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "adb7972a-faf5-4c53-b4b3-e95bec54a651",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer my ttr account to account based pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0d2711ae-0995-48eb-b831-8d78cfb07c5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer two accounts to pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5b08bbdf-6be3-4754-b148-fe9e5bb551da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transition to pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6b8b0d06-2031-47bc-82dd-1bda33d6c822",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we need to transfer balance from account xxxxxxxxx to ttr account 111111111",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "86e16d12-73e8-4f99-82ed-afeae4c6c281",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what do i do once i have filled out a super to pension transfer form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5d5820c1-a732-481b-901d-f0fd61d1e793",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is a pension reset",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "65d16f2f-264a-45dd-a3fe-d4c3ff427450",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the super to pension transfer form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3f932855-8e85-423d-b589-099384a28f5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the customer refresh form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  } ]
+} ]

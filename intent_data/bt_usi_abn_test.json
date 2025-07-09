@@ -1,0 +1,1702 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_usi_abn_test",
+  "intent_name" : "bt_usi_abn",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "34894f88-b8e2-44dc-b506-33369ad86bc7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ABN number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1ca0820f-d13b-4206-8cf6-84b74909649f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ESA",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e6d9b539-c301-461c-b662-5b92ecef42d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Electronic service address for cash management account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "dbe1101f-23be-48ae-b16a-404ad55d6f7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fund Address",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e757ba3f-2b89-4228-a135-bc1c7ec22cf6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fund details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b3e03b52-1faa-481d-8374-72247136e62a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fund name",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "cb1c40c6-08c3-4dd8-8de1-6a6d32011692",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi can you please tell me the ABN and USI",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "312bf375-4b9e-4a46-be7e-6183da89929b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi how do I find my unique superannuation identifier?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3f99d583-28f5-417c-9745-98bc4270bb51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi team, a client of ours - Bob Grant 111111111 - has locked his account. Can you please unlock so the client can reset their password etc?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "9ce29992-781b-48e6-a2d3-22bb6ffeee76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi what is the ABN number for BT as ATO needs the info for my tax purpose. Thanks",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1fe5f51e-0933-4d9c-ad10-63db1f3769d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, Im looking for BT Panorama Super USI details please?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "77385492-27cf-4dbc-87ed-4d6fd1c50005",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, what is the BT Panorama Super fund address, USI and ABN",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3924c7d3-e05f-4703-a021-3e44ca4d3796",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I locate my ABN and USI number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "042d67ea-3ec6-47af-9fb7-b39679a7415d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I find my usi number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8e8efe48-73a0-4d77-a61a-44aa9aecf52c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to check my super detail",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c3a9641e-58b3-4bef-aadc-5e3959714b51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ABN number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9e504efa-cdb0-4e5c-b46b-00581f08edc8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ESA",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "809c2a23-ab91-4303-94d5-274a709c3760",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Electronic service address for cash management account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c8a3f772-a29f-41cb-97c5-6b79649a3c0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fund Address",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e6a9744f-6cb1-4fe7-bfe2-734b252072b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fund details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "de2fa9f1-598f-455f-8596-1ffb717a17df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fund name",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b40334cf-338d-40d5-97e1-3f9779accd18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi can you please tell me the ABN and USI",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "c9fd3a05-1119-4aa2-bb54-b52c84395be9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi how do I find my unique superannuation identifier?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "233f4e57-af35-4871-8879-3c0d4b9dc556",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi team, a client of ours - Bob Grant 111111111 - has locked his account. Can you please unlock so the client can reset their password etc?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "e899e08e-1525-4512-89c5-c41e42af33be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi what is the ABN number for BT as ATO needs the info for my tax purpose. Thanks",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8cca90ba-cac4-45fd-8989-4b12896dd0f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, Im looking for BT Panorama Super USI details please?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "6d1095cf-5902-4e92-8b86-0140cff7159a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, what is the BT Panorama Super fund address, USI and ABN",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f9c20777-5534-4c69-9d6d-0e3060e9cfc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I locate my ABN and USI number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1149252b-843f-4b4b-836b-74284fce3c86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I find my usi number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fb1ffd0c-008d-4f60-81f5-58601560a07e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to check my super detail",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4b2a64be-cd74-4701-9bb3-643acf729a82",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have changed my super from BT Wrap to BT Panorama. My organisition asked me to submit a form and I need to know BT Panoama Superannuation USI (Unique Super Identifier) or ABN for SMSF",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "d91b1bfb-6b10-4033-8876-b220769c26d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need an electronic service address",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5dbe6dd6-6325-4e5c-9ef6-439406755dc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need my USI number please",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1533939b-971c-46dd-9656-8e01b9ab4e71",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to find the ABN number for my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d60ef6d3-ffa2-4e62-be7c-f0b7dbcb11e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know USI",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e775230f-1bca-477a-9d6f-d849c11cce26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the Panorama ABN the same as the BT super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "150bfda3-71f6-416c-88ea-6344f615b147",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "May I know Bob's USI?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "96c371ef-4f8d-400c-9ee3-a2cc19167426",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "May I know USI and ABN of Bob's account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "210d0d86-c5a6-4604-ae20-70e7b14412a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "May I know USI for 111111111?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b7769e46-c19f-46d1-9431-82b0f62e8858",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "May I know Unique Superannuation Identifier of Bob?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fffa2c14-f529-4e43-9318-3e72dfa950e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "New USI number for Superwrap personal super plan ABN 11111111111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d8382eec-9bf1-423e-a973-7b11120fe911",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Self managed super fund details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "50700feb-7a6b-49bf-b213-e1c60b21cd72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Superannuation fund number",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a41b6947-760b-4929-91b5-049595c5fc9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "USI DETAILS",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "224fc71d-0c1e-47c4-a313-e7e9c9777666",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "USI numbers",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "646f7e62-40de-491b-9c44-0982ffae6fed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Unique Super Identifier Number for BT Panorama Super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "06553ac5-0541-4a4e-b65c-ff50d30ed6aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "WHAT IS THE ABN?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "5f8b5f0e-0d2a-4c9f-a5c4-799293cf5805",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "WHere can I see the ABN for my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e6294ec8-e9d8-4410-868b-c1f302f67d5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my ABN?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "28ce71bb-8d19-4cdd-b2a1-a489fb5cc154",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my USI?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d11daa29-247f-459e-ae57-eed78cf6b3b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is my super fund's ABN?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "cae5f819-af8e-45c0-9d6a-383d286b10eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is my usi",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "105a2967-6d18-4468-9c5a-8e8b296c1345",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is the USI of Bob?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5a63bcc5-03bb-41e6-b391-76cf448e62a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where to find the ABN and USI number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ad1fedf1-d75b-4ba0-b33c-a3ca51f4d160",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "a bn",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "090e3236-309a-41db-9836-e4b3a779ee13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn / usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "922e4f65-b0a9-496c-a4e8-ae7bcb206f81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn 11111111111",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d4077444-daa6-4e37-afcc-da5329b36cf0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn and usi for bt panorama pension",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8e55473f-e8b9-468c-9c64-a4939f9534bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn and usi of bt panorama super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e82f3d06-8d5a-4e81-be2f-a2e28e798dce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn betails",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a38efe5b-ee91-4142-b3b9-af18238450a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn for contributions",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "488569e3-971e-482e-a025-838c4602eaed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn for pension account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5189fe68-bb5e-4fae-a7f4-01c0e4a8740f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn for super payments",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "04569977-1a03-47e4-a08e-95689d372499",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn investment account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "add30709-6ab9-41e9-872d-3fe3b39a8d00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5a9509bc-8486-44fc-be01-70dd30073c72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn number and usi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7182a166-37e0-440e-9b47-258b4335e08a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn of bt panorama super full menue",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bc728cb9-20c4-4ffe-a597-996be9fc2c79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn pension",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "05f2941b-aaa6-4f39-80e2-473f7a163422",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "abn usi phone number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "658b580e-c337-427d-88c7-9b8d125251a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cde11492-c71f-4e76-ad62-f45eceb52b2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "accountant looking to update superfund clearing house account with fund abn usi etc",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "02e744e4-7271-4731-912f-e7a41496dea7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "address and spin of bt panorama super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d44b3534-2fe7-4681-ac86-02211a2d6b9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "and they are asking for abn and member account number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ceeb5e65-9061-41c7-8ad9-1a8517122495",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apra fund 's member id / client identifier",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "432e22fd-d364-4b6d-9c88-d7e290e26050",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asset administrator usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "31f6bc3b-d13e-4403-9a8f-d5946f1f6593",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama abn and usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8126f873-673e-4efd-b52a-4ebae9da5da8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama investments abn / usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f17eca2b-c419-4a45-993d-10126382e723",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama liscencee name",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "c66da99c-7782-4d21-b688-111dfb97a16f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama retirement usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ccd7021c-0bd1-4ba2-a6e5-83d4466f7852",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super abnk and usi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b715544f-a223-40d2-b8f9-8154e33fb0d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super pension abn and usi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "85b09051-f3ff-4580-bb6d-90d85b2169db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super spin",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f8cca531-8a44-47b1-805d-e3fefbc16331",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super trustee",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ee66fcf5-f72c-4f90-aede-ee531ae86e44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super uso",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ff8ad3c6-792e-4875-9d1b-268fc00f3037",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama usi change",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1842b08b-074c-4556-9c63-6771de4e691b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super fund details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9f25c218-2841-4a66-9eff-ad29b02668e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super usi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "dcaf3a76-ad32-420b-a755-962717a8d16f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "business number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5a423220-8876-40c1-962a-40e6c4353805",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add an abn to my trust account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "93f74a14-ea2c-4f1d-a5f2-5509dc688ee5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have the abn and the unique superannuation identifier for bt panorama",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3ef356bd-77bb-4162-8a95-a602b660b47e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can uou tell me the esa for panorama investments",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ab666227-8e80-4627-9c71-088fa9ee818d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide me my spin number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f5091aea-86d8-4d9b-bf48-4bc297c846a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide name of full fund and fund abn",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1fa2a56b-796c-4a53-b6f1-1c2f0b0f8afe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide the funds abn for on of my clients",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8ee26885-18d8-43bc-af83-6d0bc3c160c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "and they are asking for abn and member account number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "020e75b0-2b2b-4ec2-a6bc-d04042e784c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apra fund 's member id / client identifier",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "85f093ca-16a6-4894-a76c-98cf5fcd17a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asset administrator usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e23c67a1-89a3-497a-899d-620a8741adea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama abn and usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bde50ad4-8f5a-4bc5-845b-6eca3a2d87c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama investments abn / usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5b8f217c-0106-4dda-938f-c8af91bce043",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama liscencee name",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "c44292aa-ae51-4c02-9520-d0eecc2f819a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama retirement usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "48837495-76d2-40e3-abd4-c10ef259d8b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super abnk and usi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "033afeaa-7a97-4e71-85d1-b916a49a9dcc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super pension abn and usi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4bd44e27-dc3b-49fa-bf9f-479fa4021516",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super spin",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e084a047-9c18-41a5-8e11-d2ff619ca78a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super trustee",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b180857f-1a25-4320-9060-e3151a326f0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super uso",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e010feec-a1e2-4243-acff-98f011507921",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama usi change",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cf7a5a8e-2baf-4daf-b55d-80a7ed2a0e9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super fund details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "33aaedef-5c56-4e93-8250-7a1b3fa0e9d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super usi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5c952934-58e4-488f-a609-9ff8e1f614f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "business number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2636c9be-796b-48d6-98b6-6b9bfb8e4f2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add an abn to my trust account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "e0364f3f-ae2a-4dbc-b5f6-68f6016d6328",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have the abn and the unique superannuation identifier for bt panorama",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "143fb6cc-578c-4f32-8718-8b83e02040e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can uou tell me the esa for panorama investments",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b17567d1-55aa-4b8c-8c7a-451c14b2a6af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide me my spin number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7800e0b5-432e-4488-9d94-0e834f147a4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide name of full fund and fund abn",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "60d66564-1e3b-4029-97b9-9270146cfc73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide the funds abn for on of my clients",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0d57211f-5ec3-40b7-9a51-09e10e385338",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "and they are asking for abn and member account number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f727a6e9-13d3-4c47-b372-1d99547dfeae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apra fund 's member id / client identifier",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "86fbcdcb-d307-42e0-9a15-e4746da3fe1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asset administrator usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "432a51e9-84da-4722-80a9-68121d7a6787",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama abn and usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "391728f1-b1b4-47b1-bf95-323deaa119a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama investments abn / usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f125172f-8365-4eb8-a13d-1298b0d8e6d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama liscencee name",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "19fd8a12-9960-413e-9960-4a38c6d70cd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama retirement usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9aba6299-192c-4bed-8b6f-5f7b4ccbb13e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super abnk and usi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9e4df1f1-a2dc-40f4-a106-d7fa29cf25d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super pension abn and usi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a4c35328-1aab-46ff-bc41-6524f24368aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super spin",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b992ce09-f0cf-49fb-b7e0-32a0f364a3ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super trustee",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fb2db73d-ee25-4b2f-9620-0afc595bc1f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super uso",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a436a48c-d239-4c32-a394-5b646cda2d8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama usi change",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b9114dd4-19d2-4f3c-8a8c-39720d64c41f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super fund details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bf1f2488-c879-404f-b0cb-cc720cb379f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super usi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4bc9050e-e543-4c9c-bb95-befd11115f55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "business number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "37fa1877-ad47-4a02-9d59-c7581db1c8b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add an abn to my trust account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "04ae1681-324c-4e2e-8255-1d6afdf70b51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have the abn and the unique superannuation identifier for bt panorama",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "00e364b2-74e3-4c10-80d1-8828d018a13c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can uou tell me the esa for panorama investments",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d4a06296-f00b-419e-a13a-7c4fefd9607c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide me my spin number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e9050493-f498-4090-8868-9108132e142f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide name of full fund and fund abn",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b84db31f-902a-4215-86c8-466f33a03762",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide the funds abn for on of my clients",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "148ab2c1-f957-4fd6-bc2f-753147e2a79b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "checking if client has updated usi details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5c10d6fe-2554-4c04-aaff-f87bec74bf3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "confirm usi for this client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "215f6735-119c-45f1-bfba-1f7386f49c22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could you please advise the abn and usi for panorama super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6d80bfc5-c949-4a8c-a1d9-70147934b3f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could you please confirm the abn and usi for bt panorama super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c4878950-82fc-4f60-bc34-7e55cbdc1358",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "current and up to date usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "50b35a32-913d-4bbe-a1c8-db0afba36f08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "dund abn",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2381cebc-fcff-4b09-b76f-68edf790269a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "electronic service address",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fa5309dc-541f-4d56-bc9f-63622a7f7072",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "electronic service address esa",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ebacb30f-6620-4493-832b-ac7fa51f346c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "electronic signature address",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5e44ba06-3638-42d4-8a8d-c446432324ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "esa for the cash management account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bd9c02a5-8c54-4fef-8a3f-fbf085a8efab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find usi",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "825f13cf-0ae0-47cd-8fc7-9a73d0e33bd0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund esa",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b761ea60-adab-45d0-bfcb-0d1d14ebaafd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund information",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "6977b412-996e-4c3d-91ce-af661f742684",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund usi and abn",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b324ac74-987d-4c4f-9663-d8216cad3e0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "has abn and usi changed again",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2e2e9def-a44d-46c1-a62d-3cebd139d0a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello blue how do i go about obtaining my electronic service address bob for my smsf",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fec8dc9a-8cd9-44c4-b773-1db9453968cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello can you please tell me the name of the fund that my super is in and where can i find the schedule of returns",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f43cc6df-c905-4520-a505-3076a8658270",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello checking client list to update usi to new details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7cf28961-9d03-4de4-b101-ab745aadbf6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i need my esa number for my new employer thank you",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4eadab95-2058-4f1a-a87b-9338489d97de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i would like to confrim or find out our esa code to provide to our employers from myself bob and my wife yeen yeong",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4136f965-5108-41c9-8897-4f0e1b48c1b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hhi i have a letter with a member number and i am looking for lost super which i believe is with bt my member no",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "e51c46d1-363b-436c-a76b-c11fc92a0599",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue what is the usi and abn of the panorama super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2f2f0936-e123-4b5f-8b69-606dbe0473b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you let me know your abn and usi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "dbab4c2c-78ec-4861-b528-59ee7501189a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you please advise of my new esa",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "28824f52-e935-4d53-aabc-628e3bca9ada",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you please confirm with me where the rollout of funds is going into i require the specific fund name and usi",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "bdf1125b-7492-4836-b4b3-9227851702cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi do i have a spin code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "343af739-b5e6-4c37-8649-0eaa8b46f101",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i find my usi for smsf",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5ed72893-f742-4866-a56e-63bd637b12a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am a bt super member just want to knnow details about usi",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9dd988b3-1e8a-4cd8-be1a-f7bdde121a7a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am filling my super detail now what is fund area code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1ccc21b9-d6aa-47de-ae46-275ce704f69b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am just trying to find my usi",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "023f400c-56ca-4bd4-ba73-ca0f381965f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi i am needing to find out my usi number",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "c2be0456-fdb0-446d-af05-35fedde6a282",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i tried to pay into the clearing house today and it says the use is wrong",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4e2f2e07-bcba-4281-b05e-62ab409d31fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi is bt 's pid 11111 or 11111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ff8a0447-e675-4a3e-9630-c31c9fb60965",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team how can i check the registered usi of our client",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "fbc46d43-96c6-4a90-a443-c41801d2c3bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team what is the abn and usi for account 111111111",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "94e9aa96-542e-45bb-96eb-68f739d7d0d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi we are updating our system is the user id the same as the advisor code thnakyou",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "36589f43-3186-4b60-8911-69f12f5b39a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is the new abn and usi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c9b7cdcb-2b78-4aa9-98fc-5bb903311015",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i fidn the following info for a member supernanuation acc",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "31fce989-e371-4841-90e9-de5de0bce340",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where do i find the usi code for my super",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "10f7a969-be74-4f18-b362-a11d02bb2297",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i find out what usi my employer is using",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7f1623d7-50b1-4757-8f26-2f19cf06ade9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i access my esa",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ef65a79c-f39b-49d1-91a4-854b6fe88505",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i add an abn",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9e7d124d-b5fe-4bcf-8c79-a5c84bc00749",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to find esa",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4d9a6238-ea66-453a-84c1-0a2ff7d52957",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how will i know my abn",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "61dad8e0-28e1-4178-a49d-79de16482062",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i also need the product identifier number of my fund",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ab428e55-3403-415b-9750-ca604c457bb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for a usi number for my smsf please advise as i need to forward to my employer",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1f61f43d-6724-4cf1-b2ff-9c741310e3f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to find my usi",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "964bed3f-df35-476f-819b-a501f70f1b23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to lodge my super and the usi is coming up as incorrect can you help",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f28f5745-b9e0-41c7-b6cb-28a6ebf760eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to roll over into newly set up sfsuper and they are requesting the spin or membership no in receiving fund i am",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "07289f11-fd15-4326-8de1-abf0be18aa81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have access thru westpac but i cant see details about usi",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9fb0c006-1437-4ad6-9d61-d0d1bdbfaaf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have been told by cbus that i need a esa electronic services address to allow a rollover of funds from cbus to my bt",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "774e11ce-befd-4cc9-8f7a-13bafa4c1ddb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have been told by cbus that i need an esa electronic services address to rollover funds in to my bt smsf is this correct",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5f2cd8e5-1739-4daa-8278-aed5bb9ebeb4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have forms requesting my policy no or membership no and also a usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fab73d68-8fba-4750-9d36-35a59920578b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have my membership number and usi",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a6162b47-0b2b-4994-948d-a78d1bfd2b92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i just got my super account can i please ask what is the fund name",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6c7913f7-8c85-4114-b6a1-b85bd642d715",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need my esa",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7c6296d0-8173-47b8-a0d2-0da0fe5bcdb2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need my spin details",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c8aeed57-f795-47b7-b34f-83cabc26739b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i received an email about updating my usi is this real or a scam",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "734561aa-220e-45e9-8308-422c54d70ed7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i require the po box address for bt panorama",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9d73fe18-7620-4403-8ac0-4645ff288142",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ie fund abn name address phone us",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f01b865b-2a35-46dc-a40f-6a4012ea068b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is bt panorama super compact the correct superannuation fund name",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "788373d0-7e70-4cb3-b060-72d9adde2cb7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is sfn the same as self managed super fund smsf",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "41573d3b-86a3-4f3a-b77c-c7657475d526",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is the usi the same as spin number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "33fdec4e-6b74-412a-b30a-862baec95e0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is usi your account number",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a5cb3103-fa00-4d05-9412-d3a176343130",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "locate esa bob electronic services address",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bd9469e7-4a41-460b-b097-e9c07b33f7f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "lost usi number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "22849d9d-294b-4092-bade-e6f3e42d3744",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "me and my boyfriend have the same usi it 's normal",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7f4b8d44-432c-4f40-a159-88b09609b36d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "so i just provide your usi / spin 11111111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "14d5c581-9adf-46bf-ac8f-c27cfcf65a5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "so there is no product identification number",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6a6915d3-792f-4ca8-9ff6-cf6d2a1a98ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "spin and abn number",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "dcccc8b9-1a86-49c4-81b6-5ef201b88688",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "spin and address",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2555fbe4-2418-4583-a2c0-e926136497a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super compact usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "23f92618-af4a-4975-81cb-77c68dea9732",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super usi",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "95c878b4-c929-47ce-93ca-8026895a366d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks they seem to have accepted the usi",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "41cec98d-aba5-498b-9ce9-a477ff632816",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to link the ato to my mygov account i need the abn of my super fund can you please provide that for me",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8f0ff964-9f0d-43fd-b7e4-9816c563c255",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "da838a7d-6a00-444b-8441-db8670b93f5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "usi abn details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9017d99b-de8d-4276-8f54-66a37e02f923",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "usi abn for bt panorama super compact pension",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0aea7649-f9af-401f-986e-ebee0aa39314",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "usi details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a3174b92-a98a-4010-8b88-05dc00cf6dd5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "usi for bt super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a175935e-3bbd-467b-8e18-2fd4ca23204c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "usi for ttr retirement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "dd22db82-6eed-46bc-bbd9-b29998f27e13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's bt panorama super account abn",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a012a9df-4f4b-47cc-aa71-d50e1df8f973",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the usi for asset administrator",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "16c5cbd7-24d8-4b0a-a39f-def1be8cab77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thanks they seem to have accepted the usi",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "23257273-ca3c-449b-85aa-d8dca0aa89dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to link the ato to my mygov account i need the abn of my super fund can you please provide that for me",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2f244cae-0954-4306-a417-73cd6e4a62e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "usi",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "27a06bba-b439-4b61-a18c-ce3b4708def5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "usi abn details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c51ed3ce-ef21-4dca-b16a-666343c63046",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "usi abn for bt panorama super compact pension",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "922b9586-1c48-4f28-a50f-3dbdd92c0694",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "usi details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a8b7865e-414c-4e5f-952f-4b4f73484c37",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "usi for bt super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e3fa0299-239d-4400-9cb8-9f2751aedfce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "usi for ttr retirement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "478f2066-4a84-413a-81ba-5dfe4dd8c733",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's bt panorama super account abn",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "97603dfd-e289-4d69-80fe-3e8d18c92e8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the usi for asset administrator",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d013e473-bda2-41fc-b5b8-81f306513a12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what do you mean by sfn or esa",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3af514c2-70f2-41f9-baa9-5a9a6f45ebe9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is abn for panorama super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d96ad14f-0920-49a4-8ed6-0255fec1144d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt 's abn and usi",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "8ce9ec07-ddfa-4463-8776-3d8826c7a434",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt panorama abn number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "34ead0b3-acf8-4216-acf9-7c6619fa79f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is clients SPIN number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2dbb587a-2ac6-469d-8333-2756e4e537b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is electronic service address",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ae2564ce-4234-46b6-b692-b137302065d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is fund tfn",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a443e144-a7c0-4449-8ea3-5717eeb87579",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my smsf esa",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f99450d4-1e6c-4c3c-be9a-85276a7aa145",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my spin code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "33eb114c-8f1e-4a83-9d65-444f57c5f507",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my super fund's ABN?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "ce593da3-acb1-4653-b250-37af55d86be7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is name of my super fund",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "06521cf8-7cac-4a73-912f-b15f189a2b13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is panorama 's esa",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5edfd832-444d-4b02-bf4a-c39003e163f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is panorama 's pid number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0b838b2c-9e2e-49d4-a02a-5ad737931066",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is panorama abn for tax purposes",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b2262b13-f6c4-4278-af82-3c2868f35319",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the ESA for the bt cash investor",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "11e227b6-543c-4a77-9d52-e28336065519",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the USI",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6e840802-0b6f-4e92-a24c-de2fc5490a09",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the abn and usi for a bt panorama super compact account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ca6e0850-4f5b-4ecf-bc8d-dbda8d421339",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the abn and usi for my bt panorama super fund",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bc6684b9-89fe-4fbe-8d91-0d67f2d008a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the abn and usi for panorama superi",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f3b916f7-88d6-4842-841d-4399c333f934",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the abn and usi number",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "b70d5779-ca20-4d9b-9e23-1c6a5bd75abb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the abn of my portfolio",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "da5f526b-3045-4d69-8972-e3eaac46ac44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the bt panorama super usi",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9042bfef-e1ca-49e0-92e8-9235ce6c9f04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the clearing house for bt",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ece24680-f516-4e47-b168-d2e8c58af87c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the cusip number of my super fund",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ee07f514-2707-4547-b3a7-a82d941a86a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the fund abn",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "c49f7181-86f4-44ec-9e47-fb3f39fa3914",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the fund electronic service address esa",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "97c1c90a-7db0-4e9a-a8ca-956707abca48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the isin number",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0c479c8a-4c91-4bb7-a9b7-e1bede3184b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the name of the superannuation product",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0b13b7b6-e791-49e5-9534-395bccfc9ec4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the registered usi of this account number 111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f539bdc9-a0ae-4ea3-b309-367732882a8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the smsf electronic service address",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6bc0e750-f04a-475b-a549-df750a8f4aa1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the smsf esa",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b1c90df1-d98a-4860-ab4a-34645096839e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the spin and usi for bt panorama super",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3257d297-9555-463e-9356-2c51b1dfcd88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the spin code for this account please",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d3440e8e-e425-4f31-a3a9-25e710f5eaba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the spin code please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "647d1f88-b8a4-4629-9214-99d741978198",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the spin number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a2b9535d-7ac4-47cf-95f3-2531d93b20bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the usi for bt panorama",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8745037d-3070-4554-ac99-cccb2281e38d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the usi for bt panorama pension",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "75198f53-2a3a-4f34-9e6d-49efec5b4f04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the usi for this account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e95be6cc-0224-4fa7-bcad-57a99659229b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your abn for super guarantee",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c88c9ff5-7296-4b24-be95-7cb6d936964d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your fund details ie fund name abn and usi",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2bdde70f-d61d-4219-82fe-ec95bae1fa24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your spin number for bt panorama super compact",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d8176b5a-f1c7-4077-b6de-76d770fd04b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the USI number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6b440967-c57c-40e7-947d-815715dd7911",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats the fund name",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "76af25e4-f713-42d4-bfcf-b55209dccf0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats the usi number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8d0da95f-1b9b-41c0-b020-5fe993146605",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when i submit this abn the trustee for asgard comes up",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e6cb8e98-534a-499d-9edc-a2523716d288",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find abn and usi details for panorama super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c3f2f1a4-0c35-4bf5-8367-3ad78320a487",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find esa on my smsf account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "da898a0e-ca68-41a9-b8e6-d9bab28bec58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my esa details",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ccabed9d-4884-467b-b8f6-f8d07041a323",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find electronic service address",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "93ad3ce0-684b-40e2-8333-86bdaeb7d3b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the spin number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3ce05b20-9945-4fbe-9b84-2a0bedfefb8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the spin code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  } ]
+} ]

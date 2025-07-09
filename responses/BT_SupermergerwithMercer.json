@@ -1,29 +1,37 @@
 {
-  "name" : "BT_SupermergerwithMercer",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
       }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "As your BT Super account has transferred to Mercer Super, you can call Mercer on 1800 682 525 between 8am and 7pm (Sydney time), Monday to Friday. Mercer will be your new point of contact and can assist you with any queries in relation to the transfer and your super."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This does not include superannuation on the BT Panorama or Asgard platforms."
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "As your BT Super account has transferred to Mercer Super, you can call Mercer on 1800 682 525 between 8am and 7pm (Sydney time), Monday to Friday. Mercer will be your new point of contact and can assist you with any queries in relation to the transfer and your super."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This does not include superannuation on the BT Panorama or Asgard platforms."
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "BT_SupermergerwithMercer"
 }

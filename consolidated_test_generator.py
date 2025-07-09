@@ -120,7 +120,7 @@ class ConsolidatedTestGenerator:
                 first_turn = turns[0]
                 base_row.update({
                     'example_trigger': first_turn.get('user_input', ''),
-                    'expected_response': first_turn.get('expected_response', ''),
+                    'expected_response': first_turn.get('expected_response_content', ''),  # Use actual content, not filename
                     'expected_buttons': '|'.join(first_turn.get('expected_quick_replies', [])),
                     'response_type': 'Conversation Flow'
                 })
@@ -130,7 +130,7 @@ class ConsolidatedTestGenerator:
                     second_turn = turns[1]
                     base_row.update({
                         'turn_2_input': second_turn.get('user_input', ''),
-                        'turn_2_expected_response': second_turn.get('expected_response', ''),
+                        'turn_2_expected_response': second_turn.get('expected_response_content', ''),  # Use actual content, not filename
                         'turn_2_expected_content': second_turn.get('expected_response_content', ''),
                         'slot_name': second_turn.get('slot_name', ''),
                         'user_input_label': second_turn.get('user_input_label', '')
@@ -172,19 +172,23 @@ class ConsolidatedTestGenerator:
             turns = test.get('turns', [])
             if turns:
                 first_turn = turns[0]
+                # For intent navigation tests, use the actual content as expected_response
+                first_turn_content = first_turn.get('expected_response_content', '')
                 base_row.update({
                     'example_trigger': first_turn.get('user_input', ''),
-                    'expected_response': first_turn.get('expected_response', ''),
+                    'expected_response': first_turn_content if first_turn_content else first_turn.get('expected_response', ''),
                     'expected_buttons': '|'.join(first_turn.get('expected_navigation_options', [])),
                 })
                 
                 # Add second turn information if exists
                 if len(turns) > 1:
                     second_turn = turns[1]
+                    # For intent navigation tests, use the actual content as expected_response
+                    expected_response_content = second_turn.get('expected_response_content', '')
                     base_row.update({
                         'turn_2_input': second_turn.get('user_input', ''),
-                        'turn_2_expected_response': second_turn.get('expected_response', ''),
-                        'turn_2_expected_content': second_turn.get('expected_response_content', ''),
+                        'turn_2_expected_response': expected_response_content if expected_response_content else second_turn.get('expected_response', ''),
+                        'turn_2_expected_content': expected_response_content,
                         'user_action': second_turn.get('user_action', ''),
                         'expected_intent': second_turn.get('expected_intent', '')
                     })
@@ -466,6 +470,17 @@ class ConsolidatedTestGenerator:
         # Combine all tests
         all_tests = matrix_tests + conversation_tests + navigation_tests
         
+        # Add test case numbers to CAPI format tests
+        if format_type != "hoot":
+            test_case_number = 1
+            for test in all_tests:
+                test['test_case_number'] = test_case_number
+                test_case_number += 1
+            logger.info(f"✅ Added test case numbers to {len(all_tests)} tests")
+        
+        # Remove duplicates
+        all_tests = self._remove_duplicate_tests(all_tests, format_type)
+        
         # Generate filename with timestamp
         if format_type == "hoot":
             output_file = f"consolidated_tests_hoot_{self.timestamp}.csv"
@@ -478,6 +493,7 @@ class ConsolidatedTestGenerator:
             output_file = f"consolidated_tests_capi_{self.timestamp}.csv"
             # Use comprehensive fieldnames for CAPI format
             fieldnames = [
+                'test_case_number',  # Add test case number as first field
                 'test_source', 'test_type', 'segment', 'segment_description', 'segment_active',
                 'intent', 'intent_display_name', 'intent_active', 'enabled_for_segment',
                 'example_trigger', 'response_type', 'expected_response', 'expected_buttons',
@@ -503,6 +519,47 @@ class ConsolidatedTestGenerator:
         logger.info(f"📊 Total tests: {len(all_tests)}")
         
         return output_file, stats
+    
+    def _remove_duplicate_tests(self, tests: List[Dict], format_type: str) -> List[Dict]:
+        """Remove duplicate tests based on key fields"""
+        seen_tests = set()
+        unique_tests = []
+        
+        for test in tests:
+            # Create a unique key based on test type and key fields
+            test_source = test.get('test_source', 'matrix')
+            test_type = test.get('test_type', '')
+            
+            if format_type == "hoot":
+                # For HOOT format, use test_case_name as the unique identifier
+                test_key = test.get('test_case_name', '')
+            else:
+                # For CAPI format, create keys based on test source
+                if test_source == 'matrix':
+                    # For matrix tests: intent + segment
+                    test_key = f"matrix_{test.get('intent', '')}_{test.get('segment', '')}"
+                elif test_source == 'conversation_flow':
+                    # For conversation flow: intent + segment + test_type + turn_2_input
+                    test_key = f"conversation_{test.get('intent', '')}_{test.get('segment', '')}_{test_type}_{test.get('turn_2_input', '')}"
+                elif test_source == 'intent_navigation':
+                    # For navigation: source_intent + target_intent + segment
+                    test_key = f"navigation_{test.get('source_intent', '')}_{test.get('target_intent', '')}_{test.get('segment', '')}"
+                else:
+                    # Fallback for any other test types
+                    test_key = f"{test_source}_{test.get('intent', '')}_{test.get('segment', '')}"
+            
+            # Only add if we haven't seen this test before
+            if test_key and test_key not in seen_tests:
+                seen_tests.add(test_key)
+                unique_tests.append(test)
+        
+        # Log deduplication results
+        original_count = len(tests)
+        unique_count = len(unique_tests)
+        if original_count > unique_count:
+            logger.info(f"🧹 Removed {original_count - unique_count} duplicate tests (from {original_count} to {unique_count})")
+        
+        return unique_tests
     
     def _generate_statistics(self, tests: List[Dict], format_type: str) -> Dict:
         """Generate statistics about the test suite"""

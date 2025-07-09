@@ -1,0 +1,796 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_interest_rate_test",
+  "intent_name" : "bt_interest_rate",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "9ce5bdc9-1017-468e-92bb-9ae4ee2fe5d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "111 percent",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "ef6d332c-6b46-4f9e-9e51-af439b51747f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "And what is the interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "af6eb43f-9c23-4f50-b48b-d4ccf0d7ee32",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "But i really want to know about {@users my} interest rate..?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "567785ae-129c-4eb9-9ee1-1c95f1b58162",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Calculate interest rate on {@account_type saving} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6cea313f-b61b-4f61-a0f9-16efdb5ce0a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Calculation I need interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9961bd95-2955-4921-8e4f-7ad87c5da4a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I check the {@account_type savings} account interest rate?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "acccf5f8-ac88-4a6b-94e5-fed6b679df1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I find out the current interest rate i am paying for {@users my} {@account_type mortgage} {@account_type loan} now?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "264e9276-97dc-438f-bd5d-c90e403ff6e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I know about the interest rate for {@account_type savings} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2a3f93cb-1005-45a8-9391-221b84d6609e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i check interest rates for {@users my} deposit account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f8d4c1b8-92bb-43df-81e8-23f3b5fa4e2d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please tell me the interest rate in {@account_type saving} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "30f5a7ee-691d-435d-a9a0-7846aa855ef5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Current interest rates",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7270b5be-cfff-47d1-bbab-cd86d99b76df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fd interest rates",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bfdc6018-df85-425f-a425-ab920051ea5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi can you let me what is the interest rate on {@users my} {@account_type mortgage}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bd06f515-c57d-4720-bfb2-12ff24087976",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi how much is {@users my} interest rate?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f19323e2-5284-41c8-a1f1-4bfe1f625b72",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, i would like to know the interest rate of {@users my} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "09f172d4-92f5-42ba-b2d2-ece652e22eb1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much interest I can earn on {@users my} {@account_type savings} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9578c645-f457-494a-b421-27152e891702",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much is interest rate for {@account_type loan}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7b3fbd79-3033-466d-89db-6383fe9f42a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much percent of interest am I paying on {@users my} {@account_type loan}?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "cb0effa5-1d9a-4c17-9120-c8ebb91eee97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "111 percent",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "c47ace58-4450-4634-8e03-782091604380",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "And what is the interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "55b88343-aa14-40fb-8fe2-ee68daf0ef5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "But i really want to know about {@users my} interest rate..?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "59dc2ccf-f8e3-47cb-9e65-fb8806ef9138",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Calculate interest rate on {@account_type saving} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1ad29954-b5f4-4969-9edb-eeef3eefdf61",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Calculation I need interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fb7fefcc-b1e4-400e-8fd0-29c93f50f58b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I check the {@account_type savings} account interest rate?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8eed3423-2a16-4d66-a18c-2b315cd0ce10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I find out the current interest rate i am paying for {@users my} {@account_type mortgage} {@account_type loan} now?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7c134365-1ee0-458b-af4c-3f50417d006d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I know about the interest rate for {@account_type savings} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e0df8ae6-ac72-467d-aaeb-550a1530ba11",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i check interest rates for {@users my} deposit account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2404865f-83d5-478b-a0ec-6c81bdbf2e41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please tell me the interest rate in {@account_type saving} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cc7d95df-618d-4400-90b8-8b7d2ad6cebd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Current interest rates",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bdd6d5ea-471f-4e67-b336-e83ffa041187",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fd interest rates",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "02e919f5-cc3d-4b7f-a190-5948fe177d1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi can you let me what is the interest rate on {@users my} {@account_type mortgage}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3a44f7ff-c901-4d02-a1a8-c7f4a6f106b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi how much is {@users my} interest rate?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e75c9984-9782-454a-b6dd-5b1d33aa617d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, i would like to know the interest rate of {@users my} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "640c3849-d315-4f35-a3dc-1c7500d02d61",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much interest I can earn on {@users my} {@account_type savings} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2162e0cd-cbc2-4cc5-8b17-a6fdc56257a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much is interest rate for {@account_type loan}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d593ad8d-d45f-46bd-afa4-c29ff7d4c7bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much percent of interest am I paying on {@users my} {@account_type loan}?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "73d79f10-7f8a-4ea3-a00b-5a3499bfdef7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to check {@users my} current {@account_type mortgage} {@account_type loan} interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c6175122-06b1-4c00-95ae-ccac981615c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to get {@users my} loan's interest rate",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "1d06c0ed-4905-4496-b5c9-aee23fdc3be9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know about interest rates for {@users my} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "150e4f23-8768-4464-b9f3-f7e7cfd9d604",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know the interest rate on {@users my} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6a9b3215-cf58-4088-a805-57ad9f09d7de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to know the interest rate of {@users my} {@account_type savings} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b4a45ea4-2f0c-4684-8e21-fe7f0b140101",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to see the interest rate on {@users my} {@account_type mortgage}",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "bfa232e7-53b3-4856-8dfb-233af6e07034",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Interest rates for {@account_type fixed deposits} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "de2803c2-4afd-4603-af04-52c377d2434b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Sentence",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3e492d17-6abd-4491-b207-f042a48d0996",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me the {@interest_type apr} for {@users my} {@account_type mortgage} ending in {@account_number 1234}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "ee447493-576d-49d2-bb0b-a026f53e24d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me {@users my} {@account_type student} {@account_type loan} interest rate",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "94dd43ba-8813-4123-bac2-273e140eb699",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the interest rates for deposit",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b4f52a3e-e977-4ada-9379-ec4d1e4ccd64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the interest rates",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9a380759-4833-45a6-8d29-d18d5ded54c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is {@users my} current interest rate?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e16b9f9b-6cfc-47ec-8367-adfa5f2aa601",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is {@users my} interest rate?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "632010a6-8c44-453d-aa0a-397f7760b70a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is {@users my} {@account_type loan} interest rate?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "15e8d541-6926-48b0-91a9-a2f50e00b6b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the interest rate on {@users my} {@account_type credit card}?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "f21cf5d4-3c8f-4359-8d3a-b35343a2bbab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the rate of interest I'm paying on {@users my} {@account_type mortgage}",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "7bd0baa7-55f6-49f0-a31c-ba895764984e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's {@users my} current interest rate?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "1e40fe4d-50da-494e-97f0-debebe24ba9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's {@users my} interest rate %",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "e1202e8a-9a5d-4456-8ff1-f41a4f1d9255",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Whts the interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d88c315a-b86c-46dc-8583-c81490ca85c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "calculate interest rate of {@account_type fixed deposit} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "30463f85-ac39-4b3b-a000-d175200bcc78",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "calculate the interest rate on {@account_type checking}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4f905d1f-75d8-4a22-9d96-4a0d4f258abb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i find out the interest rate for {@account_type savings} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ee4eb7a6-6d2d-47b0-becc-1600d1206684",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i know the interest rate of a personal {@account_type loan}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ee0b10c6-9697-4377-bc9d-873cacb30dee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can u tell me the interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "84112cef-b408-4db2-b996-3ffa8534e386",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0d838b6c-7474-472d-a5e2-33fe73fa5b5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "calculate interest rate of {@account_type fixed deposit} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9773c08d-dfc2-4741-891c-80c2d4084b09",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "calculate the interest rate on {@account_type checking}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "840eaa1c-c1f8-4ff2-ad8b-f1ffded99120",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i find out the interest rate for {@account_type savings} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "94b2d9ad-8a0f-406c-97aa-afde7da23bda",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i know the interest rate of a personal {@account_type loan}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6dbdc199-9f20-4b89-8044-dfc741cabb7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can u tell me the interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "beb0835a-7f0b-4538-8913-0656919c4ec4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "186158bb-ed24-44ee-82a1-23f745cea335",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "calculate interest rate of {@account_type fixed deposit} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "232c8680-5447-4790-88aa-e8b59c0951d0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "calculate the interest rate on {@account_type checking}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8d12c588-e70b-4d3c-9975-d0816525fbec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i find out the interest rate for {@account_type savings} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "930ab2c7-87b8-4c55-b2b8-00f4dcbf79a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i know the interest rate of a personal {@account_type loan}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "14eb4e26-07f8-4872-a904-a1a5bb701074",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can u tell me the interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9819590a-1783-4b3a-85e5-066f727dea2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7844ad3b-3abf-4148-9142-8458ba089618",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i earn any interest on account {@account_number 1231}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "005803c7-0d87-4a49-84fe-b6b6697987a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find interest on {@account_type investment} account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bd72257c-faff-4840-9c44-b540eef70e39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how can i find the interest i have earnt this financial year 1111 - 1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "93e588eb-0800-45ba-9dfe-ed34694960c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can I get best interest rate?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "932aa4b9-51b4-4912-bb74-ccfcce431b26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i get interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "65f1ee64-3832-43d8-bb45-7dd3da4f70f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much am i paying in interest on account ending in {@account_number 1234}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "b19db7ca-deac-415c-bcdd-022950e8d19a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much is the interest rate of {@account_type saving} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e50f0905-271b-46a1-aa81-e36f6792846b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much is the {@interest_type apr} on {@users my} {@account_type credit card}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "ec17ff5d-f9fd-45c8-9144-92a36c05c8a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to check interest rate of {@account_type saving} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "763d5ccb-7436-44b3-97fb-3c652f26ffd4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "intereest rate on cash",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2cf4fdaa-9146-4452-83e9-b6aa070d65ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "interest on deposits",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "2603824e-722f-4255-bdd6-2204b738f2b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "interest on {@account_type cc}",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "b2f7265b-12b2-4bf2-94b1-9a884b52ef44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "interest rate fd",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0ec940a4-9c04-4b9a-8b1a-7d517a54ed27",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "interest rates {@account_type cash management}",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5ac0d7bd-8a0d-48d6-a7a4-4b12b2eb8bdc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "on much interest am i paying on {@users my} {@account_type card}",
+    "tags" : [ "prodteam_2020_03", "test_gold" ]
+  }, {
+    "id" : "5cc7e34f-c6de-408b-893f-fc905dbe1ce2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "please tell me the interest rate on {@users my} {@account_type cardit card}",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "4828359d-712e-43df-8833-55a5579c688c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "prepay interest on {@interest_type margin} {@account_type loan}",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "94e90de1-d657-49a7-a78c-2371030bd666",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me the interest {@interest_type yield} on {@users my account}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "f32f08c1-b622-42ee-9e6d-162f9e146064",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me the {@interest_type apy} on {@users my} {@account_type savings} {@account_number 0771}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "9fb66424-a93b-4001-bfa5-55830d52be60",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thank you Virtual Assistant could you tell me what interest rate i am receiving on that account ending on {@account_number zero eight one eight}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "318f7477-b288-4b31-b948-df830f8ef6de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "thank you Virtual Assistant could you tell me what interest rate i am receiving on that account ending on {@account_number zero eight one eight}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d2b61647-adc3-4363-ae7c-1a2e148ef884",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what i the {@interest_type apr} on {@users my account} {@account_number 0772}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "5780f9d1-56be-4a00-9ea2-eb59cff6e18c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the current interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2c456c16-c2e7-415e-b003-f46b8209ca8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the interest rate paid on the panorama {@account_type cash management} account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "66027be8-7c6a-4b5a-a751-e972344b1a62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the interest ratw for cash",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6669d0e1-23fc-4cc2-b064-ba073acc1ea4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the monthly interest rate",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ec074d76-d36a-485e-8776-7b7dfb709166",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the {@interest_type apr} on {@users my} {@account_type card} account {@account_number 4224 5555 6666 7777}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "328e5261-f6c8-40b6-86ed-29bbc48e488a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's interest rate for {@account_type savings} bank accounts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "95a3f717-4dee-4c34-a255-4419ec354924",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the annual % {@interest_type yield} for {@users my} {@account_type savings} account",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "ec373dac-4fcc-4a41-a001-9c843c3c024a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the interest on {@users my} {@account_type credit card}",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "8d15bf28-547f-4769-a859-de381ec23281",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the interest rate in {@account_type saving} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f0c56c26-030c-43dd-a3cc-ce007733bc05",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the monthly accrued interest on {@users my} {@account_type savings} account",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "c42d087d-112c-4176-9e1b-649d4f214416",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the rate for {@users my} {@account_type loan}",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "d4ec3049-ba80-422a-9fa9-07742d2414b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the rate of interest on {@users my} {@account_type loan}",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "8ff67576-9ae1-4d4c-8007-5aec167a2f55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the {@interest_type apy} on account ending in {@account_number 1223}?",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "a3efdaff-655e-4c41-aba2-7284362042ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's {@users my} interest rate?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "e7aa6384-01a7-42c2-a6d6-354d624cf5b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's {@users my} {@interest_type apr} on {@users my} {@account_type cc}?",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "16af6d81-c65e-46bb-ad5b-6d537f6e2ef9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's {@users my} {@interest_type apy}?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "23bac8d2-5786-4dca-9b24-0e02b248c08b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats the interest on {@users my} {@account_type savings}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "bea60b4f-8afa-413c-9b1c-53c8ec1ddaf8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats the {@interest_type apr} on {@account_number 2134}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "28665478-ed16-4fad-bcb7-708aaf30364e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats {@users my} {@account_number 1234} account's {@interest_type apr}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "f271af4e-6f1f-4387-8153-7296ed303e20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats {@users my} {@account_type savings} account interest rate",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "bb2bf694-f127-47e2-83ab-c3d1ee6837af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can I see the interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "01090da2-89a6-47cf-b12c-32d205ba1d90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i locate {@interest_type margin} {@account_type loan} interest charge",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b53fe3d5-abc6-4a87-a378-38deaee4fe71",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why dont I get interest rate this quarter???",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d426a068-746f-44ec-afdf-5ee3bcf9fda0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "will like to check interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d26ae2dc-04a9-4fbe-9dad-7afa319b48d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "you need to tell me the interest rate first.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d09bc315-9b8f-4e2b-853d-ed801dac31cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "your interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6ad75170-ed6b-4e4e-bbb8-dfb0736eb188",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@account_type fixed deposit} interest rate",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "edeb6b8b-2e2f-4ce7-b137-9de290d97197",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@account_type saving} account interest rates",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8483dffa-1d0d-4264-86be-dc6024f58c94",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@interest_type Margin} {@account_type loan} interest rate",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "61f7a498-c2f1-4920-940e-e66cd1f62236",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@interest_type margin} lending interest rate",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a22897c9-365f-43ee-9c6a-86d73c99c49f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kcb_see_more Yes} show the interest rate for {@users my} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "69202cb8-b8fe-4efb-abc0-f112b1f3cb54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kcb_see_more Yes} what is the interest rate on {@users my} {@account_type visa}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cd9d2c38-21c3-4c9b-9193-20dcecec7c3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kcb_see_more Yes}, tell me {@users my} interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ba1f845f-2110-4661-b272-da05895fea69",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@users my} home {@account_type loan} interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "462b1026-6895-44e9-9846-71b464895a9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@users my} interest rate",
+    "tags" : [ "goldset", "test_gold" ]
+  } ]
+} ]

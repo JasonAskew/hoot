@@ -1,0 +1,298 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_add_tpa_test",
+  "intent_name" : "bt_add_tpa",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "e8ed265e-3b8d-4878-ad5e-868d645e0fbd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Add TPA",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "4257dd2d-f05e-43fb-aae1-67482e9a8a71",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Add a TPA",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7b9428a5-91e1-4d32-a2bf-635e001bd03a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I add a TPA to my account online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7c908e9b-bdcc-4e07-8ab8-2fea8e456e27",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add a TPA?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "eb318483-5781-44ad-b235-6d00d8ca7dbb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i add a TPA?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "ae202ad8-1b63-4bf5-a697-7eb3d28a9326",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Add TPA",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "a97f5e17-c7b1-4ba1-a995-2305728b73e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Add a TPA",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "df39b771-e476-46e2-a28a-4cf5012959f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I add a TPA to my account online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9ede0814-cea8-4e73-9cdb-a28379b12414",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add a TPA?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2a91d844-41b6-46e9-ac1b-d265569ae068",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i add a TPA?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "544b7d74-da83-4641-83f1-9cb10151c0c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to get a third party authorization form",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ac0f31cf-fd79-43f0-82ac-0856da8f1dcd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to make my brother a TPA on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3e0089c7-882b-47e3-b4d4-3d28ea6245b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to put a TPA on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c12a9ad9-ac94-408f-a536-6a8739333621",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Lodge third party authority",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6d573507-d73d-4641-ab55-69d9829d35f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Third Party Authority",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "58eaac8c-717d-49d1-b085-8a89d7bedc9e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's needed to add a TPA to an account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d1422d98-70d2-4867-86ae-d46867bf0e1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add a three rd party authority for a new client",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8e39a2c5-6cfa-4726-be3e-e214541a8278",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "add a tpa",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "864619b7-39dd-44ce-b0ac-040afb6ee89e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add authorised rep",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1050034a-78ab-4203-bd6b-b592ac46407b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me if there is three rd party access on an account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "63c6063e-924d-42c5-b7e9-a2d9eebb02cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check on tpa",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6a0b4165-47e5-4b0c-98b4-6bc44a5cf548",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me if there is three rd party access on an account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fa02cfb7-fd02-4a05-822c-083f893b0544",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check on tpa",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "07413664-db32-4b32-9934-4061fc6c327b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me if there is three rd party access on an account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6e1ce0a2-e141-4aab-8e78-82d885bda56b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check on tpa",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9d69363a-1d90-4a3d-a885-c4e6c6489b61",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i neded to know what number a client is to call to approve a tpa",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "15b4d97d-d011-438b-a648-cddd626823fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can I add TPA?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "5294c199-612f-430e-93aa-d7a7b18b779e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i add a shareholder",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8bca93b8-b44f-4f0f-a0f0-82e945cf7e50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i request an authority to access for a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1308cb73-7f07-452b-8c37-0d3994aeea49",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i access my super for life",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "4c01926c-82ea-4caf-ae42-94b49ef71eb5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i 'd like to add a broker to a client account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "e74b5727-37ce-4b74-bfaf-19ccda08a274",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to upload a three rd party authority request as an advisor",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2c70ca08-a52b-4d9f-b8a7-4857074e3b00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "remove a contact from an account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7ee8d1a2-c8cd-4449-9074-ee8060aceeac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "third party",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5ce42a69-9706-4729-82cb-3e522289ae8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "third party authoirty email",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "cc632a3b-3d0b-47f6-bf18-d4d71cfb5a3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "three rd party authority to trust account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "15f20475-0549-4ae8-b659-4b1fac54f321",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "three rd party request form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e7dba351-daa2-4436-98b6-4a282fc45dcf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thrid party authority",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6c0da8e5-cddc-4d7e-9790-dd0fe2f9ef7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "third party",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "dfd352ef-f837-43a3-8782-b8313353e2fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "third party authoirty email",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "98cad7b5-750c-4fb7-91c4-ef1146dc306e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "three rd party authority to trust account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "49993d69-9923-4d0f-b667-ed3f323fb33b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "three rd party request form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "179c3774-0b82-4c8e-ac55-b26a11baa666",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thrid party authority",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e71ca2a0-f5c4-4149-b85c-a93a04a812f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what if i have three rd party",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4d695f5e-3501-409c-a0e8-a982fa9170ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the information needed to add a TPA",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6b55b2ca-be5e-4380-a0bd-f89e6c0fee80",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what other requirements do you need to send a three rd party authority",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "562420d2-4ef6-4369-8b7b-0674f34c7289",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i email a tpa form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2ea32c49-8d7d-4f54-9202-28645bde4b75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to send three rd party authority",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  } ]
+} ]

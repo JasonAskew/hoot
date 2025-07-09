@@ -1,0 +1,2220 @@
+[
+  {
+    "segment": "bt_channel_mobile_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_mobile",
+      "bt_channel_mobile_adviser",
+      "global"
+    ],
+    "intent": "79_EstatementError_S",
+    "actual_intent": "79_EstatementError_S",
+    "example_trigger": "my cc statement not appear in my account on the internet banking",
+    "expected_response": "If you're having issues accessing your client's statements in the document library, one of our consultants can assist you. If you would like to speak to a consultant, please select the 'Chat with consultant' button.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [
+      "Chat with consultant"
+    ],
+    "session_id": "node0j497gh0u9vglx7gl89fehsxo0175073457323196564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.023809523809523808,
+      "buttons_match": false,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "If you're having issues accessing your client's statements in the document library, one of our consultants can assist you. If you would like to speak to a consultant, please select the 'Chat with consultant' button.",
+      "actual_buttons": [],
+      "expected_buttons": [
+        "Chat with consultant"
+      ],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "If you're having issues accessing your client's statements in the document library, one of our consultants can assist you. If you would like to speak to a consultant, please select the 'Chat with consultant' button.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0j497gh0u9vglx7gl89fehsxo0175073457323196564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_mobile",
+            "bt_channel_mobile_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "mobile"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "79_EstatementError_S",
+              "intent_confidence": 1.0,
+              "display_sentence": "Why can't I access my estatement online"
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "79_EstatementError_S",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:03.199370"
+  },
+  {
+    "segment": "bt_channel_mobile_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_mobile",
+      "bt_channel_mobile_adviser",
+      "global"
+    ],
+    "intent": "bt_balance",
+    "actual_intent": "bt_balance",
+    "example_trigger": "how is my investment accounts doing?",
+    "expected_response": "You are able to see your clients current account balance by selecting the client and navigating to 'Overview'.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node0kpstboydv0no64b4ps4c5kq11175073457323296564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.0,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "You are able to see your clients current account balance by selecting the client and navigating to 'Overview'.",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "You are able to see your clients current account balance by selecting the client and navigating to 'Overview'.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0kpstboydv0no64b4ps4c5kq11175073457323296564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_mobile",
+            "bt_channel_mobile_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "mobile"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_balance",
+              "intent_confidence": 1.0,
+              "display_sentence": "bt balances (guai)"
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_balance",
+              "confidence": 1.0
+            },
+            "user_inputs": [
+              {
+                "name": "account_type",
+                "value": "investment"
+              }
+            ],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:06.822137"
+  },
+  {
+    "segment": "bt_channel_mobile_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_mobile",
+      "bt_channel_mobile_adviser",
+      "global"
+    ],
+    "intent": "bt_trading_fees",
+    "actual_intent": "bt_trading_fees",
+    "example_trigger": "What are the mutual fund trading fees of my account with id QPO8Jo8vdDHMepg41PBwckXm4KdK1yUdmXOwK",
+    "expected_response": "Trading fee for buying and selling shares and ETFs within your clients Panorama account generally range from 0.11% to 0.20% or $12.50 (whichever is greater) per trade. Please refer to the relevant PDS for more information.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node01oanb529vhmgg2o8opcqivk6a2175073457323396564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.023255813953488372,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "Trading fee for buying and selling shares and ETFs within your clients Panorama account generally range from 0.11% to 0.20% or $12.50 (whichever is greater) per trade. Please refer to the relevant PDS for more information.",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "Trading fee for buying and selling shares and ETFs within your clients Panorama account generally range from 0.11% to 0.20% or $12.50 (whichever is greater) per trade. Please refer to the relevant PDS for more information.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node01oanb529vhmgg2o8opcqivk6a2175073457323396564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_mobile",
+            "bt_channel_mobile_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "mobile"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_trading_fees",
+              "intent_confidence": 1.0,
+              "display_sentence": "What are the trading fees"
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_trading_fees",
+              "confidence": 1.0
+            },
+            "user_inputs": [
+              {
+                "name": "account_type",
+                "value": "investment"
+              },
+              {
+                "name": "asset",
+                "value": "mutual_fund"
+              },
+              {
+                "name": "users",
+                "value": "your_account"
+              }
+            ],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:09.074440"
+  },
+  {
+    "segment": "bt_channel_mobile_composer_super",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_mobile",
+      "bt_channel_mobile_composer_super",
+      "global"
+    ],
+    "intent": "bt_balance",
+    "actual_intent": "bt_balance",
+    "example_trigger": "how is my investment accounts doing?",
+    "expected_response": "You are able to see your current account balance in the 'Overview' section on the navigation menu.  You can use the \u2018Reports\u2019 section to view and download historical balances at specified dates. Select \u2018Go to page\u2019, amend the date range if required, and select the download button on the right-hand side of the \u2018Portfolio Valuation\u2019 report.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [
+      "Go to page"
+    ],
+    "session_id": "node02bxtxs10ejud15x69ogzvc5ua3175073457323496564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.0,
+      "buttons_match": false,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "You are able to see your current account balance in the 'Overview' section on the navigation menu.  You can use the \u2018Reports\u2019 section to view and download historical balances at specified dates. Select \u2018Go to page\u2019, amend the date range if required, and select the download button on the right-hand side of the \u2018Portfolio Valuation\u2019 report.",
+      "actual_buttons": [],
+      "expected_buttons": [
+        "Go to page"
+      ],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "You are able to see your current account balance in the 'Overview' section on the navigation menu. You can use the \u2018Reports\u2019 section to view and download historical balances at specified dates. Select \u2018Go to page\u2019, amend the date range if required, and select the download button on the right-hand side of the \u2018Portfolio Valuation\u2019 report.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node02bxtxs10ejud15x69ogzvc5ua3175073457323496564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_mobile",
+            "bt_channel_mobile_composer_super",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "mobile"
+            },
+            {
+              "key": "role",
+              "value": "Investor"
+            },
+            {
+              "key": "product",
+              "value": "BTSuper"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_balance",
+              "intent_confidence": 1.0,
+              "display_sentence": "bt balances (guai)"
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_balance",
+              "confidence": 1.0
+            },
+            "user_inputs": [
+              {
+                "name": "account_type",
+                "value": "investment"
+              }
+            ],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:11.071488"
+  },
+  {
+    "segment": "bt_channel_mobile_investor",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_mobile",
+      "bt_channel_mobile_investor",
+      "global"
+    ],
+    "intent": "79_EstatementError_S",
+    "actual_intent": "79_EstatementError_S",
+    "example_trigger": "my cc statement not appear in my account on the internet banking",
+    "expected_response": "If you're having issues accessing your statements in the document library, one of our consultants can assist you. If you would like to speak to a consultant, please select the 'Chat with consultant' button.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [
+      "Chat with consultant"
+    ],
+    "session_id": "node01thr3i3tavcxegb8p7gow6vph4175073457323596564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.024390243902439025,
+      "buttons_match": false,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "If you're having issues accessing your statements in the document library, one of our consultants can assist you. If you would like to speak to a consultant, please select the 'Chat with consultant' button.",
+      "actual_buttons": [],
+      "expected_buttons": [
+        "Chat with consultant"
+      ],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "If you're having issues accessing your statements in the document library, one of our consultants can assist you. If you would like to speak to a consultant, please select the 'Chat with consultant' button.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node01thr3i3tavcxegb8p7gow6vph4175073457323596564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_mobile",
+            "bt_channel_mobile_investor",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "mobile"
+            },
+            {
+              "key": "role",
+              "value": "Investor"
+            },
+            {
+              "key": "userType",
+              "value": "Advised"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "79_EstatementError_S",
+              "intent_confidence": 1.0,
+              "display_sentence": "Why can't I access my estatement online"
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "79_EstatementError_S",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:13.068599"
+  },
+  {
+    "segment": "bt_channel_mobile_investor",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_mobile",
+      "bt_channel_mobile_investor",
+      "global"
+    ],
+    "intent": "bt_balance",
+    "actual_intent": "bt_balance",
+    "example_trigger": "how is my investment accounts doing?",
+    "expected_response": "You are able to see your current account balance by selecting 'Overview' on the navigation menu.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node0aasrbjkohklq1ajfstbat2dvv5175073457323696564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.0,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "You are able to see your current account balance by selecting 'Overview' on the navigation menu.",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "You are able to see your current account balance by selecting 'Overview' on the navigation menu.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0aasrbjkohklq1ajfstbat2dvv5175073457323696564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_mobile",
+            "bt_channel_mobile_investor",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "mobile"
+            },
+            {
+              "key": "role",
+              "value": "Investor"
+            },
+            {
+              "key": "userType",
+              "value": "Advised"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_balance",
+              "intent_confidence": 1.0,
+              "display_sentence": "bt balances (guai)"
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_balance",
+              "confidence": 1.0
+            },
+            "user_inputs": [
+              {
+                "name": "account_type",
+                "value": "investment"
+              }
+            ],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:15.088790"
+  },
+  {
+    "segment": "bt_channel_mobile_investor",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_mobile",
+      "bt_channel_mobile_investor",
+      "global"
+    ],
+    "intent": "bt_trading_fees",
+    "actual_intent": "bt_trading_fees",
+    "example_trigger": "What are the mutual fund trading fees of my account with id QPO8Jo8vdDHMepg41PBwckXm4KdK1yUdmXOwK",
+    "expected_response": "Trading fee for buying and selling shares and ETFs within your Panorama account generally range from 0.11% to 0.20% or $12.50 (whichever is greater) per trade. Please refer to the relevant PDS for more information.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node0o3g03lol74i9w0e2ds4n7nun6175073457323796564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.023809523809523808,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "Trading fee for buying and selling shares and ETFs within your Panorama account generally range from 0.11% to 0.20% or $12.50 (whichever is greater) per trade. Please refer to the relevant PDS for more information.",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "Trading fee for buying and selling shares and ETFs within your Panorama account generally range from 0.11% to 0.20% or $12.50 (whichever is greater) per trade. Please refer to the relevant PDS for more information.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0o3g03lol74i9w0e2ds4n7nun6175073457323796564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_mobile",
+            "bt_channel_mobile_investor",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "mobile"
+            },
+            {
+              "key": "role",
+              "value": "Investor"
+            },
+            {
+              "key": "userType",
+              "value": "Advised"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_trading_fees",
+              "intent_confidence": 1.0,
+              "display_sentence": "What are the trading fees"
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_trading_fees",
+              "confidence": 1.0
+            },
+            "user_inputs": [
+              {
+                "name": "account_type",
+                "value": "investment"
+              },
+              {
+                "name": "asset",
+                "value": "mutual_fund"
+              },
+              {
+                "name": "users",
+                "value": "your_account"
+              }
+            ],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:17.054686"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_amend_advice_fee",
+    "actual_intent": "bt_amend_advice_fee",
+    "example_trigger": "Can you show me how to make changes to the advice fee?",
+    "expected_response": "To navigate the Advice fees page on a client's account, select 'Show me how'. For information on establishing, amending or renewing an advice fee, select 'Help & support'. To view pending or completed fee consent requests, or to upload a signed consent form select 'Go to page'.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [
+      "Show me how",
+      "Help & support",
+      "Go to page",
+      "Fee revenue statements"
+    ],
+    "session_id": "node05qugkjr1hj5cq7mrn47tnhdb7175073457323896564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.021739130434782608,
+      "buttons_match": false,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "To navigate the Advice fees page on a client's account, select 'Show me how'. For information on establishing, amending or renewing an advice fee, select 'Help & support'. To view pending or completed fee consent requests, or to upload a signed consent form select 'Go to page'.",
+      "actual_buttons": [],
+      "expected_buttons": [
+        "Show me how",
+        "Help & support",
+        "Go to page",
+        "Fee revenue statements"
+      ],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "To navigate the Advice fees page on a client's account, select 'Show me how'. For information on establishing, amending or renewing an advice fee, select 'Help & support'. To view pending or completed fee consent requests, or to upload a signed consent form select 'Go to page'.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node05qugkjr1hj5cq7mrn47tnhdb7175073457323896564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_amend_advice_fee",
+              "intent_confidence": 1.0,
+              "display_sentence": "How do I amend my ongoing advice fee?"
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_amend_advice_fee",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:19.439206"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_auto_invest",
+    "actual_intent": "bt_auto_invest",
+    "example_trigger": "Can I have money in my account automatically invested into my portfolio?",
+    "expected_response": "To set up a 'Cash Investment Strategy' please select 'Cash management' from the navigation menu. To manage distribution preference's navigate to 'Portfolio views', You can then select the dividend & distribution preferences on the right of the relevant holding.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node01o2b77r6u09wa1bt54yc67bsnr8175073457323996564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.0,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "To set up a 'Cash Investment Strategy' please select 'Cash management' from the navigation menu. To manage distribution preference's navigate to 'Portfolio views', You can then select the dividend & distribution preferences on the right of the relevant holding.",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "To set up a 'Cash Investment Strategy' please select 'Cash management' from the navigation menu. To manage distribution preference's navigate to 'Portfolio views', You can then select the dividend & distribution preferences on the right of the relevant holding.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node01o2b77r6u09wa1bt54yc67bsnr8175073457323996564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_auto_invest",
+              "intent_confidence": 1.0,
+              "display_sentence": "Does Panorama have an auto invest feature & Distribution preferences",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_auto_invest",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:21.689486"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_cancel_trade",
+    "actual_intent": "bt_cancel_trade",
+    "example_trigger": "How can we reverse this trade?",
+    "expected_response": "To better help you with your query could you log in into your account and please ask me again?",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [
+      "Help me sign in"
+    ],
+    "session_id": "node0to0n2n920l4b1keh3jydajn9d9175073457324096564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.07692307692307693,
+      "buttons_match": false,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "To better help you with your query could you log in into your account and please ask me again?",
+      "actual_buttons": [],
+      "expected_buttons": [
+        "Help me sign in"
+      ],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "To better help you with your query could you log in into your account and please ask me again?",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0to0n2n920l4b1keh3jydajn9d9175073457324096564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_cancel_trade",
+              "intent_confidence": 1.0,
+              "display_sentence": "Can I cancel a trade?",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_cancel_trade",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:23.887604"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_centrelink_schedule",
+    "actual_intent": "bt_centrelink_schedule",
+    "example_trigger": "Is it possible for me to generate a centrelink schedule?",
+    "expected_response": "Centrelink schedules are generated at the beginning of each financial year and whenever amendments to a pension are made. You can locate a client's Centrelink schedule in their document library. To generate a new Centrelink schedule for a pension account, select 'Show me how'.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [
+      "Show me how"
+    ],
+    "session_id": "node01ghe2ei19rnaeyemw4rkrw9mt10175073457324196564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.022222222222222223,
+      "buttons_match": false,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "Centrelink schedules are generated at the beginning of each financial year and whenever amendments to a pension are made. You can locate a client's Centrelink schedule in their document library. To generate a new Centrelink schedule for a pension account, select 'Show me how'.",
+      "actual_buttons": [],
+      "expected_buttons": [
+        "Show me how"
+      ],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "Centrelink schedules are generated at the beginning of each financial year and whenever amendments to a pension are made. You can locate a client's Centrelink schedule in their document library. To generate a new Centrelink schedule for a pension account, select 'Show me how'.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node01ghe2ei19rnaeyemw4rkrw9mt10175073457324196564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_centrelink_schedule",
+              "intent_confidence": 1.0,
+              "display_sentence": "How can I request a Centrelink schedule?",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_centrelink_schedule",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:26.736787"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_change_pension_payment",
+    "actual_intent": "bt_change_pension_payment",
+    "example_trigger": "are there forms needed for amending the pension?",
+    "expected_response": "To better help you with your query could you log in into your account and please ask me again?",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node0v9b80usst3mnk7knzw9s5f6s11175073457324296564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.07692307692307693,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "To better help you with your query could you log in into your account and please ask me again?",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "To better help you with your query could you log in into your account and please ask me again?",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0v9b80usst3mnk7knzw9s5f6s11175073457324296564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_change_pension_payment",
+              "intent_confidence": 1.0,
+              "display_sentence": "How do I change my pension payment & Scheduled transactions ?",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_change_pension_payment",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:28.818504"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_commence_pension",
+    "actual_intent": "bt_commence_pension",
+    "example_trigger": "How do I start pension for my client?",
+    "expected_response": "To better help you with your query could you log in into your account and please ask me again?",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node0gtdci1uvcsdpsbyx309hlgb312175073457324396564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.07692307692307693,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "To better help you with your query could you log in into your account and please ask me again?",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "To better help you with your query could you log in into your account and please ask me again?",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0gtdci1uvcsdpsbyx309hlgb312175073457324396564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_commence_pension",
+              "intent_confidence": 1.0,
+              "display_sentence": "How do I commence the pension",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_commence_pension",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:31.025783"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_drawdown_strat",
+    "actual_intent": "bt_drawdown_strat",
+    "example_trigger": "How can I manage the drawdowns",
+    "expected_response": "A drawdown strategy is the order and manner in which your client\u2019s listed securities, managed funds or managed portfolio investments will be sold to generate sufficient cash to fund the payments due (including fees and costs) or maintain the minimum transaction account balance required. For information on how to manage a drawdown strategy, select 'Help & Support'",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [
+      "Help & Support"
+    ],
+    "session_id": "node0b48b6wudz2ze1o2zsotw8bkas13175073457324496564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.017241379310344827,
+      "buttons_match": false,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "A drawdown strategy is the order and manner in which your client\u2019s listed securities, managed funds or managed portfolio investments will be sold to generate sufficient cash to fund the payments due (including fees and costs) or maintain the minimum transaction account balance required. For information on how to manage a drawdown strategy, select 'Help & Support'",
+      "actual_buttons": [],
+      "expected_buttons": [
+        "Help & Support"
+      ],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "A drawdown strategy is the order and manner in which your client\u2019s listed securities, managed funds or managed portfolio investments will be sold to generate sufficient cash to fund the payments due (including fees and costs) or maintain the minimum transaction account balance required. For information on how to manage a drawdown strategy, select 'Help & Support'",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0b48b6wudz2ze1o2zsotw8bkas13175073457324496564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_drawdown_strat",
+              "intent_confidence": 1.0,
+              "display_sentence": "How do I amend the drawdown strategy?",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_drawdown_strat",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:33.373750"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_edit_tfn",
+    "actual_intent": "bt_edit_tfn",
+    "example_trigger": "I want to add my Tax File Number to my account.",
+    "expected_response": "You are able to add or amend a client's TFN or country of residence for tax purposes by following these steps: 1. Select 'Account details' in the navigation menu of the client's account 2. Select the client's underlined name 3. Select the pencil icon next to 'Tax file number' or 'Country of residence for tax purposes'",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node01rgowph1ipquf1wfjzh8wpp6tk14175073457324596564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.0196078431372549,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "You are able to add or amend a client's TFN or country of residence for tax purposes by following these steps: 1. Select 'Account details' in the navigation menu of the client's account 2. Select the client's underlined name 3. Select the pencil icon next to 'Tax file number' or 'Country of residence for tax purposes'",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "You are able to add or amend a client's TFN or country of residence for tax purposes by following these steps: 1. Select 'Account details' in the navigation menu of the client's account 2. Select the client's underlined name 3. Select the pencil icon next to 'Tax file number' or 'Country of residence for tax purposes'",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node01rgowph1ipquf1wfjzh8wpp6tk14175073457324596564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_edit_tfn",
+              "intent_confidence": 1.0,
+              "display_sentence": "How do I add my TFN?",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_edit_tfn",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:35.713621"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_employer_contribution_details",
+    "actual_intent": "bt_employer_contribution_details",
+    "example_trigger": "contribution details super",
+    "expected_response": "Our fund details, including the ABN and USI are available on our website. If you are unsure of what type of Superannuation account you have with BT, please log in and ask me again.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [
+      "ABN & USI"
+    ],
+    "session_id": "node01pgelv57jlggi1soccaojp0efl15175073457324696564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.02564102564102564,
+      "buttons_match": false,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "Our fund details, including the ABN and USI are available on our website. If you are unsure of what type of Superannuation account you have with BT, please log in and ask me again.",
+      "actual_buttons": [],
+      "expected_buttons": [
+        "ABN & USI"
+      ],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "Our fund details, including the ABN and USI are available on our website. If you are unsure of what type of Superannuation account you have with BT, please log in and ask me again.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node01pgelv57jlggi1soccaojp0efl15175073457324696564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_employer_contribution_details",
+              "intent_confidence": 1.0,
+              "display_sentence": "What information do I need for my employer to make contribution?",
+              "alternative_questions_enabled": false
+            },
+            {
+              "intent_name": "bt_concess_contribute",
+              "intent_confidence": 0.2181,
+              "display_sentence": "How can I see how much concessional contributions have been made?",
+              "alternative_questions_enabled": true,
+              "alternative_questions_eligible": true
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_employer_contribution_details",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:37.919987"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_general_fees",
+    "actual_intent": "bt_general_fees",
+    "example_trigger": "Does the bankname account have any fees?",
+    "expected_response": "To better help you with your query please log into your account and ask me again",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node0muqzuhu15jsj7jouezv1vdb116175073457324796564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.08333333333333333,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "To better help you with your query please log into your account and ask me again",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "To better help you with your query please log into your account and ask me again",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0muqzuhu15jsj7jouezv1vdb116175073457324796564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_general_fees",
+              "intent_confidence": 1.0,
+              "display_sentence": "request fee information",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_general_fees",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:40.142097"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_min_pension",
+    "actual_intent": "bt_min_pension",
+    "example_trigger": "Does this pension account have a minimum?",
+    "expected_response": "You are able to see a client's minimum pension for this financial year under the 'Pension payments' section of the navigation menu.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node011utzvhpedt439qahki3t7ny917175073457324896564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.03225806451612903,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "You are able to see a client's minimum pension for this financial year under the 'Pension payments' section of the navigation menu.",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "You are able to see a client's minimum pension for this financial year under the 'Pension payments' section of the navigation menu.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node011utzvhpedt439qahki3t7ny917175073457324896564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_min_pension",
+              "intent_confidence": 1.0,
+              "display_sentence": "What is the minimum for this pension account?",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_min_pension",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:42.362545"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_personal_tax",
+    "actual_intent": "bt_personal_tax",
+    "example_trigger": "claim personal tax deduction",
+    "expected_response": "To better help you with your query could you log in into your account and please ask me again?",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node0ku48kpr9bs83got45sqh0x8c18175073457324996564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.07692307692307693,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "To better help you with your query could you log in into your account and please ask me again?",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "To better help you with your query could you log in into your account and please ask me again?",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0ku48kpr9bs83got45sqh0x8c18175073457324996564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_personal_tax",
+              "intent_confidence": 1.0,
+              "display_sentence": "How do we claim a personal tax deduction?",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_personal_tax",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:44.540601"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_regular_investment",
+    "actual_intent": "bt_regular_investment",
+    "example_trigger": "made a mistake with the investment plan and need to fix it up",
+    "expected_response": "To better help you with your query could you log in into your account and please ask me again?",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node0k7etz5gaxfrxd2qxe2m4x87r19175073457325096564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.07692307692307693,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "To better help you with your query could you log in into your account and please ask me again?",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "To better help you with your query could you log in into your account and please ask me again?",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0k7etz5gaxfrxd2qxe2m4x87r19175073457325096564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_regular_investment",
+              "intent_confidence": 1.0,
+              "display_sentence": "How do I set up a regular investment plan?",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_regular_investment",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:46.718878"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_rollover",
+    "actual_intent": "bt_rollover",
+    "example_trigger": "How can I roll funds?",
+    "expected_response": "To better help you with your query could you log in into your account and please ask me again?",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node0lz4d19a0ybrsab915wnzjepq20175073457325196564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.07692307692307693,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "To better help you with your query could you log in into your account and please ask me again?",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "To better help you with your query could you log in into your account and please ask me again?",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0lz4d19a0ybrsab915wnzjepq20175073457325196564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_rollover",
+              "intent_confidence": 1.0,
+              "display_sentence": "How do we rollover funds from an external super fund into Panorama?",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_rollover",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:48.878957"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_trade_share",
+    "actual_intent": "bt_trade_share",
+    "example_trigger": "I want to make a trade in my 401K",
+    "expected_response": "To better help you with your query could you log in into your account and please ask me again?",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [],
+    "session_id": "node0yga10man3mklmimt3oskz1pj21175073457325296564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.07692307692307693,
+      "buttons_match": true,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "To better help you with your query could you log in into your account and please ask me again?",
+      "actual_buttons": [],
+      "expected_buttons": [],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "To better help you with your query could you log in into your account and please ask me again?",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node0yga10man3mklmimt3oskz1pj21175073457325296564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_trade_share",
+              "intent_confidence": 1.0,
+              "display_sentence": "How do I trade?",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_trade_share",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:51.105940"
+  },
+  {
+    "segment": "bt_channel_public_user_adviser",
+    "actual_segments": [
+      "bt_account_super",
+      "bt_channel_public",
+      "bt_channel_public_user_adviser",
+      "bt_user_adviser",
+      "global"
+    ],
+    "intent": "bt_work_test_declaration",
+    "actual_intent": "bt_work_test_declaration",
+    "example_trigger": "Where can I go to complete a work test declaration?",
+    "expected_response": "Work test declarations are to be submitted through the ATO when lodging your tax return. More information on the process is available on the ATO website.",
+    "actual_response": "For now, I can't help with that. But I'm always learning.",
+    "actual_buttons": [],
+    "expected_buttons": [
+      "Visit ATO website"
+    ],
+    "session_id": "node01jhn5kdxtbxk918c2ziuc2xktu22175073457325396564771-95ec-43f6-b5ab-22900c3d20b9",
+    "status": "FAILED_RESPONSE",
+    "comparison": {
+      "text_match": false,
+      "text_similarity": 0.0,
+      "buttons_match": false,
+      "actual_text": "For now, I can't help with that. But I'm always learning.",
+      "expected_text": "Work test declarations are to be submitted through the ATO when lodging your tax return. More information on the process is available on the ATO website.",
+      "actual_buttons": [],
+      "expected_buttons": [
+        "Visit ATO website"
+      ],
+      "normalized_actual": "For now, I can't help with that. But I'm always learning.",
+      "normalized_expected": "Work test declarations are to be submitted through the ATO when lodging your tax return. More information on the process is available on the ATO website.",
+      "overall_match": false
+    },
+    "full_response": {
+      "context": {
+        "user": {
+          "session_id": "node01jhn5kdxtbxk918c2ziuc2xktu22175073457325396564771-95ec-43f6-b5ab-22900c3d20b9",
+          "segment_names": [
+            "bt_account_super",
+            "bt_channel_public",
+            "bt_channel_public_user_adviser",
+            "bt_user_adviser",
+            "global"
+          ],
+          "meta_fields": [
+            {
+              "key": "platform_type",
+              "value": "web"
+            },
+            {
+              "key": "zone",
+              "value": "public"
+            },
+            {
+              "key": "role",
+              "value": "Intermediary"
+            }
+          ]
+        },
+        "api_version": "5.8",
+        "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+        "nlu_details": {
+          "matching_intents": [
+            {
+              "intent_name": "bt_work_test_declaration",
+              "intent_confidence": 1.0,
+              "display_sentence": "How do I complete a work test declaration?",
+              "alternative_questions_enabled": false
+            }
+          ],
+          "predicted": {
+            "action": "start_conversation",
+            "triggered_intent": {
+              "name": "bt_work_test_declaration",
+              "confidence": 1.0
+            },
+            "user_inputs": [],
+            "ambiguous_user_inputs": []
+          }
+        },
+        "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+      },
+      "message_contents": [
+        {
+          "type": "TEXT",
+          "payload": {
+            "text": "For now, I can't help with that. But I'm always learning."
+          }
+        }
+      ],
+      "status": {
+        "code": "200"
+      }
+    },
+    "enabled_for_segment": "Yes",
+    "timestamp": "2025-06-24T13:18:53.276052"
+  }
+]

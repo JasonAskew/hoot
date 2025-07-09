@@ -1,0 +1,2122 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_submit_form_train",
+  "intent_name" : "bt_submit_form",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "6d157ee3-b2cf-477f-9116-b599530832ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Address to send super withdrawal form",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "9a1b7ff9-3ea3-4dab-903c-8053586b5da6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can an account closure form be submitted via email?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "03e5576b-f2b6-474e-8989-096e339622fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can completed forms be email to you",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "6ce005da-2c97-4789-bd1b-c99579457b8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can i email forms to you",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "7afb58b2-f958-44af-8e1d-9f31fcc14f1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can i upload or email the form",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "a6375bd7-295b-496f-97a9-ac1bedb15b65",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Have query re no option to upload form",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "92652f2e-5557-4855-b188-5cbf981f09a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi if a client has signed a super condition of release form can i upload this into document library and it will be processed.",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "ee526c28-8fd0-4357-b7c2-64703158d486",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, do you have a contact e-mail address ?",
+    "tags" : [ "nid_05-2021", "merged_from_bt_contact_email" ]
+  }, {
+    "id" : "903c9c8b-b6e3-4d04-92f2-fe7dffcdd820",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, i am trying to do an asset transfer however having trouble with the upload of the online asset transfer request form",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "db0ab350-e1e0-4c90-8f5c-a49295deb90f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, i want to roll over the total of my bt super into my self managed super fund, please advise the contact information for me to send the form to",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "ea24d088-9264-4cb8-a6c6-71d664fea0f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, where do i send my notice of intent to claim personal super contribution form?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "e815046c-1625-442c-a107-3e92abf97408",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I submit the form?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "c2cdba38-8399-4dd0-b7d8-043182b16dab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i submit a regular contribution form for this client",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "41303870-9aee-45cc-ad7a-6906a7590afe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i upload a beneficiary nomination form",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "84d9a80d-7c78-4fe1-a185-ce6b1a08881f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i upload a rollover form for money coming to bt panorama?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "7511a2af-1b08-46a2-a80f-8c93b6021fdc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I ahve a client that wants to send to panorama a notice of intent to claim a tax deduction for personal super contributions form. client wants to know which email address to send to?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "3227898a-b035-412c-ad18-6b8e01781532",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Address to send super withdrawal form",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "1bbea738-4d5f-428c-afa2-53ecf9c59968",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can an account closure form be submitted via email?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "1954fddc-3a57-47c4-bdaf-09a96715f5ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can completed forms be email to you",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "f6bdf111-1f8b-478e-989a-63ee91b4b154",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can i email forms to you",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "dd7b4a8d-e28c-4690-a959-0ab04a53da0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can i upload or email the form",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "93d260d4-244d-4121-a6a6-5806ee40f881",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Have query re no option to upload form",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "66e429df-ba41-48e8-957e-6d601c5134de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi if a client has signed a super condition of release form can i upload this into document library and it will be processed.",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "e113c80a-9e0e-466d-ada2-ce835bc22646",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, do you have a contact e-mail address ?",
+    "tags" : [ "nid_05-2021", "merged_from_bt_contact_email" ]
+  }, {
+    "id" : "bab6bb46-de17-4071-aa98-5fd23e56a094",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, i am trying to do an asset transfer however having trouble with the upload of the online asset transfer request form",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "57834cc7-eb3f-42aa-a704-6afeb9ca6a65",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, i want to roll over the total of my bt super into my self managed super fund, please advise the contact information for me to send the form to",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "a7c22e56-0cae-4b4a-9536-ecc6a742cbcf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, where do i send my notice of intent to claim personal super contribution form?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "5be44752-a4cd-4c1a-a8e5-052249d8be47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I submit the form?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "4c99c094-394a-471f-893f-a6100521e7a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i submit a regular contribution form for this client",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "76d8e6fa-c6f8-4b7e-8ded-bbb5c22069ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i upload a beneficiary nomination form",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "db191243-2da2-4a50-80f5-43245d5fd765",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i upload a rollover form for money coming to bt panorama?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "6cb919fe-1079-4207-ad1a-e186dd9e358f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I ahve a client that wants to send to panorama a notice of intent to claim a tax deduction for personal super contributions form. client wants to know which email address to send to?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "d71c7045-7ed9-4cc1-a593-a8cd4eb7af14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need send a request to transfer form to bt super fund urgently, could you let me know the email address?",
+    "tags" : [ "nid_05-2021", "merged_from_bt_contact_email" ]
+  }, {
+    "id" : "d480addc-1b4a-4ea7-954f-e42596ae469c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "If you have e-mail address, I would love to since there was error on file uploader via your web site.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "25d56034-d0dd-4a4b-a95a-0e25a1d429f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Please let me know how can submit the application form for departing australia to you, so that i can get my superannuation payment from my super fund account?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "c1575301-13e7-4982-a387-e6a4acccd924",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Submit rollover form",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "b796332a-6cce-4fef-ac0c-9b466dd76309",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What email do i send withdrawl forms?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "4e554f2a-f140-44eb-a900-f41e71cf13d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is the best email address to email something to bt?",
+    "tags" : [ "nid_05-2021", "merged_from_bt_contact_email" ]
+  }, {
+    "id" : "3409e8f4-36b5-4a4c-8603-53ff353b1719",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "When form is completed how do i submit it",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "4671f4b4-f276-4946-8a4f-2b2048f8942b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where do i find a form to send to my employer with the new details",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "5920c06a-86cc-4150-bdb3-ca45eb040c28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where do i send the form",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "bcfa001d-5031-42ef-b4d1-22d5ee3d8bd4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where do i send the form to",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "e99e432f-e2b4-436b-a542-c6109eac3727",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but can i do this online or must it be by mail",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "2fc9e9ee-2398-4d76-8c5c-02847fee4095",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a a super account closure form be emailed to bt for action",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7e1b452b-ba69-439f-b4ef-db5de118e1ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a completed account closure form be uploaded onloine",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "d9cb08a2-ae62-4a1a-905d-b9de659e3761",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a partial withdrawal form be emailed",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "25155edc-9f5f-430c-aac4-828f674b25d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can an asset transfer form be emailed or will it require for the original signed copies to be posted",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "891474a8-29bb-4b83-8bb1-b4967dcd33a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email a partial withdrawal request",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8ae68be2-e7c5-4fc6-920f-a6f5fa479a50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email a rollover form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "35ef0235-e75f-4cb5-8eed-a5abda6dae5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email forms",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "9402ac58-3aa6-4b62-acbf-f5e04a087903",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email the form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4f5ff9d9-9ab4-4e18-9e8d-9c9fa06ce5d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email withdrawal form for super",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3876565b-ef0b-4a9b-bd46-ac5c41d88f68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i send via email",
+    "tags" : [ "wcp-146" ]
+  }, {
+    "id" : "b566d324-6999-463b-8beb-b37232f5c070",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i submit a change of details form through email",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "0d1bb33d-ccfb-4661-9202-b8b4f094dd49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload a form",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "09594aa0-2371-42a6-bfd1-90da758587f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload an applicaiton",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ee709e29-cc06-4b92-aae7-f26f043c47fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload documents",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "de165f6d-9a5b-4007-9d25-004aeeffe045",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload documents to bt",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "d94bc90c-f072-4e45-b35b-ecb398f1b040",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i uploaded a signed consent form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b6a77612-28fc-4e27-9031-e2f723935d6f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can we do email?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "2c678e1e-95ca-4b3a-b046-241432445021",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we lodge forms online",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8ed2a993-ef17-409e-b400-91a24d7fd81b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we submit this form electronically",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "adb37f16-24fa-4ab2-97aa-5c55d0e83c77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we upload documents to the portal",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ea2526b7-7b7d-47a0-a8c1-c7fb5558f701",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you not upload the withdrawl form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "625946ef-7fe8-480a-a7be-b1979fbb73a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please advise email address for me to send intent to claim superannuation contribution form",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "99f57999-8fbc-4356-99ba-1dd9deec7c06",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please redirect me to document upload library",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ff380f6e-eca2-40ba-baf2-19f3c52dad59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you submitt a super closure form online",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5107ace7-1c86-4525-b30a-1c428119cb37",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but can i do this online or must it be by mail",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "9b8fbf5c-8d8d-4b31-bf10-cc4c756d305a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a a super account closure form be emailed to bt for action",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b1a4d393-c1b7-4f63-8db6-da61531cd93f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a completed account closure form be uploaded onloine",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "4a9abd68-6f8a-4479-a012-7ec83a591164",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a partial withdrawal form be emailed",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "bea6d8d4-e074-4543-8a49-17bf09135b01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can an asset transfer form be emailed or will it require for the original signed copies to be posted",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1d1edda0-b036-4f5c-b696-d1f08e1489f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email a partial withdrawal request",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dddf8133-7699-4782-b012-4ea4c76e5d43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email a rollover form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bd863bf5-4e61-4276-acc1-e570089e5cf2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email forms",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "490b035b-cb00-442b-8245-ac0eae18d480",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email the form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d35cd217-21e1-4929-9d19-37fdc1bcd725",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email withdrawal form for super",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "4c66f92e-5a03-41a3-a17f-6b2d79cd0caf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i send via email",
+    "tags" : [ "wcp-146" ]
+  }, {
+    "id" : "ae2c1c85-d0b3-4e53-b40b-e69b23fd50a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i submit a change of details form through email",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "6de82341-5a9c-475b-afcb-760f6f5ac490",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload a form",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "02bd7a06-b67e-4497-b8e5-af37a95862c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload an applicaiton",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "73e75686-048d-455d-ac40-fe41f503b593",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload documents",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "82f8a04b-7485-4bcc-be62-61404430fb25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload documents to bt",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7b7e981e-e58e-47d4-9414-ce8a04e03f6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i uploaded a signed consent form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f6ea8a3c-8fd6-436a-bd4c-b13ce0581d7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can we do email?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "b7e06feb-979b-4d09-9e50-61573e3d44d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we lodge forms online",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "16324a57-4520-46d1-853e-a7a1ee90e64c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we submit this form electronically",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "010a5a32-7361-4a3a-910d-b47294246e74",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we upload documents to the portal",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b3b0b2a4-bf7e-4493-8c5c-d7ef928af49d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you not upload the withdrawl form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e183b5f0-c112-4e61-9a1e-ae569ada1b70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please advise email address for me to send intent to claim superannuation contribution form",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "e7201fc5-d5e3-4bca-80a9-fcdc8c4c45d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please redirect me to document upload library",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3855eb7a-1744-4a48-afb2-d38f98b2feb9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you submitt a super closure form online",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2250593f-d116-4929-ae25-61a11be754cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but can i do this online or must it be by mail",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "dc6972c3-6826-40ba-a9a1-ec942c1845c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a a super account closure form be emailed to bt for action",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "930b52c5-2869-43af-9b61-054aa5e85f04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a completed account closure form be uploaded onloine",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "c87a4029-0403-411c-9a3e-b62dbb4e140e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a partial withdrawal form be emailed",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "cc4a4098-4cac-482f-9d45-d3d0c43650c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can an asset transfer form be emailed or will it require for the original signed copies to be posted",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a130cee6-7a23-44fd-9011-414190c463ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email a partial withdrawal request",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "29572b1a-4aa6-46f7-a91a-28c15dca86a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email a rollover form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1e23ea68-0f42-44af-a38f-3cfd2c1faf71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email forms",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a7f857d6-8b8a-464c-9503-b3ce0e6dd6b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email the form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1fa58f43-7ad7-41e9-8014-27fcce740874",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email withdrawal form for super",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "6de1d599-2949-4cbf-946f-5eb87d019144",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i send via email",
+    "tags" : [ "wcp-146" ]
+  }, {
+    "id" : "5cbe2bb1-54f6-433c-ac48-f8162c8c78f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i submit a change of details form through email",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c7cad3fa-cf19-4c32-b84e-cf707ec7b992",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload a form",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "7cc7be97-1515-4f8a-b63a-0fcdf8c44179",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload an applicaiton",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7b169986-9a32-4d99-b9c7-53269b7ef1a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload documents",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cd90dc93-568d-4e45-a7af-d4e7462fadf7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i upload documents to bt",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "46d23074-2075-4b6f-8db3-e88318e0de0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i uploaded a signed consent form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "aef563a5-afc1-49cd-8972-447cd2439f96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can we do email?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "5c86bbfd-342a-46a6-b762-f00188ecdf62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we lodge forms online",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2ee97ff1-3189-457d-b699-9b29c5f1ba38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we submit this form electronically",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1af7b2ad-302d-47a5-a82d-964965caf835",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we upload documents to the portal",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f4cc7cac-85b8-4207-b602-7f21d31b1026",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you not upload the withdrawl form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6c4ae51b-aabb-4e2d-8baf-61c42bcc902c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please advise email address for me to send intent to claim superannuation contribution form",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "8346367b-fb5c-459e-94c5-f69c3037104d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please redirect me to document upload library",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e7c1de42-32e3-4540-b9bb-b27d05ace573",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you submitt a super closure form online",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3ba0a5c5-f816-448f-897f-d34c8ea07464",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact email for form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "cfc81861-38a0-467a-bc52-9d4c23930628",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need to mail in form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "14866d95-96e9-4039-b9d8-fb5aa81f6172",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have a document upload facility on this site",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0a8d1ab1-875f-4586-a7f8-ab915be44b75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "document upload library",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "99ff06d8-7b39-4813-9f6e-4ac613bc998a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does it have to be posted or can i email the request",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a4ce69b0-1acf-455d-84c5-a524320b0746",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does the partial withdrawal form have to be mailed or emailed",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b5838603-3fc2-41cb-a829-cd4285925545",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for forms please",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "96d89bc7-68ed-47e3-bd48-2096bc3d1766",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for super closure",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e1f23db4-b302-46be-89b4-da21f79b40a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address to send form to",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "36c5b23f-71de-4fce-9f75-c72439e4cffb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email for notice of intent",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "660587f4-8e52-49da-be70-9e3d1343e67f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email for notice of intent form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "040a9615-30a2-4a2b-8a18-fde602304309",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email to send super account closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e65efddc-676b-4de8-90f2-26b756a96231",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "file upload",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d05bb367-6381-4544-abec-1fd823a5ed6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form upload",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "032f859f-d130-4472-9698-40e5b7cf2973",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form w1 bob lodgement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8a1af14d-588c-4a87-9674-009a25a6345f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "full transfer within panorama super form can it be uploaded /",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "af783601-6af0-434f-9e92-acf6b0525ad4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning i am looking to submit application documents for an offline approval where do i upload these documents",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "67bf64b3-451b-4fd9-b411-5bd57614e533",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello - i have an account transfer between advisers form for a new client do i email this to bt or am i to upload",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0656f4a8-bd66-4c52-a2bc-8ed803604333",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey team i need to attach a offline signed form to an online application",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "27aae02b-727f-4d14-90c1-4f7cb6bd7faf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - can account closure request forms be submitted online or have to be mailed to panorama",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ea09c074-1b59-434a-8202-78797b4faa92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue i can not upload signed consent form can you help me",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f15c5356-e47f-465e-845e-78c9ae02de16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue i need to upload bt forms can you advise where and how should be done",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8da2f880-e371-4b76-824d-5dde86005592",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can a change of name form be emailed",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "90a30848-c014-4bed-b420-a6c4065e4e8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how can i upload the signed fee forms",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2b2a2d57-8361-4bb2-b30c-c601187736f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i lodge a form please",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "62d679b2-11be-4113-a104-6fcd14fe5157",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i lodge the notice of intent to claim form with yourselves",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "62fddb7b-b772-492e-b5ad-9d23ef820cf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i upload to the panorama desktop",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a4fe012b-97be-440f-906e-7040990d0ba4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have w - 1ben foreign tax forms to upload for our mutual client bob and bob where can i upload these or do",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "872f3979-0855-4388-949b-1fe39b0299b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi is there a binding nomination form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "dbf99e92-c82b-408b-a9db-a46ea9ff91b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team i would like help uploading signed consent form thanks",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "13b9fcbd-e1fe-40df-8516-1c57718abb8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i just submitted fees for bob and bob but need to upload the docusign certificate also how can i do this",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5b620e5c-543b-4dbc-b5f9-8f41c56ee84e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there what is th email address that you would send a notice of intent to claim a tax deduction form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d24bbcb7-fc36-4fe0-b897-744462e03a00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi upload intent to claim super deduction form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "5f9647d0-b9a1-4a91-8bd8-ec367a22ffde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi we got an email regarding advise fee form for bob as there are lacking details on the signed form how do i submit a",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bb5c7ab8-5b29-4872-b3af-e4258922c5c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is the best email to send correspondence to",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c96ae812-d7ec-476e-9605-b14441a2fdc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is the best email to send out a tpa for bt super",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b2ea60fe-dd4d-4607-bd2b-594f6e489ebc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is the bt panorama email address that i can send a manual notice of intent form to",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "331a388b-510a-40d6-882b-692d56b094ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where do i send the form for change primary user can i email this",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "68957094-e314-47cd-b0b6-d0ef50e4cc00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where do we load fta documents for approval",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6f9f87f4-13de-4131-a157-6e7cffb228b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where is option to submit documents",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a4ffb050-6ce3-41a3-8c23-0cc8ef1de239",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where should i send the closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "644857f3-95d4-4e9a-bf20-41b1e9cd6873",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi, the signed establishment docs have been uploaded on the bt panorama platform for 111111111 smsf - do i need to email bt panorama?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "61567cc6-bb8f-47fc-95aa-456bf29dca11",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i add nominees",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4fc7984a-ded7-4972-a9ef-09b8c86b3284",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i download files to bt",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6a29fd3b-f5eb-45f9-97cf-8baf399d85fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i send email correspondence to bt",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "259f1c9e-d30e-460d-80ad-b0b88bd87540",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i upload a withdrawal form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "4b081c76-c365-4ac2-99f6-489d66e3d302",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i upload documents",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d63fdd59-74b3-49d0-aa1e-f8be064ae544",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i lodge the form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "accc04c9-5cdb-44ae-9e97-65bf899ecfd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i send a form to panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a94eebb6-3994-407d-b7f3-705dbc8a0968",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i send you the notice of intent to claim or vary a deduction for personal super contributions",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "c3d703b5-afc1-477a-925c-39497a11852f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i submit a form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "43886afb-b8ed-4524-8873-50892cbb9564",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i submit id form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "16852afa-a7c9-454c-8c26-060e3eb31d3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i upload a beneficiary nomination form",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "bb604035-3f13-4864-8694-dd8bf492f293",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i upload a document",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "dcfaab5e-e172-4381-a3fa-b719fcc819c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i upload a dosument",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dc027b55-8b59-4822-9059-bd3fc1b7d1f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i upload a pension application",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a44f4cbe-2513-4ebf-8551-5c46bbfe1f2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i upload a super account closure form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0a67027e-759d-44b9-af3f-1e65ea973253",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i upload docs",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "22a77620-706c-4b15-b134-3088620a302d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i upload form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "32fc0010-2743-452d-b12d-8f994b5d5f2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i upload odcuments on bt",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7bd586b3-575d-4548-bf4e-ca2d3ebd8edc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you submit form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "eb37c955-3ab8-411e-8314-cfe097a681c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you submit this form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "95beb165-2156-4678-9030-6e7e9c771a7f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do you upload a document",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "767653e8-06d9-4ee0-8cd2-826486da8677",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how i can submit afc forms along with docusign summary",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "61b24703-8297-4c9d-b41f-a222093aa30e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to send a form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7fd2feac-0480-4c75-87cf-d08854ec6d67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to send documents",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1b121a35-5d59-4cc8-a9e6-27574f8fbb1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to send form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "62928566-a8e9-4ab6-8a69-daae8d1cedf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to send forms",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d6adff3d-b9e4-4f3d-849e-cd4b961fb926",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to send the pension reset form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "72366264-2ba2-44e5-b4a4-cccf80774f36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to submit a withdrawal form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f55af927-43a8-43df-8257-3137d3a6ac3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to submit closure form",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "6612dbc2-9b44-4a7d-bf36-490b852251b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to submit documents",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "5c4dab04-2036-412b-8565-ff33f8e13830",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to submit form",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "361088ca-b461-4f2d-9b7c-b15a09dd4049",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to submit forms online",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7c51c5e9-dda2-4039-bfa9-dd14caf67d02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to submit pension reset form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3949901a-551b-4d81-acd4-1634be34d5b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to submit super account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a9038f8d-5ec2-43dc-ab2b-0eeb82abf7c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to submit this form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "df93f0a4-0ce8-405d-b91a-331dc43303e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to upload",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d6e7ba7b-fa4e-46bc-8e74-e4b9de2ec679",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to upload a document",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c43f8c25-63ad-4dc0-a657-91fe5fdeb04e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to upload fee form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d02f114a-1851-41fe-bde7-69eca90ef3f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to upload fee form in the portal",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "565ddaa8-6018-4a93-9801-a9ef8f7200cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to upload forms online",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "47ddd3fd-2b69-4abb-9df7-da712014f967",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to upload signed application form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "568120e6-71c1-44c7-b988-0d9b01678327",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to upload the account closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "eea72124-9f45-434e-8e4c-ecb219731a1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to upload via portal",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d92a0b32-e4fe-48ce-a751-50e3661db1b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am in the account details section and can see the current nomination but do not know how to change it client wants to change",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "36d1af32-ca34-4c76-afdf-93f40ca882eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am just filling out the form for partial withdrawal can i electronically send the form back to you once completed",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5aa9ed05-158e-40e3-934f-73a92cd36e46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i completed the partial withdrawal form to transfer money from my cash account to linked account but cannot see how to send the form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "54500b66-87ea-46e2-a1fb-7f7bf90150dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i had the clietns sign the client authorization cash investment stategy where to i upload it",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0f4289f8-fb02-41c6-9503-dcf3f4eacd3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a question about where to lodge the completed form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8ed37dbf-632d-4d32-9f31-b71a3ce3b106",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have an ato form to send through from my accountant where should i send this",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b1d34660-25ee-4d43-8bfe-ae012d0e1237",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have to email a notice of intent to claimor bob a deduction for personal super contributions form what email address do i send it",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e591426d-f9d6-4a02-93dd-b6fd5f8aaf1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have to submit a super account closure form is it possible to email this rather than mail it",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a0478d8c-60b5-46d0-b658-0548bb398ac6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have tried uploading it and it will not upload",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "30d510f7-17e7-4da4-b72c-f148f83259ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to submit a withdrawal form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2839ac03-48f2-4318-b38b-eedc64a67e66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to email a withdrawal form what email address do i send it to",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "db556b8d-39c0-40bd-8d03-c6ff5a12e0b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to email notice of intent to claim deduction for personal super contributions can you tell me the appropriate email address please",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "ec2e2ffb-39d3-49fd-ae81-a7232530378a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to upload a rollover form - is that possible or shall i e-mail please",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "d957a154-c96f-4e85-92ce-fc9a72782433",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to upload closure form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "da0e6f36-7001-499a-a0d6-12d5b80231b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "id like to upload a document",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "fab3953b-f33c-4cf1-87e9-79301f7dd092",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im trying to send client advice fee form from bt panorama site - electronically",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cc34d398-22d4-4ff7-8741-ba4a7ba7ac49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in adding poa can we submit the forms via email",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "48f148b0-c464-4207-a745-9a6f6e5acd8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance beneficiary forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a7178ab9-1b0c-4d32-8c45-a084db59c2ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a better way of submitting the super account closure form other than by mail",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1ce104f4-adbf-4be8-88e8-b0d0cb700618",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "issue uploading signed fee consent forms",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e156228b-9592-4b92-8b4f-59cedea49c1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "may i please have the email address to send the completed notice of intent to claim deductions for personal super contributions please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e21ab80d-98a6-4955-8039-a64defda74c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need email address to send forms to",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "71d084b8-6c1d-47a4-8bd5-877f7b357a47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "option to upload signed consent disappeared",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "26a7fbbe-8860-4313-b239-3d84a6574cec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama email address for documents",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "88ba6035-45b1-4bdb-a87c-b3c2a8becafa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "partial withdrawal form upload",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6c52cc85-bdf2-4889-b347-bd2298408726",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please advise email address to submit forms",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d11f13a6-3981-4e0a-8763-0f89b215cdfd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "re upload form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f7cdd380-75c0-48eb-aec8-ef48ce658f31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reversionary nomination",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8313c5c9-e733-46f8-a107-9da1723de485",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "send a form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "15ae30cf-2e14-4ee7-92a5-5876520e72dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sending document",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "ca4a31d1-827c-49e8-9e50-dcfe2f326d8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sending in a form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3d5a4ee6-85fc-413e-ade5-b415efdaa88a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit a form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ade451da-23ee-4119-b02d-ef908bda4fb8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit beneficiary nomination form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e0523c4f-b920-47a4-b917-1f2808f89926",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit document",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9a0e7482-de0c-4b97-9cff-e8f5f0cf0ddb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "submit form",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "d9a7efd9-96aa-4584-a2aa-07dc88db1c13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit forms for processing",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "ad641bca-e964-4b88-994b-267b7d02da31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit personal super contribution tax form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "770f1eeb-b44e-4dcd-84d7-d90faebdbedf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submitting forms",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "a723a2f4-3230-4975-823d-0533aff632dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submitting signed document",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "60d3b003-186b-43b2-b65e-28662857f926",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the email address for the withdrawal form to be sent to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "addcb281-4411-4467-bb0b-3793ac70b295",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "then should i select the upload signed consent form",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "6d0ebe9d-7c4b-4e1d-b15f-d93471d42c36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to to upload a document",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "12f2e174-9192-44a5-9285-695af2e5aeb7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to upload document",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b6188d29-1cd2-443d-aeaa-4652cadb9dfd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to upload form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "558f1cfb-7559-48e8-a68a-db65b93dd14c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "up load document",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "83ce4769-afef-49c3-bd7e-cf07f1fc3d32",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uplaod signed application",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7c0e1b84-603b-4eba-bcca-45cba6e7f1aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "13d08087-2afa-47c8-93f5-1c5721840f33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload a client form",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "df940ee1-e207-400a-94f4-3fb9cd21fb1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload a document",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "477cfe43-2769-439e-b3bc-ccc821449908",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload a file",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "05f59d12-741e-4b24-87a5-0f7827371935",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload a form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "12782324-b30d-4393-94d2-881859302b31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload a request for a client",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d58ecfbe-68ca-4d62-b391-41b8fa75b07a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload docs",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "bcf65b0b-5096-49a3-be73-8da5f12f4431",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload forms",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e2e7778f-a4f4-41de-aba8-d103e3a50596",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload forms through portal",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "86c226ae-c7af-48ae-af97-68dfb18c42b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload renewal",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1a834327-a938-4747-9113-9cf17248d7fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload signed advice fee form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d5af0d1a-01eb-46e5-8914-404ec6bf0227",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload signed consent form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c8b57281-b562-4d8a-a30b-f71985ffd0ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload transfer form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3735c1ae-1552-4be2-a2e0-7955973fc525",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading a form",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "c66f3b63-f485-40c8-8087-6f41c347fa85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading a signed appplication in tracking and then account applications in the actions section there is no option to upload the documents",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3849038b-1fa1-45ff-b950-d4d5cf692696",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading documents",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fdb50d20-0ebe-4e0c-8acc-aa2c8b83ac11",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading fee consent form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "4f7f7159-029e-4579-a60d-8e9d9caf3640",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0822a902-bbee-4fc2-92c3-652647dc48a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading offline approval documents",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4d438550-d660-4b03-8c14-5d2bb5e88e17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading signed documents",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e9e5b049-f753-4130-8a93-049587f2cfba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "virus detected in form i want to upload",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "434cd7ca-d75d-4aef-afcf-c4d41cd00d49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what do i do with the completed form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "5edcb66a-64d9-4c4f-bf91-b73b84e7822e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the email address for the withdrawal form to be sent to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "030200be-f5ed-4b5f-ab66-b4b0cdde3649",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "then should i select the upload signed consent form",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "011c8b76-d42d-4e29-a8a0-37dff4415e29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to to upload a document",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9bdd90d1-7c4e-4370-9cc3-3b983bec97c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to upload document",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b5e1b58c-cc56-4cda-adc1-36ee8eeba3b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to upload form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f9d113c5-1c78-4f8d-af5a-dbf1d30ab0ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "up load document",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "56f175a4-f0ae-4c8f-94d4-87929a80c42d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uplaod signed application",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "10a6fcb4-5805-4a78-a836-b5deaf2d8fcd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5fb405c7-0203-4d6d-a4dc-52eb437a9c78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload a client form",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "6a4f064b-1535-47ae-a38a-b05884aa369d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload a document",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6018f34f-fde1-4bdf-ae34-f1e0e6e09ad8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload a file",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f7f0fe91-e95f-404b-be32-1ebc0157d0c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload a form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5b03498b-fb39-4b66-ab9f-f91c39cc5a59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload a request for a client",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "773f3f1e-6ff9-4274-aecf-2b169ed5f07f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload docs",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "66aedb5d-adbb-457c-80aa-108f86fd09da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload forms",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "daecd2f8-b4cc-4b9f-bf14-af6d0f367506",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload forms through portal",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "10dd7647-c976-4e72-95b9-a5e588bf171d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload renewal",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "607e94f6-8382-4ef5-aee3-932eca357ef5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload signed advice fee form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3c3f3adf-9085-41cb-b0c1-8790aef6f07f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload signed consent form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7a3a054e-cf0d-40fc-9d79-af9decc77269",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload transfer form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bb654baa-ab5e-48fe-868c-43096df70a47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading a form",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "85c22f93-6e5a-4062-bbd2-ee9b2202762f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading a signed appplication in tracking and then account applications in the actions section there is no option to upload the documents",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b2c34c8c-b565-4d31-86da-6a2e66ca17f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading documents",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "20b685c3-fb59-4e49-a70f-134f298b82e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading fee consent form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "9e7b58fe-c671-429e-81db-68dc6a0fb58e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a0cc9157-96e0-413e-9ae5-7f2350812ed9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading offline approval documents",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7b389dc0-911f-47cc-a935-bbfd2210c186",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading signed documents",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5d595491-ea1b-4947-a524-7c925004897b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "virus detected in form i want to upload",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "cebe5377-0288-4552-b9dc-08c3f632def2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what do i do with the completed form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "b4e0da30-b1e2-4e45-9015-6b862d4d5ae5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what email address can i send tpa to",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ab74508c-9027-44b4-817c-b0580ace8a1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what email address do i send through notice of intent to claim or vary personal super contribution",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b5756ab0-c7b6-418a-9502-fcd8cf7a822c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what email address to i send a form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c7b64893-d104-49bb-a5ce-44a6eee55996",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what email do i send forms to",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "fa3eab73-270d-4324-8229-07f7736618a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what email to i use to send a closure form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "19b3d183-cea8-4d7a-a6fe-0fe00e469ff4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the email address for panorama forms",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "311077db-5e15-4dee-8adc-80f68856cf60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the email address to send the forms to",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "41f6867f-e4ac-417a-b999-1fd0a89e95d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your e-mail address",
+    "tags" : [ "nid_05-2021", "merged_from_bt_contact_email" ]
+  }, {
+    "id" : "33a4fe8b-feea-4b03-8143-a78feedc7974",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats the email address i send my notice of intent form to",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c460b508-1893-4856-b059-4d8c87b014d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when form is completed how do i submit it",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b4ad0ccd-9788-4d02-a30f-032b54ba86b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when im complete the withdrawal form what do i do with the form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "dc3b3eb2-8c34-493c-963a-e5c4490ccc8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i email a notice of intent to claim",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "acc5299f-d482-4411-8d0c-77ee4e57457b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i email a withdrawal form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c5416d0d-375f-400c-ba5b-17fcf911c78f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i upload a form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b1490911-fc49-47c2-bab9-20f59c851f03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i upload forms",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a1bc4c7f-d02c-4ab6-b49d-d3f562ddf84b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i upload it",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "560952f6-fbc1-4ffb-86df-aaf29db27cec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can we email bt managed portfolio advice fee form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "5667e687-4dde-4ec4-b84e-01dcc9be30f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I email that to?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "111a61f9-bbcd-47ec-8ed6-17ce1c60d1c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find a binding nomination form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "23b2f4aa-61a5-413e-99d1-3e0ff28f7d7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i need to send fee disclosure statement",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "fb42e028-3645-4154-a60a-f7c79e9616fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send a change of advise form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "47ca5eec-af66-4734-843f-5d6ec1820fac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send account closure forms",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bbc59a7d-6c8e-47b2-a7dd-8275419892e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send contributions splitting form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a3980529-f369-4035-bb43-e36663a2735f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send forms t1",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "44f9d2d7-93cb-4959-8564-c8a6040e071e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send my form for notice of intent to claim a deduction for personal contributions",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b26ac1fc-10e2-40f4-a6df-6b7f45307750",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send my notice of intent form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "47d567ad-e71c-43f0-b80d-cf0d037d5ec6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send ni a signed change of adviser form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ee1b7ec6-bcc7-47cf-844d-b7ea943d4134",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send notice of intents please",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e88ebdda-d02c-40ef-890b-aa700a334f9c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send this form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "97b55019-4e08-430d-9b80-09d81788fdf8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send this form to",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "912a28cb-eb14-4218-80ad-2e828717ea07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i sent this form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1341f818-0e22-4e26-a045-26ebd9b617d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i submit annual fee aggreement online",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9ebd463f-2005-4ff4-bbc0-bcfa64756b81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i submit form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "68de3afb-88a3-45a8-b6a8-5ef6677f46d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i submit forms online",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d5c50440-68ef-42bc-8ed1-45c88c55e651",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i submit new advice forms",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "01c7602e-8d56-41e0-b973-2979a9605a1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i submitt the form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "80180f07-893b-425f-8f4f-d243e3a72c4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do we send completed forms for bt clients",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "37321ef8-7042-4e92-90d6-242e6217ebe8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do we send this form to?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "c16aac32-3b4d-44a8-879f-0c00cf738bcf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do you send the account closure to",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "525ce305-796e-4e63-a3c8-51df5be5d433",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the inbox to upload documents",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3358691d-51bb-405e-92bb-2f3f875c7ef0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the option to upload the documents on bt",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bd172851-1ea3-4749-b1af-6d24436cc20e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the upload option",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9fb071dc-4761-42d1-b69c-53763c64c8bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is upload documents page",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e694db98-6387-466c-b0c7-21c9de5e5a1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to email an notice of intent form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3ac31b4d-4b65-42c9-ad68-2cfc0335e73b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to send",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a8f66281-caad-4eff-b67e-6e2db8f3609f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to send after fill in",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "599bad5c-5661-4a75-944c-af123b6ea6b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to send closure form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "21fccbc7-0866-4a3a-a972-44d15f4e2313",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to send notice of intent to claim tax deduction form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bb8e3e1e-a072-4919-b935-5f4f87e27d76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to upload signed offline application",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c853b434-5269-4b82-a405-31d38c009f41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where would i find binding nomination form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "427ad3ea-39d4-411e-b053-c44e0f44a616",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where yo submit",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "608da8cc-2dd3-4336-b027-7e737bd6ab38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "who do i send this to",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ee0be98b-781a-4abc-9993-a5fb0e0f622f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wish to submitt notice of intent to claim deduction for personal super what is the email address to send this to thanks",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  } ]
+} ]

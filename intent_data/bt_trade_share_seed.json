@@ -1,0 +1,1200 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_trade_share_seed",
+  "intent_name" : "bt_trade_share",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "5c0c4d17-1617-48be-a550-b0b3187a7166",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I place trades?"
+  }, {
+    "id" : "93c42f68-f8dc-42f0-8f40-a4ac831a4228",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me where I set a limit for an order?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "f57ce01c-1d56-42fd-b101-d967590914eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me where I make a trades?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "07bcc4bf-58ca-4f18-834c-dfc3c4c9baeb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Guide to making trades on pano",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "2eefb842-21f0-47bd-b625-a01a1d742dfa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I trade?"
+  }, {
+    "id" : "9088129e-dc14-4837-b29d-fe7e520c39c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I place trades?"
+  }, {
+    "id" : "c251f10f-4635-450e-b355-48365530707c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me where I set a limit for an order?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ec0533a5-4983-4e4e-be5a-57ee6f1771a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me where I make a trades?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "0fc1c35b-2826-49f2-b338-7a11684b755b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Guide to making trades on pano",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "96ed187e-c534-4869-ba69-010df971e3ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I trade?"
+  }, {
+    "id" : "b2d90b5d-b71e-4ab4-ada4-a7b846af5416",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to bury 100 shares of FB",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6d4fa4d9-9bb1-4920-8b4f-5664abbdc088",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to bury 100 shares of FB in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1a771489-c6a9-4b38-8305-3a7e5b899253",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to bury 100 shares of FB in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1be74fd4-c8b6-4f3b-8fbb-2209913f3b15",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to bury 100 shares of FB.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6fc692e6-551b-4d8f-bc39-1cf36afd421f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make a trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5c0a2fa2-d2ee-4107-9dd6-19d4e10f72fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make a trade in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a1293850-8200-424b-b594-362a1469eb9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make a trade in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b187f83d-46d7-4c5e-bed1-b3889d0563c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make a trade on behalf of a client?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "c8b2e7e4-7112-4da1-83c2-c6bca1abbf38",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place a limit order for this client's QBE shares",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "879dc3ba-4eea-45ae-91d1-347bb54d21f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place a trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "54025677-e2d9-4980-bb59-d4765fa6d7a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place a trade 100 shares of facebook at the market.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "770108f0-200a-4306-82d7-82b0edef15e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place a trade for 100 shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2b135a1b-f32f-4089-bb5a-f571f6e033b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place a trade in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e0bc7d16-19ed-4dd8-879a-84ebdd53f176",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place a trade in my investment account"
+  }, {
+    "id" : "5503cf0d-4f7c-4811-8269-fdf512626c5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place an order",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e27d98ce-62db-4592-b0d2-8b17bcfd48b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place an order for 100 shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c8dc12b3-40bd-47ef-96f0-4399b747c733",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place an order for 100 shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "81c2e52f-f5e9-47fb-bdcb-ed776efd424e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place an order iin my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7d96c5bf-560d-4b77-be01-952383c4306a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place an order in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ec61ce94-6fee-4899-a01c-bfbf29a6b7e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place an order in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "418fb587-3c8b-47da-b757-0078e3874b28",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 share of FB with at a limit price",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "28bf3c12-afc8-4db8-b4ca-8f9395ee6d9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 share of FB with at a limit price in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c08c0479-5408-4c6d-919f-2ec14dd01c48",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 share of FB with at a limit price in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c45d6f7e-c9ad-4106-988c-cce64da23225",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "67ba9641-79aa-4b55-91e6-32bae4e17201",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares of FB at the market in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0fed7df2-327f-4a9c-9d7e-39dad1f6f27d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares of FB at the market.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b60c6df6-dae8-4789-8ba5-4645983a4e4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares of FB in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6d5d5531-0525-4fff-9b5b-e657c3c3ac52",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares of FB in my 401K account.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e5cc08c4-b8c2-4dd0-acdd-16078b0ac190",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares of FB.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9dadb017-8cc6-430d-979d-fa4d33afc345",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares of Facebook",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fce368e3-998a-45ae-84af-5a04c2cbea1b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares of Facebook in my 401K account.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8f74db11-89af-4cc1-b2a5-da30ae1ba991",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares of Facebook in my investment account.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a0225585-bb83-4cdd-8725-fc7fe8d237be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares of Facebook.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "93076e4b-ad21-483c-948b-a701b6f8c20b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares of facebook at the market",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4fec4152-0b85-48ec-8804-15b2450f99c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares of my stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5240f3dc-2d7d-4f66-ab35-5a5b966b22b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "450e5309-2d99-4e2d-adbb-b822db28266e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 100 shares ofFacebook.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "193fb65c-6c67-4ee3-9445-2e8e6d214778",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 200 share of FB with at a limit price",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3b0d6e54-02cc-44ec-bb95-f7bc177eaf60",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 200 shares of FB at the market.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cedf0ae0-3026-4f6d-a1e9-8766d6756095",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 200 shares of FB.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "681de9fe-ae83-4eaa-890a-8f35224cf5f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade 200 shares ofFacebook.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "500dfddf-beb0-4f3c-99bf-53c9c016cd66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade FB.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6f88c9c4-010e-487f-831f-88e9e0d9dbd6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade Facebook",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2540051a-53b9-44a2-ab93-7260d6235d9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade a 100 shares of FB with a stop/ trigger price of $100 and a limit price of $X",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "88eb0460-28a5-4980-8585-71b67dd94c2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade a 100 shares of FB with a stop/ trigger price of $100 and a limit price of $X in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8a90a564-53f6-44d2-bb0b-c912578afe34",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade a 100 shares of FB with a stop/ trigger price of $100 and a limit price of $X in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "212e55d4-a4aa-4ad0-b17b-6c0e722cc5ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade a 100 shares of FB with a trigger price of $100",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1a66d3d5-0355-4bb5-a4ed-d31764a6aad1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade a 100 shares of FB with a trigger price of $100 in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0f7708e5-73df-4ff5-b7eb-225f4d36cb1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade a 200 shares of FB with a stop/ trigger price of $100 and a limit price of $X",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "66452355-9b8e-4218-ac30-92d2de50d9fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade a 200 shares of FB with a trigger price of $100",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fd5a3f96-c04d-4641-8107-0efc91cbadbb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade facebook",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4f22426e-2a0f-443b-8a22-db09913f3ed1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade facebook at the market",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ac815135-5348-4da7-9165-89efd781e615",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade facebook stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8462bbc7-b54f-4cb9-a8aa-ecf1ee5c626b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade facebook using my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "74506849-1c4b-4821-92ec-643d513d107f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade facebook using my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "74683020-0fc1-48cc-a888-fc4393effaae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7d36ed13-52a3-43fd-a658-274ad0176d0b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade shares in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "822427f1-5586-4905-954a-ab0ffc40a10f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade shares in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b05e2f80-c1dd-4e22-bf6d-5c70a8c596f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade shares of FB.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "31867905-2a69-43ff-846d-bd51a8c7cd9e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade shares ofFacebook.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "981a04ed-290a-4b63-aecd-c0e8165705bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade some stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4c50b67e-da34-4929-8abd-ee8bb623449f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade some stock iin my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6d918639-e352-41bd-af36-1139de5df0f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade some stock in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e3c04e82-5049-49f4-aa35-ec3a82a7bf4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade some stock in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6e7e44cd-61f0-4963-b70a-97201aa17844",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade some stock in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c9aa6d61-7ea8-4c4f-85f5-48211c26752b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade stock in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "82777299-c223-4346-a19e-03517b18d550",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade100 shares of FB at the market in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fb59fca9-3425-49f6-9c22-4f7bbf406f94",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade100 shares of FB in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e840c2f3-e778-41fd-a3cc-a341fe713bd9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to trade100 shares of FB.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c799d592-1fe6-4d01-9740-84f897e71441",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to tradel a 100 shares of FB with a trigger price of $100 in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8b722dba-8ea7-4eb4-bd91-fa6f16b7f4f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to trade my stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0203b6b6-6386-4392-833a-d856283765ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way I can do an investment switch?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "a46b6063-cb3d-49c6-ada0-97a6aa9ce643",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need help in placing a trade"
+  }, {
+    "id" : "476df36a-2851-4ff5-83d0-7db87257904f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order for 100 shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6de558b8-fed2-4bc9-a000-70f9ed4fcbd8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order for Facebook",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4d50acee-221b-416c-9a7e-fd53d22f09bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order for Facebook.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "bd0a9c41-83e5-4d41-8957-55ff0c250e73",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order for some stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b7a6a37c-08b7-46db-bcab-c452ea3c0579",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order to trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "66519899-6f55-4223-877b-61b0a9a588f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order to trade 100 shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2e885bbd-dc35-446d-b821-2090d59ec760",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order to trade some stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9fc81b00-ac4d-4802-87b7-50b602416973",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order to trade some stock in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5db5840e-b122-4c13-ae20-f3ed1a69b0e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order to trade some stock in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c8c62507-6e00-478f-a3c0-b3c9e91af315",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order to trade stock in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c41b2056-599a-4056-921b-43caadad1d5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Place an order to trade stock in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cc718efa-d61e-4126-add1-802ff7ed90b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to make trades"
+  }, {
+    "id" : "e2c4751c-4340-4c35-aef8-98f523990c84",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Trade 100 shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "24bc513b-2464-4e11-8687-2f864fb77529",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Trade 100 shares of FB.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6735edc0-04e4-4360-890b-ef7deb704ad3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Trade Facebook",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c4fda95b-00eb-4eae-a4c6-c468cf299b46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Trade Facebook.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9b0a67bf-613b-42f5-ad2a-5908a44ceea7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Trade Shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9e1d1e8b-b0ed-41d7-a31a-c2646d44e9f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Trade Shares of stock in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9bba36ef-8469-43fa-8361-b749448026c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Trade Shares of stock in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d328141b-9682-4485-b02d-028a5f36e24c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tradel 100 shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "53efbec9-0f0f-4127-b4c0-560e672ac9df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to trade?"
+  }, {
+    "id" : "bee41b9b-8098-478c-914f-636d35725f80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "a trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4e165ffd-6a35-44ae-b968-5865b288f8ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "aapl trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fdf3ebc2-0d00-48d8-af4f-d73c1af184c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me trade starbucks?"
+  }, {
+    "id" : "661a1a2d-2df2-4c60-964c-c15e4015b644",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me trade starbucks?"
+  }, {
+    "id" : "4995fd60-4230-4877-a0a5-072b828659e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me trade starbucks?"
+  }, {
+    "id" : "b5897b20-5e02-42b6-896c-3c65136304bc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "get me 20 fb"
+  }, {
+    "id" : "9227b609-4677-4560-a02d-2782e705d07e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me place a trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3fd54525-a9d8-4992-88fa-8607955556c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me place trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d0aeeccb-a3c2-4b78-8d39-d98c1afc4017",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to make a trade in my 401k"
+  }, {
+    "id" : "00913546-6a89-461b-8a66-fdf13d03a389",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to make a trade in my 401k account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "131471ae-cad1-4896-9f97-9a5cc777dee5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to make a trade in my investment account"
+  }, {
+    "id" : "ae82e505-5ac5-46df-9795-6f2d70c5ddeb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to make a trade in my roth",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e7f723d0-57f5-4bc5-9839-afbe6ad192ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to make a trade in my ugma",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6bb931c7-b139-487c-b8a2-a8c1588b6770",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place a trade 100 shares of facebook at the market"
+  }, {
+    "id" : "afc6b30c-0bbf-4a77-966d-af0425e61306",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place a trade in my 401k"
+  }, {
+    "id" : "a276a7cf-8137-400f-bb26-dc9b91d2bd2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place a trade in my rlif",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "45eb1b68-4c90-4858-858d-96fd3ac978b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place a trade in my rrsp",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "687a7581-7119-4209-8b50-ee81d5c05678",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place a trade."
+  }, {
+    "id" : "10c56f83-2a6c-4c4a-bf09-b3d3dd9c5e51",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade 100 shares"
+  }, {
+    "id" : "21613e3f-3677-4d67-8678-8106db06ae4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade 100 shares of cowen inc. common stock at the market",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9c9d25ea-082c-49fc-be16-cc7209affbde",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade 100 shares of fb at the market"
+  }, {
+    "id" : "55821df2-7b9a-4441-a805-4dc9a2c7b9ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade 100 shares of my stock."
+  }, {
+    "id" : "8f9147fa-3d8d-4547-8577-f0fc5ac9f7ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade 3 shares"
+  }, {
+    "id" : "cf4d46ac-d20c-4b79-9bde-89ad6be6e36d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade cisco systems stock."
+  }, {
+    "id" : "9a335ee2-1a03-42c9-9be6-57631c9f6176",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade facebook"
+  }, {
+    "id" : "5842e961-4a87-4aee-ad17-f364e84b1d1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade facebook at the market"
+  }, {
+    "id" : "517245b8-453d-48b5-9d76-3042b5ca775a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade facebook using my credit card account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b7f4d004-bbbb-4e4e-8d49-ffe7f89e73a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade facebook using my depository Account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d4e1b527-3b58-431c-b97e-751938710c64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade facebook using my depository account"
+  }, {
+    "id" : "8bff34ce-b178-42a4-95a0-c9383917fdea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade facebook using my loan account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "950ce3cf-58e2-443a-b174-bf51d947507e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade grshw",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0cfcaf6b-04c5-4ff6-a990-e12218c16a5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade mos",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1f842e45-4667-4bcf-98e2-a63a3cba98ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade shares."
+  }, {
+    "id" : "f08e238d-adb3-4839-80c3-9c58a685cb4d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade stock in my 401k account"
+  }, {
+    "id" : "604174b4-92cf-4007-9f41-27516ab744cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade stock in my line of credit account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9b26c419-96cb-40e8-9119-75de026b659b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade stock in my lrsp account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a4e58c98-f81d-4e94-b532-2881be30b201",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade stock in my utma account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "01ad3ad3-ce67-4566-8513-7bcbc71b4a9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like to place a trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "bf3e3655-7988-4fc4-ab34-98d92d089763",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "less air brake",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9be794de-386f-4d96-8c85-5a5fed603e96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "less equities",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7bddb246-2844-4461-9e79-fba4626e52e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "liquidate my air brake positions",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7af981da-cc80-4f0f-852d-cc5bca80c8b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "liquidate my fox positions",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "38e31896-7819-4c3a-ac5e-d9bbc3eceeaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "make trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "af4765ec-0e72-487f-8d74-fcbb56be8802",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "make trades",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3ecbd260-c933-4c80-879c-b7a3db3bff93",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "making trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b41a364b-4638-4817-9c02-85442a5fec37",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "making trades",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c47f64f8-3a77-42f0-82fd-7365dd5f8c6c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order for air brake",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "21531b97-83ac-4353-823e-0c23e5fecf0b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order for ocsll",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2e2e6c30-8431-42af-8809-e8764c557808",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for 100 shares of Facebook",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a1bb9ea3-26a3-4084-90db-dfb7c96fc0f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for 100 shares of facebook",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "76186761-4768-4dc9-a2a1-acaec01c2bc1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for aapl"
+  }, {
+    "id" : "c6a2c53b-7c14-4478-af74-39829e83c227",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for air brake",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "922eeae3-b42a-400e-8f99-1c334473811f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for atlantic american corporation",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "480b5ed9-5ed2-42cf-ac21-0fada52a1050",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for cbmg",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f4288dd0-c37b-4230-b744-39b5e306425d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for fox corporation class a common stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5f97ec2f-0233-4777-8ffa-724a451c63e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for hyi",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b18d9d6e-cb61-4c9b-85a2-605b9cb66ad8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for lyft, inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "69b435aa-7987-49a3-b68e-7eae20916ac6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for ocsll",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "76b419f0-1ea8-4a56-9104-e193e31feeb3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for victoryshares us 500 volatility wtd etf",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fd899bd2-5035-4652-bcf3-e93ff9333645",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order in mu investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "689fa38e-b4e0-46b6-ae69-4145e3c38661",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "acdecd6c-49a5-49f7-b822-b8fed84dc75f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0fc55a64-7724-429c-bd47-c120187c5045",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order inmy 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9564f57d-47c1-4ada-862b-d99f671175c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to trade 100 shares Facebook at a limit of 140 in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "539d48d6-32ea-443f-9a3a-43fffac676a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to trade 200 shares Facebook at a limit of 140",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "068bf4af-b5c2-4727-a888-f00640436d42",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to trade100 shares Facebook at a limit of 140",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a3535fb2-44d5-44e3-91b5-27effd09e536",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an orderto trade 100 shares Facebook at a limit of 140",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "63ef799d-eb36-49a1-a069-d258858ed63b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an orderto trade 100 shares Facebook at a limit of 140 in my 401K account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b0cc270f-fdbf-44ce-be57-0bddb322120d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place orders",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f491c67c-95a4-45c1-bc3c-4353071cab35",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place orders for pcsb",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "73da466e-8391-4d77-b47c-961cbbe08b14",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "placing orders amciw",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "12ff1ce1-7810-4257-a35d-d01ecccce1c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me how to place a trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "72a63144-5797-41b0-ada9-7a377004005b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade 100 shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7cbbe48f-813f-46e1-bf56-0ce908a8b7ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade glpg shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3073b8f0-cb3a-4801-83ce-4707ce7e85a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade lonestar resources us inc. common stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f2f1a806-0918-4047-b523-46acc012af02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade my aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "e8e443a8-6c22-4a96-b7c0-b30cf7092fdb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade my aapl share",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f6bdbc72-cb42-4e43-8475-35a668e142df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade my air brake",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "84a409f9-fb86-4c2c-b991-bd88aaa0e366",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade my oragenics inc. share",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "09e957f6-2d25-494a-99c8-1529c526a7d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade some stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "bb84e269-d96c-4a62-abd5-f2252992ccd8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade some stock in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b54980cf-3127-4330-b3bf-92b4aa879267",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade some stock in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7df7dbec-1c61-4ae0-a08e-82357e66aaec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trading bright horizons family solutions inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4c3a90b7-5f56-4425-a047-65e726d43b60",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trading etsy, inc. common stock shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a31efaf5-fcd6-4110-be6a-500da34a1440",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade 100 shares of stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5f1ccc1f-618b-4b41-aadb-e7a165edc48a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade glpg shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5954cc68-efad-4978-a5f2-eb1b4b9602cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade lonestar resources us inc. common stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c4e7c584-fb4e-4837-a71e-c3e4c8a0b84d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade my aapl",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c1ae2f73-e5f9-4197-a696-f2b0c58c0ff1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade my aapl share",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a381bed7-4ba5-4343-9515-7da6641190f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade my air brake",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "73253218-2657-4841-9fef-53608228ce11",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade my oragenics inc. share",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "775549ab-eb97-441c-8cf3-90704a99410e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade some stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "775ee4da-87e0-4d92-8c88-9a41458eb0da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade some stock in my 401K",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "89d77152-2036-4c39-8274-1543fda85ce8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade some stock in my investment account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3c37a848-c14d-4493-8508-bba625bc2d1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trading bright horizons family solutions inc.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b92a18d3-97c6-4c57-adbe-d213dc07a582",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trading etsy, inc. common stock shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b46dba62-0a09-4502-b3cf-3e41a16dd1f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "id like to place a trade",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5b8687f1-f6fc-4da2-8e48-798acd1111b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Id like to trade my stock",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5ad48380-d302-4893-809d-8d0c7aa3546e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place a limit order for this clients QBE shares",
+    "tags" : [ "btmarchvariants" ]
+  } ]
+} ]

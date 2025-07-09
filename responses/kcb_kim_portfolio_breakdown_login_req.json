@@ -1,23 +1,29 @@
 {
-  "name" : "kcb_kim_portfolio_breakdown_login_req",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "kcb_kim_portfolio_breakdown" ]
+  "categorization": {
+    "tags": [
+      "kcb_kim_portfolio_breakdown"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To request portfolio breakdown you must login."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To request portfolio breakdown you must login."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "LOGIN",
+          "payload": "Login",
+          "label": "Login"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "LOGIN",
-        "payload" : "Login",
-        "label" : "Login"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "kcb_kim_portfolio_breakdown_login_req"
 }

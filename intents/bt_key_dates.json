@@ -1,26 +1,28 @@
 {
-  "categorization" : {
-    "tags" : [ "faq" ]
+  "categorization": {
+    "tags": [
+      "faq"
+    ]
   },
-  "name" : "bt_key_dates",
-  "display_name" : "bt_key_dates_Inactive",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_key_dates"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_key_dates"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "Key dates for end of financial year",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : false,
-  "active" : false,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "Key dates for end of financial year",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_key_dates",
+  "display_name": "bt_key_dates_Inactive",
+  "alternative_question_eligible": false
 }

@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "navigation" ]
+  "categorization": {
+    "tags": [
+      "navigation"
+    ]
   },
-  "name" : "bt_find_forms",
-  "display_name" : "bt_find_forms",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_find_forms_response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_find_forms_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "Where is the forms section?",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "Where is the forms section?",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_find_forms",
+  "display_name": "bt_find_forms",
+  "alternative_question_eligible": true
 }

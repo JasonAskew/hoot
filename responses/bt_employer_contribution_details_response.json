@@ -1,214 +1,271 @@
 {
-  "name" : "bt_employer_contribution_details_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Your employer can contribute via EFT or SuperStream.\n\nFor EFT: Provide your BSB and account number, and enter 'EMPLOYER' as reference for the deposit.\nFor SuperStream: Provide your employer with our ABN (90 194 410 365), fund name (Panorama Super) and USI (90 194 410 365 011)."
-      }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To download our 'Choice of super fund' form, which includes our complying fund statement:\n1. Select 'Go to page'.\n2. In the 'Deposits and contributions' section, select 'Choice of super fund' then follow the prompts."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "internal",
-        "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-        "label" : "Go to page"
-      }
-    } ],
-    "quick_replies" : [ {
-      "type" : "INTENT",
-      "payload" : "What's my account number?",
-      "intent" : {
-        "name" : "bt_account_number"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Your employer can contribute via EFT or SuperStream.\n\nFor EFT: Provide your BSB and account number, and enter 'EMPLOYER' as reference for the deposit.\nFor SuperStream: Provide your employer with our ABN (90 194 410 365), fund name (Panorama Super) and USI (90 194 410 365 011)."
+        }
       },
-      "label" : "What's my account number?"
-    } ]
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To download our 'Choice of super fund' form, which includes our complying fund statement:\n1. Select 'Go to page'.\n2. In the 'Deposits and contributions' section, select 'Choice of super fund' then follow the prompts."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "internal",
+          "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label": "Go to page"
+        }
+      }
+    ],
+    "quick_replies": [
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "bt_account_number"
+        },
+        "label": "What's my account number?"
+      }
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_btinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "👍",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "1"
-          } ]
-        },
-        "label" : "👍"
-      }, {
-        "type" : "INTENT",
-        "payload" : "👎",
-        "intent" : {
-          "name" : "kcb_feedback_survey",
-          "user_inputs" : [ {
-            "name" : "rating",
-            "value" : "0"
-          } ]
-        },
-        "label" : "👎"
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Please select an option below"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/personal/help/spin.html",
-          "label" : "ABN & USI"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_pension_pmt_fail"
+  "segment_responses": [
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
           },
-          "label" : "Failed/rejected/missing employer contributions"
-        }
-      } ]
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_btinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "1",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4d"
+          },
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "kcb_feedback_survey",
+              "user_inputs": [
+                {
+                  "name": "rating",
+                  "value": "0",
+                  "type": "String"
+                }
+              ]
+            },
+            "label": "\ud83d\udc4e"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Please select an option below"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.bt.com.au/personal/help/spin.html",
+              "label": "ABN & USI"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_pension_pmt_fail"
+              },
+              "label": "Failed/rejected/missing employer contributions"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Your client's employer can contribute via EFT or SuperStream.\nFor EFT: Provide your client's BSB and account number, and enter 'EMPLOYER' as reference for the deposit.\nFor SuperStream: Provide your client's employer with our ABN (90 194 410 365), fund name (Panorama Super) and USI (90 194 410 365 011)"
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To download our 'Choice of super fund' form, which includes our complying fund statement, select \u2018Show me how\u2019."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "1560654",
+              "label": "Show me how"
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Your client's employer can contribute via EFT or SuperStream.\nFor EFT: Provide your client's BSB and account number, and enter 'EMPLOYER' as reference for the deposit.\nFor SuperStream: Provide your client's employer with our ABN (90 194 410 365), fund name (Panorama Super) and USI (90 194 410 365 011)"
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To download our 'Choice of super fund' form, which includes our complying fund statement, select ‘Show me how’."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "1560654",
-          "label" : "Show me how"
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_employer_contribution_details_response"
 }

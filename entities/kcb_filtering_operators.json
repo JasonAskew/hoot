@@ -1,15 +1,45 @@
 {
-  "name" : "kcb_filtering_operators",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "remove",
-    "aliases" : [ "remove", "removing", "drop", "dropping", "without", "reset", "resetting", "clear", "clear all", "clearing", "drop all", "dropping all", "remove all", "removing all", "without any" ]
-  }, {
-    "value" : "see_further_back",
-    "aliases" : [ "further back", "farther back", "less recent", "less recently", "longer back" ]
-  }, {
-    "value" : "see_more_recently",
-    "aliases" : [ "more recently", "more recent" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "remove",
+      "aliases": [
+        "remove",
+        "removing",
+        "drop",
+        "dropping",
+        "without",
+        "reset",
+        "resetting",
+        "clear",
+        "clear all",
+        "clearing",
+        "drop all",
+        "dropping all",
+        "remove all",
+        "removing all",
+        "without any"
+      ]
+    },
+    {
+      "value": "see_further_back",
+      "aliases": [
+        "further back",
+        "farther back",
+        "less recent",
+        "less recently",
+        "longer back"
+      ]
+    },
+    {
+      "value": "see_more_recently",
+      "aliases": [
+        "more recently",
+        "more recent"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "kcb_filtering_operators"
 }

@@ -1,20 +1,24 @@
 {
-  "name" : "bt_trade_unit_price",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "The unit price of the trades executed is available in the transactions page of your client.\n\nClick on the button below to proceed."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "The unit price of the trades executed is available in the transactions page of your client.\n\nClick on the button below to proceed."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "HYPERLINK",
+          "payload": "#ng/tracking/status",
+          "label": "Clcik Here"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "HYPERLINK",
-        "payload" : "#ng/tracking/status",
-        "label" : "Clcik Here"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_trade_unit_price"
 }

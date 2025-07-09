@@ -1,98 +1,131 @@
 {
-  "name" : "bt_linked_account_change",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To remove a linked account or set it as the primary linked account:\n1. Navigate to either 'Linked accounts’ or 'Accounts & billers’.\n2. Select the 'Actions’ menu for the required account.\n3. Select ‘Remove’ then ‘Remove this account’, or select ‘Set as primary’."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To remove a linked account or set it as the primary linked account:\n1. Navigate to either 'Linked accounts\u2019 or 'Accounts & billers\u2019.\n2. Select the 'Actions\u2019 menu for the required account.\n3. Select \u2018Remove\u2019 then \u2018Remove this account\u2019, or select \u2018Set as primary\u2019."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "walkme",
+          "payload": "914089",
+          "label": "Remove linked account"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "walkme",
+          "payload": "914090",
+          "label": "Primary linked account"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "walkme",
-        "payload" : "914089",
-        "label" : "Remove linked account"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "walkme",
-        "payload" : "914090",
-        "label" : "Primary linked account"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "One of our consultants will be able to assist you. If you would like to chat with one of our consultants please select 'Chat with consultant' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}",
-          "label" : "Chat with consultant"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To remove a linked account or set it as the primary linked account for a client:\n1. Go to the client's account and navigate to either 'Linked accounts’ or 'Accounts & billers’.\n2. Select the 'Actions’ menu for the required account.\n3. Select ‘Remove’ then ‘Remove this account’, or select ‘Set as primary’."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To remove a linked account or set it as the primary linked account:\n1. Navigate to either 'Linked accounts’ or 'Accounts & billers’.\n2. Select the 'Actions’ menu for the required account.\n3. Select ‘Remove’ then ‘Remove this account’, or select ‘Set as primary’."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "914089",
-          "label" : "Remove linked account"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "914090",
-          "label" : "Primary linked account"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_change_pension_payment"
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "One of our consultants will be able to assist you. If you would like to chat with one of our consultants please select 'Chat with consultant' button."
+            }
           },
-          "label" : "Update pension payment"
-        }
-      } ]
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To remove a linked account or set it as the primary linked account for a client:\n1. Go to the client's account and navigate to either 'Linked accounts\u2019 or 'Accounts & billers\u2019.\n2. Select the 'Actions\u2019 menu for the required account.\n3. Select \u2018Remove\u2019 then \u2018Remove this account\u2019, or select \u2018Set as primary\u2019."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To remove a linked account or set it as the primary linked account:\n1. Navigate to either 'Linked accounts\u2019 or 'Accounts & billers\u2019.\n2. Select the 'Actions\u2019 menu for the required account.\n3. Select \u2018Remove\u2019 then \u2018Remove this account\u2019, or select \u2018Set as primary\u2019."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "914089",
+              "label": "Remove linked account"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "914090",
+              "label": "Primary linked account"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_change_pension_payment"
+              },
+              "label": "Update pension payment"
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_linked_account_change"
 }

@@ -1,262 +1,378 @@
 {
-  "name" : "bt_request_for_withdrawal_partial_withdrawal_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "LIVE_CHAT",
+          "payload": {
+            "parameters": [
+              {
+                "name": "campaignId",
+                "value": "3392686470"
+              },
+              {
+                "name": "engagementId",
+                "value": "3392718870"
+              }
+            ]
+          },
+          "label": "Chat with consultant"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "POSTBACK",
-        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-        "label" : "Chat with consultant"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "I can help you make a partial withdrawal. Please select the 'Go to page' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/pano-pension-payments/payment-details",
-          "label" : "Go to page"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I can help you make a partial withdrawal. Please select the 'Go to page' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/pano-pension-payments/payment-details",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I can help you make a partial withdrawal. Please select the 'Go to page' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/pano-pension-payments/payment-details",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I can help you make a partial withdrawal. Please select the 'Go to page' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/pano-pension-payments/payment-details",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To submit a withdrawal for a client, please navigate to the relevant account and select 'Transactions' and then 'Make a payment'."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To submit a withdrawal from non-Superannuation accounts, please select 'Transactions' and then 'Make a payment'.\n\nWithdrawals from Superannuation accounts may require additional documentation. Forms are available on the full Panorama website.\n\nIf you require assistance, select 'Chat with consultant' during business hours."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_investor",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To submit a withdrawal from non-Superannuation accounts, please select 'Transactions' and then 'Make a payment'.\n\nWithdrawals from Superannuation accounts may require additional documentation. Forms are available on the full Panorama website.\n\nIf you require assistance, select 'Chat with consultant' during business hours."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To submit a withdrawal for a client, please navigate to the relevant account and select 'Payments and deposits' and then 'Make a payment'.\n\nFor super accounts select 'Accessing super'."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For any payment greater than $500,000 please select 'Chat with consultant'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account__advised_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To make a withdrawal from your account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawal' section, select 'Partial withdrawal' then follow the prompts."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I can help you make a payment. Please select the 'Go to page' button."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For any payment greater than $500,000 please select 'Chat with consultant'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/pano-payments",
+              "label": "Go to page"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I can help you make a payment. Please select the 'Go to page' button."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For any payment greater than $500,000 please select 'Chat with consultant'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/pano-payments",
+              "label": "Go to page"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To make a withdrawal from your account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawal' section, select 'Partial withdrawal' then follow the prompts."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_btinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "I can help you make a payment. Please select the 'Go to page' button."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For any payment greater than $500,000 please select 'Chat with consultant'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/pano-payments",
+              "label": "Go to page"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To make a withdrawal from your account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawal' section, select 'Partial withdrawal' then follow the prompts."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "I can help you make a partial withdrawal. Please select the 'Go to page' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/pano-pension-payments/payment-details",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "I can help you make a partial withdrawal. Please select the 'Go to page' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/pano-pension-payments/payment-details",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To submit a withdrawal for a client, please navigate to the relevant account and select 'Transactions' and then 'Make a payment'."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To submit a withdrawal from non-Superannuation accounts, please select 'Transactions' and then 'Make a payment'.\n\nWithdrawals from Superannuation accounts may require additional documentation. Forms are available on the full Panorama website.\n\nIf you require assistance, select 'Chat with consultant' during business hours."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_investor",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To submit a withdrawal from non-Superannuation accounts, please select 'Transactions' and then 'Make a payment'.\n\nWithdrawals from Superannuation accounts may require additional documentation. Forms are available on the full Panorama website.\n\nIf you require assistance, select 'Chat with consultant' during business hours."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To submit a withdrawal for a client, please navigate to the relevant account and select 'Payments and deposits' and then 'Make a payment'.\n\nFor super accounts select 'Accessing super'."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For any payment greater than $500,000 please select 'Chat with consultant'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account__advised_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To make a withdrawal from your account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawal' section, select 'Partial withdrawal' then follow the prompts."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "I can help you make a payment. Please select the 'Go to page' button."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For any payment greater than $500,000 please select 'Chat with consultant'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/pano-payments",
-          "label" : "Go to page"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "I can help you make a payment. Please select the 'Go to page' button."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For any payment greater than $500,000 please select 'Chat with consultant'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/pano-payments",
-          "label" : "Go to page"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To make a withdrawal from your account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawal' section, select 'Partial withdrawal' then follow the prompts."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_btinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "I can help you make a payment. Please select the 'Go to page' button."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For any payment greater than $500,000 please select 'Chat with consultant'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/pano-payments",
-          "label" : "Go to page"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To make a withdrawal from your account:\n1. Select 'Go to page'.\n2. In the 'Rollovers and withdrawal' section, select 'Partial withdrawal' then follow the prompts."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_request_for_withdrawal_partial_withdrawal_response"
 }

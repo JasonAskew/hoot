@@ -1,0 +1,3028 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_register_test",
+  "intent_name" : "bt_register",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "15eeb86d-5a92-4fdd-bad4-ec95011a49a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I reuse my existing account for registration?",
+    "tags" : [ "goldset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "37b10b50-11fb-4027-951e-0408cf84d66a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can an registration email be resent to the client if it gets lost",
+    "tags" : [ "goldset", "merged_from_bt_resend_reg_email", "test_gold" ]
+  }, {
+    "id" : "42acfa2c-c9e2-4074-b80b-d249c99bc4b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can not register.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b257f1e7-c8b5-473f-99a7-663e15785a2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can registration emails be re-generated",
+    "tags" : [ "goldset", "merged_from_bt_resend_reg_email", "test_gold" ]
+  }, {
+    "id" : "1ce17025-1d1b-49d1-95e7-610376759692",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please provide me with a registration code. I can give you my membership number",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "fdd83bd6-2ae7-4f1c-8dab-c9e77708ef9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you need to register again for Panorama if I have an existing account",
+    "tags" : [ "goldset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "5dfa6072-4a15-4b47-acb5-2dc1ded8c290",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does everyone need to register if they already have an account?",
+    "tags" : [ "goldset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "2202da94-10fe-4208-a908-8455ec5625f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Don‚Äö√Ñ√∂‚àö√ë‚àö¬•t know Registration number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "cc19d281-a8b0-4b8f-ba14-c3486ae584ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI what is reigstration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "12c7f28e-e4f3-45a8-93cb-08d58e6428bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI, How are you ! I wanna register my account, but I didn't get registration code",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "af2a7d2a-29d6-431e-acdd-433dd8fb04fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI, I require my registration code to register my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bbb30ab2-da37-4967-8b46-1c316d1ea249",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Help me register",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c2c3f507-3e8b-463d-9453-3b1993001f17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Don't know my registration code need help",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b2041f50-7055-4ab9-8bd2-e8d57a294af3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I am having trouble finding my account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "85044ba8-35f1-4dca-bd9d-34cf9b493193",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I don‚Äö√Ñ√∂‚àö√ë‚àö¬•t have a registration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "154f572f-19d5-4bb6-a749-0c29f16aa013",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I have an account with you but I don't know how to sign in because I've never been on the app before.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8b3af233-08f9-4375-bb4d-bcdd0ef297c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I would like to set up an account so I can see my super details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e258489a-59e5-4800-b561-c34ef2425d15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I'm trying to register an account but I don't know what the registration code is.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "633b4b66-2cc8-4419-ad07-6240c2ed033e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi there! I need a registartion code to log in but I have not received one, how do I go about doing this?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "1fbb3ebf-00f2-4cf9-bbf5-dd9625c3a78a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, we were with investorwrap & I understand everything has transferred to you. My wife received a BT wrap migration update which gave her a registration code but I can't seem to find one that was sent to me. Could you please help? Thank you",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "eb2f8dce-f205-4b20-b769-6f2b4d3a21b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi we would like to see if we can have a registration email sent to our client - Bob - Adviser Bob AMP FP as the client's email was incorrect in the draft stage of application. Thanks Leisl",
+    "tags" : [ "westpacplat2", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "3473554a-83f8-4e5d-90cf-a3320f92ea0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi where do I get my registration code ?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a1369a17-fd4e-40d3-9210-fc91277ea76a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, I am a BT super member but I need a registration code to set up my online account.",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "beccbf5e-f3e8-48f9-81c4-2a92fe7533d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, I am having trouble registering a new account with the details provided by email. Can you please assist?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "a723104a-bf77-43b0-8480-4187f03c3081",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I have an account but I have never logged in. How do I get a registration code?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b51335b6-e5ce-4d51-ab23-0e80cde3b987",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I haven't previously logged in to my super account online, I have my member number but no 'registration code'",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b04443ac-7a2a-464c-ae89-9c75d1b53841",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, how do i obtain a registration code?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "365f6839-2f2b-4b81-b642-c2708441b365",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I change the email address for registration?",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "ca0f6bf9-5629-4a70-9827-91488e9c9e1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I find my registration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9b815c4d-3556-4181-9554-e0938d5b2c9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find my registration code?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "ff2a41f1-b74b-4297-869f-66e503f0f47c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I get the registration code?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "5e6da884-a035-4dcc-b456-90432be43c87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I resend the registration email to client?",
+    "tags" : [ "westpacplat2", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "afcccd58-be36-4add-9816-5d88895a9175",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can i get to registration code? I am BT new customer.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "57c5d364-b5a9-4dca-a5a9-a429d0174af2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can we register as dealer group and adviser?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "d4f60a29-c3bb-4fba-a7bd-4f88c6f0eeab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I find my registration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5c5c63cf-11ce-4375-98d1-1498cc3d78c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find my registration code?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "a753234c-1549-4882-8014-6fac2906a415",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find my registration code??",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "e6f78f34-78ca-47b7-a404-b57455304fe1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I find out what my registration code is please?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e858fa33-a3af-48d0-9951-5a6d2cfda119",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I get a register code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "13b8207e-96aa-4f58-b40a-d58f54288641",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get a registration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "df6ead1b-7cbe-4830-886a-46d97d92fabb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I get a registration code?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "2572e55e-ff63-4e11-9b11-f57628d332b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get my registration code to sign up?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "975bb7f3-bfdf-4cd7-9184-e323ef0fd65d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I login for the first time.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8fb7127a-c5cf-48a2-b9cd-58818a0191e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I register",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "87a4ac22-e2cf-4f36-8112-ca201f06fd5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I register to use the system.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "de3322ff-d33c-404e-a321-3554f64669fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do you get a registration code to sign in to BT Panorama?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b38589b2-d664-452f-89a0-d942441fd38d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to get the registration code",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "300ad494-67f9-45e3-9061-892c357b9cd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to get the registration no.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a783a872-2d5e-4aa4-83ec-ab023f24fd96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to register and Login to Panorama app",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1947a646-f8ed-4e00-963f-736038f7b96a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to resend the registration email to my client?",
+    "tags" : [ "goldset", "merged_from_bt_resend_reg_email", "test_gold" ]
+  }, {
+    "id" : "0e1ddc3a-d328-446c-8dac-7630a66c26da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I already have access to my account , why do I need to re-register?",
+    "tags" : [ "goldset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "6566259a-8f91-4484-b1bb-60fc485dcfdd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am having difficulty with registration.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bccf20a6-d616-4a0a-a6a2-2b25f9866d01",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't have registration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "5cbc271f-8eb7-46e6-a94c-4e01f32ce4d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I dont have a Registration Code to register my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "839c6069-2ee7-4e61-931a-be17b936fbbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I don‚Äö√Ñ√¥t have registered code",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "fb28456d-4bf7-42c0-9dd8-81e3b7a7aeb9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don‚Äö√Ñ√∂‚àö√ë‚àö¬•t have a registration code.. I wnat to create a login account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2f553c95-b4c3-4c7a-beb3-714bc3a1b9e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don‚Äö√Ñ√∂‚àö√ë‚àö¬•t have registration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "8c4c95e0-5446-45f7-b65b-3e45433d6f05",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I don‚Äö√Ñ√∂‚àö√ë‚àö¬•t know the registration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b1b7f21f-e526-4924-ad24-ddb1d5736f09",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I reuse my existing account for registration?",
+    "tags" : [ "goldset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "f6270cb1-dbba-4a0a-a218-cd1c62dbb833",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can an registration email be resent to the client if it gets lost",
+    "tags" : [ "goldset", "merged_from_bt_resend_reg_email", "test_gold" ]
+  }, {
+    "id" : "8c990fd0-0923-4687-9c0a-3d0e13af658d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can not register.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1cfa8a34-2017-4078-96e6-58f4a9962851",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can registration emails be re-generated",
+    "tags" : [ "goldset", "merged_from_bt_resend_reg_email", "test_gold" ]
+  }, {
+    "id" : "0e341153-bbd3-48d2-8560-88b4f84cc397",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please provide me with a registration code. I can give you my membership number",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "ed0fd304-3c2d-464b-9742-f4d9e3d8f11f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you need to register again for Panorama if I have an existing account",
+    "tags" : [ "goldset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "b75fc3ed-3d65-472a-95fd-85eb7cedb329",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does everyone need to register if they already have an account?",
+    "tags" : [ "goldset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "f589adcd-b015-4e0d-b0cf-73833b042c33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Don‚Äö√Ñ√∂‚àö√ë‚àö¬•t know Registration number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5c7c042c-31a3-4395-9593-dd2c0142f350",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI what is reigstration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9ac807e7-8fde-4cdc-b825-1cff9fdf26b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI, How are you ! I wanna register my account, but I didn't get registration code",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "f34b418f-06cf-46a9-9224-dcb3fddccbd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI, I require my registration code to register my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "960cf494-7357-4d5c-8aef-b2f239cdc59c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Help me register",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3a0108a4-4c80-47f6-a48e-136488dc7405",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Don't know my registration code need help",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7e13346f-ef55-49f3-a0b3-364ed4f32e73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I am having trouble finding my account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "8a935f7e-53f5-410d-9c3b-52e1357973e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I don‚Äö√Ñ√∂‚àö√ë‚àö¬•t have a registration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "bcacf897-3a26-45d0-aa5f-0e3ee95aadd6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I have an account with you but I don't know how to sign in because I've never been on the app before.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "efda394a-ba0b-4f05-955e-04b7ce0c358c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I would like to set up an account so I can see my super details",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "918422fa-42ec-4d9e-afd5-3c8272cb5d91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I'm trying to register an account but I don't know what the registration code is.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "066331cd-d0c5-4ae3-aad0-fa4253dd18c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi there! I need a registartion code to log in but I have not received one, how do I go about doing this?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "4a682ff6-a047-49a5-98c0-b6cf47d3578e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, we were with investorwrap & I understand everything has transferred to you. My wife received a BT wrap migration update which gave her a registration code but I can't seem to find one that was sent to me. Could you please help? Thank you",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "df16fad1-6af5-4ac5-a6aa-109be4f3adf7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi we would like to see if we can have a registration email sent to our client - Bob - Adviser Bob AMP FP as the client's email was incorrect in the draft stage of application. Thanks Leisl",
+    "tags" : [ "westpacplat2", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "f2506085-bb23-4ea3-ade1-53e9bcb5cfaf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi where do I get my registration code ?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "958e868e-ae18-4aa5-8897-d96bcea6404f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, I am a BT super member but I need a registration code to set up my online account.",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "b272a58e-f19e-404a-8e60-110fcbfe3b9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, I am having trouble registering a new account with the details provided by email. Can you please assist?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "aa227fad-b50a-456b-b8a3-157acd98b77e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I have an account but I have never logged in. How do I get a registration code?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "1fe82daa-96cb-46bf-ad26-dbd511ae7873",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I haven't previously logged in to my super account online, I have my member number but no 'registration code'",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "72bdb684-3d27-49e2-9fb7-9ffd7929ec5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, how do i obtain a registration code?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0a2a64a3-9851-4ae7-856a-bfd6424b0c1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I change the email address for registration?",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "9984b98f-f5cb-4801-adf5-5014b1890988",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I find my registration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "eb9d2a7d-caf6-4491-8121-289c479a7b69",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find my registration code?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "e91d5b06-2069-42b4-9bc5-599a25136bda",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I get the registration code?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "ca92d6ea-46b5-4e85-b14d-3c4d600c482b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I resend the registration email to client?",
+    "tags" : [ "westpacplat2", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "e2cbe38f-3ed8-4d5c-b50d-3228e063e593",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can i get to registration code? I am BT new customer.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "830db7b1-1c17-4c05-a795-c5850ecf688c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can we register as dealer group and adviser?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "bfd8c94f-60f1-4cd0-84dc-b9b6ad1d5aa9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I find my registration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d7b3a2fd-e00f-4ab6-b6cf-ee50617ebcb7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find my registration code?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "82f702d9-c39c-4e52-bbfa-b41ed03ecb36",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find my registration code??",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "9533d77c-0645-4992-80ba-183323b118a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I find out what my registration code is please?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4e014a21-b41f-45de-8d6a-8d8a74d09a41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I get a register code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "dc7196b6-a7c8-4ed1-9568-c6cc0bb47a50",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get a registration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "4c001e3e-c90a-49ff-b475-b015f5e326ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I get a registration code?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "966b172a-d64b-41ad-844a-ca430b68e3c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get my registration code to sign up?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2fb16bc3-43e9-472f-889c-7ed5143b20fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I login for the first time.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c6e4d548-6322-4c2f-ac59-8419594aa40a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I register",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "955e2b7c-e842-4e33-afec-fdf1a76f070f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I register to use the system.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "866e316c-d887-48e6-84ab-d28772115ca4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do you get a registration code to sign in to BT Panorama?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "986128c5-3534-48db-9569-226ffdc99aa3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to get the registration code",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "f034e935-a3d0-46e0-9164-4bd1bfcec7cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to get the registration no.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "96f7b3e6-42aa-4517-8c24-285ebd333357",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to register and Login to Panorama app",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "13b2b923-332c-4b2c-97fa-5d17ed71606e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to resend the registration email to my client?",
+    "tags" : [ "goldset", "merged_from_bt_resend_reg_email", "test_gold" ]
+  }, {
+    "id" : "a903a1a9-e79f-4f42-9c91-cd1032eec7d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I already have access to my account , why do I need to re-register?",
+    "tags" : [ "goldset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "5dbd765f-90cb-40dc-827a-d5cd1d02fa49",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am having difficulty with registration.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "be9d5b12-9278-458a-92df-17632f8473a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't have registration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "0d727a24-bf77-4564-832c-13bf4ac973d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I dont have a Registration Code to register my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bbaa69c8-d308-4c87-bbb1-c13480c38406",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I don‚Äö√Ñ√¥t have registered code",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "9ec2de30-c574-4671-abda-dfaa4bb940e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don‚Äö√Ñ√∂‚àö√ë‚àö¬•t have a registration code.. I wnat to create a login account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "1b90e06f-2c43-4325-8cff-eb7e063b3e7f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don‚Äö√Ñ√∂‚àö√ë‚àö¬•t have registration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "0dc55e14-9973-4092-8bd1-3a8610565d53",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I don‚Äö√Ñ√∂‚àö√ë‚àö¬•t know the registration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "67099f7b-3ba3-47bc-99a4-4116a89aa4c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have added a linked account and put in the SMS code. Will that activate the 1c payment or do I have to do something else?",
+    "tags" : [ "platset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "1825d5df-374c-43cc-84ef-b6687be0b451",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I have not logged in or registered. How do I get registered",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c1c896f8-472d-425b-a34a-88142ff75617",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have not received code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "fa8b6f85-2e35-413c-ae24-791f02e3e6b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I just need to register for an account. My Adviser ID is 111111111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2c193543-1169-4f1e-a450-0e41bb55ae36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I just want to active my supper acc",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7cf2a3c6-e9bb-4133-a864-e89b858d5f04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need a registration code",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "59803979-3fb3-45d5-a5a9-cf5fc1ae4d0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need a registration key",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d0391cf1-fd11-43cd-9f57-ca655429909b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help with registration.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c1fae236-4ca4-4d14-9fb9-bc7048a882fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to give you a different email address for my registration code",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "135771c5-3111-478d-b040-1e8b91fb28a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to provide you with a new registration email address",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "75dbae41-fc1b-42f1-a939-00ecf53ba0cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to register my existing bt SUPER",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "48a28dc9-d05a-4551-965f-2b001071d028",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to register new email address",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "e90c85f2-6f4e-4aca-a8d8-7244cb2873df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to update email address",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "63b2c0d8-d69a-4dae-a1f0-560145208eb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I recently joined westpac group",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c4bd4990-9dbf-428a-be83-7de9b89d7ec7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I see you have my wrong email, how can I change it.",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "7eb6791b-e792-4c9e-8d8a-760f4703c5ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want to register super online service",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "71fd8d20-2189-417f-92b0-16dd8b2baa19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to update my registration email address",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "d7aeeb8c-7350-4adb-8a84-b4ad4e919549",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to change my registered email address",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "75bbe27f-e387-494a-8f2d-646faaabae20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to resend the registration email to my client",
+    "tags" : [ "goldset", "merged_from_bt_resend_reg_email", "test_gold" ]
+  }, {
+    "id" : "ef8f726f-92bf-49e4-860d-f3d6b9c49178",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the registration process necessary if I already have an account",
+    "tags" : [ "goldset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "d30a4a84-77f4-4dfe-a4b1-943fb6b554f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I‚Äö√Ñ√∂‚àö√ë‚àö¬•m logging in for the first time. How do I set up an account as I don‚Äö√Ñ√∂‚àö√ë‚àö¬•t have a user name.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "41d968bc-ed38-417c-80b1-966d7a2f0cc6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client has not received the registration email I sent. Can it be resent",
+    "tags" : [ "goldset", "merged_from_bt_resend_reg_email", "test_gold" ]
+  }, {
+    "id" : "6f7b39e8-dfa3-4bd1-8e2f-db936a8957dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My registration details went to the wrong email address, how do I change it.",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "3b9354ad-dd12-4ad2-ad0d-b2bf92aacdfb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Need registration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fc252f2f-f4f0-4b69-96eb-e9a55e9b7226",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "REGISTRAION CODE",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "c78c68e5-d6b0-4d8f-989e-fd36ca0101b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "REGISTRATION CODE",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "dabda7f2-e71d-49b1-9e60-469b40a3810b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Register account.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bef73c88-ee96-44d2-abee-5f5bdce54a0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Registering an online account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6b9beeda-7d90-4387-96bf-d0ec8bf1a88e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Registration address",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c32b180f-ed20-4177-9e37-51d99d2af789",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Request sign in please, new user",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "66d43aa6-63f6-4691-a375-3f1e76645d1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Resend registration code",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "7f4750ae-4d83-432d-bd0e-89b3b04a3287",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "This the first time I‚Äö√Ñ√∂‚àö√ë‚àö¬•ve use bt app. How do I register?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ede82d82-e623-434f-becd-ac951dc85bce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is a registration key, and where can I find it",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6e695f41-dc31-42ae-bc90-ae83ed2dc4a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my registration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "6b7857a9-5a6e-4561-b208-d23cf514d329",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is registration code and how do i get one",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a1687f17-9623-4169-a901-85132d27e0d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is registration code pl",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "ac7d30fd-4af4-4cbe-85d2-347e2d1dd486",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is registration code?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "410a77a8-722f-446e-ac27-88d7072ae027",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What should I do if my client loses their registration email.",
+    "tags" : [ "goldset", "merged_from_bt_resend_reg_email", "test_gold" ]
+  }, {
+    "id" : "0b13a24c-dba6-4eda-920e-5710afdd93bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What's my registration code?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "abd50554-6996-4bfc-b2b8-19244b03f133",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What's my registration number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fa72f195-7ab2-4cf5-b2dd-8a6d1107bd94",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "When was the email sent to me with a registration code?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "700ef99c-1033-4009-88b1-b0f7b2c3ce96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where can i find my registration code?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a3bbdb16-6267-43b5-8b54-32d49b93101e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I find my registration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "b6d42c38-56de-4b13-b67b-6e1da13c6817",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where do I find my registration code?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "184facb6-2a42-4e2b-98f6-0a520c847aaf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where do I find the registration code?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "dcf168e9-e0d2-4c23-882f-ddf74d5e8440",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where do I get a registration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6ad5810a-2af1-4e7c-8066-49b45c14c97f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is my registration link?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7a33857c-50d1-497e-ade0-da61a9049089",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why can't I use my existing account?",
+    "tags" : [ "goldset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "5c68dbfa-f3b5-45bd-b674-912e02be87c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is there a need to re-register if I have an account?",
+    "tags" : [ "goldset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "af601db5-3376-4063-b0f0-f43bb5969b17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Wondering where i find my registration code to view details online? I only have a BT Super member number",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "3d5efe51-940d-48da-a907-205e928c75ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "activate account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "4e3d8210-ba9f-4858-994d-29e8bd7df25c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are you able to confirm if the 11 character registration code has been emailed to the client for this account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9e69b1f3-05b9-4b5d-8379-12854794f352",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "attempting to register y account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "73125a15-ed10-4e04-9c54-1bce408e171f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "authorising new bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "86b9f671-8713-44c0-9730-7ccf050baa6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "both my husband and i are signatories on our account i received a different registration identification but when i tried to use it to enter",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7ec41f58-a329-466d-ae5f-b6efccf26ab9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7670a49a-ab03-4982-9753-4e18d2b70fb7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but i not registered log in online",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "14365ccb-55ad-466c-9a85-eb8194319acb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i link another superannuation fund to this account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_why_register_again", "test_platinum" ]
+  }, {
+    "id" : "9d235dc0-912f-4c9b-8102-a69a52b6804c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please get a registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6518a5c3-13c1-4115-a4b9-59147abb06eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please re register onto the panorama website",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d935d4f7-b400-498e-b801-eda70e64d291",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you send me a code so i can register to access my bt super account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "49da2d0f-2ef7-4943-85f9-87c9781be698",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant register to sign in",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "69bb237d-8101-45c1-b691-a6f38540a5d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change my registered email address",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "cce85e24-1415-4d26-9b79-5095ae240900",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change registration email",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "40ddf169-f8ff-41e8-b04c-e2b15f91dffa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are you able to confirm if the 11 character registration code has been emailed to the client for this account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fedd4f3f-4c7d-405b-8ce8-20989bc03e3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "attempting to register y account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "d393a03f-d8ef-45b0-b728-b426c885c68d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "authorising new bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c3d99d11-d2f8-4422-90c7-75bf4957df14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "both my husband and i are signatories on our account i received a different registration identification but when i tried to use it to enter",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "52dd25b8-74e3-4165-837f-a4b57c1b0919",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5bf910ae-592b-4c34-86eb-16efa32eec9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but i not registered log in online",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1b0d2ba2-e985-41b2-97f2-1bd5496ecebe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i link another superannuation fund to this account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_why_register_again", "test_platinum" ]
+  }, {
+    "id" : "e971a382-c4c3-428f-b74e-090647f83304",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please get a registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "555d0881-cfb5-42ef-8ec9-7f2894f6924d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please re register onto the panorama website",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7a1eea61-0d8e-490b-9ef8-844b8f0bf895",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you send me a code so i can register to access my bt super account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "5ecaab8a-5c82-4300-98eb-2a5ceae61540",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant register to sign in",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "42501943-472f-4436-9fc0-37f36c92c403",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change my registered email address",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "947847d0-a2d8-4e21-9283-14187851109c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change registration email",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b868ba45-93c2-41d9-81a2-b2e532fca677",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are you able to confirm if the 11 character registration code has been emailed to the client for this account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "edb4a962-ee7d-4c48-b9d6-963d2cdabf70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "attempting to register y account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "da5de364-a1e8-4566-b3df-ec3b57d7b644",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "authorising new bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "53f87fb3-81e9-416a-a7f7-6bb87ff9a47f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "both my husband and i are signatories on our account i received a different registration identification but when i tried to use it to enter",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "302f74bf-d8bd-4d45-9e98-adfe4a055a62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7156406e-839e-4337-a8b4-5417c18b5d70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but i not registered log in online",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8c4db967-0b37-4a39-ba41-1ad8220305f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i link another superannuation fund to this account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_why_register_again", "test_platinum" ]
+  }, {
+    "id" : "2803a7c0-dc89-4c1f-b07e-9c72e2c83d78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please get a registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3e65f1da-5e6a-4429-98b8-d440c37d70da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please re register onto the panorama website",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "06d18abe-a514-4095-94a8-90f5c0061a00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you send me a code so i can register to access my bt super account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "d6c6f9d5-9f7d-42a6-855f-ee3854187516",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant register to sign in",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c42262f2-6d52-40b6-969c-c66e341c2851",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "change my registered email address",
+    "tags" : [ "goldset", "merged_from_bt_change_registration_email", "test_gold" ]
+  }, {
+    "id" : "2d164d87-530b-48db-b626-018bd864a095",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change registration email",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fa81826b-13c5-44fa-bf30-b6c0d172c9e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client has never logged in",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d73d587b-3b3b-4638-9856-77cf3e458fa3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client website access",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9647bd3a-085b-44ad-bc8f-c3d471f53275",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "create online accont",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "de7dc349-2f90-4609-a41c-6d49b7c7385b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "didn't receive registration code for account creation",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "3ce5a3c6-4bf7-425f-97f1-17181d204960",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does clients need to athourise the new bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a6cb57af-4aeb-425f-9489-60bfd5e87f91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good afternoon i have never logged in to my bt account could you please tell me where i start",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4cf8a0ea-93d1-4cdc-ab94-c9f0a3b80569",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have not receive registration code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "04183dae-0538-4645-bdd8-6241a2c3c57e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "havent got a registration code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "81ceb05c-c38f-4c63-a7ac-74d47b256cc2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello how do i get a registration code to sign into my super account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "24fb8974-15e2-44eb-997e-95e4ba32ba83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am try to log onto my super but dont have a reg code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1997670e-49ea-48b9-a1c7-031d72362722",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i do not no what my registration code is",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e11d828c-eb20-49a7-bb43-39d6b40a3e9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i have not recieved my registration code could you help with this",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "a5cdf397-f603-491e-a5be-3ba849a1fb42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello please i need help with my registration code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "15110b30-456e-48af-acc2-801b594b9947",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello where do i receive a registration code from in order to register an online account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ae84386c-8dca-4f71-886a-09587109bd00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help registering account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a36f0f39-d5cf-465e-8573-dc51bf244042",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - how can i find my registration code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c4c956a4-423c-46be-955a-e091ef0a19de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi am trying to set up my online portal on panorama where do i get a registration code from",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "4b901f76-3a0d-458b-9bfd-75a726fd129d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue im trying to register my account online however i do not have a registration code can you please help me",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ce3a7bf4-7377-491c-8dc5-f34f894c200a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue where do i find the registration code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "fa62d1f0-feb0-49e1-8333-0df44d84fbfc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you please resend a registration code to my client",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1f850302-0348-4a91-9f1a-6510a0e1a953",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how can i get a registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "332e67f9-87b5-4e03-8c04-acbd48aaea5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how can i get the registration code for my super account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a55b5174-d1d0-4948-80c1-fbde03834b52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i find my registration number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "afcb538d-e618-4fe6-b083-1b79e04be1b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i get my registration code so i log in",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "8b4a5ba4-b5fe-4374-b7b0-3269ad694002",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i have register code i want to login but i do not have password please help me",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "8fcf667f-ce74-44e0-8c87-c1a00802abfb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i register for an online account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "baf89799-5b64-47da-a26a-be4eac2a14e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how the client gain access to her bt panorama ccount",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a4932d0d-696a-4179-b23f-a9184d0d8e1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i 'd like to register for my bt super online account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c5b13241-f87c-4836-a0c6-af1f9ae0e2e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i 'd like to register for online access to my account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "e0b90875-e515-4067-97c1-036fc1fbf301",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i 'd like to sign in to panorama investor for my bt super account i have not signed in before and i do not",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "76a7e131-14cb-4f5c-9200-10ecadd5b87a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am just wondering where i would find my registration code",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ed7eb4b5-302e-46af-89f6-9f462d5c2ac4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am looking for my 11 character registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "ab09991e-2039-4262-98ac-ef869c3a2a63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am looking to register my account and i need a registration code",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8ad4af20-5efe-4500-9cb7-4681074cce97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to make an acocunt but cannot find the registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "ce7d2c58-bc9e-4393-b412-26b0282664c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to register an account with panorama to access my super but it says i need a registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "47b9171c-6996-4d5e-aa21-d5c80962b908",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to register for my bt account please guide me how can i find registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "dba6619e-7969-4ea9-b086-6b17d6b09a37",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i can i get my registration caode",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "069a8516-6534-4640-93c2-567e3b68828a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i can register",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "53bab198-2759-45b8-8fc2-4efa3e9b8647",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have not received a registration code to register my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "ac43fccd-deeb-4023-90ba-8bfd41cb1312",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need a registration code to access onlie portal",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "4dc92188-8c24-4eab-b51c-5a6bda6eb4a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need a registration code to create an account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "177d01bb-e3e4-4784-9588-3f1675f8b913",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "e8945b32-3027-481d-9409-e7de0d614460",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to register online account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "558921b9-529f-47a8-b983-939add70e0b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to get online access through bt panorama but do not have a registration code how do i get one",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "c4d082d5-71e0-4c01-aeff-fabdded9570c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to set up my bt super account but i need a registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "8bfb3fa1-8ba2-43b6-bb57-ace104cb2bf6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i wanted to access my online account so that i can get my bt super statement is that possible thanks",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4d78b1e4-d47c-40bc-b8b6-bf70e52b5467",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i wanted to setup my account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "00cbbe11-33e4-4624-ac5b-873e65acc84c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to access my online account but have never registered please could you let me know what i need to do thank",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "319c7cb1-21e6-470f-85c5-03b57da55eab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to register my account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "1e2903c1-de73-4d79-bdb9-98696046c384",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to set up my online account but i dont have a registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "95d8898e-ef13-4421-b7c6-f5b11976f609",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to setup my online account for my super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "438e178f-5de1-4f77-97b2-f2d8649ac736",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi id like a registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "8b084cd5-fc7d-4f5b-a2f6-1e91ce007482",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi im trying to log into my account but dont have a registration number",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "552c565f-f1c5-435f-bf27-56a4e5a05418",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi just trying to get a registration number so i can create a login",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5131f329-b0ad-41d2-b99b-3e71bf698430",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi mate its my one st time tryin 1 register my account but it says i need a registation code",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b43c15f3-9046-4cd1-a151-2352d40459fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi my bt superwrap account was migrated but i did receive an email with the 11 digit verification code so i can not register what",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "6d29d638-0336-4166-b57f-d14f38cbd555",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi my super has been transferred over to panoramawhat is a registration code please",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8aad99ca-91ec-4da5-91ce-0d701eb436bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there how can i find my registration code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3996b8a6-f096-4903-b5fc-af55c58ad0e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there how do i obtain registration code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "8d82db48-6f67-4d31-85c7-790aeea841e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i have a bt panorama account and would like to setup an online account how do i do so",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "97f9b189-6237-4315-960e-9fa6d4e87eb8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i never received a registration code for my super account i am transferring my super to another superannuation fund but i want to",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "21058a98-a413-4d63-b1f1-f2e6de418e77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there, this is the first time i'm trying to access into my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c78765a7-e0da-4ac0-b516-bfba208bbb12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi trying to log in for the one st time and dont have a registration number",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a7134f27-7280-4510-814d-ba1996425f6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i get a register code for when i sign up",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "06b986a9-9984-45ed-be90-232d7b64bc3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi, I don't know where to find the registration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f4a1dd24-2e8e-4fd4-a8ec-be00b91246ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi, how can i access my registration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a4db2211-f0c5-4d32-8f78-8c79b7309b7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can a client get online access",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3a625468-2af1-4f6a-aa66-80bf00de24f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get a registration code for bt panorama",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "b1198611-ff73-49c3-8784-fc8622e36236",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get a registration number so i can register my super account on the bt panorama app",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "e4948050-9985-4444-a164-5725bf0271e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get one registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "5b758a3f-fe1b-481e-881f-41f200ea6461",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get registration code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "12fb63f5-2f50-41aa-81e6-64d7b1a78822",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i have registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "aab18171-79d5-42a8-b3fc-b7a19ad6387b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i register a bt super account to get super from my employer",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2cd01cc5-3f9c-4aff-8607-ea0f66feefa9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i register for my account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "fce59abd-3cd5-4b42-aee5-973d9fce6599",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i register my bt super account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3bb6cd1b-1830-4df4-87c4-2389f9d4898f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i register my mobile",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "23a58422-2b7d-4609-989a-c71a90ecb757",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can they get a new registration code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0b62ba6d-5d6b-4eca-84a5-ddc23e86cd4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I combine all of a clients account into one client login",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e447b61f-d411-4597-b346-1ad4961189d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I find a registration code",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "5f354aa6-cdd1-47e4-8b0a-b0a2615688bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do clients register for online access",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a8f9fade-31a2-4f28-95e9-b98c6f27a0e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i activate account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3f0fa627-63ab-49b9-848c-f992e9223e6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i apply for a 11 code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "271f76e5-4233-4091-b12b-3557ccfed7a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i create a log in for my account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "695d80fb-20dc-4292-9f22-e3f901df47f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find my registration code to set up online account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1aeea43b-e9e4-420a-8f01-4e2cffded768",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i get a registration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "e3705660-3624-4077-92e1-4af303c6a0b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get a registration code for my account i need it to set up an online access to my account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "15049b0c-cbd2-42cf-87eb-bece98651af9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get a registration code for online access",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2b16b3c5-f24b-4007-8d67-490d0b98a00c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get a registration code to sign up for bt panorama",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e6940225-b4b6-45dc-9d32-261dcf993a4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get my registration code to register my account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "07b8e244-cfc6-4a71-99e7-d1301fde30fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get regisrtration code as new member",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "255fe9ef-97fd-4cc1-b109-59c5af8379ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get registration code resent",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "11e4addc-5b9d-40de-bbaf-8d6fa774d91d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get registration code to register an account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ff2b994b-9b3e-4266-a1e6-6b3dd9cd4892",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get registration number so i can log in to my super account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "14fd90d4-db4d-4653-a22f-740e418ee8a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i go about getting a registration code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "af8f3b65-31ce-42ad-9cd3-dc81b3f63fd5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i know if i have a registered account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6a318a86-7640-4caa-bc8b-145ee24dd7bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i know my registration code",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "278a08da-6152-4000-9f1f-f30a34ca6ab5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log in to my account if i havent got an online account yet or know a registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "ce744e46-a41f-4f7a-b9c9-b07c6055629c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i obtain a registration code?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e4f4ee5f-c26b-4c81-bcfa-5ec0b25e3e23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i register an account on line",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aff104ce-904b-474e-880b-a379112095bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i register for online access",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "eab3116b-f962-403c-8b7b-7da7090b7213",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i register to access my account online",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "d6735e89-6581-436a-93ac-e306531a866f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i resend the registration email for an online super application",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "affc7424-b61f-4c89-ba18-58bb5027ccda",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you register your account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "ee3ab033-c43e-4ee3-ae30-26fed3105a67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does a client go online",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "c3cc0b8f-b1fa-4958-ac27-caf10398fa8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does my client get their login",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "33ce2008-0471-498f-b1b0-4822c1fb84f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how i can find registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9a41fbd9-bf41-4b4b-af46-4f6eecbd5af0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to find registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "275eb7c7-1370-4ce4-b291-fa944dcc8cf8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to grant client online access",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "1dc97ccc-11d3-4943-aa77-3007b1648f07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to register my super account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ef03482d-84c1-4d23-a9c3-0b2b5e21fe52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to resend registration code",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a7bcda1e-bd99-48ab-9ee0-e469f46cfb4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to set up client login",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ff0a07b3-c209-4e7f-b53e-8ac3c80dda2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i 'd like to register my super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b7f34c83-3305-4178-8cff-69a6cac38666",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am a bt customer and transferred to panorama i trying to register but it needs a registration code that i do not have",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "58fdcc89-c34c-42d1-b638-9105759c9037",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am a customer from overseas and never activated my new account when you changes systems how can i activate my account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "cae5c386-e887-4667-8cdc-76cd840a6804",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not registered for online access",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "13d008f9-8082-40ca-8b31-27fd33a3934e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am not sure if i have online access or not",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "4dfd1895-8a2f-4d8d-86cd-65ab9951f023",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying register so that i can view my superannuation fund statement i do not have a registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "026447a6-b5b8-4a3f-95cd-384339ece067",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to login for the one st time and it 's asking me for a registration code and i do not have one",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "fe18695d-8394-46c4-baff-c76e71d6368d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to re-register for bt online using the new investor number and code but it is not working",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "39a13e8a-bb85-4356-808e-3d96e2b64ce1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to register but i do not know where to get my registration code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "dfe8a8c4-5662-419c-bd05-a3e018692b91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to set ou my panorama account but no codes are coming to my mobile phone",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a7ecd667-d1c5-42fa-85a1-b54568ce18eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am unable to register to access my bt panorama account recently migrated",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "e39f178a-3d25-4629-a818-4cd3d49c57dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am waiting on a registration code as my account has been transferred over",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b4dbd6b0-e3e7-4d68-ae8d-810b17ca26b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i bob my registration number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "430d3680-0187-44c9-ae91-a26f965835da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not log in because i am trying to register my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "12c62309-6b40-40e1-86bd-c9740a813a2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cannot find my 11 character registration",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "b27571e4-78c3-4795-89be-fcf655e6d21b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cannot ring during business hours is there anyone who can help me with a registration code today",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "b5b9551e-6f87-493e-889b-c72a54ac2a2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cant find my registration code or password",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "88f998c0-ba24-4830-be18-a94fe6fe11c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cant find my registration code to change to panorama",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4017397c-ad16-4418-bcc6-e367992536e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cant register my account online",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "f56f96e2-d35e-4bd3-99ec-ab6fe58fe944",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i definitely do not have the registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "78f8cb52-0552-4582-a711-cfc9bdcc847b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did not get emailed a registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "302cafce-bd51-4e32-b403-27d7ff8037d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did not get reistration code yet",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dd5550b8-2d76-42bf-a039-5eb0ca8140ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did not receive an email just a letter",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "245b5736-65f8-4c72-8e77-92b96d0f86f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did not receive any registration code for bt panorama",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "498c2fa4-d649-4f75-be57-0adc3e3b2500",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did not receive the email with the registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "12084963-c16c-43de-9bb7-281701eaf83f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not have a registration code how do i get one",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "e6859f72-4bb9-4110-9fdb-3281169ccc30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not have an email",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c4131176-d013-4854-babc-6081906ec565",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not have an email from panorama investment",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "26e6cded-6113-4a73-a75a-0df30c04c3df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not have an email with a 11 digit code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "d00ca169-f555-4dcf-bac8-84728b6a9380",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not know how to get the cde",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "066eb4a9-06aa-4dd3-89ae-ee1f45c2d24a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not know my registration code for bt",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f0418c19-a9f8-4ad4-907a-c5218657db17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not think i have received a registration code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a9e35393-5e38-4402-a6d0-c859c658d96b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i dont have an email with my registration number can this be resent",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "fc04e447-91a7-4b4c-a6f0-9fb71e40b6d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i dont have the registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "e326501d-25f2-4691-96c3-001d43fb0957",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i got an account but i do not have registration code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "5941ed14-3116-4abb-bf46-ce0aabb9a739",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a bt super account and i would like to create an online account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "fde97d84-774b-4a70-aedc-74fdc45a9c75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a code to attach to my 1 new accounts how do i do this",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f5611b4e-b21c-4b33-82b4-0d4703bd14bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a new account and need instruction on how to register for online services",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8c42b908-78c2-416d-b8cd-b94753240f12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have an account but how do i set up an online account to be able to access my details",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "c30113b2-5114-4f72-bd60-4467b21154d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have been given a user id number but its asking for a registration code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "d157f78b-aab3-4cd2-8782-5809849fdd2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have bt super and member number and wish to register on line",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "f05cf7d4-dba2-44da-8324-bd1f160053d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have lost my registration code to migrate to bt panorama",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "b266c20c-fd72-4adb-b55a-c1040bcc01db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have never set up an account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1d994031-42b6-4c8a-b434-a9ecb60416fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have not got a registration code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "811f463c-3497-4c5b-9147-6e53c8b839ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have set up an investment account through my westpac banking app i can not log into the bt invest app as i have not",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "aa74d092-6cbf-4725-b547-db7e9999a0b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i havent received code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "033f59a3-bb48-47c6-a3b0-b279f7c8b072",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i like to set up an online account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f4ff99bf-8ed1-49fb-9db2-26dda82a6376",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need help finding my registration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "14f1746f-04b6-4345-aca7-3b734b84b423",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need my registration code to register my super account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "3af86be7-e9d3-49c0-98ec-564ad4a803e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need my registration number to set up my online account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7f9ac4d5-bd12-455d-ba95-bcf8485a1829",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "fa4b1d5b-535f-445b-b1a4-1949d1ac3bc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to be able to start an account to view my super statement",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ec9de5d7-d5c5-4c57-8538-661b5ccde0b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to create a log in for my existing accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1d6ccccc-f61a-4f17-8bb6-e1eb6f4b4ac2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to login to panorama for the one st time and need a registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "e09a9be4-f602-430b-b578-78d2f84db2fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to register for online services please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f79d093c-b70b-4b39-af20-c4b13c9a26a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to register my account online i do not appear to have a registration code that its asking for i have a bt super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "6149c605-2f25-4cc0-957e-bcec67fe2f07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to register to view my statement",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "83a9eacf-7611-4384-a0a7-672072794135",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to set up an online account but i have not done it before",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8fee88f9-2013-4578-965b-3a74f496875b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i tried to register for the online login it asked for the registration code which i do not know can you help",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "9843141a-a4fe-4525-b7cc-409c0e6a6920",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wanna know what is my registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f1f86310-f44f-4f96-bf0b-ca550f5f36c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wanna register for bt super application or online account so i can access for my ac",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3a55bbe3-262c-4bc1-9aca-3fae893ab65a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to register for bt panorama but i did not have registration code can i get the registration code by email me",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "94cd0841-a1b9-4072-8431-99850a36f0a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to register my account for online",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "d41fb04a-5f8e-47c4-a824-815d30842f04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to register my account on panorama",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1fdde94a-7c97-4320-b5c9-e9c8f7c71fa0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i was given a registration code temporarily to access my account and transfer money into my account however it seems my once off bob code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c62d1eda-f3f2-46bc-909e-9c41f19695ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to check the process on how to register a new licensee or dealer group under bt panorama thanks",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "05d38886-dd62-4bd8-a175-e3ea2b5c6d9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to register but need a registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "ffef7c80-e4fd-4950-acd2-b9471788436d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to register for online access to view my super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "c94d09d5-e5a0-4ed6-96b5-423c43f0d79d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to register to see my current super account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ee61dbe2-cde0-46ba-adec-4256b9e434e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if i already have an account with panorama do i have to register again",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "merged_from_bt_why_register_again", "test_platinum" ]
+  }, {
+    "id" : "76eb272c-ae88-46b7-af74-b818a4bfbdfa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investor registration",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cb2540df-6381-4642-9faa-f05120ab0012",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is my registration code my member number",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "561f88e3-986d-4eef-ba11-3f5ed5080f86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ive never logged in before",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "9a8e63a8-91a4-44a0-a9f0-94bc7e114874",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking for my registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "58587c7b-b4b4-42f1-9677-42863b339088",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "lost registraiton code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0b3afea7-5227-4763-ad58-c51a1c57416a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account just got transfers to bt panorama and i want to set up new web access but i do not have registration code how",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a035d77a-4e4f-4f3c-ae36-d2c3cddc8b81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my registration number",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "5f542e6c-6c26-48f7-8c61-eb997fdf3efc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my super fund has been rolled over into a bt panorama super account how do i register my account for online access i do not",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "8b293fb1-009e-405a-8cf2-a06b1434711f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my wife wants to register her bt account online",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "205fa8a7-ba69-4de2-b1e8-cb8c8908cb7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need access Westpac",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d25e7dbb-59b1-4f89-8ddc-87406da45817",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need my registration code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "6978d16d-b1a4-4c44-9b96-ea3fc24ff965",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need registration number to register online log in",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0e0be7ac-bab5-43c0-a3f9-03fd24fe79bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to re-register my account but do not know my registration code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "309a8797-40dc-4358-be7c-6db2b9ea08d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to register for bt panorama i need help with the registration",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "01cb3fce-c747-46d8-9123-d0ac8ca99d01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to register my account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "d955a4b4-3dd5-463a-88f1-906043db6798",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to sign up for an online acount",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "254a0c10-a530-41b7-afc9-10aa15539046",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to verify account first time user",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "81cc7038-f28e-478d-9f56-742b0c2bb4d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "never received the email",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "e855a314-163a-48ab-86eb-19e71f7b1868",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new registration code",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0d58358e-ca05-4eaf-86e1-0b8d54457edb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no sure if i am registered but have a super account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f90d5b51-25f9-4f32-bbd1-0a67fe7e36a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not sure of the phone number i used to create my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b04122d0-1b6c-46ad-961a-5684879995a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "online access to account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2a9a6d17-8c56-4ff8-bf53-444d3afdc141",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama registration code not recieved",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "0f75e6e8-c8bd-49c3-8b1b-bfd8bf04d89c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please email my new registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "045e9128-733c-4ad2-b8a6-86fbdd5c6ef2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "re-send email",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7f63f314-8df9-447a-9f22-1a51c318874a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "re-send registration code email",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b2b226c6-aa47-444b-93af-652ca1f3b540",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "receve i 'd no only but not registraction code via email how to get a prompt to ask for my new id no",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "4d5b13e8-7986-40c8-999f-248a80fa69ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "register account on my comp",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bcc9e1a2-b89b-413c-b339-12d9cdd72d6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "register for new accoutnt",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "d254d219-1ad2-4662-a920-49cba5145c6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "register for online access",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fe2eebcf-5c44-4d0d-983f-7f27ff8f59bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "register for online services",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "806810bc-428d-4a10-be87-d1959d7b3c67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "register my account for the first time",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6fe493f0-db37-464d-b518-24b711211b66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "register support",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7bed29d3-084b-47fb-bfbe-f16f966eea72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "register user",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f7b9a3e0-1272-49d4-b5e8-e8458671097b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "register without email code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "1c1373b8-d6fb-47e9-a1e6-5d031cf91634",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "registering for one st time",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9b35c531-022d-4e2d-8f86-523b4878e2c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "registering problems",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "be0e2904-5082-42a0-8ee4-2210bfac713c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "registration cod",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "54e80ead-16c5-4b4e-8822-251a83b04efc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "357755f7-eba8-43ce-92a9-b1fb01849031",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "registration code email not found",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7abae7b3-8638-4475-a46f-d3e0ef1e2b08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "registration code for bt online",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d4e722c7-9371-4ba6-a96e-d36b42781b9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "registration code for client",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "8d302c70-ae8e-4e8e-9b03-4d7a529b230d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "registration code i need",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e7b08e85-e0ec-46d4-8e5a-c112a1aa972e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "registration code l do not know it",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1f0e7742-c9e1-40b5-97ca-3ecd589aa2bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "registration email",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "80c0da3a-7b5b-46bb-a2ee-566ff13a5d85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "registration email for online applicaiton",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a0081d5a-100d-4e0e-972e-7a119dbd4e95",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reigstration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "0794549d-d035-4213-86e1-742f9ad8269a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request phone registration please",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ba071fc8-0fe9-456e-aecc-8f114b322240",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "resend application",
+    "tags" : [ "westpacplat2", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "89f9bb5f-7746-4137-88e1-c7d46bc50184",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "resend authorisation code for account opening",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0abdd21a-c652-42bf-ae3e-6d905d9de959",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "resend registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "b747f6ee-06ba-48de-bf6c-8f763904f1a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "resend registration email",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "a007058d-7cb9-4899-903d-0bdbfdfd8483",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "resend verifaction code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0dbd322a-1d68-483f-aecd-9d4e2a9f099c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "resend welcome to panorama email to client",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0b2758e9-609d-488d-b0ba-bd4e9f79643e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "set up o line account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "821a02a9-fb5b-4b71-a082-f95c35ac0020",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "set up online account access for my super",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "503310c2-40af-4136-8371-b825ac0df40f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry cannot register",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "63da514f-79de-4678-895e-4b7cbb21e3fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this is my member number m11111111 i need a registration code please",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "7a855f3c-f0d6-47c7-8bb8-ad43271bfa02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this is my one st time using the system i do not have a username or a registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "93cb26c6-4f66-489a-9f42-708bfaa430ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to set up online",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "55c57b3a-47aa-4022-907b-ac2db8939ec4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to register for online",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "2da69850-3ab3-4fdc-a7b9-e5c801be1318",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to register online acc",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3e4b8010-f85f-4f31-8364-99754c5173da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to register online forgot to write down registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e0d0b3d2-fedc-49c7-8851-822f05cd3694",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to register my account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "2cecf948-bc00-4e1c-abe2-65c585fc78b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unique registration number does not work has a 1l or 11 not sure",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "07efc5dd-d0b4-474b-a8e1-aa05a4b99ea9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want a registration code to register",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "0d69b7b8-256a-48d2-af1b-15bb3d408b6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to set up online account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "320de46c-effc-49d0-8863-3cda07960579",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's my registrar code to access panorama",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "c01098f0-2b32-41f0-8e18-a0f3421fc180",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what do I need to register",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7ee5c31c-02b2-436b-a921-a3f4617ee7d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this is my member number m11111111 i need a registration code please",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "44fbcb00-bada-4d99-91ea-8e09233d22c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "this is my one st time using the system i do not have a username or a registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "63764fe0-a168-43e2-b115-7ec2339b0914",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to set up online",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a92803e8-f4da-41d3-b691-eaeea515b798",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to register for online",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "ff7f7a7c-7b59-4a1e-aff3-a1c3590cb84c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to register online acc",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ade4fd2-eee7-43e5-a81c-9f4907ebd4c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to register online forgot to write down registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "18162f8f-ee40-4c29-9677-150c56481f00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to register my account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "2998abca-fb32-4fff-ba0d-5519b6de6c0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unique registration number does not work has a 1l or 11 not sure",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "f44bdd71-2134-4638-a495-0c22f31378a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want a registration code to register",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "8d4d3b32-ef7d-4f2a-8d11-f791d44b75be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to set up online account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9b5d4c71-0d80-4eab-a000-096ab72c956d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's my registrar code to access panorama",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "ce5de2b6-3fdb-44ff-b2fc-58b7073fac8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what do I need to register",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dd4f3f9e-0807-4581-afc7-057f2f69f70a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is a registation code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fed1db9e-87bd-44bf-b078-431f407fad64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is registration code where can i find it",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "87144316-5841-4448-87c1-8da55443bd2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the process of adding a bank account after investment account is established",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3bd5b2a6-83d1-46de-a9c9-15e118d10f85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the registration code?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b3596962-48b7-46f9-a3e3-1e8c4fbe6497",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what isregistration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "51fa09ad-2162-4cd9-bfb9-30d77009cf81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find a how to register for online access flyer for a client",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "91c923d6-39c9-4201-a437-a26141ed5af1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my rigistration code",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "38772fe6-c598-4cab-acf1-994af7d3f86a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my y registration number",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "84651593-4737-429f-8d72-dfc6f2e9128b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i get a registration code from",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9a1be007-ae00-4ac2-8a4f-5022f06e9130",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i get verification code to register",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a940cfb4-776b-402d-a592-e5d3fc98ad5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can l find the registration code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "7bb20673-4296-4960-9984-e102efa5b0b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I find my registration code",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "9c22f07b-6235-4ad9-8802-869455a7716f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find a registered code",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9738f67e-79f3-404e-9390-567a3ee82cfe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find my register code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b337bf68-2e18-4557-b64d-58f5ae7935b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find my registration code for clients online access",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "39784acf-00bf-4838-ba5d-c84fc8f43540",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find my registration code to register an account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "40af98cf-cfcd-4228-9d4f-c8eb9de01309",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find my registration number for the bt app",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "8a285312-52e9-4719-8f19-cc77aa98c843",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find or trigger a registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "88442749-7cf0-4004-9461-215698e6241d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i get a registratio code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "4719a75e-ae9c-4468-9874-c3af85e65670",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i get an activation code from",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "24be6e7f-318f-41e7-ab1d-d15c62cffa8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i get my regisrtation code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "be61dc5a-b0af-4899-a8ad-12ca02bbd350",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i get my registration code",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6d2ccb92-d73f-4a42-8620-13bf79b7a628",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i get registration code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e8d9de21-49ae-4436-bed0-1df323c1e9cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do they get the registration code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b6627bec-0ea8-4fa6-9f52-c17219838239",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do you get registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9b588ae6-be9d-47f4-8fc8-3b22d031c4b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where does a member go online to approve a super application",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ae9cb515-947c-4fe2-a995-6199e18fc98a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the 11 character registration code",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "091cd0e8-46bc-40fa-851e-ffff51c4736c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to find registatio code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8d7f4dff-6efc-473c-8767-4ee64accbe45",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to find registation code",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "merged_from_bt_resend_reg_email", "test_platinum" ]
+  }, {
+    "id" : "f3803330-5714-4048-81d5-ecb9616af303",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to get register code",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8b06a404-8bda-460f-a8b3-c5625f349783",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where will i find my registration number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c243893f-62f3-43e3-8044-ff545e5e6228",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why do your need to reregister if you already have an account",
+    "tags" : [ "goldset", "merged_from_bt_why_register_again", "test_gold" ]
+  }, {
+    "id" : "786429e8-b297-450e-8575-8f4e589f46f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "would like to get online access to my account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3873c9de-1595-4926-91f4-96fe92aa89a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "would like to register online but require a registration code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f09bb5f5-4b94-4d81-8cbd-5d070232d49a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yes hello i need to register how do i do that",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  } ]
+} ]

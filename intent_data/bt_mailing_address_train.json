@@ -1,0 +1,3631 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_mailing_address_train",
+  "intent_name" : "bt_mailing_address",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "db281e9c-6c08-46ea-90e9-d46eea586df6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I please have customer service email address",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b226a9e4-e188-4280-9ed5-cae3cd9cb66d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Clearance certificate please send me by email I want talk customer service"
+  }, {
+    "id" : "0b87f503-a338-4342-acff-4a416300d457",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fund electronic service address (ESA)",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "4f012e46-2708-4f11-85a5-640aa763c030",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I just tried to verify my email and create a new user name and password as my account has been migrated, now it seems that it is not recognising my new details. Please provide assistance. many than",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "190dca49-dafa-4ab6-8a7e-32a872b957c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I please have customer service email address",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9f8625a1-ee0c-48a8-a4a4-05337d34a344",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Clearance certificate please send me by email I want talk customer service"
+  }, {
+    "id" : "371536c0-f389-4d72-9eed-cccc3c8fd3f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fund electronic service address (ESA)",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "98b3bff0-82e3-4062-bb3d-8d0738d5105a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I just tried to verify my email and create a new user name and password as my account has been migrated, now it seems that it is not recognising my new details. Please provide assistance. many than",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "ce698de9-7d7b-4ab2-81fb-60ce04ba8572",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need a phone number or email to contact someone"
+  }, {
+    "id" : "d7e854be-54fa-4235-8412-f649079042b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need email address of agent"
+  }, {
+    "id" : "c18a08b4-dd59-468b-a7b4-6d0d7fd4b23a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need mail address to send my query regarding my card"
+  }, {
+    "id" : "aa4f568d-1235-4990-a445-a1042023e314",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need the email address to send the details"
+  }, {
+    "id" : "c1037d01-6329-45d6-af94-b08283b510fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need your address details",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "c7426a8d-ae7a-45da-af8a-c0f05b93f5fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want the bank's mail id"
+  }, {
+    "id" : "5d02429c-74da-42a8-9546-109801455959",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Its Bob please give me another email because no one replying at live chat"
+  }, {
+    "id" : "585045bd-e554-4072-ad79-84fc27c9edf3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Or email to contact you"
+  }, {
+    "id" : "e831b90f-646f-4e2c-8c37-416ad9ab1300",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Please arrange your customer service agent to email me as i have hearing problem. Thank you."
+  }, {
+    "id" : "8ddfee17-5a29-4e63-957b-418a7f0ed509",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Please give live mail id"
+  }, {
+    "id" : "664cb3de-5d3b-4e2f-9072-86011b74e680",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the mailing address for BT",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "4d6b0925-909d-47f3-b361-fb00f05b7153",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is your contact email"
+  }, {
+    "id" : "5fa66450-480c-45b6-a883-dbe80a57e095",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Whats my Fund electronic service address (ESA)",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "bbe01a7c-6ca7-4a30-a257-5d3cd43d851c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What‚Äôs your email"
+  }, {
+    "id" : "4cd277a1-fa69-4309-aac9-a8aa4eadc958",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What‚Äôs your email I‚Äôd"
+  }, {
+    "id" : "23704ef6-f58c-4f19-9871-cef66ab5ab27",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "a contact email",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2b5373ef-5fb8-48d9-8ba4-a56f79e8cb1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "address and contract details for the fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "53f2b744-c0ab-421b-bc83-57e39c8ab0ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "address details",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "2b25c6a3-b847-490e-887f-92a5fabac6f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "address details for fund",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7130ff32-d9f3-4d9d-8a84-392cd11d8fad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "address for bt panorama",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "dae90add-40e4-462e-bf3c-9c2d6ca56585",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "address for forms",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "265cf1a3-b956-455c-a8c9-87d9ecb393e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "address of bt panorama",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "732e6d76-b2fa-422a-a732-2ee6c62d8031",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "address of bt panorama super fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cd647373-c22d-4e50-85d4-cb5a395843f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "address of bt super",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d06b99db-dd81-4e2c-938c-0099a49935ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "address of panorama super",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "12a0fd71-33ad-4a20-8587-66a43d123592",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "address of the fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d45740e6-761a-4855-ba6b-c4423fc97b4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adress to send voluntary contributions tax form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e39b5b96-c317-4eb5-82a5-b2cd23a43e87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adviser gresitration email for bt",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "43a0cd0c-f2cb-4734-93c1-3b197a2dedcf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "and the physical address for bt please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fef25b8c-4293-4d87-b433-1a78a8f1da0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asking for a bt super for life 's address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "dbd1541c-0bb1-4424-aefe-11d5e6043d83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt addredds",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "55459193-eb77-4d0a-ac98-2ae4487a95b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f8cdd6e7-c3d6-43da-b835-5715843f804a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt address?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "11840a30-2ea3-497e-b8b9-70dbe237228f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt adviser contact email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0d3d8473-79ec-4d34-bed9-8f2b82175cc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "92248b51-1382-419b-bb5f-1ed2dc066ba1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt email address",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "00a3b4c6-04e6-4bf5-b125-1c22172516f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt fund address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "864901f2-0402-4b8c-be8d-71bbea4cf5e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt life email address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7e2a043b-7f8f-4b00-a570-18673c743066",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panaroma street address please",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "b8315802-ed80-478c-a464-2c88c593a403",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama address and fund name",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9c8e0761-57f1-4cc7-979b-fd4daeed8789",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama contact details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "995a3701-291d-48d2-ab3e-6c1c7ca2c269",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama contact details for client",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "313ce5d6-e762-4705-bf97-644271bdabb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama email address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bbe0ba97-7c16-4081-b2f0-6c4628dd9ff1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama insurance postal address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "39802bc0-13cb-4f18-8a2b-fa25b7b3f15b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama investments address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1b699269-591d-44da-9fad-15f46d38ba21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama phone number",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "ff648866-fe13-47c9-8b49-0abdb81911fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama postal address",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "71db15c1-7294-45cc-adf2-9f44310fba49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super fund address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "67091777-434b-4c65-aa95-b4bcd2ea3af5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bt phone number",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "3c8edd6a-b513-4391-b1d5-7e9b5897ab16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt postal address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c4ed2c36-d772-4047-b1ff-10781e0b1aff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt postal address for a form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ae77ee7b-1c60-42c1-9a78-f93ede4e0ffe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt professional email address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5e0b9597-ffd3-41ea-9486-d80539aa19a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt select administrator superwrap pension email",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "d95d9c81-4a7a-4df1-8f29-59251fca62c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "87976bed-fe0c-47b5-9a69-f1e986085212",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d47bab53-62ce-4894-a686-042d5a9af300",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "business address for fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fb162b42-0214-4aa5-aa09-885498d8b0f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cab u ciobfurn tge oistak address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "db5c7601-ce86-45f3-a216-61b4b36ad36a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I talk to some by phone or email"
+  }, {
+    "id" : "3fdb690e-0aca-412c-bc1f-ee908a4802d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i confirm the postal address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "dec2c707-6f8f-481a-b0da-ad335a01573a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i contact bt per email",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "11c2efb7-a64a-4bbc-8e95-3e81e5be627b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email a consultant",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e14e112a-d756-449b-9b55-a60b81a63cbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email my partial withdrawal form to bt",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f647b48a-16ab-43a7-8c9f-d127d0e09d6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email my question or call to speak to someone",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "00bf4151-b3cd-4b93-bc69-28878ec6f211",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email my request",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "4690ddaf-c108-4052-aaf5-d4e198613d8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email someone",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "565caf5f-d01c-4e47-9618-29ff95ab797d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email the downsizer contribution form to you if so what is the email address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "2cba5013-80ce-4466-a0c0-23a28a1d4689",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email this to you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "37dd205e-3bf2-4d20-8bf4-4fcddcdc9630",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i get your email address ?"
+  }, {
+    "id" : "eb077296-fb24-4e85-b223-7e8d668c4ac8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have an email address to send a superannuation document",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f6ad698c-3c5f-43f7-a907-ee4272b6436e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have the street address please",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "306a2680-0535-4bce-a385-3e13ca22d58a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have your email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ed613abd-bdfb-474b-905a-b55997d41f6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i pleas have your email address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d7badf30-851a-480d-80a9-0261923bd7bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please have an email address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0773c3dd-8443-4586-8981-28119ae8269f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please have an email address to send my form notice of intent to claim",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "da8355c2-2fad-4932-8098-06b2b8fbb07b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please have an email address to send my notice of intent to claim or vary a deduction for personal super contributions thank you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "dc486147-8f5f-4606-a32d-1cedce33a9c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i send a form via epost",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "3f126a50-1224-4c5f-81c9-88d6f8ed7dbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i send an email to a consultant",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e85f0534-2327-44e9-90b5-7d79668c41a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i send an email to bt",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d5a07f65-51b3-4927-80c8-95ed80ad210d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i send an email to someone about my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "bc9000b0-58f9-422a-a13d-91086c381133",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can yopu please tell me the funds address and phone number",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "5fec4089-9e4a-4b1e-a090-45d9fc6a7684",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please assist me the address of my superannuation fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "22b2f0aa-e107-4242-92ee-f6f45986b31d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please confirm the email address for an info / adviser authority",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "ea16d84a-f51c-49ff-858e-1a57cdac28a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please supply an email address for bt panorama to send my notice of intent to claim or vary a deduction for personal super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f96642d6-84f9-4a75-8c04-30a7fa7b4332",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide an email contact address at bt super",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b04c608f-9461-4b6e-9d56-d103b4e29fbf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide email address to send an email please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f22c2e0f-6d20-4754-aeb2-78faea3b24a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me what the fund emailaddress and external id is for account 111111111, in the name of bob",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "985e12fa-145c-405d-802d-22368227cc75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "and the physical address for bt please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0cc7bba7-1da5-4f27-a4b7-8257879923d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asking for a bt super for life 's address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8b6c1009-db10-4c2c-b08e-42873bff4685",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt addredds",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "e483171a-9771-48c6-bc12-dee078f78f70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "03bf4470-7d86-4e0b-a0ae-bb50b3168b8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt address?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "4895244c-7773-4304-a21f-719c0ac28d5d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt adviser contact email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c94a2e89-137c-4187-87e1-815d6faee858",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5bde6351-469d-4bb5-a375-33e4a64fce65",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt email address",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "5624094a-2317-4b37-8796-4c9fafa949df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt fund address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "91bd5f5a-7cb3-46bf-9b99-a076ff56c3e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt life email address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d8e8d054-b093-419a-a769-c837f64a27ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panaroma street address please",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "2843438b-5def-4d67-b575-a0fadc0505df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama address and fund name",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ede9ea8a-dd06-4667-b726-41b718c8cec8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama contact details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "56c174d5-36d0-401c-a66c-a92fd0aeafd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama contact details for client",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1bcd3374-4a3a-4eeb-a280-5e167c5e8598",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama email address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1a27fdbe-2508-4670-afb1-77a57d8c52e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama insurance postal address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "25454cae-a56d-44da-9814-1f3b7b355178",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama investments address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dce46272-d4ed-4d7c-8977-34e99f544303",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama phone number",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "524b3d42-a5e1-463f-aead-744666ef40fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama postal address",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "796ff1ad-d807-4ebf-816c-7ddbc82f0281",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super fund address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1df7fe4b-77c0-4f21-be38-03b130dcb6dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bt phone number",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "bece87dd-d1c4-4a77-86e9-739b812e0ce4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt postal address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "42cab401-768d-4e13-a9f9-c470c0b51d8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt postal address for a form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "fb2d2a71-a937-4923-8168-088d966890d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt professional email address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "fa901ef4-dff4-4f63-af25-5015df46f411",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt select administrator superwrap pension email",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8cd7b181-5235-495b-9c71-71171f27eb20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "01da9a08-6144-42dc-a8f9-036cbefe1222",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f94ff715-1bad-41c0-8f56-8a9e176cddbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "business address for fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4df99625-25ec-4d40-bcd7-fe9db96a7c4b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cab u ciobfurn tge oistak address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0fea0790-0e4b-4c61-b9d5-3f403c71352a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I talk to some by phone or email"
+  }, {
+    "id" : "ece28ede-daff-469a-9efb-a7820e27be1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i confirm the postal address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "14ad7d61-5456-49ba-a886-bd72180456a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i contact bt per email",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "c59dd61b-fd0e-46e8-8d75-c93c2c7b6fe2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email a consultant",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1a2fef1c-72a8-4275-8a38-39bc13d2326e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email my partial withdrawal form to bt",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "259a8438-fee3-4e08-8d89-eae92fadd5f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email my question or call to speak to someone",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "91c842d4-a408-4389-9108-47ebc2462a7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email my request",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5900807d-c6a5-4b1a-92e9-33e5af569203",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email someone",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ef5e2297-e6e6-437d-a24d-9546e1b821cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email the downsizer contribution form to you if so what is the email address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "da7fa22d-c3db-444c-9f1c-7cfceb63eff8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email this to you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "59eed216-dba5-45b3-a2f1-4ce4d282cbdc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i get your email address ?"
+  }, {
+    "id" : "ce705468-8be7-46c6-ab67-85d738e482c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have an email address to send a superannuation document",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2efd5194-0939-43ef-8af8-e5849e7e3ccf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have the street address please",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8fd1d79a-b2db-4345-a6cf-0ff9ac33b640",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have your email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d09019f3-bd2d-44f4-852c-0a78abfb83d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i pleas have your email address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "610bdceb-7083-4361-b7f8-6566d231e15a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please have an email address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5b38c663-1bb2-4ef8-8281-c8068cb2d1fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please have an email address to send my form notice of intent to claim",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2c28f95f-d47a-48e4-912a-c2c1e62cff71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please have an email address to send my notice of intent to claim or vary a deduction for personal super contributions thank you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8867ee46-549d-46a5-b5be-510da5cd1eb9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i send a form via epost",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "97e5498e-c494-4cb3-9b93-7f017c25bc6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i send an email to a consultant",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "43f9c433-e721-4a3e-acaf-5434841d02fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i send an email to bt",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "994e5cea-b030-4a5c-9fbf-f143f2a0e657",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i send an email to someone about my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "97947bd7-53ac-4696-b4a2-2b32e44c661f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can yopu please tell me the funds address and phone number",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bf146d95-9e15-459c-bd75-c9162fed571d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please assist me the address of my superannuation fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f6eaf0ae-078e-4411-b750-cb79256a3d4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please confirm the email address for an info / adviser authority",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "5d7a2937-7b16-4e94-b0bc-fbfa1edd8370",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please supply an email address for bt panorama to send my notice of intent to claim or vary a deduction for personal super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ca5a6c1b-116e-48de-b300-6e91f712a047",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide an email contact address at bt super",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d7441f39-93a6-46a1-936f-f403677d2535",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide email address to send an email please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "02263a16-12ec-4b93-9200-371b828c49f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me what the fund emailaddress and external id is for account 111111111, in the name of bob",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "e0099950-b302-4332-8b84-2eb1e70f8739",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "and the physical address for bt please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "770d1182-66fb-49c0-9432-b781aefdab9c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asking for a bt super for life 's address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4e47c50f-115e-495c-afaa-f22235884a97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt addredds",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "47c7a5ae-56c4-4b41-92cf-34238f67db88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8466fe5a-b702-4e2b-87a7-b0bf1c17a6fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt address?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "0ea0a63f-9fc7-4c81-a53e-c7704521eeb0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt adviser contact email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4bcebe63-0496-4248-846d-b58a2e0d9c87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e4371077-5d47-4572-a886-fd13486e1423",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt email address",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "083fd658-5b49-4eb8-b781-04caf60b3bfd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt fund address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ac58568b-a0c3-4870-875a-e095d4100a6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt life email address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c544535f-0e4b-4f56-b14b-6a13fb2e23c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panaroma street address please",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "77fe16ed-fcd6-4086-acf5-b62249fc3581",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama address and fund name",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "365cb2e6-6c0e-4aa9-861a-2f166fbc6ac1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama contact details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5627f87e-7737-4211-b7b5-0310c11e6ef5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama contact details for client",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b5fcade8-bc91-455f-afa3-a92751907d78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama email address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f98aa5d3-f7c8-4658-93f0-12c2664a0322",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama insurance postal address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "63575193-c42b-44d2-901d-cf74f1d815d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama investments address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4f31fd83-9387-4efd-b339-03689d0ec39a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama phone number",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "f063ae09-d387-43ac-87ac-508382e421cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama postal address",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "c93ab017-133f-4b2a-b2bb-dfee8515876e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama super fund address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0d33ae21-c717-421b-8cc6-ff4b8e69d055",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bt phone number",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "ba0940ba-e7ee-46c9-b644-e2ffea4e3381",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt postal address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2395e97e-eb7e-4349-b6d9-647a2c81c39a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt postal address for a form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e655dcb9-e79e-4532-8022-299dc0f732f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt professional email address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2a62f8b6-f793-46af-904c-86dad79d01ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt select administrator superwrap pension email",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "068c5ad7-8d55-4fe4-8744-ee9f81728ccd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4f06d4f0-28dd-44ef-b20c-3f84b8e385bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cd9090e3-7f8b-4c57-83ad-2de965b0adf1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "business address for fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "881309e0-b689-4eea-af81-0d2eb731c1a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cab u ciobfurn tge oistak address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "03d865a5-3753-47d8-9abc-c60531553606",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I talk to some by phone or email"
+  }, {
+    "id" : "4ccb120c-9e33-4bd8-b8fe-35f5dd6efe16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i confirm the postal address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "60387f4c-5485-47ad-87c1-a90adef225db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i contact bt per email",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "f3729e17-465d-4bd7-9f4e-2656ce14094a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email a consultant",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a825934b-b06e-4bc6-8ace-13ebe31faf84",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email my partial withdrawal form to bt",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "63ca10ae-48c8-4a79-b998-16880088a9d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email my question or call to speak to someone",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7a63dbf2-2326-4815-81ed-bf7f4a82bba9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email my request",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "97706c40-5caf-4f17-a8b8-70b16427d2f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email someone",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3967de10-c91f-4181-8a12-96fae03fd5b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email the downsizer contribution form to you if so what is the email address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "5f69ba1f-4682-4305-9cc4-927b4baa48b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i email this to you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0641a4d4-46f8-4e7d-820c-70d079a3a9b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i get your email address ?"
+  }, {
+    "id" : "66e1b7d2-8edd-47d8-8905-401d864353e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have an email address to send a superannuation document",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "81039aaf-0adb-48e5-afff-c4cf82613509",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have the street address please",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "6a73ee5d-e790-4b8e-bab9-e9bf301e8926",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have your email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e4711464-da3d-4fd5-8621-b514902e3c9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i pleas have your email address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "4deb54e5-2271-4f15-a742-4cec56c7593f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please have an email address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "574c6707-ce2f-4344-ad1b-3f3d569fd350",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please have an email address to send my form notice of intent to claim",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1621fd3c-69ca-4334-bd5e-431a68eae63e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please have an email address to send my notice of intent to claim or vary a deduction for personal super contributions thank you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "00be1a98-3a85-4e5d-b7a1-b3d180b22467",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i send a form via epost",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "2c3e3de4-36f5-49f6-999d-7f1612e747c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i send an email to a consultant",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c5dc08b8-3f63-483d-a672-53db9e0274fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i send an email to bt",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "013d6eba-1a18-4330-9de2-b97ce2c5c441",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i send an email to someone about my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d78bb75d-d584-4d14-b7f7-16aa1287e68f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can yopu please tell me the funds address and phone number",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bef804f1-062d-4b0b-9071-d7c3fc7d4c08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please assist me the address of my superannuation fund",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a81a76c8-4566-4f20-b5d4-6279e78c8e9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please confirm the email address for an info / adviser authority",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "a1ca4b63-f0f9-4130-a6d7-c04b9f5a4bc8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please supply an email address for bt panorama to send my notice of intent to claim or vary a deduction for personal super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1e46df7c-11c0-48f6-bd72-e2af2b97801d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide an email contact address at bt super",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c1389b12-30ad-4f29-ac80-7d419ad84a89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you provide email address to send an email please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "51073129-7bd3-4ded-bcc2-ed43f52e044c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me what the fund emailaddress and external id is for account 111111111, in the name of bob",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "fef34f35-f1ce-4703-8bf3-ebd14e386741",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "confirm email address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "17ca9803-6759-422c-8763-14514509d7f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact email",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "acd80402-0cdf-4c63-8b91-ba0aa6184915",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact email address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a61c5027-6bda-42a5-8edd-d8e57b4d0949",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact email and phone",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c5b173ee-7f66-4af5-9d3b-d6b6c9f48250",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact email for bt super",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "92e383ba-657f-4ff2-8c22-d11cd10195a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact infromation",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "847bc942-502d-4ea4-8345-825960bbb80d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact name contact number and fund 's postal adress",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bce82020-ad6f-4f36-a2e6-e78dffe0ac6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact number and address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5b95af15-e0de-48e0-b99f-fb95fe80def0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact via email",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "da4ba2a0-7efa-4f11-8aa6-01f33b4acf23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could you send your address details in sydney office",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3e01ea40-09d1-4e03-80ee-ec06f4902d84",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have an email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "944d00d4-2f75-4bad-a8b3-90e5daeaa8bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have an email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "aaef6424-b700-4bcb-a2f8-4d916d88504b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have an email address you can send super related requests to",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a9ffea85-1ee8-459f-974a-2e7bc4feb67b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do you know the mail id for support?"
+  }, {
+    "id" : "cdd4b872-1b9d-48be-a0d9-fc17370b8da1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you require orignal forms to be posted",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "886c0080-80d1-4aca-8436-83ed6e1a68da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does bt support the ability to email a consultant",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "563e1526-5546-460b-b6c6-a17ec280a096",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "email",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "13c242b1-caa2-4a38-b570-700c1a8c8669",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "email ?",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "986d396b-590b-4edd-9d58-65775b11b33c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email a consultant",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "dbedb566-d171-4766-b536-685c3049544a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email addres",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e6bd78e2-6279-44cf-aea0-f252d2dc074c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for account closure forms",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "77b93674-b3c2-4109-94f7-52f9154bfa9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for assets transfer team",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "339a1e07-95ee-4621-8a72-d06492429b4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for bt",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e06123c1-dfe3-4019-804e-25fdc95274d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for bt customer service",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b403a4cc-ce16-4e68-b9fd-7e6c6f88f04d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for client services",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "d006073b-29c4-40f3-be53-322f2deaa8d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for contact",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "12a3d075-5081-4b00-b752-c0694eed988a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for forms",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "20bce3f9-eb94-46cd-9633-e174f259a319",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for insurance",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "738fd29a-325a-438d-aac9-10f4afd19f61",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address for your asset transfer",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d86440e3-89fc-45a6-84b8-68bc9b5080fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address pleas",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "51fa1efa-1e7b-491c-adb9-8032fb8ed2e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c7863c40-7d50-4e5f-99a1-8ea035f21023",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address to claim super",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3d5dd3ba-17be-4f48-bc9f-7ae2288276f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address to send advice fee consent form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9ca3db37-21a6-41bc-8ba4-ad48df8d5bdb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address to send forms",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "465250fd-4365-45ab-9afb-d35a42b487e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email address to send super forms",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9b18349a-6540-4b4e-8680-fc815d7b915a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email adress for manual fee form",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "14bad326-2eb9-48b0-9666-1ff6b32e72d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email an agent",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "26b48884-e391-4c53-b76c-01cce379b6d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email bt panorama",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "adac9cdb-f0ce-4cae-9479-892c4f04d8b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email contact",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ed97c8df-262b-452f-b49a-f9849b2c8709",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email contact address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7eee7e3e-d0b7-4323-b0d2-b23c79d9ae30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email contact address please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f1e40319-f02a-437f-8228-2a4a3f57ece0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email contact details",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7ed974bf-065b-4a85-9f29-7f86c1478faa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email contact for bt panorama",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "8d6e8ff8-64d4-4888-ba35-3f1855d562ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email contacts",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8f750bbb-7d23-4e30-a5cf-db578bffc57d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "email customer care"
+  }, {
+    "id" : "077cbaa3-623e-42b6-926e-6d7b158de7c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email documents",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a4788e2c-05a4-4565-8ccb-e664e692c5eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email for bt technical team please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "32edd285-0a29-4e20-b273-16e0d050dccc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email for contact",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9cc5158a-b5d8-4e40-bad9-6a5d3e90db26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email me a contact who can answer my question"
+  }, {
+    "id" : "97c410a2-b763-43bf-8361-e25e9d408930",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email panorama",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f5048e51-179a-48b7-8409-7a5dde5f92a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email partial withdrawal form to bt",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5c9b33b2-723a-4f76-bc57-ca6f4c473066",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email question",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a14f1e39-1047-4335-823d-a983c3da684f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "email statement",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "57f7385d-9cc7-45ca-8b3a-48df51d055dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "email support",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "2f8b6d08-9428-40a9-8eea-59d42d9a04c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email to contact",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c451a760-12ff-4111-8c8e-24eb95c06a3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email to send account closure forms to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9c269acf-b2b0-448e-8b34-2e3a070cccab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email to send notice of intent",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "812381bf-ba43-4a1f-a2ca-d3da6eda4033",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email to send papers",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "686d95cb-5d07-4229-9cfa-471af60c6a63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "enquires email",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "422447ae-8517-4ad6-8a9d-38cd3040eede",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e87de00b-d6e6-4542-bbb3-0e05b786a37d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund address and phone number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8166e338-378d-409f-89e5-45fd56dba002",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund address for employer and phone number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "73110cad-92a9-4e2d-a191-1d026c0ea6a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund address for standard choice form",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "b12d45ef-3eff-4c0d-9349-9fd0a1742bb0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund address fund phone",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b263afdc-8a46-4e7d-b00e-ece1c5015551",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund electronic service address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6047525e-9f99-49a7-af01-1bfb68b4586a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d75ec290-1dd7-4489-b8fd-cc4da3e1b83e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund name, address, abn, unique superannuation identifier (usi) & member client identifier.",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "f239885e-90ac-4539-bad9-b4c218071895",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "funds address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9cd9c6bb-a72d-4e82-a5ba-1566c29748ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "g'day, i am trying to roll over funds into bt, just having a little difficulty finding the usi and address",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "4a988918-8d36-4fcb-987b-1c6e2ba01b2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "general email enquires",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a2eedde6-a447-49a5-af30-4527195ee93e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "give me a contact email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2a9ad0c2-2d90-4959-9c58-9376d5bf8e1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good day - i need the fund address to give it to employer. how do i get it?",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "b4bfa472-fcad-4619-95be-970512328d3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning i have three rd party authorities to sent to bt panorama please can you confirm best email address to send to thank you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fc281a50-13a6-4a0d-8f15-ae86760ae377",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "gpo box",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "3f775acc-911b-46cd-9313-12d4e9799387",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have found but want to email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5438a0c0-2159-4d4a-b8fe-71149b2052ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have you got a email address so i can send a form back to you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0c03380b-0b69-47f8-a91e-adac6a240320",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello can i have an email address please i have a complicated query which i would like your response in writing",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "5fb0bd75-b75f-4d82-98bc-28329cee7172",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello can you please advise how to upload fee disclosure statement",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2b4e4e43-95c6-4318-8443-af4cdc43f729",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am filling out a form for my new employer and need your adress",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "03e8c733-647c-4e04-8652-c934164782f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello what is the best email to get in touch with panorama support an account application has failed on it",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "4c119b17-6f30-4c25-a320-10d166ab2e3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ec680f2c-26ce-4615-9271-82c7bc7dd9ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey what is the fund electronic service address, bsb code & account number for bt",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "f3e74de1-41ff-4507-befc-70d98f87f78c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue i am looking to lodge a signed and completed application form for a new investment acccount for a smsf can you instruct how",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "32c99e7b-3b3c-4e0d-9cc3-d84f142b6b13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i please have a ph number to ring you guys from new zealand",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "cc98931a-fea1-45ad-bf97-9564912b4375",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can partial rollover form be sent via email",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f895f194-2ed8-4abc-a0a8-786af741c243",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi do you require the original investment account closure form to be posted",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ddd15997-3dcf-40e0-a101-6875bf15ca91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi email address to send insurance cancellation request please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2982b721-5269-4516-b989-51c46b4f1adf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi for two days i have not had my phone calls returned when i have pressed 1 and entered the que also my email of",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9ac87d76-d260-408e-9506-dfe1915381ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am downloading the forms for my withdrawal once filled and signed can i send them back by email",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f4df9024-8ddd-4f89-a92a-9e630fc0d2d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am filling out employment forms and need to add pt panorama address what is your address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b43c027c-1389-4d8c-86cb-840e83a18802",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am starting a new job and filling out my super details - what is the address for panorama super",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "2ac27188-3ddc-4ffe-b2c7-ebfbc170a9ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i call this number you told me 1111 - 111 - 111 it says invalid i am calling from new zealand christchurch",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9291906a-dbec-4db9-b3b9-09e61688d80f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i cancelled my term life policy via email to bt 1 feb and bt are still taking premimums can you help please",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "dd3fe022-e8a0-4e81-a870-25297d8fd72f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have an intent to claim decuction for personal super contribution form who do i send it to",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0e96f710-0331-4281-9470-c59906c8eb0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have filled out partial withdrawal forms and need an email address to send to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7a68aab6-e6a4-49f4-a9f3-028f96dc838d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need an address please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "093a6548-1cc9-4088-943d-772abeae669e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need ato to contact you what is the best email address",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "f32e421a-827c-413c-93a0-1d83e04369a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi i need to fill in a form for my employer - where do i find bt address and phone number please",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "95f69174-6113-4ecd-b5eb-f1f5915b9556",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i never received my email with the form for ‚Äúimportant notice new unique super identifier details‚Äù",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "55718540-84ee-4b26-ad58-193761c5dfef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to know fund address and fund phone",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a7844154-12f4-4cd6-9e43-2db7ddc349f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i was wondering for formality what is the address of my fund bt super for the purposes of completing my superannuation standard choice form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "810d40fc-6a23-4c7a-95c1-d328f7fdf4f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i'm trying to find an address for bt super for life",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "15fb5781-fe1b-4d58-9605-5cf1a3d23b68",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi may i know bt panorama 's address and phone number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "567f3b8d-90c2-4772-a7c5-0e07a30f5a58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi may i know the email id please"
+  }, {
+    "id" : "83616410-252e-40f9-8407-ff61a69677a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi no i specified i would like it in writing as it 's complicated please give me an email address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f7fb201e-bba4-4fee-9c77-7cc83f130e8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team please confirm we are posting the in-specie transfer form to bt panorama gpo box 1111 adelaide sa 1111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "70107ec2-e9c9-492f-a381-eb42644e1019",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i am trying to send signed a three rd party auhtority for bt can you provide me the email address on where i",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "67f82b06-7bc2-4e0d-8c83-1759694debe5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i need the fund address for bt super cheers",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "add2802b-8703-4cb2-83f0-3cc65024d619",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there what email address do i send my my deduction form to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f8650cb6-90b6-4506-9ceb-e14db02ccc79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what bt'a address to send super rollover form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2d43468f-5b31-4d23-bd80-d0a871702559",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is the address for bt",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "66ca74cc-85c5-4c7c-94d5-100f8c6a3319",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is your mailing address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8c2eae13-13f0-4239-808d-3cbb92da5815",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi which address must i send the notice of intent to claim personal super contributions form to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c7b78e85-f9a3-4f38-a2ae-060785243d55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi which is the best email address to contact regarding adviser fees",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0d9f9b18-c2b3-493b-947b-b39eaf75fd45",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi, i need to provide my super details to my new employer. is the address for the fund 111, tower two international towers, barangaroo ave",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "870c7ff7-5f00-4281-8261-11657ae76f0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi, which address that i shall send my request of roll over myf bt super into my self managed super fund ?",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "76cddb62-226c-4fd0-ad87-58a4e1d9a62b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ho do i submit it once completed",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "36268346-da7a-45e0-a553-eb4b1d6c4583",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i email a form to bt super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "55a7b7a6-c535-4c98-8dfb-701850724409",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i email you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "01101b78-f6a9-4735-ae2f-d5526d85566c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i find the address for bt panorama",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "cbde3934-2c65-4702-b8d7-6d4c3d4cf5fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i send an email to the support department?"
+  }, {
+    "id" : "13de194e-b6e1-4a04-a30f-929688422fe5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i contact bt panorama via email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e86deccd-e846-4bc4-8d21-f08f898e647a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i email panorama",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "338f991e-4839-4bce-beb1-2f0f6b38b711",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i email you",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "c7b853de-2867-4a24-b5e4-e12ba24a1e0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find bt super electronic services address",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "edc2cb63-55be-4000-b194-ab1ef2315d75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i lodge documents",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d7c17466-8fc0-4aa8-9d59-4b9d411bc3c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i send my request",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "935f431d-dcf5-4422-ab34-25821e4121a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i submit a partial withdrawal document once i have completed it",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fa9c2090-047c-4b0e-8893-e25d610505d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i upload aml",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "9f418d1b-6347-4334-9134-6aa62296fdce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you provide paperwork",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "977f00cf-4e3f-4491-b4c4-ad46b24e8939",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how i can contact you by phone or email"
+  }, {
+    "id" : "8035d0ed-4bb1-444c-99f8-355fc56fa68a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how i can get the bt super fund address",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "f61bb571-69bd-4102-ae65-544e00112e7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to email notice of intent",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "41c065d9-04df-4ab1-9de0-a317a80f6387",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to upload form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3034ae2d-3768-4ba4-8d9d-e3962158a2d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to upload transfer form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4d4038d7-0a22-4409-88a6-fa4c506609d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am after the street address to complete a transfer form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "60c0242f-98d6-4380-8521-316e9e5d3f08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am in europe can i contact you via email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2cc1c1c1-8dab-4ed2-ab8e-6fa29c42db1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am in the eu not australia and need an international number or email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9847163e-fe53-466e-a355-924fb63dfe0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for the fund address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b274a8f0-77f1-4f16-88aa-fe03f8dd084d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for the physical address for bt panorama",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9a26d822-a906-4c1b-b193-eecbd41432ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am overseas and need to contact bt by email or mail please provide contact details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "271badb7-28da-45ea-8fdd-03b0c611dcb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to get bt panorama investments address for tax purposes please advise",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6eee9e21-aa45-48ce-affa-c9816263c029",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not understand what 's happening and need some urgent help my mobile number is +11 11 111 1111 or my email is XXX@XXXXX.XXX",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "0d372b23-242a-47fb-9d85-b3228378a436",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a new employer. i need to provide my super fund details. could you please advise bt super fund address",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "05392e22-f12c-4e6a-ad8d-95d08497589e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have approval from ato for release of funds due to compassionate reasons. i don't know the email address i need to forward the paperwork to. my operation is 11th april.",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "14bd51a5-6e5f-4c9c-9186-752e4fedade8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have started a new job and am filling in the super choice form but cannot find bt panorama super phone number and address when",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "27f319cb-16a7-4ee4-a347-a3053ed76fce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have to fill in a document i am asked for panorama super 's address and telephone number can you give me this information",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5549d58a-a519-426c-9762-616bc7a8a65d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i just need to attach and email the signed form to you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "75727f4c-af9e-4c40-93e5-05594d0cb7de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a street address for bt panorama",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "49f30215-b8b1-4012-b947-85ca8cb25631",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need address of bt panorama",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fef7dfbc-0cde-4572-8b13-b9c3e50c6bd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need an email address to contact bt",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "cd61ee46-0d78-42ca-8c1f-9ae8a05e1f7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need bt fund address",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "5dbac724-98fc-4def-b643-009012a1f16c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need email address of bt super fund team",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "efafe61b-cc66-4d9d-bdba-74d55df60915",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need fund address",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "004a86af-13fb-4bd5-837c-5810bbf33f1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need fund address for paper work for new job. where can i find these details?",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "5da59a79-326f-41ba-bdf0-360566d3562f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need sf day time number and email add",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c2561e5a-ef8d-4731-81ff-1cb640fd8939",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the address of panorama super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2cbc0821-16ac-4002-80dd-7497059fb915",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to email a request for closure form what email address do i email it to",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "66e425b1-c1e8-45c3-ae56-416ae18d23af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to email panorama",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a03e9347-f972-4bfd-bd63-48b6e66af282",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to email through an intent to claim tax deduction form can you advise best email to send too",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c1d45f0b-0944-47e1-9044-66acb2d12541",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need to email to you"
+  }, {
+    "id" : "fb8914b9-a861-48f6-a113-e20ce52c66bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to find fund name, address, phone number, abn required for new job pleases",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "99203851-26c7-4776-a118-36210f359e54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to send a form to bt super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "66573170-3ad3-414e-a1a0-896fbc5824bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to send forms",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "33316812-fea4-4815-bf85-76829b6173c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to talk to someone about an email i have received",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "794ff50e-1f40-4af2-8f0b-ebbfd8eb9aae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need transfer $1111 from my bt super fund account to my bt panorama super fund account, may i have a bt super fund team email address so that i can send my request form to bt super fund team?",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "8109541f-cf8d-4d26-b741-71cd7549557d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i require fund address and phone number",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "e7dcb4ba-e726-46e5-a107-58e75bd61ed4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to email someone",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "dd24c7ff-785a-4138-a533-5cbad863c103",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to know the fund address",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "9bf4c324-a92e-4d2b-8ba3-a8ffc022874a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to sent a E-mail to bank, how?"
+  }, {
+    "id" : "1d4d23a4-ebd8-4f25-bc35-73130e8a44ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like the street address for bt panorama to courier a document to",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a82dcbf5-6ca1-4867-973b-93ff0043ebbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to make a deposit into my superfund via cheque, which address do i sent this to?",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "21f2aed7-cb51-4c79-b37b-f5d87977945e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to send an email as well"
+  }, {
+    "id" : "33f20297-ea9d-44e0-aa25-c29b417778c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would need fund email address please",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7acee945-f274-4d7d-87b6-ecda839685c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im rolling super into panorama. can you provide the funds postal address please.",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "f2706f5f-92d2-4398-a540-54769021a321",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "international address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "53fe025f-a01c-4644-8280-60d8ad84ab27",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a contact email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "26f5135c-ef5a-46bc-a060-12599b74a376",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a email address i could send my request to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f1d57063-cb8b-4113-8546-5a5d405c7caf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there an bt email address i can use to communicate with",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "73450a3d-928f-40a4-b2cf-02c5c28a028c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there an email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1590f38f-3716-49a5-add4-30b615859fa4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there an email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "894d5787-c2a5-4cea-9154-43387deac592",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there an email address where i can send the forms",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8ba76125-a715-4bd3-b2cf-4a72511fc514",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there an email to please contact so i can get access to my superannuation asap",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "bc7ef681-6c45-4fa6-ba90-38b7b07f764e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "just checking what email address to send the personal tax deduction notice of intent to claim form to",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "865a89cb-7b48-43b3-97a0-dcfe2bbb1e7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking for email adress to send notice of intent to claimdeduction for personel super contributions",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f8ec44b2-2ff4-4965-9332-09b9eebeeb6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "mailing address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f26f9b96-10be-4928-924f-996fb0dce528",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "mailing address for BT",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "63fd6bb1-77b0-41be-9407-e42ba3a067dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "may we know the best email address to send the bt panorama third-party authority",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "0943adbc-c4dd-47a5-a1f1-719aebab018a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "must i close account by mail",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "7164e70c-6040-4a0e-8942-f2efdc214aea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need a contact email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9b9db338-c9c7-413b-bd92-135bef135df7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need address of the fund",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "88a05a1d-3f74-4757-8f98-452a6ffef406",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need an email address to submit annuity maturity instructions",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f9e389c1-0107-46c6-b11f-082e44f05f9c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need customer care email id",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ad49f7da-f7f0-4775-a878-5cd4c5dff577",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "need email address of liv"
+  }, {
+    "id" : "c466e781-52f3-4d4a-963d-d6e0201979a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "37d18f1d-a1ce-44aa-8f67-7306756b3c92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to send email",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "3b84806e-615f-4be5-80a8-488189f0c306",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i have asked in a fairly staraghtforward way i need an email address to send some reports"
+  }, {
+    "id" : "c3520799-581c-454b-a148-766e2c308adb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i need your address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f5dea7f4-9ed7-4730-a301-aeb1fea06ddf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no option to have this chat emailed ti me"
+  }, {
+    "id" : "e085b490-37ac-4d36-86e6-f5c82040023c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no we are after bt panorama 's email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "33664105-2987-4205-934e-8cf02f3b57ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "notice of intent email",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8050b7cc-44e3-4cc7-ae5e-0f2661b1d2a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ok so i have filled it in printed and signed do i scan and send where mail where or what a",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1415f3e0-f512-4627-a222-1f5acdbb8c53",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "overseas number",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6d62e118-3f80-4e86-899d-355119d7918e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama conact",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1ddc285c-5c48-402b-99f7-d00047b0fda7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama email",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "fdb480ee-351a-4417-9ea4-1caa1e0c504c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "12cc4f14-a0d2-42c3-9336-05511346121c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama email please",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7f6cd483-7b33-4600-870b-b5153bd70277",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama fund address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c559d7ae-22da-4f91-abde-2cb37c3e5900",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama po box",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c2876d9e-6d79-4031-808e-6ff718cc5c42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama postal address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "60781a87-f660-456f-8815-7babcd12494c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama support email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c98a60b9-7937-46d8-a587-1e430c137162",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panrama mailing address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "17c628ba-b0a6-4b0c-809d-b5651c5ca2b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "physical fund address for registration",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "dbea34b1-1b01-4ac8-9a1a-1a8fa6c8fe24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please could i have my super fund full address i need to give it to my employer",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1e6f9969-8d2c-4d1f-b389-a7ee983614dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please could i have the postal address for my super fund my employer is requesting this",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e98422ed-92ab-4b83-91a4-b39ef31806ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please provide contact number i can call",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8e1c7067-7cd5-469e-8703-371dd76a63a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please provide super fund address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8cc1f611-4515-4711-b8d2-d9f6a4853f6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please supply email address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "51cc85cd-670e-4e91-862c-5caca2c7e897",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "post",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cb2da0c5-6a0f-488c-b6e4-8b2160be7d48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "post address",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "4de95988-1db3-4d64-8962-4ac7b9d3a829",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "postal",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "fa282b72-ce76-41b6-9015-8642f6711ead",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "postal addre1ss",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "71674e7e-14db-4d0d-8bf4-e340ba0d156e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "postal address",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "6a3c9f24-bba2-4cf1-aa6f-1d52d960d7d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "postal address details",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "9c1b9d2f-c694-4acc-80db-72ee6c1a235c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "postal address for cheque deposit",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "44b3b19e-66be-49e8-91ad-8333a0faf694",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "postal address for cheques",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "921e9b17-3902-4d20-8dce-1e8f7bfecb3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "postal address for fund",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "36eb7325-4f7a-4fc4-b65b-82195dfda9aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "postal address for sending id",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e732dec4-6bf7-45e3-8206-8243a69d9811",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "postcode",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "cf13caed-7be5-4a91-9ad5-4bd9fb280c33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "send bt email",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "96633816-edec-4a7f-8c39-75959046d604",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "send email to bt panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c49ab746-5cc0-4f81-8add-fdea842e7e91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "send email to panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bb11ac28-7833-403a-979c-c2c355f60e6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "send form via email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "deecb157-fe24-4d1a-b167-4b1aea637110",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "send me email address for contact"
+  }, {
+    "id" : "2beedc58-6a46-451b-81e7-73c20f5481d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry what 's the postal address for bob",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6aeb6f9a-dc7d-4799-b005-fb1caba09772",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "street address",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "8b4c33a2-e19c-473a-9945-748d071d6f3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "streetm address for bt panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "66331d86-21d1-4a14-bdc5-371c1837b0f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "32fff636-765d-4301-8d2b-e8f62154c2d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "superfund address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d0d5254d-327d-4a1e-b9d6-8973e710c2ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "support email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "03f63666-7214-40a0-b3f6-cdf9cf9c8b86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thats not working i need an email address for this",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d07054a8-1517-481b-ab7f-a91d5986156f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the client is not currently in australia can they email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "43efd0b4-f541-41ae-9ec0-53fd792aa02c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the po box address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "68a76ca7-3a41-4219-be21-9374c44a4139",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there has to be an email address i could communicate with",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a803854a-db01-4a01-a44a-d4add5a89d22",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "to whom shall i send the email"
+  }, {
+    "id" : "aa48db43-3012-49fd-9fc6-b2a2964bb49e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view contact number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d904e79a-d314-4633-9691-4726361b2bdb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "were do i send my intent to claim form",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "db4722b5-c06b-44c3-8e67-f30d7ece4976",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's by super address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "cd02d163-3925-436d-91b6-01928d7472cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's suburb in sydney for bt panorama super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9428c134-b62a-4d8d-aae6-995fcf608b3b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the address bt super in sydney",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "322fb758-c430-425a-8631-03fc74df0a54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the email address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4a7e9424-5e2e-494a-b41a-1cc0e1f620c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the find address and phone number please so i can fill out my nomination form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8cfe1013-e892-486f-b38b-1bd0ef428077",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the fund address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a4e79c48-e05a-42f0-a831-6a0b7bae17c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's your email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c690b290-6ae9-4982-96c3-59ef7e59b444",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what about address and contact number?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "bddf3738-89fc-4247-9939-872d172c990e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what about email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "562e98c0-42e5-4290-b791-9ff85fb9e840",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what address and phone number of bt super should i provide them with",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "348d7870-86dc-4e35-9fc4-64a41fe33f40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what address do we send cheques to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "22c56953-f470-430e-a72f-e4a06b2d3cf1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what address should i put it down",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2406b351-d951-4559-95ed-1d7b340149b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are panorama mailing address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f32aebab-64a9-4f23-bb1b-3b533470bf6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "thats not working i need an email address for this",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "11c6368e-b13a-47c6-8f14-ca04661d6654",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the client is not currently in australia can they email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "68a24bc4-e026-45a3-a065-9254f9b71117",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the po box address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a61fcea6-0d48-45e1-a0c8-9f6f75deedf7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there has to be an email address i could communicate with",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ef0e80b2-eaf3-4995-b1e2-d6f89dcad6b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "to whom shall i send the email"
+  }, {
+    "id" : "bfa74e76-bc53-4e5d-af4f-ea921f8904bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view contact number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "811884e5-9b25-45a1-be7b-22d156e00947",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "were do i send my intent to claim form",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "70d3672d-ca56-4d10-9a08-ba326876b76b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's by super address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b05091ab-7928-4873-9ae6-4a3d5f779ad9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's suburb in sydney for bt panorama super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d1e6842c-4d2f-4e8b-bd21-7afbf7d914eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the address bt super in sydney",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "103d6de6-4153-48ff-a601-9fa07ede6f52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the email address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0188790e-b8db-465a-9e66-23c4313bcd71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the find address and phone number please so i can fill out my nomination form",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f131dcf5-4768-4d0c-af60-97406bf2fd0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the fund address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "06025fae-acbc-40dd-9f81-461f430b0c98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's your email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2ce56a20-dc16-48f6-8677-6239f0cd8049",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what about address and contact number?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "123b5ed2-13cf-4e4f-811b-52a7f492b3d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what about email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "eecd54bf-d9fe-43cb-91cf-d8cb87d1b5be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what address and phone number of bt super should i provide them with",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a9d64710-c961-4e96-89ac-e3924c8bb6e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what address do we send cheques to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8ef67e93-925d-4900-9bd4-f906ea4cd167",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what address should i put it down",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "91ea8f95-78fb-48ab-99d1-c0daf60f69f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are panorama mailing address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "5e82bc3a-8e34-437b-940b-4934ced05fcc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "31eb5dcc-8a6e-45ad-a836-ad352843792e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what email address can i send a three rd party authority to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3c7c4fbc-9d1d-4bed-9026-2fae73088ac6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what email can i send a signed advice fee form to",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "055b377b-f857-4285-b567-ac6ec286639b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what email do i send an investment account closure form to",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6a07ffb1-2995-4741-9bc1-c101f8a8c560",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what email to submit a signed fee consent form",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "4ec73005-07de-4571-a105-933129f4deee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what email would be best to give a client who is experiencing it issues",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ee1e4a83-d1bb-4c17-9536-934da48d76b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is an email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "79e65f51-5731-40f9-930c-b266e4645494",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt bob number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "cfb7862d-ecc2-4d8d-b33f-c3dc9c0e7f1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt customer service email address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "4078a2b7-a463-4e0a-9912-0791b4d3e5be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "417f9b77-90ac-408a-b610-942791def04d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt panorama 's email address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bf746a8b-5844-487e-b89c-fa23b4c8aa11",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt panorama address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8654840a-a622-49f0-940c-fe9cf16d3bce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt panorama email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3fb709ff-8a28-45e5-abfd-f282be117ca0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt panorama street address we need it for an smsf rollover please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "da67a8c3-31bd-4335-9eab-4e5da849595e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt super email address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "6127a39c-eede-4372-bfb2-0ab5851bbc83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt super fund address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fa2fcd32-97c1-44f0-abcb-9117b041cffd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt's address",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "f39c9b6d-28c6-4dae-b20a-1bae67a8f817",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt's address?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "7e8a5897-cecc-4e9d-a0e5-c5732763e4d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is bts address",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "0da04b70-5253-41d7-99ac-1b767a2c6c28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is fund address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3ca7e9b8-330f-4893-91ab-269bf9fdc45d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my find address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0246e220-5175-48c8-aa90-96f89bb3a903",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my fund address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4a2bdf05-49a1-43de-9fa7-9d6bb1600a8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my funds phone number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5bd49847-9b64-40ed-b4e3-798aeb16efb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is panorama 's postal address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7436cba2-b54a-408d-8332-36ec054324aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is panorama contact phone detail",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "812b5799-dfa0-4d92-a1bc-f7002c1aeffa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is panorama super address",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "8b960a4b-6be5-42f3-9edd-21fd321d8a61",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is panorama super fund address and fund phone number",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7fbefca3-e120-428e-82eb-b39c3a7bdd44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is panorama super phone number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b0408ace-ab95-496e-9ac8-f406c4694741",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is panorama superannuation address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d9429b4f-0a26-4bd2-a7a5-5d7546a4e88d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is panorama supers address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0d8eb4a2-8e75-4ae5-97e7-7662b8a21202",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is postal address for bt panorama",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3bd126f9-714a-41dc-a30e-c339648a8556",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the address and contact number for by super for life",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "c8dd332b-1d48-479b-ae75-5ef7066538cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the address for bt panorama super",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f31e70fd-2c0c-491b-b2e2-3b325b76c1b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the address for bt super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "31e2b4b8-ef07-45c4-b2f0-6f8320a2fc97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the address for panorama super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6c972e5c-6d27-4244-80f8-b60d8cc5fbb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the address for panorama super?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "5f2823e1-32fe-486b-9b9a-ec7bd192a187",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the address i send the form to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "480e63c3-607d-494c-8b66-2611ec98d7e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the address of bt",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "51db146f-8c9e-4d84-9f4c-033856a75ed4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the address of bt panorama super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "46d8522c-c347-42b0-af14-4f4da8fb2546",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the address to post a cheque deposit",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "392bc7ca-2565-4b36-a028-fa550b7f8def",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the admin email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "56a10da1-c593-4451-bbba-1ea024ce7a2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the best contact email for bt panorama",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1be121e2-eff5-404d-8c6d-3d3a8899edb8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the best email address for support",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1261a272-a5a2-4fcd-85e5-21e5cfb6fbdf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the best email to send authority to access information forms",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ab788dba-6086-4894-9e90-9bc096ea7d9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the bet super address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "35973954-4178-4689-9a63-699238a80786",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the branch or suburb that for bt to put on direct debit forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "70bf02aa-4885-4ada-b8bd-097ab4562776",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the bt panorama fund address and phone",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a7e68991-beaa-41ca-be19-11b0d06464ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the contact number and postal address for bt",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "815091e7-2ffc-47ee-8f6c-849925d21678",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the email address",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "cb285035-4af6-49b7-a959-e314b23f7597",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the email address for bt",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "65156a53-df19-4964-8af1-dd88c4cb455e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the email address of bt estates management team",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2dfb394d-8170-44aa-a499-52a0ba5b7846",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the email address to send a completed form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "313019f9-12ff-4270-9cdb-e1e6125ff89b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the email for technical support",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5fd0e36f-5f25-4617-8a4b-1c7d0b03e9dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the email id for support"
+  }, {
+    "id" : "7b2f07b2-b86c-4802-948e-54084f29e2d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the fund 's address and phone number",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "caffcef2-e528-4134-b25e-7427f70568ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the fund address",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "e4e54aff-f140-4a73-8a14-b9d996506850",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the fund address and phone number",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e7695475-8c0a-4935-866b-ff2c65be7378",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the fund address and phone number for bt super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "77539732-db92-40eb-821b-3b16eb65418c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the fund email address",
+    "tags" : [ "nid_05-2021", "merged_from_bt_fund_address" ]
+  }, {
+    "id" : "6af364df-930c-48ec-ade4-60bff98af5ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the funds address please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9c869d1d-d862-4bb9-8147-f8c2bcc37b88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the funds street address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "5905a69b-c404-4ca4-b1fe-65f3ab7b4ea7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the margin lending email",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e1ea5c39-a0bf-4779-8139-e5406908f7a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the margin lending line number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ca422aac-b68e-4994-95e0-45eec031c40a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the panorama super fund business address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "6859f2b4-a61d-4523-8fc9-1f2d1f61cfb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the physical address of panorama super?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "55de28a2-9293-4f05-8b0c-c096b4b99a2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the postal address",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "ce82ff2b-fec5-46bb-8860-d9f135a2b2ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the postal address for bt panorama super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ede72975-d8a4-4000-a9ff-3c071b798a39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the street address of the fund",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a26d5c87-3dc2-44e1-8de0-f7e3a65ff8ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the support email id?"
+  }, {
+    "id" : "7885cf2c-9387-4a34-b3ea-af541205dd08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the web address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "92ab69a9-20b1-43c7-8d57-40b8ba360eaf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is you address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1711907e-0163-4f62-b5ee-5628ae6f6859",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is you r mailing address",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "adf021e3-ef26-4fcc-a972-50df2b005747",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your address",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "cc2fb478-820a-4cd7-a4c7-3b16d746803f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your addrezss",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "b580975e-5c71-41f6-82fe-e3dbfda162c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your asset transfer team 's email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8f597eb1-4b7f-4aa5-b3ad-0390d2a9836d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your bt panorama contact email please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "494c93b3-19a2-4ab4-8db0-c02491c4e64b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your contact e-mail address for enquiries",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "99fabcee-13b9-4cbb-8c36-e152cda5c611",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your contact email",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7deae94d-7836-4843-81e5-a981b46f8f81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your email",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "259a3c22-a291-464a-b85b-e0fd9b70a2d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your email address",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "980f8c7e-8d65-4cea-9b52-c23602f12050",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your mailing address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b3b7da81-c206-4122-8f00-c7857b30316c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your mailing address?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "aa2ebb9e-d146-4d1f-bb38-a20ad605becb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your postal address",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "549d4fdb-8a0e-4ee2-aa19-1f2f0ac70eb0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your street adress",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9a173f17-c792-4601-a2d8-bb95cae20c11",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your support email addres",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "575ab147-da9f-4627-ab04-7bb4a9fec503",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what po box do we send cheques to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8cc3f093-b1ad-4c83-962d-6fde98275887",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what time does your office open today",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8f976cb0-0915-41fe-a034-d527630aad5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what would be the best email to send thru a change of servicing adviser",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5bd21cbc-1c3d-4771-94c5-71623579129d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's your email address"
+  }, {
+    "id" : "3c8425fa-26c7-45f3-9731-273300a511f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats bt 's email address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f5f1e5d6-9d14-400c-a6eb-fa799cb46483",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats email address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c2e78638-c28a-472a-b51e-2a001f7a4773",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats yopur phoine number",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "c10a737e-b776-4555-9dc6-4c5eca5bc577",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats your email address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "78b4c78f-23af-4752-bf0e-8d15838209bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats your postal address",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d07adca0-c050-43a8-87be-67381e6a6b7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i email",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f4d93e78-4b06-4628-95ea-576919dc4bab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i send a form online",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0f99c3ae-bbd3-4c42-9d33-2075514f3c20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i send signed forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4aa0b13f-9bf4-43e5-929b-69b80da25b34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i email a notice of intent to claim personal super contributions form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c943e364-d841-4239-823a-04cf0a0803df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i email intent to claim",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "50781c84-97e5-45cf-b82a-c5c9ba8ba34a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i email my notice of intent to claim personal super contributions",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b0aa69ea-2d17-4873-80d0-cb6e1d2082a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i email partial withdrawal form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f445ebc8-4977-47cf-862d-cc794c166e74",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i email the form",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "59f5be4d-75bd-4a58-b631-0621ae379453",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the fund address",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4fd16e76-68c4-466d-ba55-96c32490e963",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i get address",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "77976c35-e4b1-448c-ad61-bb3998e0978e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i mail my notice of intent to claim",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ffc5d5a2-ace4-402d-85bf-49bd32874e7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "95ab7442-5a04-42a8-b4f7-70cae84ce9ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send it",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a7ea1f6c-881e-44e7-93c7-58b0fe456cf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send my forms",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6878da2b-a88c-44d5-8953-9d62f8d672e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i send the paperwork",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "87c27d45-0a09-4037-b809-c890f7d3d0eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i upload or send my notice of intent document",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "462cea23-e06c-440d-b16a-62e82e3f1d62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do you upload documents",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8ca4a388-7184-4594-ac2a-e5406aa24648",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where send form",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "296317e6-4146-41cb-aef5-cf61021e26e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to send client fee consent form",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7d98d335-2f41-4386-8ab2-a00c6c006e23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to send emails",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "61cc6b74-86a0-45f5-b3ed-230af8234ce7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "which email address do i send a certified accountant certificate or a wholesale declaration form to",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e1e8b65f-a2b8-4bbe-adce-c4d66e556fe8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "who to email account closure forms to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3c2ba9a9-db1f-44d8-9754-e8e736cb1bde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yesterday i sent an email - no response",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7dda05ab-3b8a-4d81-9afc-232474d19082",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "your address",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "defa90d4-b44f-4299-a6fb-ec71332bff5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "your consultant gave me an email address 1 minutes ago i just need it clarified",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "3b46033f-1050-4af3-8e0c-a2412f0c74db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "your email id"
+  } ]
+} ]

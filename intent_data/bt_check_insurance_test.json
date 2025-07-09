@@ -1,0 +1,628 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_check_insurance_test",
+  "intent_name" : "bt_check_insurance",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "c34b8809-80ec-41a1-83c4-d1d6a2159422",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "BT insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fd74ce43-57d2-4013-9d9c-b2eaf7613bee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see the linked insurance on my super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "649fb1e5-046b-4654-b4c5-69fc5f372d18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Certificate of currency for insurance",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "2512a872-403b-45d4-910e-f6e48b5557a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Death insurance cover",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "3417a901-43e2-4ac8-b76c-c9cbed731b4c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have any insurances linked to my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "73154138-145d-49f9-a7ec-901aa99b9027",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I would like my insurance certificate of currency",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9c96a890-acd7-4eb7-aa70-438b555e9ed1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi There, hoping you can assist me with the vesting amount of my life insurance please",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b75101fd-013e-4df6-8a06-d5b2f6380257",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find the linked insurances in my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a21c0fd3-ae30-437f-8e1b-0e01e50b8605",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to check the insurances under my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "960f740a-3b0c-4510-81c9-40b60982787a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "BT insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a3ba909d-c0d6-4a58-87ce-09e20a281920",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see the linked insurance on my super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0544fa6d-2a41-445b-b32b-aae97981ddb4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Certificate of currency for insurance",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0d30272c-8e77-40f2-b863-81dc2a675bdb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Death insurance cover",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "c724576a-f6fa-4689-be97-8fec9ef22ff5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have any insurances linked to my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dfee331f-ebae-46f5-ab1b-ed43ff1d1f5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I would like my insurance certificate of currency",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "adc33f29-7dfa-4cdf-a28c-9b4c1d5deeaf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi There, hoping you can assist me with the vesting amount of my life insurance please",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "f11167ba-93ad-44fd-b8c0-056ed9008cfa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find the linked insurances in my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "63f5ee3d-10ce-45ab-868a-2836d7682cd0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to check the insurances under my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e957de66-9658-418b-a013-f28f9b93a96c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I know what insurance I have",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5d6f0edc-a611-4f7d-a4d0-8f3a0e601f96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need an insurance benefit statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e015863a-1962-434b-b4c6-757279699a35",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to find a copy of my Income Protection financial Statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a4c27e36-3e59-4aa7-8dda-271370edfa1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Insurance certificate of currency",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "c532f79e-e714-4c15-9168-0f0f1923e49a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Insurance inquiry",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "d119b644-8779-4bde-8f69-55d0ca5e9dbc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there any insurances on my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3d4eb795-bc82-4a8d-9088-aaf810a305d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Need to know if my super had insurance if I cannot work",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f8ab93dd-def1-4fca-847c-fc36d99dc079",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Print the insurance details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0ebf7c8f-3827-48e8-accd-9dd4909702b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Salary Continuance Insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "91992f50-7998-46a4-a0fd-3b6c6c282648",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Salary continuance insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3d35549d-8326-42f8-b806-90bc0e65c334",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the insurances linked to my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "aebce66d-5cd4-4db7-97d4-7c5549173e8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What insurance is linked to my Super?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e69bb5f3-d9be-465f-92f6-d1311d1b2b00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "When did my insurance cover start?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c0bf69c8-29b3-4387-b3f7-44fecc5bb0f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I check my insurance attached to my super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "41b78d6a-622a-4816-9a87-8bb8ff566c13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see the insurances linked to my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7c192316-7beb-4ce3-aba6-4239c7b93e8d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I view the insurance linked to my Super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1e0c5084-aa70-44b3-999e-96a92443299f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where do i find certificate of currency",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e0afcdb2-2b60-4dbe-a78d-0039ed5d4f84",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "a life insurance amount was debited from my westpac account yesterday this is in addition the normal monthly amounts what is this for",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9f6456f6-db29-469a-91d3-37ebb0cd70d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "acc 111111111 - insurance refunds from 11 / 11 / 1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9a809305-3195-46c6-9862-f9faa045cdde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "aia insurance",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8ecf8ab8-bb06-4598-ac25-ed9b4a3b9441",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "am i covered for tpd insurance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3cfb4c33-246e-4946-ae3b-900a83171ef8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt insurance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7fb8c890-7a36-477b-afcb-31652d052524",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have my tpd super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "adbeec08-4165-44f2-b0c8-1b331195b003",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i see insurance clients",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d2f3b1c6-03c4-45a5-a7f1-bc6e1a7f997a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me what other premiums i have coming out of my fund besides term life and income protection",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7f603bfa-4935-4e92-890f-9e88efbfad1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "certificate of currency for insurance",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8a5fca9c-f3d5-498e-90d8-4f522a7fcc7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "am i covered for tpd insurance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "55c93dd8-84ed-47b7-9625-ea5987df8397",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt insurance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0992c201-ef96-47e4-820d-04f771953b8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have my tpd super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c4fe7935-a5cc-4cb1-8c1f-6a70e537d704",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i see insurance clients",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "339d4285-02c7-4468-96da-17781ff71eeb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me what other premiums i have coming out of my fund besides term life and income protection",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9932c3d1-e7a1-408f-94c6-e1d1fc8d6706",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "certificate of currency for insurance",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9b6c028b-78a6-4381-864b-987eae1fb019",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "am i covered for tpd insurance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ee94512f-a83c-49cb-b834-27459e575226",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt insurance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "edbd18b2-ed72-45bc-80fe-3ff800315046",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have my tpd super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2de89298-b121-4e39-82c9-e2a9b2443e59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i see insurance clients",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a4425e5e-c9d6-4756-8042-6f1817d3a826",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me what other premiums i have coming out of my fund besides term life and income protection",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f15bec93-2d54-428a-8454-411301c8900b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "certificate of currency for insurance",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "47ac7cab-0438-4ebb-bca1-731d99d21593",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i have income protection",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b7e5f74c-f2a4-4171-9f58-04195fd16e37",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i have life insurance with my super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aa659f99-925b-4cba-b35d-28d132fafc24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does my policy include salary continuance insurance",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "9aa3c8f3-7254-4e28-839b-62ba7a16cf67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find insurance",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b166452f-0521-4aac-83c0-5edbf5833e20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello - our income protection and tpb insurance is through bt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c224b97c-7372-471c-b682-7e160276e315",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello how can i check if a client 's insurance payments are up to date",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "93becd57-3c97-4081-9254-2fd1ea9ca773",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i have an enquiry about my super conrtributions",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "de052dc2-0e14-4fdb-8fab-7358e3b824ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello where can i check the insurances",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aab4e77c-533e-4467-a23b-a2e43580b105",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to access information about my income protection as superannuation policy it is owned by bt funds management ltd policy number cls11111",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9f53fc35-ee5d-4a7a-9a1a-d442fdf94271",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i find what premiums i have paid for my super-linked policy",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7ff60495-c262-453a-a807-7d7ab8cbee53",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get a certificate of currency for a clients insurance",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "721fe964-8949-4257-886a-a8283fef4288",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get a certificate of currency issued from the insurance provider detailing my current insurance cover",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d6681c62-38de-4347-8468-653e1122f52e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i access the product description and details of my insurance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0cfabe73-90fa-407e-af51-199d79941a8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find details of my insurance policy the pds and how to claim if i need to",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2a2c4de2-5288-47ca-a619-1ae7fd453e59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find out the amount of my insurance",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "73a313c9-3f54-40dd-a202-6ed3057a6573",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking at the insurance component of my super",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "92b87aa1-5fbe-48dd-afcc-54a78db01cfd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to find out how much insurance i have on my superannuation apart from the extra that i am paying for",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ca89838-f679-4297-9cd9-b6d6122b7aa7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to get a copy of my policy",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "54041bd4-59fa-4f5b-880a-30bb5f4ca3ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to get an invoice for my income protection premiums paid for the last financiial year",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "eae2b054-2b4b-428c-af4a-99747b684660",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need my policy documents for my income protection policy",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a64eb353-1e66-44dd-9b43-7fbc225061ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i require my income protection contribution amount for my 1111 tax return please could you provide this number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "cdf176be-4048-4005-b9cb-43608915910c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to know where my life insurance policy has gone",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7788cf45-7538-48c6-86b6-9a302af298ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "id like a quote for income insurance",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "954eb98b-5c9d-45bd-9dfc-640e961336ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6f2c0427-17e7-457b-87c3-af335e597157",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance enquiry",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2be45be3-340a-47c4-9431-171e4de0dfad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance info",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d7e10add-dac7-4441-a02a-bb7a64a8fb9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance payment details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ececf081-054c-4fa1-8c86-5fc1f16566df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance policy documents",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ff247b76-5014-4c63-af2a-710b7cded073",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance statement pdf",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "bb015685-0a25-4311-9784-22629087f3ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is this a death benefit rollover account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "766f2f91-a02f-4c71-bcba-680fcb944973",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "just wondering why am i paying two insurance premium every month",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "23d1623c-fe0f-49cb-b752-a7428ed327be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my income protection policy",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4d8eca1f-58e3-494a-95f2-ece286e5bb24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my insurance shows not opted in why i am charged a monthly premium",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "da101aaf-125e-4f84-a9f0-c0c2e1f5c852",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to confirm account details to make a contribution to my tpd insurance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dab14685-a8dc-43a2-8f85-cc6039fd3e70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "policy",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2a4ea75b-cb73-4ee8-8b3d-a944c9c9f030",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "policy cover details document",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2a30b5fd-3479-4805-93ec-1d6cddeeddf9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "policy review",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fe17bc8f-f409-4142-bc9a-5b1fc57de607",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request for certificate of currency",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4224f972-477d-4cd6-a2bb-d86e83719cbd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "term life policy documents request",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5c28e446-735b-4132-a67d-91f3b5e5d19e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying locate bt life insruance policy",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5a839d3d-9787-465b-bbaf-8d1761e443c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to find my policy start date",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bddd45a3-6a1c-46b1-bcdf-8543b2a3a3c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "term life policy documents request",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "16e9f250-e843-4263-9282-a8203819ef6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying locate bt life insruance policy",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f63cf877-ab63-4133-be92-f8bee43b3f0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to find my policy start date",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a3b8d603-3407-48d0-a461-fc083fc7bee7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is a life plan policy",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3e584f23-1f7c-4c1a-ad49-279900fa76ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my income protection tax statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6e534610-4a68-423f-9f2f-32b2f029eb92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why have i lost my life insurance policy when transfering my panorama account into this account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

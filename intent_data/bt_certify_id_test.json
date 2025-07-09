@@ -1,0 +1,190 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_certify_id_test",
+  "intent_name" : "bt_certify_id",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "a91693d4-cb84-4cbd-aae9-66875b69b078",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I submit my ID without being certified?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b9a7cb7c-6271-40db-94b9-60454b497b39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Certified passport needed?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b0741609-3c94-481e-a847-e4eb08320d82",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do all IDs need to be certified copies",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6de83369-b428-4c6e-86b4-afea735d1255",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me get a certfied copy of my ID",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "307db484-0927-48d1-b20b-649bc44d1e5d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi. Did you receive the original certified ID for Bob at the Adelaide office?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "6aed15f0-13cf-4724-a3ee-cc22670e3fe4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I provide a certified copy of my ID?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d8866b6b-4e22-4e96-9f5a-77f199bb2cdd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I certify my ID?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "61bfe6c1-c208-40fc-baee-ba02fb038510",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to certify my ID?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "359225ea-13e4-4605-84dd-83f7950084b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I submit my ID without being certified?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "aa1d7d89-6318-4681-bf24-5a783e237334",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Certified passport needed?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5da023eb-7d18-4bdc-80fb-c410e764378a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do all IDs need to be certified copies",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d88701d8-3ef8-419b-a7b0-9d43042dc0e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me get a certfied copy of my ID",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f7876814-ba5f-4bbd-923d-f22168b56eac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi. Did you receive the original certified ID for Bob at the Adelaide office?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "241a5af3-4a7e-4374-ac6b-cb612bf911f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I provide a certified copy of my ID?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "41cf53c5-1a9a-48fe-b5df-048ba821f56b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I certify my ID?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fb851672-6a91-4a47-808a-79554617ad38",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to certify my ID?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e06b4439-2158-453c-8314-ac5a2ab7568e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to certify my ID?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7a5be1a7-2df5-4951-83ef-0977611ef023",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it necessary to certify my ID?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6af40e89-2c00-467e-8a89-f4baa55d56f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the reasoning behing having a certified copy of my ID",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b5346728-e38c-45bc-8c60-353f9a720c1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me if you accept black and white copies of drivers licences",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "58843d6d-58e1-4d2d-a731-813aaf023024",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "certified id form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "9753d31a-cb00-4624-b678-f58548b38f2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me if you accept black and white copies of drivers licences",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b41f6d34-e851-43d3-83c2-1d1aea13fcd6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "certified id form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d987eea8-65bd-49ca-be0a-f93298dea490",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please tell me if you accept black and white copies of drivers licences",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7c9eb79b-dc7d-4aef-a02c-b4e84fe1b337",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "certified id form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "80c6de2d-b23d-4c60-8e36-7a6e1cb30e25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does the id neeed to be certified within a certain time frame",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6ea4e3ca-fe80-4f39-81e1-8d78d504fc3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i find my photo id please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cec968dd-e2df-4d68-89a1-355380db3ee9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is a drivers licence accepted in black and white",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "5742f3d4-6187-462b-9a2e-e7e61c66217c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is identification accepted if it is black and white",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d73d6a16-2155-4269-ad86-7333b506f5bc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the reason for certifying my ID?",
+    "tags" : [ "goldset", "test_gold" ]
+  } ]
+} ]

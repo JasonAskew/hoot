@@ -1,20 +1,24 @@
 {
-  "name" : "bt_amend_advice_fee_adviser_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To view where you can set up an advice fee under a fixed term or ongoing fee arrangement, or charge a one-off advice fee please select the ‘Go to page’ button. \n\nFor instructions on setting up an advice fee, how to transition a Pre-Royal Commission fee, amending and renewing an ongoing advice fee or charging a one-off advice fee, select the ‘Help & Support’ button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To view where you can set up an advice fee under a fixed term or ongoing fee arrangement, or charge a one-off advice fee please select the \u2018Go to page\u2019 button. \n\nFor instructions on setting up an advice fee, how to transition a Pre-Royal Commission fee, amending and renewing an ongoing advice fee or charging a one-off advice fee, select the \u2018Help & Support\u2019 button."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "/content/secure/help-and-support/bt/en/adviser/managing-your-clients/monitoring-and-reporting/fees/advice-fee-types.html",
+          "label": "Help & Support"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "/content/secure/help-and-support/bt/en/adviser/managing-your-clients/monitoring-and-reporting/fees/advice-fee-types.html",
-        "label" : "Help & Support"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_amend_advice_fee_adviser_response"
 }

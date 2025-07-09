@@ -1,20 +1,24 @@
 {
-  "name" : "bt_inspecie_transfer_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Due to the ongoing Wrap to Panorama migration, in specie transfers from Wrap to Panorama have been ceased with the exception of SMSFs on Wrap that are terminating and transitioning assets to Panorama Super. All active BT Wrap accounts will be rolled over to BT Panorama as part of the migration. For more information on the migration, please select the 'Go to page' button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Due to the ongoing Wrap to Panorama migration, in specie transfers from Wrap to Panorama have been ceased with the exception of SMSFs on Wrap that are terminating and transitioning assets to Panorama Super. All active BT Wrap accounts will be rolled over to BT Panorama as part of the migration. For more information on the migration, please select the 'Go to page' button."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://www.bt.com.au/personal/help/wrap-to-panorama-migration/advised-investor-migration.html",
+          "label": "Go to page"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://www.bt.com.au/personal/help/wrap-to-panorama-migration/advised-investor-migration.html",
-        "label" : "Go to page"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_inspecie_transfer_response"
 }

@@ -1,0 +1,578 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_asset_transfer_seed",
+  "intent_name" : "bt_asset_transfer",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "7bb27f11-e171-45f9-85c7-6bb7a23f7318",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to move my client's shares and managed funds {@transfer_type out} of his BT Super invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "513cd190-dfab-49de-ac16-d6444d88f3c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to move my client's shares and managed funds {@transfer_type out} ofmy client's BT Super invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ea5783e2-1f14-48b6-a6a7-f9c9b8a46c58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any resources for completing an asset transfer for client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b2fe933f-f7ff-4b9a-a5d4-88424ae15b79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any resources for completing an asset transfer?"
+  }, {
+    "id" : "9e6d2af7-31b4-4e24-a150-f68f5ead4502",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I do an inspecie transfer of shares {@transfer_type into} my client's BT Panorama Compact account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "559a116b-8a01-41f7-a931-d3febec5e742",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I request an asset transfer for my client online?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a865d826-b48f-4fb2-9b8b-ab6411e9a8eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I request an asset transfer online?"
+  }, {
+    "id" : "321d3583-90bb-4c6b-8d1c-f0ef21d6b6dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we action an inspecie transfer on a clients behalf",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "82a37161-5c32-42b7-b363-cc2f89701fce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me what I need to do to get my client's managed funds {@transfer_type into} a Super compact account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "63b697f2-dae7-44a2-b401-bf26a1a4efc3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me what I need to do to get my managed funds {@transfer_type into} a Super compact account?"
+  }, {
+    "id" : "c1ce61a1-9c4c-498d-bd75-699aad38dccb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could I do an inspecie transfer {@transfer_type into} my BT CMA account?"
+  }, {
+    "id" : "cddf03b0-c03d-4637-82f5-ed00771fa670",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could I do an inspecie transfer {@transfer_type into} my client's BT CMA account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "d4d981f5-8455-4ac4-81bc-f946b0a23f3f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I do an inspecie transfer {@transfer_type in} for my BT invest account?"
+  }, {
+    "id" : "1677bab5-9416-4284-afa6-f0d43c52ef0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I do an inspecie transfer {@transfer_type in} for my client's BT invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e3fe5cc9-d86b-4c08-9305-af2b17eea4fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I help my client {@transfer_type to} make an asset transfer?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "79475dc0-4b49-4bb7-a38c-25276d554442",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can we move the holdings from AMP north {@transfer_type to} this account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b9029237-5f48-41b2-b1b2-72670953b34c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I complete asset transfer?"
+  }, {
+    "id" : "e4c811d5-f37b-4245-98b4-ffd71f470480",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I do an inspecie transfer"
+  }, {
+    "id" : "8a04c391-5044-4adc-9c62-8537ed5afea7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer funds {@transfer_type to} somebody?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ecbbffbe-83b4-4026-9616-b59b1f677b37",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer my assets for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "39e3cece-27d6-4cf5-ad2c-66dd258eff23",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer my assets?"
+  }, {
+    "id" : "3c92b0d0-e2f4-42f6-95a3-f8a4d555a427",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do we bring shares over {@transfer_type from} an external platform.",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "6b249882-0e56-4f4c-a209-314195756cc4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to move my client's shares and managed funds {@transfer_type out} of his BT Super invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "2671b3a9-e7c0-4ada-a56b-a2176cec2371",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to move my client's shares and managed funds {@transfer_type out} ofmy client's BT Super invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "d93094ff-1531-4a8c-8dda-a425d6e11f64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any resources for completing an asset transfer for client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "9f7ded9a-db37-4c62-bd82-659ab5755c51",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any resources for completing an asset transfer?"
+  }, {
+    "id" : "af3eecdc-0c13-49e7-8975-804ef28ee78d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I do an inspecie transfer of shares {@transfer_type into} my client's BT Panorama Compact account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "7dbfc3ce-1e63-4b5a-b529-8f512f9a4826",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I request an asset transfer for my client online?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "58027d22-cbe4-4ae3-b772-1cae2eb7d5af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I request an asset transfer online?"
+  }, {
+    "id" : "e734c8f7-1781-46c5-95b6-a8c7a9d50d95",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we action an inspecie transfer on a clients behalf",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "856141a9-c035-453e-adf1-3e5870d0d45f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me what I need to do to get my client's managed funds {@transfer_type into} a Super compact account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0e8e2768-6d64-4e86-bdca-b08d9e470738",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me what I need to do to get my managed funds {@transfer_type into} a Super compact account?"
+  }, {
+    "id" : "5ad0084a-d29d-4298-a114-ab14123bb0eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could I do an inspecie transfer {@transfer_type into} my BT CMA account?"
+  }, {
+    "id" : "cac9c5d4-a3b6-4589-8170-0fbd91fa42b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could I do an inspecie transfer {@transfer_type into} my client's BT CMA account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "f4577c2d-9f63-4fb7-a1c2-2375b70683e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I do an inspecie transfer {@transfer_type in} for my BT invest account?"
+  }, {
+    "id" : "722a0056-ccc4-46b8-a735-41f9c65e3469",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I do an inspecie transfer {@transfer_type in} for my client's BT invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "6267166b-0405-4a0a-80c8-0e6e9df518a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I help my client {@transfer_type to} make an asset transfer?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "4dfd30d1-7e46-4391-9c3f-a96bf3e7b3cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can we move the holdings from AMP north {@transfer_type to} this account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "6bded7ad-f198-4cb8-b9cd-d7b3a0642c55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I complete asset transfer?"
+  }, {
+    "id" : "c70fef7a-7565-401f-8950-b69ae0a6498a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I do an inspecie transfer"
+  }, {
+    "id" : "b3ebf27e-7c32-4913-97ab-6dcd2e72b624",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer funds {@transfer_type to} somebody?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "66c478fe-7089-4b95-b3af-f58c953cd028",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer my assets for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c854fb87-3e79-4eae-8201-d79df41d5736",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer my assets?"
+  }, {
+    "id" : "a56191f2-4c9e-46b1-a3a3-25b62def6651",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do we bring shares over {@transfer_type from} an external platform.",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "f10ca48b-37c9-4103-a01e-124e7b5cc3b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to transfer money {@transfer_type into} the cash account",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "dc8c8630-ffd9-401c-a1fe-3ee69b977146",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need your inspecie forms",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "5ce486b7-083d-4a5f-b46e-b77b944bc07b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need {@transfer_type to} transfer funds to someone else",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "733fe04f-3ec2-4cfe-a339-3c9116d2c218",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need {@transfer_type to} transfer money",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "29d32641-3f23-4cda-be4e-a4914510b26c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to transfer my client's assets {@transfer_type out} of my Panorama account.",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "043a4c3e-8c8b-4351-9a1b-ad49a48c8007",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to transfer shares {@transfer_type into} my Panorama Super account"
+  }, {
+    "id" : "a045cfe0-6fe8-4f09-b50c-3244d1533a57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want {@transfer_type to} transfer funds.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "203bf731-e6e2-454b-9d49-46fe8376d8b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like {@transfer_type to} do an inspecie transfer for a client",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "3b6f32e9-0cd6-4c03-87f2-f8115911c86f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible {@transfer_type to} complete an asset transfer online for client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "d6ebc0dc-1ba1-4221-a040-f1695ab5c6a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible {@transfer_type to} complete an asset transfer online?"
+  }, {
+    "id" : "3f2b3b19-33ee-4359-80c8-cde3df2f2fc8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way I can bring my clent's shares from Commsec {@transfer_type into} my BT Invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "3bf7c77e-1bc3-4df6-a0d0-86e04abdfd1c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client has requested for an asset transfer. Please advise.",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c5099ca3-72f7-4700-9256-616717f07e47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client want to transfer shares {@transfer_type into} my Panorama Super account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "96f68dab-6ed5-4a0f-8005-02926f8fe11f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client want {@transfer_type to} transfer shares her account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "fb78114d-68d5-4350-a497-ba77d037419e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client wants to transfer their assets over from xxxx {@transfer_type to} panorama, how do I do that?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "b37ccd22-0465-44d7-a85e-6429d4641fe2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My cloent wants to transfer shares {@transfer_type into} his Panorama Super account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "17ef9824-c304-4cae-a300-1e8220a17937",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We want {@transfer_type to} close up another account and move all the assets to this one",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "28dce1e8-9ec4-4c71-a1bd-65d0c917a187",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We'd like to do a full inspecie transfer {@transfer_type into} our client's account",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "7a44d004-945d-4cfd-a210-5e9e26bb22df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We're doing an inspecie transfer for a client, what forms do I need?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "436ebff1-80ba-4a14-8aa1-51d758d1278e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What forms do I need to do to bring my assets from Hub24 {@transfer_type into} Panorama?"
+  }, {
+    "id" : "97dd024a-bb62-4ef6-a14e-730d92b99027",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What forms do I need to do to bring my client's assets from [name of external platform here] {@transfer_type into} Panorama?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "25548e04-83a5-4fd5-b858-6211d66fdcaa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What forms do you need {@transfer_type to} do a full inspecie transfer?"
+  }, {
+    "id" : "b40ae2d8-982f-40a2-8555-82681ce41a72",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What forms does my client need to do to bring my assets from Hub24 {@transfer_type into} Panorama?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "14008797-19ce-4853-a470-14c00644e1fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go {@transfer_type to} complete an asset transfer for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "28f6ea95-37d5-4dc4-a532-cb1abf460284",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go {@transfer_type to} complete an asset transfer?"
+  }, {
+    "id" : "c76f7374-e618-45f0-8cab-3e351d732cf7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would like to withdraw/transfer all my cash {@transfer_type from} panorama",
+    "tags" : [ "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "641f751e-22f6-43bd-bb6c-e4c85dd64ea4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "transfer asset's"
+  }, {
+    "id" : "ad7e5965-6276-4fe5-918e-7498de1e9262",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "transfer asset's"
+  }, {
+    "id" : "b4891d8e-7e71-4636-9a83-917ab0de66d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I go on the desktop {@transfer_type to} begin a full asset transfer over",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "3fc4142e-0dd3-4fbc-9632-6e46a61abebf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I help my client {@transfer_type to} make an asset transfer?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a76dbc30-2b2b-425e-b673-19d3ef86ad8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I do an inspecie transfer {@transfer_type in} for my clients BT invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "30751aac-0596-43ac-ba63-32f70dfbacda",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Wed like to do a full inspecie transfer {@transfer_type into} our clients account",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "e12aa1cb-c344-4284-a1bb-547425ad1d96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer funds {@transfer_type to} somebody?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "2dd3e3bf-cba8-479a-b622-792955c7a919",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could I do an inspecie transfer {@transfer_type into} my clients BT CMA account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "2f09a038-1971-480c-b5a7-f2b6ad71fc42",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I do an inspecie transfer of shares {@transfer_type into} my clients BT Panorama Compact account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "1655fe29-72d9-4e34-ad65-094c7a7d027c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Were doing an inspecie transfer for a client, what forms do I need?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "14abff4e-54b7-401f-9e37-31adfbf3335e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to move my clients shares and managed funds {@transfer_type out} of his BT Super invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "7fa7ae01-6a11-4b80-a324-c68d4954d79b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to transfer my clients assets {@transfer_type out} of my Panorama account.",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "7748f9e7-aa07-4b14-85b9-572fb34c9029",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I go on the desktop {@transfer_type to} begin a full asset transfer over",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "78d7770a-92f5-4816-a837-dc39c05c92df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want {@transfer_type to} transfer funds.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "198bc80f-11a7-4176-a642-74168e8b338b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go {@transfer_type to} complete an asset transfer for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "20329536-9cca-4860-b6a3-30fc5cc0eb2b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible {@transfer_type to} complete an asset transfer online for client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "f98bc050-60a8-4222-aa06-c8b934bae08b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way I can bring my clents shares from Commsec {@transfer_type into} my BT Invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "333d05f0-bc39-48be-bfd9-f704ae1fd130",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client want {@transfer_type to} transfer shares her account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "9db59015-65af-4f8e-8254-61ee603f756e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need {@transfer_type to} transfer money",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "3e4b68a3-4e1d-45ae-8836-30e20b8dfab6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me what I need to do to get my clients managed funds {@transfer_type into} a Super compact account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "09120864-3797-4422-b92a-29bee29ff995",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We want {@transfer_type to} close up another account and move all the assets to this one",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "6e35e198-b31d-4481-bdfb-0ce2c0b41dd4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What forms do I need to do to bring my clients assets from name of external platform here {@transfer_type into} Panorama?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "30aa3a86-9406-4012-97bb-20c4cc614241",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need {@transfer_type to} transfer funds to someone else",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ac63548c-6e2a-4360-9029-8c955ad3c386",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to move my clients shares and managed funds {@transfer_type out} ofmy clients BT Super invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a46453c9-d075-4bdd-8854-2baa327a6035",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Id like {@transfer_type to} do an inspecie transfer for a client",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "cf4bf0ca-a3d5-42c1-9ce5-23ca561bb7a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go {@transfer_type to} complete an asset transfer?"
+  }, {
+    "id" : "4e31179b-1d91-4228-852b-c37e8f24e173",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do we bring shares over {@transfer_type from} an external platform.",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "ce7a21b2-edad-4712-b3d3-155336f2fba9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What forms do you need {@transfer_type to} do a full inspecie transfer?"
+  }, {
+    "id" : "2dea1aab-80e9-45f0-b978-ea4e6cf68854",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible {@transfer_type to} complete an asset transfer online?"
+  } ]
+} ]

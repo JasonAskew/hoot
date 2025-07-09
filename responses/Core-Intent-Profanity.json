@@ -1,16 +1,21 @@
 {
-  "name" : "Core-Intent-Profanity",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "I am sorry to hear that you have not had a pleasant experience, one of our consultants can assist you. Please call us on 1300 881 716, 8:30am to 6:30pm Monday to Friday (Sydney time)."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I am sorry to hear that you have not had a pleasant experience, one of our consultants can assist you. Please call us on 1300 881 716, 8:30am to 6:30pm Monday to Friday (Sydney time)."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Core-Intent-Profanity"
 }

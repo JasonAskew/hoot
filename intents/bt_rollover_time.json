@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "faq" ]
+  "categorization": {
+    "tags": [
+      "faq"
+    ]
   },
-  "name" : "bt_rollover_time",
-  "display_name" : "bt_rollover_time_Inactive",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_rollover_time"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_rollover_time"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "How long does the rollover process takes?",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : false,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "How long does the rollover process takes?",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_rollover_time",
+  "display_name": "bt_rollover_time_Inactive",
+  "alternative_question_eligible": true
 }

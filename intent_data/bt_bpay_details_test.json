@@ -1,0 +1,226 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_bpay_details_test",
+  "intent_name" : "bt_bpay_details",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "f59224cc-065a-4c7b-8a22-2dee8ebee165",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "BPAY",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "efc451ca-8263-402e-82ce-1fc43992d9b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me where to find the BPAY details",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "40e8b66f-1409-45a8-bbae-acaf925d5fee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "BPAY",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "9e10281e-5dce-4fd8-a1e7-ea108558f2f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me where to find the BPAY details",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "566b981d-8273-4d19-8d2e-88aa1ff58734",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need the BPAY info for my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "870202ce-0d47-402d-8f63-90c5411a4d2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay details for an account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "9fccdaab-491e-405a-b7e5-2e36d333e6f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can investor make bpay without a verified bank account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "464b0a06-cd9a-43ac-b260-513d738b6bd4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay details for an account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "46d94825-010c-46c7-92ae-04da11994c1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can investor make bpay without a verified bank account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7c297d7e-c154-4af1-96fc-d6f28e025827",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay details for an account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ecebab4e-f8ae-4096-9934-5e98f9142941",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can investor make bpay without a verified bank account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "17de34c3-0a73-444c-a141-06f9dfd530cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cma bpay",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "67e0b182-4d81-4072-b2bb-ea10c4e0afc1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello i cant access my super detail i need the mebership number",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "91fcc610-fb22-4d6f-912e-2c4c87e73338",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i cannot seem to find the b-pay details for my client bec bob",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a34664d2-8b72-4ab3-ba73-780632ff1419",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i locate bpay details for contributions",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "be495fc9-8b3f-433d-8a01-584439bb9eee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make a bpay transaction",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "08647139-794f-4cac-a9e9-afbd37f46795",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i use bpay",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "36829ee5-2ef0-42c1-9cf6-74ba3d211ae1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does a client approve a payment to a bpay account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1c2c40b5-9139-4cdd-87e0-7542c4ea2989",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to get bpay details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "39452e97-5116-43cc-b291-72a21e5a8f22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to make bpay",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "112f8d61-ece2-4bec-a396-f37de8433617",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am self employed and want the bpay number please",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d3a17457-3d0f-4ebf-96e5-25446c46cd17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to get my bpay details for my super",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "076bf684-2ff8-425b-ac50-f7d0e77dc84e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cant get bpay billers namses onto the bpay list",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a58c0221-dd59-4ce5-b00f-39e9fd80bf18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not remember the details",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "dfd1b562-411b-4e49-b5aa-00ea598fc500",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to pay a bill but the biller code has changed",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "50b7d4ee-1f66-437d-b51f-6df10f001251",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to pay a bill via bpay i have entered the biller details how do i now pay the bill",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a835965d-6af0-4a74-86f3-18b36698eaf8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me the BPAY details",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4cb64a18-9101-4486-a8d5-b4682901ad33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to deposit into panorama using bpay where do i find the biller details",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dba9de93-4584-413f-abb7-572dfbc19c56",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the BPAY details setup for my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ffcb77a9-cbc6-4ef2-9bd6-97162ecb5fe8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to deposit into panorama using bpay where do i find the biller details",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f17515dd-4ef0-469f-ba90-e2da9613d0c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the BPAY details setup for my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c788634e-8e7d-495f-8c70-7df6f803f486",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your bpay details if client wants to make a personal contribution",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fa2379b5-bc0e-4fa0-bb70-f0b70fda3092",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where are the bpay details for personal contributions",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0ef20e46-b4ff-40e6-b469-84eed1edbb6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can I see my BPAY information",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9285f205-e6a5-4f9e-9855-157c8babe20c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do you get the BPAY information for my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b9e0ab09-8715-49ba-aaba-7601a603f6f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where i can find my bpay account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  } ]
+} ]

@@ -1,34 +1,40 @@
 {
-  "name" : "bt_covid_recontribution",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "If you accessed super during the COVID-19 early release of super program, you can re-contribute funds by submitting a personal contribution and ATO form."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "If you accessed super during the COVID-19 early release of super program, you can re-contribute funds by submitting a personal contribution and ATO form."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "COVID-19 super recontributions do not impact your non-concessional contributions cap."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "HYPERLINK",
+          "payload": "https://www.ato.gov.au/Individuals/Super/Growing-your-super/Adding-to-your-super/Re-contribution-of-COVID-19-early-release-superannuation-amounts/",
+          "label": "Check eligibility and ATO form"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_concess_contribute"
+          },
+          "label": "Check contributions"
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "COVID-19 super recontributions do not impact your non-concessional contributions cap."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "HYPERLINK",
-        "payload" : "https://www.ato.gov.au/Individuals/Super/Growing-your-super/Adding-to-your-super/Re-contribution-of-COVID-19-early-release-superannuation-amounts/",
-        "label" : "Check eligibility and ATO form"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "bt_concess_contribute"
-        },
-        "label" : "Check contributions"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_covid_recontribution"
 }

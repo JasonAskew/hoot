@@ -1,0 +1,30 @@
+{
+  "categorization": {
+    "tags": [
+      "live_chat"
+    ]
+  },
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "AVATAR",
+        "payload": {
+          "state_name": "agent_disconnected_bodymovin",
+          "display_mode": "TRANSIENT"
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Your live chat session has ended."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageLiveChatEnded",
+  "display_name": "Customer Ended Live Chat",
+  "description": "End session message when the customer terminated the live chat session while waiting for an agent to connect"
+}

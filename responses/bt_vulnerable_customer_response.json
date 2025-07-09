@@ -1,55 +1,79 @@
 {
-  "name" : "bt_vulnerable_customer_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "We are here to support you through this difficult time. Please select the 'Chat with consultant' button. Alternatively, please call us on 1300 881 716 (or +612 9155 4029 outside Australia), from 8:30am to 6:30pm, Monday to Friday (Sydney time), and one of our consultants will assist you."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "We are here to support you through this difficult time. Please select the 'Chat with consultant' button. Alternatively, please call us on 1300 881 716 (or +612 9155 4029 outside Australia), from 8:30am to 6:30pm, Monday to Friday (Sydney time), and one of our consultants will assist you."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "LIVE_CHAT",
+          "payload": {
+            "parameters": [
+              {
+                "name": "campaignId",
+                "value": "3392686470"
+              },
+              {
+                "name": "engagementId",
+                "value": "3392718870"
+              }
+            ]
+          },
+          "label": "Chat with consultant"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://www.bt.com.au/personal/help/family-law-deceased-estates.html",
+          "label": "Family law & deceased estates"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "POSTBACK",
-        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-        "label" : "Chat with consultant"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://www.bt.com.au/personal/help/family-law-deceased-estates.html",
-        "label" : "Family law & deceased estates"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "We are here to support you through this difficult time. You can contact us over the phone on 1300 881 716 (or +612 9155 4029 outside Australia), 8:30am to 6:30pm (Sydney time), Monday to Friday."
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "We are here to support you through this difficult time. You can contact us over the phone on 1300 881 716 (or +612 9155 4029 outside Australia), 8:30am to 6:30pm (Sydney time), Monday to Friday."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "We are here to support you through this difficult time. You can contact us over the phone on 1300 881 716 (or +612 9155 4029 outside Australia), 8:30am to 6:30pm (Sydney time), Monday to Friday."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.bt.com.au/personal/help/family-law-deceased-estates.html",
+              "label": "Family law & deceased estates"
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "We are here to support you through this difficult time. You can contact us over the phone on 1300 881 716 (or +612 9155 4029 outside Australia), 8:30am to 6:30pm (Sydney time), Monday to Friday."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/personal/help/family-law-deceased-estates.html",
-          "label" : "Family law & deceased estates"
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_vulnerable_customer_response"
 }

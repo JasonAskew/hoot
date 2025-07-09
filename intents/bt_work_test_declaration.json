@@ -1,31 +1,36 @@
 {
-  "categorization" : {
-    "tags" : [ "account_holder" ]
+  "categorization": {
+    "tags": [
+      "account_holder"
+    ]
   },
-  "name" : "bt_work_test_declaration",
-  "display_name" : "bt_work_test_declaration",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_work_test_declaration_response"
+  "webhook_name": "ClarificationIntent",
+  "webhook_params": {
+    "default_response_name": "bt_work_test_declaration_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "CANCEL"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "CANCEL"
     },
-    "outgoing" : {
-      "allowed" : true,
-      "allow_resume" : false,
-      "confirm_if_cancelled" : false
+    "outgoing": {
+      "allowed": true,
+      "allow_resume": false,
+      "confirm_if_cancelled": false
     }
   },
-  "display_sentence" : "How do I complete a work test declaration?",
-  "alternative_questions_enabled" : false,
-  "slots" : [ {
-    "name" : "account_number",
-    "entity" : "BT_ACCOUNT_NUMBER_PATTERN"
-  } ],
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "How do I complete a work test declaration?",
+  "alternative_questions_enabled": false,
+  "slots": [
+    {
+      "name": "account_number",
+      "entity": "BT_ACCOUNT_NUMBER_PATTERN",
+      "message_contents": []
+    }
+  ],
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_work_test_declaration",
+  "display_name": "bt_work_test_declaration"
 }

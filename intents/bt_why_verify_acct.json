@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "linked_bank_account" ]
+  "categorization": {
+    "tags": [
+      "linked_bank_account"
+    ]
   },
-  "name" : "bt_why_verify_acct",
-  "display_name" : "bt_why_verify_acct",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_why_verify_acct_response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_why_verify_acct_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "Why does a bank account need to be verified?",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : false,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "Why does a bank account need to be verified?",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_why_verify_acct",
+  "display_name": "bt_why_verify_acct",
+  "alternative_question_eligible": true
 }

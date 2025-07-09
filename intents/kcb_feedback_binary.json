@@ -1,38 +1,54 @@
 {
-  "categorization" : {
-    "tags" : [ "feedback", "kcb_kim" ]
+  "categorization": {
+    "tags": [
+      "feedback",
+      "kcb_kim"
+    ]
   },
-  "name" : "kcb_feedback_binary",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "messages" : [ {
-      "slot_name" : "rating",
-      "clarify_response_name" : "kcb_feedback_clarify_rating"
-    } ],
-    "rules" : [ {
-      "criteria" : [ {
-        "name" : "rating",
-        "value" : "0"
-      } ],
-      "response_name" : "kcb_feedback_negative_feedback_thanks"
-    } ],
-    "default_response_name" : "kcb_feedback_positive_feedback_thanks"
+  "webhook_name": "ClarificationIntent",
+  "webhook_params": {
+    "messages": [
+      {
+        "slot_name": "rating",
+        "clarify_response_name": "kcb_feedback_clarify_rating"
+      }
+    ],
+    "rules": [
+      {
+        "response_name": "kcb_feedback_negative_feedback_thanks",
+        "conditions": {
+          "type": "condition",
+          "payload": {
+            "operator": "==",
+            "slot": "rating",
+            "value": "0",
+            "clarify_slot": true
+          }
+        },
+        "description": "\"rating\" == \"0\""
+      }
+    ],
+    "default_response_name": "kcb_feedback_positive_feedback_thanks"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "FAQ Feedback",
-  "slots" : [ {
-    "name" : "rating",
-    "entity" : "RATING_BINARY"
-  } ],
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "FAQ Feedback",
+  "slots": [
+    {
+      "name": "rating",
+      "entity": "RATING_BINARY",
+      "message_contents": []
+    }
+  ],
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "kcb_feedback_binary"
 }

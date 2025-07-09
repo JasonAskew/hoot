@@ -1,39 +1,52 @@
 {
-  "name" : "kim_glossary_option",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "kcb_kim_getdefinition", "kim" ]
+  "categorization": {
+    "tags": [
+      "kcb_kim_getdefinition",
+      "kim"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "An option is a derivative investment giving the holder an option to buy or sell a specified quantity of an underlying asset at some time in the future, at a price which is agreed when the contact is executed."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "An option is a derivative investment giving the holder an option to buy or sell a specified quantity of an underlying asset at some time in the future, at a price which is agreed when the contact is executed."
+        }
       }
-    } ],
-    "quick_replies" : [ {
-      "type" : "INTENT",
-      "payload" : "👍",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "1"
-        } ]
+    ],
+    "quick_replies": [
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "1",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4d"
       },
-      "label" : "👍"
-    }, {
-      "type" : "INTENT",
-      "payload" : "👎",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "0"
-        } ]
-      },
-      "label" : "👎"
-    } ]
-  }
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "0",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4e"
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "kim_glossary_option"
 }

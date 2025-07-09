@@ -1,71 +1,96 @@
 {
-  "name" : "70_Feedback_S_Response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "We would appreciate your feedback. \n\nIf you have questions or need more information, our consultants are here to help. \n\nSelect 'Chat with consultant' to get started."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "We would appreciate your feedback. \n\nIf you have questions or need more information, our consultants are here to help. \n\nSelect 'Chat with consultant' to get started."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Alternatively, you can select from the following options:"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "LIVE_CHAT",
+          "payload": {
+            "parameters": [
+              {
+                "name": "campaignId",
+                "value": "3392686470"
+              },
+              {
+                "name": "engagementId",
+                "value": "3392718870"
+              }
+            ]
+          },
+          "label": "Chat with consultant"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://secure.bt.com.au/contact-us/contact-form.asp",
+          "label": "Online Feedback"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://secure.bt.com.au/forms/complaints.asp",
+          "label": "Online Complaint"
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Alternatively, you can select from the following options:"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "POSTBACK",
-        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-        "label" : "Chat with consultant"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://secure.bt.com.au/contact-us/contact-form.asp",
-        "label" : "Online Feedback"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://secure.bt.com.au/forms/complaints.asp",
-        "label" : "Online Complaint"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "We would appreciate your feedback. \n\nYou can select from the following options:"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/personal/contact-us.html",
-          "label" : "Contact us"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://secure.bt.com.au/contact-us/contact-form.asp",
-          "label" : "Online Feedback"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://secure.bt.com.au/forms/complaints.asp",
-          "label" : "Online Complaint"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "We would appreciate your feedback. \n\nYou can select from the following options:"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.bt.com.au/personal/contact-us.html",
+              "label": "Contact us"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://secure.bt.com.au/contact-us/contact-form.asp",
+              "label": "Online Feedback"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://secure.bt.com.au/forms/complaints.asp",
+              "label": "Online Complaint"
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "70_Feedback_S_Response"
 }

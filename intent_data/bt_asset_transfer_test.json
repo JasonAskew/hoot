@@ -1,0 +1,868 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_asset_transfer_test",
+  "intent_name" : "bt_asset_transfer",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "e373bc3c-40a6-4a65-a0dc-684bf3f30727",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can I transfer funds {@transfer_type from} an account not linked to me BT account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0df3ac67-d556-4c3f-9860-44060cc606c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can I transfer my investment {@transfer_type to} NZ kiwisaver fund",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1cf19098-751b-4033-8d92-8676ff46246f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you direct me to where I can transfer funds {@transfer_type to} allocated account.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "e029fd96-6a27-4b5c-8840-4fc241334afb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you please help me {@transfer_type to} understand transfer processes between issuer platforms?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "98abe440-2253-4ef5-974b-0c13832ddabf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI a client is commuting her pension and placing it {@transfer_type in} her investment.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "833c0620-f398-4081-9920-80b86df9206c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi There good day. could you please let me know where i can find the intra account transfers functionality?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "5222f734-b713-4446-a808-13122b146a21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I'm not able {@transfer_type to} transfer funds to my super fund",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "57ea4da9-fb3f-4814-85e6-995e57a4609a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I transfer assets {@transfer_type in} BT Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c4359518-4abd-4947-be9e-1ab9b65a2a7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I do make asset transfer {@transfer_type out} of my BT Super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0e7a8532-d9cd-4298-b9e1-a76b1b100541",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I move my CMA account {@transfer_type into} another account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1d2e0822-ee75-4031-8d41-2ee61c51d1bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer {@transfer_type from} my cash account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "501a2812-6a36-4350-9631-7295ae2d6c0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to do an inspecie transfer of shares {@transfer_type into} my super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1f470c0a-3327-4063-8ad1-d45a2104d214",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How {@transfer_type to} transfer my asset online?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2818622e-bb88-425c-b891-e15a3d6aaa8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can I transfer funds {@transfer_type from} an account not linked to me BT account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "703edbf3-2554-4537-b966-f6a5b16bc2fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can I transfer my investment {@transfer_type to} NZ kiwisaver fund",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e6045a3a-6211-4914-acdb-b888a1f010e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you direct me to where I can transfer funds {@transfer_type to} allocated account.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "ce6f28ff-f423-4e04-a96f-c2f282d1b966",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you please help me {@transfer_type to} understand transfer processes between issuer platforms?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2b04a1c2-b226-4102-9f9d-c13489ba341c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI a client is commuting her pension and placing it {@transfer_type in} her investment.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "768bffb8-4d17-43a1-8041-80a5a0f46ef6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi There good day. could you please let me know where i can find the intra account transfers functionality?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "aa9aac8c-f6ae-4fe9-a78a-ab0aab0a0af5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I'm not able {@transfer_type to} transfer funds to my super fund",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6c75746a-b5c9-4042-96b0-cd93305edab8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I transfer assets {@transfer_type in} BT Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5221a86f-522d-4b87-b050-0a701431ea41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How could I do make asset transfer {@transfer_type out} of my BT Super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "72ee4454-f52d-4efe-9953-8ee44eb59ca1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I move my CMA account {@transfer_type into} another account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8189b8b6-cd1f-46fd-838a-d0f6009894fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer {@transfer_type from} my cash account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "f8999508-246c-4941-a0a3-09431a8354f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to do an inspecie transfer of shares {@transfer_type into} my super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "06fe5ad6-31b5-4929-ad99-5c69c02475c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How {@transfer_type to} transfer my asset online?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b1159e95-b733-4289-8d2d-913b93a52208",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I recently wanted to transfer $1111 {@transfer_type into} my bank account but was advised that I had insufficient funds! Can you please help me with this transfer?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6bb0c715-cd75-4792-8ddd-9189d37a18b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to transfer cash to another Bank Account. The amount is {@transfer_type in} excess of the daily limit by quite an amount. What do I need to do?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2a2ae474-c182-4072-b3e5-f129c55ce32a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I wish {@transfer_type to} transfer all",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9d86a149-6fe7-4ba8-b277-bbde985ba0e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to transfer my funds {@transfer_type into} my Panorama account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "87549c9f-331a-4949-a8f6-ea13688213b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I'm not changing jobs just pulling money {@transfer_type out} ofmy BT SUPER to move into my SMSF",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "df89dd12-d0f9-4c5f-bfdb-31717ffbe596",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "If I am rolling {@transfer_type out} a BT Panorama Super or a BT Panorama TTR Pension account to an external provider that accepts asset transfer, does BT allows asset transfer rollout?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "567d5c38-0c47-4c76-a3c0-8b389cc792cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "If I am transferring money from my Company {@transfer_type into} the superfund do I do that via the BSB and Account number of the Personal contributions Biller Code?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "77322e83-6b41-44e8-acfa-56ab4cb2b59b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Im looking for the fastest way to move my existing super {@transfer_type to} BT",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "96caa984-dffa-4660-bbe5-fd7d3daae636",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Transfer Superannuatoin",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8c2c97e9-0d18-453a-9253-1b2093d301f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Transfer listed securities {@transfer_type out} of BT Panorama",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "43be9e96-6d25-49da-8d01-0e44f7ba1c70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Transfer {@transfer_type out}",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0f01dfc1-cef1-4f24-9436-0c4288fceba7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Transfer {@transfer_type to} closed account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "6f57e8e7-21bc-44a0-94a0-bcd00ce2819c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Transferring this super {@transfer_type to} a different super account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "16273073-bacc-43bc-a073-180d6be3cbf0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What form is needed for a transfer of Wesfarmer shares to our mutual client who has an SMSF, {@transfer_type from} their friend who is selling them",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9ec2b3b0-49cc-42e9-9242-c389c12dd173",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What form would you use to transfer a BT Panorma investment account {@transfer_type from} one adviser to another?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a66ba7da-e6e7-4267-aaeb-16678e39a362",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the best way for me {@transfer_type to} do an asset transfer?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cd013f9a-049a-4bf1-976c-8c714b68fb40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "am i able to transferr money {@transfer_type from} my super to my lin√Ñ¬∑ed account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "bcd2e50a-1dda-4e3c-b0b0-226eb6224328",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asset transfer {@transfer_type in}",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9d62da88-f216-445c-a32f-f94a7fb86d32",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asset transfers",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "46449b30-2dce-467d-99d2-0e8ba4a35534",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer 1111 $ {@transfer_type from} the cash available on our availale cash 1111.11 $",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "be923633-9ecb-42d3-bbcf-b5f6116d7ff2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer money that 's available {@transfer_type to} a bank account if so how",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e4097c03-7ffa-4fa2-bd73-716910afa8dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer money {@transfer_type out} ofmy super account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "f9d63b66-254e-4ebd-8dea-69eb9e805d88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer shares {@transfer_type into} the panorma super platform",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3d3db712-3917-4048-8184-4e61740bc2c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asset transfer {@transfer_type in}",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "505d728d-8774-4314-b7df-16226a4a6c76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asset transfers",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "3bbb829f-e618-4e54-9be7-420f0deaf20b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer 1111 $ {@transfer_type from} the cash available on our availale cash 1111.11 $",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6fc83c6f-421b-456a-a6b7-cfbefa3e62c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer money that 's available {@transfer_type to} a bank account if so how",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5a1cfdf1-9214-45e5-be26-372107eb6da9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer money {@transfer_type out} ofmy super account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "1d766c3a-8228-49de-b593-4b71011ef365",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer shares {@transfer_type into} the panorma super platform",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5596a012-9287-402f-8c6a-6834fb3d97a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asset transfer {@transfer_type in}",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d2f54723-5661-42ec-b0d8-ce2a08b8ab62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "asset transfers",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a652460b-9e3a-4ea2-b000-73f727f4c8b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer 1111 $ {@transfer_type from} the cash available on our availale cash 1111.11 $",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cad8b1f1-cecc-4658-b3f1-d51e68dd09e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer money that 's available {@transfer_type to} a bank account if so how",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3ba774a1-7d31-4d40-a3cf-00fc5154472d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer money {@transfer_type out} ofmy super account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "58e5cb0a-c3b5-43dd-a685-03c5d0aa26b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i transfer shares {@transfer_type into} the panorma super platform",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e5023328-2da8-4104-9d7c-9091d5959df1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "direct share transfer",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "c7c7e97d-71e2-4e75-8085-d2808e9935cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "draw down remainding funds now {@transfer_type in} 1 lump sum",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b2a795a4-94a4-43f5-9696-d0e44cddb251",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "forms {@transfer_type to} use for share transfer",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2dfd391f-27e9-4d15-b430-2326bf7f3c4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey i want {@transfer_type to} trandsfer my account to another, how do i do that??",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f85d0498-a8f4-4c66-bc1c-6fa4a2dd85c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i transfer my shares {@transfer_type to} another broker",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cfd5f093-1fb5-45b8-914b-84eb36d6d5b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to transfer shares from atomic {@transfer_type to} my account how do i complete this",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "607d72a1-e085-46a1-a2d6-bb2e28090db8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need {@transfer_type to} transfer my holdings to another account as required by my new company",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "66120cce-2d94-41a1-af0c-4aaf97cf1e28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there how do i go about transferring my super {@transfer_type into} another account please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "041ae2a2-d8df-48b2-87c3-8edde835277d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what forms do i need {@transfer_type to} complete to bring over some westpac and boq shares",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aa44dcf7-9831-4ba2-9872-a26913b7929b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is the process for cash transfers for clients {@transfer_type in} investment product not super",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cdbff39c-7718-4e71-ab02-f07e2c98a612",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i locate your partial transfer form for a super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4df39aa7-15fa-4477-9245-e891340ab647",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i transfer cash {@transfer_type from} my pension account to my linked bank account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "15e4f97c-42ad-48e3-93af-d697d79851ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i transfer cash {@transfer_type to} a linked account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "22a1d194-6b46-45e3-acd5-aa7e1798b012",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make a funds transfer",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "16120dfe-a695-4211-80f8-055d4c3e40ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i move $ {@transfer_type from} cash to another category",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "73eb2380-a9f2-43ac-a5b9-ce413d6fa850",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i move cash {@transfer_type into} a managed portfolio",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a15cb5a3-7a74-4cb1-ac04-c5e653c8b0f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i move funds from accumulation {@transfer_type to} pension",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "80060cc5-9e90-4054-95a7-405550e4e1b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i move the contribution {@transfer_type to} invest",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e2ecf66f-38d1-4c91-9fa9-a51ff0182647",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfer another super {@transfer_type to} this one",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "bcef8734-d6da-45ae-a2cd-ee787db93abb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfer equities {@transfer_type from} another platform to bt",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d0392a73-7374-47b4-82f1-89233c1541a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfer money {@transfer_type from} super account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b44e87a0-7062-4de2-a52d-9fcc5920ace3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfer my iag shares held outside of bt portfolio {@transfer_type into} my bt pack thanks",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "608e450a-5c64-44f3-af3e-45128a2844c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfer my super {@transfer_type to} my smsf",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "05d193e8-c05c-48a1-9010-18192e4f117f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfer some cash {@transfer_type from} my account to my bank",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "77f308ce-4302-45d7-9da5-96648d0b09b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfer this {@transfer_type to} another fund",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "26f64dda-c0a0-4299-9da6-1e60667d7669",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfer {@transfer_type into} my cash account for drawdowns",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "0d09e68c-5563-4a36-b08e-0a62cb208367",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to i transfer money {@transfer_type to} my westpac savings account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "7c2f9095-20dc-4a61-806c-091b103718bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to transfer {@transfer_type in} stock",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d2e1aa34-6d45-4ac0-8627-4dc7e5921025",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have retired and wish to close my account and transfer the money {@transfer_type to} my bank account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "35882320-2c7c-416f-ba37-fb9a939ea5f9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need {@transfer_type to} know how to transfer cash",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "94dcbade-293e-4883-9548-5668ca9429a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need {@transfer_type to} transfer money within my portfolio",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f01bb5f8-8f71-4e6a-a4df-eafd4d43ddab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer 11000 {@transfer_type from} the cash management account to my external bank account how do i do that",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e9e64f89-6e71-4cb4-9d26-7a81c1b58347",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer money {@transfer_type from} my account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6d0f45fd-fffe-4e5b-a8e6-e56b92cc4e72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want {@transfer_type to} asset my bt",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "205e9c64-b2a2-4ce5-b8ab-2fb0eaa9433b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want {@transfer_type to} integrate stake",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7a8c978f-3dba-4e32-ab16-c252f0674ad4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want {@transfer_type to} transfer",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3d9ef34b-3b2c-4cc2-8a5e-6f2c45f5e906",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to know how to transfer {@transfer_type from} bob",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "63d5d5d9-9334-49dd-b73a-c5ccac0e4b63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to transfer funds {@transfer_type from} investment a / c to bank a / c",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "403f645e-e657-484d-9c43-f1f194848186",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like {@transfer_type to} close this account and have entire balance transferred to the Choiceaccount",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9ccbc923-61ee-4145-9e87-569857a87b99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in specie transfer {@transfer_type from} one BT account to another",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "06404696-3317-436d-93a8-bc4b89f1a0c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "inspicie transfer form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "b273e313-e470-493f-964d-fe5dfed55143",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "internal superannuation transfer",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "181eb4e6-cb33-4b4f-a80a-19444371166a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a cut of each day for when submissions for in specie rollover {@transfer_type from} bt panorama super to bt panoram pension occur",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7d2dddaa-7471-409c-8647-0d8342cc2862",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "offline asset transfer form super",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "966ec514-8f3b-46e8-937d-c9add0c41d9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "offline transfer asset {@transfer_type out}",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "526f6e49-166e-4df7-91ea-bb61657d2e67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "partial transfer within bt panorama",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8fed14b9-2f9f-4ab2-b604-16bc5537c9a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "partial transfer within panorama super",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "25ce3e3c-9a42-467b-8011-0d7ca4b3c310",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "process {@transfer_type to} transfer holdings to anither platform",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1d3e260a-8ec8-4a35-abbd-7334450e290e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit full transfer within panorama super form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a03d9c8a-fd49-46f6-9e48-e4330fd7757c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "41bb305f-4343-4d6b-a852-69e775995c80",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer assets",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "318fbef1-1e19-46fb-a05a-30807c6db315",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer balance",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a06ded29-97fc-4f59-8a30-bfa6eae28f23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer funds {@transfer_type from} cash account to linked bank account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "19b46142-7351-4f4a-a4b5-0395d44906b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer investment account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f72c4fae-d715-46ca-ab3d-28ecc79c00ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer investments",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2226756c-134e-4647-a2dc-0654692326a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer of funds -",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "39897695-0d2e-4146-8193-e70393cd7936",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer shares {@transfer_type out}",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3ff81e93-deeb-457c-9a54-1f71ace939ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer {@transfer_type from} bt to wespac account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "974ec41c-aa5e-446f-8a1e-2943b4dc8a27",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer {@transfer_type from} smsf to external fund",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "713fadcb-cf2f-46c2-aeb9-6bf45aa82047",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transferonly 1111 dollaresto",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "1fbd6f19-6eb8-4f80-8595-a1c0a54e187e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transferring stock {@transfer_type from} another provider",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "12094fbf-44c1-4933-b8a4-f5f334560e6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transferring super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "82259ce2-e1aa-47b0-9603-fbbc26e4edeb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8097790b-4102-45a7-b9c0-0aa7528780a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer assets",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "692cec4b-3cd1-4912-8dd1-7f2d6e6dffba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer balance",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "45622078-c414-4de7-abeb-554c21dd9cd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer funds {@transfer_type from} cash account to linked bank account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "436ca52d-54d2-41b6-aa3c-b87757f5a5d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer investment account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a60e41f7-8b76-43b7-a3fe-76a9a2a8401d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer investments",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "91be221f-98a7-43c5-a712-f1af1eee6683",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer of funds -",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "26c6732a-15bb-4c75-9c07-a820bf2e073d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer shares {@transfer_type out}",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "63266290-9e2b-4c24-8f3e-f029f65ba23f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer {@transfer_type from} bt to wespac account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "29c76c61-9d97-4034-824b-1bb1d67e4a6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer {@transfer_type from} smsf to external fund",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "49bf7b50-e50a-4b39-afd7-baf18c6e6deb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transferonly 1111 dollaresto",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "94e88634-627f-483a-83e7-f12726a79624",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transferring stock {@transfer_type from} another provider",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "e679bb05-0dac-426e-aff4-b3fb57ea4494",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transferring super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f338a45c-052b-4a9f-b9dd-b2df4ce3a256",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what forms are needed {@transfer_type to} move assets between account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "38861dac-1776-4beb-9b3f-625c5aced97b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the process {@transfer_type to} transfer a portion of my funds to another fund",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "eac0ee18-b7bd-459a-907e-6775a323d84a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the Choice of Super Fund form for Panorama Super?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "24de4340-e5be-433c-8cc5-2a1a8ce7371f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "winding up smsf and transfer in-specie",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1972b51a-89f7-422e-af8b-8a53cbdc3e15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@transfer_type in} specie transfer fome",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3e6f34e5-36a1-47f5-b29e-838889cc9fa3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@transfer_type in} specie transfer request",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "51f4c38a-7d42-4b77-beed-62ca0cef57dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@transfer_type in} species transfer",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  } ]
+} ]

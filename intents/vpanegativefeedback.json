@@ -1,0 +1,30 @@
+{
+  "categorization": {
+    "tags": []
+  },
+  "notes": "",
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "vpanegativefeedback"
+  },
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
+    },
+    "outgoing": {
+      "allowed": false
+    }
+  },
+  "display_sentence": "VpaNegativeFeedback",
+  "alternative_questions_enabled": false,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "anonymize_user_requests": false,
+  "anonymize_response_data": false,
+  "state": "SAVED",
+  "name": "vpanegativefeedback",
+  "display_name": "VpaNegativeFeedback",
+  "description": "VpaNegativeFeedback",
+  "alternative_question_eligible": true
+}

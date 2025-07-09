@@ -1,13 +1,16 @@
 {
-  "name" : "Message-Error-Invalid-Token",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Sorry, we are having some technical difficulties. Please try again later."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Sorry, we are having some technical difficulties. Please try again later."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Message-Error-Invalid-Token"
 }

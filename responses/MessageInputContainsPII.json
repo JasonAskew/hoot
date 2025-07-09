@@ -1,0 +1,16 @@
+{
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "For your security please don't enter account numbers, SSN, or other personal information."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageInputContainsPII"
+}

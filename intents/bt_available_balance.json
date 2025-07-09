@@ -1,43 +1,54 @@
 {
-  "categorization" : {
-    "skill" : "account_information",
-    "tags" : [ "account_details" ]
+  "categorization": {
+    "skill": "account_information",
+    "tags": [
+      "account_details"
+    ]
   },
-  "name" : "bt_available_balance",
-  "display_name" : "bt_available_balance",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_available_balance"
+  "webhook_name": "ClarificationIntent",
+  "webhook_params": {
+    "default_response_name": "bt_available_balance"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "CANCEL"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "CANCEL"
     },
-    "outgoing" : {
-      "allowed" : true,
-      "allow_resume" : false,
-      "max_outgoing_interruptions" : 1
+    "outgoing": {
+      "allowed": true,
+      "allow_resume": false,
+      "max_outgoing_interruptions": 1
     }
   },
-  "display_sentence" : "bt available balances (guai)",
-  "slots" : [ {
-    "name" : "account_type",
-    "entity" : "KCB_FLAT_ACCS"
-  }, {
-    "name" : "account_id",
-    "entity" : "ACCOUNT_ID"
-  }, {
-    "name" : "account_number",
-    "entity" : "ACCOUNT_NUMBER_PATTERN"
-  }, {
-    "name" : "account_name",
-    "entity" : "ACCOUNT_NAME"
-  } ],
-  "active" : false,
-  "machine_learning_enabled" : true,
-  "messages" : {
-    "IntentMessageCancellation" : "Canceled. How can I help you?"
+  "display_sentence": "bt available balances (guai)",
+  "slots": [
+    {
+      "name": "account_type",
+      "entity": "KCB_FLAT_ACCS",
+      "message_contents": []
+    },
+    {
+      "name": "account_id",
+      "entity": "ACCOUNT_ID",
+      "message_contents": []
+    },
+    {
+      "name": "account_number",
+      "entity": "ACCOUNT_NUMBER_PATTERN",
+      "message_contents": []
+    },
+    {
+      "name": "account_name",
+      "entity": "ACCOUNT_NAME",
+      "message_contents": []
+    }
+  ],
+  "machine_learning_enabled": true,
+  "messages": {
+    "IntentMessageCancellation": "Canceled. How can I help you?"
   },
-  "multi_inputs" : false
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_available_balance",
+  "display_name": "bt_available_balance"
 }

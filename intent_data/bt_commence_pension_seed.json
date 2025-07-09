@@ -1,0 +1,334 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_commence_pension_seed",
+  "intent_name" : "bt_commence_pension",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "c161368f-1948-4e37-a44b-9251d64db3b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I commence my pension?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ae3d79e8-d9c9-42c5-b676-f6eea73448e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I commence the pension over desktop?"
+  }, {
+    "id" : "ccecc33f-2dc8-4639-9306-c869c630b2ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to start a pension?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "2f08f875-7111-44bf-acd0-ae377106943c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence my pension.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "4b4acb87-ba79-45c1-a479-57f593f00232",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence pension for my client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "bb71d0fc-d36e-4af3-b1bd-7131b11e25e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Go to the page to commence pension for this client.",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b9eefc1a-0ae9-466a-810b-e83cf7a06abb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for a client?"
+  }, {
+    "id" : "2115d722-b157-489d-8f97-d463d18f19ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence the pension?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "2ccf3bcd-7251-4e54-9000-a59bcb0ebfec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I begin my pension?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "cd66039e-7b44-48bc-b0fe-699f943781d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence my pension?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "8b603cc7-b5c5-4358-8b22-ca5c6a3ba955",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension for my client?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "c3fee682-5603-480e-9c27-870c18ca180f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension for {@account_number 400349056?}"
+  }, {
+    "id" : "4f416090-8928-42d8-afc7-3237087bd787",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start pension for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "d929794f-5d51-42f5-bce1-cf2bee9a2f53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start receiving pension payments for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0da2ec5c-d899-4701-95cf-1530ac5fc8b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to help my client to commence pension?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "8acafd10-a1bd-43cf-9941-ded57832f343",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I commence my pension?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5bf7368c-72a1-4d9d-a5d5-59818efad4cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I commence the pension over desktop?"
+  }, {
+    "id" : "d6474088-a912-4d9b-b149-ea8cf54c2107",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to start a pension?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "3a783ee2-4e6d-4ce2-8505-e3c39049480e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence my pension.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "22812b74-5681-4113-af2c-5db21ce20803",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Commence pension for my client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "5a20a598-2519-4afb-8b23-6fb71f41b740",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Go to the page to commence pension for this client.",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "83082f4a-a9ef-444d-bf4a-43cd687c770e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence a pension for a client?"
+  }, {
+    "id" : "15fbf42f-7c93-4b0a-af0e-b2d39f9c7ccb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I commence the pension?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "67e34ea2-b3ba-4ec7-9d3a-6251cb0cba5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I begin my pension?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ab68e178-a57f-4b3d-a7ac-21f21c649a64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence my pension?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "3685a321-2386-41c8-b19c-2f729ffe26d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension for my client?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "abb21e36-921e-4503-b36d-c12df4f6c5cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I commence the pension for {@account_number 400349056?}"
+  }, {
+    "id" : "85d31765-a485-4fba-bd2c-47738d406f56",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start pension for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "5cb142d4-cf64-4942-8984-66ba4f76ba65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I start receiving pension payments for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "73b11ae8-1591-48d3-b0f6-5446b0b8bed8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to help my client to commence pension?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "1483cfd7-052c-414c-b919-6c2f0d4c49f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to commence my pensions.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "4a3f3c5b-1668-4610-b17c-0bcfecc66b5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to commence pension for a client"
+  }, {
+    "id" : "cf3ac566-5d52-45e2-854e-ba663380f469",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to start the pension payments on a clients account",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "11e671b3-31c3-424b-ab0a-fef2496e8229",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to commence my pension.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "66c4fc66-1b62-488d-a4a6-9e68b6d3d426",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to start my pension.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ad179457-7ca8-4f6d-a3f4-d2eb6aaee252",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible to commence a pension online?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "1e4519cf-99d9-4ca8-be4d-72e7ce954fd4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Start the pension as soon as possible please",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "3dab5582-b63b-4ee1-84c1-986f7dcdbcfa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Turn on the pension for this client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "86bb8cd4-ad1e-4084-a653-8172cdbb9711",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We want to start this pension now",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b079caca-736d-4d0d-afb7-9ef4219fe705",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the requirements in order to commence my pension?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "7e6d8c64-bd50-4236-bc51-6b2c3c5cb613",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I need to do to start my pension?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "cfcdb68a-c471-4144-b523-56cc7f0c0c90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What does it take to commence pension for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "9b9a7278-1d38-445d-bb46-904a34d50e42",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is needed to start my pension?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "3657abbf-322e-4053-83cc-cd406805333a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure for commencing pension?"
+  }, {
+    "id" : "95a8cdfc-c383-4f22-a9c4-1dc36cc5099f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure to commence pension for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a6ee0ee6-6acf-4a40-8fe0-03c4e025f92f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I commence the pension?"
+  }, {
+    "id" : "99d0efbd-ad13-46cf-a1de-5cb6b8804c20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to commence my pension?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "4ec12581-1f7a-4c77-b65e-4a5d55305bfb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where to commence pension for this client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a6b7fb93-2c0a-4768-899d-f66ab767e30f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would like to initiate pension commencement process for my client, can you help me with that",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "72931a90-de19-49b0-888d-f09e14a1ccc1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "commence pension for {@account_number 123412345}"
+  }, {
+    "id" : "0e60e126-4a3f-4b57-bf66-58d12c4d55f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "commence pension {@account_number 1111}"
+  }, {
+    "id" : "16bfcea8-bb9c-4f85-8530-bc669c4cad42",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i start getting pension payments?"
+  }, {
+    "id" : "27360e36-201d-4976-99f9-023a6c7f13c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the client has given us instructions to begin his pension",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "4254b3e1-5ecf-4963-be04-d668ceeecbbc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the client has given us instructions to begin his pension",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "1ecff9a7-197c-424d-816f-7ee5decb84c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I go to commence this pension?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "c708589a-3b57-4b7b-b5de-676afe06d99d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "who commences a pension, is it us?",
+    "tags" : [ "btmarchvariants" ]
+  } ]
+} ]

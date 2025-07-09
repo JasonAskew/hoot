@@ -1,0 +1,634 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "vpagreeting_test",
+  "intent_name" : "VpaGreeting",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "ef721ba3-d5c7-4bb7-b3f5-9b7d8ce36af4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon,",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "d696cdb1-31f4-4fa7-88ca-603a86b5b773",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "f5a97c87-f918-492b-8d22-357dd1dcdddc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good night",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "f88d1cc9-2d60-41e0-85eb-81964b200156",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "82028680-5d93-4c13-9ad9-339db1f19cf6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI,",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "613ec467-6448-456a-bd95-f3a992c2a1bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Helllo",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f026c764-cb15-4444-9da4-ba369d8925bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello bot",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "71ff693d-f676-4598-ad86-c09f39c3ddd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello*",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4fc3afd1-cd45-4319-a886-95cdf9d09207",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello,",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "aaa00585-50a0-4383-b547-d05bb417c279",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello.sir...",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2c85e00b-1ed8-4304-b670-53c739e2ee9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a972bb4e-8be9-4d60-9cb9-d361efe4e4b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey Bob",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "2bc9b98b-4f3e-4ffd-a802-1ee92fc09513",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey there",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "7720f679-9119-4906-8a48-d60111758130",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7de822b1-e457-49e6-895d-96f657c7dec8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ddfec731-3d5e-4c84-bfaa-9d2414ed2907",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Bob here blue",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "09fa72cd-6861-4f6a-8b51-80825e8566b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I have a question",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "e75e3b49-023c-4548-bb88-99eb66ed2628",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Nic, you there",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "dd25168d-ba92-4cb7-b5ba-ab7145514aad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Team",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "500463a0-2c40-4364-8a8c-d174c0ce185a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi There",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "c21d4fce-07ab-420d-aa1e-b83c313d991e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi bankname bot.",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "dceb0d8f-6562-4ed6-a245-e3d163f33897",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi its me again Bob Ryall.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "10ea8140-ce56-495e-bc4f-fe6fbf3d94db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi team",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ba490939-546a-4fec-aa6c-4713704650f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "da9c1368-5fa7-4b4d-9afb-346690df68e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there Bob",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8da5f928-67d1-4e75-93b2-4a6fa8b4f5b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there,",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b995becc-a161-4a43-b4eb-c43da57c6570",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi,",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "e414f243-864e-4bea-9da9-abb6f64cf744",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, inam",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "9d74f12e-63ba-44f1-8bea-81f80332fe09",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c5e5ffff-9f39-405c-8bcb-d9427285e5ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi....!",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "285b9437-6d67-47c7-98a5-3af34afb99fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "HiHi Guy‚Äö√Ñ√∂‚àö√ë‚àö¬•s,",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "f1cb1c49-29ea-4fee-b6e4-b6e07c211745",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are yoi",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "bfe69034-611f-491d-94e3-60471d5870d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How are you?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "99f1d774-d883-4caf-b643-f177eae28f4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How r u",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5daf346b-2c57-4c73-9b43-12d8bb8f419c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon,",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "be114e44-f781-40e7-8a22-98eb1c4febe1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "cb17c603-6aa8-4ded-a557-d68169a5e094",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good night",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "ece4e15b-2d5c-45f7-b160-8b09fe1102e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4cfa8201-0edb-40c4-b92b-1f8d1fedaff2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI,",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "dc65992d-c1f3-45d4-a23e-7f12a456b6dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Helllo",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2f872183-1cc2-4d84-b02c-a08918163eb0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello bot",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0b68435e-bfd8-4d75-be28-d24e839e1c4b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello*",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e4e394af-ff34-44ea-8f16-644d0e818586",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello,",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b2e4c494-97c7-40fe-9734-61b97da157a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello.sir...",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "eda2adbb-602f-4f84-8c73-317b994cf1a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8cd9ca22-4473-4228-ac54-90705538d5aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey Bob",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ab23c1d0-f913-4901-be83-1050ed3bdffe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey there",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "43b9e870-7984-4b16-a489-58d8de0c0500",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fe701e6b-2c48-4b0f-9ef0-e7759c104f77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "69a8e0f2-3cc1-40c8-8a30-9085c3324568",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Bob here blue",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "901f030a-d824-47d5-8f7e-465f436d7b1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I have a question",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "caa954c4-f08f-4ca4-bced-3fc4c96cdba9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Nic, you there",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "62ecf3af-21e4-4809-bae8-ab1d5ff5d104",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Team",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "fe1ee819-a60b-412c-8101-0bd1280b89b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi There",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "42eb15f6-b866-4f1b-aa28-abbf49030365",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi bankname bot.",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "ed3db13a-2f21-4a30-a33a-c1a9c27793d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi its me again Bob Ryall.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a5be3e10-c95a-458c-a9dd-505d805a7614",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi team",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4bcf9768-da81-4444-bbaa-f63b878dac6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0669a75d-c7a9-469d-8c3a-9d64cbdad3b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there Bob",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c9ec6fb4-f6cb-405d-b7f0-4e178a8ac4fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there,",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "beb154a0-667c-4554-ad6b-08a2a3d3cc51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi,",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "f8a7f14c-7ead-43c0-bd44-204b05906464",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, inam",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "d2c20cfe-eb94-4e41-9d4c-2b2b7a202f1c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fe49be74-966b-4326-a03f-588f2ade2172",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi....!",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0982517b-10b5-4492-83c3-b836edd4fe3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "HiHi Guy‚Äö√Ñ√∂‚àö√ë‚àö¬•s,",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "8662305c-00e2-4c07-86be-d5119aa561f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are yoi",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "9328af32-d08f-46be-b379-2e52aaabcf89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How are you?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5733349e-401c-4ef0-9b1c-e6933c1d22b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How r u",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d46e8ee1-55be-407f-ba06-058b812eb56d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Jello",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "eaecefe5-2f87-4fb2-8502-ef38fe7082d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are you there blue",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9fd2e341-88f2-4c58-ac59-152edc5ff67a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bt_greeting",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "97257774-be5d-4af3-8703-94a22d7d7390",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are you there blue",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e1b18344-5979-4832-b4bf-d8046e6b84b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bt_greeting",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "1c5c3331-6942-4e24-b410-7b7e7993c613",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are you there blue",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "befab20e-c847-4ddc-be57-91796637104b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bt_greeting",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "3bbb3af2-1fa7-4f4a-b4fc-b38e5dfc541b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good day!",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "98a18264-79c1-45ac-aa07-3fdec23a5251",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "55655287-1d3b-400b-8c75-086c46d47a28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "850e9a60-21cb-419a-9a15-99e74dc16bad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello any one there",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bb473e2e-4be5-4a93-90fe-3277a6edad9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello from bob south",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "203510b9-f885-4c29-9ca7-012b85dd43b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello oli",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "4ed2b5ff-558b-4c91-add8-2914f1fcbf87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello sorry",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2b00ff59-68b8-415d-94b5-d85f4cd0116f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello,",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "581f13fe-5161-44ca-a76a-43954081a873",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "78c05f5c-a0ba-4833-b372-c46f95d95381",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "helloe blue how are you today",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "32d824b2-cf88-43af-a222-1a31e54cc664",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "helloooooooo",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "51a6300e-9825-411e-aaa2-5239bc5d7f98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a81b490f-d843-4ad9-820a-f7441f60006d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi Blue",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "148af92c-2589-4b7d-83ed-893311600089",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi all",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cd4d76bc-a750-4e18-b756-83aad1263024",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi good morning",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4ba454af-2df5-4e44-a1e2-6a30c14badad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi guys",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "be3975ca-ac87-42d5-9e1b-2e3e71bc2990",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi hi there",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "6a34b4c6-dee2-410b-8c7a-7dc7193ab66a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am fine thank you i hope you are also good",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "f002b8c0-8b78-4513-848d-d67b84c62bc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i ca",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2cb58420-ff0d-4e9c-8886-aa8d3f1a89e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi luly",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cb7ce465-f26a-406a-85f5-029dc6397b79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi my membership number is 111111111",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "18c3c808-fab1-4d99-8bb3-fe00349776ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi there.",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "decaa3c6-55e1-47c8-9664-8bd6095cad91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi this is bhumien",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0d5ed0a6-0986-40b6-80dc-922e63e62809",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi thre",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c6058690-2677-41d4-a6eb-d67fc4798c00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hihi",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e612c04f-7892-47a5-8862-b72a01923fef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hwllo???",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "ce687104-742b-4958-a335-62877509a80d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sorry hi not Bob",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f64135d5-afc8-40a8-bedc-62f5ba0b7e70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "still there",
+    "tags" : [ "westpac-plat-050321", "merged_from_vpaunknownrequest", "test_platinum" ]
+  }, {
+    "id" : "3db7c898-eb69-4651-a1e0-cf72eeaaba8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me how you are",
+    "tags" : [ "platset", "test_gold" ]
+  } ]
+} ]

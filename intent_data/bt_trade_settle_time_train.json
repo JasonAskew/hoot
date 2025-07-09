@@ -1,0 +1,1890 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_trade_settle_time_train",
+  "intent_name" : "bt_trade_settle_time",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "0550a10b-e02d-4300-b080-705d0e6206a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Amount of time it take for a trade to settle",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "e7004ff3-242f-4e78-9176-458b6f9f94e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I pre-date a trade ?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3f2227f8-edec-412b-bcd5-051fb6e53c4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please advise when the sell order I have arranged will be completed - it was placed 1/1/11.",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "35374090-2ec3-4c60-a0aa-f42428423f59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I get the proceeds from a trade each week",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "30f76b5e-99fc-4349-8bf3-27f2d39a8dc4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi just wondering about progress of investment",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "878f32bf-a0bf-4ec4-a911-7095fba022e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi just wondering about progress of investment order",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "7d672a82-af5d-408a-b3e3-01fba117e30e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long after making a trade does it take to settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d6a3a9c3-4f92-4180-98d3-fb1f8db98b46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do I have to wait before a trade settles?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f100e6af-5445-43ec-94c5-9d6b3468bda3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do I have to wait for the trade to settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f609eb23-9e65-4934-85ec-0b2c37ac0182",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do trades take to settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9ce57b72-a3be-462d-9d9a-88611da1a84a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my trade to go through?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "19ef57dc-817d-46ac-afb8-bf61a6b13928",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does settlement take for a trade",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "27918f21-39fd-47fe-a10d-c8e332bb30e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long is the process for trade settling?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "876bce1d-2054-4724-b84b-7a2d562569fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long is the wait for a trade to settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "c8fee5f0-a717-47d0-bde4-8fa3a770bae6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take to get the proceeds from a trade?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "eea0b5da-dc03-406b-9c8e-5d4faeb9bc73",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take to receive proceeds from a trade?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "0cf236cb-b49a-42ec-bd14-92a0591ac6d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many days it takes to complete the switch of the funds ?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "631ddbf1-4379-4f0c-8c41-177912f3fd9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Amount of time it take for a trade to settle",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "95023f59-bd73-4bd2-a117-fb12e3ef0f51",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I pre-date a trade ?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6ba4547d-9bf2-4d74-b533-567c0e9546f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please advise when the sell order I have arranged will be completed - it was placed 1/1/11.",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "6fc08df6-34f5-410f-9440-f6708228db8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I get the proceeds from a trade each week",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4a4a3a51-64e8-43ef-95f8-b3ad411d8571",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi just wondering about progress of investment",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "0f2160f7-cf2b-42ed-9142-e35c9e948b5f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi just wondering about progress of investment order",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "59da882b-4fc7-45e7-8502-1135ee6dfac6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long after making a trade does it take to settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "ceda1d03-e134-4302-bfe3-86770032d864",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do I have to wait before a trade settles?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d2d6ec44-723c-4422-a797-604f1c5d3cf3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do I have to wait for the trade to settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "51fc4924-1572-4d69-b54d-324239299222",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do trades take to settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3257e0c0-7ddf-4c42-b368-4ad5d8cf46ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my trade to go through?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "71f156af-f1e4-4f61-89dc-8428494ea551",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does settlement take for a trade",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d6b21b50-b0c7-4432-b0b4-ff10ae960b81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long is the process for trade settling?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "adc93460-dc33-4ad6-a520-0cf88900cd3c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long is the wait for a trade to settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3daa1722-21c2-453c-a1c0-4e1950009dba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take to get the proceeds from a trade?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "056f6474-0f51-4887-a64f-7873d2aadd70",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take to receive proceeds from a trade?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "ebff1aec-d5c6-4aa1-ad8d-5565db9e2351",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many days it takes to complete the switch of the funds ?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "6f1b1d55-4be4-484d-8c5a-13754188b673",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Sell order still not completed",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "f7eb9974-cac0-4664-9eae-566c0f878e47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Status of sell order says In progress sent to fund manager",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "453e453b-9b0d-4fab-8ba9-4fad4cd2c5ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Telll me when my last trade will settle.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8f59c508-b197-433b-9496-964fe5ff2fe4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the timeframe for settlement of a trade",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a5274390-fd13-494f-b6d4-4aa92bac65af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the timeframe for share trade settlement?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d9c95904-131a-448e-96ca-9a8e12965856",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the timeframe to receive a trade settlement?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d47fab69-d90a-4dba-bab0-4a96e148d7b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What way to settle trade",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "66ec3c6f-dbca-404b-8cea-4ecd81b323bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When I request a trade, how long do I wait until my account reflects the trade?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "581430b6-6ac3-4d0b-8cd2-3d5915e05824",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When can my trade settle",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "efdf0c8e-7d94-49e0-bb83-ebecda75852a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When do I get the money from my trade?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "53f7e01d-71b4-4870-aad9-a321f15fc04f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will I get the money for my trade",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8cfc3b27-4e82-43d5-a216-fdce228ecca7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will I get the money from my trade?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "63844df4-b4d1-46bb-9808-d7d93668bcd3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will a trade settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "07f88936-fbe8-4095-b1eb-fc2aaaba141f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my last trade settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "95bb7597-3bf6-46f5-ae3b-be32597b29a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my trade settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "702c142f-cba5-4ea7-bfa3-099f661d45d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my trades settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "0375ea05-e21d-49c4-b997-06fd834d9bb5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will share trades pay out?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3278bfb8-bd54-4a66-afd7-8c5d85a41dc6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will the funds from a settlement go through?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "408e36ee-f544-469e-8e0c-6e526b531d1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will the last trade settle",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3ddff1a7-c2b0-4412-bfdf-35c755c757b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is my money from my trade?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "70f32d20-3ecd-4c26-b3f3-ec32b5648f55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why haven't monies been transferred to my account because of my trade?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "e8b62314-42cd-4eec-b161-98c4ad9e7c80",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "advance defensive multi-blend fund adv1111au sell 11111.111111 1.1111 11111.11 $ $ completed",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "6f14c50a-6a9e-4ee5-95c4-6a5f8b668d27",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you check for me the stauts of a trade"
+  }, {
+    "id" : "27dcfa91-8b93-443a-bbc5-6760f8f69b57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please provide the redemption window for charter hall direct office fund",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "31837c1c-0883-4a99-9fd6-b442a6b6fe48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check on trade",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "580b8a4b-55c8-46a5-9ba1-b86b92dfb1a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check selldown progress",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c47458a3-16ca-4dda-9db3-6f1d8de6edca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check specific selldown request",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "974b22f3-6b0f-49c8-8d1c-4060018df346",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you check for me the stauts of a trade"
+  }, {
+    "id" : "18192e5e-d6a7-45d2-9d4e-419cc69cb39c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please provide the redemption window for charter hall direct office fund",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c36e5ab6-7a7c-4e68-972b-ce2b05cbb865",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check on trade",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "495a395a-bdc6-4aa7-9485-228a4861008c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check selldown progress",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ab720151-7ab1-4ac4-9703-73356a1ca21b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check specific selldown request",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4cb72d68-705d-4405-b3b3-5a9ceba630c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you check for me the stauts of a trade"
+  }, {
+    "id" : "1a589a6e-0b41-4d03-a30f-ae61f8b7d16b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please provide the redemption window for charter hall direct office fund",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e108e9fc-2de8-4ed1-a1ad-a21861d67848",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check on trade",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "913a660e-5004-46a7-8c4b-376e2f3a4760",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check selldown progress",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8333937a-9b9a-4b9d-8e31-35ec6ed48a64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check specific selldown request",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "804c5fa9-a1a2-4c7e-aa16-7cfb9a0c9847",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "checking on investment the high growth portfolio states pending‚Ä¶ what is the reason for that",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "2b5b6528-26e5-4c9e-a531-981e0a1ef2c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "clearance timeframes",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c8dd79eb-e82d-48a4-ab35-73825446b1b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could you let me know why it is taking what i believe is a long time for the pimco wholesale plus divsersifield fixed interest fund",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7687775c-562f-4a74-b975-78a32821bea3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "daily cut off time for managed fund sales",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e962e56b-24d7-428d-ba22-de3e3cf11bc4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "delayed sell order",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ddeb6e6f-22e9-4ff4-af76-724630061e46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do investment orders expire next day if not places",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f98c79d1-bf2c-473b-8c22-49c9a2fb2916",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does money from sale of shares go into my cash account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "13231818-bcb8-444f-9591-89717e42c3fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund manager timeframe",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7c18e953-a9e3-46c2-80d8-191a362dbf2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund sale proceeds",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "c27dc734-6438-4e8a-bba6-bacbc21bd0ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning can you please confirm what the estimated sell time is for wht1111au",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1f8efd5b-e304-4a1a-8e75-daed0f3481df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "has my sell order been cancelled",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "69746e81-8408-462e-87d1-35302e329b69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have already submitted orders on 11 th september when is payment expected pls",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2230faad-ec1e-40c8-90ac-2a61539dcd5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "have received a request to authorise trade not yet on system doews it expire if delayed by panorama system",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "feeab7d5-e7fb-402e-aa87-95d37d83e7ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am following up a change of investment i did more than two working days ago how do i check when this will be",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b325e5a9-8488-4fdd-8130-aff5d69226ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello would you please advise how long it takes for a sell transaction to be actioned i applied on 11 th september regards sharolynn bob",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5c27d629-d264-4b66-8005-8231269ca92f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey just looking for confirmation on why the anzr shares have uet to be sold down",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "853a4636-3f32-402e-8c17-7f57f1b9260d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi 1 days ago i instructed 1 share sales the funds have not cleared to my account yet how long should this actually take",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6b4a75b3-77cd-47bb-a576-1f7c3ce43be4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you advise when will my trade 111111111 will be processed"
+  }, {
+    "id" : "aafcb324-f5f0-4c53-8eea-95a9d2d0ab16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi could youadvise how long a partial redemption from bob capital blended australian equities will take",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a483c7c2-c3cf-43be-8081-e42b07ff05a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how long does a managed fund sale take to settle"
+  }, {
+    "id" : "daa49a97-ab13-470a-98d1-5731d1057a98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am following up about issue with your system where a sell order was not executed i called some time ago and never got",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9deb6b4a-0f00-4122-b762-138a44f6430d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have a sell order which i lodged on 11.1 when can i expect the funds into my bank account thx",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "492e8ea9-84a1-43d9-959e-5b80e647b42f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have made an investment order and it is still open a week later please help",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "06a0f373-3bae-4327-862a-79f8bab1d302",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have submittted a trading order for a / c bt panorama super 111111111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "52b49e6c-3801-4f3b-8e08-9d90cb6244dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi just wondering why it 's taking so long to process my sell order"
+  }, {
+    "id" : "688430cd-d928-41bc-93c7-0996502e5a3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there how long does a sell order usually take to process i requested a portfolio be sold on the 11 th id 111111111 it",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "30330718-f8dc-446c-b08c-27c24323cfa7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi we are trying to place a trade for mqgpe and the system will not let us - is there a reason for this",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9f9c5830-0018-4783-a979-5ab322b19a24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is the redemption time for managed fund wht1111au for bt panorama investments accounts",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1bb441c0-30de-4af8-bc38-6a5852d52120",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi when will my funds be available from order id 111111111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d2e2ae67-2a99-4e82-a73a-e8a47d71f550",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how bob do investment orders take",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a245f37d-b924-486b-a23e-e9da4830a682",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i check status of a trade",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "52708e24-3518-4e7b-a9b0-893311bfc41c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i find out when the shares i asked to sell have been sold",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f5f1b005-986e-41f1-ab3e-8525dcba5cef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i tell when an sale will be put through",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "98d052b6-d393-4db5-9845-7308a9190c08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i check progress of a sell order",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "93f3853d-4c11-4ee9-aa14-e8761e18d468",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i download a trade order confirmation",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "776e4532-070a-418f-8714-69e3f8bd28ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i recieve my funds when i have sold",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "94559db3-7017-4361-8f58-73ee8683400b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long before my investment order is actioned",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "fd8c1279-c51a-419f-b1e6-7b9052f18666",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long do managed funds take",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "6fa67555-85d0-4e7f-8380-31e9e30f1303",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long do redemption take be paid out",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d261459e-7d12-4b15-aded-20f3a8774f49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long do sell orders take",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "de587975-6b21-4934-81cc-728f61053010",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a sell down take",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2341e5a5-b05b-4ca1-a985-2d5d03eebf5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long does a sell order take",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "c389b373-7521-4e0a-988e-40531ded1271",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a sell take",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "82a09592-ad40-42d7-8572-39f249cc9a95",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a sell take to process",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "059829d9-d572-4006-ae8c-9b921b4080d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a trade take",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "6359c2f8-bca9-4d4e-8627-6bd2cdd894bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does an asset transfer take from an investment account in bt to an investment account in an external platform",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5751886b-abec-46ff-bf1a-aca3982d3369",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does an investment order take to settle",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "77980a3c-9713-4d85-80ad-a3291fd4487f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does is take for managed fund to sell and settle"
+  }, {
+    "id" : "2857b64d-6ec7-47f0-8de8-84abb66f8b2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for a transaction to sell shares take",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "8f82f5ad-5fd0-4c75-85e4-facafd3c5e17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for bob investors worldwide take to settle",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ec3bdced-f59e-4db7-8e7e-8452a1374899",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for investments to sell",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "95e2d91f-c880-4a65-91de-ae6cbd72ad41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for shares purchased through a corporate action to show up in panorama",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "0b866b93-5627-4525-935a-e818dbe11bf1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for the cash to be available from a sale of shares",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "4f267778-9830-4589-9bbd-1bdacaa437e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take onepath wholesale diversified fixed interest trust to redeem",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "b8d06afd-071a-42c6-aeac-54081194e7cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to close out and be refunded from a fidelity wholesale plus australian equities fund investment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1b4e4470-4321-47dc-b291-17e0564f4baf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to execute a sell order",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0b167f29-aa6b-43e8-8bef-a0cb4fa4a6df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long does it take to proceed a trade",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "a7f185e4-7537-4291-bf0d-5a6c8c238246",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to sell",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5a0b514e-a02b-4c6c-8be8-ed2ce3212e63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to sell all of an investment",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d46d75f2-b778-4df1-bdeb-3dc1c1e627ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to sell an investment",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c31bbbbf-4ecf-4cdc-bee5-0a161347d9dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to sell down",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c01bf869-ded5-487c-b334-1b13b980b469",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to sell down investments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6646a026-072f-44d9-b2eb-82399e5c5b64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to sell holdings in a fund so i can then buy into another fund",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "fa67b9cf-37b0-46c1-8962-04893931d277",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to sell investment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d403c11b-1e04-45d9-a001-b2d76d9daaea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to sell my investments",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "31c3550d-a845-4d57-a10f-6165679d047e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long does it take to sell shares",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "411bc923-80d2-4e99-ba34-b6703d639c5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to sell the portofolio",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a5dd9cee-c362-4a63-8089-a3577d371b59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it takes",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "50af2ad1-803c-4899-8979-1d2a6cdca506",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does sell of trades managed funds take to have the cash available",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9d64d9a9-4fbf-4706-b1fb-e0f61b4ac100",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does selling an investment take",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "490a1af6-c7ed-43cb-ab71-668dcd1f900f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does the purchase of a managed fund usually take"
+  }, {
+    "id" : "409a240f-6956-4dc3-8eb0-6dc6e8987cc8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long does the purchase of a managed fund usually take?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "5043e460-9d0b-4308-ad5b-b8bf8d8a1dab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does wfs1111au ‚Ä¢ bob multi-sector bob high growth portfolio take to sell down",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bf3e8b97-2291-46a3-ae1a-90c15e65d448",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long for cash to be released on closure",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "21d31971-1721-471d-9045-b29c714ae31f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long for investment to sell",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "09ea52cd-4e7e-4f45-9405-18915b933d91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long for my investment order to be processed",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d167f7db-dbb9-4acc-b976-28292888cb16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long for sales order to be completed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2dd6c11f-d20a-401c-9898-d44d23c30f21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long for sell investment to settle",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b64bf207-8936-4a4e-8ab9-568fb0825a76",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long for the trade to be complete",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "7e9f8ffc-798d-43d1-a209-f0a49af389fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long investment orders",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e3fe093d-c3e2-40a0-8f20-989bdc40599c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long should a fund manager take to complete a sell order",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "dc8a59a0-755a-4fa6-ad98-34f6f11817c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long till my pimco shares are sold please",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d9128a3f-1773-46ba-af50-f7a164ee6a6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long to cash in managed account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "19442d4c-b705-42b0-b564-d85478ce37ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long to process a sell order of a managed fund",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ef1eb42d-26d7-4535-aad9-12098d028276",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long until funds appear in account from share sale",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "19e95e7c-faa6-4ace-b41e-36777360a878",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long will an investment sell down take",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1589ee68-6460-4d0b-9ee8-855bfa70bce2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long will it take for my investment order to go through",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "fa0876f1-6065-4904-ae29-00d12ce0529b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long will it take to receive funds from investment sales that are showing completed on your website",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7c645a88-0ccd-4095-b450-c1b7307f8799",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how many businesses days does it take for a sale to be processed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "48be9345-6bdf-40dd-bf79-21d049de0f0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many days does it take for a trade to settle?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "7fdd451d-2757-4fe9-9f1c-d276c08c0c16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how many days it takes to complete the switch of the funds"
+  }, {
+    "id" : "86e01531-b295-47cf-9cb8-b326a939e9a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how quickly do trades settle after execution?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6fe5b1d2-8930-4f6d-832c-fb2317ebb6e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to get order confirmation from a trade",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a3091561-7f91-4cf3-84a0-eef4a5085289",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i 'd placed an investment order three days ago that is still in progress and want to confirm when this will be done and why",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "59213a06-5805-444e-9f0b-569cc43ea6e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am enquiring as to the status of my sell down to transfer to another fund",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f89a0965-16cc-42c3-8aae-641586a65f2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am following up a change to my investments done my than two working days ago",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7af22c06-0db4-4c74-a4b5-5e471bb04896",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am needing to liquidate someinvestments to raise capital for purchasing a property what lead time is there from instructions to sell and the funds",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d1cc4870-0497-41e6-b1e1-e55d4ed50f54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am wondering why the status on our managed portfolios indicates that it is still pending it has been like this for a number of",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "04293b7b-b6d4-47e4-8a75-90b2a039e6e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i asked to sell investments on the 1 st december it still says in progress",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e8ba66e7-c81f-4001-86f3-b2b445562356",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not appear to have received a distribution on one of my investments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "18889b9a-8a33-4723-96ac-0e8476ac8f42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i had submitted 1 sell orders which are yet to be processed",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "b2155308-35eb-428f-9cea-c13abbab5a8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have completed a transfer request to a cash balance but today it is still shown as active balanced",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a3bdb1a9-5c22-4a2c-9e6e-f22207e69fc2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have requested closure and can see this is happening would like to know when i can expect the funds in my westpac savings account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d482fb7c-0f13-4efc-86b5-c6b572adf0fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have sold 11111.11 $ and wondering if the money will be deposited to my cheque account please help",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9c05b9cf-62d0-45b9-852b-e24d3b8ca5cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i have sold a manged fund how long till it settles",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "f6104faf-9a71-41f8-a059-11ea852b4933",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have sold some fixed interest does this money get deposited in my cash account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6a492503-b1be-4df8-aa78-451d96d2ccb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have sold some shares and a part of self managed funds how do i know when the transaction is completed",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "bdaa02f8-54b1-4b5a-8d50-70c85161ca2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have submitted some investment orders to sell funds and shares the status is now saying in progress sent to fund manager variety a",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "22ad35c6-943f-4542-b0d9-cbf6766b4d8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i made 1 transfers two days ago 1 off 11000 and one of 111000 are these pending i do not see any sign of them",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "66f9a0e9-2a5a-44c5-8cfc-6b80647172c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i placed a sale order on the 1 / 1 / 1111 it says been sent to fund manager still no word",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "bd697505-789f-4591-8242-d07caa0424dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i placed a sell order just on one month ago can i please have an explanation as to why this has not been processed",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "c16df2c4-966b-4203-bc3a-f4a7cac908e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i see that one of the funds i have is still showing pending for a week now",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "343edd75-5d08-4954-aea2-e81b9053fde4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i see where a sell order we had placed on 1 rd may has been completed but the money has not shown up in our",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4f1f78b4-7fa0-4226-b523-0d559d3c9211",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i sent in a rollover form over a week ago - into a self-managed super fund why has this not yet been actioned",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a00274e2-723c-4ff9-81a5-ae3feb24517e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i setup a buy option on my jb hi-fi share on friday evening how will i know when these shares have been actioned",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "adfd25f7-ccbf-49af-8a64-72ff03215b66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i sold my shares when ill get the cash available",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6cfb0e39-be67-4426-9dcd-1af34d8306a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i sold my telstra shares today and i do not know where the money went how come i cannot see it in available cash",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "feae9d37-a50a-468f-9c9f-dd19b726f8ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i submitted some investment orders for sale 1 work days ago they are still pending - can you confirm how long it takes for this",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f4989398-1846-44d6-afe5-490e1375dde3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i there i am just checking - i have just sold an investment - when can i use the cash from this to buy another",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "92dd5848-5762-4946-afe4-48331acfea28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to download the order confirmation",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "66bb7242-50fd-47f6-ab37-6b62cfd73c55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if cash investment strategy is active on a super account will this affect the any investment orders placed ie will investments sold be placed in",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "900677b2-e414-4d47-8698-d096640fdc22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if i sell an investment in my super fund can i allocated the proceeds to another investment at the same time",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "8a12e3de-751a-4f2e-afc7-f6800cabe688",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if we sell orders do they immediately go to cash once sold",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d7fbddee-260f-48ba-b352-10dd6862ac0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "incomplete trade order",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "99019886-77aa-49e2-b9ad-da8f4b708925",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "inveatment pending",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "41e28c14-912d-4ffa-b85b-6c09d0a580b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment order progress",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bd0742e8-2a84-47ec-a481-4a363da9516a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment order time frame",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a9f6796c-724c-49c9-aa85-b0ed3ed7f22a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment order timeframe",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7c7a132b-9ded-4dd6-980d-293b211e5148",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment orders status",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "cf6615e8-81e5-4851-bfc0-94a6d08f64da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment sell down follow up",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6a26a445-761e-4e88-ba03-0e707c33840c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment still pending",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b8fcb01c-cf2c-412d-addf-dd4c18193575",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment timeframe",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "33676937-2a5a-47a4-b3d3-534c62bdf57b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a problem with this trade or is it still happening",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "99269297-f5c5-4402-be24-15e68749cb30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ive sold some shares to put into cash however it does not appear",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "faba9a61-daee-470a-8fe5-dc4a01dac6b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "last week i sent in an order to sell all my shares why has it not been actioned",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6401e04c-a26d-460d-ae86-036001be40dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "long to proceeds from trade?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "916031a5-d1f3-4cda-b455-7c60fd181400",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "managed fund cut off",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e532e6d1-341d-41c5-bc10-ba206fccc028",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "managed fund redemption order status",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6575aabc-8678-4185-bb22-2f82dc202ac2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "managed fund redemption time table",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "75ef7f19-44ca-4832-8261-e367053a47a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "managed fund turnaround times",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "02e5cdf2-0f87-4b1a-bebc-9306432abb26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "managed funds settlement",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "01f426ee-4cd3-46ae-95f5-4f268030ec2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "market time",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1ca9311f-5b63-49e5-adf6-1efd92a27f1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my investment in symbio was bought by aussie broadband and i am wondering when this will show in my investment portfolio",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b4cbd560-95f0-422f-886f-431d7d642c72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my last sale of shares were on 1 feb why proceeds not reflecting in my cash account"
+  }, {
+    "id" : "5da57414-cb0d-436d-a984-3e38a8213f24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i have made a sell order last week - i want to check its progress",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "fcf8ec4f-2d2e-43df-a884-27615ed4ca08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i want to check the status of a sold investment order",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ee31eca4-c55a-4ed8-a4f7-66ed1bc16e64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ok the order was made on the 11 th july 1111 but notes say in progress sent to fund manager is this likely to take",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "de0804c9-ece7-4c5e-b395-3e355d650d79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "on 11 / 11 / 1111 we put in a sell request to sell 11111.11 $ from our advance defensive multi blend fund is it",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "9c9cd8ba-063f-4cb9-bbb9-1ae6bf968ece",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "order confirmation",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a5bcaba3-94a9-4682-a6b0-3c7b78a5ae98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "order id 111111111 is still pending any issues",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "766a3da3-ad0b-454b-9a32-dffce710b3a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "order progress",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a5c5aa08-016f-4216-8f68-0555285c1e5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pending investment order",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "76c82a87-343f-4092-b51b-51ed96f56710",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pending trade update",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "afb73d73-d9b1-4d16-8730-321bbe0824aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "placed an investment order to sell investment how many days does it tale to sell",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "36c6cea2-a3b5-4d56-8a83-dedbb6fbedc7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please update the position on my sell order for bob",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "730018af-9291-4c11-abef-bd96d63c2fcd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pls advise on sell orders from 11 th sept",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "77f6f94d-b90e-4243-b9f6-b46b03b956e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "processing time",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a1867a33-6ca8-451a-8e1e-03c719c9430a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "processing times",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7df94618-e91c-471f-ac58-848337b35b13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "progress of trade",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "dd4edfd6-05ac-4062-aa77-3e0609cee1f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "query about my pending trade 111111111"
+  }, {
+    "id" : "53017dfb-0f17-4ca2-be40-6832a07cd883",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "redemption timeframe",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "10a9bf6b-a9b6-4949-a7bd-ab753972764d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "redemption window",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "91fae9b1-0b1e-4549-bc74-80b7fe8e1fac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover time",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "db20fecf-a50f-4efc-bba3-db6f299d5345",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sale of portfolio still not done",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8c62ac29-3d5f-489d-b552-6bb82c20ff87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell down timeframe",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "04ae36e8-2689-4151-9585-5db785756bf4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell investment time",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "bbfd7a12-3e90-417d-b6d2-7b084cd9b499",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell order delay",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "986364d0-d635-40ef-ad69-a65d593c0585",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell status of bob order placed 1 / 1 / 11 at 1.11 $ the price reached 11cents today",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "78e3ad74-e37d-4e83-8684-5cb4ee39406e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell time",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e896cfc3-6dd6-4ada-80a1-bc9f97734383",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "selling units in a unit trust how long to settle",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "70974e1a-5159-4543-8c3f-610fc830675c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sent to fund manager",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a2d8d7ab-7920-4572-9129-f55ea5fdbbaa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "settlement period for unit trust sales",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "6eec5758-b64d-453e-88d2-648869bc0965",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "status of investment order id 111111111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6fe6e38d-373a-4c4c-aa72-b7b17fe89b26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "status of sale of perpetual esg fund",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5704a2dc-5c15-4e0a-97be-e20907af9de3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "status of sell of investment fund",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "66ceea22-a901-4cf0-acff-0e2e5e5f78d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "status of sell order says in progress sent to fund manager"
+  }, {
+    "id" : "720a4478-0a29-4f53-8317-5209048003e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "status of trades",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7feebdb9-5db5-4b3b-aa23-193ec946e891",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there has been a delay in my sell request",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "8b0c207a-4c4f-42ed-b88e-662bf174409e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time frames investment orders",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2824f0b5-0ca4-447c-970c-35eaac560b28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "track order",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "785e0a1c-c243-46d5-9fdb-3be6d955a63c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trade not completed as yet",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d96150ec-0028-4495-b176-247ca54fe162",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trade not processing",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a9c4fce7-15f6-4a64-ae4b-e95550ae6c98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trades in progress",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "862642f5-882f-464f-adfc-7126efb0b035",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trading time frame",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "bc4226ec-fb06-4b50-b0d3-39fa931bcf0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trading times",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "fbcfbee7-35ac-49a1-8069-e9e6b7add699",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer time",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "7f9f6a1f-69fb-46e2-99e8-809cf9ff0dba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to settle a trade",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "32445134-5ef6-4fa9-9b0e-7ca7c6c2a877",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update on sell order",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a66d82bf-f4a1-4c98-b554-cac307327a32",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update on status of investment orders",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "08c9743f-0732-4fb9-ad7f-d6a8ec23b3e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to know when recent sale of partners group global value fund ¬∑ etl1111au will settle",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b5dc1871-1d74-4720-8942-ec31cd1dda9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we sent an order to purchase vanguard on 11 october and it is still pending is this normal what is the standard turnaround time to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8088b239-3b02-4cc1-8d40-8576f793cb8e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "were is my cash from sale",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a555e045-9de1-44da-9140-17e75b71c007",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there has been a delay in my sell request",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "8d31d543-be0f-48c1-af53-cd99c3006c5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time frames investment orders",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a1c35b32-e366-40b3-9c43-162710b2eb0c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "track order",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8617f38c-0989-49ce-9105-76f87565be33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trade not completed as yet",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "e5c48ec8-4a7f-4ccb-b758-e7dd1399aaad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trade not processing",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e8a1ba30-837e-4f32-89bb-6849699419ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trades in progress",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "1d76f849-6312-47e0-adbf-9073012b20a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trading time frame",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f1ea37cb-6997-4425-88e5-c432b56a5eea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trading times",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ac380586-55d3-4d96-ae7e-43ded64c9041",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer time",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "fc790f85-13d5-4fc7-a268-9e8ecf16dd05",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to settle a trade",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "cbef50dc-9a84-4b01-872e-88adca1d7e11",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update on sell order",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "71ba8619-28f0-47f5-925b-6af3469fad96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update on status of investment orders",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a6310135-c601-43b1-a22a-5a3987b54603",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "want to know when recent sale of partners group global value fund ¬∑ etl1111au will settle",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "cdc57c41-03e6-4638-9735-e9ee18c2b860",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we sent an order to purchase vanguard on 11 october and it is still pending is this normal what is the standard turnaround time to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "26082a75-3089-49c3-be56-72e8aabd0c95",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "were is my cash from sale",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e77b3401-cee9-4b55-941e-33f61ec060a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what does queued mean for a managed fund order",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bd9d4560-289a-4a62-9a65-a0c796171723",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what does sent to fund manager mean",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "bcbb2fb0-eef7-467f-b5ea-fbc4b125258a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what does sent to fund manager men",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "93276480-7b65-4c58-a3f9-2d7a466d8a7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is happening with this trade",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d4190926-ddac-4744-9a70-26de2cff6ca0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is status today of sale of all my perpetual esg australian share fund pero111au",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1f7ac822-6909-4370-acfa-9a6b53648777",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the status of my sale with partners group global value fund please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3766816d-0fd9-415b-b3fd-2bd95797b323",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the time frame for a draw down to be completed and funds made available",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "4810c392-1913-4dce-ac01-8b5a92a69754",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the turn around time on a sell order"
+  }, {
+    "id" : "a007d69a-c9a3-496c-bf52-37676bbcb0fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when do sells need to be lodged by",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "99fc67fb-4b95-4ece-9d5d-93f73716615c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when is the sale completed",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "4f38d20f-01ff-4270-a11d-777214c272a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when selling shares how do i know have been sold",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ec6d53d2-f89e-4eaf-9472-fa7ac816aaeb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will a sale settle into the cash account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "59af0bdd-c185-4d4e-a4f9-d78ebae1c1dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will dividends be paid",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "bb65c427-c5d8-4b06-9f24-6138e45a4b6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will i be credited with the endeavour shares spun off from my woolworthss holding",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "9bd5a99c-feb2-4f78-8ef9-93e6879b6aef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will i see the result of my trade",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "55829861-1b56-4d54-8abc-258f3fc1e77f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will investment be bought still pending",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "4dde6a33-ab1f-42a0-8eec-9a4689a5a961",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will my change of investment happen",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "93eb4077-e5ef-4f68-b961-b649f8ebc174",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will my investment order be processed",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ce609d0c-f524-432c-972b-3fc53455c0de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will my redemptions be forthcoming",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "cf5f2c57-b2be-44ad-8e3e-057f3da1faef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will the franking credits on my shares be vredited to my cash account"
+  }, {
+    "id" : "4d8b1f10-7be7-4466-8dbc-672ee2b65f49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the settlement time periods for various managed funds",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "cf0e6e97-1e9f-43b5-a203-da992d0ed091",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is my money from sold ahares",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "33e45815-6833-42d2-9965-cbbf4cce5027",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why are investment orders being cancelled",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ab51fc51-075c-4d6c-9af5-56cbb58a8612",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why didn't i receive the money from my trade",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "28970322-5432-42c4-b42d-2d855a1db2a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has not a trade settled",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6c293b6e-7f22-4626-8815-dd34c9e5a28b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has not my investment changes been processed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c15e877b-1ed1-4303-9401-8895ecfef7b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why hasnt my sale gone through yet",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "38d70586-acb6-4431-8110-d2f2a100ae7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is an investment order taking 1 days"
+  }, {
+    "id" : "f2ecbf40-fa5b-476f-842a-d0a5c08f18f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why is an investment order taking 1 days?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "bfec2dbc-ed31-4227-9f97-42d8afcb02ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is it still under progress"
+  }, {
+    "id" : "fd96ed72-404f-4729-8324-9da3beea2896",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is it taking so long to sell my shares request sent in 11 th april still in progress",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "08c6b2b8-b20e-421a-9355-086abf264688",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is my investment amount pending it has been pending a while now",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "73f59307-7453-4d24-9994-801bd1c8194d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is my latest investment order taking so long",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "75744dff-8670-4d35-81c1-79c60b0927bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is one of my share holdings only updated as pending but the balance seems to match the qty that i should have",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "221e65d0-c383-4638-8b0b-96a226832744",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is taking so long to sell managed portfolio",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "65fdd41d-2740-4f8d-8842-8ef9b7615fe1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is the account not being updated with todays share market movement",
+    "tags" : [ "qa_updates_2025_q1" ]
+  }, {
+    "id" : "6593cebf-b1a1-4287-9170-e6370373a1d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why the delay with my sell order",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d79fad09-047c-4349-8d0d-e76984e0f371",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "with a withdrawal be processed if there are pending sell down",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  } ]
+} ]

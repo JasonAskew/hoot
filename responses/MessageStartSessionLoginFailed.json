@@ -1,0 +1,17 @@
+{
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I am unable to authenticate you at this time. You can continue as an unauthorized user or try again later."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageStartSessionLoginFailed",
+  "display_name": "MessageStartSessionLoginFailed"
+}

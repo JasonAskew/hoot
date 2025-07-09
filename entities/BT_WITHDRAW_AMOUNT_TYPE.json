@@ -1,12 +1,36 @@
 {
-  "name" : "BT_WITHDRAW_AMOUNT_TYPE",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "partial withdrawal",
-    "aliases" : [ "partial", "part", "pay", "payment", "payments", "payment's", "portion", "some" ]
-  }, {
-    "value" : "full withdrawal",
-    "aliases" : [ "full", "all", "every", "everything", "entire", "close account", "account closure", "close my account", "close this account", "close the account" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "partial withdrawal",
+      "aliases": [
+        "partial",
+        "part",
+        "pay",
+        "payment",
+        "payments",
+        "payment's",
+        "portion",
+        "some"
+      ]
+    },
+    {
+      "value": "full withdrawal",
+      "aliases": [
+        "full",
+        "all",
+        "every",
+        "everything",
+        "entire",
+        "close account",
+        "account closure",
+        "close my account",
+        "close this account",
+        "close the account"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "BT_WITHDRAW_AMOUNT_TYPE"
 }

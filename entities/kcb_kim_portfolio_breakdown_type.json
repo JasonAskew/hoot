@@ -1,12 +1,26 @@
 {
-  "name" : "kcb_kim_portfolio_breakdown_type",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "sector",
-    "aliases" : [ "category", "sector", "categories", "sectors", "industries", "industry" ]
-  }, {
-    "value" : "stock",
-    "aliases" : [ "stock", "stocks" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "sector",
+      "aliases": [
+        "category",
+        "sector",
+        "categories",
+        "sectors",
+        "industries",
+        "industry"
+      ]
+    },
+    {
+      "value": "stock",
+      "aliases": [
+        "stock",
+        "stocks"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "kcb_kim_portfolio_breakdown_type"
 }

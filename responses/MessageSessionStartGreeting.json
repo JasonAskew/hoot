@@ -1,0 +1,631 @@
+{
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": ". \n\n\n\n\n\n\n\n  \n\n\nWelcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit?\u2019."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Following this message are helpful buttons for common queries to get you started."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "How can I assist you today?"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_client_details"
+          },
+          "label": "Change contact details"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "76_ServiceRequestStatus_S"
+          },
+          "label": "Status of request"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://www.panoramainvestor.com.au/content/secure/panorama/whats-new/advised-super.html",
+          "label": "What's new"
+        }
+      }
+    ]
+  },
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": ". \n\n\n\n\n\n\n\n\n\n\nWelcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit?\u2019"
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Following this message are helpful buttons for common queries to get you started."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "How can I assist you today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_client_details"
+              },
+              "label": "Change contact details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "76_ServiceRequestStatus_S"
+              },
+              "label": "Status of request"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_tax_and_annual_statements"
+              },
+              "label": "Tax and annual statements"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_bulk_reporting"
+              },
+              "label": "Bulk reporting"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.bt.com.au/panorama-demo.html",
+              "label": "Panorama Investor demo"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Welcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit?\u2019."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Following this message are helpful buttons for common queries to get you started."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "How can I assist you today?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": ". \n\n\n\n\n\n\n\n\n\n\nWelcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit?\u2019"
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Following this message are helpful buttons for common queries to get you started."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "How can I assist you today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_login_failure"
+              },
+              "label": "Help me sign in"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "BT_SupermergerwithMercer"
+              },
+              "label": "BT Super merger into Mercer Super"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": ". \n\n\n\n\n\n\n\n\n\n\n\nWelcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit?\u2019"
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Following this message are helpful buttons for common queries to get you started."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "How can I assist you today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_client_details"
+              },
+              "label": "Change contact details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "76_ServiceRequestStatus_S"
+              },
+              "label": "Status of request"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_tax_and_annual_statements"
+              },
+              "label": "Tax & annual statements"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": ". \n\n\n\n\n\n\n\n\n\n\nWelcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit?\u2019"
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Following this message are helpful buttons for common queries to get you started."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "How can I assist you today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_client_details"
+              },
+              "label": "Change contact details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "76_ServiceRequestStatus_S"
+              },
+              "label": "Status of request"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_tax_and_annual_statements"
+              },
+              "label": "Tax & annual statements"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_eofy_key_dates"
+              },
+              "label": "EOFY key dates"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account__advised_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": ". \n\n\n\n\n\n\n\n\n\n\nWelcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit?\u2019"
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Following this message are helpful buttons for common queries to get you started."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "How can I assist you today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_client_details"
+              },
+              "label": "Change contact details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "76_ServiceRequestStatus_S"
+              },
+              "label": "Status of request"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_tax_and_annual_statements"
+              },
+              "label": "Tax & annual statements"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": ". \n\n\n\n\n\n\n\n\n\n\nWelcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit?\u2019"
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Following this message are helpful buttons for common queries to get you started."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "How can I assist you today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_client_details"
+              },
+              "label": "Change contact details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "76_ServiceRequestStatus_S"
+              },
+              "label": "Status of request"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_tax_and_annual_statements"
+              },
+              "label": "Tax & annual statements"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": ". \n\n\n\n\n\n\n\n\n\n\nWelcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit?\u2019"
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Following this message are helpful buttons for common queries to get you started."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "How can I assist you today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_client_details"
+              },
+              "label": "Change contact details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "76_ServiceRequestStatus_S"
+              },
+              "label": "Status of request"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_tax_and_annual_statements"
+              },
+              "label": "Tax & annual statements"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_eofy_key_dates"
+              },
+              "label": "EOFY key dates"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": ". \n\n\n\n\n\n\n\n\n\n\nWelcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit?\u2019"
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Following this message are helpful buttons for common queries to get you started."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "How can I assist you today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_client_details"
+              },
+              "label": "Change contact details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "76_ServiceRequestStatus_S"
+              },
+              "label": "Status of request"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_tax_and_annual_statements"
+              },
+              "label": "Tax & annual statements"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_dg_manager",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": ". \n\n\n\n\n\n\n\n\n\n\n\nWelcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Following this message are helpful buttons for common queries to get you started."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "How can I assist you today?"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "76_ServiceRequestStatus_S"
+              },
+              "label": "Status of request"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_tax_and_annual_statements"
+              },
+              "label": "Tax and annual statements"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_bulk_reporting"
+              },
+              "label": "Bulk reporting"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser_emul",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Welcome to BT Panorama! As your virtual assistant, I respond well to straightforward questions, like \u2018How do I make a deposit."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Following this message are helpful buttons for common queries to get you started."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "How can I assist you today? :)"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "state": "SAVED",
+  "name": "MessageSessionStartGreeting"
+}

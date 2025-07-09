@@ -1,0 +1,682 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_update_primary_mobile_test",
+  "intent_name" : "bt_update_primary_mobile",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "9ee23402-e68b-4d13-a6b6-f7f837e97944",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change mobile number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e17f2789-484b-4ff2-8864-f6e6d8963f0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon, BT super has my old mobile number this is the correct one 1111111111 are you able to chance this name: Dmitri Medvedko",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1e5c32a4-161c-474a-bfe5-5204f424bc4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I am trying to access my BT Super account and wish to use a different phone number. Can you please assist?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "73d89877-396d-4de7-937c-baff3f4b50f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, Could I please update my clients Home Phone number?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "65bd7e1f-4ea4-4016-b988-138891b56402",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi i would like to change the registered mobil number for verifying transactions and changes on our account from my husband's to mine, I am the primary account contact",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "377f439d-0d46-4f72-aed7-033823ae41fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I'd like to link an account, but it seems that I don't have my mobile number listed yet. As it is out-of-hours, are you able to assist me to do this, as I'm not able to link an account without a mobile number.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "8b22091d-14e8-4625-92cf-651768ee6728",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I change my mobile number on my panorama account",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "05a16b92-7360-4232-b22b-6093fecc6702",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I update my cell phone number",
+    "tags" : [ "goldset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "3a20fa40-34ab-4b7a-a71e-a9a4c029b0e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change mobile number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0d82172c-d044-4640-b8f8-a9f43d61b75d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon, BT super has my old mobile number this is the correct one 1111111111 are you able to chance this name: Dmitri Medvedko",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6471652b-c5d2-4b8c-8c40-b64ce2eea2e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I am trying to access my BT Super account and wish to use a different phone number. Can you please assist?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "33de8aa5-3f3a-466d-9fd7-37fc7b4c6513",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, Could I please update my clients Home Phone number?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "be1723d2-2a3e-4704-9947-a9bce0cfa735",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi i would like to change the registered mobil number for verifying transactions and changes on our account from my husband's to mine, I am the primary account contact",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "f5b4d694-4c30-4040-97ae-59358ddcbed8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I'd like to link an account, but it seems that I don't have my mobile number listed yet. As it is out-of-hours, are you able to assist me to do this, as I'm not able to link an account without a mobile number.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "1723a97d-b155-4032-86f3-4b854aa023f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I change my mobile number on my panorama account",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "871e0907-424c-416d-9533-021e5a9a67ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I update my cell phone number",
+    "tags" : [ "goldset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "e6bad11d-c21b-4523-9f2e-93c272abf4f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to update my email and phone number please could you help me with this also",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "17f0af9c-b3a0-4a80-bcdc-425b53ac1a8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to change my phone number",
+    "tags" : [ "goldset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "0360af5b-6ef3-495a-9f17-bfefaeab5c4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Mobile number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5a174013-b42e-446b-8060-7e594e055301",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "My Mobile is wrong. I think it might be 1111111111 but should be 1111111111. How do I change this",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d2442962-be24-47b6-9d19-1b69c26dc454",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Need to change mobile number to log into account and reset ect",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e9e84648-fcb6-45e3-8d7e-833b0a3398f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need to update phone number",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "ee829027-e163-4b78-912f-d5f9992969a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Old phone number unable to log on",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "359bc2d5-e716-40ea-8c52-18b3266e4c89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Our client is currently in Ireland so is on a different time zone. It is going to be very difficult for him to phone. He is trying to get access to his new account online but a code is being sent to",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "f5465854-fb4d-49d0-885d-87f958837813",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add mobile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a9079b20-76cc-4d64-88e4-b912549edd77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add mobile number to receive bt panorama login validation code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fc9e82ba-6479-4d02-9584-832afb7cc386",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add phone number to clients account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e499321d-c235-4477-9ace-a6b2016b25f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend mobile number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4b4918f5-5c0f-482d-9229-77b1cea8b668",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "amend my mobile no",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "03611cee-9924-4147-8cff-2b18b99d8a8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "amend my mobile phone number",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "0882a913-8c30-4d0a-b1a6-6f113413dcad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can contact details be changed to overseas mobile number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cb893c88-9607-4e9f-9641-f0f9cc615f59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of mobile number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ce67666c-827e-4242-9e28-08a5148711b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of phone number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1e50c1a6-6469-4894-8e44-c6ed00e4fc70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check contact phone number is correct",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5b602232-692d-46c7-8579-4209e09acb4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend mobile number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2bc90315-fcfd-4c6b-8527-489fd3603de1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "amend my mobile no",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "43f529db-ee1b-48f9-abf7-5cac225d1086",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "amend my mobile phone number",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "42dd2743-b227-4b29-a025-d01c275916d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can contact details be changed to overseas mobile number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5b1efb0e-c43a-458a-a5c7-1296456eff6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of mobile number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "3cea3f49-f36d-4a58-9618-2218d6968c4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of phone number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "233a8de0-7b4f-4547-ae67-ea25d6a2ebab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check contact phone number is correct",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "28236951-7229-49b2-be5b-a67f4ce26ea3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "amend mobile number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4065d768-c714-4557-abf8-a05a89d1017e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "amend my mobile no",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "7185ccc6-6e37-428a-84c3-143d7c07973f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "amend my mobile phone number",
+    "tags" : [ "platset", "merged_from_bt_update_contact_details", "test_gold" ]
+  }, {
+    "id" : "9c589fb3-34d2-40e5-b4d0-2148c881f489",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can contact details be changed to overseas mobile number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "23e07082-30d3-4ba8-86a0-cb9a7c188894",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of mobile number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d2ba252d-dc52-426f-a8f6-21693e54e49c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of phone number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "76c656f7-f773-4faf-81cf-2de163a35b56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check contact phone number is correct",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6716b365-785d-4229-9c9c-bcae8f377e4b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have an overseas contact phone number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "221a17c9-bf02-4c52-b6a6-0da1a013c08e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i need to amend the mobile number that messages for verification 's sent to",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4ce52265-fac5-4d7c-9467-49d1a0d5b172",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue i have a new mobile phone number how do i go about letting you know the new number bob",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "78a296a4-5068-46b5-91ad-3fc7f6a6f16e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i no longer have access to the registered mobile for verification purposes how can i access my account please",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2a928c0c-4d4b-41c9-b5fc-2e4c0ab9dd5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to change my mobile phone bob adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7accea97-010e-4df3-ae87-bff2bab3fb46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi it seems that bt may have my old mobile number on the system",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "57f64cb8-6948-4423-b4c9-228e3a0545c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi just trying to get into my bt panorama login - my mobile is lost and i wish to change the verification mobile to either",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8d46f199-2740-4d1b-a660-5167991c4a73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi the number i had in use is not with me anymore",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "31c74469-7783-45ba-986b-1bc54a5ba0b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my contact mobile number for sms verifiy",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d21b8879-b52f-4543-8d54-6668fe74a4b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i link a phone number for sms",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "787b2203-2712-4990-ab8d-63336cc599c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i recover my ysername if i have a new phone number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "258ea372-6df6-4304-8737-f4546612fb4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i register a phone number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "04df0da9-deb8-4f54-904b-5c5e6c6197d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i update my mobile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fcef4b73-1e5b-4cbc-9418-93f9490b58b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to update mobile number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "4a20e099-643a-4700-ae09-1be901460651",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to delete old phone numbers and add new other contact number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a4874f73-2f46-4d50-ac52-fc616bb8aafc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not remember my log in details and i have a new number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2c39332e-eb5f-45b4-8c6e-912696c6b27b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not have that phone number anymore",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "47ba9027-e000-4448-91cc-04e2d0c73bce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i dont have the same mobile number anymore",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "29e835cf-5af5-4364-98f0-10100942a2ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have been asked to enter a code sent to my sms but number on file isnt my number what do i do",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dace4aa4-979e-4c06-be06-e4ca1d26f675",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have put in a new mobile number - can this be accepted and verified please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3ce07728-a516-40a5-a766-c062541e8f94",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to change my contact mobile number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4c65148a-f191-4b64-bf26-299a9ff04c80",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to change my mobile number to my account so that i can change the password account no id 111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0a7732a2-8dbf-4f33-a0fe-ce2355cbebee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i'd like to update my mobile number",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e0f392d6-1476-4ec9-a463-97f77dc82a9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "like to change the mobile number for the security code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7bd2395f-3f2f-45f8-8c7f-93eaa7e110e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "mobile number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1a75f916-dc68-4fe2-8464-89ed1ceebeda",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my contact number is wrong",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0d3c49ac-ac57-405a-b060-44c16bcf6e41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my mobile number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7601af09-975d-4481-ab8d-7db669f2dd3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my mobile number 1",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d759131c-6e6c-4347-9cff-f0bb2594b5a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my mobile number has changed and i can not access my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3b1e841b-07e2-4a28-ad2e-c4ef0889261b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "nee to change mobile for sms code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b8a3346e-8c91-4c29-b5df-0f24e378d5d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to add a secure phone number to access online",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9b3d5e60-a16f-4f4c-93c4-8a0e362be2ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to add mobile phone to account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "934968fe-c33b-4b7a-b0c5-3e4c9b9d6217",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to change client 's phone number - input incorrectly",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4237d2d9-1eeb-4339-ad84-76c0205a60d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to change my contact information mobile number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "772f2441-8795-4551-8eeb-d1bbad7aaba5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to change my mobile no",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "0462d14d-3d34-41ca-a8f8-04a1ced17b25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to update phone number",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "a2090f2b-ac57-42ec-8ebc-2c5d937a9c44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no longer have mobile number",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f501ba5c-c4f1-40c7-9d4e-e69667122b7d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "phone nubmer has changed",
+    "tags" : [ "westpacplat2", "merged_from_bt_update_contact_details", "test_platinum" ]
+  }, {
+    "id" : "facb11ce-ced3-4caa-a956-e8489aba2ae3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "phone number change and forgot my user account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6afa01f4-41b1-499b-967a-1e949f6b069c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "phone number not in use",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7143e625-1d68-4a16-b354-68d3627851fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please advise how i can advise a verification phone contact number",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "29c5b541-0227-4d28-968c-14b4c6dd25cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please update my mobile details as requested by my adviser a short while ago so that i may receive the security code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "65ee6008-0cf5-4822-93af-926abc447df3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please update my personal details my only valid phone number is +11111111111",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "69b0a554-df25-4eb3-9ec9-b3e29f6f98ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sms code not to correct mobile",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e7c62ed3-fe2c-463d-b28f-eb99c543332e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update clients mobile no",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6eb41a79-48ce-4e15-bdbb-dfcf5eaf5901",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update last name and mobile number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d7429949-803a-41dc-8a78-5ccb6d545e36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update mobile number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2f0af3d3-291f-46c3-9a06-877418f09f26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update mobile number for authentication",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "acce5b2c-f879-4839-9240-8c08cd22b7e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update mobile number please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7c77f9da-0529-429a-a1c8-31db81b0fc83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update primary phone contact",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "dccbea9d-d718-4fd9-a945-6da34c17067e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updating mobile number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d55301a4-bf5d-444e-80f7-3116957c88b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update clients mobile no",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "22675904-2ab2-4885-b681-51534c5bad67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update last name and mobile number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "04eb4446-5e5a-409b-b226-92aea6df6c82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update mobile number",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "cccebc25-0186-46b0-b915-621277f8f6ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update mobile number for authentication",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e1e92107-1459-4f8f-96aa-9b86cd2e5bef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update mobile number please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bd9a0163-24a7-4901-92f4-924f8d937293",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update primary phone contact",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c2fc7557-fd1a-4a56-b475-d6822afa0ef0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updating mobile number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ec137224-6d01-4170-bdcb-ce4a3224d27a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why isnt my mobile phone linked to 1fa",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "40d3dac7-f0ac-440d-9e53-96d7574f68c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wrong number",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "88bf1bb7-4a74-4542-b9f2-84ce6638e192",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "x xx xxxxxx xxxx xxxxx xx my phone number xx xxx xxxx xx xxxx xx xxxxxxxx",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c2b71f7e-43a0-4b98-b3ad-7481f617fdf6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "xxx xxx xx x xxxxxx my phone number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3e38e9af-e0c6-4927-840e-660bc70f1370",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "xxx xxxx xxxx my phone number",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8c2bf0d1-5266-475a-b5a0-87731dbb9c6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "xxxx xx xxx xx x xxxx xxxxxxxxxxxxxxx xxxx xx xxxxxx my phone numberx xxxx xx xxx xxxxxxx",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

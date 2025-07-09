@@ -1,55 +1,79 @@
 {
-  "name" : "bt_payment_limit_bt_panorama_smsf_no_payanyone_null_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "One of our consultants will be able to assist you. If you would like to chat with one of our consultants please select 'Chat with consultant' button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "One of our consultants will be able to assist you. If you would like to chat with one of our consultants please select 'Chat with consultant' button."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "LIVE_CHAT",
+          "payload": {
+            "parameters": [
+              {
+                "name": "campaignId",
+                "value": "3392686470"
+              },
+              {
+                "name": "engagementId",
+                "value": "3392718870"
+              }
+            ]
+          },
+          "label": "Chat with consultant"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "POSTBACK",
-        "payload" : "Chat with {{livechat-start#authenticated}}",
-        "label" : "Chat with consultant"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To make a payment for a client please select 'Guide me' button. More information on making payments is available by selecting the 'Find out more' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "912810",
+              "label": "Guide me"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/payment-and-deposits.html",
+              "label": "Find out more"
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To make a payment for a client please select 'Guide me' button. More information on making payments is available by selecting the 'Find out more' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "912810",
-          "label" : "Guide me"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/payment-and-deposits.html",
-          "label" : "Find out more"
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_payment_limit_bt_panorama_smsf_no_payanyone_null_response"
 }

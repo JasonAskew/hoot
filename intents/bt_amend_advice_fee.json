@@ -1,38 +1,45 @@
 {
-  "categorization" : {
-    "skill" : "payments_transfers",
-    "tags" : [ "fees" ]
+  "categorization": {
+    "skill": "payments_transfers",
+    "tags": [
+      "fees"
+    ]
   },
-  "name" : "bt_amend_advice_fee",
-  "display_name" : "bt_amend_advice_fee",
-  "description" : "Intent to show procedures for amending advice fee",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_amend_advice_fee_placeholder_response"
+  "webhook_name": "ClarificationIntent",
+  "webhook_params": {
+    "default_response_name": "bt_amend_advice_fee_placeholder_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "CANCEL"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "CANCEL"
     },
-    "outgoing" : {
-      "allowed" : true,
-      "allow_resume" : false,
-      "confirm_if_cancelled" : false
+    "outgoing": {
+      "allowed": true,
+      "allow_resume": false,
+      "confirm_if_cancelled": false
     }
   },
-  "display_sentence" : "How do I amend my ongoing advice fee?",
-  "slots" : [ {
-    "name" : "fee_type",
-    "entity" : "BT_AMEND_ADVICE_FEE_TYPE"
-  }, {
-    "name" : "account_number",
-    "entity" : "BT_ACCOUNT_NUMBER_PATTERN"
-  } ],
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "messages" : {
-    "IntentMessageCancellation" : "Canceled. How can I help you?"
+  "display_sentence": "How do I amend my ongoing advice fee?",
+  "slots": [
+    {
+      "name": "fee_type",
+      "entity": "BT_AMEND_ADVICE_FEE_TYPE",
+      "message_contents": []
+    },
+    {
+      "name": "account_number",
+      "entity": "BT_ACCOUNT_NUMBER_PATTERN",
+      "message_contents": []
+    }
+  ],
+  "machine_learning_enabled": true,
+  "messages": {
+    "IntentMessageCancellation": "Canceled. How can I help you?"
   },
-  "multi_inputs" : false
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_amend_advice_fee",
+  "display_name": "bt_amend_advice_fee",
+  "description": "Intent to show procedures for amending advice fee"
 }

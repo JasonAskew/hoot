@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "migration" ]
+  "categorization": {
+    "tags": [
+      "migration"
+    ]
   },
-  "name" : "bt_wrap_account_number",
-  "display_name" : "bt_wrap_account_number_Inactive",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_wrap_account_number_response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_wrap_account_number_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "Do I still need my wrap account number?",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : false,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "Do I still need my wrap account number?",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_wrap_account_number",
+  "display_name": "bt_wrap_account_number_Inactive",
+  "alternative_question_eligible": true
 }

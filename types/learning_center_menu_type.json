@@ -1,0 +1,112 @@
+[ {
+  "categorization" : {
+    "tags" : [ "sys-no-delete" ]
+  },
+  "state" : "SAVED",
+  "name" : "learning_center_menu_type",
+  "display_name" : "Learning Center Menu",
+  "description" : "Type for the Learning Center",
+  "collection_name" : "learning_center_menu_type_collection",
+  "content" : {
+    "$defs" : {
+      "SectionElement" : {
+        "oneOf" : [ {
+          "title" : "Subsection",
+          "type" : "object",
+          "$ref" : "#/$defs/Subsection"
+        }, {
+          "title" : "Link",
+          "type" : "object",
+          "$ref" : "#/$defs/Link"
+        } ],
+        "title" : "Element",
+        "type" : "object"
+      },
+      "Subsection" : {
+        "type" : "object",
+        "properties" : {
+          "subLabel" : {
+            "title" : "Subsection Label",
+            "type" : "string"
+          },
+          "elements" : {
+            "title" : "Link",
+            "type" : "array",
+            "items" : {
+              "$ref" : "#/$defs/Link"
+            }
+          },
+          "schemaKey" : {
+            "const" : "Subsection",
+            "type" : "string"
+          }
+        }
+      },
+      "Link" : {
+        "type" : "object",
+        "required" : [ "label", "link" ],
+        "properties" : {
+          "link" : {
+            "format" : "url",
+            "title" : "Link",
+            "type" : "string"
+          },
+          "label" : {
+            "title" : "Link Label",
+            "type" : "string"
+          },
+          "schemaKey" : {
+            "const" : "Link",
+            "type" : "string"
+          }
+        }
+      }
+    },
+    "additionalProperties" : true,
+    "type" : "object",
+    "properties" : {
+      "Section" : {
+        "x-options" : {
+          "disableSorting" : false
+        },
+        "type" : "array",
+        "items" : {
+          "oneOf" : [ {
+            "title" : "Labled Section",
+            "required" : [ "secLabel" ],
+            "properties" : {
+              "elements" : {
+                "title" : "Elements",
+                "type" : "array",
+                "items" : {
+                  "$ref" : "#/$defs/SectionElement"
+                }
+              },
+              "icon" : {
+                "title" : "Icon",
+                "type" : "string",
+                "enum" : [ "Video Icon", "PDF Icon" ]
+              },
+              "secLabel" : {
+                "title" : "Section Label",
+                "type" : "string"
+              },
+              "schemaKey" : {
+                "const" : "Section",
+                "type" : "string"
+              }
+            }
+          }, {
+            "title" : "Standalone Link",
+            "type" : "object",
+            "$ref" : "#/$defs/Link"
+          } ],
+          "title" : "Section",
+          "type" : "object"
+        }
+      }
+    }
+  },
+  "system" : false,
+  "search_filters" : [ ]
+} ]

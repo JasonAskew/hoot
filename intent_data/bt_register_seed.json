@@ -1,0 +1,1238 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_register_seed",
+  "intent_name" : "bt_register",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "4c81e115-51c1-4153-a296-e6f0c2809faa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Approve application is not available",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "5047dcfd-1c81-4a1f-b1d3-6b01588d9658",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "But the client already holds a panorama account, why do they need to do the registration process again?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "62e28bff-8e06-4aef-84bd-5e3d48aa05be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend my email address and request a new code to be sent?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "11af883e-26f4-4ffb-98a5-5d374bac8872",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the email address for my client's registration?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "77244516-35f8-4450-bbdd-b2fb1985e8f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the email address my registration details will go to?",
+    "tags" : [ "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "2f7cc13c-7fca-42f1-a8ef-cce22fb4f517",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I have my client's registration email resent to a new email address?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "967ee039-2078-46a4-81f1-079ce19025b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I have my registration email resent to my new email address?",
+    "tags" : [ "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "baeab899-d16a-4072-9b47-d31822f37c2d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I register my new account through my existing log in?",
+    "tags" : [ "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "b85fce6e-1676-436b-92d7-d637751929ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I skip registration if I already hold an account?",
+    "tags" : [ "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "0e14c3cd-3702-4a5c-b356-f65f5a8faedb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I use my existing login for my new account?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "6a3af168-03ed-4d31-b52e-64ef2c53bd99",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I use my existing username instead of registering for Panorama again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "95e40bf9-accc-4656-9d9d-656d44181f02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we avoid doing a second registration for this client?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "51090ca0-e03a-4a84-8729-6a832a7b4b3f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you change my client's email address and resend the registration email?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "c45aa558-23b4-49c8-9dfc-f0fd443c9e34",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you change my email address and resend my registration email?",
+    "tags" : [ "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "0a854b9d-a45e-4128-a6ff-b84708b28236",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me register?"
+  }, {
+    "id" : "12df412e-8975-488b-881d-f9bf0a9fbb99",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me to register for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "95bd2531-5be4-4cc2-af31-729e3acc84a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help my client to register?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "260e8f88-3fe7-4e77-8802-5f4f90263372",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help us get our client registered?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "774d05b2-6d35-4944-911b-c1bf97910091",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you send my registration code to a different address?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "e3780f8d-265d-4804-919d-fa7efa0fe3fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me the registration process for a client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0c847041-1a30-4cbf-8c0c-84e5254138b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change registration email address",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "8c10c203-aaca-49e1-af42-afe72779918f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to register again if I already have an Panorama account?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "fa91de47-1c8b-4b26-beb5-668f959490fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I still need to register if I have existing access?",
+    "tags" : [ "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "d5a632d4-ab84-40bc-9d2a-e05ba0d89855",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I use my existing username to log in or my registration code?",
+    "tags" : [ "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "921c46ac-598c-46f6-ada7-eef5f2b4ccd2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Email is wrong and I need my registration code",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "ca95442e-3103-43c7-883f-301e91958a97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi , I need to re register. The code no longer is active",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "80337e48-90ce-43cb-bced-881f889de926",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I don't have a email with my registration code can I get one sent to me please",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "8500f565-7d31-41ac-9a4c-ad531ee94c8d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I need to get another registration code",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "5f240eb1-84a4-432c-87f3-8a9ebbcb22f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi was wondering what my registration code is",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "d3868e86-2027-416a-85c7-0d2044706c4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, I am just wanting to access my super online account",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "d9774742-b734-4deb-b88b-b3d983ba402e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, how do I get a registration code for BT Panorama?",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "1621033e-81d0-463e-acd0-50b9dc5c4286",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I change my email when I am not registered?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "855649b3-5e36-45ce-bf4c-d8f888666cb5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get my registration code sent to a different email?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "3731eebe-38b9-4113-88f4-da6caebe3d45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I just use my existing access instead of registering again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "340373ec-07b0-4e06-87e2-d4819982e25b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I regenerate new registration email to my client?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_resend_reg_email" ]
+  }, {
+    "id" : "f84f0983-3e89-4f9b-a031-579d79cdbc9e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I register code",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "5c66977e-c8d4-4d2a-8949-f26ef4676774",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I amend my email so that I can receive my registration code?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "2afec9cc-c434-4df4-afad-06aa6181b193",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my email that receives my registration code?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "3d88901c-4a36-4d35-b38f-37809bae008a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I link this new account with my existing account?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "e3fdeafd-b21f-43cd-a371-9af1a899f38e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I skip registration if I already hold an account?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "134b51dd-87c5-4228-a17a-cbcb19e4332a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do we edit the email address on a new application?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "f77a8f39-4a8c-43d4-8202-3041191c9279",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you get registration code?",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "d02d4f7a-c144-4f4e-a6f9-ee64cb1c4de1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does a client register?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e4d309a5-cb81-4fe9-986d-4625c3d03bcd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to change the registration email address for my client?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "bfc55331-1b40-444b-91e6-e731612ddd62",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I DIDN'T GET AN EMAIL WITH MY REGISTRATION CODE",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "ddcc2dc0-13b9-492e-9938-fca604eeb12a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I already have a panorama account do I need to register again?",
+    "tags" : [ "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "b1f92065-030a-40c3-80ac-d71f2c7f6a6a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I already have an account, can I skip this registration process?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "7217d811-93e5-4920-aebf-b677484dd6b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't receive my regisration code because my email is incorrect",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "5eda5125-a3f7-4eab-badc-f0a3a3d23da2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't receive my registration code because it has a typo, how do I amend this?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "754dab4d-79a2-4fb1-9215-b93d910ecb04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't receive my registration code because my email is wrong.",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "56891f12-632e-468a-bb85-9faa4d5b2458",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't register for Panorama because my email is incorrect, can I change it?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "0c7dd1c7-f0d4-4651-8792-5a129b9e120a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I did not receive an email",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "fad84d64-d237-4db5-a2ea-337917eb523c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't have a 11 digit code",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "76ec9cc3-ea5a-4a33-a158-db7570f40653",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't want to register again as I already have done this with my other account, can I skip this?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "30ab02a0-ab3b-4a6e-a3ff-57e3b47a7ab4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't want to register again.",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "6955178d-cbe3-4bf7-930c-ccc45696c73c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Approve application is not available",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "85432ff7-dcd1-4394-9222-f96130585137",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "But the client already holds a panorama account, why do they need to do the registration process again?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "48b9169b-d13e-4fcc-bbc5-5120a3ede952",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend my email address and request a new code to be sent?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "d66cfb92-7b11-4c47-a02d-bc757f187717",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the email address for my client's registration?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "761bd2de-c9be-4457-a901-3e0b3f3d8c96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the email address my registration details will go to?",
+    "tags" : [ "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "6f5c254a-0724-4786-9c98-471e1030cdbf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I have my client's registration email resent to a new email address?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "a032099a-5f1d-4e76-b054-8c737e4293d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I have my registration email resent to my new email address?",
+    "tags" : [ "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "28f287c1-e9e3-4500-a7b9-87b2df32a9bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I register my new account through my existing log in?",
+    "tags" : [ "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "78bdebbd-16fb-4d1b-a129-a55fa5105743",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I skip registration if I already hold an account?",
+    "tags" : [ "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "87e1194a-41c6-427e-94c2-f57cb168beae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I use my existing login for my new account?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "474c3994-d109-473a-bb4a-3caeef8d5a86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I use my existing username instead of registering for Panorama again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "5e9767c1-1421-44a8-87c9-f1483e9084c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we avoid doing a second registration for this client?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "0d486a46-7b4d-46ac-adc2-0ac78415909e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you change my client's email address and resend the registration email?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "d58929fd-3e3d-4887-81d9-1e29b7a2d2b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you change my email address and resend my registration email?",
+    "tags" : [ "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "b5a073bd-73a9-4d43-a007-baab6810e580",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me register?"
+  }, {
+    "id" : "fdf5a3f8-6f91-4f3d-a232-36258f358c05",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me to register for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "520a1f48-b932-4f1d-8b24-9caffdd2abbd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help my client to register?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "9914bf9f-a22c-4be6-82bb-0855f8bb892c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help us get our client registered?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "9e941639-cf54-43bc-a867-d7fd283eed95",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you send my registration code to a different address?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "c927bca8-e002-4df8-b952-72f472b328c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me the registration process for a client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e70f45f1-5d48-41ba-8e8d-700a48048f5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change registration email address",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "82a2013a-e624-46af-a8ee-43b78279e878",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to register again if I already have an Panorama account?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "c70195d9-f423-47d6-87fd-69cf3942d917",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I still need to register if I have existing access?",
+    "tags" : [ "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "1e5bcef7-12a4-4b8e-aabf-c134fd91f278",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I use my existing username to log in or my registration code?",
+    "tags" : [ "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "e3e505ae-622c-4c03-bd5d-01d815a8dfe1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Email is wrong and I need my registration code",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "5d91bc3b-45f7-4b49-a11f-3f9a84a73845",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi , I need to re register. The code no longer is active",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "4268eddb-eb4a-4e6e-98bb-bd12d0619e3f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I don't have a email with my registration code can I get one sent to me please",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "7428faa9-b726-4d25-abf4-8d6fb1f75237",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I need to get another registration code",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "abc35575-fc09-45bd-aa3c-4ca55cb3154b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi was wondering what my registration code is",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "08c6e2ea-0b24-47b8-b98c-6b5f194d7ad6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, I am just wanting to access my super online account",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "050a00d4-db23-46d7-81b3-8ab58c7bcf2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, how do I get a registration code for BT Panorama?",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "f334aa82-fb63-48ae-b5e1-b72446fa943d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I change my email when I am not registered?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "501fc021-1fdf-418a-b499-29e5eb444b37",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get my registration code sent to a different email?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "cb849e32-27a8-42b6-8539-34e9f8507b35",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I just use my existing access instead of registering again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "ce2f9011-04b6-422c-8f49-dca379bc7781",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I regenerate new registration email to my client?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_resend_reg_email" ]
+  }, {
+    "id" : "79741340-06d3-41ca-beb6-afc7d9914788",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I register code",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "30918c8e-fbd7-465d-a1fd-5a4a9d6677fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I amend my email so that I can receive my registration code?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "4be0cf8e-e37d-4f9f-b097-336ccc65f4de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my email that receives my registration code?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "1159a79b-dc56-4557-9f88-70fd82010ada",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I link this new account with my existing account?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "48b4d7f8-192d-4a87-87d6-550980dcc48e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I skip registration if I already hold an account?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "326ba45e-ceba-4cc5-9033-1f7874d5e016",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do we edit the email address on a new application?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "6faeadcb-f0f1-43b2-bb19-66dc5e4ae467",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you get registration code?",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "b7e439f1-050f-42ea-9383-1a046e510662",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does a client register?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e010c7b7-225c-4d23-87ae-c14b958ab8d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to change the registration email address for my client?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "30591ff0-b524-49cc-a990-f2c8870623f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I DIDN'T GET AN EMAIL WITH MY REGISTRATION CODE",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "6b08c521-7ee0-493b-a721-dbf0647e9b14",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I already have a panorama account do I need to register again?",
+    "tags" : [ "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "08d8fd80-95aa-4845-8998-8a808dade7c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I already have an account, can I skip this registration process?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "14759a61-cce6-4167-a326-339b0b3216cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't receive my regisration code because my email is incorrect",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "486f8977-651e-4d42-bbd9-b7fe092c6c00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't receive my registration code because it has a typo, how do I amend this?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "cad6471a-2b3c-4d68-9de0-ec3f55bc5b1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't receive my registration code because my email is wrong.",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "6cb1bcce-4c1f-49b6-ac6e-4739ebb98940",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't register for Panorama because my email is incorrect, can I change it?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "93f58603-3e0f-4b0b-8abd-0aa33b97992e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I did not receive an email",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "8e267fd3-4545-4849-8706-d110da53d9a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't have a 11 digit code",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "237ec40e-fa2f-4980-b71b-d70494be53bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't want to register again as I already have done this with my other account, can I skip this?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "2fcef8ba-32c5-4604-8c2b-5c07c9e2b5be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't want to register again.",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "dbf3f56c-d912-46a9-882d-65d59989d060",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have already done this registration process, why do I have to do it again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "f02608b2-ec77-4357-b7d8-5afac1fb0203",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have already registered for Panorama, why do I need to again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "13f9eaef-ceb3-47f0-891d-432a2d2c695d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have an account already why do I need to go through this again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "7337fabe-5988-4074-a46b-6b2f2ec452b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have an existing account, why do I have to register again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "024c5f79-7942-466a-87be-eec3030f7e8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have been through this before, why do I need to register again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "1d43bb28-6b6a-427e-bb56-a7809af0fc04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have never logged into my account before so how do I find out about my username and password?",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "a7c52a2f-6310-4317-bd25-8c73700946dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help with my client's registration",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "eeef4113-3844-48bf-8897-f8b6ae056a91",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need my client's registration code to be sent to a different email address",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "8b9572c7-5a48-4429-a8c3-d676a162713d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need my registration code to be sent to a different email address",
+    "tags" : [ "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "415ec14a-d36f-41a7-9442-842683ee1cc1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to resend the registration email to my client, is this possible?",
+    "tags" : [ "merged_from_bt_resend_reg_email" ]
+  }, {
+    "id" : "07d77db2-3d7c-4007-a753-abe16dde55d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I put in the wrong email address for registration, can you change it?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "a73e442c-3cbc-4393-a6d5-55320faab7a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to fix up the email address and resend the rego code but can't see how to do it",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "fcc1bbf2-316a-4e07-9131-648b7229453b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to have the same username as my other account, do I have to register again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "657b74e4-d01c-440f-a7f9-967b35836cd6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to change my client's email address used for registration?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "63be4c98-ff72-42be-8cf9-8c32737e20d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I've already done this registration process, why do I have to do it again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "87dc59cc-efeb-4705-85e6-30e5e6c4f688",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible to resend the registration email to my client?",
+    "tags" : [ "merged_from_bt_resend_reg_email" ]
+  }, {
+    "id" : "e7dc65ee-367f-4d58-b768-b82c899edc4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way I can change my email address so that I can receive my rego code?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "7a191383-6c56-4ab8-8abb-448365744957",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way my email can be changed to redirect my registration code?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "6688fe3a-092a-47cb-b663-4ec58a546fbe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "It makes no sense for the client do another registration",
+    "tags" : [ "btmarchvariants", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "f7e29ad8-225f-4c69-97ab-2cbb8bea7be7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My adviser made a typo on my email and I can't receive my registration code, how can I fix this?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "5a21028b-11bf-44b3-a11d-c2c7bd9526a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My adviser put in the wrong email address how can I change it to my one I use?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "40a6eb01-3156-4021-9f3e-a0b62d01f4f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My adviser put in the wrong email address, can you change it?",
+    "tags" : [ "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "e126d3f0-e419-49a5-ae1c-5a94ed11c792",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client has lost their registration email, is there a way to resend?",
+    "tags" : [ "merged_from_bt_resend_reg_email" ]
+  }, {
+    "id" : "0f44dc14-5b2b-44b8-a7fd-fd1273aa0384",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client need help with registration.",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "72cc946b-d70b-4fc4-abe5-9ec528ba494e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client needs a new registration email, is this something we can generate?",
+    "tags" : [ "merged_from_bt_resend_reg_email" ]
+  }, {
+    "id" : "a28ee148-e6e0-4ad6-9cde-ab6275e25ec2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client requested for resend of the registration email.",
+    "tags" : [ "btmarchvariants", "merged_from_bt_resend_reg_email" ]
+  }, {
+    "id" : "b3b555e3-149e-4869-952e-10cdbf72f9f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client's registration email was sent to the wrong email",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "99cfa32f-c3d6-4658-ba84-4f2588db222e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My email is incorrect and cannot receive my registration code",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "c94b45c2-84b4-4020-82f1-58693b8ce0f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My email is incorrect, can I change it please?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "2866b403-fd4f-48a1-a6bd-8931ceae6cfd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My email is wrong can you change it so I can receive my registration code?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "c26f7740-bbcf-4c31-98a8-cc7142584954",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My registration email was sent to the wrong email",
+    "tags" : [ "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "3db4d4da-f275-40cd-8c3c-8a26d1e4ee6a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need help with resending the registration email",
+    "tags" : [ "btmarchvariants", "merged_from_bt_resend_reg_email" ]
+  }, {
+    "id" : "340ce7c5-c462-4f7f-860b-93d5953ee7c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Never got an email",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "3eec033d-168b-4836-8648-e93d8399ffeb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "No registration code",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "5242d743-c605-47a2-a10c-b3fde78c76ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Our client needs to register, how do they do that?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "846ef8e1-5bf7-46d5-850f-744165e242ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Registration code",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "34e7af18-c397-4ae5-8605-46b079c0ec1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Resend registration email",
+    "tags" : [ "btmarchvariants", "merged_from_bt_resend_reg_email" ]
+  }, {
+    "id" : "83d9e4e7-ee45-4ce3-940b-7f85195d4d8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tried to log in. Code is not active. Can I get a new code",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "10c08535-1f0c-4784-8f27-1ef2742e5873",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We got the client's email address wrong, how can I change it?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "38e2b6ab-153f-4928-9d42-3793319892cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I have to do to register?"
+  }, {
+    "id" : "dab5bf27-5daf-4cc5-9536-2e4f56ad5571",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What does my client has to do to register?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "2c7ff988-16f5-4a59-bb62-59eff4dc53ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure for resending the registration email?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_resend_reg_email" ]
+  }, {
+    "id" : "55fac6a2-05c9-4616-ac0c-6a57a8f7831e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go online to resend the registration email?",
+    "tags" : [ "merged_from_bt_resend_reg_email" ]
+  }, {
+    "id" : "74346c13-10ce-4f34-8142-4216b7116a9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to log online?"
+  }, {
+    "id" : "fdc6d412-299f-4ded-8daa-aefeaa187812",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where does my client go to log online?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e96288b5-4b0f-4409-adf7-dc956e777c54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is my client's registration code?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "f703e45e-7240-4311-886b-e80d492154e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is my registration code?"
+  }, {
+    "id" : "9090d2ba-c59c-4233-8a67-27172e447910",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why are you getting me sign up if I have existing access?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "132bdf0f-d7bd-4002-a8cb-b6c00e87ef7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why do I have to register again if I already have a username?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "0a60adf0-7117-403e-8b31-4443a7fafa9a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why do I have to sign up again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "8a254b0d-18b6-4131-a00c-b0b67779251a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why do I need to register again when I already have an account?",
+    "tags" : [ "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "06716e6e-ff55-4ede-a433-879c09e41751",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why isn‚Äö√Ñ√¥t the registration working for me?"
+  }, {
+    "id" : "33da7187-f190-4d9f-827f-35cb582bb0f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why isn‚Äö√Ñ√¥t the registration working for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "9c80225d-8ddc-4706-9ca2-4ac38ef04084",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why would the client need to register again when they already have a pano account?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "89f46b7d-231d-4d4a-b927-dc5c3ea7fccc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I change the email address on this application?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "456793d5-b30e-401a-b742-674ed209eca2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i get my registration code resent?",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "b579d7a3-bdfd-48c7-a394-d40e2e56620d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I change the email address on this application?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "0197125e-2da0-4d94-b8c7-c1a017cae668",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i get my registration code resent?",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "ef837ebc-d1e1-4553-b42e-a6cae33979fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I change the email address on this application?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "e3130754-e23f-4e00-a319-0d056959da62",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i get my registration code resent?",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "7a079b48-1761-4c5a-8579-f8dc968fe029",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how I generate registration code",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "b81fdce6-ee58-4296-8188-7528d47cec85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can I generate registration code if I want sign up?",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "b5d99113-ccc7-4b53-afca-495215051c36",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "if our client already holds a panorama account will they have to register again?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "8b24601c-d77c-4594-8978-fda3731db480",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "registration code doesent work",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "b3d20687-db3d-42d9-b15c-d6f42693803b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "there was a mistake with the client's email address can you change it and resend their rego email?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "6716c9eb-c6ac-4aa9-8227-60cfed3ed8cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "there was a mistake with the client's email address can you change it and resend their rego email?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "0eebdd0e-1c10-46de-9868-231df813ff66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is registration code?",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "1097ec92-f251-4c34-b594-10bbe16b1ba3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the registration process for the client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c50252f7-6970-4598-a7d3-2f63043a619b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can I find the link to accept my account application"
+  }, {
+    "id" : "335b7efb-547b-430c-b128-17fa26ee10be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can my client find the link to accept the account application",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ff542491-b996-4661-b43b-41b7059db904",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why register again",
+    "tags" : [ "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "99b88d95-7911-47da-89eb-37794c58fed3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My adviser made a typo on my email and I cant receive my registration code, how can I fix this?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "90cddc8b-d5ad-4b1b-86be-aa985d792e90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need my clients registration code to be sent to a different email address",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "6169355c-63fc-4a3e-bd9d-ec76fbb352cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We got the clients email address wrong, how can I change it?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "93b359a8-8532-4a26-8b28-f4fcb56ed54b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "there was a mistake with the clients email address can you change it and resend their rego email?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "3159e2d1-7384-4795-aeb2-9c95d64c140d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I dont have a email with my registration code can I get one sent to me please",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "ef6ece4f-703f-4513-9905-54a9eb1bde4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why isn‚Äôt the registration working for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "afdbfd39-97a8-4577-9d9c-7a027f5d0f89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cant receive my regisration code because my email is incorrect",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "3d26febb-06f3-4ce2-ae92-1c7da6128e07",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to fix up the email address and resend the rego code but cant see how to do it",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "90b855d0-8bc0-462d-8878-303e80a3952e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My clients registration email was sent to the wrong email",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "f25801bb-525b-4f73-8582-fa2ca646592a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I DIDNT GET AN EMAIL WITH MY REGISTRATION CODE",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "55cbe9a3-ae96-4161-a7c0-e7b74313765e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the email address for my clients registration?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "89dfe58d-d966-484e-ab03-a1c8f61dfec4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why isn‚Äôt the registration working for me?"
+  }, {
+    "id" : "421e18b1-80b8-4674-bf71-2249a47dd56a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I dont want to register again.",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "eafe9eca-5ea1-4b5e-a166-cd88f7d65bdc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Id like to change my clients email address used for registration?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "b6ce790c-c1f2-4c6e-b58f-f850a065f3d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ive already done this registration process, why do I have to do it again?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "7d9f9e44-ba0d-4182-9a87-da83be46e555",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I dont want to register again as I already have done this with my other account, can I skip this?",
+    "tags" : [ "btdecseeds", "merged_from_bt_why_register_again" ]
+  }, {
+    "id" : "a61ce263-c599-4f6e-904c-3c6a8dcb757b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cant receive my registration code because my email is wrong.",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "6e9f1509-9de8-4e3b-8cbc-b1c2951e6442",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cant receive my registration code because it has a typo, how do I amend this?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "fa4c8eb8-12f1-4c57-8ed8-c8eef08080f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is my clients registration code?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "f3108caa-81fb-4ebd-83d7-0db4d71ae9f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I have my clients registration email resent to a new email address?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "afa8d3e8-15a0-4af9-a57e-c8ea41509e89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I dont have a 11 digit code",
+    "tags" : [ "btjanseeds" ]
+  }, {
+    "id" : "efca03ba-4224-4d43-a6f2-f74dfa094f83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help with my clients registration",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ad4e891f-c1b1-4936-848f-5f4dcd74b021",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you change my clients email address and resend the registration email?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "56414516-3e92-4a66-982a-97265804bc68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cant register for Panorama because my email is incorrect, can I change it?",
+    "tags" : [ "btdecseeds", "merged_from_bt_change_registration_email" ]
+  }, {
+    "id" : "9181c0cf-4a47-4ab1-894d-c419fa16f6b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Registration code",
+    "tags" : [ "btjanseeds" ]
+  } ]
+} ]

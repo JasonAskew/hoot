@@ -1,0 +1,814 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_link_account_test",
+  "intent_name" : "bt_link_account",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "8e3b68c9-1f31-4e3f-a253-94dfa895278d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Add a linked bank account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "4829c2da-b175-4d13-96be-dff86c79df77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Add bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c48cfaee-51f5-4f9c-b680-c198088b9f64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Add linked account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "bdd928a8-9dd3-490e-9225-e2462c7ac5a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Bob and I need to link an account but need to register our mobile numbers first. How do we do this.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "190216db-93e3-4446-8b60-96fff8bbebb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can I get a form to complete the linked account information please?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d1ae4afd-3f9f-4622-8124-0757d212b396",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me link an outside bank account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "77568d92-dd05-4dd9-b9f3-dd75c1cb53db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi can I add this account to my westpac account?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7f176a1c-d337-4c47-9441-237dd702a1b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I have just remembered that we recently updated our bank accounts but I hadn't gotten in touch to do the same with BT. Do you have a facility for me to do that online please ?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "221c426b-5957-4d78-b0fa-ab861873a41a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I add an account from another bank",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5273c761-6f6b-4c75-920e-c19964d36bca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I find linked accounts",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b5a58832-4a16-40c9-adc1-03f6fecd8baf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I link bank account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "99b00da4-1474-42e4-869a-8ef92c274ca3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I add a linked bank account pleasee?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "7d385367-b78b-4ed1-bd01-b8b9ac29529b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create a linked account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e71ffc74-8fe8-46e8-a8cf-d3d8a51ca963",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do we add a linked bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "228595fe-c80a-44cc-880c-b2e0b9399989",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do we link a bank account to a BT Panorama account please?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "6de9a299-e0a9-4ec3-b409-2a0289b55a03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to link bank account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "fa3c4fba-1496-4537-be77-a085940820de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to link bank account on super account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "7b6a6dcf-4a5f-4d82-b385-45c932bfa545",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am trying to add a linked account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7fef7d83-6215-407f-8024-1f3c02ffc6e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Add a linked bank account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "257a771e-d953-4ab7-ae16-a40e8c9215f9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Add bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bf4e57d3-1cd4-44ab-ad8e-73e4d77a8fb0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Add linked account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "52edebb0-7748-4067-a536-e5ee3eff2ef0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Bob and I need to link an account but need to register our mobile numbers first. How do we do this.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ca4def65-418a-4529-b278-428dd0266620",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can I get a form to complete the linked account information please?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b7e0460f-2500-40e0-ac0c-696373a03f62",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me link an outside bank account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "76333a5a-67a8-4f08-ad36-bfb498ab6b11",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi can I add this account to my westpac account?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "d3c66ae7-ff24-4b00-95b4-64d934b8960d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I have just remembered that we recently updated our bank accounts but I hadn't gotten in touch to do the same with BT. Do you have a facility for me to do that online please ?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "45fba6ea-e353-4831-b3a9-9493d4bc0939",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I add an account from another bank",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a9947b2d-fac8-4bfb-9689-99a615e94fcd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I find linked accounts",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d95f91c4-2398-48e4-aed5-12d7df6fc714",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I link bank account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "16d04aaa-14eb-48da-a3ba-96fb1f1b5b9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I add a linked bank account pleasee?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "6fb40dc0-f336-450f-9c6e-0a1142e7219d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I create a linked account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ec08f40d-09f7-4acf-b82d-ea8ecf554631",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do we add a linked bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ef8278d9-4068-4736-839d-0973415b3cee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do we link a bank account to a BT Panorama account please?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "04458677-5caf-4a3e-868e-4b771edea00b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to link bank account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "d3f9789d-1086-4889-9401-f1db6031bb78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to link bank account on super account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "41acafe5-1cef-464c-88c2-0a8f3bc92933",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am trying to add a linked account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "3441333a-066c-4157-b7ce-76b23773a1b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help with linking to a bank account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9401a271-de27-42fb-878f-48ac7af201d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to link an account from an outside bank",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b288b412-6664-4b0c-b993-2575590ffadb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Kindly advise how can I link to my bank account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "da937d92-bb2f-4393-8697-0211ddb3bccd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "LINK BANK ACCOUNT",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "7b934c73-c5a6-4a04-8e54-c2b1ce5de37c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Link bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c8aa3967-5658-4bc7-b929-07e929c0c8fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Linked Account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a10330bf-d8b1-463a-939d-4c9bce2a2187",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Linked account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5df58225-679f-423d-a19c-78c6778885cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Trying to add a linked account.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "4c673de2-6738-42b8-ada8-b5b95a0d082d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account linking",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ff26f4e1-e42a-47fd-93aa-e80d109ac226",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "accounts and billers",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "70e1ff9b-5a5d-4dba-b5f3-224ec67c7afe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add a linked account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "79c89db4-d2c5-47a6-a183-0138b37bbe0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add account on application",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d484a9f5-9c49-4287-aff9-9d23bc70d9c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add account to a super fund",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d75af280-9caa-4213-a4ef-776192108208",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add additional account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c901429a-0b83-4783-86ae-59129aa64e9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add bank account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "da2f18b4-6bc4-4fec-a80a-6d2b7774561b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add biller",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f24fd114-b625-430b-bbaf-cf4e718c3742",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add linked account to super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "87291337-d555-4a64-bdbf-951ca48f0bcf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add payee",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "83229b56-156f-427b-ad0f-c359070dd2f9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add payee not working in family trust",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bfaee8af-3ed1-4cb2-92f2-082b682b1f00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adding bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "11e0a2a2-2a4f-4160-8e47-dede0b087b84",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adding bank account details to super accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "afb0f5a1-e779-44d5-b8c9-0bdf6398439f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adding bank account to super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "feb095ad-ae40-4547-b6d3-fb2aa003b8f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adding linked bank accounts",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b0b2fda2-fedf-4df2-9f24-053fbc0436f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adding superfund member",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "eeb144dc-c3c8-4daf-806e-5e7ac3117c35",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account detail",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c5d9caf1-7b59-4bef-b5f8-663cabce8124",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank details nomination form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8b74c7cd-df39-43ca-a95e-1ed03d89b4e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can adviser link a bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "99c1db80-1608-4f9f-b291-6c09d0b43bd4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add more accounts to the app",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "09dbfb9e-874f-4118-8570-6ae89fdc682f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not seem to link an account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "6e37f233-eca2-4e9e-85e4-bc9e4b2b97d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can the client add the bank account themselves",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "f02a3fdd-b3a6-4872-a1e8-dcfb24dd6a79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me link to another bank's account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a1f06f01-4512-465d-8f05-1bd87bb0195a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account detail",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f1bfde16-89cc-4047-9c34-3ce417f129fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank details nomination form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "eb19c2c2-7256-42cb-b54a-8a28ea3ba0ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can adviser link a bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0dfd20ed-c31f-47d3-955f-bbce02ed3d01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add more accounts to the app",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fa720bae-073a-4663-a09a-e8491928db15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not seem to link an account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "684b4f8b-ef04-437f-8eb5-f5ff14a91d3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can the client add the bank account themselves",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0fc2698b-f1b3-4bf6-ae44-6cc5329257b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me link to another bank's account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e399706d-dd0f-4379-8c50-1d804437d38c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account detail",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3c91276c-856d-4800-af4a-30cb57237161",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank details nomination form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9817575b-06a1-4a4f-af61-e4279702c05d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can adviser link a bank account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "418e86c6-769e-44f0-966f-36a57d899b70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add more accounts to the app",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "da81b738-ecb8-4d24-9205-0a6e4b4c548d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not seem to link an account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "3afaccc5-8df2-402d-9ce3-9401979870f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can the client add the bank account themselves",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "1b4c10c2-2f66-4d78-9323-542253092233",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me link to another bank's account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "45ad6b16-d4b3-445d-8a07-e99c703e5f04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client is trying to add account on app",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5ae5e3ff-58bf-409a-b5fd-cdb1a3b4d710",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client to add bank account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8782000b-0c3b-4686-8183-967b520abc4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do the client need to add their bank account to their own panorama portal before we can linked theri bank account to their super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9eb924a4-1890-4ae4-977b-214a883a04c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me link an account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "53abd67c-0a86-432a-b6e7-aa448ea22988",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am enquiring about account number 111111111 and want to check how i link an account thanks",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "80048faa-dbdb-4063-b376-7a3ea61bc2dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi need help understanding linked account process",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "85d82f4a-5c93-4824-86f4-a445a090159a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i add a linked bank account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "1e01f068-f13f-412d-949f-e13b6e95bbae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i change my transfer account details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ad9563c5-aa01-4a68-acfa-0e9adeb512b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i find linked accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f5600d82-76e1-486a-9391-c3f8dc2fb5bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i add a clients bank account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4bb03435-3476-4682-892a-660a307c2f43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i add another account so i can view both on the app",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3bccc356-07eb-4d02-9b32-afcc2fc59f40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find linked account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9cba5915-448d-4c31-97b4-3ba40be682d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i link a bank account to super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4a378591-c87b-47b0-8610-b64726cd6059",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how many linked bank accounts is it possible to have on an account at once",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "39008c7b-8600-4cb2-9079-4dfc05b9cdc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to add bank details to super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f63a424e-8df9-45ff-a9e6-1e6a5123e873",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to link a bank account to panorama super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "67129eab-ea9e-461b-a6b7-3237b9aa8601",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to link bank account in super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "48562065-1dd3-49c1-8092-6bb94c552ffd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to link my account here to another account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fcdd19aa-196f-49ed-96e5-471e87020a0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to link two superannuation accounts",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b4ee9779-60a5-49be-8bb1-bceb3f97aa1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to update bank details",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ef1c6532-bb6a-4e45-aac3-3810802b436e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am having trouble linking a bank account to a client 's pension account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "30ed57cf-f959-4718-9136-7f193e413ea9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to add a linked",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3f4f295b-0fe1-4e16-956b-762d7ba3a7e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to add an account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d3d70dd2-7420-482c-a9c1-3811f2c2f797",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to add an account to make a payment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7b733667-cf54-4331-9823-e8e8a536240a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to add an account to make a payment to",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "274b6123-4534-4a45-9ab7-2a9ef31a0ab2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im also wondering if i have a member number",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "5467cb59-160e-489a-9f98-83ea6abedec5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "instructions for client to link a bank account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6a3fcbbb-114c-47dd-b4ce-416dec2cffd6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "link a bank account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "fee8d62c-20c2-4594-981c-69b73414cfc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "link a nominated bank account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bca7ad6b-0c61-4501-a690-5eb09a40265b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "link accountantant to individual",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6a974f70-0506-410c-9122-8ac7831a0d3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "link an account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "47eca1e2-a952-4c80-a120-cb4f95446d1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "link bank account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bffc4cf3-2b6d-4ecd-8313-58a16786838d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "link bank account number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "873c69ba-c479-4868-9d79-cb0281249df5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "link bank account video",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e250e89e-aae7-42a7-a929-2055faf6ca01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "link two accounts under one user name",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5c625f3e-82a7-4e95-bdbe-802744264ac1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "linked bank",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "1ab6c8a8-2eed-4182-a48f-50624865d363",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "linked bank accoutns",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b890a1e0-13cf-4ebb-a350-b5a82c8d3aa9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "linking accounts to models",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "457f5bfa-f902-4d54-9880-1ab2f476adf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new bank account for receipt of funds",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ba7c92c5-c297-4884-a6cb-07835f8bde14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "nominated bank acount",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e134d564-e339-4d37-b790-c0f460af1b80",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "paper form to change bank account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7e246d0e-4368-4532-ad63-75c00486a775",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension refresh different bank account to linked account",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "8ddf17e2-8c0d-4deb-8223-3fa683763b6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sent client sms for adding linked account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0959fb31-ecb3-4edf-a538-abd705203a6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "set up bank details for client",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1c6f7be2-0506-4cbe-8160-3e1fcb644b90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "steps for linking bank accounts",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ffc61d21-1aec-4585-97c6-2abbc2123f8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update bank details",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "1058fb6b-e815-4150-aad5-6b658a39d6a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update banking details",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "df97d1e7-c756-442a-b97f-0e36fd3e6e12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the requirements do we need if we linked the clients bank account do we need to provide a bank account stament",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0b4f7a04-779a-4d04-8c09-c0971854620d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update bank details",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "30940e16-fb9c-42f7-8cb2-f90104bfa73d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update banking details",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bb1d9843-c3e1-44e4-80d9-b73627ac3b4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the requirements do we need if we linked the clients bank account do we need to provide a bank account stament",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c85c5508-a0fe-4d1b-8ca8-2ce1265ac061",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the process to link an account from another bank",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "12c4fafb-1a71-4d48-bf5a-543dd3c76df5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the linked account section",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

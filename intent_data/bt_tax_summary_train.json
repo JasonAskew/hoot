@@ -1,0 +1,992 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_tax_summary_train",
+  "intent_name" : "bt_tax_summary",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "6314a1f9-ed0a-4a35-ad7b-b3108d34b15e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 / 11 tax reports",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1b7322b6-a79e-4f8a-8611-e0e228806e88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 shares tax report",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9760341c-078e-4457-a5c0-9f68ec15bb81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 tax report",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5a9bb3de-4bf6-4ecc-9e3a-fb9f2fe8d451",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 tax summary",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6fd3e523-e047-422a-9c07-82abc4a37473",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Annual tax report",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "af7f9660-e8d2-42d4-815a-f2dede5b7173",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi - i am trying to find my tax report for fy11.",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "7203b958-128c-4b47-8e2b-7e039c437fb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi i have some new clients to onboard and have some question please. firstly are you able to direct me to some sample tax reporting i can show clients. one client in particular asked to see this",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "384e25f2-ef71-400a-8f01-a4c98e5c4016",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, how can i generate a report for tax & preservation components in pdf format?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "5ca0f316-4301-4404-83d1-bd2682e25981",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi when will the tax report for fy1111-11 available?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "ddcc7b46-810c-4a1b-9cbd-5213ade45a34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, how can a run a report showing tax paid for an account?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "adf66afa-60cc-4aa7-98c7-19ee05c2b0cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, im looking for my 1111 tax report for my account. can you tell me where i would locate this? thanks bob",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "4ebc55f3-b2e1-49b0-94a0-00e3281ef85e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i generate a tax specific report",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "e86d208e-8691-4b20-9321-caa06226e7a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do we print a report for the 1111/1111 tax year?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "c260e7f0-78c5-4be9-b101-2e67153f9285",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to down load 1111-1111 report for tax",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "198e36a3-5b20-4461-b42b-b4d8a9af9ed7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am trying to find a annual tax report for fy1111?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "7bba8187-e2d5-4179-bbba-b20b66815393",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am trying to find the 1111/11 tax report. i can see the income received report but this is not detailed enough? where on the system is the report please/",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "4318f0e3-cfa5-47d1-b5e7-a134b362c15b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I can't find my 1111-1111 tax summary",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "1e408bed-bba7-4c9d-825d-a3a5a1086eb2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 / 11 tax reports",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ffd4679f-41a8-4a81-939d-c986bfc906db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 shares tax report",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4196e9d5-885a-4e56-b02e-40f1c9765b60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 tax report",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "dcbdeacf-78b9-4865-ade9-c585db27b1ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 tax summary",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dfc2cddc-6e30-4dc9-9cad-3fece0dc11cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Annual tax report",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "46049594-6c94-47cd-9dc2-c1ca89d9fd34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi - i am trying to find my tax report for fy11.",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "f1e27ba3-caaa-4640-b1c6-8f4a516f6de7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi i have some new clients to onboard and have some question please. firstly are you able to direct me to some sample tax reporting i can show clients. one client in particular asked to see this",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "5fec62c3-ee14-4d32-8f59-debea6a62a66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, how can i generate a report for tax & preservation components in pdf format?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "11a9b283-768c-442f-a797-7a81b4aa37b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi when will the tax report for fy1111-11 available?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "35300d6d-f62c-4425-8a65-2aed422638ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, how can a run a report showing tax paid for an account?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "053fed86-cb5d-4aad-8064-40396a5d586d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, im looking for my 1111 tax report for my account. can you tell me where i would locate this? thanks bob",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "0ff9a944-f64c-433f-90b8-6dbf1994e2c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do i generate a tax specific report",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "dae9b33a-0704-475c-8f64-d098b73a6bb2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do we print a report for the 1111/1111 tax year?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "c338ac4a-5f33-474d-bb93-0619ae275e68",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to down load 1111-1111 report for tax",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "24af7f0c-7116-486f-8ec0-69df5aa00990",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am trying to find a annual tax report for fy1111?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "f87c5504-cd6f-4f6f-bd09-9bdc3ca5aa39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am trying to find the 1111/11 tax report. i can see the income received report but this is not detailed enough? where on the system is the report please/",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "9e2b0647-0cc0-4237-ba4c-a93135473fc3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I can't find my 1111-1111 tax summary",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "accbeed2-7f1e-4034-b117-5c5e0bad93f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need a report for my tax agent for fin year ended 11 june 1111. how can i get that please.",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "ceb12c77-5ba2-4861-bb8e-e7ce0d4e805c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Please send me last 1 years of payg summaries for my accountant to do tax",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "a470e2ca-89a3-4394-9311-f4d88ac0f146",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Sample tax report",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "76d865e0-ee80-42d5-9839-625272def352",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Sample tax reports",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "6e3f2922-8df6-450c-99d1-bea2fbcdf2b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to find my 1111 tax summaries.",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "0cf40c58-2022-4df4-8ba8-a384214abc3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where can i find the 1111 financial year tax reports?",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "447fb7e0-9329-49db-a112-db94fdc9b908",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where do i find end of year tax report for 1111-11",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "54df3a76-93c6-45f7-8c82-917232986911",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where do i find my 1111 tax reports",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "5a96e991-40d9-4a8b-b4e3-0b46e8aa842f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where is my tax report",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "07c6a1dd-4b9a-4517-a134-409288b1699f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where is the 1111/ 1111 tax report for my portfolio",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "9d63ffcf-6253-42e3-ac80-896fc61a286e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Why cant i pull up tax reports for dfy1111/1111",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "f0040cb1-1437-4290-9ae9-c16a2a9993e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Year end tax report 1111",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "7e0d4985-0ae9-41e7-a201-227d734ff67a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "advice on completing tax return",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6844028e-0ea7-4b36-9138-53b9f62adb57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual investor and tax statement 1111 - 1111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2c262b11-56ec-4391-ba81-170f34fcb755",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are the tax statements for 1111 ready",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d69a59a2-48f0-4cc0-8a15-1d200d7705fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt invest tax guide for 1111 / 1111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "dadccd50-7435-418a-8aa5-8b79d7630b71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt tax reports",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "bdb36e03-e5d7-4a1f-ad28-a57dfc3a92a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a tax statement to complete my tax return",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b6b102f4-ae42-413d-aa4b-0ad814b71f60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me how i can get a bt an annual tax summary for the 1111 year end as requested by my accountant",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e2da537d-610a-4c05-8d29-4bb67d34e8ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual investor and tax statement 1111 - 1111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b7b040e4-9a44-464c-a1c0-b6929160c5b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are the tax statements for 1111 ready",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3483954b-699a-4fd9-b007-6eeef86e4c8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt invest tax guide for 1111 / 1111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "84dfe20b-e03b-4a58-91cd-0cc72ca0c5ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt tax reports",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "d5846f5d-b8f2-41b2-b0f6-62fd6ecd5331",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a tax statement to complete my tax return",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "94e30b9f-71b3-4981-9d7c-9a1d05d78ec0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me how i can get a bt an annual tax summary for the 1111 year end as requested by my accountant",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "814ccb5a-619f-44b6-81c6-cceafb7ba14d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "annual investor and tax statement 1111 - 1111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8615df52-5f6d-46a6-83a1-81b8368c35ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are the tax statements for 1111 ready",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9970c4b6-c555-4076-ad05-4f0a96cc40da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt invest tax guide for 1111 / 1111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4105d271-8efb-45ce-88bd-7049fc314f0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt tax reports",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "32b41e70-59e2-4d56-9ba6-31466ada6c8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a tax statement to complete my tax return",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "acf3f460-349f-4042-844d-59e1a1674867",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me how i can get a bt an annual tax summary for the 1111 year end as requested by my accountant",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "0b849605-d9b7-46f0-898b-f630a5686781",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contributions tax - what is the rate",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "9a99cea6-a6a5-4663-aa7e-ed9c99f67f96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "copy of the panorama tax guide part 1",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "e84ad254-6835-4cde-a77d-af6d8d3b4156",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i receive a simple payg type report listingtax withheld taxable component taxed and untaxed tax-free component and tax offset to complete my tax return",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d62fb644-f35e-4168-a2d5-2116bcf314bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have a guide to the tax return references",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "be5b5a8a-fad8-4293-8825-fb21b7ac7d70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have a tax statement guide",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e9c0eec6-7497-4f67-8101-f4fb0c791639",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "download tax invoices",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "10ecf9cb-070f-429e-9920-8b3da37a9d59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email tax report",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "f3bf9690-b2c0-480d-b63b-69cf03b64a90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find end of year tax",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "2e92ff24-8a21-43dd-b268-ff709c6e70f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find tax and preservation component for 1111",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "148650c7-6ffe-4783-a948-7932a5d36289",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "for the annual tax statement of 1 july 1111 to 11 june 1111 i nned the reference numbers that the taxation department use in the",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "a62871be-cbd8-462a-a1bc-c062d9df635f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fy1111 tax guide",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "d8ad492d-c8b5-4ba8-9621-be8d89058c67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help with tax",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f8758c0d-e535-433e-b9ac-b8b37d75f63b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi - i need a document for my FY11 tax return showing my life policy payments - where can I get that pls",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "734b16be-2d07-480b-b3e1-ae8534dceac0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue can you help me find the taxable components of my clients super balance",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "457d28be-e7ff-4401-8d59-d8dd0d90f4f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to get a tax summary from 1111 financial year"
+  }, {
+    "id" : "ce98dd80-42cc-427b-b6c8-7fccb76b210b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get the tax report please",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "53051c55-f043-4090-810f-570299f5610e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get my tax report",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "01a8c7aa-479d-4394-a099-906004070beb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get tax invoices",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "fb5ffd28-4a11-43f0-ba22-5a7faa19c23e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to access tax guide",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "15cc2bec-4fc4-4cde-bfb2-167cb21a669e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to get the 1111 tax report",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e3c79579-908b-43a3-89da-fa9d153febc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am after a tax report for my investments",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "09073667-ace1-48bd-99bf-9e30128ac9c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for my tax report",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "04161854-d6c7-49f6-907d-2a0c64f1c11c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for previous financial year tax summaries",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "86f25996-105c-4306-8eae-a318c26c60fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to find more information on the monthly tax installment i am paying",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3df63f3d-3c04-4442-838d-73e13ac61535",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to print my tax summary for 11 / 11",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "85a89d44-d1b3-4f01-94bc-946c64d79066",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not find my tax summary",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e18d127e-a826-4086-a1f3-dfb15a1c0721",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not find the tax end of year reports for my accountant",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "70e5b3ce-84e3-4cae-b2a5-a9733ef14d34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a question regarding capital gains",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3b095cca-a988-4e8b-b6fc-2d5bf30620f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a copy of the panorama tax guide",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "55f103c9-3588-41ec-a6e1-e2d301bfe630",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need help accessing my bt tax report so i can complete my tax return",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "990a6c82-60fe-4b62-babc-7203c67b16a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need info for my tax return",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "285e2455-6013-430e-acd8-4804e6880c26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need tax letter for my last year",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "4cf1c396-c736-4deb-8d42-0d2ab1b5ef8e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a tax report",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "423bec97-c24e-4a00-b4cd-0cffd295eadf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a tax report for 1111 - 1111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2a66eddf-4e31-4e9f-96f9-f492447c9488",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a tax summary that i should have to give my tax agent",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4a59a1f9-b6cf-4846-8139-239971622905",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it seems that the two tax reports are the same",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f47e8e6b-8233-4b78-a747-d47148ed6c45",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my tax accountatnt needs the latest tax statement so i can lodge my tax returh",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "70dff290-7a92-4fcb-9154-a2811592fb7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need tax letter",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "811c5b9b-c759-4459-88fc-636f0b3539d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "only the balance shows in westpac live i want to get a statement for tax return",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0d6f8985-a6fe-408e-97de-fdd73b3cb1df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please send me last 1 years of payg summaries for my accountant to do tax"
+  }, {
+    "id" : "25518600-b879-4c5f-9f16-68d986da12d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "report for tax return",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7feddf6a-6a07-48c3-ba46-e0d643a2123e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "require the tax report for 1111",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "53db53ac-bfda-4319-9a2a-fde360ab78c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "should i expect to receive a tax summary for my super account-and whenwill this be",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7ad22491-eb95-4dcf-a549-c46bb8399c40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax breakdown",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "66f71551-ecb6-48f4-9639-5899d720ffa1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax componets",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "4c6085a7-c92f-46bb-8453-fd0bb2aa2329",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax details",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "db4c5ff2-1522-4f28-829d-16856c63ec99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax disclosure document",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "b2d892e0-86e7-4e92-99ba-4c6f24bccd1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax guidance to assist accountant to complete tax return for client",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e0646045-b50b-47cc-8c26-cd652db12d7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax guide copy",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ffaf170c-f724-4c7e-a027-a34feef2f587",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax guide for fy 1111 / 1111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a3acdbb2-f052-4e61-97fa-623b3cdf711f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax guide not available",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "02f5f60a-3702-447f-a60d-9bcfb130c0b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax guides not available",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e87dd50a-b245-4e9c-81a9-e0aabbe98b40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax invoice",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "9ca69574-4300-4662-a3cd-e7a6b4d1ff14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax report june 1111",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "5d5fe7a9-0f53-4f2e-83f7-e568426f62e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax report not tax file number",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "43e0470e-6026-4594-b6a1-d5653be7d58e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax reports 1111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7568a46f-33be-4579-8b3c-271fc3909cb2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax return",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "32cbcb0d-85e2-414a-b1d7-fc56331ee3d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax return for the 11 days in the financial year for the panorama account when will i see it",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "7f26dece-9f7a-424b-b865-82b37e76b0a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax return information",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1658fd90-0d5c-42fb-9aab-d412bc939a71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax summary 1111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "7a44433f-825a-49fd-af2b-552a678ce530",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "taxable component",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e69acbd5-545d-465a-aed2-35f8fd988d29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "taxable component of balance",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7a3a3556-d20f-4149-bd13-0a3fe9095b3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "taxable taxed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ce855ca1-09b5-4345-a782-64f9cba135a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "taxation report",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "0b0efe3a-dd78-4461-991a-437b55d16f8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "taxation reports",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8a96c736-0714-4e31-8125-fbcd05df3d18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is no tax summary there",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "75ba6ec9-7faf-4c19-b936-c209eaa9ab9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there us no tax return report",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2387cce6-7a44-416f-b7c3-97b27b587f85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to find tax return for last financial year",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f5481106-a5e0-48f4-b77b-30398e81fe25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "was the tax free and the taxable components 1111 the same as 1111",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "af0efef7-3b3a-4214-b004-71f01a8d7e1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are taxes paid on my account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "59a59230-c988-4fa1-82a0-25c6223f16cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there is no tax summary there",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "fcd69a8f-fd3e-4878-a71b-12ee1a126ce3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there us no tax return report",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9b15c4bd-7093-4794-ac84-769812c9e0d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to find tax return for last financial year",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1e93ca32-9fcc-4607-9932-bbda338d6d32",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "was the tax free and the taxable components 1111 the same as 1111",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8ebe7d79-0f97-4737-b4a9-b0f59a2dff7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are taxes paid on my account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "d729e667-3411-4a17-a094-e4f1a4e6a235",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my monthly tax instalment",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1a27d0b2-d911-4b5f-867c-e6dced292abe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is tax installment",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "efc933d2-e00a-42e5-aa14-6bff95a214ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the tax for super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "902e488d-3d04-4920-b020-da59cefbb757",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when are the panorama tax reports ready",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "48fbba29-b693-456b-8db5-7c93c1229b73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will i receive my annual tax report",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c671ce1f-fa1b-47c8-8fdf-1fac48eca601",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will the tax report be available for the financial year",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7e5894b4-4402-49b1-b503-4fd1684b0e6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the panorama tax guide for 1111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b6b47f49-5620-4b8d-8519-736a4029161e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the tax guide",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bf1f638f-0378-4bed-90a2-1889bd003038",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the tax guide for 1111",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a45cc5c7-e9b1-464d-bcd9-996df82b9e0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the taxable components",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "840b6a0c-2a60-4eef-b52b-478d8e45d863",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i get an annual tax guide",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "fd94c2f5-8a48-4d16-af65-acace9369ecd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find tax summary page",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1974e10e-d3ea-4148-bc16-c98837b28a4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the tax reports",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bc34d4d5-e820-4855-b286-c59231b8420b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is tax report11",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "96774177-b9ed-48d2-99fe-bf7bed9604b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the panorama tax guide",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "51b2ffdf-87c1-4144-ae1a-06f0882a97ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the tax report",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "c53dd790-e2d6-4c2b-be0c-34255742f2c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the tax report for 1 july 1111 to 11 march 1111",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c18d11b8-ea2f-4bfa-9df5-7c68f2a7acda",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to find tax guides",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a7211e7a-33d9-44cf-9f08-5695455de9fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to get the tax report",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "739148d9-902f-4bd6-9809-84903ece96b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why am i paying tax",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "495653ac-3001-4470-a95d-877677a169b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is there tax",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "bfdf0592-8fa8-4011-b012-81238465165e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why there is 11.11 percent taxable components in my pension panorama super i thought pension should be tax free",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0ca9ac0b-cca3-49f0-954c-ab6591a1f7f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withheld tax",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "dc9172bc-4ef0-48c8-af15-e9198c31ecb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "year end tax report 1111",
+    "tags" : [ "westpac-annotations-050321" ]
+  } ]
+} ]

@@ -1,34 +1,42 @@
 {
-  "name" : "bt_deposit_funds_clarify_contribution_method",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Please select the method of deposit."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Please select the method of deposit."
+        }
       }
-    } ],
-    "quick_replies" : [ {
-      "type" : "TEXT",
-      "payload" : "BPAY",
-      "label" : "BPAY",
-      "question_display_text" : "BPAY"
-    }, {
-      "type" : "TEXT",
-      "payload" : "Cheque",
-      "label" : "Cheque",
-      "question_display_text" : "Cheque"
-    }, {
-      "type" : "TEXT",
-      "payload" : "Direct debit",
-      "label" : "Direct debit",
-      "question_display_text" : "Direct debit"
-    }, {
-      "type" : "TEXT",
-      "payload" : "EFT",
-      "label" : "EFT",
-      "question_display_text" : "EFT"
-    } ]
-  }
+    ],
+    "quick_replies": [
+      {
+        "type": "TEXT",
+        "payload": "BPAY",
+        "label": "BPAY",
+        "question_display_text": "BPAY"
+      },
+      {
+        "type": "TEXT",
+        "payload": "Cheque",
+        "label": "Cheque",
+        "question_display_text": "Cheque"
+      },
+      {
+        "type": "TEXT",
+        "payload": "Direct debit",
+        "label": "Direct debit",
+        "question_display_text": "Direct debit"
+      },
+      {
+        "type": "TEXT",
+        "payload": "EFT",
+        "label": "EFT",
+        "question_display_text": "EFT"
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_deposit_funds_clarify_contribution_method"
 }

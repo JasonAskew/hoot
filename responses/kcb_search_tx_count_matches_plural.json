@@ -1,13 +1,16 @@
 {
-  "name" : "kcb_search_tx_count_matches_plural",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Here are ${matches} matches. I searched for: ${filters}"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Here are ${matches} matches. I searched for: ${filters}"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "kcb_search_tx_count_matches_plural"
 }

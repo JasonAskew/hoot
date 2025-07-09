@@ -1,0 +1,1516 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_positions_test",
+  "intent_name" : "bt_positions",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "6bc68f6f-22fc-4d09-b104-10dd57721ddf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Asset allocation",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4992edd3-80cc-45d6-b193-ba0231a1d8f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Asset allocation {@kim_company_name_ticker for} my risk profile",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "16675cf8-bdd5-4912-b040-1f53601a8687",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "BASICALLY PORTFOLIA VALUE TODAY...",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "cca02c48-4d58-4de0-82ef-cfe07200e095",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Asset allocation",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "503f66e8-5c19-48fc-be54-efc06f9cb4b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Asset allocation {@kim_company_name_ticker for} my risk profile",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "f52f9e46-0043-43f1-8646-0e717ccd3623",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "BASICALLY PORTFOLIA VALUE TODAY...",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "55daf90f-fa26-4c99-a7fe-0a7d796110ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "am i have {@kim_company_name_ticker ivz}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d9ce633b-9762-4ae3-bf7f-71dedb2bee42",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "am i making any money on {@kim_company_name_ticker facebook}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "76fbebf1-7cd3-40d5-b2ea-7a677503fdf6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i see all my {@kim_company_name_ticker aapl} positions?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a9e7ed17-a464-4cf6-95d4-b94406af104d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me how much {@kim_company_name_ticker facebook} i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a6727320-aea0-4dd4-ab77-06ba2af39f5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you {@kim_company_name_ticker tell} me the name of and what type of product we hold with btp",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "76d5e8bd-9047-43ab-acac-d40e68e222de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can {@kim_company_name_ticker i} get list of what i own in my {@account_type roth} ira",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "352664ee-dad8-47fb-b7f0-e116002aa4da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can {@kim_company_name_ticker i} see positions in my {@account_type investment} accounts?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a0755395-3ab5-4ec9-b139-ae1eeb98de1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can {@kim_company_name_ticker see} my vanguard portfolio",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5cc2aa36-b999-4da7-9524-2345a2469ba6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check my porfolio",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5f2e2c05-0501-4ca5-8dfc-29ce3013e12c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "am i have {@kim_company_name_ticker ivz}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9c88bd69-173f-4d17-a046-7c72a773045d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "am i making any money on {@kim_company_name_ticker facebook}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "062d0fc2-f861-48ba-92b2-9d43b1712509",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i see all my {@kim_company_name_ticker aapl} positions?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "25169c0d-463e-4412-94f9-b35d23769e38",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me how much {@kim_company_name_ticker facebook} i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1faf34de-f92c-4427-ab6f-04533f191d73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you {@kim_company_name_ticker tell} me the name of and what type of product we hold with btp",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3a4577d1-a2b6-474a-8575-93549e64c9e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can {@kim_company_name_ticker i} get list of what i own in my {@account_type roth} ira",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4cbdbf66-b437-431e-96e8-41952de897d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can {@kim_company_name_ticker i} see positions in my {@account_type investment} accounts?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "bf3f9882-bc56-4d3b-b951-d6a6c51128ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can {@kim_company_name_ticker see} my vanguard portfolio",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "efec32ec-f50d-4bb2-aa8c-d5ec4f8499af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check my porfolio",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eeb6dde3-7c6e-41c4-89f5-d14d17b30446",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "am i have {@kim_company_name_ticker ivz}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dc95c60c-2887-44bd-aac2-4e98ae20f992",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "am i making any money on {@kim_company_name_ticker facebook}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f326fa5e-ad48-478b-b8ec-1c854ff53ad5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i see all my {@kim_company_name_ticker aapl} positions?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1af5b7fd-7e7e-430e-beac-61d3071f212b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me how much {@kim_company_name_ticker facebook} i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "33574ae2-86b1-4dab-9fbe-1f5206d57835",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you {@kim_company_name_ticker tell} me the name of and what type of product we hold with btp",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "040cacc2-f53c-42b2-aa19-287e26b00ae8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can {@kim_company_name_ticker i} get list of what i own in my {@account_type roth} ira",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "dc3f9235-f6f6-44c4-8c2c-f69b5b78f7b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can {@kim_company_name_ticker i} see positions in my {@account_type investment} accounts?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "280add04-ddc0-4e72-b322-d8b8410b3bd5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can {@kim_company_name_ticker see} my vanguard portfolio",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6826a377-ed36-4633-be5e-b17c493e22ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check my porfolio",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "61eb851a-06ea-42da-a375-d3e114288773",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "delisted securities",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b32a3caf-d5d9-43d0-adb3-23d420694f02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "did i bought any {@kim_company_name_ticker fe}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fd156cfc-3f57-4996-9e30-918e2f65394a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i have any {@kim_company_name_ticker fe} shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "08ecea14-6cc1-4880-bad1-2eb8eba04517",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i have any {@kim_company_name_ticker firstenergy} shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ed962f17-f6b9-4728-996c-10530c0f51ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i have {@kim_company_name_ticker any} {@kim_security_sector health care} stocks in my portfolio?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7b26e21d-e19b-4ecb-89ce-620cfafd729f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i have {@kim_company_name_ticker any} {@kim_security_sector tech} stocks in my {@account_type brokerage} accounts?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6f9a46f4-d963-457b-bd04-268ca689b4ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i have {@kim_company_name_ticker fb} stocks in the {@account_number 1110} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cd435b73-911a-4cee-a103-0b1488988e33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i have {@kim_company_name_ticker ge} stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f8af6eba-1717-4de5-9b76-e200f1bc72c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i have {@kim_company_name_ticker tesla}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7cf13104-bfc1-4fd2-b833-f9afd90763bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i have {@kim_company_name_ticker tsla}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "57da76aa-027f-4f71-aa9f-5dac7f5495e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i have {@kim_company_name_ticker twitter} stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0edcd3a4-4374-4b04-8153-caac9bde2dc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own any {@kim_company_name_ticker cvs}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ef5772b2-a6bd-40c1-bdc0-e8fdf77ced02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own any {@kim_company_name_ticker cvs} stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3ea07614-771b-4e04-83b1-dfdb169f5284",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own any {@kim_company_name_ticker dfs} stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "76267bd6-34cc-4d93-a1b7-b3665f3bc4a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own any {@kim_company_name_ticker fb} stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d60931c4-64d6-43ed-96ac-edfdb830e1bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own {@kim_company_name_ticker any} {@kim_security_sector industrials} in my {@account_type brokerage} account",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "15706eb7-f3ac-442c-93d3-5590a76c7779",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own {@kim_company_name_ticker apple}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9a4be959-e935-4334-9801-93edd6651618",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own {@kim_company_name_ticker appl} stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "648ceb18-2d1f-4c77-b111-af08f78bd606",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own {@kim_company_name_ticker facebook} stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "12e9b52a-26d2-4303-b76a-8a406cd8a1f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own {@kim_company_name_ticker fb} stocks in my {@account_number 1110} account",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "47c03503-cf2f-4c75-bb93-5f872f8cdb83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own {@kim_company_name_ticker fb} stocks in the {@account_number 1110} account",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "5263b569-cae9-47df-b48e-8e869818780b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own {@kim_company_name_ticker fe} shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3b9e72b7-8fab-45d5-b171-e7caa1d8052e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own {@kim_company_name_ticker google}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4c653322-cb4c-40f2-9e03-cc039316f1a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own {@kim_company_name_ticker ibm} stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6ae5b8e7-1bc4-4dd5-b95e-818a944f9035",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own {@kim_company_name_ticker tesla}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8e660297-7890-4afc-a613-f86278a85f86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i own {@kim_company_name_ticker twitter}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c0ed0763-d45e-454d-82f8-15baa680ef30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi {@kim_company_name_ticker i} am just trying to find my {@account_type investment} profile thanks",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b0d39062-f11f-475f-a10f-39ff1a2175a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how 's my {@account_type retirement} account doing",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "43cf3a9d-6ad7-4186-aa9b-7ada0fd7cef7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how did my {@kim_security_sector technology} stocks {@kim_company_name_ticker do} last year",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c7c0799c-13bb-4620-ade4-b86d61d3bcae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how invested am i in in {@kim_company_name_ticker hrb}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b5a5ae3a-a1d5-4128-91cf-a80eb9b94075",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how is my {@kim_company_name_ticker acn} stock doing",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "04830222-1f62-42ce-8498-24dff330db62",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how is my {@kim_company_name_ticker acn} stock doing?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e30c6c9b-28fc-43c1-82ac-c4dd18a620de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how is my {@kim_company_name_ticker zion} stock doing",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4731c309-7690-40c9-8500-d899af865148",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many public {@kim_security_sector utility} shares {@kim_company_name_ticker do} i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d1c33b9d-f0aa-4779-9c54-ec64b3b709df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many share of {@kim_company_name_ticker appl} do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e37217c6-91dd-4e31-aac1-bee5ee31991d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6bbaf0af-3fcf-4411-a7bd-7cabcf0db0b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares do i have of {@kim_company_name_ticker appl}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a62044d1-a5bf-4492-93db-7660fdd69144",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of stock to {@kim_company_name_ticker i} own",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fb39e534-f72c-4aa4-8b84-3cd11b043cf5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker accenture} do i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b846d2c0-747f-4279-af57-68a81850282d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker acn} dd i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "53bf1d1c-90f8-44d1-836d-37c4e22ce70f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker acn} do i have in {@account_type investment} account ending in {@account_number 8631}",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b2d81fa1-cf07-48ce-8ef2-dfe4a4816c3c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker air} stocks do i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7475c996-f7a2-4875-b698-046fc5815917",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker apple} stock have i got",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "69d8e9af-91b0-4ea4-b460-dbe685e64910",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker appl} do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b558e414-c8e6-48d9-a25b-d489f8619dd6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker appl} i got",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6b465ff5-3d1a-4e22-ba68-c5a2dba74ddd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker atvi} do i own",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d4d7fe7d-44f0-4eb0-93fe-a99da70604e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker cvs} do i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6775f171-c334-436f-971b-314cb1dac35d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker ibm} do i own in my {@account_type 401k}?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1ce7da6b-16e4-4fef-ba06-7aabe39305f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker mmm} do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8f0278c7-9b1d-44b2-9e72-1ea7bb6f8733",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker mrln} do i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0b94a1eb-2e4a-43ed-a1a4-312ccc649d7d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker uber} do i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0bb5cca4-c8b6-49e0-9332-10b0f56bb65d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker visa} do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "43ab03c6-4ee1-48f9-a224-36eb7c2f1ea7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker v} do i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b41f8282-44d6-4a2c-804f-4e8e60934f5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker v} do i have in my {@account_type retirement} account",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f9aba228-f220-4453-b9c9-a0a66132ff3c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker zion}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a3e79728-78c0-42aa-abfe-7fb06a65ff1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares of {@kim_company_name_ticker zion} do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d5f0fa06-94c2-419e-8fd0-1cf676d7adc0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares {@kim_company_name_ticker accenture} do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9da81e62-656e-4a36-9836-c04343956732",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares {@kim_company_name_ticker do} i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e8534d44-7b20-49a4-895d-84dd7577d8c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many shares {@kim_company_name_ticker do} i own",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6d320e70-93ad-4901-a959-cb00dec0a700",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many {@kim_company_name_ticker acn} do i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1a98781e-5b1c-47da-912f-90832035ce55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many {@kim_company_name_ticker acn} stocks do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "cb6bb0a3-b129-4c4a-b312-048479ac77eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many {@kim_company_name_ticker do} i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "275c09bf-b6f7-45a5-8570-e7e8e55b4d0c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many {@kim_company_name_ticker fb} do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1f921174-5945-4052-bd1e-21a0bec6b85e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many {@kim_company_name_ticker fb} shares do i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ad6a3c0d-7470-4b76-9af2-b3ebacee0082",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many {@kim_company_name_ticker fb} stocks do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "10492a06-fb43-4caf-88e7-b3d5ed32ec47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many {@kim_company_name_ticker zion} shares have i got",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "716fe5dd-a287-42e7-910d-e2b70fe90691",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many {@kim_security_sector energy} stocks {@kim_company_name_ticker do} i have?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7b362a34-7db1-45d1-9ebc-3373e22af441",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many {@kim_security_sector financial} stocks {@kim_company_name_ticker do} i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "36c90523-427e-47d0-9d44-01c2e53fa836",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many {@kim_security_sector healthcares} shares {@kim_company_name_ticker i} have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4d22ac50-1f6b-4f60-8bed-2f44861ce419",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how many {@kim_security_sector tech} stocks does {@kim_company_name_ticker i} have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dc4d20ad-1504-45d7-aa25-aef234959125",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much are my {@kim_company_name_ticker facebook} stocks worth?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9b78a064-54ed-4daa-8505-1391c2adce8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much are my {@kim_company_name_ticker jpm} stocks worth?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "fa8e0c92-cc9c-4ebd-be00-cbbe0340e196",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much are the {@kim_company_name_ticker jpm} stocks in my {@account_type retirement} account worth?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a4c5bc1f-a099-44c6-a651-f34afb681868",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much can i get for my {@kim_company_name_ticker fb} stock if i sell now",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "34c3066e-0d29-4b48-a3b8-f2337a464b81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much did i invest in {@kim_company_name_ticker t}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "81fd3f0c-60b2-4d66-9b07-864c6a92945f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much do i have in {@kim_company_name_ticker zion}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a2c65b89-b7ed-4fc8-8a0f-1e0db8c965bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much do i have invested in {@kim_company_name_ticker t}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1dbaa346-1497-4e7e-8317-0f096ee0dae8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much do i have {@kim_company_name_ticker apple} stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ec01dd8b-0954-4d48-b50a-6414d061960c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much so i have invested in {@kim_company_name_ticker grpn}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "45cde330-3a68-496d-9c9a-f0ee77d3e888",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much stock {@kim_company_name_ticker do} i have in my {@account_number 1110} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c0307b8f-8b6a-430f-8b5f-e09e7a399092",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much stocks {@kim_company_name_ticker do} i own",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9f464971-8a65-47b0-b80f-f8f1873202e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker acn} do i own",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2b4ab7b8-8a48-4a3a-9498-155c333a1fc7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker at and t} do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2771b2e9-26f4-43de-93c7-d2a216f7ab73",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker csco} do i own",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "175202c5-bf08-4397-8942-c507afb735fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker cvs} stock do i own",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a56d048d-1432-49bd-b384-29527c684344",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker do} i have in {@kim_security_sector finance}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "08e5c380-85f6-4cb1-9791-6b48415ba22e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker fb} do i own",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "445c6418-4077-4860-90b0-4c3ac144c5b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker mmm} do i own",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9c8c9e39-de52-44c5-ae0d-e912212a0e5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker tesla} to i own",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "39b7cb6f-db3d-4169-8fa1-9f1bb6bd4a77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker tsla} do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "799a0aaf-7401-4d6c-880c-16a8a7fec876",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker uber} do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "77707798-b2e2-4489-aac8-b21f3b7f594c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker uber} do i own",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3bc097bc-2030-4ac0-b10c-3b3094d136f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_company_name_ticker zion} do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "03ac3288-6a4b-41c1-9792-ae8aba78cbc8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@kim_security_sector tech} stock {@kim_company_name_ticker do} i hold",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ad453278-4708-41c8-94ef-d0db6febbbd8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how my stocks doing",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ebed87f3-863d-43b7-85a8-7a401fbd2076",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how {@kim_company_name_ticker are} my stocks doing",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1dd0492e-695b-41f3-b63a-e3e6e4bf33fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how {@kim_company_name_ticker are} my stocks performing?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "26b144ef-9e25-44f0-8de7-5e2ae571e1cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how {@kim_company_name_ticker are} my {@kim_security_sector finance} stocks doing in my {@account_type brokerage} account",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "cbed44b9-e9a3-4994-99e6-e5f742a7a872",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how {@kim_company_name_ticker are} my {@kim_security_sector health care} positions doing",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f565acac-5bb9-4871-b1a1-53b49201e4fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how {@kim_company_name_ticker are} my {@kim_security_sector healthcare} stocks doing",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "66ca372f-1f48-45d0-a1c7-ed78eb5a4e0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how {@kim_company_name_ticker do} i find out what i paid per share for each company and date of purchase",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d929a578-8e57-46b6-a4a0-ccf197871144",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how {@kim_company_name_ticker do} i see holdings of each fund",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a76047f7-ca8f-4f23-9ba3-4f6726e6d477",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how {@kim_company_name_ticker do} i see how many {@kim_security_sector tech} sector shares i got",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a049cb51-1116-485c-ab7c-f19e9de4df90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how's my stock doing?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "81011d70-d1a6-49f2-a1eb-4b95d04feb09",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hows my {@kim_company_name_ticker fb} stock doing",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f9359a32-e3a5-4bd0-8451-71a885c19713",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hows my {@kim_company_name_ticker fl} doing",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b900d5d1-a74f-4b5b-bf03-1354feed07a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hows my {@kim_security_sector capital goods} doing",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "39af1ad9-9578-41d7-9311-a388faa63258",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not need transaction history i only need {@kim_company_name_ticker a} snapshot of my current {@account_type investments}",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c6e94d34-4f08-455e-a738-fcc15fe716a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is there {@kim_company_name_ticker any} {@kim_security_sector fs} stocks in my {@account_type 401k} account",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "5826e6c7-f019-488a-9aeb-ee3c086df1d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "just {@kim_company_name_ticker a} list of shares",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "692f7686-3fb0-43cf-8da5-059525ae08eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c14180ac-115c-4c12-a3b9-1157ecb83419",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio allocation",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c9dea8d6-37fb-411f-99c0-bbba0514062e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio position",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c45df4c3-344b-46a8-83d6-6c4d09c70ced",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "positiona",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ff7c8522-b1dd-4a8a-bc0b-b331ef8bbd2e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "57c83d7d-7ead-462a-ab9d-24f431d716dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "positions {@kim_company_name_ticker for} account {@account_number 1111}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cd10f199-3caa-4543-9746-6995e8251f49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "questionon the portfolio valuation",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e6fa1257-75c3-4050-a5e6-eecfd753e00d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me my positions",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "463b6c51-180e-402d-a48e-b394d7ab808c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me my {@account_type 401k} positions",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b40a99c7-3fb9-4657-8ba7-96da601e61e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me my {@account_type investments}",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c02ccdef-7efb-45f7-a5af-3817eea5c275",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me my {@kim_security_sector real estate} stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1032c9fe-02e1-4137-b548-fce26e2464fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me the number of {@kim_company_name_ticker zm} that i own.",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b1f90f3b-5ab2-426b-a01f-0d2c43560d59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me the value of my {@kim_security_sector finance} stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "16e51825-34fe-4c1d-a4bd-dbd464b94cb3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me {@kim_security_sector tech} stocks in account {@account_number 1234}",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "55c57051-29e3-4139-ad16-403a05c734e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my position {@kim_company_name_ticker for} {@kim_security_sector healthcare} stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "dc2f7ebe-86b9-4e8d-8a3f-68480090c484",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my positions",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "88700406-cffd-4be9-81a9-0b47762661cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my {@account_type brokerage} account positions",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fc7b792a-5a50-41d7-b92f-fc45e6a3b7b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my {@account_type ira} stocks",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e4d0012e-61d0-4be1-8c0b-6ad098ac47c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my {@kim_company_name_ticker accenture} positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2fcac7e4-648c-495b-b5db-8acfdb9af111",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my {@kim_company_name_ticker acn} positions",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4472aa4b-cad7-473c-a7b1-75fb8eecf58a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my {@kim_company_name_ticker acn} shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "254682ce-6ed0-4612-9ce4-8ed0fd9e1e98",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my {@kim_company_name_ticker bxp} stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9186fc76-c053-4dea-a203-61c0e1f5c3e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my {@kim_company_name_ticker zion} shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e1c430a8-f619-4efc-a72f-7384f0285ac4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my {@kim_security_sector healthcare} positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "fc7d8721-5095-404e-ab66-e2e95b4917f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my {@kim_security_sector healthcare} positions in my {@account_type brokerage} account",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "60559381-31cf-4ddc-949f-5b030f3a64e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my {@kim_security_sector tech} positions",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "646d3ec7-0779-400d-a67b-0f6e1f6a31c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show my {@kim_security_sector tech} stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "97c5c61e-96ff-4e4c-a67d-72afd21069a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show {@kim_company_name_ticker ge} stocks that i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "059f9ff8-8160-44f8-aad8-16ddfd87f5e1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show {@kim_security_sector tech} stocks in my account {@account_number 1110}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e844dcd7-1ba5-4d6f-a339-629ab326399b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "so i have {@kim_company_name_ticker any} money in grpn",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "963f604b-bceb-4e22-a7f7-70aaee27ac80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me about my {@kim_company_name_ticker fe} stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "53a198e7-daab-4dd4-8b28-a6d06f62dc19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me what {@kim_company_name_ticker i} have in my account {@account_number 1110}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "cd83817e-2a50-426b-9463-d4ebe52cf1b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "total value of my {@kim_company_name_ticker mrln}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9a6259ec-9db5-4c40-8e97-01fff212a6f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "value of my {@kim_company_name_ticker facebook} shres",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c4d52433-1006-4768-b241-cc1d5540f9cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "value of my {@kim_company_name_ticker fb} stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6b682ab0-5749-41d6-b1ca-14c8a9d36f84",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "view positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "26b8e380-fdc8-42c0-9123-6cfbccc7b57f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view super components",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1ba1e050-5680-4543-a4af-f0dbe53ed016",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what 's my position",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9c738f06-f55a-49df-bba2-a6ec712eb050",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what 's my position in can",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "80ac4607-106c-48ba-a0e8-b9cff32f1299",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "total value of my {@kim_company_name_ticker mrln}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "50708606-fa42-44f0-be1c-d74d9e90346c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "value of my {@kim_company_name_ticker facebook} shres",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ab9b781c-25d9-4b1c-a29c-c80ebe129111",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "value of my {@kim_company_name_ticker fb} stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "947f05df-01bd-4c70-b3e7-50b3d6d3c097",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "view positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "278900b2-0944-42a3-bd6d-c23c5eaaca6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view super components",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "86ff719a-ca65-4606-acf2-7513c18f4a8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what 's my position",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ff3f4f3a-434f-462e-acc2-9eff720551d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what 's my position in can",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "aa35949a-9cc0-405b-bf38-4d81b70ceb02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what foreign stock {@kim_company_name_ticker am} i holding",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2defa4c9-7e57-4706-b528-d524379fd6ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is my position in {@kim_company_name_ticker cvs}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d648566b-21e3-427e-9713-08dcafe33ad3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is my position in {@kim_company_name_ticker dfs}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "499446e8-df32-47e9-b98d-53189d26cfab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is my {@kim_company_name_ticker appl} position",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5f798f83-e800-4108-b326-470721bde3ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the average price on my {@kim_company_name_ticker fb} holdings",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8408d36b-7c1a-44d9-a8bc-189dbb80767b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the cost of my {@kim_company_name_ticker fb} position",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "23a554bd-e33e-4044-b686-3005836a5500",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what shares {@kim_company_name_ticker do} i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "50dbbe98-191a-42f5-a000-a3d19bfded03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what stock {@kim_company_name_ticker do} i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6222335d-13f2-4267-b3fa-ae9030ef9021",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what stocks have {@kim_company_name_ticker i} purchased via my espp?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2f545c25-90d7-46b3-8d1a-7ab1cbd2920b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what stocks {@kim_company_name_ticker do} i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "15fcb6d0-d0b9-426d-bfb5-1e7b7087ce19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what stocks {@kim_company_name_ticker do} i have in my {@account_type 401k}?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2431f3d2-2885-4e7c-ba08-f14745cf8b84",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what stocks {@kim_company_name_ticker do} i own",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ea4496a0-721b-4902-966c-59b509409828",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what stocks {@kim_company_name_ticker do} i own in my {@account_number 1110} account",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "30ee9f6e-ebf2-4eea-923a-53107ae601d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what stocks {@kim_company_name_ticker i} have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "76819e07-7745-4374-b2d4-2cd2cd01a5ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker acn} do i have",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "79ac0846-3a3d-4ec2-ae3c-4cc5622eeed4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker are} my current positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "401cedab-6357-45b3-8e08-c60e5fd6ef6e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker are} my gains today",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3db4c801-b099-4ac1-ba3d-ffaf374ba307",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker are} my holdingss",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7c980f40-ebab-4fb6-bc05-98fa12818864",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker are} my positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "46202611-a45a-4a68-b4d5-29406bdf9c63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker are} my {@account_type investment} positions?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "859777c2-497c-4afb-82ef-416e64fd64c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker are} my {@account_type retirement} holdings",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1e6d9172-b0e2-4ca1-9b97-1aaf28a2d1e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker are} my {@kim_security_sector technology} positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6fbb7fd4-42e5-4329-b289-edf0317417a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker are} my {@kim_security_sector tech} stocks worth?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ef81c179-6cd5-4799-9f58-28388172dc32",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker are} my {@kim_security_sector utilities} positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9a64c720-1260-40d7-8b6e-a64ab6623b5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker fb} stocks do i have in the {@account_number 1110} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8b78807f-0f70-4122-bc2b-45e47528add9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker uber} do i own",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "aad2d76e-369b-4707-84bd-cbe5f8f251c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker v} stocks do i have in my {@account_number 1110} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7c43fdb2-bbac-4f2e-8781-b21cec3ad9e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_company_name_ticker v} stocks do i own in the {@account_number 1110} account",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "86452e73-2fae-4767-a66a-13f9585cbcbe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_security_sector bank} stocks {@kim_company_name_ticker do} i own",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9134719d-89b9-49d7-a293-1da0db9280ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_security_sector energy} stocks {@kim_company_name_ticker do} i own in my {@account_type 401k} account",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "37feccb8-c690-4466-9257-0f4a732f8081",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_security_sector healthcare} stocks {@kim_company_name_ticker do} i own",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "809561ab-21d4-4d48-925b-942e4898b35a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_security_sector tech} stocks {@kim_company_name_ticker do} i hold",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "5ff0a2de-326d-4726-84ae-e93d07068536",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what {@kim_security_sector tech} stocks {@kim_company_name_ticker do} i own",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1dc05de5-aa83-4ca5-a308-7302ae45c34a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's in my {@account_type savings} account?",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "90e995c5-e0aa-4340-9423-e9c54e1ffa39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's my portfolio value?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "30ad8c0f-d307-4ac2-867e-b3d9f57f318f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the current value of my account?",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d59ed46e-8149-4398-af54-a77cbafbc26c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the number of {@kim_company_name_ticker tsla} shares i own?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d361cbd5-412d-4f98-9528-6ac956c75500",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the present worth of my {@kim_security_sector tech} stocks?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b8ab6461-bb42-4e95-ad36-84dd3f53b298",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the value of my {@account_type 401k}?",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c98c848b-213c-4a29-bdae-643586fc2ce0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the value of my {@account_type investments}?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "efc6f953-65f5-4b82-95ef-9ff2d3412787",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the value of my {@kim_company_name_ticker uber} stocks",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d4c56f5a-8ec9-4867-baea-7190f46e2c4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the value of my {@kim_security_sector energy} stocks?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "58041876-9d33-471b-826a-8e57f9dd6533",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the worth of my stocks?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "67e2ec94-a4a2-458a-a280-1dd542385480",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats my {@kim_company_name_ticker fb} position",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e6dd1ad9-3db5-4d44-bc16-87126eb2d753",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is portfolio valuation",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "13c11caf-d608-49b7-829e-0d625d537d30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where {@kim_company_name_ticker are} my {@kim_security_sector tech} stocks today",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "34571ed1-15ba-44a7-bba9-ed70cfc7e599",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where {@kim_company_name_ticker do} i check what menu the client is on",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "39913376-e6ca-41b0-bcc2-bcf41fa3cd63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "which stock {@kim_company_name_ticker do} i own",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d3becf23-7825-4d34-89d7-d7a0ef47e0f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "which stocks {@kim_company_name_ticker do} i own",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "17f7b44b-e623-486c-b1b3-f8281f47211e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kim_company_name_ticker are} my stocks doing well",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "91ccbddb-0960-459b-b0e3-d88dec363f4d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kim_company_name_ticker cvs} cost of position",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1f57d8e3-8991-4000-aefb-130537d95b9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kim_company_name_ticker do} i have {@kim_security_sector utilities} stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "eb687a28-f6bd-4851-97b9-54c5d78dee23",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kim_company_name_ticker do} i own dkny",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b16a81ea-2288-4d50-99bc-54396d9f9f79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kim_company_name_ticker do} i own oranges",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "cbcbb58b-74ba-4480-8bf0-4d1fd9e5461c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kim_company_name_ticker do} i own stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "13acbc89-d062-46e1-8d89-6c541983c37c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kim_company_name_ticker do} i own {@kim_security_sector consumer discretionary} stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d52d28b4-cfc4-479e-95b4-c7641d395c0a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kim_company_name_ticker do} i own {@kim_security_sector consumer durable} stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dffa28e9-450b-4672-90ac-3ce2f61d5a97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@kim_company_name_ticker i} need the details of the distributions",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aa6e8b11-3255-43af-95f4-4c3c0727d436",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kim_company_name_ticker i} want to see my positions",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9580e3c9-dfe0-4ae3-a774-e5fb25c67ae1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kim_company_name_ticker see} my stock positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "fb2995ba-3984-4e2d-b375-8cc918e2d9b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kim_security_sector health care} positions {@kim_company_name_ticker for} account {@account_number 1111}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "edba0e36-fb23-46af-8287-b2346048e39e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@kim_security_sector information technology} positions {@kim_company_name_ticker for} account {@account_number 1111}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  } ]
+} ]

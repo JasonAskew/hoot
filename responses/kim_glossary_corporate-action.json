@@ -1,48 +1,62 @@
 {
-  "name" : "kim_glossary_corporate-action",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "kcb_kim_getdefinition", "kim" ]
+  "categorization": {
+    "tags": [
+      "kcb_kim_getdefinition",
+      "kim"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Corporate actions are activities performed by a company or issuer of securities, and include such things as capital raising, disbursement, or restructuring activity."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Corporate actions are activities performed by a company or issuer of securities, and include such things as capital raising, disbursement, or restructuring activity."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_corporate_action"
+          },
+          "label": "How to participate"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "bt_corporate_action"
+    ],
+    "quick_replies": [
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "1",
+              "type": "String"
+            }
+          ]
         },
-        "label" : "How to participate"
+        "label": "\ud83d\udc4d"
+      },
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "0",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4e"
       }
-    } ],
-    "quick_replies" : [ {
-      "type" : "INTENT",
-      "payload" : "👍",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "1"
-        } ]
-      },
-      "label" : "👍"
-    }, {
-      "type" : "INTENT",
-      "payload" : "👎",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "0"
-        } ]
-      },
-      "label" : "👎"
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "kim_glossary_corporate-action"
 }

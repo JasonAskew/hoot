@@ -1,0 +1,1237 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_wrap_account_access_train",
+  "intent_name" : "bt_wrap_account_access",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "bad25436-4c24-43cb-8bc3-e1568f5f8d19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to access my wrap account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6cbc523a-03e8-4d51-a73a-bd2f09509c25",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I allowed to still login to the wrap website?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "e431c57f-0c3a-479c-8a1d-6cbd86480409",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I allowed to use wraps website?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4b34a2d1-f4dd-47f1-adea-b5c5f44a4ad9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "BT Super log in",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "8d36d5fa-7c15-4e90-8122-4251045d359a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "BT super for life log in",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "5f619015-1498-4a45-afe2-d65481b5d658",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "BTWrap",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "aebf85d2-a69c-48c5-9413-e065a43d5718",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I access my wrap account online?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f36218d6-d715-42d9-a158-385e205c36de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I access the wrap site?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f423ed71-0b6e-4854-8cfa-d9a953957a9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get to my wrap account online?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "22402df5-fe78-4579-99fe-616f2b954cc6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I hang onto my wrap access login?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d5a52ff1-0a23-4605-ab00-c84bcf27151e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I keep my wrap account",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "e465aca9-5e94-4447-87ae-6ca88532431f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I keep using the wrap site?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "dcd5d172-93f0-4ea6-9007-6b033b7ee3f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I still have my wrap access?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d03637ce-dd2c-47d1-89b1-1623b35f783e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I still keep wrap access",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "70c88857-8f1d-4934-aea2-7439766de869",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I still register for the wrap site?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "68921457-4ba0-4d7c-b3c8-562117947065",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me log in",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "648e05c0-1d47-4a23-b230-dccc59320535",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you help me login",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "06a45b28-14ee-484d-baa4-2bea9f5f77b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if I can still access my wrap account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "2788109e-df88-49ce-8061-ace505e13458",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I still get to keep my wrap access?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "1ea5beca-2070-4a6f-bb0a-23edb2393e26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I still have wrap access?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b3fffa9b-aa35-46cd-8eee-0e3c2b97b316",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I still retain my wrap access?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "0c95f124-42c4-4d67-afd1-4963a56d8067",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you know if I have access to the wrap site?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6a639a68-227d-4e11-bf62-74df0da7e77d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello, i need help with logging into my account.",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "4d5952f9-2b54-4a84-a045-f896fdfe9801",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I'm trying to log in to my account",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "06a4ae88-0384-414f-a186-f6d22c6a39c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi im trying to log into my account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "65980f7b-b459-4041-9126-7ee56983cfde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I try to log in to my account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ef2d6a86-581a-4d48-bca7-1557f00b29e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hopw long will the wrap site remain accessible?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a284220a-49a5-4d02-8d63-3f5927827ed2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I log into my BT Super account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "21abe926-0c71-4abf-9d3a-b6342d0e206c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can access my wrap account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "df6f1e4e-c51c-40d3-afa7-90e3352826b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How should I access my wrap account now?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f5745be2-9387-46fb-9d9b-6f25ada01770",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to access my wrap account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "10675c3c-8a34-417e-be0c-91274518c83d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I allowed to still login to the wrap website?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6c905815-9a99-4aff-a0e6-84294cbdf6f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I allowed to use wraps website?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "69ee4c38-2bc2-4162-842a-52049d1a20c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "BT Super log in",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "a193b3c6-e83f-4afb-9446-3f70cdcae065",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "BT super for life log in",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "86cec0b4-b3aa-442f-86e9-7aa525422bc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "BTWrap",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "70ab72ab-703c-41d9-b7cd-1145dbe8e6ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I access my wrap account online?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d84cb84e-528d-454a-a58b-9ea2ce840209",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I access the wrap site?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "2025a151-8a8a-48f6-9e11-3c8fd52ecb00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get to my wrap account online?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "1f3cd4c8-7801-4ff0-b78a-83eb48fedffb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I hang onto my wrap access login?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "37cf5619-e54b-4d9e-8b54-c8c7d9060039",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I keep my wrap account",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9ffd33b8-5ddc-4e13-bb65-d75e602dcc83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I keep using the wrap site?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "71cf1c27-e500-46e7-a1c5-e330da3c2867",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I still have my wrap access?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "e8880284-6feb-4fdc-8de4-54f591dfe78b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I still keep wrap access",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "c87a8cd4-f3f2-484a-9607-0bfdeb374231",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I still register for the wrap site?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "664634e8-2c07-43ba-93f1-d0db401d63df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me log in",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "41de45cd-ac4b-4520-b97d-b1ef206d70c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you help me login",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "165119bf-d1a3-43a8-881c-ae854dab990e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if I can still access my wrap account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d7b0f76d-8e61-41bc-879d-a8867b73d62b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I still get to keep my wrap access?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "0cd646cf-703b-428c-9961-88ab27087133",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I still have wrap access?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "94c6dad5-045e-4c7f-9019-b9d252702012",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I still retain my wrap access?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "041b0933-6d31-4597-ab97-387f24e573f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you know if I have access to the wrap site?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "bf5083ac-92dc-4962-9ce5-0c3a6872ddec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello, i need help with logging into my account.",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "8260c941-ca83-47be-8bbc-d51876910b91",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I'm trying to log in to my account",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "044e8e00-3272-4b73-88d9-7fd73471e4bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi im trying to log into my account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "066dc6ae-7acc-4e31-920c-a441b9db6ba8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I try to log in to my account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a6953b9e-2fbb-43d0-9d2e-4441825b85f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hopw long will the wrap site remain accessible?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3309053a-d75f-4ba0-8ea0-610825dc8492",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I log into my BT Super account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b1ef6f48-031d-4734-b3d9-29f7c1c31360",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can access my wrap account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d12cc4b1-b97d-432d-b0e0-7097e8b9d6ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How should I access my wrap account now?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "5c3a70e5-3ff6-4720-89f1-19c3a32bc77d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need help logging in to my account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c072ff98-71dc-4155-affd-17a7d2113b12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help logging into my account",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "1f1fceb3-3d7d-4ef9-a70e-fb2cb06d83e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help to log in",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "e527bfcb-8128-4d31-a70b-bdb7ad1c24a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to see the wrap site",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a20b99cf-cd5d-4506-8c11-07647e39b7a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'm an employee . What is mu log in details?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "85444008-403b-43ab-8610-33f7cdaa0be3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I'm trying to log into my account. I know that I'm using the correct user name and password however I keep getting a message 'something unexpected has happened'. Is there a problem with site at presen",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b3982663-e744-4fe6-8b18-d2a6ca012e5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is my wrap accoutn still valid?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "14db13df-dc52-468a-ad4e-7adb35eac37b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is wrap site going to stay available?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b1801787-b791-47dd-a757-a8e4d7cb477c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Let me use wrap",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "38299015-3166-457c-a082-0091af96a4d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Loging in",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "36b18b14-908e-433c-a917-44c4b9c6bd7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to use the wrap site.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "03a94e76-3245-4cde-898c-fcf3927ceaef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me if I am still able to access my old wrap account.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "291ffff6-b06f-41e4-9348-4b8c6966d3fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Telll me how to use the wrap site please.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "7ccbb420-432f-4c51-9701-73154395b1f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will I be able to continue to login using the wrap website?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3cd014c0-b4e9-4579-977f-5259b5c00e5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will I retain wrap access?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "e081236f-50b6-4fdc-8fe2-7cad37bb152a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will I still be able to access wrap?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a63e2e85-ac2e-4a23-80d9-01018ba92aa0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will I still be able to use wrap?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9e2ed566-181c-4ece-9d99-9e91d528a199",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will i be able to log into the wrap website?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b9dab988-01c3-490f-909f-be74709bbfd1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my wrap access stay?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "ae48cb2b-eaa0-4308-a065-32482de214a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will the wrap site still be available?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "1df3e175-2ebb-496d-ae12-9d3f1a66dd18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "am tired for trying to log in and am not successful",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "bc41daa3-3279-424b-9b1b-5713902decc1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt issurance login",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "e450e12c-e8ff-4b9b-97c6-694c21779ea5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super login",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "ea814929-bcb6-4984-8943-c4499e8ee0be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "by wrap login details",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "a363b882-7a9b-447a-b64c-488a91c1c5bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I still access the old site",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "1e20ef26-d248-4d35-8dbe-5a3b7eb359dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I use the login from the old site",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "953661fd-bd3c-4868-bf5d-b2361c376006",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i access to my wrap account after migration?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "8946f318-9669-4325-8c27-c6fcf9c39ce4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i still access my wrap account"
+  }, {
+    "id" : "2d5ccf3e-6a01-474b-a6a2-c9364216943c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i still access my wrap account online",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "29976ff5-c6ed-4092-9dd1-45cf3536ff4d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i still login through the inverstorwrap",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "2b2170e1-d709-49c2-8fc6-f945cc7c84be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can u pls send me link where to log in",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "59cc7247-1d5f-49d0-9513-053ede2a04e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you help me log in",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "9d83d03d-9b70-4d7e-b780-0b521d4bca66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "am tired for trying to log in and am not successful",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c728061a-da51-49a9-b36e-5f84797aabee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt issurance login",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d354c88b-b6cf-4dd3-b73a-6ac7461bf655",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super login",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9778d6b3-fecc-467d-852a-cb800db39b0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "by wrap login details",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b09d50c3-0258-4bad-9695-8ad83967adaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I still access the old site",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "f56f08ac-b394-48cf-bad1-382874cc2a5f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I use the login from the old site",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "1879fbe6-3b87-4a31-9eba-410d140e8ee8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i access to my wrap account after migration?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "3c4d0f01-d7be-4873-b009-7005766d9e00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i still access my wrap account"
+  }, {
+    "id" : "a6545f40-1913-4f39-8fd2-f764e9add757",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i still access my wrap account online",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d6db5c00-e715-4f0b-a389-f6ebcd89ae2e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i still login through the inverstorwrap",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "5a46c9e2-0162-45e4-bbf7-0b37d8cdd0d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can u pls send me link where to log in",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "a18a917a-4c45-4271-89aa-025beb2cb0b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you help me log in",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7fa76b7e-ceab-43a4-8808-6195fa838d66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "am tired for trying to log in and am not successful",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c687321a-c9a3-484e-ac8c-746f9135fad2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt issurance login",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "df5be213-2bf0-4dab-a7c4-fae11dac63d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super login",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "1ef60c42-d58d-4986-89ad-704379ff741d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "by wrap login details",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "10344e7f-f568-4ef0-ac85-f53d69ed0093",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I still access the old site",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "52ab8ab9-e0bc-481a-8d64-a02c3eba0aa1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I use the login from the old site",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "70b9098e-d462-4eef-b3a5-d535af27a3dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i access to my wrap account after migration?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "8a6f3d93-fcbf-480a-9b93-2f4d0d4759f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i still access my wrap account"
+  }, {
+    "id" : "e27c807c-95af-4162-9776-5a3f5916da2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i still access my wrap account online",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "48e5395f-9ad7-4179-83e3-85d27544c932",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i still login through the inverstorwrap",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "eb4a6a7f-7cc4-45c4-9574-db5a19336b5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can u pls send me link where to log in",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b09bfe09-7d23-4b35-af5a-6e05f29be1ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you help me log in",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c94fb4da-a430-4b61-9862-9c5dad07490e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client loging account"
+  }, {
+    "id" : "7b5469bd-e0e6-4c56-b73e-57dc61bb9960",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find by wrap details",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bf091a21-19ef-4c22-bf6d-53ca1a28fdf6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am attempting to access my account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9d42bcc4-6c91-4093-b490-a72e3de7be5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i need help logging into my account if possible",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "acefd6d8-c233-4ec2-aedd-3d66d1433be7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i need help with logging into my account"
+  }, {
+    "id" : "f02f1744-762b-48f7-b6bb-62ef331fa496",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i need some assistance in getting access to my online portal",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c65a382d-d064-4651-b958-df5546fb2535",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i would like to set up on line log in for my bt supa account"
+  }, {
+    "id" : "d5794be5-5f3d-408d-adca-aa5a52a61769",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i would to log in to my super account"
+  }, {
+    "id" : "41855472-a0d1-435c-a127-f891b3d820eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello you have helped me log onto my personal super plan how do i access my superwrap pension plan",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "8355be8e-8cfa-44db-9830-88fb35c80874",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you please help me log into my super account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "50c29698-da0d-4243-aa5b-2d30fe540a14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how to i access my performance and activity for periods prior to the transition to panorama",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "bc14b081-4df8-423c-a5ef-ca2efbe98b11",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am looking to log into my bt super account for the one st time",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c6ede846-a528-4720-982e-e56a18bcb04e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to log into my personal super account online to get a statement",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "924efa0c-7939-4fcb-a7de-4015542d318f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i can login",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "dc3044c1-3477-422b-b063-b222d124a04e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have a bt super account and i am trying to log into my account online",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d9ca892d-9d70-41e0-852a-260496268a5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have a commonwealth bank account how do i log in to my bt super for life",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "965edeb6-ad19-4568-88ac-697ab1b16cef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need help logging into bt online please"
+  }, {
+    "id" : "97536314-780f-4a59-9857-0acfb455bebd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i require access to my bt super account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "6d7961de-84a1-4f5d-9ddb-5fc7e0156363",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i try to login to my account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5b835f80-8f7c-44c3-9d54-09c70f4e4206",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi ineed help to log into my account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "8b86ed5d-4901-4e05-84ed-e2ace5a5b10c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi need help with logging in",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "13eb8349-293a-49fa-86ec-54e024e74f7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi system is not allowing me to verify my details",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "54728a25-cecb-4f8e-b16d-7542d7875cf6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there can you please advise how i log in to my account online",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "6e8378c8-a718-4391-904d-76d35b62e54a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i was wondering if you could help me log into my bt super account i have never logged in before and my employer",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "61d69ac7-6103-4b3b-a56a-78c1decc0a20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i would like to log in to my super account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c624859e-ec43-4a88-a7cf-d2194dccac82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi trying to log into my super wrap account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5a38f89a-3466-4de8-8bfb-e1a5d5802c42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i find my log in details",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "661a5d28-ea3d-44d0-a17f-eb834dd2df03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ho do i log in",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "cf3ccb2b-fac3-448a-ba78-d50f298e88b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i access my bt super account",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "c2e3667c-bba9-4f01-819c-302b0a95b542",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i access my superannuation",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "03f640ca-025f-47e5-b4c8-f9aac9eb4ecf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i log in to my panorama account if it is not registered i tried to log in to wrap and discovered it was",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "60a76c53-1723-44c6-8404-ed8dc9c45a07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i logging i"
+  }, {
+    "id" : "f95acd3f-aaf3-4d73-a59d-25b27c893e69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i login to my bt super account"
+  }, {
+    "id" : "d5a62e32-b99f-49ea-b604-effc76600953",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i access my bt panorama account i have been sent a user id",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c8427d76-17ae-4da3-b1c3-b9db9e02fbcd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get into my old wrap account now",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "e310f9cb-4509-4724-8d4c-75d67a6530bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i log in to bt super for life",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b36e3876-0d3f-4d77-8101-c43341e475ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i login into my super",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "7812cb36-e598-4c70-b3fa-30bbff2a6f12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i see my panorama wrap account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "01ea99e7-52a7-48f5-88c1-37a7d22bc6c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i view a client 's online login"
+  }, {
+    "id" : "1a9cbf82-662b-47d5-82c8-724f2b947013",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to access to the wrap site",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "28119c9b-1c51-493c-b4ec-c211dedbffe7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to still use investorwrap",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "a71f9947-8abd-453f-84c1-79d761367384",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to still use investorwrap.com",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "5eae9e81-dfa2-4b1f-80f1-32e7b479a6b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i 'd just like to log on my account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "891f2ee8-501a-4de4-a744-0b7d6c36a43e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am an employee what is mu log in details"
+  }, {
+    "id" : "a632f41d-37b4-4dfb-b920-2c4330d23923",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am supposed to have been sent a new username and password",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "dcd1697d-b5ea-4a9a-8342-ae0c7b465aa0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to access our new account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "a9b95b1f-009d-40ee-ba56-097c4fc74b36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not login to bt wrap",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "5479013e-34a3-4599-946f-a0d84c269d72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not see it in wrap anymore",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "02ba9a4c-82e9-491e-a809-2da3bd747126",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a bt income protection account how do i log into it",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9b17c099-263d-490c-82a8-7bf99c159fe9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a bt superwrap personal super plan how do i get access to online account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2902c167-01f7-408a-aeec-dde268699787",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have only recently had a bt super account setup by my employer westpac so looking to understand how i log into that account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c9c2b030-2c46-44bb-80a3-ee6a944a9a1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need help to log in",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "275983d4-2e59-4a2a-ae2d-b32f3429ab03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to fine d tax information from bt wrap before the transfer to bt panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1ca08083-61ed-47fd-8e35-916899ad1a42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to log in my bt super",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "961aabda-a560-4b1e-8d91-31eca798488f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to obtain electronic access to my bt super account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "0cef9462-b452-4ace-bcdb-2b7c3f0645e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i opened account with westpac how can i log in bt account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b0dec3a9-424c-4b73-88f3-dbe901b228a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i received an email relating to my account transition from the investor wrap to panorama but have not yet received login details",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "f6b4fe40-f88f-4c08-b701-ad9682581a61",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i think my login details changed",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9206418f-fa92-44d9-a165-28e614016616",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to no how to get into my super account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "ccfe7eab-ad42-44ef-ab1d-a96c7fceb7fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i was a bt super wrap customer how do i log in",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "6f5e3513-843f-42c5-b3a1-0a36cbca1746",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i was a previous customer from bt wrap",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "5bbf934a-db61-42ed-935e-0b4b0a7cb0b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to log in",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "9584fc36-7194-4a6a-be53-485f1579fb40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i would like to log in my bt super account online",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "78393545-5ede-4535-a1e8-094404d55443",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to sign in",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "bd3ad0fd-d80e-4541-807e-8cf8d35865f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in i need my user name and password",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c1a18ba5-03a8-4aa2-9495-455c26a84b19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is the wrap website still accessible?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "70e5a55c-61d4-4a17-9df6-106d474a3f5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is this my username number or account number"
+  }, {
+    "id" : "57f09523-5ae6-48b2-a775-94121e67893a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is wrap website still accessible?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "35749da2-0305-46f5-9f99-8dfc975b754a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "log on to my account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "347af015-b96e-410e-84a9-d66bc7784ae4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "login information"
+  }, {
+    "id" : "81675b1e-99c5-46a8-a768-42dc9094302a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "login into bt panorama",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "df9fcd21-4555-42f2-89dd-0ca61ae629d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "loging in",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "cd2ee2ac-64e3-4eb2-ad2a-e5c945ed9de5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my super has been moved from bt superwrap to bt panorama how do i log onto my online account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "8f9d777f-bb0c-4edf-9346-01939113530f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need help logging in to the portal",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "32f4eea9-16e8-4f8f-9b41-f5a2cb0d985f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need online access to my superannuation account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9d76c044-673c-47fb-b283-91dbdd64fc1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to find out my log in details",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "7055a47c-f6c3-4ad0-ad32-469f24179ca1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to logging",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "d725ec55-8e76-41f4-a436-d8565e96e3f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new log in",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2495e029-352b-4ec3-8ad8-ae141feee309",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "set up log in",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "94775e7f-465d-4644-aa94-646fddd80b39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "set up username and password",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "340f7cb1-d1b5-4258-b3de-8b3365bfa3a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "since porting can not access my superwrap XXX@XXXXX.XXX",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "314156e0-c6fc-4dac-bcf2-9f5688043263",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "superwrap",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "06d75efd-c863-4a7e-b30c-c8ea9c785405",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i sign in for a cash mangement trust account"
+  }, {
+    "id" : "dc10a52a-242d-43e4-b132-032b83a82a29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can not i access my super wrap investment portfolio",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "cd2ef343-394f-49f0-8b50-174bda719f6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "will I get wrap access?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9a1a8357-2c7f-4115-9293-9d4d271bb0dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wrap",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3a761021-f1ac-4c65-a876-a0f8a9a38c92",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wrap access do I still keep it?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4f3b28e1-51f1-4d29-95fb-4f76d8555a08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wrap account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "6a3d3f99-8ac1-46cb-aef0-d60f0a53d58a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wrap migration",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "c87ecf9b-c083-47b6-a5b1-a201236d8517",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wrap to bob migration",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "716d70cd-2e67-401a-859b-35437a460b4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wrap to pani migration",
+    "tags" : [ "annotationsfeb" ]
+  } ]
+} ]

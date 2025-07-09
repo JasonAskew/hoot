@@ -1,0 +1,388 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "104_supportedlanguages_s_p_test",
+  "intent_name" : "104_SupportedLanguages_S_P",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "5c75ae20-56ac-4234-9c54-b84746b77718",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change Chinese",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7662d76d-2c63-4596-b57b-c665e54cd30d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the language into Chinese?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "895ebe2d-40de-4e25-b25a-fd6d34b1e6ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the language to arabic",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ad899748-e523-4090-aabf-ef384ce0d7e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I speak Chinese",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0c876953-7e43-479a-9423-507be32a6d03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can chat by mandarin ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7677fb73-65c4-4a05-890a-61a0b5343688",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can get a malay language?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "08ab8de9-827e-4a2d-8fde-bbbcfa3135a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i change language",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1edd967f-d344-44b7-b029-85003b1cc130",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you speaking in Arabic",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "65d0acd4-f6fc-42a2-93f6-f4a9aae9adfa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can't change language to Chinese",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d3811cd8-eb89-43b1-b162-7d4dbcee0cbb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can't find the change language",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4c63232b-4d37-460a-9a77-051c4792ba67",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you know other language?",
+    "tags" : [ "pl-sing-contractions", "test_gold" ]
+  }, {
+    "id" : "cc1c2f76-d0ff-4161-abb6-81fed7271c9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Do you speak anything other than English",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "fbe5c908-18b9-448d-b145-9de522884b1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many language do you know?",
+    "tags" : [ "pl-sing-contractions", "test_gold" ]
+  }, {
+    "id" : "66982e38-014e-437f-b141-29d646293f4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many languages do you know?",
+    "tags" : [ "product_defined_seeds_testing", "test_gold" ]
+  }, {
+    "id" : "659d817b-5df7-47f0-ba09-2763c03a0c39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change Chinese",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0ab19036-10d0-4478-8f20-323b55a49371",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the language into Chinese?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "41755cb9-0548-4415-8b13-ce97ab99d3c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the language to arabic",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0c64791d-edc6-493c-9ca0-526fb34c121b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I speak Chinese",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9b6b013b-8e6c-4e79-bdb4-e9789dfc689e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can chat by mandarin ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "78d9f746-af1e-48ac-b0b4-1ce3fa9c6e97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can get a malay language?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "758d9e60-0521-44f5-bba7-4b2b1d58657f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i change language",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "336ef96f-7760-42d1-ad88-d3e16fce6f06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you speaking in Arabic",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "eceaca0c-c5e9-4db5-8c55-787fe07981b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can't change language to Chinese",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d2fa80b3-ec71-44d3-9248-1ffb9ee78640",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can't find the change language",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5151ab1d-6299-4a3d-a582-0ea3aef3d9a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you know other language?",
+    "tags" : [ "pl-sing-contractions", "test_gold" ]
+  }, {
+    "id" : "b1ca8cb7-e541-4151-84b5-0473ab036aec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Do you speak anything other than English",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "1574c2a3-6ee8-467c-9bcf-ffa080cbff59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many language do you know?",
+    "tags" : [ "pl-sing-contractions", "test_gold" ]
+  }, {
+    "id" : "46478120-9214-4b04-b216-6c1d37ffb37a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many languages do you know?",
+    "tags" : [ "product_defined_seeds_testing", "test_gold" ]
+  }, {
+    "id" : "d620c431-72b9-4438-8e5e-4982477eb753",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What other language do you speak?",
+    "tags" : [ "pl-sing-contractions", "test_gold" ]
+  }, {
+    "id" : "a531b768-fd82-4692-85b8-700d2c3fb6b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can change the website language to chinese",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a6249576-0692-4c11-92d1-84b7fb49deef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i talk to a korean employee",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "db803c45-d521-4683-84a0-82fadf087ab8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you show Chinese?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3127edad-44ac-4048-a162-cc7b98268e13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you speak arabic",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f8d0bc1a-df0b-4729-aedc-b5114d6e3a06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you speak in Hindi",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "63acc6fb-e1c0-4557-888c-6484a251e375",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you speak malay",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "48d1ec7f-1064-48fd-b32d-0efe1a14637f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you speak urdu and hindi",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1784bcd7-a8f5-4683-aa59-4da813fa1771",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you spell it out in english",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6e5695d0-c2c3-470a-9dd3-719fb1e11c80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you you cal me in urdu language?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "54420302-bf68-4785-bea2-4e9edec6fb77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can't chatting Arabic language",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8346fe19-418a-4eba-b5de-9f8711a4b2f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can change the website language to chinese",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9e30f12b-db28-452a-aad7-84928c6925e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i talk to a korean employee",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "3997f78d-2073-4538-9a6c-ce3715c6581b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you show Chinese?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c5264b0f-cd1d-4a8c-b59b-35c6bad5cf66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you speak arabic",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8dcb5407-e129-4167-87a6-e25c32e1cafb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you speak in Hindi",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1024ea0f-620a-479a-b998-7a71366a64cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you speak malay",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "96168312-e30f-418c-931b-9f6a394b7f45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you speak urdu and hindi",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ce3907e6-b872-489a-bc71-09f9d1f7c672",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you spell it out in english",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "724f027f-3afc-4935-ba5a-ffeb7ebf0d12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you you cal me in urdu language?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "322279d9-0473-4f0f-85f8-165615324abb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can't chatting Arabic language",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "54a766d2-a265-488e-836c-6475b57f7cdc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can change the website language to chinese",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5a5174e8-b51b-478e-a8cd-cdb6bd5c4455",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i talk to a korean employee",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "c3635955-75e7-4a73-9045-2d3fcc18fd30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you show Chinese?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a7362197-1f56-4b96-bf92-1a7bd5b5689e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you speak arabic",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1ea86029-e8f0-4897-b92c-8f431dc1b2ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you speak in Hindi",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ca7255c2-f447-45ff-b1c7-a54af0cdf33c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you speak malay",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "90079dcd-54a1-4c6f-8a83-4ca3e5dc6ffd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you speak urdu and hindi",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "063bf963-b6d6-4b05-8549-67388f3752d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you spell it out in english",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "95da8f32-5916-409e-bc09-5603b9dca158",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you you cal me in urdu language?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0a64921c-cf8a-4222-b8ac-bcb1a7ce5f12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can't chatting Arabic language",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "72e1716f-8006-4249-a64e-dacf4e7b964f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have a korean interpreter or employee",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "97d8e472-7107-4bc4-915f-3819275684de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do you speak french?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "b914dcb4-3398-4f6b-b188-c5b48ba4dfbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i will be waiting",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "cedbf641-ba8b-4393-8cbc-8a42acb66036",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "mot de bob oubli√©",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  } ]
+} ]

@@ -1,87 +1,119 @@
 {
-  "name" : "bt_client_details_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "One of our consultants will be able to amend your primary contact details, would you like to chat with them?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "One of our consultants will be able to amend your primary contact details, would you like to chat with them?"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "LIVE_CHAT",
+          "payload": {
+            "parameters": [
+              {
+                "name": "campaignId",
+                "value": "3392686470"
+              },
+              {
+                "name": "engagementId",
+                "value": "3392718870"
+              }
+            ]
+          },
+          "label": "Chat with consultant"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "POSTBACK",
-        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-        "label" : "Chat with consultant"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To amend a client's address, tax file number and country of residence please select the 'Show me how' button."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For all other amendments, your client will need to contact us directly on 1300 784 207 8:30am to 6.30pm, Monday to Friday (Sydney time)."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "912810",
-          "label" : "Show me how"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To amend a client's address, tax file number and country of residence please select the 'Show me how' button."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For all other amendments, your client will need to contact us directly on 1300 784 207 8:30am to 6.30pm, Monday to Friday (Sydney time)."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "912810",
+              "label": "Show me how"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account__advised_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You are able to update your residential and email address from the 'Your details' section. To update your mobile number, please contact us on 1300 784 207 8:30am to 5:30pm, Monday to Friday (Sydney time) or complete a change of details form. Please select the appropriate buttons to open the form:\nAddress or Email\nMobile"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/your-details",
+              "label": "Address"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.bt.com.au/content/dam/public/btfg-bt/documents/legacy/downloads/forms/bt-super-change-details-form.pdf",
+              "label": "Mobile or Email"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This feature is currently not available on the Panorama mobile app. To update your client's details, you can sign in to the full Panorama website or select 'Chat with consultant' during business hours for assistance."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_investor",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To amend client details, navigate to 'Personal details'."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account__advised_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You are able to update your residential and email address from the 'Your details' section. To update your mobile number, please contact us on 1300 784 207 8:30am to 5:30pm, Monday to Friday (Sydney time) or complete a change of details form. Please select the appropriate buttons to open the form:\nAddress or Email\nMobile"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/your-details",
-          "label" : "Address"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/content/dam/public/btfg-bt/documents/legacy/downloads/forms/bt-super-change-details-form.pdf",
-          "label" : "Mobile or Email"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This feature is currently not available on the Panorama mobile app. To update your client's details, you can sign in to the full Panorama website or select 'Chat with consultant' during business hours for assistance."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_investor",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To amend client details, navigate to 'Personal details'."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_client_details_response"
 }

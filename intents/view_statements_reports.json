@@ -1,23 +1,23 @@
 {
-  "name" : "view_statements_reports",
-  "display_name" : "view_statements_reports_Inactive",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "view_statements_reports"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "view_statements_reports"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "View Statements and reports",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : false,
-  "active" : false,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "View Statements and reports",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "view_statements_reports",
+  "display_name": "view_statements_reports_Inactive",
+  "alternative_question_eligible": false
 }

@@ -1,161 +1,200 @@
 {
-  "name" : "bt_consent_request_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "This query is not applicable for this account. Is there anything else I can help you with?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "This query is not applicable for this account. Is there anything else I can help you with?"
+        }
       }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account__advised_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Select 'Show me how' for assistance with navigating to the 'Consent requests' section."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Contact your adviser if you have questions about a consent request."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "2104331",
-          "label" : "Show me how"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_account__advised_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Select 'Show me how' for assistance with navigating to the 'Consent requests' section."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Contact your adviser if you have questions about a consent request."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "2104331",
+              "label": "Show me how"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Select 'Show me how' for assistance with navigating to the 'Consent requests' section."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Contact your adviser if you have questions about a consent request."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "2104331",
+              "label": "Show me how"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Select 'Show me how' for assistance with navigating to the 'Consent requests' section."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Contact your adviser if you have questions about a consent request."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "walkme",
+              "payload": "2104331",
+              "label": "Show me how"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To view any pending or completed consent requests, select the 'Go to page' button."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To upload a signed consent form for a pending request:\n1. Select 'Go to page'.\n2. Select the 'Actions' menu located on the right of the pending request.\n3. Select 'Upload signed consent form'."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For information on client consent for an advice fee, please select the \u2018Help & Support\u2019 button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/adviser/tracking/consent-center/pending-consent",
+              "label": "Go to page"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/digital-consent.html",
+              "label": "Help & Support"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You can view and send reminders for consent requests from the Consent Requests screen, via Business Overview."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_investor",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If you are an advised investor, select 'Go to page' and then 'Consent requests'. For all other account types, consent requests are not applicable."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "33",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Select 'Show me how' for assistance with navigating to the 'Consent requests' section."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Contact your adviser if you have questions about a consent request."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "2104331",
-          "label" : "Show me how"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Select 'Show me how' for assistance with navigating to the 'Consent requests' section."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Contact your adviser if you have questions about a consent request."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "walkme",
-          "payload" : "2104331",
-          "label" : "Show me how"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To view any pending or completed consent requests, select the 'Go to page' button."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To upload a signed consent form for a pending request:\n1. Select 'Go to page'.\n2. Select the 'Actions' menu located on the right of the pending request.\n3. Select 'Upload signed consent form'."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For information on client consent for an advice fee, please select the ‘Help & Support’ button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/adviser/tracking/consent-center/pending-consent",
-          "label" : "Go to page"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/digital-consent.html",
-          "label" : "Help & Support"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You can view and send reminders for consent requests from the Consent Requests screen, via Business Overview."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_investor",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If you are an advised investor, select 'Go to page' and then 'Consent requests'. For all other account types, consent requests are not applicable."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "33",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_consent_request_response"
 }

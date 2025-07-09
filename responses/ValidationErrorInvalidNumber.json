@@ -1,0 +1,16 @@
+{
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "That is not a valid response. Please try again."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "ValidationErrorInvalidNumber"
+}

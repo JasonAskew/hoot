@@ -1,43 +1,54 @@
 {
-  "name" : "bt_deposit_funds_bt_panorama_super_employer_eft_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Your employer can contribute via EFT or SuperStream.\nFor EFT: Provide your BSB and Account number. Please use EMPLOYER as reference for deposit.\nFor SuperStream: Please provide your employer with our ABN, Fund Name & USI.\nABN: 90 194 410 365, Fund Name: Panorama Super, USI: 90 194 410 365 011"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "internal",
-        "payload" : "#/app/investor/account/{accountNumber}/details/base",
-        "label" : "Go to page"
-      }
-    } ],
-    "quick_replies" : [ {
-      "type" : "INTENT",
-      "payload" : "👍",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "1"
-        } ]
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Your employer can contribute via EFT or SuperStream.\nFor EFT: Provide your BSB and Account number. Please use EMPLOYER as reference for deposit.\nFor SuperStream: Please provide your employer with our ABN, Fund Name & USI.\nABN: 90 194 410 365, Fund Name: Panorama Super, USI: 90 194 410 365 011"
+        }
       },
-      "label" : "👍"
-    }, {
-      "type" : "INTENT",
-      "payload" : "👎",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "0"
-        } ]
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "internal",
+          "payload": "#/app/investor/account/{accountNumber}/details/base",
+          "label": "Go to page"
+        }
+      }
+    ],
+    "quick_replies": [
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "1",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4d"
       },
-      "label" : "👎"
-    } ]
-  }
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "0",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4e"
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_deposit_funds_bt_panorama_super_employer_eft_response"
 }

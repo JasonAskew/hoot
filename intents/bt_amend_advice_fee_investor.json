@@ -1,32 +1,37 @@
 {
-  "categorization" : {
-    "skill" : "payments_transfers",
-    "tags" : [ "service" ]
+  "categorization": {
+    "skill": "payments_transfers",
+    "tags": [
+      "service"
+    ]
   },
-  "name" : "bt_amend_advice_fee_investor",
-  "display_name" : "bt_amend_advice_fee_investor",
-  "description" : "Intent to show procedures for amending advice fee",
-  "webhook_name" : "kcbwebhook",
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "CANCEL"
+  "webhook_name": "kcbwebhook",
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "CANCEL"
     },
-    "outgoing" : {
-      "allowed" : true,
-      "allow_resume" : false,
-      "confirm_if_cancelled" : false
+    "outgoing": {
+      "allowed": true,
+      "allow_resume": false,
+      "confirm_if_cancelled": false
     }
   },
-  "display_sentence" : "How do I amend my ongoing advice fee?",
-  "slots" : [ {
-    "name" : "fee_type",
-    "entity" : "BT_AMEND_ADVICE_FEE_TYPE"
-  } ],
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "messages" : {
-    "IntentMessageCancellation" : "Canceled. How can I help you?"
+  "display_sentence": "How do I amend my ongoing advice fee?",
+  "slots": [
+    {
+      "name": "fee_type",
+      "entity": "BT_AMEND_ADVICE_FEE_TYPE",
+      "message_contents": []
+    }
+  ],
+  "machine_learning_enabled": true,
+  "messages": {
+    "IntentMessageCancellation": "Canceled. How can I help you?"
   },
-  "multi_inputs" : false
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_amend_advice_fee_investor",
+  "display_name": "bt_amend_advice_fee_investor",
+  "description": "Intent to show procedures for amending advice fee"
 }

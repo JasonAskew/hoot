@@ -1,25 +1,32 @@
 {
-  "name" : "VpaGetAnswerHelp",
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Other questions? Sure. I'm here for you."
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Other questions? Sure. I'm here for you."
+        }
       }
-    } ],
-    "quick_replies" : [ {
-      "type" : "TEXT",
-      "payload" : "What can I apply for?",
-      "label" : "What can I apply for?"
-    }, {
-      "type" : "TEXT",
-      "payload" : "Welcome gifts",
-      "label" : "Welcome offers"
-    }, {
-      "type" : "TEXT",
-      "payload" : "What are the requirements to apply for a credit card",
-      "label" : "What's required to apply?"
-    } ]
-  }
+    ],
+    "quick_replies": [
+      {
+        "type": "TEXT",
+        "payload": "What can I apply for?",
+        "label": "What can I apply for?"
+      },
+      {
+        "type": "TEXT",
+        "payload": "Welcome gifts",
+        "label": "Welcome offers"
+      },
+      {
+        "type": "TEXT",
+        "payload": "What are the requirements to apply for a credit card",
+        "label": "What's required to apply?"
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "VpaGetAnswerHelp"
 }

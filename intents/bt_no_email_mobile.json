@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "issues_error" ]
+  "categorization": {
+    "tags": [
+      "issues_error"
+    ]
   },
-  "name" : "bt_no_email_mobile",
-  "display_name" : "bt_no_email_mobile",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_no_email_mobile_response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_no_email_mobile_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "My client doesn’t have a mobile/email, how do we get through this?",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "My client doesn\u2019t have a mobile/email, how do we get through this?",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_no_email_mobile",
+  "display_name": "bt_no_email_mobile",
+  "alternative_question_eligible": true
 }

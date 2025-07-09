@@ -1,0 +1,1310 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "chatbotdown_train",
+  "intent_name" : "ChatBotDown",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "018418f5-8494-4dbc-bf19-b2d7bfc9c3b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are the services currently down?"
+  }, {
+    "id" : "84eb5e54-d7dc-4053-b435-38f12deca3fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are the services down?"
+  }, {
+    "id" : "aefe1d91-c519-40e5-b711-aecf4f5c4344",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are things not working right now?"
+  }, {
+    "id" : "45cd64de-2705-4369-b74e-9763a1a544a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you having technical problems with the app?"
+  }, {
+    "id" : "a43f3cc1-ccff-44af-826e-29b926257f20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you in service?"
+  }, {
+    "id" : "92ef77d7-a176-45a6-a0b4-8345b81cf825",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you not servicing right now?"
+  }, {
+    "id" : "2e5ae79f-856e-4a0c-9011-de86941e01de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you not working right now?"
+  }, {
+    "id" : "098b0375-8392-4190-ae87-fb850363b01a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you out of service?"
+  }, {
+    "id" : "1989b1ba-3fa4-4f10-a161-66269aa504df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are your bot functional?"
+  }, {
+    "id" : "e5e648b4-0064-43c9-bb8f-0b630e6c2f52",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "As far as the bankname app, is it down?"
+  }, {
+    "id" : "185c7e72-d27e-4a27-8bd9-b9c464e94770",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "But why can't I use the service, I get an error?"
+  }, {
+    "id" : "c1b84b27-b8e2-4990-835f-d90f3f2c762d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help get the app working?"
+  }, {
+    "id" : "bf8c5c8c-3715-4e5b-8ac0-bee0c4f06cb8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you see if the service is down?"
+  }, {
+    "id" : "b0308e9c-1d33-4b38-89ed-04cea4e0d052",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if my service is working?"
+  }, {
+    "id" : "3c520d42-579b-4d6f-bbc8-9cdc142fd557",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the BT chat bot app is out of service?"
+  }, {
+    "id" : "e0c1e5aa-c0a3-46e2-ba4d-6a7d760ea727",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the app is working or if it's just me?"
+  }, {
+    "id" : "693475ad-94c5-492c-b63d-0b06f68891ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the app is working?"
+  }, {
+    "id" : "dc5a36bc-5e71-4c5d-8159-6ad4b916ee6f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the bankname app is out of service?"
+  }, {
+    "id" : "c6fd5322-e95e-40a5-b4f6-0be7537e9cb6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the bankname application is working?"
+  }, {
+    "id" : "4fc4eb2c-d52c-4bc8-bd59-f4bafa7cb2cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the bot is down?"
+  }, {
+    "id" : "558bc4da-50b7-4cae-bdb3-2c266eaa0926",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the chat bot app is out of service?"
+  }, {
+    "id" : "ed68901e-1256-494d-a59b-5fb899e75663",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the chat bot is down?"
+  }, {
+    "id" : "52bfca5d-a1bc-42f2-bd3f-2b290216ddde",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the chat bot is working?"
+  }, {
+    "id" : "39528948-edc2-414d-b83f-0a3975399ef9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the chats bot is down?"
+  }, {
+    "id" : "b9de81ca-3bfb-4a98-8ba2-a3cb6827c228",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the virtual assistant is working?"
+  }, {
+    "id" : "6679b06c-35bb-450c-b3c1-9119f6ba28ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if this chat bot is working?"
+  }, {
+    "id" : "a7e639d7-191c-450a-accb-66a401c7b875",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Chat bot working?"
+  }, {
+    "id" : "5a77bcb5-d330-41a4-8ecd-bf32d50a8096",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me if the bankname app is down?"
+  }, {
+    "id" : "65b3ee66-0081-404d-859e-442174f916b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me if the service is down please?"
+  }, {
+    "id" : "a942e1c3-5371-450d-a2d7-6dffc1bc0858",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me if the service is down?"
+  }, {
+    "id" : "3f4eef72-599b-47d3-a156-cdb7ed527441",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you know if the chat bot is down?"
+  }, {
+    "id" : "f97aff90-449a-419d-bc82-bb30318e740d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you know if the chatbot is down?"
+  }, {
+    "id" : "b5d50d61-94e5-4597-89c3-b5de74f57ab8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the app not have service?"
+  }, {
+    "id" : "222835c9-1735-4901-9e8b-9c21ee7e1679",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the app work right now?"
+  }, {
+    "id" : "b98e4be0-9cb0-46ff-a5f8-13344f992911",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the app work?"
+  }, {
+    "id" : "6e67617a-0581-44ba-aec8-cf89d34843a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the chat bot work?"
+  }, {
+    "id" : "2d3c0634-63a0-45e5-8940-c9cfec27373c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I determine if the app service is currently up and functioning."
+  }, {
+    "id" : "84fb1eec-08f8-4f5b-b58e-338a57530a02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I tell the current service status of the app?"
+  }, {
+    "id" : "a0a03f62-a160-4fc2-af21-0e5f66ef4d4d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I tell the status of an app to see if there's a service problem?"
+  }, {
+    "id" : "06e50c44-9008-4371-bb15-8ef3c0802259",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check if the app is down?"
+  }, {
+    "id" : "2dcfce66-af41-4127-84c1-37e8b8c9fc8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check the bankname app service status?"
+  }, {
+    "id" : "f7b52315-29f9-4929-8c09-a90ae4a46be1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long till the app is fixed?"
+  }, {
+    "id" : "70e074ba-f730-4120-a9ab-5655828cf4f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am getting an out of service error?"
+  }, {
+    "id" : "7d7e80b5-5268-4324-b5fd-c171226011eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't seem to access the bankname app, is it down?"
+  }, {
+    "id" : "42e5bec9-8c31-42a5-aaf5-bf522a84aab5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cannot get the service to work and was wondering if it was down or just me."
+  }, {
+    "id" : "ba941173-6cc6-40d0-a89d-5110937bc93d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't know why the bot isn't working for me."
+  }, {
+    "id" : "fe5504a1-6e6f-4568-b702-69623591d77b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are the services currently down?"
+  }, {
+    "id" : "0f4fbc76-8f8d-42e8-9abd-6dc8d223a7ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are the services down?"
+  }, {
+    "id" : "7af4625e-add6-45ee-8b57-00d3ca9768a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are things not working right now?"
+  }, {
+    "id" : "c097ad23-4931-427e-a23a-0633c190b044",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you having technical problems with the app?"
+  }, {
+    "id" : "2aae9819-6100-4791-bc2e-a9ca81489d88",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you in service?"
+  }, {
+    "id" : "d86aefb1-b27a-4057-9b38-8a26dbb8a9ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you not servicing right now?"
+  }, {
+    "id" : "c8aefa10-70fb-40cc-a845-808e72046d7b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you not working right now?"
+  }, {
+    "id" : "287ec341-0c87-4d00-a984-d18a50024e97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you out of service?"
+  }, {
+    "id" : "161bbd47-3e8e-4346-b56c-445fe75d58e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are your bot functional?"
+  }, {
+    "id" : "32b00ee0-b991-4117-b8cc-57a6edb334b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "As far as the bankname app, is it down?"
+  }, {
+    "id" : "03319d95-e534-4c2b-9d7c-6d01e228de30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "But why can't I use the service, I get an error?"
+  }, {
+    "id" : "0946c8f7-d66e-4a28-85bc-df186885f575",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help get the app working?"
+  }, {
+    "id" : "63c9513b-5a7f-428b-b386-d195b21242e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you see if the service is down?"
+  }, {
+    "id" : "c584068d-9882-4cff-b90f-85c5784f9ea5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if my service is working?"
+  }, {
+    "id" : "5e08ddc9-38fb-4c09-b407-adc11130cbf0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the BT chat bot app is out of service?"
+  }, {
+    "id" : "278c84f3-005f-49fd-8a64-ade1ad81c6ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the app is working or if it's just me?"
+  }, {
+    "id" : "1efe4374-0f98-4ac0-9b2a-d12675ed9814",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the app is working?"
+  }, {
+    "id" : "4d26a2e4-4230-4663-9ec8-22393730c40c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the bankname app is out of service?"
+  }, {
+    "id" : "1debcc71-1e66-4044-9eb7-6f7cbb3f171f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the bankname application is working?"
+  }, {
+    "id" : "377a0c1f-c96f-4dc9-a590-9b43700a6dea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the bot is down?"
+  }, {
+    "id" : "882551e4-5fe5-43ef-9209-8b8ed31e9e34",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the chat bot app is out of service?"
+  }, {
+    "id" : "2a77d062-19a5-4bf1-a1d0-506f705d6e3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the chat bot is down?"
+  }, {
+    "id" : "d7683634-dbad-418c-bfa3-ea11b6be46ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the chat bot is working?"
+  }, {
+    "id" : "5e637776-754c-41fe-ab28-08178d3c8b9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the chats bot is down?"
+  }, {
+    "id" : "e1cd5eb3-9efe-44c3-99f8-7006360f85ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if the virtual assistant is working?"
+  }, {
+    "id" : "f705f324-034d-4be7-ab9f-ea766c265c3d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me if this chat bot is working?"
+  }, {
+    "id" : "6b736a7a-673f-4f2c-b62f-f5db86b70d63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Chat bot working?"
+  }, {
+    "id" : "63b95f96-1f31-4640-a04f-45f10342509d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me if the bankname app is down?"
+  }, {
+    "id" : "a26cd488-6af0-4997-a337-81e1fc4ac82b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me if the service is down please?"
+  }, {
+    "id" : "d01dde59-c9ff-426c-8155-65513027c660",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me if the service is down?"
+  }, {
+    "id" : "a10ac99d-90f4-408f-830a-876d620b7162",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you know if the chat bot is down?"
+  }, {
+    "id" : "65d33a65-e985-48b1-b872-35803af0cd68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you know if the chatbot is down?"
+  }, {
+    "id" : "323b0c96-64f1-49bd-989f-a5d88f6eb9ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the app not have service?"
+  }, {
+    "id" : "6dafe137-ea89-4ceb-afe0-19c2bd26e768",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the app work right now?"
+  }, {
+    "id" : "498398a8-e7b8-4bce-9b6c-906ed60d57f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the app work?"
+  }, {
+    "id" : "7f942ab6-6298-486a-804c-4707fdacdc7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the chat bot work?"
+  }, {
+    "id" : "6496c8b2-bae1-4c38-8221-186467d92faf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I determine if the app service is currently up and functioning."
+  }, {
+    "id" : "627701bb-ee52-4090-8bc6-f290d8eddffd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I tell the current service status of the app?"
+  }, {
+    "id" : "5e7caa93-057d-4849-a7dc-6cecc4c5a7c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I tell the status of an app to see if there's a service problem?"
+  }, {
+    "id" : "08aae17b-0ac3-4bb5-ac4f-7668abb6f47a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check if the app is down?"
+  }, {
+    "id" : "596a0972-7735-4e4a-8163-144d1303ed93",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check the bankname app service status?"
+  }, {
+    "id" : "8ca44ead-bbb7-40dc-9e2d-93fdf18616f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long till the app is fixed?"
+  }, {
+    "id" : "8789c8e8-e564-4033-b06e-f26039b9b760",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am getting an out of service error?"
+  }, {
+    "id" : "a6a6fee8-8360-4016-ad8c-1232072e73c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't seem to access the bankname app, is it down?"
+  }, {
+    "id" : "f2dc3d3b-6eda-4ee4-b332-dc8bf0c846d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cannot get the service to work and was wondering if it was down or just me."
+  }, {
+    "id" : "3c554029-36ab-4d11-9b09-79e1758c13e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't know why the bot isn't working for me."
+  }, {
+    "id" : "8f0148b2-3e2a-4c1d-94ce-700f7d798a52",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I really need to find out why I can't use the service?"
+  }, {
+    "id" : "08617aad-9e8a-4894-87bb-be69f7563b14",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know if the chat bot is down"
+  }, {
+    "id" : "1c0b2e60-ac46-4f8a-b06b-6c3d177eccce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know if you are out of service"
+  }, {
+    "id" : "92c160d1-d392-4d71-bc33-ecc1f486e99c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know if you are out of service today"
+  }, {
+    "id" : "6d5b8775-0295-452a-ba65-8d52094050c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to use the bankname bot but it's broken"
+  }, {
+    "id" : "2924fba1-5c8d-48c3-bba7-03720bc1220e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'm having problems using BT's chat bot, is it down?"
+  }, {
+    "id" : "1b0fa4ec-fd19-4205-bfef-c5325e579d13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'm having problems using the chat bot, is it down?"
+  }, {
+    "id" : "e48307ec-1e3c-4b6f-8af8-171e5151d5cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is bankname app working for anyone else?"
+  }, {
+    "id" : "73bbc500-4ba4-48eb-a5af-05c4782bef6f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is chat bot currently working?"
+  }, {
+    "id" : "abcf9517-c793-431b-8989-596953c665bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is chat bot down?"
+  }, {
+    "id" : "7253b991-7025-41d8-8846-d7245c6dcc62",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is chat bot is still working?"
+  }, {
+    "id" : "d8a674d7-e7ba-4206-9060-1c82f48b7190",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is chat bot not working at the moment?"
+  }, {
+    "id" : "471226d8-fe49-4189-8923-3976d63489b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is chat bot's not working right now?"
+  }, {
+    "id" : "209e7e71-df84-4cba-bc86-bd9aa4649d74",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is chatbot downs?"
+  }, {
+    "id" : "36511bf4-c7f3-4d84-b88c-4a8a8bf7aa72",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is chatbot out of service?"
+  }, {
+    "id" : "077273ba-3aad-4e83-bf33-03656748f32d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is chatbot up?"
+  }, {
+    "id" : "f0056f66-d489-4323-9991-8c99a6a80897",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is service working?"
+  }, {
+    "id" : "9f731aff-8540-46be-b10e-724127718530",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is that app working?"
+  }, {
+    "id" : "f274da84-32fc-45ad-a4d5-1ee51f6f911b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the BT chat bot working?"
+  }, {
+    "id" : "834b109b-5baa-4a15-bff9-4ea4977c6786",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app actually working?"
+  }, {
+    "id" : "d7b48515-4eb4-4526-a816-639e8c165332",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app available at this time?"
+  }, {
+    "id" : "2e73e501-2fc6-49be-9076-29e484cc1cc5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app currently not working?"
+  }, {
+    "id" : "14216797-bb29-4c46-920e-983f7add4910",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app currently up?"
+  }, {
+    "id" : "d1ec8abc-7595-4f62-93e7-03795106e2d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app down at the moment?"
+  }, {
+    "id" : "6a84e705-8cd5-4445-bc18-810bab806434",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app down or is it me?"
+  }, {
+    "id" : "e974df58-3d5f-4a57-bd80-e16bc165603e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app down?"
+  }, {
+    "id" : "4c4dc71b-4a27-4f12-8b47-5fbd32f331fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app functioning right now?"
+  }, {
+    "id" : "1e8d1e95-a321-4667-aa2b-25c850f2dda5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app not available right now"
+  }, {
+    "id" : "10b18fc0-0b3c-4e64-9235-1704b9afc58e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app not functioning?"
+  }, {
+    "id" : "c6fbc969-f4c5-47c2-9e8a-7fa207886f8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app not working anymore?"
+  }, {
+    "id" : "6a7439be-1e8c-41ee-9e2b-bbf552968058",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app not working at the moment?"
+  }, {
+    "id" : "ecf78692-500e-4ba9-b83e-2e19e83fa89b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app not working right at this moment?"
+  }, {
+    "id" : "856d18bb-1df0-4ceb-8f38-b1952172fc79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app not working right now"
+  }, {
+    "id" : "88c400c4-abdf-4d51-8224-76a4e5e63f2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app not working?"
+  }, {
+    "id" : "5783047d-7455-4cf7-ac9f-f8d34af9ac19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app offline?"
+  }, {
+    "id" : "28373a04-3df6-4c27-af03-1f736a64c8b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app out of service?"
+  }, {
+    "id" : "a103bbb5-7a47-4524-baab-b52cd86951e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app running?"
+  }, {
+    "id" : "d4a6661e-d73e-46df-93ad-f4a6f4872cc5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app service down?"
+  }, {
+    "id" : "363b1b79-8f29-434f-8595-f126945eb56f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app up and running?"
+  }, {
+    "id" : "8ff50e9d-1125-4008-87c2-0652fbdad258",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app working properly?"
+  }, {
+    "id" : "d8930353-e30d-4dae-8c08-3dcc1cbfb175",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the app working?"
+  }, {
+    "id" : "ded2107a-e96f-4737-a890-832c379cb882",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bankname app down?"
+  }, {
+    "id" : "16a821fc-e172-4962-9745-4e0c0bcd488c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bankname app functioning as usual?"
+  }, {
+    "id" : "63f08903-d33c-46b4-b06e-4a85cc1db0af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bankname app not currently in service"
+  }, {
+    "id" : "f2e10d7d-4957-4b6e-ad9e-e4b6397e3cb5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bankname app offline?"
+  }, {
+    "id" : "8aa44326-c489-4dea-bf24-32e7c8d42167",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bankname app out of service?"
+  }, {
+    "id" : "8900483a-b650-4117-8c87-e8bbfbbc891f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bankname app working?"
+  }, {
+    "id" : "2c7f04a2-b226-4d03-9a57-555fd141c54e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bankname bot out of service?"
+  }, {
+    "id" : "f3ca1c3b-8c56-433a-bb67-3c3472ac78e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bankname service down?"
+  }, {
+    "id" : "6c207bc6-218c-447a-aff0-a8adb3725f0b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bankname service working?"
+  }, {
+    "id" : "b6f12087-d3fd-4c89-bc24-42cbb6857597",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bot not working now?"
+  }, {
+    "id" : "b388a875-f771-4072-bcfb-0d82b8608672",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bot not working right now?"
+  }, {
+    "id" : "3f329098-b2ca-4a63-990d-0cd81acb62d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bot out of service?"
+  }, {
+    "id" : "eceb3985-f9e6-4460-ba09-5c0788d7cd30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bot unavailable?"
+  }, {
+    "id" : "35b8a431-9dbc-47bb-b4ab-fc1644666baf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the bot working?"
+  }, {
+    "id" : "8b457f00-b142-41e8-8886-38e4f9509edf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the cat bot functioning right now?"
+  }, {
+    "id" : "f8b39b49-c45a-42e4-9374-e84379e718a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat bot accessible right now?"
+  }, {
+    "id" : "32fa8c8d-89a4-43cb-a4a2-5af874007482",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat bot down right now?"
+  }, {
+    "id" : "f06bafbc-ffb5-48ac-9307-233310d3e747",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat bot downs?"
+  }, {
+    "id" : "ae95ff41-8d76-451a-b66e-a16bfc302dd5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat bot functioning correctly?"
+  }, {
+    "id" : "25c301cb-f3e6-4be3-b00a-ef8ef1f61171",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat bot not working at the moment?"
+  }, {
+    "id" : "9967720a-8a4d-423a-9100-578e4703640d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat bot not working now?"
+  }, {
+    "id" : "794719b2-e889-4080-94c9-ad555c9f4dbf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat bot not working right now?"
+  }, {
+    "id" : "096f6c38-4268-4299-a097-967a227819d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat bot not working?"
+  }, {
+    "id" : "e70811ac-f385-4567-88e5-f9ed6b8a4046",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat bot operational?"
+  }, {
+    "id" : "b9753718-07c9-41b8-9b28-9b8901b45651",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat bot out of service?"
+  }, {
+    "id" : "d564ba51-36ea-4264-b066-7726e4f036e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat bot up?"
+  }, {
+    "id" : "a63e99a5-d961-4829-ace9-5e257f77358a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat function not working?"
+  }, {
+    "id" : "29bf90be-81aa-48b9-8600-0d7562eab1f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat function working?"
+  }, {
+    "id" : "3a1a21f9-f2b4-404e-9cdb-8e5717572e5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat service currently down?"
+  }, {
+    "id" : "6007f252-b4c8-425d-b706-6c1765f8081f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat service down now?"
+  }, {
+    "id" : "2049f147-78ae-435e-ac82-951a82da2d32",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chat service down?"
+  }, {
+    "id" : "7d2063ba-a0aa-4440-9f57-602b61150e34",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the chatting bot down right now?"
+  }, {
+    "id" : "3aa5f1fa-53af-46f0-9839-03cf1cde00f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the service available?"
+  }, {
+    "id" : "42b1d969-c7be-42a6-80ca-57a11186d20e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the service currently down?"
+  }, {
+    "id" : "c5efdc8e-5647-4f98-bf12-5942d3b9c517",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the service down right now?"
+  }, {
+    "id" : "91bec3cb-e759-49d9-910a-c7f7e4c2c73c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the service functioning properly?"
+  }, {
+    "id" : "f32041e8-d26a-4660-8f6e-1a99c64f7ce6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the service not av available right now?"
+  }, {
+    "id" : "c29967ef-81ec-41aa-8039-3ffe31815e2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the service not working right now?"
+  }, {
+    "id" : "790f14a2-1c3f-4d95-8c81-90f5526b1214",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the service not working?"
+  }, {
+    "id" : "030ac0e4-b73a-4d3c-8cc7-a943619794a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the service operational?"
+  }, {
+    "id" : "ee043100-1572-4562-84ad-5e5a19abbdc3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the service out for the app?"
+  }, {
+    "id" : "c6762413-8c30-47b7-b3d8-d511c998fc22",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the service out?"
+  }, {
+    "id" : "2ac038d8-2fb1-4f51-8885-ce9ea8d5338e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the service up?"
+  }, {
+    "id" : "1c8b287d-ae7c-47f6-b490-c97a4c14f555",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the service working?"
+  }, {
+    "id" : "4cb94acc-e0ec-45e2-9fc2-09faa643f8aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a centralized place where I can determine the current service status of the app?"
+  }, {
+    "id" : "5e3b4f94-1220-41c3-b0e2-1fa64594d8b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a problem with the app or bot currently?"
+  }, {
+    "id" : "c99bebfd-62b5-4ef3-97e0-213dd69722e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a problem with the service?"
+  }, {
+    "id" : "8a00374d-6bcd-4ca2-b90d-b076bc8698a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a service issue?"
+  }, {
+    "id" : "21764c89-9957-49d5-a63c-4f9b7402d29e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a service outage?"
+  }, {
+    "id" : "6e701e3f-97d3-4e82-a6d1-a0919f4dc942",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to determine if the app or bot are currently down?"
+  }, {
+    "id" : "24b4fb41-c368-41c4-ab29-358ec19fd06c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there an issue with your service?"
+  }, {
+    "id" : "e00aba9e-deed-4680-8966-dd8ae547453d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there any service?"
+  }, {
+    "id" : "49e9adba-c4ce-41d4-922b-600be78b17fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is this app working?"
+  }, {
+    "id" : "e9fda164-7b08-4c9b-9af3-22bee22777b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is this chatbot not working?"
+  }, {
+    "id" : "3c9e3683-c53f-411f-b734-1e26f852d182",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is this not working right now?"
+  }, {
+    "id" : "b9e46e15-10c8-433d-b3ad-ce0981bb9986",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is this service down right now?"
+  }, {
+    "id" : "defa785c-dac3-4594-9c59-3c44a90010d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is this service down?"
+  }, {
+    "id" : "487673da-9cdb-4b5b-9d63-647553b139c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is this service operating?"
+  }, {
+    "id" : "56217c40-cf2f-4927-9638-761accb97b64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is this service operational?"
+  }, {
+    "id" : "3af16dc6-6aba-4a74-b9bb-c99f7bfc0b32",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is this service working?"
+  }, {
+    "id" : "87c8c88e-544b-4836-a2d8-2c54f4a22002",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is this virtual assistant working?"
+  }, {
+    "id" : "ab31a1fc-ac27-440a-b444-d9a27c9ae478",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is virtual assistants accessible right now?"
+  }, {
+    "id" : "0abf36e1-e23b-4c03-8b8a-e278676658fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is your app down right now?"
+  }, {
+    "id" : "6f378446-96a4-42af-887b-824e2ce4c38f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is your app not working?"
+  }, {
+    "id" : "2fbc3fba-0226-480d-af92-91378d3c46c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is your chat service down?"
+  }, {
+    "id" : "4e178c25-2eed-47f2-a1d3-c5d203300503",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is your chatbot not working now?"
+  }, {
+    "id" : "da93f84d-7607-4138-9757-f67dde59720b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is your service currently working?"
+  }, {
+    "id" : "81e7c35e-ff93-42e9-ad0b-1955e4ad4b98",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is your virtual assistant functioning correctly?"
+  }, {
+    "id" : "7d8aa2f5-9068-4172-aa83-c9705eec9ee3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Let me know if the bankname app is down"
+  }, {
+    "id" : "453f2ab0-c4ca-489c-b55d-3624f0de4b79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me if the bankname app is down"
+  }, {
+    "id" : "3d8b661d-91a0-46ee-b1b9-11780c55d561",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me why the app is down?"
+  }, {
+    "id" : "c7306029-3012-4848-89bf-ec14a40bccfd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The app isn't working at the moment."
+  }, {
+    "id" : "ef3447b8-cfc1-4f72-841e-a6ffcb5128f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The app isn't working, why is that?"
+  }, {
+    "id" : "65c9df1b-d4bf-4b70-aad6-64511d31a0cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The app service isn't working for me right now."
+  }, {
+    "id" : "8f0be785-7adb-4b1f-8a2c-5c93a3456b24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The bankname application is bugged."
+  }, {
+    "id" : "ad0a8312-47df-4607-a6ca-78176dee94bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The bot isn't working for me right now."
+  }, {
+    "id" : "416d6790-be8a-43c3-95d2-251f16234ca7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The chat app working?"
+  }, {
+    "id" : "c0f7563e-b573-4ba5-b7a8-d0e5be06f4df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The chat bot isn't working for me."
+  }, {
+    "id" : "ef6ea241-03ba-455e-ad59-ee77b626e3fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The chat bot seems to be down right now."
+  }, {
+    "id" : "bbda613c-898b-4149-8543-4a06211f03d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The service is broken, fix it!"
+  }, {
+    "id" : "17f2a15c-bc56-4f87-822e-9f89521f5ff7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The service is down, when will it be fixed?"
+  }, {
+    "id" : "0452cabf-b519-420a-a04d-9f7ebd2d70bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The working service is it up?"
+  }, {
+    "id" : "01c4039a-6566-43e4-ba19-0fda7e042f8d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the status of the app?"
+  }, {
+    "id" : "90de466f-f023-4c1a-a0c3-44ef8628797e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is wrong with the chat app?"
+  }, {
+    "id" : "0383b3ca-aba6-4361-9126-26173944d0cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's going on with the chat bot?"
+  }, {
+    "id" : "13bbfd01-ffa7-4d0e-a5b5-8be1829f6797",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's going on with your chatbot?"
+  }, {
+    "id" : "49a499d5-fea2-447c-ac45-c836c0152cee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the status on the service working?"
+  }, {
+    "id" : "1e5c7fbc-8c6b-423b-846f-c84afd120f65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's wrong with the bankname app?"
+  }, {
+    "id" : "4082bf9f-7f3e-4e47-ab4a-4285110f0915",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why am I not receiving service through the app?"
+  }, {
+    "id" : "749e29c3-aa7a-4ee7-8841-43507494a33d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why can't I use the app?"
+  }, {
+    "id" : "373d7a8b-13ab-4fce-9822-ea9918556993",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is chat bot service down?"
+  }, {
+    "id" : "64087752-23f3-4e91-b7db-ecfc085cda8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is the app down?"
+  }, {
+    "id" : "5944b7ba-898c-4e06-8230-83b188f7a56b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is the app not responding?"
+  }, {
+    "id" : "d0ed9e90-b74b-4abe-9072-41956eb0bfb7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is the app not working?"
+  }, {
+    "id" : "29088598-bc0c-45f1-ab3d-d1bfd6f9d459",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is the chat bot not responding?"
+  }, {
+    "id" : "143b9d5b-683a-4066-ba76-ffe6d8772f31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is the chat bot service down?"
+  }, {
+    "id" : "5a19b028-0511-4d52-9fb8-ed2ce0a4a16d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is your app not working?"
+  }, {
+    "id" : "5ab404d7-6c90-40ab-8edf-776ae7cb1591",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is your chatbot not responding?"
+  }, {
+    "id" : "94876833-7f0e-4d30-8d51-50da4ddb8529",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why isn't the app working?"
+  }, {
+    "id" : "1eb646f6-ae62-437a-9dd7-54b8d9581a0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why isn't the chat bot working?"
+  }, {
+    "id" : "9c930388-a024-4e36-a699-7dbf3caf32b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why isn't the chat box working?"
+  }, {
+    "id" : "9186f204-25c9-440f-b989-9a254e1b3796",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why isn't the service working?"
+  }, {
+    "id" : "aa9b5300-59e4-4bd6-ac79-667276049418",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why isn't this chat bot working?"
+  }, {
+    "id" : "0fc6a86a-a641-4a58-80e4-ff7d7c487dde",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you tell me if the app is down please?"
+  }, {
+    "id" : "e4fe157c-4e66-4ccd-93bb-fb1a7121110d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you tell me if the app is down?"
+  }, {
+    "id" : "c67ad986-2297-4c8b-90b4-e25327559763",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you tell me if the bankname app is down please?"
+  }, {
+    "id" : "8d5ce4a7-6346-4618-83c8-35931c334a9a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you tell me if the bankname app is out of service?"
+  }, {
+    "id" : "5aa4f003-9fcb-49fc-bce4-375a358f34e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would you tell me if the service is down?"
+  }, {
+    "id" : "2de1c0b8-1b58-4ba2-9a2a-ae5b07344591",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "chat bot is down now"
+  }, {
+    "id" : "8f6e0dc6-5853-4dcd-bf6f-457c72d9ebca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "chat bot is down now"
+  }, {
+    "id" : "3568403c-c99d-4606-8443-a48c181555c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "chat bot is down now"
+  }, {
+    "id" : "bab051d3-7540-41f2-ae31-e39fbfa3e685",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "could you tell me if this app is down?"
+  }, {
+    "id" : "09fdc38c-66d2-4495-9388-4920f936d8b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is chats bot broken right now?"
+  }, {
+    "id" : "7ae648d6-52ef-4124-a889-45738f6bb4b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is the app down right now?"
+  }, {
+    "id" : "3860c398-f861-410e-989c-600ef1904431",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is the bot functioning?"
+  }, {
+    "id" : "eff875f0-9b32-4003-85c1-18ed1edc4fed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is the bot in service?"
+  }, {
+    "id" : "e7de27e4-da3b-434b-9522-b105a8c6bddb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is the chat bot broken right now?"
+  }, {
+    "id" : "7d2a28ae-53e8-4a46-be19-639d82f7e2e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is the chat bot broken?"
+  }, {
+    "id" : "c8776850-052b-46a0-be10-4c164056be20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "it's seems like the service is out"
+  }, {
+    "id" : "b513ee51-4baf-41a2-a1e4-363602ce8a0e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "service is down?"
+  }, {
+    "id" : "70bc4915-175b-4618-adf1-7bd5b9c2dff3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "should bankname app be working right now"
+  }, {
+    "id" : "19be3e93-ccf1-43d6-814c-c9d8843e09ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the chat bot appears to be down"
+  }, {
+    "id" : "0624ff4c-447e-46ef-afdf-9ce2448b8050",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the chat bot appears to be down"
+  }, {
+    "id" : "48583a2d-bbc6-42d0-8b11-c1762856f7da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what happened to the chat bot"
+  }, {
+    "id" : "a22106db-dcc8-4ad3-84c5-2bfcf60114b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what happened to the chatbot"
+  }, {
+    "id" : "09d2bd7a-d695-4a93-b86f-d89d9ca0d8bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is wrong?"
+  }, {
+    "id" : "b3248c9e-6943-4438-b996-d4e1b5787832",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why is the bot out of service"
+  } ]
+} ]

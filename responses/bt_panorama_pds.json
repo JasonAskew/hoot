@@ -1,151 +1,189 @@
 {
-  "name" : "bt_panorama_pds",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To locate the Product Disclosure Statement (PDS) that applies to your account, select the ‘Go to page’ button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To locate the Product Disclosure Statement (PDS) that applies to your account, select the \u2018Go to page\u2019 button."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "internal",
+          "payload": "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
+          "label": "Go to page"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "internal",
-        "payload" : "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
-        "label" : "Go to page"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To locate the Product Disclosure Statement (PDS) for your clients' accounts, select the ‘Go to page’ button."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Note: For investment accounts, the Investor guide functions as the PDS."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/adviser/products/panorama",
-          "label" : "Go to page"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To locate the Product Disclosure Statement (PDS) for your clients' accounts, select the \u2018Go to page\u2019 button."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Note: For investment accounts, the Investor guide functions as the PDS."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/adviser/products/panorama",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To locate the Investor guide that applies to your account, select the \u2018Go to page\u2019 button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To locate the Investor guide that applies to your account, select the \u2018Go to page\u2019 button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To locate the Product Disclosure Statement (PDS) for your account, go to \u2018More\u2019 and select \u2018Document library\u2019, then \u2018Forms, PDS & updates\u2019."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_btinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To locate the Investor guide that applies to your account, select the \u2018Go to page\u2019 button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To locate the Product Disclosure Statement (PDS) that applies to your account, select the \u2018Go to page\u2019 button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
+              "label": "Go to Page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_investor",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This feature is currently not available on the Panorama mobile app. To access this feature, sign in to the full Panorama website."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This feature is currently not available on the Panorama mobile app. To access this feature, sign in to the full Panorama website."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To locate the Investor guide that applies to your account, select the ‘Go to page’ button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To locate the Investor guide that applies to your account, select the ‘Go to page’ button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To locate the Product Disclosure Statement (PDS) for your account, go to ‘More’ and select ‘Document library’, then ‘Forms, PDS & updates’."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_btinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To locate the Investor guide that applies to your account, select the ‘Go to page’ button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To locate the Product Disclosure Statement (PDS) that applies to your account, select the ‘Go to page’ button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/documents/disclosure-documents",
-          "label" : "Go to Page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_investor",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This feature is currently not available on the Panorama mobile app. To access this feature, sign in to the full Panorama website."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This feature is currently not available on the Panorama mobile app. To access this feature, sign in to the full Panorama website."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_panorama_pds"
 }

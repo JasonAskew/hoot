@@ -1,0 +1,213 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_centrelink_schedule_seed",
+  "intent_name" : "bt_centrelink_schedule",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "5278ec16-c452-46c1-818d-a43465a6ac83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I generate a centrelink schedule online?"
+  }, {
+    "id" : "083ecc0a-c4fb-49a9-85bb-84b193239a5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client generate a centrelink schedule online?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "317dc9e9-7992-4272-858e-2adc2342ac83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we get a centrelink for this client as at today?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "132632a8-5a99-4f05-921f-bdfb5adc4bd2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you generate a new centrelink schedule for this client?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "39f5e62e-648f-4d7b-a68e-eaf76ebbe225",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me with generating a Centrelink schedule for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "d4cc71fc-9d10-4c7f-9e3a-c6b57f29181e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Centrelink has requested a centrelink schedule for my account, how can I get this?"
+  }, {
+    "id" : "8448c093-9765-4a38-9fc9-55c2980a94f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Details of income stream",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "002f92e0-6e11-414b-bb6d-b04a3276d615",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Generate a centrelinked schedule now please",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "80f2dde0-9fe5-437f-ad1a-952132b45417",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I request for a Centrelink schedule for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "152afd81-b7ac-437b-91b3-bddb249828ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I generate a centrelink schedule online?"
+  }, {
+    "id" : "24d3d5d2-1a26-49de-8a87-47d66c9eee54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client generate a centrelink schedule online?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "81a326db-3191-4e13-84de-3181754c9441",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we get a centrelink for this client as at today?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "347f80dc-c6e5-421a-a934-8b36d5b4f000",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you generate a new centrelink schedule for this client?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "ea42bba3-d2b1-46f7-ad22-93f3fdeae304",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me with generating a Centrelink schedule for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "82ad7764-f628-4862-a30c-93a9aa15b0ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Centrelink has requested a centrelink schedule for my account, how can I get this?"
+  }, {
+    "id" : "1f105c1e-2e54-4bbf-903d-e961c651992b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Details of income stream",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "2c69c3fe-38a2-4c91-8c69-8f84764d670a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Generate a centrelinked schedule now please",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "475be963-d4e1-4736-bc42-a0330b06ac83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I request for a Centrelink schedule for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "bd18028a-4e33-4897-8009-97f70503012a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need a centrelink schedule as at today",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e6a32dd6-54ab-479b-8cb5-662d7ed36db9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need a centrelink schedule, please generate one."
+  }, {
+    "id" : "b153bb60-142a-4669-a22b-fd364d4f4b1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to a statement detailing my income stream"
+  }, {
+    "id" : "4d4dcaf5-3e82-412d-8e8a-d501812d1da5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible for me to generate a centrelink schedule?"
+  }, {
+    "id" : "a6357043-3173-47d6-babc-16ce01afcc3d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way we can generate a centrelink schedule for this client?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "ff0f23df-99b7-48c0-a139-be79f4b13bef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client needs help with Centrelink scheduke.",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "363eeadd-5ded-488b-acfc-8f92d3a8d523",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Our client has been told he needs to give centrelink details of his income stream?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "6a46d4dd-635b-4b5e-83af-542a8da3a976",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The client has been asked to provide an SA330, can we have that please?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "fdc55ae3-d089-4965-b023-ff5cd0ed023e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I need to give to centrelink to show my pension details"
+  }, {
+    "id" : "d4187a72-de7d-417f-94e0-866e1b62aa24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What documentation do I have to give centrelink"
+  }, {
+    "id" : "4a0adffc-4940-41aa-8b18-a6a0f4099a16",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to get a centrelink schedule for this client",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "5438a35a-d9b4-43dd-8458-5f5f00d214b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why do I have to speak to someone to request a centrelink schedule?"
+  }, {
+    "id" : "6969243c-31e6-436e-922c-18bdeab1f91d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Wrap allows me to generate a centrelink schedule on the spot, how do I do that on panorama?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "3d76ac95-a280-4857-a8ff-c71628dbfec2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "centrelink have asked for a statement of my income stream"
+  }, {
+    "id" : "3a9b487b-98af-42c2-a6ad-4a1cf1133424",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "centrelink have asked for a statement of my income stream"
+  }, {
+    "id" : "567ece41-3bdc-4aab-8506-32c719dadfd8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "centrelink have asked for a statement of my income stream"
+  }, {
+    "id" : "6f95ee3e-2222-488e-b157-61952b8e57ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "email the client a centrelink schedule",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "281684a1-c772-4158-82e3-f4d2d68a60aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "proof of income stream for centrelink",
+    "tags" : [ "data_sync_addition" ]
+  } ]
+} ]

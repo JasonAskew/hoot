@@ -1,52 +1,75 @@
 {
-  "categorization" : {
-    "skill" : "payments_transfers",
-    "tags" : [ "service" ]
+  "categorization": {
+    "skill": "payments_transfers",
+    "tags": [
+      "service"
+    ]
   },
-  "name" : "bt_asset_transfer",
-  "display_name" : "bt_asset_transfer",
-  "description" : "Intent to show procedures for transferring assets",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "messages" : [ {
-      "clarify_response_name" : "bt_asset_transfer_clarify_transfer_type",
-      "input_mode" : "HIDDEN",
-      "slot_name" : "transfer_type"
-    } ],
-    "rules" : [ {
-      "criteria" : [ {
-        "name" : "transfer_type",
-        "value" : "in"
-      } ],
-      "response_name" : "bt_asset_transfer_in_response"
-    }, {
-      "criteria" : [ {
-        "name" : "transfer_type",
-        "value" : "out"
-      } ],
-      "response_name" : "bt_asset_transfer_out_response"
-    } ]
+  "webhook_name": "ClarificationIntent",
+  "webhook_params": {
+    "messages": [
+      {
+        "clarify_response_name": "bt_asset_transfer_clarify_transfer_type",
+        "input_mode": "HIDDEN",
+        "slot_name": "transfer_type"
+      }
+    ],
+    "rules": [
+      {
+        "response_name": "bt_asset_transfer_in_response",
+        "conditions": {
+          "type": "condition",
+          "payload": {
+            "operator": "==",
+            "slot": "transfer_type",
+            "value": "in",
+            "clarify_slot": true
+          }
+        },
+        "description": "\"transfer_type\" == \"in\""
+      },
+      {
+        "response_name": "bt_asset_transfer_out_response",
+        "conditions": {
+          "type": "condition",
+          "payload": {
+            "operator": "==",
+            "slot": "transfer_type",
+            "value": "out",
+            "clarify_slot": true
+          }
+        },
+        "description": "\"transfer_type\" == \"out\""
+      }
+    ],
+    "default_response_name": "IntentMessageError"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "CANCEL"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "CANCEL"
     },
-    "outgoing" : {
-      "allowed" : true,
-      "allow_resume" : false,
-      "confirm_if_cancelled" : false
+    "outgoing": {
+      "allowed": true,
+      "allow_resume": false,
+      "confirm_if_cancelled": false
     }
   },
-  "display_sentence" : "How do I complete asset transfer?",
-  "slots" : [ {
-    "name" : "transfer_type",
-    "entity" : "BT_ASSET_TRANSFER_TYPE"
-  } ],
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "messages" : {
-    "IntentMessageCancellation" : "Canceled. How can I help you?"
+  "display_sentence": "How do I complete asset transfer?",
+  "slots": [
+    {
+      "name": "transfer_type",
+      "entity": "BT_ASSET_TRANSFER_TYPE",
+      "message_contents": []
+    }
+  ],
+  "machine_learning_enabled": true,
+  "messages": {
+    "IntentMessageCancellation": "Canceled. How can I help you?"
   },
-  "multi_inputs" : false
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_asset_transfer",
+  "display_name": "bt_asset_transfer",
+  "description": "Intent to show procedures for transferring assets"
 }

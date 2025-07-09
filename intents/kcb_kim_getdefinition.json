@@ -1,33 +1,40 @@
 {
-  "categorization" : {
-    "skill" : "investment_literacy",
-    "tags" : [ "service" ]
+  "categorization": {
+    "skill": "investment_literacy",
+    "tags": [
+      "service"
+    ]
   },
-  "name" : "kcb_kim_getdefinition",
-  "webhook_name" : "kcbwebhook",
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "webhook_name": "kcbwebhook",
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : true,
-      "allow_resume" : false,
-      "max_outgoing_interruptions" : 1
+    "outgoing": {
+      "allowed": true,
+      "allow_resume": false,
+      "max_outgoing_interruptions": 1
     }
   },
-  "display_sentence" : "give me the definition of a term",
-  "slots" : [ {
-    "name" : "banking_glossary_term",
-    "entity" : "BANKING_GLOSSARY"
-  }, {
-    "name" : "investment_glossary_term",
-    "entity" : "INVESTMENT_GLOSSARY"
-  } ],
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "messages" : {
-    "IntentMessageCancellation" : "Canceled. How can I help you?"
+  "display_sentence": "give me the definition of a term",
+  "slots": [
+    {
+      "name": "banking_glossary_term",
+      "entity": "BANKING_GLOSSARY",
+      "message_contents": []
+    },
+    {
+      "name": "investment_glossary_term",
+      "entity": "INVESTMENT_GLOSSARY",
+      "message_contents": []
+    }
+  ],
+  "machine_learning_enabled": true,
+  "messages": {
+    "IntentMessageCancellation": "Canceled. How can I help you?"
   },
-  "multi_inputs" : false
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "kcb_kim_getdefinition"
 }

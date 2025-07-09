@@ -1,85 +1,107 @@
 {
-  "name" : "bt_view_reports_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "From your online account, you can generate a range of reporting documents, including portfolio valuations, performance reports, and transaction history. You can access these via 'Reports' on the navigation menu."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "From your online account, you can generate a range of reporting documents, including portfolio valuations, performance reports, and transaction history. You can access these via 'Reports' on the navigation menu."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "internal",
+          "payload": "#/app/investor/account/{accountNumber}/reports",
+          "label": "Go to page"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "internal",
-        "payload" : "#/app/investor/account/{accountNumber}/reports",
-        "label" : "Go to page"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For assistance with reports for your Challenger Annuity, please contact Challenger on 13 35 66."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You can generate reports for clients individually via the 'Report packs' section when viewing their account."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You can also generate reports for clients in bulk. For more information, select the ‘Client report packs in bulk’ button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_bulk_reporting"
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For assistance with reports for your Challenger Annuity, please contact Challenger on 13 35 66."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You can generate reports for clients individually via the 'Report packs' section when viewing their account."
+            }
           },
-          "label" : "Client report packs in bulk"
-        }
-      } ]
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You can also generate reports for clients in bulk. For more information, select the \u2018Client report packs in bulk\u2019 button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_bulk_reporting"
+              },
+              "label": "Client report packs in bulk"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_investor",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To generate reports for your account, navigate to \u2018More\u2019 and then select \u2018Reports\u2019."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To generate reports for a client, navigate to their account, select \u2018More\u2019 and then select \u2018Reports\u2019."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_channel_mobile_investor",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To generate reports for your account, navigate to ‘More’ and then select ‘Reports’."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To generate reports for a client, navigate to their account, select ‘More’ and then select ‘Reports’."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_view_reports_response"
 }

@@ -1,0 +1,828 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_bpay_details_train",
+  "intent_name" : "bt_bpay_details",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "b20f646c-a7dc-4a26-9902-f38a5e33f42f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "BPAY details for my account what are they?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b5ce6863-8afb-4c44-9291-6c509c4c605a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "BPAY details please",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "09664c92-eb6f-43a0-b572-0673c21aa854",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "BPAY number for my account",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9547103d-7c0f-4efe-a6b1-7985c90c749f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see the BPAY's info for my account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "86d4a048-f851-48e0-be99-101e9af1b6b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you direct me to my BPAY account information?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f863c91b-d15e-4625-a0f7-ec89b6bbdfa8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you provide me BPAY details?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "5a72eb9f-a90d-4cc1-9e63-06282867602e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me my BPAY number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "87590852-59b0-4183-abbe-080318c67c3c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the BPAY information for my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "222625d3-e8da-4cf5-9488-a7ccc8e8e8d0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Display the BPAY details for my account.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b5872a85-fcec-42cc-bbaf-c6d9bce626f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give me my BPAY details",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "0d1326f9-b380-483d-b9ef-697d0eb63cce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ho do I get a bpay number",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "c4c105c2-e860-472c-9e14-84c746f1c27a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find the BPAY details for my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "05fcc4d4-a82b-485d-b20b-90e33ec81cc1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i use BPAY?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "26a5b8a7-f26c-4672-89f4-a2a0771aba6d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't find the BPAY details for my account",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8b63ac4b-79c3-4119-b1f6-16837ef5d250",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "BPAY details for my account what are they?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d5d6e4b6-8106-438d-b3d9-9f09ddf12a79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "BPAY details please",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "4fbd341d-edef-43d8-aab0-fbb7f57e7bfa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "BPAY number for my account",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "7eb06752-f4f2-4873-99b9-b94ce1829e55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see the BPAY's info for my account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "cbd65a37-f202-462b-aa79-1a8a1658f012",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you direct me to my BPAY account information?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9575cb60-bfbd-4a64-8acc-6da5b1c6d473",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you provide me BPAY details?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "754ce52d-c65e-4cfc-be3a-8ab835e50f8b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me my BPAY number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "266f0a12-1941-42a0-8925-5f7902223a65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the BPAY information for my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6d455aa8-9d5e-49ce-b6fa-2a365627d74f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Display the BPAY details for my account.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "26fc8fc5-73ac-4285-b9f4-5c8579b680b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give me my BPAY details",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "ca4df74a-f6b5-48be-ad56-535e125580c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ho do I get a bpay number",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "2c441cc5-20c5-46a8-80e8-ef7f551d7e46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find the BPAY details for my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6678a376-f622-4699-ad4a-81e0ff7d341f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i use BPAY?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "1decabb7-e1b0-4ac6-99b6-85ffc70dbceb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't find the BPAY details for my account",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "0b50944f-340b-4ef9-a887-7eb07cc0dcd4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need the BPAY details",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f46035e3-1463-49bf-80a0-f555d4eb8599",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to access the details for BPAY.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "aaa2db8d-b5a3-4fb1-8275-94e6dbe363f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to see BPAY details",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b980a1f9-7607-4592-ac8d-817079d7380d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to find the BPAY details related to my account.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "5fa473e1-c4ee-4434-a727-34c6c5590297",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to see the BPAY info for my account",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "069ac9b2-6a47-4ead-9e0b-1a6fd87278fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me my BPAY details.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "cac1ca05-25b7-4b19-b322-f500d1131069",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me the BPAY details for my account",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f2bac733-c610-4885-baa9-3bb5c4f9160d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me the BPAY details for my account please",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4bda1da6-38ff-46de-994e-2e500acac1b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me my bpay details",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a7488a4d-20ea-48ef-af56-118780e3ad74",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the BPAY details for my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a8087219-75d9-4a9c-a470-76fcee09114b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the BAPY information on my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8a80ac1d-7431-44cc-840b-76d0fd354cf2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What page contains the BPAY details for my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b898f269-fb25-4a2a-8290-f617a1c69224",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's my BPAY #?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "bc76d96c-caa9-4c31-b02d-171659e9d13a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's my BPAY number",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6cd97f17-9bb6-4b4e-857c-2d1c7bef038e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where are the BPAY details located?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "27754adf-47a3-4b52-94a9-1c40090b385c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find BPAY details?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "5fc7f15a-e1f6-409e-ac8a-7c82aa1bdb40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find the BPAY details in regards to my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3333c960-c76b-4e15-bac3-5572a30dedbd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can the BPAY details be located at for my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "01b2c431-413f-46d3-95c5-63935b3b9aef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is the BPAY information for my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "71c63dc4-d633-4cb6-8699-217f61503094",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where's my BPAY number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "397b7899-b157-481a-bb9b-34294767a92b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where's my account's BPAY information?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d1b5a0b5-6100-4de7-984b-95295198df5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "also the bpay details thanks",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "35185f66-6409-45f4-8852-9d61c7c1849d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "billpay",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f7e53197-bccd-459c-833c-7f4df464d2a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "c7667eea-bc6b-4355-95b5-42b8e580406c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay accounts",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "9b247bb9-3411-4c2d-ba70-36bebd64b361",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay billers",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "11445f3a-9ebb-476a-b0cc-ac70d722fdc1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay code"
+  }, {
+    "id" : "8a316f44-a4e9-41c8-8399-7e2e1cad445f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay codes",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "70aebd4f-0616-484b-848d-afdaea76ab70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay details",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f25b3ec7-981f-4f0a-9174-46734f9581d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay details for employer contrubutions",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9a912f77-95da-489a-b931-72b73c6c2914",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay details for super contributions",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cfb03d23-2238-4cb2-bef2-33b8c00362d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay for employer to pay",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "59787ccd-3e99-4c68-a397-4957a28a969b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay info",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1439f3b9-fa3d-487c-894a-1b946d3623e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bpay number for my bt cma",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "0cfe148b-7c59-4ff4-b3c7-4a1e5a912767",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay number for my panorama account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2c602a4c-7e71-4a6a-935e-be55ba701f15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i iuse bpay to pay a bill",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "191b873f-763e-40b3-b55f-c4e55db479f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me the link to where i can find my employer bpay details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d9d0b498-9553-4687-b2ef-b59dd7c09d41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "billpay",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ae78bf44-a985-447e-8daf-9407d233b560",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "f40efdf0-357b-4ab2-9097-39e9c18794bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay accounts",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "f6d93b40-dcc1-49f3-ae1f-a8af6271eee9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay billers",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "aa01692a-4e28-4e2d-82d4-474900c15c60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay code"
+  }, {
+    "id" : "a3dba2ac-4264-473e-bae0-338f60eceba6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay codes",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "638afb2b-f976-47cc-b0fb-2961c51bf02c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay details",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d96c5d18-7d5f-452f-891d-2d12c287e1be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay details for employer contrubutions",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "26fc1ae6-985a-4971-a796-0bf627b14236",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay details for super contributions",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8fb85f60-dec9-4b47-92f2-98a1395a5073",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay for employer to pay",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "cdc1e0ce-35d3-490f-96f0-9702615d5fa7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay info",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c33ba226-bb07-4d7f-a9ac-b55669431844",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bpay number for my bt cma",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "dafdd0dc-4a35-470e-96bf-a26da7fd5251",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay number for my panorama account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7a09d2e9-ed47-429f-9be7-56ba3fbad728",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i iuse bpay to pay a bill",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "782c5532-d7fc-4f31-9ee3-e3d13c355ebe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me the link to where i can find my employer bpay details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "db21898e-8f7d-43b7-a9c4-5a7b4bc179ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "billpay",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "19a09f5e-2225-4b44-b87c-a9663f6bc18c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "c6f819b7-43f4-455d-b22d-37716f5f70b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay accounts",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "b78a935c-acdf-4466-9192-a173d8a58118",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay billers",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5785c80e-3216-474c-bcee-0a77937286e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay code"
+  }, {
+    "id" : "9468d178-5c36-427a-81ea-c6b0d3ff9d64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay codes",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f1fe0997-6b85-42b1-9e2c-5777ca6c9ff9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay details",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ccf10d85-5bc9-47e8-a4cc-8d47951bc2a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay details for employer contrubutions",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2eaba009-b403-4511-a70d-99aa35610313",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay details for super contributions",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3b297d15-7ecb-4332-99b1-e6778714d242",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay for employer to pay",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5c476f95-b789-4125-ab10-33981817b9bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay info",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "622e30ec-a415-4e7e-b817-a2bf9f8dd799",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bpay number for my bt cma",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "93f54d9a-400e-4def-b6d6-fe1af6d3619a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay number for my panorama account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6060f62a-9f5b-40f6-afe3-1320a49c596a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i iuse bpay to pay a bill",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b18fec45-9bc7-4b3c-8ff2-61568426123b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me the link to where i can find my employer bpay details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4048e7eb-b8d1-44e2-8a57-d365f9e6acd6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client trying to use bpay but amount is being rejected",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "09223273-ae35-4952-9241-2e30f40d348e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employer contributions bpay",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "86c2ffdd-2853-4e76-b8c4-2e323fb5dde9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employer contributions bpay details",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a5dbbc6b-3343-44ca-a0fa-b03613144ccb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "give me the bpay details",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "e7494d31-256e-470d-8956-5704ce16ca99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello - where is the add new so i can make a bpay as it is not on my drop down although i have set",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "351406ca-61a9-489c-8ef1-f639ca14abec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is my superannuation bpay code"
+  }, {
+    "id" : "881cb9d1-6eae-4d85-9114-83df24c2c2fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i add a bpay biller",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "6dbfdef5-7d80-44dd-85e2-1f682b18c357",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i add a bpay biller to make a payment",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "2dd797c3-ca2a-4528-9bf9-b75d79b24ffb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make a bpay payment from my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a522a6d0-83ed-4809-acd6-05b77968c1d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to bpay",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "2bb7b366-a4a3-4faf-8214-a02ee8b474a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to make a bpay payment",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b14a5145-263e-4ce2-b989-e351ab51c3f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to make a bpay payment",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e1934442-a7f2-4f0f-9373-a3fd838698e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to make a bpay payment to bob but can not do so",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "a90ba28c-75ea-41e6-b0b0-ced8eafec810",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have added a bpay biller but cannot pay the bill as the payment screen says there are none added",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "4d8591d2-a373-4462-9f1c-c972c5a26324",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have just registered and got access to my bt panorama account but i can not see where to update my bpay and direct debit",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "937f45aa-a360-4923-ba7e-5306b91509da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need the bpay info",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "0ca10cdf-2fe4-4df0-bc1d-157681c7ddc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to clarify which bpay details i give my employer",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9609a6cf-f418-4a05-9f57-e06d9a299569",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to have the bpay biller code if possible the form mean nothing for me",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "8600bf33-8e5d-4dcc-8fdf-b3a757f32fc3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is the bpay 111111 my mastercard account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "090c639d-fad0-4535-bfb7-0c7fb2ce2cb7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is there a bpay for bt invest",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "29e898d9-63c1-4fa1-8326-3a33ebca8d31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "limit using bpay",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "96983cf8-7fb9-4d99-90b1-d610dfcb5f7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "make bpay from investment account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "82523e29-5f3b-4519-b5a5-90b3f5dafc58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my bpay billers are not available",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e9c08c9b-4fdf-4e6d-97df-6dd6b8ebac5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pay a bill by bpay",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b4cf0cfe-d69b-4fc9-bd13-3389ac57452b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please just provide bpay details",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bd9880a9-acf8-4851-b835-1fee8db1bf9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reference of bpay",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "e3c2e754-3bb7-4584-9c28-f970d54d9d72",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me the BPAY info for this account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "3f69c87d-beaa-4bb8-99b5-c76c840005e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me the bpay details",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f38d1124-0644-4a73-8b41-ed52ac2ab55e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "use bpay to pay a bill",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "84c6e46a-3df8-4999-a5a2-f6abdad94167",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what bb pay",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a4250ad2-3d23-4577-a6b0-d2b42ecfc023",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "use bpay to pay a bill",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5329cf58-f8b1-40ec-9deb-c69c0ab13476",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what bb pay",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f0d2721e-c99a-4fe9-871b-8b30ec54b535",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the bpay info to provide to my employer please",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "614bf837-4344-41e0-b90f-0ee68951f238",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the bpay number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "fc083287-3dd1-4721-96c0-5145ccca9b76",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can I see the B PAY information",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "6d65b253-71dd-444c-ad1a-d56feae3adb1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I find bpay details on my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "ca16a3d2-9b9d-467d-8174-63e3aea8c368",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I find the B. PAY details",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "fd42f036-2de4-4fc5-9e43-4fde65bf000b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I lookup the BPAY info?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "1e24facc-f6fb-4832-9d0a-86e104f5e2a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find my member voluntary contribution bpay details please",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7ec6255b-b1b5-428a-80d0-733f7d3da368",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where is the info I need to use BPAY with this account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "4dc87343-c653-4ae7-aacf-069c4d2b9ad1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where to get the bpay information",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "63969da2-e84e-4009-b2ea-c5081ddc383a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yes but how does the client pay an account with bpay from their investor site",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  } ]
+} ]

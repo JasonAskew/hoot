@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "issues_error" ]
+  "categorization": {
+    "tags": [
+      "issues_error"
+    ]
   },
-  "name" : "bt_technical_difficulties",
-  "display_name" : "bt_technical_difficulties",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_technical_difficulties_response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_technical_difficulties_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "I’m getting a technical difficulties message, can you help?",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "I\u2019m getting a technical difficulties message, can you help?",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_technical_difficulties",
+  "display_name": "bt_technical_difficulties",
+  "alternative_question_eligible": true
 }

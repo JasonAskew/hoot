@@ -1,0 +1,1312 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_change_insurance_test",
+  "intent_name" : "bt_change_insurance",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "bc271d53-6e29-4456-9bd4-bc5a74560010",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to reduce my insureance coverage?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "98cdfea5-0ef5-4257-8448-6360d54edce4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I allowed to cancel my insurance cover?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "399d3f7b-084c-49f2-9290-35cd314a1d59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Apply for insurance if I cannot work",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "658fe583-4313-4a7b-823b-d92e1325bb0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I cancel my insurance cover now?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "05bd84e3-058a-4f33-b372-98b6cd0f6846",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I lower the insurance cover on my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fa0fc304-6a7d-46b9-888e-3762e3f54dd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cancel Insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3d740b39-54a6-4ba4-9028-4d12634c131d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cancel death insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3811a8f7-8c5f-453f-8c87-bbef06331775",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cancel insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "387c886b-fda8-4bb3-b34b-86dcfbbcee92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cancel insurance from overseas",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bb4b85c2-b8be-43a5-bfe7-3b2c9ec0659c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Certificate of currency insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "41dd15a8-0d05-43c4-94f5-77ab253e38ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I would like to increase my insurance cover, could you please send me the necessary forms",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "46e52d57-0d22-41c6-8056-cc15e486f36c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I cancel my insurance cover?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8e819f6f-b4bd-426e-b428-b76b3365d6ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I take out a policy for my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "38041cc1-f7d9-4c29-ab7f-28ecf1a13b33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I get a copy of my life insurance policy",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "63351b8e-b2c2-493b-9090-39940ef02b23",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I reduce my insurance cover?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "daf7fda2-fb5a-44cd-b1d3-f291b157fd3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I take a payment holiday on my insurance?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c74f3975-90d9-462f-abaa-085a7186ffa8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How go I take out a policy?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "939101c8-efd6-4f07-8b85-97c4d8f3ee84",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to get insurance incase I cannot work",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f2fad71f-b6c8-4a70-8839-750f02af7f77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to reduce my insureance coverage?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "737c7a6d-5a0a-454c-b234-9379f759f77c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I allowed to cancel my insurance cover?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2e9ef9c8-adad-4c2f-b9ea-9fa6d934449b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Apply for insurance if I cannot work",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9b77ec32-69e5-4819-b811-4aaa1fedda9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I cancel my insurance cover now?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "516c9e07-3819-4472-9523-7d7cfcfb6460",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I lower the insurance cover on my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ca1badee-08c4-4e6a-ae7a-cc518de09cbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cancel Insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ce5ab989-8b1c-44ef-a600-6fbaff7224e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cancel death insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "033e3bd9-81c3-46cf-a9f9-1d2ab12c7713",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cancel insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "dea5bc50-b6e6-4af3-96b0-841d04ae0db3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cancel insurance from overseas",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8511257b-d97b-4167-aa82-f141ce645c34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Certificate of currency insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c8bd3612-51f0-48c3-bda5-dabf6c890e9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, I would like to increase my insurance cover, could you please send me the necessary forms",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f3be8d9d-29be-417a-898d-1c79925e26be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I cancel my insurance cover?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "065a2aa5-85f1-4da9-8e0e-c752e3fa90da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I take out a policy for my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ed80a05c-b3d8-4cc1-b847-91f8bf10a989",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I get a copy of my life insurance policy",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "0aa3f76a-4da8-4997-93f1-ddb7f1e83a33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I reduce my insurance cover?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7b75514d-2e28-4ba9-a503-7d741680fdef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I take a payment holiday on my insurance?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "88ca9e73-fe4d-49ed-a4f5-cdd0bddd18ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How go I take out a policy?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8c5d2fb7-2c35-45a7-b6ad-c60f5d8ee8d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to get insurance incase I cannot work",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9398562d-f17a-4eb7-be0f-e9ca19e07913",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I was awarded a T.P.D. claim recently, I was told by my lawyer that $11,111 rhe amount, I need to know I can access it or some of it.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "caf55981-2042-4502-ac03-65b4b51258c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to buy insurance for my super account.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a8ff5d1c-393e-4277-9bb8-fcd452252dc3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to cancel my insurance cover?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4bfb5cc3-529d-465f-887e-fab53b440f70",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to reduce my insurance cover?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0f9b8c52-c84d-4757-b418-1a85ea210486",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "If I haeve a super account, what insurance policies can I get?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b7b81b14-5ec5-4249-b244-fa3d48e2f838",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Increase insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e735fefe-a2f8-4929-97f5-69881b1fc11b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Insurance cover increase",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f52590c9-57ae-4602-b347-a12e5240f1e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Insurance premiums paid twice",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b111f8cb-bd9b-496a-9477-6d4e04af9425",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Looking to cancel life insurance attached to fund etc please.?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "ab112f8f-f7c0-4a99-a073-80441d6338d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "My insurance might be cancelled?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6673b0b2-0975-4b98-b602-17ec0aa0e536",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Our client YL111111 has recently found out that her insurance cover under this policy was cancelled incorrectly during the changeover from Wrap to Panorama. She has recently reinstated the direct deb",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4796d4f7-8340-4dd7-b4df-ca96404a6aec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Reduce insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3c1930cc-7841-47d5-9f40-d96f88b0bb4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "TPD Claim",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "395c7b3c-a663-4bbc-9286-7b155c023a62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "The cancellation of the Panorama Super is bad because the client's linked insurances,",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "5234d5f1-9dbe-4dfa-a41e-4ee916eb1bcd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Update insurance coverage",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b92ba044-cbe3-487b-b16f-cc01364caf02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Want to increase my life insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9578cd5b-1315-4cd4-8583-95d365f2a838",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What insurance policy is available for a super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "81ea1382-d17e-4e52-ad4d-06be41c1e996",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What kind of insurance can I get if I have a super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "93538dc6-1e07-49b4-81f7-a1e7d4c5ac41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What types of insurance policies are available?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5f3ac111-bcfc-4770-a8ca-e88934007114",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I change my insurnce cover?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d0a3da9b-14f7-4d24-8156-d58e8c4e2132",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find the insurances available for my super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5dd031c7-3caf-464a-9720-1ddbbd3dd776",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I get the quote for insurance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d8f2e5de-fee4-4daa-8062-ac516bb7df8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I reduce my insurance cover?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4ca44cdb-2136-423e-a50c-33c8ac788bc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I view the insurance policies available?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d81f3a29-ee0c-4684-a817-19977a79535d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "access premiums paid for insurance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0e3d5ce9-c3a0-41b7-b7e2-73107bce0c3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply for SCI",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ebe7c047-536c-4735-83e9-3d886775db2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply for insurance",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ee5779ae-8a76-43f9-b2ab-afc39b284e71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ask for a btlife insurance change of advisor form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2cb76828-ed54-4920-831d-48d0d082f9cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add life and tpd insurance to my super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "57e920cd-3102-41a8-8e46-1c7331814aef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add sci to my existing insurance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3adf7589-6ec7-455f-8214-0a5922169385",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change my policy",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a6dd212d-677f-4a38-a54a-48648548ab8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i stop insurance premium if yes what is the impact on me",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dc55b7db-7d9c-4a65-949c-8c85482e0cbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can this insurance be stopped online",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "48448ca6-ad54-47d7-bfc5-57ca2e86d5b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can this not be done online there used to be a button to remove an insurance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e71aa75b-3644-4b2a-bf53-7f9aa9ca140b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel policy CL111111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5a80c496-b07a-4ea1-bc06-6e42e5329432",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancelled policies",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bec756b0-b7ca-4b6e-85da-709f490c1a3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change insurance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2c064d3e-54a8-4702-ba05-99c30564cd4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my employment type",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a7edb070-ffff-463f-8110-8a9f45bafe15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change salary",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "120fc8bd-3c33-455f-a967-b121863e885a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "changing insurance payment method",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "54b7dc64-c1af-4695-b6b4-9a5a62aeb74d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply for SCI",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1b6fba2b-256a-421b-adda-49fb638fc36e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply for insurance",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "c4a99884-29ec-4a6f-9e47-faccbb9870c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ask for a btlife insurance change of advisor form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "bce5be41-e2bf-42fc-a396-4a3cdf7e5dba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add life and tpd insurance to my super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "56218d60-9e89-4fbc-b48e-90ad23744fc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add sci to my existing insurance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2cbd0eb5-3184-4608-9bb4-494caa3da824",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change my policy",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "734b634e-3bce-41eb-9e94-68c1f0e0eec1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i stop insurance premium if yes what is the impact on me",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b468bd1b-682a-462f-9f56-4d1f0da317c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can this insurance be stopped online",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5a5d0b73-1752-417c-8e84-4984e489866d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can this not be done online there used to be a button to remove an insurance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e5660f6e-f082-4b41-9de8-20fb75e4c1ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel policy CL111111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "27e9ee29-7ac4-4502-a4e7-02a5d8600877",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancelled policies",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cfea8871-c1ff-4625-8213-5854a6469a6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change insurance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "741df50b-8844-4f68-9b0c-770ea5efd280",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my employment type",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8d3b9f96-d93b-4e7e-826a-c21577bf7dfd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change salary",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "18bafeaf-5d4b-48ed-a32d-2b7678341904",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "changing insurance payment method",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "86945b04-afe2-4a38-a5b0-362279202792",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply for SCI",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "75bd838e-eb08-4f3d-888d-576abc989f9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "apply for insurance",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a92b0256-1b33-4f96-87e1-8b8843102cdc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ask for a btlife insurance change of advisor form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "07e01ddc-0f7e-4a24-aeed-701aaf1719a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add life and tpd insurance to my super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1c7f9893-8c11-4222-a9be-5eb25d5983b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i add sci to my existing insurance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dc335225-6ccd-45ee-b3ea-46415ef55dfb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change my policy",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "eca330bc-a977-4a77-acf7-2abce79cd582",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i stop insurance premium if yes what is the impact on me",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "47f2f64d-df91-429e-b4fe-f779e7ea2bc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can this insurance be stopped online",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9e312c96-045f-4fef-ace9-ed009e796fbf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can this not be done online there used to be a button to remove an insurance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "318a5e90-7b3c-421a-8734-eb7fd6e8ba3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancel policy CL111111",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0c613541-12fb-4f3b-aa2b-fef50bd678c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cancelled policies",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b8a05da8-69a7-4a20-9c2e-a869b97b506d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change insurance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8a4d49ab-96fc-4bfb-8d0b-aa084ef78d5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my employment type",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "da72bda4-8a9e-4e75-9874-9654437e6509",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change salary",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e973dfe3-51b2-48b9-accf-1725888f26f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "changing insurance payment method",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "624548f0-937f-4d73-8ccf-f1928ce9a49f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact number to discuss insurance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "12283ff7-edbf-46c1-b306-6000977f48ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "continue insurance on super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f88bf566-c67a-4b64-a98c-06d4f5330bfd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "deaf benefit",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f4133776-bdba-40cd-b63b-a29ef1c650ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "death benefit rollover",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dc877e00-d3aa-437d-90af-6cc747c0799e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "discuss my insurance",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "aaed2998-ef30-426c-8ed8-10a05287ac13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have a form to increase insurance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ed844d5-0e15-405c-a137-faad769e93b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "full policy information",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "28f8d9bc-38cd-4c0d-a748-e758edaccab6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have a term life insurance policy with bt panorama but sum is not amount it was suppose to be",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "be6f7719-108d-430c-9cf4-8d954c7e4d34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am looking at increasing my death cover is this something i can do online with you",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "0cd1f817-b068-4df8-b289-182ba97268b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i need to cancel the income protection and the life insurance on this super can i have a phone number to ring someone",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fd8fda2f-b5aa-4c00-94ff-4b9352a5e6c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i wish to opt out of my insurance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "75e8eb6b-8380-4d11-b979-0369d86b7ea2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i would like to set up an online account so i can opt into insurance please",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bfe9679b-bafb-4662-872a-aafa55fa13cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help me add sci",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "82ab995f-e530-4217-ab9f-c52ebc42c2e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey where do i find insurance statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "859b4c97-0cd9-44b9-96a7-19dca62c414d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to transfer money into my account to cover insurance premiums what bsb and account number do i use",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2991b3bb-f604-4ebb-b771-457cbaad42fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to upgrade my insurance cover",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5cb2a395-3a3f-45eb-b1c6-bd00b21ef886",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to know more about income perfection through",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0734e698-2d26-45af-99ad-02d5f0deee9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i'd like to increase my insurance through life event",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a9871eda-ae16-4743-a2ea-b5114379cfcf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ho do i log into bt insurance",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "2261baa8-ae5d-4c9b-acf5-c6f8b072a589",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can a client change credit card details on their insurance policy",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c65f65ea-9283-41a8-a45d-d91703340f4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can a client change te cridt card details for iinsurance purposes",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0319dab3-b1a4-44f1-99d7-75a1de008816",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i pay for my life income protection",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8a1be821-eb64-416f-b1d0-535bc9fbafae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I increase my cover",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "565c86fb-3b84-4ab3-b4bf-492bf3446508",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I make an insurance claim",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "2c21adf0-271e-4884-b41c-9aa44d46bb04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i cancel an insurance policy within super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "32f90810-f17e-455f-8d15-517752151955",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i cancel insurance policy",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "02b27c16-4691-4229-9d08-67e45e75e06e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i cancel life insurance",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "b74c4907-e878-4717-95d2-2b1185300e2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i cancel my insurance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fe6c0da8-8142-4acc-8d1d-341e5ab7142b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i cancel my salary continuance insurance cover",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9837e56b-c574-4f4a-834a-2b20ff8ca2ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my insurance payment method",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7a85c275-a3af-4914-84f9-ef149edf5a12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i contact bt about insurance alternation lodgements that havent been actioned yet",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "47924c9d-8a7a-4703-ac67-0de26ff90c5d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i do life insurance quotes",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "77ea4820-a0c1-425d-b268-9adf68d59453",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make a claim for income protection insurance",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dfb3426c-18c7-4098-a6e7-bd16c9806f2a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i make changes in insurance cover",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "16e20e2a-51f0-4894-8c96-83b7cd7467d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i request insurance cover be cancelled or reduced",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "874070d9-6a96-40f3-a3ad-4e767936ff87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i stop sci if i wanted to",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "878105eb-7992-45da-a20c-5648015ce18e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i up my insurance premiums",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b2314098-a403-4524-a71e-f845ff1bc813",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to cancel insurance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a5e5fd13-c4d7-4ef9-9f6a-66f86629efd4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to cancel my salary continuance insuranc",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bb8fcab8-87dd-45be-a485-d8a6f6ae57b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to get insurance quote",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "546e287c-6261-49f5-90da-2dbf074d6113",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to get salary continuance insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3e734f0b-345a-4e28-9241-7708c8e23bd5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to increase cover",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5e20f250-4655-4c28-b66c-91831c2cdc1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to increase insurance",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b2ad2940-201e-48b2-a6a4-8504b559daac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to increase insurance cover",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e9ba0124-49b6-4ac5-bdb1-83c62c168d04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i 'd like to cancel my insurance policies",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fc613d0a-6448-48ef-81fe-d6398d014d6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i 'd like to talk to someone about my insurance policy",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "afc503e0-1aaf-425a-9d2f-cc79b302a736",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking to make changes to my income protection policy cl111111 who do i need to contact and how do i do this",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3de00a3e-a89e-4184-8f70-913806210479",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to access bt insurance renewal documents",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2f12a640-0574-4a51-ac31-0547a9e8f868",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to local my life insurance policies with bt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f44a4680-af0a-4cc6-a2f4-e17b4c0beaa4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not have any email contact regarding this life insurance - only traditional mail",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "32ee9ee5-80b2-4e20-8343-2f5657ac2570",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need help finding out the status of change to the clients insurance inside her suepr",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "be3baf5d-1483-454c-9283-e173e14ae531",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need information about life insurance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "492624e9-7c63-4208-8d79-67a0722768a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the detail and it says go to the insurance provider",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "33884752-2378-461c-97f6-e8f8e491712e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to cancell insurance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8d0b83e6-5bb2-48bd-a415-484a9256c727",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to get my compliance letter and i would like to change my income protection amount",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1effadef-1106-4ae4-9538-6ede53c1ab67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to increase my insurance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "93334eed-8496-40a7-81d8-f5b1cf87a4d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to update payment method for an insurance policy",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1c587052-1cb0-4503-bc49-19aaf64b4bdd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i rang a week ago to change our life insurance and nothing has happened yet can i talk to someone please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "779cf60c-5159-451a-88cc-d2b76d38d00e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i received a letter advising my life insurance premium is increasing by 11 percent which i feel is excessive",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bd109baf-290e-4cda-b6b3-56174ec61a2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to reduce my life insurance premium",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a5981ae0-cdfd-4e4c-afbf-23047eb45f7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to be contacted about insurance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a2278914-7f85-4d53-a24b-7d9dfa6fe3cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to reduce my life multi cover _ income protection",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "57ea9508-2628-458d-84fc-429dce4ec774",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im getting charged 1 insurance premiums",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a6f1bcf7-998a-46f3-96fb-ada808732538",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "income projection",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c6406ce4-1d6e-49fa-84b4-58f0fab8c0e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "increase TPD",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "522b2f08-63ac-4472-8d8b-265309ee3a16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "increase death cover amount",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ae4bea2a-bbbe-4bf6-a86d-0f8ce394554f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "increase insurance amount",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c5150ed4-7857-4ac3-8b1e-a8d56b123fe0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance cancel",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5935d615-3f26-4d67-96ca-2273804b0247",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance cancellation",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ba8ec095-fafe-476b-8c6a-81aa2ebe3c77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance clients",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7c04fdc6-76c3-4fa1-a4e0-ed5ea826e5ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance documentation",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e79fc810-feca-4ba4-a518-a17becd47804",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance inactive",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "24de7e8c-b716-4d61-94c2-cf8e7633dffe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance increase income protection",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "17e1341d-1947-4135-9e6b-b603f4a164f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance opt",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b6067318-1851-43bf-8326-50ffaba3a79b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance premium enquiry",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fbd6c5fe-bbd5-4979-91c6-e6e51e9bcee9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance premium rollover",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6e7df229-a37c-4f5d-ae75-bde302e2ffe4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance premiums increased",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7b14c53b-54f5-4a80-a9a2-86d86f4b1884",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance product - change of direct debit details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cb147dd6-76b7-4cd2-827c-884f049e0699",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance reduction form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "29171486-30fb-4e9a-886f-2bd623e6f9fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance takeover terms",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ba3ce1bb-1035-4208-98aa-af46c81b1f7a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurane",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1ae0d0df-fbcd-4580-945f-ee8c97952f69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there any deal to get health insurance with bt as well",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "55368ecc-05ee-4b87-983f-b928dc82ec5d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "just received a text stating my insurance may be cancelled as my account has been inactive",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3396f4ac-c59a-4832-8e36-279670fddf5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "life insurance policy",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "2d76420b-d1bf-4e49-a21b-a19646c855ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "log in for insurance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8c143a67-65a9-471f-86b5-b9903a0b7f83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need insurance",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cb28491f-be42-4c92-a45c-7a887df31352",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to speak with someone about continuation of insurances if move super fund organisation or stay with bt but move to different type of super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "16b4cb3f-03a9-4575-8648-bb9cf91d6a85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i want to cancel life insurance and income continuation insurance",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e1aa205b-e9b5-4615-a4c9-29c1cac44d61",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "opt out form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "32869510-6f9f-4d83-8298-370cf43330b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "provide information around correspondence for cancelling Bob life insurance",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "182c9e6c-b324-43c4-8ba0-f9128e01fe58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "re my insurance policy y1111111 can i please get alternate quotes for a death benefit sum of 111111 $ and 111111 $ thanks",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "95543347-f84a-404d-a761-6419a3d37cf7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reduce ilfe insurance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2e4d0a71-5b81-4155-aaa5-73ecf3c1bb5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reinstating my insurance",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e5ee01e1-00b7-42dd-a663-98e59712387d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "take over terms insuranc",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "acb203a4-eed8-487f-b72d-74becc5e2916",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "talk to someone about an insurance quote",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c6491ee1-b459-4c21-91f0-ade6a5708d5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the address on my insurance policies is incorrect",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bb64b176-e498-4bd3-873c-fa1854a0ccb7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tpdinsurance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "72abcc24-b4a9-45c0-9cc5-8fa539b1bd7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer insurance policy",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "07cde6ed-83f4-45a8-981f-770e6ac122ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer of income protection",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "aeb45819-4581-4fa8-9a20-e81846fe81d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update on insurance policy",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "25416cee-78e2-41ac-b25b-a678233384c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload insurance opt in form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1ff67592-ca40-430c-bbdf-dbabdc47657b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the address on my insurance policies is incorrect",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8549ad8d-0057-488d-93ac-70f99e25b8b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tpdinsurance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4a495ba3-61da-4aee-afbd-e9a7acd49f6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer insurance policy",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3a2274c8-1292-4c70-918e-54210a115545",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer of income protection",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bf9b768e-39d2-43bc-b8de-7ab393ca3858",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update on insurance policy",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b9f92ec2-bc6e-40d0-a9b2-0e06c3da9b8e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload insurance opt in form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5db0c8f6-73c0-48c2-bc8e-150bb0a3f34a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my multi cover",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cbbe9011-f330-43d6-a5d9-b1e74da185d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the direct phone number for bt life insurance and how do i get my pds from 1111 when i took out my life",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2ac8efa6-86de-42f6-ac68-6236882ab1b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the action option to cancel my insurance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7b0841aa-6e90-4932-8cff-795498f33b48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has premiums increased",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  } ]
+} ]

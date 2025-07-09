@@ -1,149 +1,185 @@
 {
-  "name" : "bt_staff_access_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Only dealer group or practice manager roles on Panorama can set up staff access or update staff details online."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Only dealer group or practice manager roles on Panorama can set up staff access or update staff details online."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To set up staff access for a new user: \n1.\tGo to 'Business\u2019 then 'Users & business entities\u2019. \n2.\tOn the 'Manage users' page, select 'Register user\u2019."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To update details for an existing user:\n1.\tGo to 'Business\u2019 then 'Users & business entities\u2019. \n2.\tOn the 'Manage users' page, locate the user\u2019s name, then go to the \u2018Actions\u2019 column to select 'Update user'."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "For detailed instructions, visit \u2018Help & support\u2019. If you need assistance, contact your dealer group manager."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/business-admin/admin-users-permissions/user-permission.html",
+          "label": "Help & support "
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To set up staff access for a new user: \n1.\tGo to 'Business’ then 'Users & business entities’. \n2.\tOn the 'Manage users' page, select 'Register user’."
-      }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To update details for an existing user:\n1.\tGo to 'Business’ then 'Users & business entities’. \n2.\tOn the 'Manage users' page, locate the user’s name, then go to the ‘Actions’ column to select 'Update user'."
-      }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "For detailed instructions, visit ‘Help & support’. If you need assistance, contact your dealer group manager."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/business-admin/admin-users-permissions/user-permission.html",
-        "label" : "Help & support "
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Only roles with dealer group or practice manager access can register new users online.\n\nTo set up a new staff access, the dealer group or practice manager will need to:\n1. Select 'Business’ then 'Users & business entities’.\n2. In the 'Manage users’ section, select 'Register user’."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If you do not have the required access, contact your dealer group manager for assistance with registering users."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To add and/or amend an accountant you will need to:\n1. Select 'Tracking' then 'Service requests'.\n2. Navigate to 'Submit new request'.\n3. Find the relevant form under  'SMSF management'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/business-admin/admin-users-permissions/user-permission.html",
-          "label" : "Help & support "
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Only roles with dealer group or practice manager access can register new users online.\n\nTo set up a new staff access, the dealer group or practice manager will need to:\n1. Select 'Business\u2019 then 'Users & business entities\u2019.\n2. In the 'Manage users\u2019 section, select 'Register user\u2019."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If you do not have the required access, contact your dealer group manager for assistance with registering users."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To add and/or amend an accountant you will need to:\n1. Select 'Tracking' then 'Service requests'.\n2. Navigate to 'Submit new request'.\n3. Find the relevant form under  'SMSF management'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/business-admin/admin-users-permissions/user-permission.html",
+              "label": "Help & support "
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_investor",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_assistant",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Only roles with dealer group or practice manager access can register new users online.\n\nTo set up a new staff access, the dealer group or practice manager will need to:\n1. Select 'Business\u2019 then 'Users & business entities\u2019.\n2. In the 'Manage users\u2019 section, select 'Register user\u2019."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If you do not have the required access, contact your dealer group manager for assistance with registering users."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/business-admin/admin-users-permissions/user-permission.html",
+              "label": "Help & support "
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_dg_manager",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If you have 'Update access' set up for your role you can register, update, block, and terminate staff access online.\nNavigate to 'Business\u2019 then \u2018Users & business entities' to access the portal. \nFor more information, select 'Help & support' or 'Play tutorial video'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/business-admin/admin-users-permissions/user-permission.html",
+              "label": "Help & support "
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.youtube.com/watch?v=RFjMfSlUSHc",
+              "label": "Play tutorial video "
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To add and/or amend an accountant you will need to:\n1. Select 'Forms & requests'.\n2. Navigate to 'Submit new request'.\n3. Find the relevant form under  'SMSF management'."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To add and/or amend an accountant you will need to:\n1. Select 'Forms & requests'.\n2. Navigate to 'Submit new request'.\n3. Find the relevant form under  'SMSF management'."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_investor",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_assistant",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Only roles with dealer group or practice manager access can register new users online.\n\nTo set up a new staff access, the dealer group or practice manager will need to:\n1. Select 'Business’ then 'Users & business entities’.\n2. In the 'Manage users’ section, select 'Register user’."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If you do not have the required access, contact your dealer group manager for assistance with registering users."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/business-admin/admin-users-permissions/user-permission.html",
-          "label" : "Help & support "
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_dg_manager",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If you have 'Update access' set up for your role you can register, update, block, and terminate staff access online.\nNavigate to 'Business’ then ‘Users & business entities' to access the portal. \nFor more information, select 'Help & support' or 'Play tutorial video'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/business-admin/admin-users-permissions/user-permission.html",
-          "label" : "Help & support "
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.youtube.com/watch?v=RFjMfSlUSHc",
-          "label" : "Play tutorial video "
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To add and/or amend an accountant you will need to:\n1. Select 'Forms & requests'.\n2. Navigate to 'Submit new request'.\n3. Find the relevant form under  'SMSF management'."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To add and/or amend an accountant you will need to:\n1. Select 'Forms & requests'.\n2. Navigate to 'Submit new request'.\n3. Find the relevant form under  'SMSF management'."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_staff_access_response"
 }

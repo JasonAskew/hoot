@@ -1,37 +1,49 @@
 {
-  "name" : "bt_account_advised_pension",
-  "active" : true,
-  "criteria" : [ {
-    "platform_type" : "web",
-    "customer_data" : [ {
-      "name" : "product",
-      "value" : "BTPanoramaSuper"
-    }, {
-      "name" : "userType",
-      "value" : "Advised"
-    }, {
-      "name" : "accountType",
-      "value" : "super"
-    }, {
-      "name" : "accountSubType",
-      "value" : "pension"
-    } ]
-  }, {
-    "platform_type" : "web",
-    "customer_data" : [ {
-      "name" : "product",
-      "value" : "BTPanoramaSuperCompact"
-    }, {
-      "name" : "userType",
-      "value" : "Advised"
-    }, {
-      "name" : "accountType",
-      "value" : "super"
-    }, {
-      "name" : "accountSubType",
-      "value" : "pension"
-    } ]
-  } ],
-  "description" : "bt_account_advised_Pension",
-  "enabled_actions" : [ "bt_request_for_withdrawal", "bt_request_for_withdrawal_investor" ]
+  "criteria": [
+    {
+      "platform_type": "web",
+      "customer_data": [
+        {
+          "name": "product",
+          "value": "BTPanoramaSuper"
+        },
+        {
+          "name": "userType",
+          "value": "Advised"
+        },
+        {
+          "name": "accountType",
+          "value": "super"
+        },
+        {
+          "name": "accountSubType",
+          "value": "pension"
+        }
+      ]
+    },
+    {
+      "platform_type": "web",
+      "customer_data": [
+        {
+          "name": "product",
+          "value": "BTPanoramaSuperCompact"
+        },
+        {
+          "name": "userType",
+          "value": "Advised"
+        },
+        {
+          "name": "accountType",
+          "value": "super"
+        },
+        {
+          "name": "accountSubType",
+          "value": "pension"
+        }
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "bt_account_advised_pension",
+  "description": "bt_account_advised_Pension"
 }

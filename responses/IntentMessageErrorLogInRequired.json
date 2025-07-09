@@ -1,0 +1,16 @@
+{
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I'm sorry but I can only answer this request if you're logged in."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "IntentMessageErrorLogInRequired"
+}

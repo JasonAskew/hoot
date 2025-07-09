@@ -1,0 +1,825 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_bsb_transfer_details_train",
+  "intent_name" : "bt_bsb_transfer_details",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "3082d089-8c9d-4998-be2a-993c901bc045",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "BSB",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ed71b81b-9fa1-4949-b70b-4123724d7b08",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "BSB ?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "36a8430f-72cb-48dd-a391-b82c3fce496c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Bsb",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3382530f-d667-4dec-8b2b-722b3b7f6687",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you give me the EFT details so I can make a bank transfer?"
+  }, {
+    "id" : "ae3827bc-48e9-4564-a405-d926cccb5a47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you give me the details for my deposit facility?"
+  }, {
+    "id" : "592613d4-c221-44e6-aee8-7e787597a600",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Deposit facility details from electronic deposit"
+  }, {
+    "id" : "c19c9f27-8028-494e-9ef2-7b82ae314fc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "EFT details bsb"
+  }, {
+    "id" : "c0f66d13-1469-4b4a-a127-38d18ab6aef2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give me the EFT details"
+  }, {
+    "id" : "2a4c9ee1-fa54-4e29-b0c2-f4b6a8a9c991",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I do a bank transfer into my account?"
+  }, {
+    "id" : "2bceff76-f1e8-4572-b950-0f24bce0b15a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I locate the account and BSB for deposit?"
+  }, {
+    "id" : "d50e8864-b190-4c11-9fc6-4e271d39e9a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make EFT?"
+  }, {
+    "id" : "862e0736-0481-4cf4-b113-cfffb29a1975",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a transfer electronically?"
+  }, {
+    "id" : "454e4bf4-123d-4943-be80-9aa9c517b185",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a transfer to my account?"
+  }, {
+    "id" : "2a44f98d-c7ca-4a47-a5ba-3cb28c315bd4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer funds?"
+  }, {
+    "id" : "3bf874a6-d1b6-4449-8c8f-318a98709309",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much info do I need to set up a payee or tranfer recipient?"
+  }, {
+    "id" : "93301da0-23ab-4eed-86e0-227555e8bd7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "BSB",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "4128340d-3608-4866-9c5d-402cc13622b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "BSB ?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "28ebe8cf-85f7-4a85-bd0e-baafb70d94b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Bsb",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b1b797ba-289d-4800-98da-7c05a2b67195",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you give me the EFT details so I can make a bank transfer?"
+  }, {
+    "id" : "cf26cece-29c3-4960-a78a-e8ea68445123",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you give me the details for my deposit facility?"
+  }, {
+    "id" : "837550ec-e819-40d4-8efa-742a08b7bd7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Deposit facility details from electronic deposit"
+  }, {
+    "id" : "704f0570-2608-41a2-98ce-8134ec91e1e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "EFT details bsb"
+  }, {
+    "id" : "82593db9-8133-4ddf-a77f-fec327f10de0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give me the EFT details"
+  }, {
+    "id" : "a05d1b7b-fa30-4f0e-b972-c6cf954fb84c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I do a bank transfer into my account?"
+  }, {
+    "id" : "8ee4f68f-03f6-4bef-8b5c-39c0990ae82a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I locate the account and BSB for deposit?"
+  }, {
+    "id" : "eb8e18e1-8dd3-4c6b-963b-bf7ea2f6e5a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make EFT?"
+  }, {
+    "id" : "a7f21b6b-0cf1-494e-8ae8-ee9a547cbf6e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a transfer electronically?"
+  }, {
+    "id" : "173aee07-73fa-447a-9ffa-0063e458238c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a transfer to my account?"
+  }, {
+    "id" : "1d87eb6b-faac-4219-8733-dd5dd53d4589",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I transfer funds?"
+  }, {
+    "id" : "67d725d8-db2b-401c-b0de-2f653243d7a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much info do I need to set up a payee or tranfer recipient?"
+  }, {
+    "id" : "38e2db2c-2d3b-4f90-ae51-b4db8f22bd5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need details on how to transfer to another account."
+  }, {
+    "id" : "a1653c45-4acd-421a-9644-389874a61892",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need the bank and account numbers necessary to initiate a EFT"
+  }, {
+    "id" : "c4511704-f43a-4a64-b3c3-23427becddbd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know the details on how to make an electronic funds transfer."
+  }, {
+    "id" : "a393ec4e-a3ae-486a-b683-11288a260c9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me my EFT details"
+  }, {
+    "id" : "4ff10cbf-562a-4fa9-9d5a-b68571219863",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me the BSB + account details"
+  }, {
+    "id" : "322dc6c0-9880-43de-b4cf-5afaf6aa9500",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me the EFT details."
+  }, {
+    "id" : "b444423a-7a76-407f-a604-d5baa4ee2644",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The BSM and account details for my transaction are where?"
+  }, {
+    "id" : "268ee4df-0e85-43d7-8bd8-5a7486101906",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "WHat details are needed to get this account ready for deposit?"
+  }, {
+    "id" : "79448186-83ca-45db-95ab-fd76341002fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What account details are needed for an EFT",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "f2723cdf-1033-4aca-a35e-9235a1cca13e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are my BSB account details"
+  }, {
+    "id" : "5cb4ec71-6e3f-46af-9565-e10e59367725",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the BSB & account details location ?"
+  }, {
+    "id" : "120d63c9-9b32-4f24-a2ba-61e30c5703ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the BSB details"
+  }, {
+    "id" : "cb99356e-85d0-4099-a351-462e7860c28c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the details for my deposit facility?"
+  }, {
+    "id" : "318c5f79-9529-4697-a550-6acdc3580458",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What details do I need for a transfer?"
+  }, {
+    "id" : "59a2de86-bdab-419b-9bc5-95476c176e3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What details should I know about in order to initiate a cash transfer over to my account?"
+  }, {
+    "id" : "3db9c303-dac7-44ae-b9c9-0373f7d2e78d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What info do I need to add this account as a payee in my online banking?"
+  }, {
+    "id" : "ccf154da-a2a6-4a83-ac9a-26c862f97fac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the BSB number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "ee458b5d-be5b-4026-bbf7-be4eab9050d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where are my deposit details ?"
+  }, {
+    "id" : "94600c80-1027-4503-96ee-e8473b602285",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find EFT details?"
+  }, {
+    "id" : "ae74cb9d-3adf-44b2-a7a9-b868385072ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find the details associated with this account for a funds transfer?"
+  }, {
+    "id" : "03fd23a4-773e-4912-b611-2ed08b4acd68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find the details to bank transfers?"
+  }, {
+    "id" : "b813c0c0-932a-4497-8efe-1479e1df43a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I get details on a funds transfer"
+  }, {
+    "id" : "01fe9c1d-2fc8-41d5-b8e4-e14ee6fd845b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see EFT details?"
+  }, {
+    "id" : "80890c5b-61b7-4a0d-980a-745a7dbf2b03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see details of a EFT?"
+  }, {
+    "id" : "f53f8479-f9ed-4d40-910c-8bd6aa10224c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is the BSB code",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "3a74d446-0481-4a09-9f17-49bf918cdc01",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is the BSB code and account info",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "06dbb7b9-b492-4f15-b8ea-e502a94abf78",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is the BSB number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "9c729505-83ea-4e9b-9006-481f173e787f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is the BSB number and account deets",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "0e4eeb38-3364-4b01-9bd1-d75a0255dd78",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is the BSB number and account number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "f611d7de-dd78-426a-b4c0-6fe763c63071",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is the BSB number and my account informations",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "50baca38-cd53-4487-b2ea-06c93b012cde",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is the my BSB number and account detail's",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "a4f64c07-fe7a-4079-b235-67e18e63cec7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account details share",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "df668f99-3e2c-499b-a200-f51d027370f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account number for eft payment",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d30fbaea-189e-4c1a-8b03-b055bb59c249",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "also can you please confirm that bank details for their bt cma is bsb 111 - 111 account number 111111111",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "cf20410d-4059-413c-8395-c3bac721a11a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account details",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "7215c620-d0c0-4336-a0f8-ad79fb020bc7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ba70fc00-b4f6-4e5b-835e-eda6a2af35e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb and account number",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a2d575c1-0bdc-4109-aad0-5d7505d1042e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb and bank accound details",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b166e157-842a-430b-8f16-0e1f64ccf30f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb details for contribution",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "194c2b98-75f4-4045-ad4a-5266e9230e8e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb number",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "7a5ab563-8228-40df-8c83-983e83eb3700",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb number for super account deposit",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0fcc6888-4675-40e6-ab63-2b74dc564d17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account details",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "47975f47-726e-44dc-943e-ebb7e5064533",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cb13b0b3-b988-4b51-b358-23929da8c08d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb and account number",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7ed5ba0c-781b-488b-8e73-1c903d552d30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb and bank accound details",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "59c17044-2e5b-49d6-ab3f-36e8002415fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb details for contribution",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2dc1552a-df8b-438c-8189-fabe96a96b74",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb number",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "19251667-e49e-4950-ad00-fb7d032a2ace",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb number for super account deposit",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9d738bab-fe65-4deb-b42a-2289caabc45a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account details",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "88d8986d-3700-4b46-982c-687214e71900",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "35b3c1d2-335a-4ebc-b90a-542d44e5b0a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb and account number",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f73816e9-ec01-4993-bf7b-5e9d42311acd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb and bank accound details",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e3d210e7-1bbd-40b6-b708-425b63237a22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb details for contribution",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "02b1d42c-02ac-4eb1-9e35-0ca50557779b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb number",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "c64475ef-f86e-4c6e-9913-658e098e6d7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb number for super account deposit",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1d0096c7-b89d-471b-8f80-620778495208",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "correct bsb number on linked account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "24eab8c3-4e74-4c39-acac-c5a68618ccfb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "eft branch for payments",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6ea95b0d-21b2-4c78-8a26-41c95aaa5126",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "for employer eft contribution where do i find my bsb and account number",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9967e986-29d9-49df-98f8-8a38a83fcc72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello how do i change my bsb and account number",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7c54f2e8-47c8-43e2-aacf-9b99a0f4b9a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help find my bank and account bsb information",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "d518da03-d53d-40f3-8772-ae491b730e92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - can you please send me the reference details needed for clients to make a deposit into a superannuation account"
+  }, {
+    "id" : "36b40815-94ed-4338-b9ad-a96328ae7a96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you please tell me the bsb for investment accounts",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f3c822ee-c1ea-4e61-8dc4-508248b0bffb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i just need to confirm my account details",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3243a512-27af-4e3f-97ce-559a386daa5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i check my fund details for payment",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "67e427d2-20c4-41cf-a661-ef0be924ca9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i access funds",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b9457ec8-b453-44a9-89d2-67f5396d8805",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i complete a death benefit nomination"
+  }, {
+    "id" : "9bfc267e-c22a-4a39-bfa8-a01b2d078054",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find fund bsb and account number",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b393c15d-0bca-4783-9774-f335c95f74e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find my bsb",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "a1743865-416c-478b-86e1-e1668c03c541",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i update my direct debit details",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "27248dfb-c6aa-4f80-8cae-37643ded236a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to find aacount bsb",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "50b8299e-5f70-45f3-a648-b45fe6f68f62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am after the bsb and account number of my transaction account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "dbeef506-e6ce-4522-a3a6-17a21cf2b9be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the bsb for this account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "60a31e9b-ef02-4895-907a-1b6450030f08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to know my fund details account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "64e8d8da-d4eb-4a77-b0ac-5c9a04f903e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to send clients panorama bank details to share registry",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6bf14e9f-a76c-4853-aaa0-fe91bbd4a836",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to transfer money into my account and need a bsb number i am unable to find it",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "41dbb95e-f12d-4899-b59d-c43d52ccef0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like funds to go into self managed fund what is the bsb and the account number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "096f99bb-3bb4-4d13-86ea-c60406363ff3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "information for eft",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "25dbc10b-0868-4b3b-aba8-689c57dc87a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need bsb and account number for employer to transfer into my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "0934d4a8-7c63-4117-bb79-447a1e21cd80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "need to find bsb code and account number",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "b6a42d43-8a27-4caa-b80e-bb51a90799e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please what is the accounts bsb number",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "43407b7b-2956-48ff-a4e4-658e46a17e76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "report showing bsb for super account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "fd4ea1d6-de09-4d7b-badc-9a8e75048caa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover bsb",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f0615245-b027-4eb9-979d-8b6e16529db9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "smsf details",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "815fee48-5c51-4167-bef7-fa9612d71782",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "some of my personal details are incorrect how do i edit them",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "f936618c-3540-47da-9e98-860fc3275dc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's my bsb and account number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d93f6946-c694-4e6a-96c5-4facc40c2604",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what account information is needed for funds transfers",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "ec8ae727-2201-4f16-9e7f-6838a86186b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the details for deposit facilities",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "d7a37d70-edf2-4ac2-84cb-bb2f6a769c39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's my bsb and account number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b464798d-c456-4483-9bbd-057baa3d834d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what account information is needed for funds transfers",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "e23d716b-4b0d-4f0d-bd1a-903dc83432fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the details for deposit facilities",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "efbfd2d1-1d14-4e6b-8593-48b8b62c50f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what info do I need to to move money to an account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "7fe78398-8b76-4d92-8dc6-2e532af0d12d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what info is required for transferring money into an account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "3b3ea084-1beb-4de4-a1ef-462f5f4257aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what information do I need to make an electronic transfer?"
+  }, {
+    "id" : "b3845b2f-69fc-431c-b82b-861b6d41e6fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what information is required to make a fund transfer",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "2c210ebc-ced3-4f9f-b016-74dabc9bc9ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what information is required to make en electronic transfer",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "a609147d-2759-4a65-b9c4-3d115c2e9ab6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt panorama bsb",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "badc2062-8d6e-46f4-be5c-f3660381beec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my bsb and account number",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "4343d5c9-e8a9-4f1b-b616-2b240611a13c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the bsb",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "46b2def7-58bc-4ab4-8be5-12cbeb389e75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the bsb and account number",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "e365690a-60d8-4839-8e0d-3ec189f4d8d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the bsb bank number for depositing into my account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "17a8e133-abbb-4f45-9153-c42da76cc647",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the bsb code",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "4e78b8a5-478a-4701-ac1a-880ad162ce97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the bsb no of my fund",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "46072994-6098-4103-8ba9-bc2628914491",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is your bsb",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ce30370a-a6f2-4c38-b969-528fe733d13b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can I find my bsb and account detailed information",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "2eb36d48-25da-44c0-9e4f-c389e2522825",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I find my bsb number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "e556526b-88fd-45c0-af04-86568f5ad5da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do i find my account details",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "167c34b8-75a9-40db-a928-77fb5345abf0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where is my account data abd BSB",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "5eddbd13-b56f-4924-a1be-81dcfdd184d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where is my account details",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "e6e9dfea-2962-4557-a959-2b1ee8596c86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where is my account details and BSB",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "df70c0ee-308f-493b-8237-78e4370fac53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where is my bsb's number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "2ab26081-792a-491e-8fbb-8850f683126f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where to find BSB and my account info",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "61ac918b-cb69-456f-b511-ec121a79ab12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where to find my account info and BSB",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "5edb5e71-d227-4648-aa8f-af53a75600d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where to find the account BSB",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "da82b832-0e1b-472c-b639-bc3cd7b58466",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "your abnbsb and account number",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  } ]
+} ]

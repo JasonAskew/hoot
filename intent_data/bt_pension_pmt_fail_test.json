@@ -1,0 +1,142 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_pension_pmt_fail_test",
+  "intent_name" : "bt_pension_pmt_fail",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "eec59695-b14f-4703-8d18-94109ae7eaf8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why the nominated pension payment didn't go out",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "def77f49-d3de-4e3d-861e-7cb4d95dca5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi There. My employer just tried to put money into my Super account and it was rejected. he's asking me to verify my details before he tries again but I can't seem to find where I have them.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "c0f1c620-ba58-4341-9e8b-e8419440b2aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why the nominated pension payment didn't go out",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "28c3b3a7-1fab-4a0e-995a-cc019553342d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi There. My employer just tried to put money into my Super account and it was rejected. he's asking me to verify my details before he tries again but I can't seem to find where I have them.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "5a0c96ff-ce55-49fd-90c8-709f50f7b062",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I nominated the pension payment to go out today but it is still pending.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1de8095e-0a66-4b6a-9526-3f0bb392cde5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I still haven't received my pension payment despite the nomination made.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "61c2c59c-268e-4acb-bd50-964b3769d78f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a reason the pension payment I nominated to go out is still pending",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0b944279-7c41-48dd-8b67-d8f472942eca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My pension payment was nominated today but it is still in the account.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c123448c-adf4-454e-a15e-4648144833f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The pension payment I nominated to go out today still has not been processed",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d75813af-5cad-4240-847b-92c9172359a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my pension payment nominated to be processed still pending",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9eadb416-dd77-4270-902e-0d4559ec2dd3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my pension payment not left the account when it was nominated to be out today.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "80f7df5b-d964-444f-9f54-c7d9988b6594",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why isn't my nominated pension payment process yet?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b5f14376-9966-4caf-8195-c95a37513750",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you know why my scheduled investment failed please",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "b2f80601-c036-4fa2-a698-6ce508ec4335",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "failed pension payments",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ab983119-01e9-4051-848f-2afae0567bdd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "failed transactions",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "e5acdacd-6c5f-4541-b765-a973c4212ea1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "for one of our client the pension payment has not be made why so",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f5cffa04-0207-4222-97a6-00f772110a0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have not received oct pension payment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "caadbc76-3efd-4534-8915-2adcba8d6be0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have recently been informed your super payment for this month was rejected",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cb79888c-8540-4e24-9db2-3311e2f03319",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "missed pension pament",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d97123f9-c263-4c33-b9a2-cf8823d94696",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "outstanding payment request",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2a22dfda-471f-412a-a659-a348d9eba3e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension payment due today has not been received",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c1d20650-beb8-4caa-acad-effe34009958",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why didn't the nominated pension payment go out today",
+    "tags" : [ "goldset", "test_gold" ]
+  } ]
+} ]

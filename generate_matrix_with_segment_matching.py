@@ -9,6 +9,7 @@ import csv
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
 import logging
+from segment_intent_validator import SegmentIntentValidator
 
 logging.basicConfig(level=logging.INFO, format='%(message)s')
 logger = logging.getLogger(__name__)
@@ -22,6 +23,7 @@ class SegmentMatchingMatrixGenerator:
         self.responses = {}
         self.profiles = {}  # Store profile metadata
         self.segment_rules = {}  # Store segment matching rules
+        self.validator = SegmentIntentValidator(base_path)  # Initialize the validator
         
     def load_all_data(self):
         """Load all data from files including profiles"""
@@ -133,21 +135,39 @@ class SegmentMatchingMatrixGenerator:
         """Get the response name for an intent"""
         intent = self.intents.get(intent_name, {})
         
-        # Check webhook_params first
+        # Check if this is a ClarificationIntent
+        webhook_name = intent.get('webhook_name', '')
+        if webhook_name == 'ClarificationIntent':
+            # For ClarificationIntents, the first response should be the clarification response
+            webhook_params = intent.get('webhook_params', {})
+            messages = webhook_params.get('messages', [])
+            if messages and 'clarify_response_name' in messages[0]:
+                return messages[0]['clarify_response_name']
+        
+        # Check webhook_params for regular intents
         webhook_params = intent.get('webhook_params', {})
         if 'response_name' in webhook_params:
             return webhook_params['response_name']
+        elif 'default_response_name' in webhook_params:
+            return webhook_params['default_response_name']
         
         # Check responses array
         responses = intent.get('responses', [])
         if responses:
             return responses[0]
         
-        # Try common pattern
+        # Try common patterns
         if f"{intent_name}_response" in self.responses:
             return f"{intent_name}_response"
+        elif intent_name in self.responses:
+            return intent_name
         
         return None
+    
+    def is_clarification_intent(self, intent_name: str) -> bool:
+        """Check if an intent is a ClarificationIntent"""
+        intent = self.intents.get(intent_name, {})
+        return intent.get('webhook_name', '') == 'ClarificationIntent'
     
     def resolve_response_for_profile(self, response_name: str, test_profile_name: str) -> Tuple[Dict, str]:
         """
@@ -183,15 +203,40 @@ class SegmentMatchingMatrixGenerator:
     def get_example_trigger(self, intent_name: str) -> Optional[str]:
         """Get an example trigger for an intent from intent_data files.
         Returns None if no valid intent_data file exists."""
-        # Try to load from intent_data file
-        intent_data_file = self.base_path / 'intent_data' / f'intent_data_{intent_name}.json'
+        # Try different naming patterns for intent_data files
+        intent_name_lower = intent_name.lower()
+        possible_files = [
+            self.base_path / 'intent_data' / f'{intent_name_lower}_train.json',
+            self.base_path / 'intent_data' / f'{intent_name_lower}_test.json',
+            self.base_path / 'intent_data' / f'{intent_name_lower}_seed.json',
+            self.base_path / 'intent_data' / f'intent_data_{intent_name}.json'
+        ]
         
-        if intent_data_file.exists():
+        intent_data_file = None
+        for possible_file in possible_files:
+            if possible_file.exists():
+                intent_data_file = possible_file
+                break
+        
+        if intent_data_file and intent_data_file.exists():
             try:
                 with open(intent_data_file, 'r') as f:
-                    data = json.load(f)
+                    file_data = json.load(f)
                 
-                # The file contains an array of trigger objects
+                # Handle different file formats
+                if isinstance(file_data, list) and len(file_data) > 0 and 'data' in file_data[0]:
+                    # New format: [{data: [...]}]
+                    data = file_data[0].get('data', [])
+                elif isinstance(file_data, dict) and 'data' in file_data:
+                    # Dict format: {data: [...]}
+                    data = file_data.get('data', [])
+                elif isinstance(file_data, list):
+                    # Direct array format
+                    data = file_data
+                else:
+                    data = []
+                
+                # The data contains an array of trigger objects
                 if isinstance(data, list) and len(data) > 0:
                     # Find the first active trigger
                     for item in data:
@@ -439,8 +484,10 @@ class SegmentMatchingMatrixGenerator:
             for intent_name in intent_names:
                 intent = self.intents[intent_name]
                 
-                # Check if intent is enabled for this segment
-                is_enabled = intent_name not in disabled_actions
+                # Use validator to check if intent is enabled (includes global segment check)
+                validation_result = self.validator.validate_test_case(intent_name, segment_name)
+                is_enabled = validation_result['valid']
+                is_globally_disabled = validation_result.get('reason') == 'intent_disabled_globally'
                 
                 # Check if intent is active
                 is_intent_active = intent.get('active', True)
@@ -466,7 +513,10 @@ class SegmentMatchingMatrixGenerator:
                             response_text = extracted["text"]
                             response_buttons = extracted["buttons"]
                 else:
-                    if not has_valid_intent_data:
+                    if is_globally_disabled:
+                        response_text = "Intent disabled globally"
+                        response_type = "Globally Disabled"
+                    elif not has_valid_intent_data:
                         response_text = "No intent data file"
                         response_type = "No Intent Data"
                         example_trigger = "N/A"
@@ -479,7 +529,7 @@ class SegmentMatchingMatrixGenerator:
                 
                 # Check if this is a valid test case
                 is_valid_test = (
-                    response_text not in ["N/A", "Intent disabled for this segment", "Intent is inactive", "No intent data file"] and
+                    response_text not in ["N/A", "Intent disabled for this segment", "Intent is inactive", "No intent data file", "Intent disabled globally"] and
                     segment.get('active', True) and
                     is_enabled and
                     is_intent_active and
@@ -523,17 +573,20 @@ class SegmentMatchingMatrixGenerator:
                 # Track invalid tests for standard format only
                 if not is_valid_test and format_type != "hoot":
                     invalid_reason = []
-                    if response_text == "N/A":
+                    if response_text == "Intent disabled globally":
+                        invalid_reason.append("Intent disabled globally - switched off system-wide")
+                    elif response_text == "N/A":
                         invalid_reason.append("No response defined")
-                    if response_text == "Intent disabled for this segment":
+                    elif response_text == "Intent disabled for this segment":
                         invalid_reason.append("Intent disabled")
-                    if response_text == "Intent is inactive":
+                    elif response_text == "Intent is inactive":
                         invalid_reason.append("Intent is inactive")
-                    if response_text == "No intent data file":
+                    elif response_text == "No intent data file":
                         invalid_reason.append("No intent data file")
+                    
                     if not segment.get('active', True):
                         invalid_reason.append("Segment inactive")
-                    if not is_enabled:
+                    if not is_enabled and not is_globally_disabled:
                         invalid_reason.append("Intent not enabled for segment")
                     if not is_intent_active:
                         invalid_reason.append("Intent marked as inactive")
@@ -627,8 +680,12 @@ class SegmentMatchingMatrixGenerator:
             print(f"Valid test cases: {valid_rows} ({valid_rows/total_combinations*100:.1f}%)")
             print(f"Invalid/excluded test cases: {invalid_count} ({invalid_count/total_combinations*100:.1f}%)")
             print(f"\nOf valid test cases:")
-            print(f"  Enabled combinations: {enabled_count} ({enabled_count/valid_rows*100:.1f}%)")
-            print(f"  Disabled combinations: {disabled_count} ({disabled_count/valid_rows*100:.1f}%)")
+            if valid_rows > 0:
+                print(f"  Enabled combinations: {enabled_count} ({enabled_count/valid_rows*100:.1f}%)")
+                print(f"  Disabled combinations: {disabled_count} ({disabled_count/valid_rows*100:.1f}%)")
+            else:
+                print(f"  Enabled combinations: {enabled_count} (N/A%)")
+                print(f"  Disabled combinations: {disabled_count} (N/A%)")
             
             # Count response types
             response_types = {}

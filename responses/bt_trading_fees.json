@@ -1,54 +1,70 @@
 {
-  "name" : "bt_trading_fees",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Trading fee for buying and selling shares and ETFs within your Panorama account generally range from 0.11% to 0.20% or $12.50 (whichever is greater) per trade. Please refer to the your relevant PDS for more information."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Trading fee for buying and selling shares and ETFs within your Panorama account generally range from 0.11% to 0.20% or $12.50 (whichever is greater) per trade. Please refer to the your relevant PDS for more information."
+        }
       }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For assistance with fees within your Challenger Annuity, please contact Challenger on 13 35 66."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_investor",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Trading fee for buying and selling shares and ETFs within your Panorama account generally range from 0.11% to 0.20% or $12.50 (whichever is greater) per trade. Please refer to the relevant PDS for more information."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Trading fee for buying and selling shares and ETFs within your clients Panorama account generally range from 0.11% to 0.20% or $12.50 (whichever is greater) per trade. Please refer to the relevant PDS for more information."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For assistance with fees within your Challenger Annuity, please contact Challenger on 13 35 66."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_investor",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Trading fee for buying and selling shares and ETFs within your Panorama account generally range from 0.11% to 0.20% or $12.50 (whichever is greater) per trade. Please refer to the relevant PDS for more information."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Trading fee for buying and selling shares and ETFs within your clients Panorama account generally range from 0.11% to 0.20% or $12.50 (whichever is greater) per trade. Please refer to the relevant PDS for more information."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_trading_fees"
 }

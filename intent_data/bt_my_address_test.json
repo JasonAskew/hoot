@@ -1,0 +1,76 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_my_address_test",
+  "intent_name" : "bt_my_address",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "d23239e2-79ab-40d3-a315-784b686896eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Address on file",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4614be75-4847-4c1a-98c1-596582baff8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Address on file",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "904fcfdc-a0b1-42da-bdd2-46826e194544",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to see my contact information",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "31be2eca-dab5-4a4c-8039-d1e52e576aa9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to see the address you have on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "01a5e9a5-e96b-4433-bf9b-3d1ef6b5ed97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What address do you have for my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "40551316-c8a1-4d4f-9536-8c08c25943b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find my contact information,",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4e0834ef-52cb-4f1f-9443-0f0ad126b1cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find my electronic service address",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "0f7781d3-e61a-4569-b043-d5f23f0d71ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have entered my details but it does not match your records",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a1cf83fe-1d7e-4012-bfb8-60559a23b7e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what address do you have on file",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2a1ceccc-3778-4b44-889c-bd6ce77f80e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what address do you have on file",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "ebeca774-13ec-4704-b54a-0284a98d831e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the address that you have on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  } ]
+} ]

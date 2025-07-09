@@ -1,0 +1,407 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_change_withdrawal_limit_seed",
+  "intent_name" : "bt_change_withdrawal_limit",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "e4c3c4ae-6e55-44f7-a462-0c764d32e7c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend my daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "d81c0de7-4a81-4c1c-a152-8c3796c67542",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend the daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "c74a6070-27b9-41b3-81d4-88dfac9858d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "fd71f6c2-975e-43b2-b219-5803d9391c42",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the withdrawal limit for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c942cf24-1df1-49ec-be02-e3b03461fa87",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the withdrawal limit?"
+  }, {
+    "id" : "87672fc2-7c4e-437d-be04-39c940c017c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I increase the daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "4e7e8220-22a0-493e-8d8d-367e91fc3834",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I reduce the withdrawal limit on this account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "318bac54-62f8-4c44-a180-b188d4cb8525",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client make a payment above the daily limit",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "753fdef0-2235-4ce4-bbec-e2f5af91e588",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change daily payment limit",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "20e3277d-4f59-4242-a31c-93c29b1bdf54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change daily withdrawal limit",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c5ea58a9-5fa3-46af-b700-90989291d724",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change limit for daily withdrawal",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "42105296-5ebd-4288-9140-ad81a86f8933",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change my daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "03d7ac03-6273-479b-91e1-2f716a7a961e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the client have to change the payment limit on their end or can I do it?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c8d019fa-c058-442e-8dfd-b069df8fd768",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I change my daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "7ecd99d8-df36-4c46-848c-a23910823fcf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I amend daily limit for this client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "7964c5c9-6d51-4c55-840e-d711ef868681",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I amend my daily limit?"
+  }, {
+    "id" : "ea664184-de31-4eeb-a6fa-d14a75b11cf9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my daily withdrawal limit?"
+  }, {
+    "id" : "10102e4f-aa3e-414d-af81-d73a65eeac1c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change the daily withdrawal limit for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "f64982e5-cb08-439f-a596-c8e16f93276d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I increase my daily payment limit?"
+  }, {
+    "id" : "1c3152f4-6a68-42ff-895d-f7ae6a25ac9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a payment greater than the daily limit?"
+  }, {
+    "id" : "2a5f2f0c-6f3b-41a9-83be-81c35d700bc4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do my client increase my client's daily payment limit?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e542c7ae-890f-48aa-b51a-345eb89f5e36",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do my client make a payment greater than the daily limit?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "3070062a-d2b8-4d9a-b875-cafc50d5c7a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do we amend the payment limit on this account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "560c1d8b-0288-4f1d-89da-ac51a8c4228c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend my daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "20045ae9-1095-412d-b4f1-397e6d67c5a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend the daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "31fd997f-d032-4869-9ae7-3356438c776d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "f86f2be3-7c7d-484f-94c0-bca941a0ec04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the withdrawal limit for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "d373d13a-c7b7-43a2-99b2-959bdb9c78ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change the withdrawal limit?"
+  }, {
+    "id" : "1c882bbb-343e-4659-8bed-aa470fc55dfe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I increase the daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "b811bceb-7d48-4057-a299-9a988f77a907",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I reduce the withdrawal limit on this account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a66c19d0-d209-4da4-8ae1-449ba3db9245",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client make a payment above the daily limit",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0e39cac6-fed0-4c74-82d2-ee52d762c51c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change daily payment limit",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ce51a7a1-dc99-416c-8ad7-a0b8e2620e23",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change daily withdrawal limit",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "d8a6dde8-edb7-4cf5-b3c3-d1a9f6667715",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change limit for daily withdrawal",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "1ac19fe1-1c5c-469d-8445-33aa649c9dc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change my daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "97a69dab-d6d5-4f06-8257-7b90b107f8ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does the client have to change the payment limit on their end or can I do it?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ce9fc1a6-f1c8-4171-b1ea-fed8f701fa82",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I change my daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "359377e8-169b-4b06-97b0-1ff630794ded",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I amend daily limit for this client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c5231192-e6b3-4a1f-8591-15caf44e0169",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I amend my daily limit?"
+  }, {
+    "id" : "fbeb0499-2405-491e-bacf-5b1ecd79ff23",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my daily withdrawal limit?"
+  }, {
+    "id" : "057a37a4-3f91-43c2-9aa7-fa4750b5e0b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change the daily withdrawal limit for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "20ee55a5-d1d6-4472-aa9b-34e699422536",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I increase my daily payment limit?"
+  }, {
+    "id" : "48b4ba16-5d82-45a4-a8b4-de09f1b9f7cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a payment greater than the daily limit?"
+  }, {
+    "id" : "f91b9c7b-e2b1-49fe-a517-f183a6e34ab2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do my client increase my client's daily payment limit?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "37c0a348-2a30-436f-870a-6215ab1d904d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do my client make a payment greater than the daily limit?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "1b3587ba-ed0e-4235-9b50-1f6383acc33c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do we amend the payment limit on this account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "244db02e-2abf-4400-b254-011adb319a51",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to change my daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ff66f4fa-d16e-481d-a2e4-1eb3bb3c4455",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to increase my daily withdrawal limit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "21616f8a-681a-4c95-955d-da7e97210c50",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to change my daily withdrawal limit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "542b05fd-fc48-4d50-aa62-d027403c110a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to increase my daily withdrawal limit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "3579ca9b-0bd1-486a-a668-f89c2c4d50cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to change my daily withdrawal limit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "cbd9e57c-a37d-4ace-8fe3-febe14e51e57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Increase daily payment limit",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b35c7ba5-2b9d-4f1e-9a12-15c9f162838a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible to change the daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "4d97243e-0083-447c-8828-0253fed9a5fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to change my daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "62faf2a8-20e8-4889-be36-405554a748fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to increase my client's pay anyone payment limit?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "1d7b3154-8090-4af5-9ef4-31150fdd165a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to increase my daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "2d128394-90be-4b84-8795-9fc61edcc5b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to increase my pay anyone payment limit?"
+  }, {
+    "id" : "4f74cd76-6855-4562-81d8-147051136c84",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me how to change my daily withdrawal limit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "053184a3-c7b0-4333-9b69-5cc2a33cc91c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me how to increase my daily withdrawal limit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5e6aa829-064b-42f1-9523-be60cdba85eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Update daily withdrawal limit",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "4ef9c953-9004-4bdb-a214-5d5f4642a706",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We want to increase the daily payment limit for this client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "3f43dbaf-10e4-4005-8906-1733d3400dbd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I amend the daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "4e11f0aa-1bfb-49e4-9c9f-e151e0071e20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I increase my daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "982d32e3-9b9e-4b5b-a12f-b5f0c0b4f0ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to change the daily withdrawal limit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5c2d0a1d-00cc-4e56-8874-bd37519e97e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to change the payment limit for the client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e28f8ea4-293d-4bb1-9dd2-b7da43b41068",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do my client increase my clients daily payment limit?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "f4e308cd-e674-4bc4-ae7d-f9af67f93d5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Id like to change my daily withdrawal limit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "3f6a9e5b-a6bb-45bb-a06d-254d2574ca85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to increase my clients pay anyone payment limit?",
+    "tags" : [ "btmarchvariants" ]
+  } ]
+} ]

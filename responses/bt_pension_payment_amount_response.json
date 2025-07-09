@@ -1,150 +1,181 @@
 {
-  "name" : "bt_pension_payment_amount_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+        }
       }
-    } ],
-    "quick_replies" : [ {
-      "type" : "INTENT",
-      "payload" : "Are you looking to make a withdrawal?",
-      "intent" : {
-        "name" : "bt_request_for_withdrawal"
-      },
-      "label" : "Are you looking to make a withdrawal?",
-      "question_display_text" : "Are you looking to make a withdrawal?"
-    } ]
+    ],
+    "quick_replies": [
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "bt_request_for_withdrawal"
+        },
+        "label": "Are you looking to make a withdrawal?",
+        "question_display_text": "Are you looking to make a withdrawal?"
+      }
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You are able to view your regular pension payments in the 'Scheduled transactions' section on the navigation menu. Please select the 'Go to page' button."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For more information regarding changes to the pension minimum drawdown rates as part of the Governments Covid-19 response, select 'Pension minimum' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/pano-scheduled-transactions",
-          "label" : "Go to page"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "Covid_19_Pension_2"
+  "segment_responses": [
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You are able to view your regular pension payments in the 'Scheduled transactions' section on the navigation menu. Please select the 'Go to page' button."
+            }
           },
-          "label" : "Pension minimum"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You are able to view your regular pension payments in the 'Pension payments' section on the navigation menu. Please select the 'Go to page' button."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For more information regarding changes to the pension minimum drawdown rates as part of the Governments Covid-19 response, select 'Pension minimum' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/pano-pension-payments/payment-details",
-          "label" : "Go to page"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "Covid_19_Pension_2"
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For more information regarding changes to the pension minimum drawdown rates as part of the Governments Covid-19 response, select 'Pension minimum' button."
+            }
           },
-          "label" : "Pension minimum"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You are able to view your regular pension payments in the 'Pension payments' section on the navigation menu. Please select the 'Go to page' button."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For more information regarding changes to the pension minimum drawdown rates as part of the Governments Covid-19 response, select 'Pension minimum' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/pano-pension-payments/payment-details",
-          "label" : "Go to page"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "Covid_19_Pension_2"
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/pano-scheduled-transactions",
+              "label": "Go to page"
+            }
           },
-          "label" : "Pension minimum"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You are able to see and edit your client's pension payment by selecting 'Manage regular payment' in the 'Pension payments' section of the navigation menu."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For more information regarding changes to the pension minimum drawdown rates as part of the Governments Covid-19 response, select 'Pension minimum' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "Covid_19_Pension_2"
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "Covid_19_Pension_2"
+              },
+              "label": "Pension minimum"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You are able to view your regular pension payments in the 'Pension payments' section on the navigation menu. Please select the 'Go to page' button."
+            }
           },
-          "label" : "Pension minimum"
-        }
-      } ]
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For more information regarding changes to the pension minimum drawdown rates as part of the Governments Covid-19 response, select 'Pension minimum' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/pano-pension-payments/payment-details",
+              "label": "Go to page"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "Covid_19_Pension_2"
+              },
+              "label": "Pension minimum"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You are able to view your regular pension payments in the 'Pension payments' section on the navigation menu. Please select the 'Go to page' button."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For more information regarding changes to the pension minimum drawdown rates as part of the Governments Covid-19 response, select 'Pension minimum' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/pano-pension-payments/payment-details",
+              "label": "Go to page"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "Covid_19_Pension_2"
+              },
+              "label": "Pension minimum"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You are able to see and edit your client's pension payment by selecting 'Manage regular payment' in the 'Pension payments' section of the navigation menu."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For more information regarding changes to the pension minimum drawdown rates as part of the Governments Covid-19 response, select 'Pension minimum' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "Covid_19_Pension_2"
+              },
+              "label": "Pension minimum"
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_pension_payment_amount_response"
 }

@@ -1,0 +1,52 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_amend_advice_fee_investor_train",
+  "intent_name" : "bt_amend_advice_fee_investor",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "7d2d132a-1a23-467e-89fe-918f6c223e10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i want to check what current adviser fee is being charged on the account number xxxxxxxxx",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ccc4b3f0-3d39-47a3-945d-de82039b766a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i wanted to ask if you have an advice fee form anywhere available on the portal",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "77c82ce6-7e9a-4fd6-bda4-d400e88546a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "query re advice fee",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d5a9a267-2e7a-4d38-af3e-148b2ede7e56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "turn off advisor fee",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0199b187-9cd1-4d15-928c-7786ac2e29d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "turn off advisor fee",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c8e9097b-f635-463d-80ed-1f82abdd341c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where would i find adviser commision payments",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e516e074-b174-4b38-82a2-940d6e7da63d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@fee_type ongoing} fee arrangement",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  } ]
+} ]

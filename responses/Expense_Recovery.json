@@ -1,34 +1,43 @@
 {
-  "name" : "Expense_Recovery",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "The Trustee is entitled to be reimbursed for expenses it incurs, including the payment of statutory charges, licensing fees, registry costs, audit fees, government duties, government levies, the cost of complying with legislative and prudential requirements, and various other disbursements."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "The Trustee is entitled to be reimbursed for expenses it incurs, including the payment of statutory charges, licensing fees, registry costs, audit fees, government duties, government levies, the cost of complying with legislative and prudential requirements, and various other disbursements."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "These expenses (referred to as expense recovery) may be passed on to all members in the Fund in accordance with superannuation law, and are deducted from your client\u2019s transaction account at the time the expense is applied."
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "These expenses (referred to as expense recovery) may be passed on to all members in the Fund in accordance with superannuation law, and are deducted from your client’s transaction account at the time the expense is applied."
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "The Trustee is entitled to be reimbursed for expenses it incurs, including the payment of statutory charges, licensing fees, registry costs, audit fees, government duties, government levies, the cost of complying with legislative and prudential requirements, and various other disbursements."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "These expenses (referred to as expense recovery) may be passed on to all members in the Fund in accordance with superannuation law, and are deducted from your transaction account at the time the expense is applied."
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "The Trustee is entitled to be reimbursed for expenses it incurs, including the payment of statutory charges, licensing fees, registry costs, audit fees, government duties, government levies, the cost of complying with legislative and prudential requirements, and various other disbursements."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "These expenses (referred to as expense recovery) may be passed on to all members in the Fund in accordance with superannuation law, and are deducted from your transaction account at the time the expense is applied."
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "Expense_Recovery"
 }

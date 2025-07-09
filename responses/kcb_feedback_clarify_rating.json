@@ -1,16 +1,22 @@
 {
-  "name" : "kcb_feedback_clarify_rating",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "kcb_feedback", "kcb_kim" ]
+  "categorization": {
+    "tags": [
+      "kcb_feedback",
+      "kcb_kim"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "How was your experience today?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "How was your experience today?"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "kcb_feedback_clarify_rating"
 }

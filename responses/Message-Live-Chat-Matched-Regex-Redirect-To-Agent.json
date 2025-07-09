@@ -1,34 +1,44 @@
 {
-  "name" : "Message-Live-Chat-Matched-Regex-Redirect-To-Agent",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "We take our responsibility seriously. Please call 1300 881 716 from 8:30am to 6:30pm, Monday to Friday (Sydney time), so one of our consultants can assist you."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "We take our responsibility seriously. Please call 1300 881 716 from 8:30am to 6:30pm, Monday to Friday (Sydney time), so one of our consultants can assist you."
+        }
       }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_secure",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "We take our responsibility seriously. Please call 1300 881 716 from 8:30am to 6:30pm, Monday to Friday (Sydney time), so one of our consultants can assist you."
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_secure",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "We take our responsibility seriously. Please call 1300 881 716 from 8:30am to 6:30pm, Monday to Friday (Sydney time), so one of our consultants can assist you."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "We take our responsibility seriously. Please call 300 784 207 from 8:30am to 6:30pm, Monday to Friday (Sydney time), so one of our consultants can assist you."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "We take our responsibility seriously. Please call 300 784 207 from 8:30am to 6:30pm, Monday to Friday (Sydney time), so one of our consultants can assist you."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "Message-Live-Chat-Matched-Regex-Redirect-To-Agent"
 }

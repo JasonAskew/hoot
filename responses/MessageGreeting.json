@@ -1,0 +1,26 @@
+{
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Hello, what can I help you with today?",
+          "alternatives": [
+            "Nice weather, as the humans say. How can I help?",
+            "High five, as the humans say. How can I help?",
+            "Beautiful day, as humans say. How can I help?",
+            "Greetings! How can I help?",
+            "Glad you're here. How can I help?",
+            "Hi, how can I assist you today?",
+            "Good to see you. How can I help?",
+            "Hey there! How can I help?"
+          ]
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageGreeting"
+}

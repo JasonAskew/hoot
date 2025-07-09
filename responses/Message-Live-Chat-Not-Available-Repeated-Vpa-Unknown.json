@@ -1,24 +1,31 @@
 {
-  "name" : "Message-Live-Chat-Not-Available-Repeated-Vpa-Unknown",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Our operating hours are 8:30am to 6:30pm, Monday to Friday (Sydney time) excluding national public holidays. If you request to chat or call us on 1300 784 207 during these hours a consultant will assist you."
-      }
-    } ]
-  },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Our operating hours are 8:30am to 6:30pm, Monday to Friday (Sydney time) excluding national public holidays. If you request to chat or call us on 1300 784 207 during these hours a consultant will assist you."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Our operating hours are 8:30am to 6:30pm, Monday to Friday (Sydney time) excluding national public holidays. If you request to chat or call us on 1300 784 207 during these hours a consultant will assist you."
         }
-      } ]
+      }
+    ]
+  },
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Our operating hours are 8:30am to 6:30pm, Monday to Friday (Sydney time) excluding national public holidays. If you request to chat or call us on 1300 784 207 during these hours a consultant will assist you."
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "Message-Live-Chat-Not-Available-Repeated-Vpa-Unknown"
 }

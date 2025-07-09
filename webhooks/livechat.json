@@ -1,0 +1,16 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "livechat",
+  "display_name" : "livechat",
+  "type" : "LIVE_CHAT",
+  "webhook_url" : "https://westpac-kai-sandbox-en-au-stage-westpac-lp-messaging-service.kitsys.net/livechat/webhook/event",
+  "image_url" : "https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819__340.jpg",
+  "webhook_params" : {
+    "livechat_agent_availability_timeout_seconds" : "600",
+    "livechat_mode" : "BACKEND_ASYNC",
+    "livechat_inactivity_timeout_seconds" : "600"
+  }
+} ]

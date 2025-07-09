@@ -1,0 +1,850 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_centrelink_schedule_test",
+  "intent_name" : "bt_centrelink_schedule",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "a4afd8a8-4394-4773-b961-ac43c2fe3dab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 - 1111 financial year income stream payment schedule for bt panorama super account xxxxxxxxx",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a7cf1c99-ba5b-4509-b8bb-6f95bbe09d06",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "CENTRELINK SCHEDULE REQUEST",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1cdd0b8f-efb1-4c7d-9c7a-4c7923fb16a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you generate a Centrelink schedule for me?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "224bcb5e-0908-4336-acd4-d1ac28ea88f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you please prepare a current 'Centrelink / DVA' Schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bf1fec75-e770-4cc6-a39f-4cf2ed283fa6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you provide me with a Centrelink schedule?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "930d5149-a728-450d-a921-f97ff7fa2a72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "f3ae3839-5a77-4de9-a235-c00ccf0ee800",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink Scedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "124a5bc5-9040-4050-87b1-b0339ac44f19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink Schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "eb99c376-63bd-4dd2-ad44-35add354f9d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink Schedule please",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1a7e0d41-0790-4946-8a6b-c58eb501229c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink Shedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2faa7c69-aca6-440e-b9f8-3952189d23b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d8886e94-4ab0-4eb1-aea9-b539dcf7d17c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink schedule. Where do i find it?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bb897aaf-6014-4f9c-90a9-8f01c13c56f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink/ Dva Schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d51f16ff-9415-44d7-a85c-f79afaa6ef84",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Could I please get a Centrelink schedule for XXXXXXXXX",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "165cc2e1-51f4-44fb-92bc-a7389b71b6b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Could i please get a centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0a8f7d3c-9b7a-42f7-86ab-09cad89efcfe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "DVA Schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2db3c5d8-72f8-4c3b-9d44-9f2898de902b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue, can you tell us how to generate a Centrelink Schedule",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "fcffd6d0-e8ce-4fb9-9ac1-b07dfc578084",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi team, can you let me know where I can download a centrelink schedule for a pension client?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d6438745-d346-4c1a-bf0a-1d94b07c474d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, can I please request a centrleink schedule",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "70eec024-489c-4890-857c-9d844af1f3e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, can i please request for Centrelink schedules?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "834b2ab9-0b80-4355-ac6f-47cec9edc026",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I retrieve my centrelink schedule?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bb410d53-e373-4d42-8c0f-2e7179b2fe97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I get a centrelink schedule for pension XXXXXXXXX",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "11089c5d-22d8-43bd-8e18-f2c36341e2a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about request a centrelink schedule",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dd0e1e96-9e8b-4aed-b1b1-14919e317896",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I request for a centrelink schedule?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f5013079-1c7d-49f7-bcd9-563592634857",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1111 - 1111 financial year income stream payment schedule for bt panorama super account xxxxxxxxx",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e1bbed86-01d8-4cb4-8d3e-8083fea5a871",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "CENTRELINK SCHEDULE REQUEST",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a38a3bcf-b1aa-42b8-ace8-94e9f01df2ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you generate a Centrelink schedule for me?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b3e6fe5b-1f60-4d92-8147-fc575ee4b893",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you please prepare a current 'Centrelink / DVA' Schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ecccd8d2-3c16-4b60-a0fa-825cbdfc960c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you provide me with a Centrelink schedule?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2aa0b8a6-6dfb-4a68-8f87-71108bece374",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b538aafb-b259-4e9b-b6ae-d5fb79596aa0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink Scedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c712e16f-a4b6-44f2-b8ee-10173ee750c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink Schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ead7d704-100f-486c-a930-a377281fe5f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink Schedule please",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "da1bfed5-f555-415d-b799-63f4caf6eab7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink Shedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4efa0712-7e85-44ac-8cbf-2028bde8fa63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2ee01d5a-cf41-4bf5-b41a-e371b34c41d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink schedule. Where do i find it?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "923e24c2-0d38-4e71-aa6a-fcbc66acfc18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink/ Dva Schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "91b60090-d381-4139-b7c3-ef52c675ab03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Could I please get a Centrelink schedule for XXXXXXXXX",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bccde755-9d88-42a1-b762-c66de43b0420",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Could i please get a centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2fc2f021-f1f3-4a95-9d0a-e5da612bc728",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "DVA Schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "138f559f-edcc-4fc1-bb98-c92329bacba6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue, can you tell us how to generate a Centrelink Schedule",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "d80eff2e-c846-47af-9194-2ec0a355bf79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi team, can you let me know where I can download a centrelink schedule for a pension client?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3e4a8100-fd0f-4800-9e94-ef84583373fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, can I please request a centrleink schedule",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "47c74b09-7d20-48f1-b5d9-cbc90b42da00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, can i please request for Centrelink schedules?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "641bd00c-e3c3-40a7-aa1c-d8eb2e85ebf3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I retrieve my centrelink schedule?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "286ec1ee-8d2a-4db6-ad5f-4cde3d5c7621",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I get a centrelink schedule for pension XXXXXXXXX",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ade29a56-80ce-49fe-98bd-9555a00738b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about request a centrelink schedule",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9055eeb9-f803-4c14-925f-5bbff4a578b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I request for a centrelink schedule?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c8251131-e2d0-4546-828d-e4ec10797d9c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I would like to order some Centrelink schedules",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "55bac9f8-d367-491d-8be2-9c92846dc80d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to request for a centrelink schedule",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cb78ace5-2b29-44a1-94e9-0ac8a1c1c540",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Id like a Centrelink Income schedule with todays balance",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0b1c7d7f-70ec-4e55-a009-a6e9310e3061",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to generate my Centrelink schedule",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1f5f90c9-5062-4890-b2f0-122384f8c14e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need help with generating centrelink schedule",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cdc273a9-14de-48ed-beab-3cc59331fb7f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me where I can get my Centrelink schedule",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e5ff0d7a-586e-4407-afcd-26618acfe2c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I get my centre link scedule for my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fc5c9ada-92f6-49b9-9d31-9edc584fee7a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "after info for centrelink",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4f945cd0-d281-4ae9-8848-c71f1d43db33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i generate a centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5dbcecd8-8380-4b6d-aec7-a8c48c3eb2ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a new centrelink / dva schedule generated for a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bd5483c4-50ce-4235-a671-d0e0c3b0621a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have two centrelink schedules produced for bob and bob",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cd02e720-be3f-4559-8e61-6b65c9f18704",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i order a centrelink schedule",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fccb78e8-1f20-435b-838a-3a13727d004e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centerlink",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d7a52c44-1a0b-4873-abf8-20ee0dcfc539",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink / dva schedul",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "06573c2b-fe51-4210-90e6-16e20e606fc3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink scheduale",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6555b1ca-f3cb-40c2-bee7-a2f7bd8b8908",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink schedule",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8ea7f078-d8b4-4597-80cc-55d6e04ec8a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink schedule for XXXXXXXXX",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d105b91f-87bd-4b67-af64-ac9dda185735",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink schedule report",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "09633942-2035-44bb-ac81-694e12407635",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink schedule required",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "6b20b8d2-999e-4231-b81c-dc1d3700f0ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink statement incorrect",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4360d0de-f475-4e79-b6de-a9fa9a873675",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i generate a centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bd1df693-805d-4b80-bd77-81291429fb5d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a new centrelink / dva schedule generated for a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "22d7a814-151b-4f52-8ac0-aeba53205562",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have two centrelink schedules produced for bob and bob",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c88cfb26-d4f0-4cfd-9633-68049b86baf2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i order a centrelink schedule",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ad333a5-7bf8-42f6-b90d-84f1d1c79861",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centerlink",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "580590e0-d8d6-4316-b141-97d793524f29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink / dva schedul",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a76fc4a6-2bf6-4618-a0e4-cc8bbe5c8a55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink scheduale",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a0dd7181-6789-41ba-9018-ac6358339550",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink schedule",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "91bb5351-f735-451d-aa57-a6cf55c813d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink schedule for XXXXXXXXX",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f045c899-8522-402f-94ae-e37da799c097",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink schedule report",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "78217ab6-536a-42f3-8731-ed0957712333",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink schedule required",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "24c192a2-010c-46e8-9640-e51de9b34084",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink statement incorrect",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "13a8c609-f1c3-408b-85d9-1a457a0a9bd9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i generate a centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "204f0cda-da23-4f76-b192-9887ac0b63a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a new centrelink / dva schedule generated for a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "96447d43-a882-4fa9-b015-d86abb8b7710",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have two centrelink schedules produced for bob and bob",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4cf35922-5fcd-43be-8b68-16124e55f4d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i order a centrelink schedule",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "988c844e-bfad-4460-a2f3-b5cc6f9a6905",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centerlink",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "90dc833c-d141-4417-9c03-a2661a5d4b74",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink / dva schedul",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "91132fa3-dca5-41c7-8b32-15845e395f01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink scheduale",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "02904236-6adc-4305-a9ee-8df57665b9fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink schedule",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9664a618-970e-43bc-904f-24e678143d30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink schedule for XXXXXXXXX",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ae969f38-8cbf-4861-9bf3-96b2f8cfedd5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink schedule report",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3a11da14-02dc-4128-9b1a-9535ff5371f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink schedule required",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7ef2d45e-c5d4-4338-a7fe-57dc41b528ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "centrelink statement incorrect",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "64c1b742-ab01-4549-a7e2-edc0a205e27f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "generating a centrelink shedule",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e637e70b-fe39-404b-ae02-a934936c27a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "get centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3d677297-5c1b-40e4-8b83-39225b813286",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello are the centrelink schedules available yet if so where can i find",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e6b1a531-7faf-48b4-8dc6-4283d3b45972",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i need the centrelink schedules for bob",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "35d59812-36d9-4322-83c3-289b3d4994dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue where do i find my income stream payment schedule and annual centrelink / dva schedule for 1111 / 11 in my investment account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "777d4e41-8592-41c2-8d31-4df2166e596e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i have a centrelink schedule for xxxxxxxxx",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "af22f987-5d03-40aa-94a8-8c24dd9e3e59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i please have a centrelink schedule produced for our client account number xxxxxxxxx",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f91c66a7-85ca-4dd9-98d9-6e3fb1936da1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i please request a centrelink schedule for a client",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "853e3d04-a3de-42a1-a887-c7d548585609",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i please request a centrelink schedule for bob serich ‚Ä¢ bt panorama super ‚Ä¢ pension ‚Ä¢ xxxxxxxxx",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8f982881-3aae-4bb6-8f36-ff56183b6f62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how can i download a centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7cf455a6-219f-4850-920f-d58ced9d9557",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i obtain a centrelink schedule",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b65622fb-1f70-4f6f-b0db-f841e11c408e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to generate centrelink schedule how do i do this thanks",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "cf932ab6-62db-4c4a-83eb-edfde0d5436e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi im after a centrelink schedule for bob lethborg acc 111111111 there was a migration from bt wrap to panarama",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "305c34c4-b176-43b9-956d-d125b77a4afe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi trying to find my superannuation income stream statement can you guide me to where it could be on the site",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fbb3182a-a6ca-4745-9166-4864923a4085",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can we download ang get an updated centrelink schedule for these accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cca57687-be07-4681-b510-3c57591458b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can I request a Centrelink schedule",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "aa84a3c3-ce4a-4cf2-9d4b-f0c800502ab8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get a centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "73ed5275-388e-448b-bcdf-74f4e9b6d792",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i see a copy of the annual centrelink / dva schdule for 1111 / 1111 please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1e4dc1a5-38f0-4cde-bf1f-a9a36c7a2edc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i generate a details of income stream product for y / e 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8a14360c-4774-4367-91ef-b2e4e6a08ede",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get a centrelink scheudle",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9bd8e33d-49dd-4fb0-afc9-e2fb7e521832",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get a centrlink schedule",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ba7f2795-1c19-40e5-8e60-f28af121db3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get a copy of my current statement please for centrelink",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f75e69ab-3be4-4448-af04-0749f855f81a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i navigate to the centerlink report",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "90882aa2-076b-492a-b545-2853ed8fe951",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you find a centrelink income stream schedule",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "30dd127f-fbb8-43a6-b7f8-4c9143e4dbd8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to generate a centrelink statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5eed7c10-e82c-4a14-8526-edecb391103e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to generate a new centrelink schedule",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b2972663-fe54-4b84-b1f4-7946bc2aa741",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to get a centrelink schedule for a pension account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b8bde185-3801-4a72-9591-f42ebc5289f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to you create a new centrelink schedule",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "00525051-842e-49e6-b7d0-f3c3cc55003b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i bob centrelink schedule for new panorama",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "95f77315-7342-41e6-8a23-3eb38dccb643",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a centrelink account detail declaration for pension purposes",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a67b6c9e-57e2-4055-8ba0-1d133ff4ed2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a super statement for centrelink where do i get one",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d586cbf9-22c0-47cf-95ec-a6c0f8242776",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need an updated centrelink schedule for a client",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "1fdc2c36-30b2-4d49-9aa5-4d9425636825",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i require a centreline / dva schedule for my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1b3b3722-8c03-46fd-90f7-bfe50ae98409",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to get a pension schedule for a client 's account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d87f0809-ff8b-4d59-b567-46ab312f3e8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it is for centrelink",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7447bd43-7790-4271-b007-988401e2e48d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "locate centre link pension plan information",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a3e797a3-095b-4d76-bd18-b556a4a786b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking to see if there is a centrelink schedule for investment accounts",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a71f9f51-05f1-4145-a5ae-84163463dac8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need income stream details for account {@account_number 111111111}",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f8fdf6b8-df48-4439-a15a-b4f32f740134",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "obtain centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e292f88d-a5f4-474f-b607-aa015c1b9ed1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "produce a centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bab21718-0e90-4554-a687-3d6ad2ca09d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "report to centrelink",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "faaa2258-b2f6-44b9-9177-ad448b3d826c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request a centrelink schedule",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9c1f2ebb-0591-4df2-b463-23a9c4573995",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "requestst centerlink schedule",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d9304e80-271d-47b1-b745-3ed27cd6043c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "schedule transactions",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "76be38d7-b226-4a41-8968-7981f0533eef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i get the centrelink schedule",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f606c9b6-a0bb-49f9-9650-bbf14995a3d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find centrelink dva reference number",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8fc372a4-bcb4-46f5-9b2a-fff1fbcb1c6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do we run a fresh centrelink schedule the client withdrew funds in early september",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a5faede9-f582-4b7b-b979-1c4ccbca0d87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is there no centrelink schedule in the document library",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  } ]
+} ]

@@ -1,0 +1,610 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "77_callback_s_test",
+  "intent_name" : "77_callback_s",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "fafab16d-8bbe-4683-9825-29263dafa068",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Already call to the customer but I m not accesing",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "7b92b293-0b42-4f35-9171-1eed2535f92d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any call centre I can call on for any help.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e0379b70-99b8-4bab-aac8-45840b6a6267",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Apologies i had a client call come in",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "f0914b79-a06d-4f49-a5b7-1a092245e6ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call me",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "1d604fd8-eedb-4be4-82d6-6ba055ef2287",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call me Back",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7a2dedb2-22c6-4169-afc3-ff26a1ecb864",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call me back",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b338c777-3b9b-4bea-b930-469e0bd65360",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call me back please",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "5c146211-4105-4148-9f8c-4554ff27a55a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call me on (111) 111-1111 please",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "758e7dac-8b6b-4a1a-915e-763fdcbc21bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call me yr",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "35e3a1ab-1e08-42cb-a0d2-61783b598318",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call.me",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d173d6f0-2f6d-4d17-80db-8d3d629efcc9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can someone pls call as can update address",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c1954dc5-9df0-4ad1-9d1c-1a62b4e00890",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can u call me",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "3440336f-f7fb-4a70-9b83-2c37e0020fb9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you call me back",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "061a7d4e-5037-434e-94fd-a254dc8b3e47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Contact me",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "28ee706d-4d5a-45a1-bdaf-5c3f0587bda0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, I have visited the bank for at least 1 Times for the change of mandate. After submission, it is rejected again. Please call me back atXXXXXXXXXXon an urgent basis. Thank you.",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "709b009f-73ac-48ce-b357-794c35089ac2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I call someone",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2b270577-f967-40f2-bd9d-bfbdf8fab031",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I reach the call centre",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6dd3e512-12f5-4709-ae41-f901940cbd5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cant find an online number to call",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "7a3e678f-bdb5-49a4-ad71-00e3350b146a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Already call to the customer but I m not accesing",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "3514e7b3-626f-4f32-ab1e-6a2d783f7ba3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any call centre I can call on for any help.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7af1f823-0335-4343-b2b7-f115ee595ce0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Apologies i had a client call come in",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "0a6c40e5-ded6-4b93-8834-87f75d898191",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call me",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "988c0252-9162-4ca6-b4cb-f246bad33daf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call me Back",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7578d4e6-0b55-49c6-8cdd-b278eeacb9b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call me back",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e4af5d3e-c232-4e77-996e-f03a0f5d300c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call me back please",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "133cb91f-d6d8-421b-b945-7f650edad1d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call me on (111) 111-1111 please",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "2db1dc93-a0c8-47a9-9136-d6b88e55bfaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call me yr",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "20cf93d8-1e2f-4e7e-9cbd-bcdb5b37010a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Call.me",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b74e5b01-c005-47de-82e9-0f423581f167",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can someone pls call as can update address",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "900bf680-8a96-4b89-b440-6837e7eb64cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can u call me",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "6692b7a2-0a10-4ff6-975c-93e58fb643f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you call me back",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "f5490f54-137f-4df5-8a89-1bddd8f75791",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Contact me",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "13ee5bb6-f7f3-409e-bd92-5aa51f9e1024",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, I have visited the bank for at least 1 Times for the change of mandate. After submission, it is rejected again. Please call me back atXXXXXXXXXXon an urgent basis. Thank you.",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "6e06df1c-9ae2-4689-84d5-0e93b94856f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I call someone",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7217772d-0a5e-489e-b9e6-921d24045f55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I reach the call centre",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7c145dce-d2a1-4aed-945d-f7755ff545cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cant find an online number to call",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "6b270e68-6bc0-4b4d-b9f2-342e1a583349",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need my member number. Can you please get someone to call me this is ridiculous",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fa912691-f40a-4891-8a96-ed8c5000d33e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I was talking to Bob but have lost him. Can I talk to him",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "de47b763-4786-43d5-b008-51bd7a03c0d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Okay help with the call center for sun hotel Bob",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4eabb5cf-198a-449a-a394-12c8fb155cf5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Plz call me (111) 111-1111 this I can't walk English only hindi",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "7772bdc6-07f7-49b7-b868-ea3cdf45984d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Send me a contact no where I can call to refinance",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "c99f2873-d9fd-47ba-abbd-afbe014a1d9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Should I call the bank",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "f4b80b82-e934-4eff-a0ef-8eed7a872929",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Someone can help me I leave my num 11111111",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "56d8358b-b299-4aa3-b1ef-210b812a0656",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Someone has call centre and Bob details",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cc22f99c-0473-4cc1-9fbd-982bcd760ce9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The number for the call centre",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "64d48f94-92e6-4499-aff8-cf854c791367",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Waiting to hear from you now",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "38a80cc9-eccd-40bc-95b2-68ea10f92332",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Want to talk to technical assistant via phone. Please call me",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "ffa53863-e1d4-40e2-8754-d5c5b1637e63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the call centre number",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0508be23-06c6-48ce-ad4d-0438d807a222",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the call centre number?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "459ce153-519b-4143-a49c-ed284ab1665d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the number for the call centre",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d69780ba-40a1-42d4-bbde-28d0d5855ffc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Whats the call center for BT? not land line but toll free",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "52e4dd98-fd1c-4f1c-a99a-ddb11bc897f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Who do I call about remuneration?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "65b7deec-f520-4323-81aa-77078012ff50",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "assist me with call center contacts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "92b1984b-9e0c-4ba3-93cb-3ad70a7fdd7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "call bank",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "de7e7918-be8c-4029-a3a4-e06bc626cd2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "call me back",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "695d7a26-ea2d-4fab-85d4-455866d5fc58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "call someone",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f1ee6665-7fb4-488d-b7a8-2bcaa42bae43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can I call you?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "7bbb1fc9-d1e3-4622-8329-271d6a9ce9f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i call any number now?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "a760eda9-728e-4fc0-b7e3-e766140cee63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i call someone to ask",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f134ee62-b364-4186-8701-039e3e3005b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have a phone number to call someone",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6ad87133-6974-43d8-85f9-b66384d7125a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you call me back",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0c97436a-b7fe-488e-9454-086cc3669822",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "assist me with call center contacts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0814a677-219e-4ce6-86c0-660bbe208dbd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "call bank",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "b2173757-b884-459f-82e9-b6183bb24fce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "call me back",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "33d6cacb-6320-4914-ad5e-3454986730ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "call someone",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "15ff2865-6119-4f5d-9bb2-4f0276511703",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can I call you?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "3f25945e-d77a-492a-9bad-b9e688c7b8a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i call any number now?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "3a1aaadd-05e6-4745-b0f7-8b35c53f5f43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i call someone to ask",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aca0ba4c-da42-433b-a800-e3a5c61bf641",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have a phone number to call someone",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "438aea69-3a17-44b6-9dce-95fce8c605bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you call me back",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3f875436-9635-4a27-a0f1-ed220684e350",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "assist me with call center contacts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8aacdc1d-5a20-4aaf-9d8e-0848f590d3df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "call bank",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "a2e6a9ef-e4ee-4e87-9cd7-72705864e8d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "call me back",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3a0467b9-cdf8-4ead-8c8a-02e900de0f31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "call someone",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "97ce16eb-7417-4267-9135-fca24e47d2f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can I call you?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "45c063e9-cc19-4ba3-8fc5-896c5c163de1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i call any number now?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "c7733f23-ad1e-46f9-aa70-e41545cc6d7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i call someone to ask",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ab084eb9-1204-478c-8109-771c29b44abb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i have a phone number to call someone",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "849d70bb-2f3d-44a5-ab87-3d473279cd3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you call me back",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eb9598da-a815-4777-9675-99b813ece3bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact call centre",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d3a5758c-b240-4bd6-a931-febbc64720bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact number 1111 111 111 is disconnected",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ba55c6b8-1896-4134-a47a-68f7cb3c470e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contact number given does not answer",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "560c8309-dcce-4ded-aab9-4a72768459f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "he was getting beack to me",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "65f509ae-8bec-40b2-92ac-2a408ed9452f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi sorry i got stuck on the phone",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "5a371868-5eb1-4f55-b171-cde42ed4786a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to find out when someone will call me",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f2294975-87dc-4f26-8254-77e00c43a42c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have called i hope i get better support",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "d567a281-939e-4e93-962b-ecd968a32a6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need someone to ringme asap 1111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ccbcff67-093a-4520-afac-10cb7c4ce5c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i will make phone call",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f863d15a-b735-4ea7-b104-d1543fa0d2e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my apologies received a phone call and forgot i was on the chat",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "9b6ca5fd-7047-4077-a645-b91f707706e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my pension has not been paidplease phone 1111 1111",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d77dec3d-fad4-4dec-845d-3cc11a9a45c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i do not want to call",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6bb46e1d-004e-4832-8f0a-c44855e54339",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please ask someone to contact me tomorrow",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4e4eec42-ca30-44ae-ba35-cd39049dcdbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please call asap re message regarding failed transactions and warning phone number 1111 1111",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "746bdb51-d5e3-429c-baf0-616c248929ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please ring me 1111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ecf0c891-b6d6-4b9f-b4b4-09f58276896c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pls call me",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6320c22e-4857-4dbe-9862-edcbefcb1855",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we asked for this a/c be closed and paid into our savings a/c",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "92f27e68-c235-4cfc-866e-822b374da2f9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we asked for this a/c be closed and paid into our savings a/c",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "07353ec4-b700-431e-ae23-0988536c895e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the best phone number to clarify this matter thanks",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fd374f82-5e13-4c6c-bed8-1d244b19c728",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what numbrt can I call you now?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "d22644f3-5b13-4967-a15d-e6ae1289bef4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "your calls are going to a voice message",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  } ]
+} ]

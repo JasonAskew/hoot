@@ -1,0 +1,364 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_account_performance_available_test",
+  "intent_name" : "bt_account_performance_available",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "f6e58fdf-1742-4764-a6a9-780df39b8d64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Annual Performance Assessment (Bob)",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "04966127-e7f7-4333-bd51-dd2f39bbf564",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you explain why balance changed?",
+    "tags" : [ "wcp-172", "goldset", "test_gold" ]
+  }, {
+    "id" : "de029647-db80-4026-b184-b16706055e5f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Did something happen to cause my balance to go down",
+    "tags" : [ "wcp-172", "goldset", "test_gold" ]
+  }, {
+    "id" : "7de13478-ccbc-4f54-ac4d-b29d5a2110c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I am look for a why to find my year to date fund performance.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c7e83c40-4944-4532-9a67-3a7614edc5c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am looking for a record of the fund performance over the financial year",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ceebc827-edcd-4630-99de-194d947e4e55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't seem to get my account performance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "01fd4d78-1fc4-4faa-830a-7839b909b691",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Annual Performance Assessment (Bob)",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f1773a03-18d2-4d4d-836a-d6fa1cd2fc24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you explain why balance changed?",
+    "tags" : [ "wcp-172", "goldset", "test_gold" ]
+  }, {
+    "id" : "dfffe2d4-26ab-4587-b52b-84f5acda277d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Did something happen to cause my balance to go down",
+    "tags" : [ "wcp-172", "goldset", "test_gold" ]
+  }, {
+    "id" : "a1c36de5-f2ee-49a8-8218-31d71389090f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I am look for a why to find my year to date fund performance.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "849456e9-461c-4499-8216-55be7de49741",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am looking for a record of the fund performance over the financial year",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5ed6fd2b-d682-416b-b218-78f577e7baf6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't seem to get my account performance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "49babddd-8b0c-4896-94fe-b930bd069542",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to know how my super fund is doing",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "b3e739b0-6d30-451a-aafa-9083ac3455b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "The superannuation balance is different from ato.",
+    "tags" : [ "wcp-172", "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "c056f7d7-840c-4c4c-b5a1-cb5bf64f660d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What caused my balance to change?",
+    "tags" : [ "wcp-172", "goldset", "test_gold" ]
+  }, {
+    "id" : "3dc60c26-14ca-48e3-8cac-87e3562c1a4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the reason my balance is lower today?",
+    "tags" : [ "wcp-172", "goldset", "test_gold" ]
+  }, {
+    "id" : "2d7ea432-0224-4607-85d8-562827161b5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is the such a big decrease in my balance?",
+    "tags" : [ "wcp-172", "goldset", "test_gold" ]
+  }, {
+    "id" : "f870c2f1-6c55-4b16-9116-1197e3332730",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "account performance not showing info",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fd84bb8c-955a-4141-b461-efe6b00e16a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a 1year net return value",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4b9aa91a-635e-4939-a39c-832d5c0234e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a 1year net return value",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "269181c2-3aa1-4f6e-b9e1-403b07c93506",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a 1year net return value",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "169e5c2b-51fe-4774-a39d-9874fa14716b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check year to date performance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "850ef65c-3608-4695-838a-e5dda1c6fff6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find past performance as a graph for last 1 years",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5dffa556-8527-4eb0-a30c-1d50d83973f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund perf",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "37b11396-1a30-45f1-8ad6-c869473013af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund performance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5bedcf98-c4fb-434d-bd2f-286e6a50f21a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am wanting a report on how my super fund has performed over the last 1 years after fees - is there a way",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bde42f52-94da-40ec-aa36-863ff2a4d4b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello it seems that my account has gone down since jan 1111 yet i deposited 11 111 $ in it mid year",
+    "tags" : [ "wcp-172", "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a009cda5-bdc0-4d78-aeb2-4750bd878a9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey where can i see how my investment has been performing",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "0359b4e8-730f-43a1-94a1-3d341d558a26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi estimated gain / loss is for what period",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8adac10c-ed7d-4a21-bc97-b62cebc7a762",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have a question about performance reporting",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1c810c5e-28e9-4fd9-8bad-2d4a3a6ad200",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi when will the tax return be lodged",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "d5f72261-0c89-4224-9686-348c570f77d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i look at the daily gains / losses for each individual investment",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "245b1cea-c07b-4596-b5c0-2028fe95f000",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find average returns over the last 11 years",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "51b87d37-cd39-4d02-ae4d-2b0122d84c1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i see the return net of fees for a 11 month period",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9e058270-c511-47dd-ad59-115648e6be11",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how has my super been doing",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3c2f5fd8-de10-4596-8bc6-1d18efe422d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to check super performance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "13bfc188-5cce-4894-9b23-f9a0763eaf50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to find internal rate of return",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c9cb99ee-9185-4f30-af6c-76c5006b8316",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want it as a percentage return for the last 1 years",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "f21c696f-72ea-4a04-bf5b-2d65213bdd4b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investmetn option performance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a3588d92-ce04-4759-b5a0-2f4f35492019",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "last 11 months performance",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5284c548-9666-406b-97bc-bcc50809f46f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "mhi are you having trouble with your portal as the $ amounts on both my portfolios has not moved for 11 days even though there",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "f85263d0-791f-474a-a551-68f6039c53b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my account perfomance doesn't seem to be available",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ae036867-b327-4afd-b02f-54f8ec85e5fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "overview only gives today 's date",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fe23e901-8c57-4713-be71-d5c7699d198d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "performance and price",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "99998410-5558-4372-8220-0b763f3fdab4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio performance report",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1052fe97-f593-4417-8a0a-448f43c1f087",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio value not satisfactory 1111",
+    "tags" : [ "wcp-172", "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "c554fc01-5ebb-4327-86a0-a11238786bd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super performance year to year",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f5442520-c63f-413a-b430-d0257d43c54e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "went to overview where is past 1 years of performance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f24bb609-d486-48ee-9ab8-4917e83f5b35",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "went to overview where is past 1 years of performance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e245e6de-d574-4a93-b0a5-7861e952ec67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i locate portfolio views section",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cc68b7cf-c41c-408f-bd5a-230da68f6195",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why am i losing so much money",
+    "tags" : [ "wcp-172", "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "96838fbe-d2f2-4389-847f-abbe12f257d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why can I view my account performance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c9860cb3-66eb-439d-8e72-6c339003602a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has my portfolio value remained unchanged for two weeks",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b1a29e70-f28c-47f8-b645-58ee95709d4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why is account performance not working for me",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8457c0d7-6693-4c9b-8d91-c3417d5fb6a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is bt panorama performing poorly",
+    "tags" : [ "wcp-172", "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ba9e48e2-7fe3-483d-a58e-3c3a2e79cdf1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is my fund shrinking",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cde58694-d549-45e9-8531-eeebc03d50bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why is there a drop in my balance",
+    "tags" : [ "wcp-172", "goldset", "test_gold" ]
+  }, {
+    "id" : "412f3274-7099-465b-ae4f-f83f7277eadf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why isn't my account perfomance details availabke",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3dad05a8-dfc9-4d87-85e2-7054579e7cfc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why there's remaining balance on closed account?",
+    "tags" : [ "wcp-172", "westpacplat2", "test_platinum" ]
+  } ]
+} ]

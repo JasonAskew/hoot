@@ -1,0 +1,378 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_change_beneficiary_details_seed",
+  "intent_name" : "bt_change_beneficiary_details",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "db1fdb0d-0ebc-42ea-aa3a-ce7d966bf02d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend my beneficiaries?"
+  }, {
+    "id" : "4bef92c0-fce6-4cb2-a3d1-32f41f63b925",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend my client's beneficiaries?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "2182611f-7673-484b-b13f-18ce495cd41b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change my beneficiaries after an account has been opened?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "67ded3e4-e661-4c8c-bbc7-45635576254c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change my beneficiary details myself?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "16f046a4-2f71-4d45-8d57-b8d9f7c49c2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I have more than one beneficiary?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "a2a40af8-0ad8-4fe7-a9ad-82c005cfd991",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can beneficiaries be amended online?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "99b90e9d-5a94-4bf9-8e18-4c6d2aa5540f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change beneficiaries please",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "9ddc446b-52f4-487e-8962-01a0c16290f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to fill out a form to change my beneficiaries?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "7d8d0491-1945-4d04-a5ff-706641daf8c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello! Please help, where can I get a BT panorama Super beneficiary form?"
+  }, {
+    "id" : "d6b42ae4-2cf8-481f-bd55-995e179d737e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me find my beneficiaries please",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "0d1b6225-cba3-407b-928a-e2e1cb9cf6f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I change beneficiaries for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b661ebfc-1d48-495b-9143-1e29ae02e558",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I change who I have selected as a beneficiary?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "47dcf6df-0c01-4bd2-9d3b-ff2245f755cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add a beneficiary for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e577ad76-a5b9-4a74-901a-5bc84e352518",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add a beneficiary?"
+  }, {
+    "id" : "74a33ec0-938e-491a-b0b5-2106247d7e8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I amend the details of my beneficiary?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "e4f2e9fc-3293-4214-bcfc-3ad6c880fead",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my beneficiaries contact details?"
+  }, {
+    "id" : "5dae7fce-c9f0-4d7a-98a3-0e78d621906d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my beneficiaries?"
+  }, {
+    "id" : "3aad31bc-797d-4130-979a-e39ba51ee7c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my client beneficiaries?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0a821385-e335-4ea7-b7e8-f7d34f070619",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I remove a beneficiary for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "7d209e61-fc7a-45fd-bab0-547fbad0e157",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I remove a beneficiary?"
+  }, {
+    "id" : "d7e7693c-9bf1-4710-a66e-d359af79042a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend my beneficiaries?"
+  }, {
+    "id" : "f0726e4a-0a4d-49c7-9236-a164bac3a4df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend my client's beneficiaries?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "6eb46711-1069-42e5-9c96-4e9342b52277",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change my beneficiaries after an account has been opened?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "0c96493b-294e-4934-b7bb-144499b75318",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change my beneficiary details myself?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "96db920f-983a-4bdf-b195-e22df25fbb5b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I have more than one beneficiary?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "df3712b8-ad11-410f-bd58-c979a3fd8778",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can beneficiaries be amended online?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b5b934d6-54ea-4db2-81d0-c1175ba2da1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change beneficiaries please",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5d58806b-9e3c-4615-b02a-ed7241331cd9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to fill out a form to change my beneficiaries?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "8d1b21bd-8ae5-4a26-8a46-3b8b0b04ba7c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello! Please help, where can I get a BT panorama Super beneficiary form?"
+  }, {
+    "id" : "d0fd8f33-a053-42f3-9179-8a592f7b5d96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me find my beneficiaries please",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5e3ba095-6064-4269-8c15-f84ae505b329",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I change beneficiaries for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ffb2a48c-6f13-4205-8d9a-67c36a555dae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I change who I have selected as a beneficiary?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "9df445f0-d047-4773-9988-2d40639ba39a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add a beneficiary for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "1648e583-1df2-4168-b6a4-f5d8083fbb8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I add a beneficiary?"
+  }, {
+    "id" : "c7c48493-5a8f-45c0-96b0-5bcd49e330eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I amend the details of my beneficiary?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "e71a8179-e6b6-4d1e-8cf9-8146a663666d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my beneficiaries contact details?"
+  }, {
+    "id" : "3a891f86-94bf-40d3-b44e-71adfaa2936b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my beneficiaries?"
+  }, {
+    "id" : "25902bb2-a503-414f-9d7b-28a2268fba57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my client beneficiaries?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "691c0dd8-6290-42ac-af7e-7723ee8de214",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I remove a beneficiary for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "33abda2e-8fab-4cfe-82ee-e7b242b1ed8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I remove a beneficiary?"
+  }, {
+    "id" : "fe58c0b1-309a-46dc-82e5-f2d188131813",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to add a beneficiary",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "1416b838-9857-4068-8574-0925a69b6945",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to update the beneficiaries on file for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0cbf2e23-1bcc-4423-ae00-ef26b201f8fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to change a beneficiary.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "a1d14e0c-7ee5-4168-b06c-f44c47fe7aa9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to remove my ex as a beneficiary, where can I do this?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "05f1ffb7-8c12-4e66-9c84-d0e38284f735",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "In the event of my death, who will benefit from this account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "2ed0c2a3-d4d9-4c33-a92c-30bccadc84f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a form I can give to the client to amend their beneficiaries",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a400dd1f-51a8-417f-951b-938de9bb53cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way I can change my beneficiaries?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "6bae0dbf-ac03-4a4a-9ed3-c7c766e2488d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way I can change my beneficiary details after I have created an account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5066a2b9-615d-4447-8606-c56dc2289f44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My beneficiary has changed addresses. How can I update this?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "dbf868ed-1bf0-40f3-ac46-89494f5bbd5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client wants to remove his wife as a beneficiary how do we do this?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "bedd96bd-fef6-4858-8dc2-3fa8a084b2d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me how I can change beneficiaries.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "56254049-1748-4615-8ec0-acbb52ef8304",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I change my beneficiaries?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "87c245a9-4aa6-481a-93cc-ab6991e72faf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see my beneficiaries?"
+  }, {
+    "id" : "b9fce19f-926d-4136-bfbd-6f146452ed33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see my client's beneficiaries?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "f9aa15c3-d78d-4c8d-992f-1f2ead9914c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to change the beneficiaries for a client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "28b12e61-d953-4ca0-9b7d-975a45b498af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Who do I have selected as a beneficiary of my account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ee31ef07-78da-4c81-9fb8-a7d4f76d0333",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Who is listed as a beneficiary?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "128d0580-f2f2-4ef8-ae00-448fe3c23409",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Who will benefit from this account when I die?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5f04b285-7737-4ed9-9339-cbcf2fc69aab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Who will inherit this account when I die?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5d0f556c-ff75-4674-8706-e41ed2619a90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Dependants"
+  }, {
+    "id" : "77dc7460-025a-43a0-842e-db2bf822a681",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i view my dependants"
+  }, {
+    "id" : "a5c293d8-60b5-4bbe-8f3b-9ed365c2045c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show dependants"
+  }, {
+    "id" : "ff5c39ca-a8b7-4b58-a6fe-ac15695fe837",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I amend my clients beneficiaries?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "8377504b-247f-4c74-abd2-d206bc642eac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see my clients beneficiaries?",
+    "tags" : [ "btmarchvariants" ]
+  } ]
+} ]

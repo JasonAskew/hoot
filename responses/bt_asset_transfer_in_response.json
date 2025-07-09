@@ -1,138 +1,214 @@
 {
-  "name" : "bt_asset_transfer_in_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "LIVE_CHAT",
+          "payload": {
+            "parameters": [
+              {
+                "name": "campaignId",
+                "value": "3392686470"
+              },
+              {
+                "name": "engagementId",
+                "value": "3392718870"
+              }
+            ]
+          },
+          "label": "Chat with consultant"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "POSTBACK",
-        "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-        "label" : "Chat with consultant"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account__advised_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_account__advised_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To initiate an asset transfer if you hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select the relevant 'Australian Standard Transfer' option, then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To initiate an asset transfer if you do not hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select 'Offline asset transfer - Investments' then follow the prompts."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To initiate an asset transfer if you hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select the relevant 'Australian Standard Transfer' option, then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To initiate an asset transfer if you do not hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select 'Offline asset transfer - Investments' then follow the prompts."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_btinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To initiate an asset transfer if you hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select the relevant 'Australian Standard Transfer' option, then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To initiate an asset transfer if you do not hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select 'Offline asset transfer - Investments' then follow the prompts."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To initiate an asset transfer if you hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select the relevant 'Australian Standard Transfer' option, then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To initiate an asset transfer if you do not hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select 'Offline asset transfer - Investments' then follow the prompts."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To initiate an asset transfer if you hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select the relevant 'Australian Standard Transfer' option, then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To initiate an asset transfer if you do not hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select 'Offline asset transfer - Investments' then follow the prompts."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_btinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To initiate an asset transfer if you hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select the relevant 'Australian Standard Transfer' option, then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To initiate an asset transfer if you do not hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select 'Offline asset transfer - Investments' then follow the prompts."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "One of our consultants will be able to assist you with this query. If you would like assistance, please select the 'Chat with consultant' button."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_asset_transfer_in_response"
 }

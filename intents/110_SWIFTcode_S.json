@@ -1,25 +1,28 @@
 {
-  "categorization" : {
-    "skill" : "accounts",
-    "tags" : [ "service", "kcb_kim" ]
+  "categorization": {
+    "skill": "accounts",
+    "tags": [
+      "service",
+      "kcb_kim"
+    ]
   },
-  "name" : "110_SWIFTcode_S",
-  "display_name" : "110_SWIFTcode_S",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "110_SWIFTcode_S_Response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "110_SWIFTcode_S_Response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "What is the Swift code",
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "What is the Swift code",
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "110_SWIFTcode_S",
+  "display_name": "110_SWIFTcode_S"
 }

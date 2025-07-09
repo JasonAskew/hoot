@@ -1,24 +1,31 @@
 {
-  "name" : "IntentMessageDisabledbtrequestforwithdrawal",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To better help you with your query, please sign in to your account, then ask again."
-      }
-    } ]
-  },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For assistance with reports for your Challenger Annuity, please contact Challenger on 13 35 66."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To better help you with your query, please sign in to your account, then ask again."
         }
-      } ]
+      }
+    ]
+  },
+  "segment_responses": [
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For assistance with reports for your Challenger Annuity, please contact Challenger on 13 35 66."
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "IntentMessageDisabledbtrequestforwithdrawal"
 }

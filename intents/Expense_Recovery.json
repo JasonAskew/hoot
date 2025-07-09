@@ -1,23 +1,23 @@
 {
-  "name" : "Expense_Recovery",
-  "display_name" : "Expense recovery",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "Expense_Recovery"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "Expense_Recovery"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "What is Expense recovery",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : false,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "What is Expense recovery",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "Expense_Recovery",
+  "display_name": "Expense recovery",
+  "alternative_question_eligible": false
 }

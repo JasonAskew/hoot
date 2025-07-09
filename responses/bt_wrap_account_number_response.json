@@ -1,44 +1,57 @@
 {
-  "name" : "bt_wrap_account_number_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "You have been issued with a new account number as part of the migration to BT Panorama. You will still need your Wrap account number should you wish to log into investorwrap.com.au"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "You have been issued with a new account number as part of the migration to BT Panorama. You will still need your Wrap account number should you wish to log into investorwrap.com.au"
+        }
       }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Your client has been issued with a new account number as part of the migration to BT Panorama. They will still need their Wrap account number should they wish to log into investorwrap.com.au and view the account history."
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Your client has been issued with a new account number as part of the migration to BT Panorama. They will still need their Wrap account number should they wish to log into investorwrap.com.au and view the account history."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_assistant",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Your client has been issued with a new account number as part of the migration to BT Panorama. They will still need their Wrap account number should they wish to log into investorwrap.com.au and view the account history."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_dg_manager",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Your client has been issued with a new account number as part of the migration to BT Panorama. They will still need their Wrap account number should they wish to log into investorwrap.com.au and view the account history."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_user_assistant",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Your client has been issued with a new account number as part of the migration to BT Panorama. They will still need their Wrap account number should they wish to log into investorwrap.com.au and view the account history."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_dg_manager",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Your client has been issued with a new account number as part of the migration to BT Panorama. They will still need their Wrap account number should they wish to log into investorwrap.com.au and view the account history."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_wrap_account_number_response"
 }

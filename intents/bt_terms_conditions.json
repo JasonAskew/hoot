@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "account_application" ]
+  "categorization": {
+    "tags": [
+      "account_application"
+    ]
   },
-  "name" : "bt_terms_conditions",
-  "display_name" : "bt_terms_conditions_inactive",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_terms_conditions_response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_terms_conditions_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "Do both clients need to accept T&Cs or just one?",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : false,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "Do both clients need to accept T&Cs or just one?",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_terms_conditions",
+  "display_name": "bt_terms_conditions_inactive",
+  "alternative_question_eligible": true
 }

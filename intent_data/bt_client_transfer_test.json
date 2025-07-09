@@ -1,0 +1,610 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_client_transfer_test",
+  "intent_name" : "bt_client_transfer",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "bc1da350-59e7-412c-a06c-49caca4e2c06",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change of Adviser request",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3bc19fc5-b7a3-4d74-aa85-0bc2687e5573",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change of adviser",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "31dcc9fb-5b83-4ca8-82ff-d519965b9c90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI there, what form do I complete for Change of Adviser?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "88538dc4-ed4d-45b3-9999-00af0f5347c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change of Adviser request",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bcdace85-03d3-45d5-8bf5-07a45bda66bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Change of adviser",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5eb2303e-c944-4274-9d13-8502045270db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI there, what form do I complete for Change of Adviser?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "4d9b1392-20ec-4199-a44d-6f2ee9aff4e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I would like the form that enables me to change financial adviser",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "290d9ecd-0b63-44b2-bf66-4b237c780f68",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where can I find a change of adviser form?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d0382c91-dd15-4fda-a433-01783a2b6512",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "add finaical adviser form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c12b4a27-90b1-4cbf-8b71-c2a85be8601c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adding accountant",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "fe323eb2-bbe9-477f-b4ec-97c79f4a21c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adviser office change",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "fe9a397f-b6f5-4942-b547-3126f63717b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adviser setup investor managed",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c474d456-88dd-4a4f-88c8-c2bb3f5bdc48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "appoint an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "39f176be-33d2-4422-bf94-feb29631804f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "appoint and adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "61f96e79-c2c3-4f6e-b991-b9a51611499f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "appoint new adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "166c9235-88f6-4943-820d-34ec723531ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "appoint us as new adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "51342367-bc4a-447c-adfc-4fd4a5c38837",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a account transfer between advisers form bed completed via docusign",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "539181e8-ef3a-4460-8c4f-9b503c157114",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please register an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "18bb6d60-e45a-4f4a-bfe2-40daae685a0c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise which form required to change adviser?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "76f826fc-9bc2-40b6-921f-b4f95584591e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change accountant and f / a",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dd7ec34a-bf20-4b53-a8f4-5b69939e968b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change adviser",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "277dbe21-c14b-4f2e-b46b-cab5ce1c2d23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change adviser code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "beef3004-9764-4c65-b3fb-86c9b4afba5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cceebbbd-e577-4ddb-afc9-b26f604cef93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of adviser request",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eeba04f8-a002-40d3-90a8-73af8f75376f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of advisor form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9264f2db-ea50-4196-96ff-fa824969b5ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of finiacial adviser form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2bedb136-d220-423e-b83b-ceda5e5b3d97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "appoint an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "87ae40f3-2f08-4f98-bd8a-662e7228d50a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "appoint and adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5c70b3d3-b67e-420d-be75-ef2abf41ae0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "appoint new adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0c8f70e0-ccb4-4cb5-ae83-20858897d5ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "appoint us as new adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cc3fff61-3e2e-4301-a1cb-29d116696f19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a account transfer between advisers form bed completed via docusign",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "33873259-a394-41b4-b1f7-6cb83e7f813a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please register an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a482c219-598d-4353-9715-fd059b3c819b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise which form required to change adviser?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "133ab8f7-5d3c-4c11-b899-7e224b96a42c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change accountant and f / a",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cd9c4f49-e79e-490c-bc87-d7e7a696525c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change adviser",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "1d641073-52f8-44cd-acb1-2d0565eb64c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change adviser code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e90866c2-b639-4ffa-a360-b11387c48a1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3d89f245-fdac-40a3-b968-fa8a07a9fb8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of adviser request",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f5c5a730-c1f6-454b-95c6-0d76ddb91dbd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of advisor form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6d3e2efd-0a3a-4ad6-9170-6925106cf840",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of finiacial adviser form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d9bd8428-8dfa-4eb7-b152-4778ec5f5758",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "appoint an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "07136235-9667-421e-b13a-e2c89ff8a211",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "appoint and adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "32431925-39e9-46db-ac0d-82bf91685da3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "appoint new adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1a4d4a44-eea8-402b-8bb9-05dac7b73c6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "appoint us as new adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "70e3d8f7-d3ca-4c86-b537-3b29a84c41c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can a account transfer between advisers form bed completed via docusign",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ec1545f5-451e-403a-aa6b-0a9878a36984",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please register an adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "794c7f16-9413-44d2-bfc4-ed4a74c52147",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise which form required to change adviser?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e06cb409-22ae-4e81-a2eb-49c3a6d4fe06",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change accountant and f / a",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fc23b91c-a191-4109-b36f-92a3e9874321",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change adviser",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0f5f28e3-4344-4f72-8e74-da7cae79f3c6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change adviser code",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bbdaa4a0-edbf-460a-bf25-8fd0539a7583",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9e81ac76-e49b-4813-8da9-f7bcc6ad3000",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of adviser request",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "59e76764-aec0-444b-8da8-50487cd0d98d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of advisor form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7e2e54c0-6f8f-444f-aa25-da98df9eac25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of finiacial adviser form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8d1f2ce9-e4bc-49a8-a54b-4bb3f664f0f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client trading permisition",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cde30cda-7082-4438-ac8d-2852ca342f0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form to transfer a new client to our adviser code",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f406adbf-6ba1-4ca1-9b2b-79a96745ab3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "giving advice to a client currently has panorama account with no adviser attached how do i nominate me as the adviser on the account after",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0bf67d47-2384-4f75-8161-63fec2634ada",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello how can i trasfer the client from one adviser to another",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ed6c711-aab5-478a-b1cb-650e4e869e75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help with transferring a new client",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5d9ca39f-6253-495e-b13d-82e2ec26b0db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you please help me find the change of adviser form",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "290029cf-a001-4d81-a538-27b8dd8d5850",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi change of adviser",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "56f39de0-099a-478d-8cd4-63dc0209d1f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have a new client with a panorama account how do i get added as the adviser",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "bad21dd6-ecfe-4b8f-900e-40fdf9a2668e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to change the adviser details to a new company can you send me the info to do this",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d564c730-a96b-4549-8115-b7ebf0cc11ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi im looking for the bt panorama change of adviser form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "225e552a-b0c1-47b5-a8a2-608b08022ffb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there could you please let me know what form is required to change financial adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b05b5a45-f756-41e4-9e17-47e2f814a2c6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i add a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2439a86e-2b61-4cc1-9402-6ac91b19055b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i add a client to the portal",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4ba980b2-b537-4f48-a84b-3db2d1761a2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i set up a new adviser",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "fddc4e30-6feb-4300-8752-800efb5a8daa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to add adviser details to client account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "32870457-ddf2-4676-a4b7-f0fe210e5cac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to add client access to account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5bd63501-6d76-45fb-b59d-5247033d8dc8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for a form to change adviser for a client 's account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bf0136ea-d61e-4d04-aa7c-31d8f9384490",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a change of adviser form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3344346a-245a-4189-bd37-6e908e79b317",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a chnage of adviser form for 1 client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c5a6f1bc-3f1e-4bd0-9f86-ef5165c2c7a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a form to take over servicing rights for a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b704ce7a-a6ed-4310-be0a-b57104c80f29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "link an accountant to a client account form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d4965a62-c722-4d35-a572-86c87774d830",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "move client from one adviser to another",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4c667506-f375-4d81-9580-7706cc616593",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "moving from investor managed to adviser managed",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1f8d8f54-e616-490c-83ee-d32be45f0fe5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new adviser form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "80a31c14-0ec8-467d-8cf5-caad65e0dfea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new adviser registration form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "062132ae-81a6-4382-86ba-69ad6ea5cc61",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the adviser details on my account are still incorrect how can i have this updated further - the fees have been paid to an adiviser",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1921f5b9-cb81-4d7a-a092-da9a82e67395",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer a client bt panorama account to my adviser code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fd0769fe-d840-4cc4-9d25-3a91c623f7eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer between adviser",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a49d2a2e-e6ff-4c2a-89c5-2242f46d2469",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer clients to new adviser code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2e7bc383-ee46-4c14-96cb-4535d53d4446",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to transfer this client to her adviser",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "75e1063d-a14d-4a4d-8132-278478fc85a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we need to change the adviser for a client 's account which form is it",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "630fb9ae-8c81-4068-b063-00b9ec50059d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we wish to change the listed adviser on an existing bt panorama account this is to be completed internally within the same licensee",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ca21a15-fa21-437a-a2db-0513a74e55b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the adviser details on my account are still incorrect how can i have this updated further - the fees have been paid to an adiviser",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "78093490-c606-4e0b-a481-a71b4cd2c890",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer a client bt panorama account to my adviser code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cb7d03f8-bc66-4dec-902d-ff9ff7cc401f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer between adviser",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "46deb59f-8f0f-4bd9-bf13-fbd1ae788d3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer clients to new adviser code",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "35c35161-d8d5-4c53-a173-0937d8e1a2cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to transfer this client to her adviser",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0f8359e1-5c67-42c4-9db2-30d48af11ee0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we need to change the adviser for a client 's account which form is it",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f396fd87-6be5-42a3-9189-167709daa810",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we wish to change the listed adviser on an existing bt panorama account this is to be completed internally within the same licensee",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2c9a04b1-4cc3-449a-9a06-81be18f32b42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what does \" transfer my accountant across\" on the Account transfer between adviser form?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "e1ead810-a20a-4485-8f02-12a489e5a11f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what form do you use to change advisers",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "fe6455a3-bf1e-4652-8422-903dbec72bdf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what form is needed to transfer an account between advisers",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e1a2b5a1-de80-42a3-b4ef-352337c413db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find a firm to make us the servicing adviser for a client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9fa9bc26-b87b-4be2-96c3-daa3a64d7c4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find an adviser nomination form - we need to change the nominated adviser on a clients super fund to us",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f589b0e2-b228-4549-8563-458307feace2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find change of adviser forms",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5fcdff2c-c5e7-4579-a72e-ce037d4ea91e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i locate a bt panorama change of adviser form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  } ]
+} ]

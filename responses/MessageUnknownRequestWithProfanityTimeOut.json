@@ -1,0 +1,20 @@
+{
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Perhaps I can do better. Please reach out to our team for assistance.",
+          "alternatives": [
+            "Seems as if I have room for improvement.  Please reach out to our team for assistance.",
+            "I'm doing my best, but I hope to improve. Please reach out to our team for assistance."
+          ]
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageUnknownRequestWithProfanityTimeOut"
+}

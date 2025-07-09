@@ -1,18 +1,32 @@
 {
-  "name" : "RATING_REASON",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "not_relevant",
-    "aliases" : [ "Not relevant" ]
-  }, {
-    "value" : "not_useful",
-    "aliases" : [ "Not useful" ]
-  }, {
-    "value" : "not_clear",
-    "aliases" : [ "Not clear" ]
-  }, {
-    "value" : "other",
-    "aliases" : [ "other" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "not_relevant",
+      "aliases": [
+        "Not relevant"
+      ]
+    },
+    {
+      "value": "not_useful",
+      "aliases": [
+        "Not useful"
+      ]
+    },
+    {
+      "value": "not_clear",
+      "aliases": [
+        "Not clear"
+      ]
+    },
+    {
+      "value": "other",
+      "aliases": [
+        "other"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "RATING_REASON"
 }

@@ -1,0 +1,154 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_wrap_employer_cont_test",
+  "intent_name" : "bt_wrap_employer_cont",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "0451cf20-def5-4cc5-af2a-d94435c33633",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to inform my employer to send my contributions to Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cd15e6b1-d50a-4d58-8cde-5a911cb71bef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to setup my employer contributions again?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "aa0bd84e-1344-45df-8caf-7c64b307a2dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do employers need to be notifief of a new super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cdf0c2eb-6a74-4545-8917-0ba0efe3e675",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does my regular employer contributions for super be resumed as normal in Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3e552fe1-4bea-4a0e-b0d7-c3f008638695",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning. Every year I strip some funds out of my employer super and move to my SMSF. Could you let me know what needs to be done. Wondering if forms and process has changed since move to Panor",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "35a18112-3e25-4880-972c-739200ac14db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I know if my employer contribution will be automatically carried over to Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8db9adcf-afce-4d13-b9f3-4911798c6f33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How will employers know where to send my contributions after moving to Panorama",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ff74e644-fc4a-4f20-bec8-4376ea612951",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to inform my employer to send my contributions to Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a92a118e-3b8f-4458-95a2-35cc4597580d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to setup my employer contributions again?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3212c4e8-9d21-499f-bb50-52e7b03daef6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do employers need to be notifief of a new super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7d8eb0fd-d695-44d8-aed7-8436f4828b13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does my regular employer contributions for super be resumed as normal in Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fd9368da-8c92-41fe-b36a-12d883f90159",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning. Every year I strip some funds out of my employer super and move to my SMSF. Could you let me know what needs to be done. Wondering if forms and process has changed since move to Panor",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "9c890a31-f938-4896-a905-a724539195eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I know if my employer contribution will be automatically carried over to Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4eaa8399-a428-4f49-80e4-37af25bba6bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How will employers know where to send my contributions after moving to Panorama",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e12eff98-2c17-401a-893a-e0ecadbad779",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I have recently changed employers and i am in the process of changing from there super to bt panorama my question is with my death cover and TPD the cover type is employee tailored cover is this still",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "63504fa3-68d1-444a-9837-f41bb2382041",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible to carry across my employer contributions to Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f2d2a7ae-ecae-4699-abfc-1b9d8769f87a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "My client's employer needs to make an SG contribution to her super using BPAY. Can you please provide the information for the employer to pay into her account 111111111 (Bob). Thanks, Bob Treweek, F",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "ab9a4ac9-3edc-477b-b1fd-c5bc327002b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my client's employer contributions be migrated to Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "83b2a0a3-3532-43cf-97d5-fe698f25da8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my employer contributions need to be set up again in Panorama",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "037e888a-9c02-4400-b256-7f80a211d0f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are my regular employer contributions automatically carried over from Wrap",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "50191210-ede5-4702-9bb2-f1a8f7f5e663",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are my regular employer contributions automatically carried over from Wrap",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6af4152e-837b-4056-b813-415b5c9732c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are my regular employer contributions automatically carried over from Wrap",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7eec7160-beb1-49dd-8578-3900755d510e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "morning blue i was wondering if i need to advise my employer of any changes re my super contributions",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "42344a2e-642d-403b-bd42-3670c238863e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when is the employer required to deposit the Superannuation Guarantee and salary sacrifice amounts ?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  } ]
+} ]

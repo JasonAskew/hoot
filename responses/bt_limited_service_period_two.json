@@ -1,30 +1,36 @@
 {
-  "name" : "bt_limited_service_period_two",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Prior to BT super accounts merging into Mercer Super, there will be a limited service period for certain features  while the transaction is finalised."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Prior to BT super accounts merging into Mercer Super, there will be a limited service period for certain features  while the transaction is finalised."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "From the 23rd of March 2023, all account detail changes, rollover of funds into BT super as well as member, employer and government contributions will no longer be available."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "For further information, please press \"Go to page\"."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "HYPERLINK",
+          "payload": "https://www.mercersuper.com.au/bt",
+          "label": "Go to page"
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "From the 23rd of March 2023, all account detail changes, rollover of funds into BT super as well as member, employer and government contributions will no longer be available."
-      }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "For further information, please press \"Go to page\"."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "HYPERLINK",
-        "payload" : "https://www.mercersuper.com.au/bt",
-        "label" : "Go to page"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_limited_service_period_two"
 }

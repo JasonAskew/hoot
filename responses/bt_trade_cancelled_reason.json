@@ -1,20 +1,24 @@
 {
-  "name" : "bt_trade_cancelled_reason",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Trade could cancelled for a number of reasons including below ones\n1) Liquidity in the market\n2) Market Volatility\n\nClick on Check Trade Cancellation to check the reason for cancellation. \n\nFor trade with cancelled status, click kindly click on the button below to chat with one of our consultants."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Trade could cancelled for a number of reasons including below ones\n1) Liquidity in the market\n2) Market Volatility\n\nClick on Check Trade Cancellation to check the reason for cancellation. \n\nFor trade with cancelled status, click kindly click on the button below to chat with one of our consultants."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "HYPERLINK",
+          "payload": "#ng/tracking/status",
+          "label": "Check Trade Cancellation"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "HYPERLINK",
-        "payload" : "#ng/tracking/status",
-        "label" : "Check Trade Cancellation"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_trade_cancelled_reason"
 }

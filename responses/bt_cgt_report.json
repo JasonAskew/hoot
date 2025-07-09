@@ -1,79 +1,101 @@
 {
-  "name" : "bt_cgt_report",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "You can download your Realised and Unrealised capital gains report from the 'Income & tax reports' section, by going to the left navigation menu and selecting 'Reports'."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "You can download your Realised and Unrealised capital gains report from the 'Income & tax reports' section, by going to the left navigation menu and selecting 'Reports'."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To change the capital gains tax preference, navigate to 'Account details' and edit the 'Tax preference'."
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To change the capital gains tax preference, navigate to 'Account details' and edit the 'Tax preference'."
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You can view your clients Realised and Unrealised capital gains information under the 'Capital gains' tab."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To generate Realised and Unrealised capital gains report's, Navigate to 'Report packs' then select 'Income reports'."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To change the capital gains tax preference, when in the clients account, navigate to 'Account details' and edit the 'Tax preference'."
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You can view your clients Realised and Unrealised capital gains information under the 'Capital gains' tab."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To generate Realised and Unrealised capital gains report's, Navigate to 'Report packs' then select 'Income reports'."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To change the capital gains tax preference, when in the clients account, navigate to 'Account details' and edit the 'Tax preference'."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query could you log in into your account and please ask me again?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account__advised_super",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You can download your Realised and Unrealised capital gains report from the 'Income & tax reports' section, by going to the left navigation menu and selecting 'Reports'."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You can download your Realised and Unrealised capital gains report from the 'Income & tax reports' section, by going to the left navigation menu and selecting 'Reports'."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You can download your Realised and Unrealised capital gains report from the 'Income & tax reports' section, by going to the left navigation menu and selecting 'Reports'."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query could you log in into your account and please ask me again?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account__advised_super",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You can download your Realised and Unrealised capital gains report from the 'Income & tax reports' section, by going to the left navigation menu and selecting 'Reports'."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You can download your Realised and Unrealised capital gains report from the 'Income & tax reports' section, by going to the left navigation menu and selecting 'Reports'."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_advised_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You can download your Realised and Unrealised capital gains report from the 'Income & tax reports' section, by going to the left navigation menu and selecting 'Reports'."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_cgt_report"
 }

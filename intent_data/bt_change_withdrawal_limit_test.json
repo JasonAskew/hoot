@@ -1,0 +1,334 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_change_withdrawal_limit_test",
+  "intent_name" : "bt_change_withdrawal_limit",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "768c64db-cfae-4ddd-98ce-4ed89a0876f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I increase my withdrawal limit",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6bcdea2d-07b3-4ed9-97fe-d341452d59e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, How do I increase my daily limit please? I have a large transaction coming p as a one off and need to know how to do it, thanks.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "603b1482-e136-4978-ba74-191b9d3ce2dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my daily withdrawal limit",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "71315da5-4137-483a-820a-12e24c3188ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I increase my withdrawal limit",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "748ef3cb-7144-4a68-bc64-17069edaf067",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, How do I increase my daily limit please? I have a large transaction coming p as a one off and need to know how to do it, thanks.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "61388955-8ef0-4f78-ab98-0926f95b1097",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I change my daily withdrawal limit",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "dde277d8-19c2-4390-9b7f-ed42beb90be0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to reset my withdrawal limit",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c5d5b495-bac9-44ca-980b-3e7e4a016ca4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to increase the amount on my withdrawal limits",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2bb133e7-f286-4753-be97-1e9a616f9a56",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to update my withdrwal limit",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "56be4fdd-c5df-42fa-bce8-7117f2284461",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to change my daily limit",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "abdc9987-983a-4149-abd9-e57923763015",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Payment limit",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "349f7855-e86b-49be-8c57-7ccddc6f6477",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where to update my withdrawal limit?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7a8f4880-2f56-48bf-8bde-58f45fa6d081",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay daily maximum change",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6fcfd04a-070e-4dd9-b817-1c0ca77b21f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i increase the minimum cash from 1111 $",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "52acb935-399c-434a-bf70-56b2dbad5f62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we increase the amount in the default cash acc",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "7208022a-1836-476f-94fe-49ff7167a87a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change daily cash limit",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2f5bb995-ce77-4792-b488-2501af483cb8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay daily maximum change",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ed203da1-46de-42f0-a245-824d483b6386",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i increase the minimum cash from 1111 $",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "007d6436-8055-4d4f-9e32-fcf54ff7ba19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we increase the amount in the default cash acc",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b3f130fa-e831-485f-82cf-777dcde26ba8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change daily cash limit",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1ce327d3-42d0-4ea2-8588-78a93787daa8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bpay daily maximum change",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fe73c081-181a-45fa-aebd-9ccef8396c69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i increase the minimum cash from 1111 $",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eb9cc537-26aa-4837-963f-d2580ec78f19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can we increase the amount in the default cash acc",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "1344b1d7-dc84-4de6-a069-625981b3ffbd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change daily cash limit",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0e74580d-7a20-46be-b430-69523b8cca90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "daily cash limit",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "55a7aef3-190c-4e03-9af7-beff43b31f57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "daily limit increase",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "819694b2-eda6-4b32-9413-c13643f20d5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "daily limit to linked account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a51ebe6d-9972-46b3-afe5-f1e900779a03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "explain how to update my withdrawal limit",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "efb33f83-aa16-418c-aaef-f3fd0ddb8ee8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello are we able to raise the limit",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1400f82c-484e-4fe1-be73-48968df95ce1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me raise my withdrawal limit",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fceebbe9-6f43-44a8-8667-056c7e8007db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue i wish to transfer money exceeding the daily cah limit please provide me with the contact phone number of someone to speak to",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8201cf0f-457e-4308-bfd1-002b8199da96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i change the daily limit just for 1 transaction on our clients account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "4db0d695-3d71-4f7a-8f5e-025210ba6312",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can I change daily limit of withdrawal",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2319008b-60e2-4f02-b9be-765447786ac1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i change my daily withdrawal limit",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2971cd42-10bd-4cfe-993e-4b23fa12ff9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i increase daily limit",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "57454daf-0b5f-49e3-b7a9-a3fa9feb3bf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not remember how to change my daily limit for withdrawals for 1 day",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2aed8e6d-614e-4eb9-90ed-bf1f36fea926",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to change my bpay limit",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a6a108be-f9cb-4ace-b2ee-635a38c27aed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to do a large one off payment can you advise how to change daily limit please",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "93d4cac6-aa20-4570-b83a-c35b8223e27f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "increase pay anyone limit",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "22894b7e-2616-4ce3-a01c-20ad06ace131",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a limit to what can be paid from a linked account to a bt account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9178dd4f-ff66-4a52-ad90-fea0fca090bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "limited transaction email",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2d06cd85-1ca0-4d6f-beac-22eefc6cdb22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "maximum daily amount",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9f4a8255-a09d-4f3c-ad0e-9f35113ab8e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "maximum daily transfer limit",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b997103e-dd3d-464d-a3fd-36b2f977c64f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "morning can you direct bob to someone who can advise the maximum amoutn i can withdraw form my member account 111111111 please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "539a9178-e30d-4845-8fb6-21a55d800be5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no not a daily withdrawal",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "79c24132-fb25-4ce6-a693-b32ad2c501c6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pay anyone daily limit",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0c6aa189-6fbd-4270-afeb-1d2a23a7d350",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pay anyone maximum limit",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f3eea8b6-335b-42ef-85a5-4111242ee60b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio limit",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "912a6116-feb1-487d-b3e8-423a01e7799d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update pay anyone limit",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3d2b9a9f-aa89-4698-8163-192014f1d9d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update pay anyone limit",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ec0fba11-8ca0-4f68-8e78-e49bf854de40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the maximum daily limit for a lump sum cash withdrawal on my bt panorama super account acc no xxxxxxxxx bob moray mcsevich",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8e41b7b2-2a29-4a75-8afe-8437fcb4a17f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "e5df6064-8859-4dd4-a9da-c68fad786700",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the payment limit",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "62a4add7-27ca-430a-bb56-710ee3c15609",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can i not withdraw over 11111 $ from account 111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  } ]
+} ]

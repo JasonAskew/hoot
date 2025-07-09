@@ -1,33 +1,42 @@
 {
-  "name" : "VpaHelpDefault",
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Great question. I'm Kai, and I make banking easy. I can tell you about your accounts, help make payments, search your transactions, and answer questions."
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Great question. I'm Kai, and I make banking easy. I can tell you about your accounts, help make payments, search your transactions, and answer questions."
+        }
+      },
+      {
+        "type": "CONTAINER",
+        "payload": {
+          "mode": "CAROUSEL",
+          "contents": []
+        }
       }
-    }, {
-      "type" : "CONTAINER",
-      "payload" : {
-        "mode" : "CAROUSEL"
+    ],
+    "quick_replies": [
+      {
+        "type": "TEXT",
+        "payload": "Spending patterns",
+        "image_url": "https://s3.amazonaws.com/kaiassets/tutorial/v2/txn+search.png",
+        "label": "Spending patterns"
+      },
+      {
+        "type": "TEXT",
+        "payload": "Up-to-date balances",
+        "image_url": "https://s3.amazonaws.com/kaiassets/tutorial/v2/GUAI.png",
+        "label": "Up-to-date balances"
+      },
+      {
+        "type": "TEXT",
+        "payload": "Answer questions",
+        "image_url": "https://s3.amazonaws.com/kaiassets/tutorial/v2/FAQ.png",
+        "label": "Answer questions"
       }
-    } ],
-    "quick_replies" : [ {
-      "type" : "TEXT",
-      "payload" : "Spending patterns",
-      "image_url" : "https://s3.amazonaws.com/kaiassets/tutorial/v2/txn+search.png",
-      "label" : "Spending patterns"
-    }, {
-      "type" : "TEXT",
-      "payload" : "Up-to-date balances",
-      "image_url" : "https://s3.amazonaws.com/kaiassets/tutorial/v2/GUAI.png",
-      "label" : "Up-to-date balances"
-    }, {
-      "type" : "TEXT",
-      "payload" : "Answer questions",
-      "image_url" : "https://s3.amazonaws.com/kaiassets/tutorial/v2/FAQ.png",
-      "label" : "Answer questions"
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "VpaHelpDefault"
 }

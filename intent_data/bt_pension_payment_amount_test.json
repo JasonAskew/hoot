@@ -1,0 +1,94 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_pension_payment_amount_test",
+  "intent_name" : "bt_pension_payment_amount",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "8009fbd9-a011-4ce4-8748-8138e6a2a081",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do I get for my pension payout?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4d342b64-2111-43bb-9dc9-d717eb21d5ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will my pension payment be each month",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4e27109c-af1d-46e2-b926-b32003d722d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will my retirement check be next month",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "72be9f83-f05e-46e2-b7ae-ea7e5d5f5d17",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do I get for my pension payout?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5fdee3df-7ea2-4b74-83b7-1ea681de1533",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will my pension payment be each month",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dc1d8e74-c90e-4eff-a816-077a06ca41b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much will my retirement check be next month",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "04db1f66-2b48-4b80-86ee-1e8dbd539643",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me my pension payment amount",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "22449405-090b-4cc5-acd8-8f8327601004",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What will my retirement payout be",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d420c603-f0ff-4172-98bc-26c69f06d4e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if i lower my schedualed monthly payments will it lower the projected payments for this fy",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a7bc15b1-d533-403f-8e06-541aed57cd5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my monthly pension payment",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b0b7886a-e5ca-4d7d-a97f-976f1a2add72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension payment details for a client",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3d44b621-d680-4781-9473-8566fdb24d3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "specific amount for pension is this annual figure",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "053e6cf7-0bdc-43d5-876f-2b4cac0e63b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the amount of my monthly retirement check",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4a10dfa3-2954-457d-8b0c-560eb308dd18",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what will I be getting for my pension payment",
+    "tags" : [ "goldset", "test_gold" ]
+  } ]
+} ]

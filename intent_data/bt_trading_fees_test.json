@@ -1,0 +1,586 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_trading_fees_test",
+  "intent_name" : "bt_trading_fees",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "d08d0b5f-6c4e-442b-8251-df8867231c06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the fees for {@account_type trading} unit trusts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "87e87400-71e1-4046-8006-aab433d0c5be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fees for online {@asset equity} {@account_type trading}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d80dd9f8-7585-456d-832d-9972ab9140ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "For online {@asset equity} {@account_type trading} platform, are there fees for dividends?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bdd5babe-bc83-4511-84a6-b833b7906de8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, I would like to enquire about the {@account_type trading} fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1333d00d-0cfa-4ed2-ac75-70f7ff475cb1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, what is {@asset stock} {@account_type trading} transaction fee for iWealth user?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "54c980c8-c84a-495a-848f-45d8a1b77121",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do you charge for {@account_type trading}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "774611a2-9430-4905-a219-8ea9c0160e0a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't' know why you charge me fee in {@users my} {@account_type trading}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "16ff111a-1ad6-4445-ac19-952276e0b14d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the fees for {@account_type trading} unit trusts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b2b249a1-bb34-46f8-8ee2-7743ba0bcc41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fees for online {@asset equity} {@account_type trading}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "01645cea-d528-44a1-9cb2-888eaf40fce3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "For online {@asset equity} {@account_type trading} platform, are there fees for dividends?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a97c334d-e219-4a36-be25-c92c7f031df6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, I would like to enquire about the {@account_type trading} fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4757e7fa-c86f-4b6a-8814-4e9283d9255d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, what is {@asset stock} {@account_type trading} transaction fee for iWealth user?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "defe8e57-be0f-480b-be70-bb940cb3b8c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do you charge for {@account_type trading}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bde0608d-0aa0-48d9-91a0-b0a9aaba2f0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I don't' know why you charge me fee in {@users my} {@account_type trading}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "07fc6cc3-5d2d-4880-ad14-30d2b0db613d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have a share certificate of a {@asset stock} and would like to put into {@users my} security account for {@account_type trading}. How can I do it? Any fee?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6158e877-9ec4-4320-be9c-9c93f97d70b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want you to refund you have charg me fee for in {@users my} {@account_type trading}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f99dd45d-491a-4830-8fc0-107f96ce5092",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to find out about {@account_type trading} fees.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1ab0fa39-9716-4dbb-9907-f9e6ede8a880",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to know the fees related to the {@account_type trading} transactions",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7c735bab-e050-4212-a018-e437303cdb5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to know about security {@account_type trading} fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c8953551-0290-46f4-bbf9-e7684352a51e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is the {@account_type trading} fee for corporate vs individual the same?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b60ab7fe-d61c-408c-95c6-f19cfe446be0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Just a simple question. {@account_type Trading} Fees for online trading/",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8851ed97-fd5d-46bd-9c75-0ee8a3c9ee1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Online {@account_type trading} charges of {@asset stocks}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d13fc4ac-c526-418e-b3a6-6c3edb410510",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Online {@account_type trading} contra fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "33ee678e-7af4-4d1e-9be5-e1fe80d47934",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Online {@asset equity} {@account_type trading} fees and charges",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0152ce67-ca51-44fa-ae0a-5ac6fd713954",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Paper fee on {@account_type trading} accojnt",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6e11da64-db4b-40ab-97ec-fff78a82f90f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "SRS {@account_type trading} fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c3560d93-bfc9-4661-a04a-4456777c360e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "US {@account_type trading} custody fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ee7edfcb-1c2c-4bfe-9756-ec1edefb9584",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Want to know the fees for {@account_type trading} reit",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6c9bb58d-717f-4766-a5cf-7b92451a40de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the charges for online {@account_type trading} of {@asset stocks}.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b75cf584-cd47-436d-bb24-8a11a8e5abc4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the fees associated with {@account_type trading} accounts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b99786e1-bb97-4671-ba16-5fc6abf76284",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What fees do I need to pay for online {@account_type trading}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bdbc4fa4-79f6-4a35-93df-1ad44f2efb61",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the online charges for {@account_type trading} in {@asset stocks}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bf2fcb23-ecf3-46d6-97b2-9b9ca22dbd85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the online trading {@account_type brokerage} fees?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4354d405-e742-4b52-8309-f31361f0d149",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the {@account_type trading} fee for trading the same {@asset stocks} within a day",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b350258b-f567-4483-a447-b9130555ad9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are the fees charged made up of annual dollar fees as well as a % of funds under management",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "5a4e1639-6ad0-4e07-ba64-89457080b298",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama {@account_type investment} managed fund transaction fees",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a12e32dd-e696-4bbf-8dc7-34fdfdebda78",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I know the fees and charges for US shares {@account_type trading}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "61382b82-b9b8-41e4-882b-852e64e4b1fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charge and fee for {@account_type trading} online sharesg",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f3d49005-0bb8-4441-8cfe-3785c82d22ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are the fees charged made up of annual dollar fees as well as a % of funds under management",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "35b5390b-e980-46c7-b34e-bb89372d5b18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama {@account_type investment} managed fund transaction fees",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "798b9738-9567-4dac-93e0-e9d4970111a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I know the fees and charges for US shares {@account_type trading}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e3716c88-47e3-4995-8718-7ac9dbd97974",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charge and fee for {@account_type trading} online sharesg",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d9e19604-b171-4c05-b0a5-6fb157d997b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are the fees charged made up of annual dollar fees as well as a % of funds under management",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "0702bb99-e3aa-4744-8206-12e02afb28b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama {@account_type investment} managed fund transaction fees",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d556dfe8-abaf-42ae-b53b-43f8d99a2437",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I know the fees and charges for US shares {@account_type trading}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "95e1f7da-336a-4669-a1c1-f3f3dc9317f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charge and fee for {@account_type trading} online sharesg",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b56628f2-6d70-44c5-9aa1-be7c44c5dd96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee for managed funds",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c07be3f2-8a8c-4a27-8c72-daf38676a5e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fee for srs {@account_type trading}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5db64b99-a974-42da-a859-8817ddb07667",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fee for {@asset equity} {@account_type trading}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "772cb82d-497a-4b43-b2bf-a7edb647d361",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fees for young {@account_type trading} account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "47955723-fb9e-462c-b94b-9cbed31cbde6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fees for {@asset equity} {@account_type trading}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "03a046c6-fd14-4109-a11d-52fe6d4d6c3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fees on selling listged securities",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b5def04a-48eb-4f3b-a78c-f7c84e7468b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i wanted to confirm is there is a fee payable for ofmarket transfers",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "25407a21-7e15-4293-aa9c-d4e70ff1b735",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue looking for fees for your managed funds",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3c6d5863-8b6b-4453-b128-659829410155",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is the {@account_type brokerage} on an investment account please",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ed0eeec-8e80-4f1d-8f9b-27ab2e30a350",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how are {@account_type brokerage} costs charged if i have a portfolio with 11 different listed securities with a total investment value of 111000 $ this is",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7303b38f-9611-428d-99a4-7344d072d68e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much is the fee to transfer shares out of online {@asset equity} {@account_type trading} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8a95309a-249c-41bc-9d09-2277dbd42384",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much is the {@account_type trading} fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0a538dd7-769a-4d47-baeb-5bcaea3a1ccc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much is {@asset equity} {@account_type trading} fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d13254b9-6853-4373-b22c-99efc49ab590",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if i am selling shares what is the share {@account_type brokerage} fee",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5f814898-9a3a-4d5b-a932-1d99654ecd8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if i sell {@users my} {@account_type investments} do i still pay a fee for super?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "9b722b6b-322a-49fc-b66c-413ed2a49cce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a fee for buying managed funds",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c676856b-08e4-4e82-8983-ed6406122696",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "managed fund cost base",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "50d3fffa-eef2-4884-b24e-3c46bf5db45b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "managed {@account_type investment} transaction cost",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "75555a36-2af8-4f11-81ea-2586db420fbb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "minimum {@account_type trading} fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "22fecbe5-874b-4a1b-aee1-252127751eb2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "share trading {@account_type brokerage}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7deee32b-33b9-465d-865e-d38bacfcd578",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "share transaction cost",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0921bf95-fccd-43ca-a269-8c672f618bb5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me {@account_type trading} fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c740670f-bc21-4709-96b9-b56be62fc6df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there are a few different shares and i 'd like to sell 1 of them but i need to know what fees incur when i",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "24491a87-4212-4a12-b591-167aabb6a83e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there are a few different shares and i 'd like to sell 1 of them but i need to know what fees incur when i",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c501c920-95fc-46c2-8191-5fd5333a331c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is a custodial holding fee",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "84083fc3-9add-4608-a119-fc8d9f7d6c14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is bt panorama {@account_type brokerage} cost for selling shares",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "29affc97-f7c8-4ef2-bcfc-1fe21a431f5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the commission charged for your online {@account_type trading} platform?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e978a70d-465e-4e1b-afc9-5883f1e64bed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the fee for asx listed buy sell transactions",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1227a245-dbeb-4f6d-8ed6-e018296417a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the share trading {@account_type brokerage} fee charges?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f71d7be3-5883-4526-a439-0562b59a35e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the share {@account_type brokerage}",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7fa953c9-32b3-4cc8-a454-857155db7971",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the transaction cost when selling a managed fund",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0d418905-31fe-4df1-81ef-b911998ec844",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the transaction costs when purchasing {@asset etfs}",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0617532d-e4a8-4196-9799-1f81ce4bac1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the {@account_type brokerage} fee",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "28351db7-5a34-4fe6-b38f-1b1d2a9bb3c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the {@account_type brokerage} fee for shares",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "871ca408-dd71-487a-b041-4d08a4d19b42",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is us {@asset stock} {@account_type trading} fee?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1f2de528-c7d2-4b33-a17a-35bcdf127f6f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is {@account_type brokerage} charge for online {@asset equity} trading",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e6357fa0-0d54-44c4-b21f-e974797b96fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is {@users my} {@account_type investment} fee on the index international shares",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "02502a9b-222d-4254-aa56-5b1c0c6b3ded",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what report has the {@account_type brokerage} fees",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c71e5821-6055-4f4f-96a7-0aa07877b5fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's your online {@account_type trading} fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "18d186cc-4632-41b8-adc6-27f3eb6e21ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@account_type brokerage} cost",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d0a353c2-f2dd-4c0c-8aa7-e48d4527ff60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@account_type brokerage} costs",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9dfea95d-dc3a-4493-a535-205f9006df38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@account_type brokerage} fees",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4fcfdaf0-7302-424f-9a4d-6aae33e1adb0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@account_type brokerage} fees for buying shares in super accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4cfbb7b2-d668-4e34-bc5b-05dc9ce45de9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "{@account_type brokerage} fees when buying direct shares",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e7cb1a1e-6f48-4396-ad03-1be464896397",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@account_type trading} custody fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dafa9789-5c9a-4bf8-8dcb-2a59f3816876",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@account_type trading} fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "acdfa8c6-f59a-49ae-9f0b-f317c738ec9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@account_type trading} fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7d7d4098-6f9b-42c6-924d-09d26da19094",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@account_type trading} fees {@asset stock}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d4fe06cc-2cf5-4458-8ef4-5b0be3cbfa65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@asset Equities} {@account_type trading} fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "250b1f56-d7b1-453c-8b15-e86ded94aec9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@asset equity} {@account_type trading} fees and custody fees",
+    "tags" : [ "goldset", "test_gold" ]
+  } ]
+} ]

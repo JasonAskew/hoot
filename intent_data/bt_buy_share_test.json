@@ -1,0 +1,2146 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_buy_share_test",
+  "intent_name" : "bt_buy_share",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "e9b4d0e6-ebf6-4b20-80ba-23bd46f1338c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to buy mFund units through Panorama by the way?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "a3964585-6f2b-4bbf-8dad-a85afdd79160",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "BT technology. Is it possible to buy the fund via BT invest",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "92a1a0e1-0606-430b-9416-36694094bd6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Buy",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "64d5fe74-62b9-4ca1-bdfa-ad1792f741e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Buy an investment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fa74b7d7-da85-4810-9873-0220471fb13e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Buy fund shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a309eaa2-a1a1-4ada-ae47-562df7598eb7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Buy investment",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "54aa0b1e-5161-44c2-9c29-e563bbd17f90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I buy one of my funds",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f934c1f2-4529-4dbe-8fc4-4eeb64cfacc4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello how do i purchase shares with my account?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "830c6f40-9aea-4ae1-be33-4eeb36e809bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi There, just checking if international shares can be purchased from here",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7cd2f234-8b6e-4c3a-a921-39cc683eeea4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I buy bonds online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "75c3c53e-c791-4e0f-94e1-f4c2c3b4e910",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to buy an asset",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "67a28f7f-2b59-4127-a9ca-04de4675b6e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to buy mFund units through Panorama by the way?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "1f4cbcb0-9402-4d7d-a6ce-d90fa066fd12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "BT technology. Is it possible to buy the fund via BT invest",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2a806464-ef96-49df-8c15-9ad0df5db5dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Buy",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "4b654839-20e1-44fd-8b51-98a78fecf463",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Buy an investment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "020fa675-a721-4ed1-8267-782e81e08732",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Buy fund shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a9d5bfdb-c46c-40b7-9dcf-fe166f45027a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Buy investment",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "a4eb577f-e26e-4a9d-bed8-017abf68cfbb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I buy one of my funds",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0e4d9a4b-41ed-41a9-95af-4d60b03e9c4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello how do i purchase shares with my account?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "57c409d1-3fa7-406a-988f-36839c0a5498",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi There, just checking if international shares can be purchased from here",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "fc90a80e-8dd0-4151-bee5-12fecc0663d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I buy bonds online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "964c675e-d500-436b-b7af-fc2d058c6cb3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to buy an asset",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "91c1fd78-da66-40d8-98c0-a9e9dfb32bcb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to buy shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2bd7d8b7-ed4b-4fa3-9ced-1449c11e2d6e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place an order to buy stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "df2793ec-8dfd-4ab5-88ae-8f917f5f34b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to buy some stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "350a6dc6-4abb-4c54-b01f-d5dd13457995",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Is there a way to set up a RIP for buying managed funds?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "637721ff-c535-4f05-9ba9-3105b115b884",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go to buy shares?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f3135d7e-5c73-4293-bd1e-79fb5b9a7af8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob to buy vanguard managed fund",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2ef42d22-225c-44eb-af8f-804f7656d691",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dc33e6a6-b1b2-40d7-86aa-a4396b0fdcd6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1 share of allstate",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "99ac0cf2-e34c-40d7-b38b-ad59cc7e8980",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1 share of amd",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "286a9138-19d1-4f70-b405-6479b8761398",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1 share of google",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1a5ba79a-dfd4-4c44-8562-6413b22302e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1 shares of uber",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "301a7186-342b-4b51-990f-de4461e5e708",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 100 shares of nflx",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4addea70-81cd-4b21-979d-233045903cb0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 100 shares of v",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3979a7cf-48bd-4158-a470-c21f35a5049f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 11 shares of cvs",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0ec5405c-5feb-423b-a68b-6fd157726fdc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 dollars stocks of aapl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "190f6c24-fea3-479d-b8a3-7ee8960dee5f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 shares of facebook",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f4024268-7e87-4a02-9a33-10b4d037bcf0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 shares of fb",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "587a87a6-9bb6-430c-922a-406eae3bbf59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 shares of ibm at the market",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7b29a7b6-023f-4581-bc7e-8ffdcea81b7f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 shares of uber",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "908deaf4-668c-4fa7-a9d7-a55e6a98f95a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1111 dollars stocks at market",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ae2a45ed-9d38-4bee-98d0-6d2d3d44f891",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1111 shares of microsoft",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3374a33c-d832-435e-81c6-306c997f9b20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy a share",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "a40657cc-6795-4fb5-917c-cbec37452213",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy aal",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0b2844ab-ffd6-442b-8b41-9df5401404ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy aapl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d30d460d-ef6a-45c0-a0aa-ac32eba446cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy acn using account 1111",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b7bd6785-ffbb-427b-b191-1247d209e1f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy adp",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "933135f5-d2dd-47cc-9638-7487ad135f1c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy appl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "08fddc9a-58e3-4769-9ade-bc1788e6271a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy apple",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ec07ddca-7f73-42ee-83d2-538b9abe4d58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy apple stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "90e9a2bc-f0df-4ce4-893f-ec5c61e4250f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy at and t",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0f5b9d8d-ac9e-407c-86a6-06987577653e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy baba",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b4ad4021-787c-4690-a403-a2a3579f520e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy billizard",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "04f876d7-658a-4477-865a-a6ccccc08361",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy blizzard",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cfa104f4-1a4f-400c-a324-c06c00f60caa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy boeing",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1811e422-3ac1-49b1-90bc-65b5a04ed5c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy cvs shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9814555e-49a8-41ed-b3d5-f6d87a07b900",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy dfs using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2b1ce972-6938-429e-8a3b-9e4c35ce5dc1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy fb",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "865493df-c1d6-47b2-a2cd-2272f5cef102",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy fe using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7e214d3b-6d54-487b-9a72-bafb74ced44e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy fl using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1825b6c4-13b8-4a29-aa71-1d13aeba7efe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy fund",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "511c0449-c3c6-417a-8433-25a62d52f39e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy goog",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fee42a73-2bb9-46aa-8ccc-3b10bc06faef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy googl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4650ae31-5395-4115-93e6-2279c4288159",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy hsic using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "928048bb-1624-4a74-8cff-1d4498bcc5c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy investment",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "513c8b29-f1b1-4e50-a891-0fd08ab7e3a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy investments",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "29937a4c-e737-4be6-9b91-be66bdfd5abf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy m",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2bf12ed8-77c6-4796-982d-b4e49c98c2a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy macys shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a93fe29e-9831-437d-a643-26ff64402861",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy mmm using account 1111",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d6026712-4321-4ba0-9930-88b4b70c1f05",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more facebook",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "01eb0d68-6fad-4929-a0d4-02a8c8c602d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more health care stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b48df8b5-87b1-490f-b720-bc3cb04201d0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more hsic stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8fca66a9-5484-43f3-8bed-5e74238ed5fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more twtr",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "07e1393b-d3c0-40f6-baef-c09bc0888e3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy one share of aflac",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "75d12f03-c9a5-44c2-b27a-d522157c56cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy one share of allstate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f1ef3633-e0da-4135-9611-02ca4fe0b541",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy salesforce",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e4dca3cf-9f59-4db0-a5fc-d12fcce3e85f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares capital one",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3f05b09f-c658-43a5-9dfc-50a773f13387",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of chevron",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "87e30570-bd78-443b-8671-0c613c23fa2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of fb for me",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c7f24cfe-8e73-4968-a335-ef1547164fb8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of m for me",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "00e671a9-ba57-4604-bb78-b1da738a316f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some carmax shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dc3cb223-551a-483a-a808-bc1931709ff2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some stocks can you help me",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "366ab8d7-d01e-4148-b016-309c02395e0c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy spx",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c6024c46-f80c-4784-9be4-c9b9de3202cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy spy",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "14cb3a72-ee60-4ad8-9314-7868f168caf0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4231bf83-fcd1-4536-a6e3-27422ddd77ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy stock in my 1234 account",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "cec0f4d3-dac3-4c75-8d2a-1520a325054c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "202b1517-72ad-4ba2-8c5a-6fa8be652fea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy t using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6a721307-454a-4fa0-9646-a2a470ee1868",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy tesla",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "dfc6be9f-c899-4992-a121-49f396cad556",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy tvix",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3208851f-81d9-4da2-b76d-b0338d441dc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy uber using account 1111",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "47662a30-27dc-4ee0-934c-042c072e0c97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy zion using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "571b6a0b-ef27-49de-912c-ebc6358d9408",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buying TD",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b6f1cf41-3855-4089-848b-7f7587876d64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buying international shares",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "97997506-fa6e-4011-a61b-a702b0ccaa34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buying invest",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dba264d9-35cb-446f-bb45-7fa9dd470ce1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "by apple stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "69112582-3473-42aa-94b8-73de84e25879",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy 111 shares of wine",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a626dd90-1708-4e8f-ad5e-fa71b146e8ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy a share of google",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7e98d0ca-7cd8-4741-8821-0760d8f457b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy appl today",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "845d3601-4a3e-4637-94f0-01d2ecbf9538",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy apple",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0d098e63-bab4-491a-8d42-580c43db16ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy blizzard",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "68146ae5-5f18-4aad-89b9-4e07d78eb342",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy google",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e7ca858c-b14b-4673-8b59-a7f32623bf81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy international share",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "f28f141a-bc93-4c70-9783-529767b68a91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i buy international shares through this platform",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "db1386f6-6d8c-4b89-863c-7d3ec4ad78d0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy international shares?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "3c0888f6-faae-4e4d-a9fe-be2250ee854a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy napster",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6b9f1740-4a14-43ed-9c14-0e83071b6a90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy short?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7f603c68-3c5e-459a-9b30-503a91378b7b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy twitter",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4d46f796-abe6-4a8c-aa50-1dfb88473a88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i buy vanguard products for my bt panorama account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1c87a620-a817-45c3-9264-4ed9afc04aca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not buy eft",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d180ca32-5d5a-43d5-82e1-7cf03136188d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please advise how i can opt out of the investment profile settings i entered data in there and it would not let me",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e1149fa8-9bea-4dc6-b368-53e013dc618f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot buy portfolio",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "429bcddb-f4d0-4f78-b20a-67c67476378f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob to buy vanguard managed fund",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "48d029a1-76eb-4e04-ad0f-718502dd5fa6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4377a4c4-8605-4d25-bba5-f02a398d9efd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1 share of allstate",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1de42834-e5fb-48c4-b38d-80e60dc77c5f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1 share of amd",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4e9b0b15-d009-43c6-83c8-d94d09aefd09",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1 share of google",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e830743c-b683-4567-80c3-22de0b1be899",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1 shares of uber",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c03afd41-467e-4b13-a5bf-68db5c6bfe44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 100 shares of nflx",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "27f52263-bf13-4b88-9d37-7027e833e9d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 100 shares of v",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3261714f-2f5f-446c-a78d-d762c347c13b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 11 shares of cvs",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dd028765-a71e-451a-a791-30c406b61089",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 dollars stocks of aapl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ac7ef3e7-1a7e-45cc-8dd5-307cf26b7c09",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 shares of facebook",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "dc534862-dad6-4eeb-a77b-807854cd3174",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 shares of fb",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cb8d0b12-a97d-45e3-8985-4cfeadef3160",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 shares of ibm at the market",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4a2080fa-8b39-4970-875d-e7a6b028420a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 shares of uber",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4c26c6bc-268a-47d1-a5f0-076901e54ef3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1111 dollars stocks at market",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6c001520-0812-43f2-8d0d-a380e2af600f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1111 shares of microsoft",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3d4be357-ec9e-4f89-9bc1-45ddd4328b43",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy a share",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "0ea59901-2b9e-494b-bbdf-20e4854919c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy aal",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "59549f88-ad9c-4cf1-9920-94c245df26f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy aapl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "32eae70e-8f13-4732-9377-79f0d7744206",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy acn using account 1111",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b6710178-b468-4072-b47a-69d05a4c25f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy adp",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ff34ffa3-29d3-405f-90be-6e07280e5d08",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy appl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e35ebc1b-569c-444e-849a-2c991e233d2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy apple",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8563f51d-6f1d-403d-89ea-3be311625c93",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy apple stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "0def0d64-7c9f-4920-b846-5eeaf6abfbcc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy at and t",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "81ba3018-6483-4760-bd70-596019469fb1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy baba",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "efd76af3-cf91-4b25-a96e-7c933961776e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy billizard",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d0852bf4-a8bd-45e3-a0f2-b959e4f1c48e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy blizzard",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "620bf04d-f936-4687-bb0f-35afb2e56c68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy boeing",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "85543313-95d8-453b-ab97-22485a70d51e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy cvs shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ca038a0b-3d89-4a6e-9faa-1fe7a9ed034a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy dfs using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8faaa380-35e8-4670-9449-ef4f51b684a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy fb",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f135128a-aef9-409d-ab09-11e796961827",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy fe using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "dbaf4d48-5f29-4b64-9459-e65d848ad87e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy fl using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c0e07f65-643b-401b-bbf6-e1a6c8f3accd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy fund",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "d262156a-2041-4cd5-a785-4d215d7b933c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy goog",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "03b92e02-a3dd-4198-bcdd-2b5e5f991959",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy googl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d46291f2-e48c-44b0-9403-742d4cbe6957",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy hsic using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a0270a17-49c5-40f8-9fe0-91939f15f02a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy investment",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "7822c3c9-5672-43c1-b6fc-e1354a1a07e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy investments",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2d108b82-efa8-454c-b543-3bbb4ab0de09",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy m",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3a22ff85-dca7-4fbe-80d0-0850e93b1d7d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy macys shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b90d94aa-43a5-48b4-b566-24db5168ceb1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy mmm using account 1111",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fc6ebe50-20ef-4e89-949a-df5b5809b925",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more facebook",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "50f022a7-0c0f-44c0-a7f9-f7ae326142c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more health care stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "76b1c9d7-a900-4cdd-aed6-628c55d31428",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more hsic stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0d075e71-1697-47ba-b8c0-b7c369db5834",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more twtr",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b7ff02f0-8e5d-49b3-b983-ceaef7cb46f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy one share of aflac",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ba4543e6-7961-465e-884f-b8631e0817c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy one share of allstate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4d4b3664-ee84-47a6-9421-c9cef3355391",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy salesforce",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9028050f-2aa0-4ead-93cc-226741cdd24c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares capital one",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "87868d40-3def-468b-8708-3400fad26b2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of chevron",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7226bbe3-d931-4dc6-b506-d7ac4078ebc0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of fb for me",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c4180f7e-f20c-4908-8e53-c384794b9235",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of m for me",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e73ac66c-50e0-4260-82ce-63a64a795315",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some carmax shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "330f3270-f361-4db6-8a73-456519369dc1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some stocks can you help me",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "34e4b66a-eeba-4fc6-8bb4-fd4ba1fdb83a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy spx",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "92a5a0ed-413b-4d63-a7f3-3f20b815d15f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy spy",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d4b6b4bb-df54-4439-b931-5669aecacd80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e19f3cbd-7097-42ee-80da-f60765074425",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy stock in my 1234 account",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9dd097c2-665c-4d3c-8c9a-96d3bcc5cf02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ef81bd22-2a81-4fdd-85bb-f15107ca52cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy t using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e82e2a9f-6e26-4175-b61b-374134e44dd1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy tesla",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a1645602-a79d-4daa-b8b0-be273aaa002a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy tvix",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a54bd728-816d-40ba-944c-fde4fd58b1bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy uber using account 1111",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9f91b80a-a76e-43b6-9466-590d04c306e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy zion using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "999c46da-933b-4065-a2e3-9949d2638a62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buying TD",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2661f0d9-62d1-4f29-a605-803e135fbaf0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buying international shares",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "887519d5-4b5a-44c8-9a5d-9e3064cd261b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buying invest",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "21261f45-3b58-4dfe-80fb-a876e04a1c99",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "by apple stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "935edd1b-e3a7-459e-9682-80b8af6ec8f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy 111 shares of wine",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "bafc5c04-c30b-453d-a5cd-c20422cdb121",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy a share of google",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c4944277-330e-4150-bb25-a5244b9cd85e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy appl today",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2b253e5b-ab5e-4ffd-a277-2056ea7b53e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy apple",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "31a1c2e7-2e57-4699-bd73-256a072ef346",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy blizzard",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "95fbd34d-4fd6-4d09-8e80-74aadedc819e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy google",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8fa24ebd-898f-4428-a662-31d351c41625",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy international share",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "480f2250-fbfd-4205-84c3-b4559e941c27",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i buy international shares through this platform",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "11dd469e-0f0d-4dda-9aaa-b85fe6cbe8f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy international shares?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "bc968d8c-b194-4041-97e3-bd6153798826",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy napster",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2384a041-b206-4249-b273-194cc6fc205b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy short?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "4597a104-c521-461c-a9b3-5949718d621d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy twitter",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a1a3b9dc-fe3a-44f3-8a84-6016479899bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i buy vanguard products for my bt panorama account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e0b628ee-c944-4a2e-a601-3a6a9980308a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not buy eft",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "dc393c30-21ce-4367-94dc-938f2fd26406",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please advise how i can opt out of the investment profile settings i entered data in there and it would not let me",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "39f50043-bfaa-4a83-8ffb-8176dc64dc4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot buy portfolio",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "623bd7a1-a6fe-4314-adea-410f2dd229cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob to buy vanguard managed fund",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d511ebbc-a75b-4702-9cde-b4490a7e1a94",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "97759a04-af2c-4811-a47c-5f2daa727281",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1 share of allstate",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ae42d600-9745-4571-9e4e-cbae40205f0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1 share of amd",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "254587ca-aa12-43d6-ab04-ef7ce3e28cf5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1 share of google",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "719288bd-8afa-4ad0-92df-f6c4424b3148",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1 shares of uber",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "451e84d3-2992-43da-b6f2-ec2294d04d2d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 100 shares of nflx",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9c6f0188-a9d0-4b9f-90a7-95aa2279569f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 100 shares of v",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "376ea724-0fcb-4c32-8596-9f3045edd6ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 11 shares of cvs",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "40f57d04-0ad9-43e6-b131-59786feedce1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 dollars stocks of aapl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "36bfaad1-1b8a-41e6-a6e0-ea55ab8d4047",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 shares of facebook",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a37f933b-4989-4311-b7d8-67fb077b1608",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 shares of fb",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2f1e6263-69bb-404e-ab01-295d71614c0d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 shares of ibm at the market",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ed8d5808-89e4-4501-bb8c-986e7249df59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 111 shares of uber",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "070f0b92-b0b5-4980-aefe-ac9159c9307e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1111 dollars stocks at market",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f9551f00-a50d-4696-81c2-dea1050f3306",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy 1111 shares of microsoft",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6a2e4234-43a2-4ce7-b0e5-9711f8fcafdb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy a share",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "af79b0b0-54a2-4fbe-ba00-fc547e6f6081",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy aal",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "26f7e169-e391-4147-b0b9-8df764bbc2dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy aapl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "597cbdc2-8277-4439-afc3-2b8ee8f71dba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy acn using account 1111",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d86850ba-b708-4d8f-a727-82485bc59fc0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy adp",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "cc4f0ca1-5973-467b-b805-bf412ade06b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy appl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "85008f4c-eb7c-4bec-a23b-0536ec4c6748",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy apple",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "547de031-1ec3-4901-9d8d-dac565b28dc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy apple stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "db046087-f5c7-46dd-9733-ece5747f64e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy at and t",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2d9426f4-999f-4f59-b18b-bf3069eeb972",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy baba",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3f5c4b80-48d8-428c-bac6-353f63239591",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy billizard",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "37426cee-5fa7-4c38-bc92-85bdf27fc270",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy blizzard",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "890db6f7-1cb5-4215-95dd-ea17035b6bc6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy boeing",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c73558f7-a9f3-4d4e-94e9-30e828abbbf1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy cvs shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "31ff1dc7-1050-4327-a265-b16230f5aeae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy dfs using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "bcaa4d44-12a1-44d7-9c6f-12b4b051ff0e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy fb",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "138449e0-34d9-4afd-9922-82171e9f329d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy fe using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "559d7928-4699-462c-9860-76b4d648767c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy fl using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "5f14f902-bac1-47de-b49d-16d71de63ec0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy fund",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "6c58a7bb-4a95-4259-a4d4-712ec7fa2b58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy goog",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e658e9a3-79e7-45b7-b985-d5d269e10d9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy googl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2b4a8217-eb41-4713-9424-4db66f2ef264",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy hsic using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1e9e47e2-224e-48e3-b93c-d6cbbaf84af4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy investment",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "7a5497d3-deea-47fd-acbb-dd25e8106f26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy investments",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "f8e1e125-8a2e-4618-8179-d9e26904f1ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy m",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b5a9c050-682b-4624-a034-8fbc6fe95bf4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy macys shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b85ea3f6-b8c4-4e20-82c9-80dcd87cffd5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy mmm using account 1111",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ff72acd8-488e-4cc2-96c2-e18c5bb6db4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more facebook",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7bd836e4-44ce-4e9e-96dc-f2ab40207b7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more health care stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "42579e62-dc87-4d11-8dd4-c98c2917a6da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more hsic stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "418ba2e3-00d9-4140-a975-6106c556f17d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy more twtr",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9598c877-8b50-44d8-ba37-1ff8bf0010a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy one share of aflac",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8c871212-972e-4913-af6f-cfe217684cbc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy one share of allstate",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ce1a2f95-93fc-41bc-9539-77137b312ba7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy salesforce",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "bf3b0df3-6b3f-4f8a-bea9-3a02d3fb2bf6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares capital one",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b255682e-d56b-4ed6-b583-6f6aa498ecb3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of chevron",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e5c8e340-97ca-4ba4-84fe-0a88247b7e93",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of fb for me",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8933d815-b013-42e0-b74d-aabea651d3a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy shares of m for me",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b150d10a-469b-4261-8b3c-5e47a3396909",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some carmax shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7e780783-18c6-45ec-9423-31f646580e19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy some stocks can you help me",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7a9873bd-4c7a-4b5e-adc8-8c48635a676a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy spx",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "56662364-7249-4b2e-90db-b45342eedc81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy spy",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e7298c37-0e86-4968-9ddf-5f251a53082c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6ac92fce-bbec-4c81-94c6-ff69ca3779fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy stock in my 1234 account",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "007a715a-d78e-4a2d-a87e-4e220bfb6dd7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "03f619ec-8d0b-4896-9956-46d2e719a11b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy t using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c4cf17ca-f341-4379-924d-a58aed051e82",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy tesla",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "baeea5ce-d23d-4138-b779-28d1eaeeaa20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy tvix",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4f03a285-9180-4a62-8bc9-5da751fd6d90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy uber using account 1111",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d6dcd0c9-99dd-4ad2-9769-13eb568558ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "buy zion using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2109050e-4a67-4e2c-ad02-903bfcd9a0b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buying TD",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6561dfbf-59e8-4708-acae-ec585d3a0355",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buying international shares",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "570dc741-04e4-4569-8f25-d13c25f55265",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buying invest",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e39e99fb-77bb-4c6c-bb1d-f9126bba3ae1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "by apple stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dea02c8f-1266-4eb3-a91b-98abe5ee9c43",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy 111 shares of wine",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3251475f-f382-415f-8190-2c4ab1fc6e76",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy a share of google",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "48bf43bb-eafa-407a-ba76-3b64357f4c60",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy appl today",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "dd0ed52f-af94-475f-ab71-6e94810bce4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy apple",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "00b6fd47-9ddf-4655-bb82-ec15dd89fd85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy blizzard",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e551f69d-63fd-4684-856f-16c52c7e5796",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy google",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "26ff9ff6-4c25-4310-9ade-4428dd8ef58b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy international share",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "d39b7dc9-e348-47b9-960e-7e9137e1805e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i buy international shares through this platform",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "000e6eef-4813-48db-85df-e983b3926e71",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy international shares?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "3da7912d-90e4-40cc-ad6e-d9361999be67",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy napster",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7f498b4f-7757-4971-bc4d-68dafb23f80d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy short?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "451fece0-6891-4bbb-abc6-6e3f1d16da6c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i buy twitter",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "0223e724-1bbc-45dd-a194-c71a89eccf00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i buy vanguard products for my bt panorama account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5d4e816b-58df-4528-9e9e-9bbae317b903",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not buy eft",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "1a3133ff-2cc2-4c82-9bb4-f3605deda522",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please advise how i can opt out of the investment profile settings i entered data in there and it would not let me",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6565a06c-cada-4c37-a4be-b46beb5c353c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot buy portfolio",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "338bcc0b-2ffc-416b-bd30-48a787a7e246",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client wants to buy shares in imr",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "52bed175-fef0-4b1a-ad73-68089222fac3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "delete my investor profile please now",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ce71ac61-1fa7-41d0-b93a-73139eb43455",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi am i able to use my cash reserve to buy more stocks from gmg",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "9c4ba46d-6625-4da0-8cec-ef01c8b32d3b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i cant buy a fund",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f51191b7-ffc5-4cba-ad93-29187107c294",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i change my investment profile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6503249a-dbcd-4eb3-88e7-b49758a7303b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i purchase shares",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6a66916f-dd16-45d2-9e54-addb8a89c895",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I buy shares with my SMSF",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "0aef22f2-3e00-4d47-b7e5-f336430e146a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I purchase a fund",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c04c380b-6b59-4f9e-a89e-0f68b22b6c3f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i buy asx listed securities",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6ad566da-ecb2-48c7-b6a8-410a074b3719",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i buy bhp",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b82f5106-f43c-4cd3-83de-27abe608a7a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i buy bitcoin",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "0f87c1d7-b67e-403e-8c4a-002a61c38336",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i buy philip morris stocks?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "23c025f6-c865-4ec4-9801-f86725269a80",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i buy shares",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0f2b2d92-7bd1-459d-bf8d-1c7801f4a2bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change investment risk profile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c89a6cc3-81da-4125-aae9-4c16ecbec641",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change to using % amounts when placing an order",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "8cdc3d62-33d8-4000-acab-78f2125637d0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you purchase one",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b7d3b9b2-0e9b-4045-8536-83047210d0ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i 'd like to buy some stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4ae2b4c4-10b3-4863-b757-7692dfa1bbd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can find an investment in the system but it is not available to buy i am trying to buy van1111au how can i buy",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e9f068f8-b557-4337-8b3a-8caa0efe08ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i d like to buy 11 shares of stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9408afac-b081-4333-b847-fbd8cb369be1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want buy a share",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "8eee3e9b-c332-4f2f-867a-201d4767a6ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 1 share of tesla",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a4161f42-9335-430f-b62a-b605b50bffa3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 11000 dollars stocks of apple",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ced0e2ec-4d3d-4b88-a654-61ecedab864d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 1111 more acn stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "73aef6e5-552c-4ba2-ac44-dbe477b8e09b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 1111 shares of facebook",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d767fb0b-2048-4446-83c6-0a90791888b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy 11111 shares of microsoft",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2ce21a67-0fa0-449f-8e1e-475b4175489b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy a hundred shares of fb",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7669bd18-c2cf-4e58-b54d-af144aa3fda2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy a stocks shares of tsla",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d8209b97-dd30-4204-9517-e35913ad2858",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy accenture",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b71f207a-f3e0-40c1-9877-9e1a9090fe25",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy acn",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "dcea15b5-d1e6-4177-a0eb-3ced7eba38b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy alphabet stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1013e7dc-673d-4d80-a2d5-245ba2a89d6f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy american airlines shares",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a0683c6d-e1fe-4b71-b6d2-79e09ef95da9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy apple stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6ebf0b74-36c0-4beb-b188-3625c45e109a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy bkr",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "bc6ed6ad-66c8-4b11-95c8-e5914ba1aa0d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy btc",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2648af72-9d27-42aa-90ad-dde6e5d32682",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy good",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "47b89a98-54e1-4e67-b069-7ea5993337c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "caf31acb-cb18-4351-9293-1e25768f2b9a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy some shares",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "053cbd1d-c1dd-4b04-a7fa-4d839884c33c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to buy some shares on asx",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ef458e03-87ba-46ad-b6f9-dc2ae47cb787",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy some stock",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "36895431-4246-4775-82b7-e23214c205ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to buy uber",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8558ddb6-a5ab-461f-84ed-bf46c3a64f11",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place an order to buy stock in my brokerage account",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a9dbe968-bd83-4058-b9db-03f0465fc7d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to purchase 100 facebook shares",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b5b5f064-9347-4a5f-a359-7138d1dde0f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to buy mutual credit fund prm1111au",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c8c42e18-1d2a-4224-829f-28b2da84da23",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like to buy 100 shares of broadcom",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "5815c9c3-b697-42a4-98c0-91dc69f2dc17",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like to buy tsla",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "871c18e2-c88b-4960-b7b3-6d9cf5b53b60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is any form required to buy etfs",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b7c2fb7f-7910-4809-8aa3-964483ba90dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is it too late to buy tesla",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ed1f5a14-cd56-43e7-8f54-041de7d56e6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there an easy way to buy us equities",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c0f3dbc2-d94d-447f-8a16-9f41e4e0c116",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "issues with purchasing",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "106fbfe7-d850-49d3-b7bf-2ef69d9faa03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "lets buy 111 of appl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2f8dd916-8054-4d18-a3d4-e473b12779a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "lets buy fb",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b85f44e4-bd44-4cf9-8de0-40858a8d87fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "like to buy an etf crypt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e99715a0-8eae-49ff-ad59-7e9126ef6273",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "macys stock purchase",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a102c70a-d611-4273-b194-ef3d9d09028a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "market info",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "64166f27-5570-43b6-b1d8-9aa1006afdfd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "never mind buy hhc",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c8d82ada-4d0e-47b6-a3ce-6761b104a42b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "our client wants to buy two etfs does it require any additional forms",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "529d366b-b515-4085-be87-b43b0027a155",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "playing a buy investment cash reserves",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "19a9de1c-fbdf-4715-857a-2506cf930336",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio buy",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4244def7-615e-4a27-912b-ac8bcfdec888",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "purchase googl stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4309a3a4-37da-4a75-b99a-b563dbb6e324",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "purchase investment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d624ebce-6ba6-4cba-9eea-261eb92b71cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "purchase shares of macys",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c2363b55-c35f-4372-8ecc-469801c71bfd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "purchase shares of stock macys",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "553719b6-a39b-49be-8d8e-54d19345dde8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submit investment orders",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "82a63bc2-e1b0-4ad5-8dc6-e7a2f8ab3d8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "system asks me to update my investment profile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2e7e3ff2-e723-42be-a6c1-8019b53772fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wanna buy more aal",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4717251e-1788-41dc-bc1c-bd179520ed83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what company can i buy",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "59ae7c16-7f65-485d-bd8f-ce785ecc3130",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wanna buy more aal",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "27f8be68-c35a-4c04-a52c-543b2bc27ff5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what company can i buy",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d316bcd3-1536-4eb9-b0ba-6f1af47a1fd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whatever investment i pick i am not allowed to buy even fixed term deposits with very low risk",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "52099712-422f-4ad8-b531-9d9d21649b4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to buy order",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9e77e916-bee2-4976-92ff-50c888fa7a64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "your investment profile is not applicable to shares etfs and all other asx-traded securities",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  } ]
+} ]

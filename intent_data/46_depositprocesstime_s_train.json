@@ -1,0 +1,1710 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "46_depositprocesstime_s_train",
+  "intent_name" : "46_DepositProcessTime_S",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "c004a245-6d2c-4ac2-97fd-b4bd39846479",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent depsoit"
+  }, {
+    "id" : "bc410ae0-1f41-496f-9471-7d0ddf48c1f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "111000 $ contribution recd in acct 111111111 still not showing when can we expect this to be receipted and viewable by the client was transferred",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d449d0df-fab6-4e96-aeea-2743d60be0f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "After a deposit is made when will it be credited to my account?"
+  }, {
+    "id" : "8f2565fa-c389-4ae2-a1ad-70ddb549948b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Around what time will my account be credited with my deposit?"
+  }, {
+    "id" : "8c0b1a01-7b90-411b-bc3d-770baa6837b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "At what time will my deposit be credited on my account?"
+  }, {
+    "id" : "a8130882-47db-4b58-85ec-ab9dcdf3816a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "At what time will my deposit show on my account?"
+  }, {
+    "id" : "d3fbf7b1-d55f-452a-97d9-9b44c1888172",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "At what time will the deposit be added to the account?"
+  }, {
+    "id" : "2de1b054-b723-4295-aad2-15801070d687",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me when will my deposit be credited to my account?"
+  }, {
+    "id" : "a0f3d253-84d5-4574-950e-16580c3dff6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me when will my deposit be credited to the account?"
+  }, {
+    "id" : "ba690931-87dd-4ebe-9866-41b8cfea07ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change coin machine to note. How day have to wait"
+  }, {
+    "id" : "0ca3380a-009e-4c5a-b16b-ff9f484f2c1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change coin machine to notes.It take half day or 1day to my account"
+  }, {
+    "id" : "af482213-c0e2-4271-a458-b2a21bae4118",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Coin banking day"
+  }, {
+    "id" : "c160ec4c-496a-4b75-8270-a53aa9ee74ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Coins deposit is immed or takes how many working days to reflects in account?"
+  }, {
+    "id" : "cf216654-634e-4d66-867b-3bb2d41fa56a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do i get notified if my deposit is credited to the account?"
+  }, {
+    "id" : "7a4ffa41-3061-4eb4-94d3-931c26d148e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I just do a coin deposit machine at bankname scape may I knw how long will the amount will be credited to my account ??"
+  }, {
+    "id" : "ceef6c7a-9c2b-4c78-b679-648b2b3727c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, my employer has made my most recent super contribution to my BT Super Wrap account, it has not appeared in my Panorama account after migration. Will this be migrated once received by BT Supe",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "a6254859-e5c9-4de3-92ad-b53b07a996be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi when the coin that we deposit in a cdm be credited in to the bank account?"
+  }, {
+    "id" : "9d27629d-6094-4bfc-8849-bb6a8613c958",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, just want to ask how long it would take for a coin deposit to register to my bankname savings account. I deposited last saturday at tanjong pagar branch."
+  }, {
+    "id" : "ab350c66-d042-4bd2-8383-ab4c1a152fa7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long before a deposit is credit to my account?"
+  }, {
+    "id" : "3a476e16-7936-49c5-90f2-f8ae34f2bdbf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long before my account shows that the deposit is credited?"
+  }, {
+    "id" : "d0d5e6a7-b302-472b-94be-699da0e637ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long before my deposit is credited to the account/"
+  }, {
+    "id" : "603d3d14-b5b4-4279-bb95-7a4d893aaed3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do deposits take to be credited?"
+  }, {
+    "id" : "75f47eda-7412-4398-92d0-a01458fffd2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do deposits take to credit?"
+  }, {
+    "id" : "37384ed6-e90d-455b-8782-a03b075cd09a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do i have to wait for my deposit to be credited into my account?"
+  }, {
+    "id" : "72399659-e2d0-42ba-a234-149897fb33a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take a deposit to credit?"
+  }, {
+    "id" : "5e0e1a88-d14e-48c9-a2ac-1a9fccee8cf5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take a deposit to show?"
+  }, {
+    "id" : "9f8678db-1c53-47cf-9072-02079941bc10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a cheque to clear"
+  }, {
+    "id" : "4589ed12-fd57-4ac4-9450-d93f4cc04417",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit be credited to an account?"
+  }, {
+    "id" : "3c235e36-797f-4674-8dd8-928a99961fe0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to be credited in my account?"
+  }, {
+    "id" : "58a9897d-27b9-468e-8a42-ef764d0f7a6c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to be credited to account?"
+  }, {
+    "id" : "264a083e-12ed-4e69-b189-9259f1928cb4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to be credited to my account?"
+  }, {
+    "id" : "977a6497-94d2-4a51-96bb-09e7bd69ecfa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to be credited?"
+  }, {
+    "id" : "fac2f0e6-5728-4f9e-a875-eb8249ec65cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to credit to my account?"
+  }, {
+    "id" : "cde17022-2356-4fb6-b187-47c3060e395f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to credit to the account?"
+  }, {
+    "id" : "2ae2626b-5925-48f2-a0f3-3b46361655c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to credit?"
+  }, {
+    "id" : "45ae6e34-ba08-4d9d-b416-6bf35b434bb4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for deposits to be credited to my account?"
+  }, {
+    "id" : "e09ef5ed-c1fd-4fc1-872e-fea38448c238",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for deposits to credit in my account?"
+  }, {
+    "id" : "3e75ebf8-08f8-4750-bc57-beb8368133ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my coins deposits to appear on my account?"
+  }, {
+    "id" : "85490031-1ca7-41f1-b9ac-30212059e488",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my deposit be credited to the account?"
+  }, {
+    "id" : "0c6c0527-1e56-4434-ae2a-6cf16312a2d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my deposit to be credited into my account?"
+  }, {
+    "id" : "b140267a-2955-4771-bdfa-cb3a18859d5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my deposit to get credited to my account?"
+  }, {
+    "id" : "c748105c-06f1-48e1-80ca-fdf1fc9d0594",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my deposit to show up in my account?"
+  }, {
+    "id" : "15e3dd85-e9a7-492d-a31b-e2f4ba364eaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my deposit to show up?"
+  }, {
+    "id" : "a1884096-62fd-452f-acb7-8c9b236c16ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for the coins to be deposited to our account"
+  }, {
+    "id" : "352fa220-dcc9-48e8-95b2-53c708b270c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for the deposit to credit?"
+  }, {
+    "id" : "d2fcb48b-d50a-464f-8db1-968690c11320",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take to credit a deposit to my account?"
+  }, {
+    "id" : "59a07efb-a969-4871-90d6-06ccbb059b20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take to credit a deposit?"
+  }, {
+    "id" : "8aea9520-de72-469c-b7f1-64aeeb185ee1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take to see a deposit added to my account balance?"
+  }, {
+    "id" : "e96b1ec2-96a2-4191-8ae9-5fbc0c795df4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long till my deposit is credited to my account?"
+  }, {
+    "id" : "3b38f57c-063d-4e72-8dab-7c91009cb8e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long till my deposit is in my account?"
+  }, {
+    "id" : "a5f96119-1072-4c91-abff-84aeac80c1ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will I have to wait before a deposit is credited to my account?"
+  }, {
+    "id" : "84871a9d-d7e3-4fe9-80b0-e5df206b064a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will i take for my deposit be credited to the account?"
+  }, {
+    "id" : "2daf8d83-6d58-4875-a152-ea44191dca75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it be before my deposit shows up?"
+  }, {
+    "id" : "4c5f966e-220b-4dc7-b17e-1f20f42d5f8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it be till my account gets credited with the deposit I made?"
+  }, {
+    "id" : "4dd64232-236a-4a10-ba60-9fd4a62f66ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take for a deposit to be credited to the account?"
+  }, {
+    "id" : "5b2c94a7-91b6-4bf1-840e-aa5952b21d66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take for a deposit to go through?"
+  }, {
+    "id" : "f7e19e65-efcb-4ab3-87ff-f82f15ced9b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take for my deposit to be reflected in my account?"
+  }, {
+    "id" : "8d277422-9637-4758-9beb-a201c02d3b0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take for my deposit to credit to my account?"
+  }, {
+    "id" : "06060eac-53dc-47cb-98f9-076970a2eb97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take for the money to be transferred into my account if I deposit coins"
+  }, {
+    "id" : "38137e7d-a07f-45c4-afb0-5f2765cd84c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take my account to be credited with my deposit?"
+  }, {
+    "id" : "5b80e691-b3a3-4be2-b2fd-2e29e14da19f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many days does it take to process a deposit?"
+  }, {
+    "id" : "707ccc87-bd60-4b24-a47f-25afe43008bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How soon will I see a credit in my account for my deposit?"
+  }, {
+    "id" : "6ac14fd7-8aa4-4130-9a0d-1bf48d849aca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How soon will my deposit be deposited into the account?"
+  }, {
+    "id" : "cf2cb1e3-7f7b-47e2-bc93-4f80dbf1800c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hw long before the coins are deposited into the account?"
+  }, {
+    "id" : "488676a1-b194-4608-ba60-6d01d3ec40eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1 cent depsoit"
+  }, {
+    "id" : "41b58564-2eee-436c-a72b-031d79fa5792",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "111000 $ contribution recd in acct 111111111 still not showing when can we expect this to be receipted and viewable by the client was transferred",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "29a4737c-55a5-4c3b-89aa-e035aa3e9125",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "After a deposit is made when will it be credited to my account?"
+  }, {
+    "id" : "5a6e76a8-be42-4557-a2b8-e81eb928d10b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Around what time will my account be credited with my deposit?"
+  }, {
+    "id" : "019e62ec-c913-451a-b54d-f1315cdc3254",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "At what time will my deposit be credited on my account?"
+  }, {
+    "id" : "f25e6294-9d24-46d7-8db2-2dca8a5c792b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "At what time will my deposit show on my account?"
+  }, {
+    "id" : "17019483-a256-4e02-8d06-f44e36b9d01a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "At what time will the deposit be added to the account?"
+  }, {
+    "id" : "6caa9c4d-1953-48db-a634-074c3aa00e3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me when will my deposit be credited to my account?"
+  }, {
+    "id" : "8b156d2d-481f-41d6-9d6e-1d17f921a229",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me when will my deposit be credited to the account?"
+  }, {
+    "id" : "319d414a-9e7b-43d4-8b38-43f7c9661046",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change coin machine to note. How day have to wait"
+  }, {
+    "id" : "aa6213dd-d77c-4198-a288-2afef79f6850",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Change coin machine to notes.It take half day or 1day to my account"
+  }, {
+    "id" : "f08cb6d8-2ebc-49d7-9ef5-6590a8d39141",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Coin banking day"
+  }, {
+    "id" : "7d96b2c2-7637-4f71-a6c7-686e2250088e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Coins deposit is immed or takes how many working days to reflects in account?"
+  }, {
+    "id" : "d4fdf9a2-d51c-4490-9726-bc5ffe5d4151",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do i get notified if my deposit is credited to the account?"
+  }, {
+    "id" : "50249d40-e498-4999-89ec-dd2a736514c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi I just do a coin deposit machine at bankname scape may I knw how long will the amount will be credited to my account ??"
+  }, {
+    "id" : "439aac68-4aa9-4ee1-9686-2641efb6bfea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, my employer has made my most recent super contribution to my BT Super Wrap account, it has not appeared in my Panorama account after migration. Will this be migrated once received by BT Supe",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "3a86e71d-eebb-462b-b822-5045f0f78ecb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi when the coin that we deposit in a cdm be credited in to the bank account?"
+  }, {
+    "id" : "580d00d8-5303-435b-a285-8ba44ab3236c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, just want to ask how long it would take for a coin deposit to register to my bankname savings account. I deposited last saturday at tanjong pagar branch."
+  }, {
+    "id" : "bcac3789-418d-4e70-8d2b-0db315af1136",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long before a deposit is credit to my account?"
+  }, {
+    "id" : "4cce2ffb-05bc-4aed-957a-2a5f20efd1b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long before my account shows that the deposit is credited?"
+  }, {
+    "id" : "76bcae5d-aa99-4feb-a2a7-7410e12150d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long before my deposit is credited to the account/"
+  }, {
+    "id" : "2f3aa2a4-0d7b-4ed3-a58b-d6387d323c5b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do deposits take to be credited?"
+  }, {
+    "id" : "a4c14805-c0c5-4ba6-addd-b2aa37c81ad6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do deposits take to credit?"
+  }, {
+    "id" : "16bdba95-19d2-4a8b-b7f3-7222488547cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do i have to wait for my deposit to be credited into my account?"
+  }, {
+    "id" : "ead73776-9cb9-4a34-86df-26f925dbd796",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take a deposit to credit?"
+  }, {
+    "id" : "0715d0b1-f84f-48ee-b6fb-d5d517a59230",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take a deposit to show?"
+  }, {
+    "id" : "d2c2e677-29fa-477c-b0d0-1e7633febe8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a cheque to clear"
+  }, {
+    "id" : "c6cb0bc4-eab5-4bfb-9a9d-6b84e91fa8af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit be credited to an account?"
+  }, {
+    "id" : "17827ec2-c94a-4f77-8408-5730a80b29a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to be credited in my account?"
+  }, {
+    "id" : "99bfc032-934f-4e52-8c4f-503c03c55c72",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to be credited to account?"
+  }, {
+    "id" : "422ae67c-bd6d-4c6a-aefc-b0939c260ca2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to be credited to my account?"
+  }, {
+    "id" : "40018116-76b0-4ce1-b570-928cb1c8392c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to be credited?"
+  }, {
+    "id" : "3441d918-7a6e-458f-b293-36250f426698",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to credit to my account?"
+  }, {
+    "id" : "2fe237a2-dae6-44b3-88b2-e3a97d21ba6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to credit to the account?"
+  }, {
+    "id" : "9111e986-4758-4215-81cb-ec8a8b94a353",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for a deposit to credit?"
+  }, {
+    "id" : "05899076-d179-4c40-b1c1-452bb18908e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for deposits to be credited to my account?"
+  }, {
+    "id" : "ddf3b62c-b663-4640-b332-5c5f97826cf8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for deposits to credit in my account?"
+  }, {
+    "id" : "7e36f952-8616-4cd1-86a2-64508ee72332",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my coins deposits to appear on my account?"
+  }, {
+    "id" : "5c719069-8940-4863-a62d-924f06f0c1af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my deposit be credited to the account?"
+  }, {
+    "id" : "b0acaaf1-5ebb-46fb-a629-b6d904b494b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my deposit to be credited into my account?"
+  }, {
+    "id" : "89d7db27-01c0-42ca-ad2f-cd3baf041218",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my deposit to get credited to my account?"
+  }, {
+    "id" : "f5901edb-a54d-4908-986e-baca5148c8fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my deposit to show up in my account?"
+  }, {
+    "id" : "008ea2b5-0031-403c-8511-999de4782b02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for my deposit to show up?"
+  }, {
+    "id" : "1c22d9f9-1a1c-4a01-8947-f55593c34931",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for the coins to be deposited to our account"
+  }, {
+    "id" : "7ab5e3ce-947a-4c0f-b2ab-185313a3cae0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take for the deposit to credit?"
+  }, {
+    "id" : "d6f780a0-15b8-4cbe-997f-41779e8d0692",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take to credit a deposit to my account?"
+  }, {
+    "id" : "79ad8302-c2b8-4800-99c4-d839ab259bab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take to credit a deposit?"
+  }, {
+    "id" : "55b93316-93b6-4e21-8209-623402b85762",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take to see a deposit added to my account balance?"
+  }, {
+    "id" : "f9a2451d-58a1-4c75-98ab-41770cce9cd4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long till my deposit is credited to my account?"
+  }, {
+    "id" : "d7bb342c-15eb-4134-8942-128340786c2b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long till my deposit is in my account?"
+  }, {
+    "id" : "2fc7460c-2eb2-4e8a-bdeb-3a9c002eb70a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will I have to wait before a deposit is credited to my account?"
+  }, {
+    "id" : "ac6f4596-895c-4350-83d4-9aaafe2c476b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will i take for my deposit be credited to the account?"
+  }, {
+    "id" : "de314fbd-049a-404d-a8ce-326ed083628f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it be before my deposit shows up?"
+  }, {
+    "id" : "f930d99e-d8e7-4cca-9b6f-4184984c9048",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it be till my account gets credited with the deposit I made?"
+  }, {
+    "id" : "fb7bb57e-2c38-4cb8-973c-54699b4d1ff0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take for a deposit to be credited to the account?"
+  }, {
+    "id" : "eadcf11e-d1fb-4eaa-9963-4a7198379b7c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take for a deposit to go through?"
+  }, {
+    "id" : "ce32a293-b883-44f1-99b8-fd566f488b7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take for my deposit to be reflected in my account?"
+  }, {
+    "id" : "325db4f4-dd07-4b1f-84ac-9671e3dd912c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take for my deposit to credit to my account?"
+  }, {
+    "id" : "74f3e5a7-68ab-4032-93dd-189b204db496",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take for the money to be transferred into my account if I deposit coins"
+  }, {
+    "id" : "1aa9631c-5662-46aa-8598-a83d59d902a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will it take my account to be credited with my deposit?"
+  }, {
+    "id" : "533b7685-dda2-416f-bc4f-340e8cf3d045",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many days does it take to process a deposit?"
+  }, {
+    "id" : "245ea362-f904-4b6b-8e4f-704482fd124e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How soon will I see a credit in my account for my deposit?"
+  }, {
+    "id" : "3d528528-0502-4946-82bf-edb59b9110ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How soon will my deposit be deposited into the account?"
+  }, {
+    "id" : "15a6d96d-1a69-424e-9d59-a3f5027d2412",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hw long before the coins are deposited into the account?"
+  }, {
+    "id" : "ce471342-a311-4198-a247-5c50e061d579",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I just did a coin deposit at the cdm"
+  }, {
+    "id" : "1519340b-229d-42cf-b545-84fe54750101",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I just made a deposit, when will it be credited to my account?"
+  }, {
+    "id" : "1c5eb38e-f488-4f2b-a532-8e6cf053556b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I just made a deposit. How many days until it my account is credited?"
+  }, {
+    "id" : "05863714-3021-40a7-a029-2294b4f420cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I just want to find out how much time it takes to process a deposit"
+  }, {
+    "id" : "898a79b9-ef04-4139-9613-a4525503c2ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I just want to know when the cash will be in my account"
+  }, {
+    "id" : "85f9ca72-f507-4356-92dd-614571830623",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I just want to know when the cash will be on my account"
+  }, {
+    "id" : "b6863fe0-146f-47e3-967a-8d13a8715072",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I just want to know when the cash will get into my account"
+  }, {
+    "id" : "2abf1150-5190-43bb-93d8-bb4dabaca288",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know when my deposit will go through."
+  }, {
+    "id" : "7d90a618-8875-4b34-8ebb-8ae86fd4a158",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I transferred money into this account through my Westpac login a couple of days ago and nothing has appeared here?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "3e983915-63ca-41cc-9b2b-9109b3dabbd6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to know when my deposit will be credited to the account?"
+  }, {
+    "id" : "d00fa09a-27c9-4a4d-81ff-65840ab325cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "If I deposit coin thur the coin deposit machine. Will I receive the money immediately?"
+  }, {
+    "id" : "f44997fc-0bae-411d-85a5-003d03c21955",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "If I have a deposit coming to my account, when will it be deposited?"
+  }, {
+    "id" : "be1d99ab-0120-4a6b-9d5a-4b07766b1070",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "If i deposit my coins when can i get it"
+  }, {
+    "id" : "bc00f926-b3e3-48d4-b749-784e2e742f66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a delay in deposit crediting?"
+  }, {
+    "id" : "8c143a56-260c-492a-ae9f-c65fd829bab4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a notification for when my deposit be credited to the account?"
+  }, {
+    "id" : "7e0cec84-0100-4f53-92a2-b653eb178c17",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My deposit will be credited to the account when?"
+  }, {
+    "id" : "a6c89302-2fa2-4359-8dc5-4d6d51ae73ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "On average how long does it take for a deposit to show in my account?"
+  }, {
+    "id" : "e6800102-f25d-440e-a0fe-86aea24f1933",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me when the deposit will show on the account."
+  }, {
+    "id" : "a47dc089-62ac-4878-a0f8-ae7951a2a0d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What day is my account credited with my deposit?"
+  }, {
+    "id" : "4bbac6b2-59d8-43eb-8530-14d8b272d35d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What day will my deposit be credited to the account?"
+  }, {
+    "id" : "f977efc2-b0c2-48e4-ba36-30e108a1296c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the ETA for my deposit to show up in my account?"
+  }, {
+    "id" : "23120140-c0bf-48ab-819c-678454fb9072",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the deposit availability disclosure?"
+  }, {
+    "id" : "edfcbec3-ff25-43a2-b731-fcddf0e01d72",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What time will my deposit show up on the account?"
+  }, {
+    "id" : "7b20db04-3772-4f7e-a087-6bee31d8b9eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What time will you credit my deposit to the account?"
+  }, {
+    "id" : "3209ab22-5586-4b99-ad09-86378eba0984",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When are account credits posted?"
+  }, {
+    "id" : "2d3962b8-f159-4136-84ee-33e061905271",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When are deposits credited?"
+  }, {
+    "id" : "286181c7-a9a5-49f5-9829-a351034e5422",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When can I expect the deposit to hit my account"
+  }, {
+    "id" : "b99d95a0-f46a-4680-8c8d-380ec3662439",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When can I receive the coin deposit"
+  }, {
+    "id" : "47e81f30-2b83-4c1d-9650-c8d9934485ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When do deposit credits get reflected?"
+  }, {
+    "id" : "f948a12a-29cf-4e7f-9ef3-953945602193",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When do i see my deposit posted in my account?"
+  }, {
+    "id" : "08d20644-9a0e-4048-be95-3bef3c7bdd96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When does my account get the credited deposit?"
+  }, {
+    "id" : "9deac480-5107-44ee-96a4-821ee6256f2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When does my deposit post"
+  }, {
+    "id" : "62a24130-2022-423c-94fa-e61204e8a638",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When does my deposit show up on my account?"
+  }, {
+    "id" : "70b7b397-cd4c-4c2b-bba6-9f12e0982879",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When is the deposit counted?"
+  }, {
+    "id" : "22128506-6b44-4f85-a57c-c02b7e1ed64e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When is the deposit going to show in the account?"
+  }, {
+    "id" : "413c88cc-4c65-445a-93e2-c76e8def9c8d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When the amount be credited in the bank account for coin deposit machine"
+  }, {
+    "id" : "6beb1381-3f89-4109-a671-5bab73c68139",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will I get money?"
+  }, {
+    "id" : "8b65d791-55b9-453a-8b93-fd62eacdf290",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will i get my deposit"
+  }, {
+    "id" : "1b1be273-e3d3-4961-ad63-a9dd62ac983f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my account be credited after making the deposit?"
+  }, {
+    "id" : "3b97a6cf-3822-4438-abf9-4bc801dccc68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my account be credited with my deposit?"
+  }, {
+    "id" : "1fe36d38-358a-4549-9502-f38e9b28cb8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my account get my deposit?"
+  }, {
+    "id" : "6bd7e2f3-b923-47dc-923b-e6ffdc14cf8d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my account receive the deposit credit?"
+  }, {
+    "id" : "ba148809-e0e4-4560-9478-6bfc4b56bba9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my account reflect my deposit?"
+  }, {
+    "id" : "b7146834-3cd7-4347-b056-1eb5b4bf6613",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my deposit by available?"
+  }, {
+    "id" : "4157b7dd-a88f-442f-ba21-ae8a1fd79ac0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my deposit go through?"
+  }, {
+    "id" : "77d4fc39-f7c6-4953-86c7-ec8a9063bf77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my deposit post ?"
+  }, {
+    "id" : "399dfc5f-0e5e-47ac-9f04-d658384eb735",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my deposit reflect in my account?"
+  }, {
+    "id" : "0afe9194-fe66-4d4f-8fec-12650dd4e5e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my deposit show in my account balance?"
+  }, {
+    "id" : "ce730fbc-7ece-4f9f-b7ac-dbe404fb9aee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my deposit show up as credited?"
+  }, {
+    "id" : "5b3d6e08-c6ff-428b-bf38-12dc662dd9a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my deposit show up on my account?"
+  }, {
+    "id" : "84da954d-a28f-494d-be95-d8a0323cd8ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my deposit show up?"
+  }, {
+    "id" : "21b191c1-fc76-4946-805f-8eb65193b92d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my deposited be credited?"
+  }, {
+    "id" : "533fe9ac-f735-4d6e-9cbd-ca57d91cb665",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my transaction be deposited into my account?"
+  }, {
+    "id" : "dd6210b3-1746-4f83-9bc3-f282538e72d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will the deposit clear my account?"
+  }, {
+    "id" : "d8d19b66-711e-438b-8693-84d5ee6f154d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will the deposit reflect in my account?"
+  }, {
+    "id" : "439728e3-97dd-4fc3-9c58-3d88c5852cf3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will the deposit show up on the account?"
+  }, {
+    "id" : "9319b079-ebad-43b5-a9c1-5e4a8c7f8039",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will the money show up in my account?"
+  }, {
+    "id" : "1bcfb2ca-a42e-4f7c-8cf2-2b59fa2d34e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where will my deposit appear on my account?"
+  }, {
+    "id" : "119d50e3-d367-4ca8-a1d9-316e460de46b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my account be credited for my deposit?"
+  }, {
+    "id" : "a29f824c-eab8-4633-b887-6ed6590e88ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my account see a deposit that I made soon?"
+  }, {
+    "id" : "0dfe4797-cf21-43e7-b222-f7f6c4fbc1db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my deposit be credited immediately or will there be a waiting period?"
+  }, {
+    "id" : "20170db6-8062-4fb3-99f1-bd02c9e0a613",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "a non-concessional deposit was made into this account on 11 / 1 / 1111 it is not showing",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "ddea2863-e668-4c38-a6e0-c519361cd32c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "after deposite coins into the machine can i straight away withdraw?"
+  }, {
+    "id" : "fa69b74a-7035-4404-bf38-0df175858fb4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "anz made a payment of 111.11 $ on july 1 to acct 11111111 this paymentbis not shown as at 1 july can you pls advise",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ac217e71-1d5b-4f18-a8d3-38ea2b376388",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob customer service i initiated a 11000 contribution last thursday to get in before the eofy today its not in yet although its deducted from",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b31f2eec-db82-4f57-aba5-f7a682272167",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i straight away withdraw after i deposite coins"
+  }, {
+    "id" : "0c48726d-917f-4c18-9192-136a7542496a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not see amount rolled over this morning",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f277c1c1-1a89-4a47-8fdf-501a0e4648c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot see payments in account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c12fb0b5-0c9f-4e76-ac34-b436df9d933e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cash payment to priority acct how long till funds clear",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "637d60be-d95f-4fa2-9e63-dade82753ada",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cash priority payment funds clear after howling",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "7fb30ab5-a644-440f-8651-9d578fcbe1af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "anz made a payment of 111.11 $ on july 1 to acct 11111111 this paymentbis not shown as at 1 july can you pls advise",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "11e0cf93-3208-45b2-ae23-2ba6a8d70ac7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob customer service i initiated a 11000 contribution last thursday to get in before the eofy today its not in yet although its deducted from",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "be79ad7a-f435-48bf-a769-1275d4c31f3a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i straight away withdraw after i deposite coins"
+  }, {
+    "id" : "d6e45d12-f541-432c-9d4a-238ca8e948c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not see amount rolled over this morning",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8ce2114b-00fe-4081-98b7-139fd8c0d924",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot see payments in account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c0ec2114-f6ad-4928-bf05-f9b0b994bf55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cash payment to priority acct how long till funds clear",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "712b2003-5f65-438a-8209-3f7400d5d64c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cash priority payment funds clear after howling",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "16305714-0497-4cff-b80c-a14ff59f05c6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "anz made a payment of 111.11 $ on july 1 to acct 11111111 this paymentbis not shown as at 1 july can you pls advise",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e9c3f9c1-876e-45cf-8ba5-df497a8b0b5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob customer service i initiated a 11000 contribution last thursday to get in before the eofy today its not in yet although its deducted from",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "06832077-0c7d-4d96-bcd6-8b8d68fbf9d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i straight away withdraw after i deposite coins"
+  }, {
+    "id" : "f80abffa-18e6-46bf-b563-fbe82e18defc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can not see amount rolled over this morning",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d9ca31c8-5b71-436f-a824-ce66ecf70a2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot see payments in account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0729df4a-5388-4333-bd08-4107ac6fd9ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cash payment to priority acct how long till funds clear",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "ccba829e-0fab-41ce-9cdc-4bd6d06aa4d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cash priority payment funds clear after howling",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "1c1a7ce9-4aef-4249-9c79-79ad9073f455",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commonweallth bank have advised they have paid 1111.11 $ to bt on my behalf when will bt deposit these funds into my superannuation account",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "938927fb-b860-47cf-a5cc-f4f6bf036709",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution pending",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "241f3ff9-9f93-4d38-820c-fd2de3fe549e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "deposit 111 $ but only shows 111 $",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "d145f62a-7967-4903-9551-1f2cbbd29a61",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "deposit credit date"
+  }, {
+    "id" : "6d881381-d7b1-402c-a42d-21d1bb120050",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "deposit has not come through",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "e7bb93dc-b301-4948-9317-75cabe05217d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "deposit into clients account has not happened",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2755efb2-b655-449b-873f-b934aea6127f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "funds deposited for 111111111 have not cleared yet it 's been quite a few days wondering when to expect this to be completed",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "593e404b-06da-42be-97c4-00a11302b0c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good day i have just transferred money from this account into my westpac account could you please give me an estimated timeframe by which it",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9c266d93-2e16-4ea7-885d-bbe457694b63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning i have just opened a new super account as a westpac customer if i make my one st deposit as a personal contribution",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2af5c8cd-51e1-4d7d-98bf-d59add1e514d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have not been paid my monthly super this month is there a problem",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c28be6e4-4688-436a-a419-52e4b42d4d58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have you recieved a contributon of 1111111 $ for the following account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "022b5891-c400-4720-9c19-584889b95b31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey just deposited 111 bucks frm westpac to my account - when do you expect i will see it",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "2b7761e8-9ee4-48b4-99a4-2f1688d05073",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi for account 111111111 the client made a contribution of 111111 $ on 11 st august i can not see the funds allocaited to the",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e12938b4-e08b-4986-9e96-1eebb3e923c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have transferred funds from my business account into this super account what does it still say payment awaiting approval",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "a25a7bfb-e8a3-4a2a-bb1b-43bbb88a7048",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i put a payment in on the 1 / 1 / 1111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "62660b24-34b6-4330-b586-95522c939f4b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi just checking the cma i thought it had 1000 $ initially deposited but its now just over 1000 $ i could not see any",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "36a96d24-f280-4611-a84b-78b48df92fbf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is your cut off time for transferring cash to be processed on the day",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "f30fe52e-2f8b-4b98-806b-caf6f2d1196e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long before funds clear when payment is to a priority account",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "44a109f9-c0d1-40e9-a78b-fd6b1eb1ef35",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long do superannuation deposits from your employer take to show up in your account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3d8cecf1-fcde-4ef4-8aa6-29c7ccc4a0a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a broken td take to become available cash",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ab20707e-4fdf-4469-b95f-4d6bdb32720e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a contribution take to show up in my account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "2ba89c37-3df0-4683-b449-533a7abe060d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a deposite take to come through",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "52397aff-6d56-4367-b63c-d2e0dbc13449",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for a cash transfer to clear",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "88ef68d7-8935-42c5-ad6f-9a0c54904278",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long does it take for a deposit to clear into your account",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "5457dde3-32f5-4cda-86bb-dca8f167020a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for a spouse contribution to show on account",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "0066d1ea-e5ca-4420-9945-71e0be0a7c22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for cash to made availible",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "46c60687-68a0-4b04-b13a-46a6331a6360",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for cash trtansfer to clear",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a858da84-9872-487e-a5ba-365bc073533b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for funds to clear",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4aa7a96e-224b-426b-9b3d-0f3e9f67e112",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for money to show up in my cash account when i transfer into it from an external bank account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9f9e3635-d948-477d-855b-a045dc9cb1b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for money transferred in a roll over to show up in our account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7e44f864-3ded-4815-b406-79d2a820b1c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for new deposit to show up in transaction",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "91fc0364-7be5-451f-ac62-5afaebb9eb78",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for the deposited funds to cleared",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c6fabe81-9aa0-49e3-8a48-773f6d5f433b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take funds to clear"
+  }, {
+    "id" : "c0fab2a4-7ce3-4f61-8829-08f10a054a72",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long does it take to be available in our cash account",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "3fbec297-4d60-4d2a-b2ed-aa810daa7f1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to get a 1 cent deposit"
+  }, {
+    "id" : "a47890be-b09d-4e30-8fd2-1ef818d8dc3b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to transfer term deposit to cash",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "31e68c11-4810-422a-9506-b459cb2b1a48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to update investment balance",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c88097ab-4f93-4313-99c9-da992792e2f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long until cash appears in cash account"
+  }, {
+    "id" : "52f62558-3d7c-48b0-a841-d7e1f6fb43b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long will it take for deposited funds to clear",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dcd6aa88-da52-46e2-9373-d9f41195e4a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long will it take to deposit the 1 cent into the bank account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e7bd53f3-b6d9-424d-a379-1bbd64b33de2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am waiting for a payment from insurance into my account i am wondering when it will arrive can you see it processing",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d07153cc-f075-4f54-9e44-dd18b3facfd3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not find my deposit",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c5a844ec-4c03-46fa-b971-def4e2f38b86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i deposited 1 days ago and still not seeing my deposit why is it taking so long",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b6b513d5-2868-4953-a1db-0bf870e20071",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i deposited but money hasnt come in",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "dcb8b265-b66f-4530-a054-2fde6e01d722",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have deposited money what do i do now"
+  }, {
+    "id" : "f93d8513-1bb2-4ec7-9b8f-f3156ec82a8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have given the details to my employer and they have advised that they have made contribution to my new account but there is no",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a3ce5e33-0fb8-443e-9ef4-f6c7f3ad106e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have just transferred some money into this account when should it show in the account"
+  }, {
+    "id" : "98503ea8-c1bf-4075-af8a-93c58dc41e1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have made a bpay payment and money still has not cleared into account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ac72b27e-5e34-40f8-b508-9cc2bcdbeb9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have transferred 11111 $ from westpac to bt panorama how long does the money take to be deposited into this account thankyou",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "acdebfed-307a-4fbc-8fdd-113bf814ce2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have transferred 11111 $ from westpac to bt panorama how long will the money take to be deposited thankyou",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "af102ca1-09e9-4827-92cd-a77094cce1e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have transferred funds to this bt account how long until i can access them",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "0c6b909b-139a-4f4b-bde1-d5b513e56265",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have transferred funds via online banking into my super account but it is not reflecting",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "297ebe48-02df-4bba-8499-49f2505b4824",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i just made a deposit via bpay how long until it 's available in my account"
+  }, {
+    "id" : "90161e9f-9480-4876-953b-3977972d4133",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i just want to know when the amount i deposited will be credited to my account"
+  }, {
+    "id" : "f8a0f434-fa28-4396-8d7a-2966a24e1d81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i made a contribution to my super fund today and was wondering how long it takes to show",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9c97b173-bf61-4033-9688-92864ead7606",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i made a deposit and no money's available why tho"
+  }, {
+    "id" : "e9797a7e-f289-49ea-89eb-c4a48efc9692",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i paid money via bpay but can not see it",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8b113fba-3856-49d2-a9ef-4b643618853f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i put 111111 $ into account yesterday just checking where it is",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "9872c34e-4931-454e-8c1b-267a4ae58fe7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i sent a contribution on 11 june that doesnt appear here",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1cc6058f-78a9-4900-9b6b-ace45ad6250b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i sent bt by bpay a sum of money to be added to my portfolio but have not received any confirmation or added to my",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "6ae068e5-12f1-4c4b-a6a7-bf94b71e473d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i transferred 111 $ into bt invest but i can not see it in account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c32a5602-551e-4984-b70e-f6cce1943ffe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i transferred money to my super account yesterday 11 th june when should it show in my account balance",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2142a2b0-f724-4b3e-ac26-efefbd119e97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want my deposits to be autoinvested"
+  }, {
+    "id" : "d612ae41-c59a-4e38-a61a-51b9a0003eae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ic deposit not in account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "f25c5921-2b51-4fa4-852b-4f132417ba75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if i make a transfer today from a linked account how long before the transfer shows in my super account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "50c938d6-a125-4381-bf66-d3402642a174",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in overview it is showing as money in but not in account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5f8abed0-1392-4d75-8342-459eeb519850",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "invested in pbh over two hours ago not showing in my portfolio yet",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "178c8527-10f8-4a8f-b276-fd36abf29aa6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is an eft transaction immedate",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "94570e33-b83e-4f8b-b5fe-dffebf2686f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a delay in receiving cash payments",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "441234a8-0cb4-4165-8b58-14c2d8cf2a83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "just made a payment by bpay to tax office but there is no acknowledgemnt of the payment having been made",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0cc7864b-7808-410e-b4aa-b8a15ec0d4c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "money i transferred over has not shown up in my overview",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1c303147-04f3-4599-af74-03d712b36e02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "morning max i have notes saying that i ordered a deposit in for 111111111 but i can not see that its hit the account yet",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "507066dd-ae0a-434d-9547-2c668e701242",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new employer contributions not getting reflected under transactions section",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "ae8cf16b-4eb1-4d6b-af85-fa719d25f280",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "payment made to a priority acct how long before funds clear",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "8b81dffb-8ebf-470a-9e25-2994d022599e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "scheduled transaction not cleared",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "a7f04dc4-b660-4d1f-9522-c5c56b9f67d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sent money 1 days ago not in account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7bb01247-8816-4068-a7ba-b2837057eda9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "superannuation not going into account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b4cba1c0-553b-42df-8271-0d92058f7655",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the transaction appear in the report about cash movements but not in my account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "edbae593-715a-4c0a-a403-c9740e5bd7cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "they have added an account but have not received the 1c deposit",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "80673557-1f2b-4922-891e-0390111d95a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transaction from 1 days ago has not reflected in the other account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5007786c-2634-4f93-bea1-386af58dbd8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we have submitted a payment of 111111 $ on 11aug to pexa",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f3491dd8-7197-4d53-9e4b-8de35345dbf9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the transaction appear in the report about cash movements but not in my account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9522a537-51c5-4c40-92dd-4741c32c2a07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "they have added an account but have not received the 1c deposit",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8b0024b1-d57d-41c4-857f-8762f1ec1dc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transaction from 1 days ago has not reflected in the other account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ad865d35-733b-449b-92a3-01cd6ad2d2b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we have submitted a payment of 111111 $ on 11aug to pexa",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a7f1e01e-98a9-44c4-a1e7-e0745d5e1797",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what time will my deposit be available"
+  }, {
+    "id" : "bbf6b45b-9b52-4e50-b0fe-11355a13d27e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what time will my mobile deposit be available"
+  }, {
+    "id" : "9cc57c3d-6755-4b39-9fed-db4d0a176b3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when are deposits transferred to my portfolio",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9aae106d-3957-4517-a7ca-10649e3c0ca1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when i make a contribution how long before funds are cleared",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "57c381e0-e5bf-4d2f-9c2c-0d76f0496f30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will deposited money be in my by account",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "2973ff0d-bddb-4922-8551-60ae3d976fad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will funds be in our clients account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7a542c8e-f3d5-49c0-8162-7d2070faecbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will funds enter account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "124a59ce-333e-48af-b0e8-28ab760dce1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will i receive confirmation of contribution",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6f93c5d9-c04d-464d-95a3-00f581b542ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will it be available",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "86a958f1-cc84-44a7-a26d-a2f6e11931e1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will my deposit be credited to the account",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "7d7f236b-c691-4deb-b817-5ff62d6d30be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will my deposit be processed"
+  }, {
+    "id" : "41079e08-9543-4100-b123-539b774acd7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will my other deposits c",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "b4470dd2-4f99-4cfa-9a31-539771a87283",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will the 1 cent deposits be sent to the new linked bank accounts with the confirmation code for n and s bob super fund",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b28352c5-2517-4f35-b65b-58e92fbd9bc3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will the money i deposited be available"
+  }, {
+    "id" : "9e025a6a-3ea7-4e7e-b69e-db687b6098ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where are my funds from my other fund",
+    "tags" : [ "qa_updates_2025_q1" ]
+  }, {
+    "id" : "9d2a7952-7bf7-4d73-b889-d280e524640a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has my deposit not cleared when it is showing as out of my nab account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c6e282f4-4a83-484f-aa92-e57329c2e56d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has the 1111 $ not been put in my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e6235d3c-d3fd-46b4-a1d4-2ea6be2a6f4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why have my funds debited from my linked account yesterday at 1 pm not been cleared in my bt cash account today",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "319237d7-3080-4b40-a17c-bc1899798016",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is the cash balance of bob superannuation fund just 11 $ even though we transferred 1111.11 $ on 1 may",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c070d2bf-7272-4e7f-b790-c386dfef6ad2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why the fund totals do not reflect the current fund nav price it is atleast a few days old value",
+    "tags" : [ "westpac-annotations-050321" ]
+  } ]
+} ]

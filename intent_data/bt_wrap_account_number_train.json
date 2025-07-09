@@ -1,0 +1,542 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_wrap_account_number_train",
+  "intent_name" : "bt_wrap_account_number",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "acd9c0ff-ea05-4a9a-baac-7f07b922df4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I allowed to keep my M number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "76da8f33-773a-4907-a6c3-3765e28a5999",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need my wrap account number?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "a2a77416-d6fe-4f7a-bea4-a30c62b5ec38",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to hold on to my wrap number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "bdb1d412-eb2e-4b14-87e6-60d65c434104",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to hold onto my M number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f5e121b8-051e-450b-b6d8-b1d3159aa567",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to keep my M number handy?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "50000a2c-6cd7-4533-8768-d3189a433ad9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to keep my M number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "c515efaf-453e-46ff-80eb-fe78dd085c06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to keep or keep using my wrap number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "35e438a3-52f6-48cb-b4e9-37ace8eb9406",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I still need my wrap number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "929a9a01-878b-489f-a1bd-48148ca7746b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I still need to keep my wrap account number?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "aa05acf0-b8d5-4aa7-bc6a-012e1347a414",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do need to keep the wrap number for later?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "4f678928-5bd8-4b1b-bb6f-045241474ff8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does my M number still work?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "ab1d9799-022f-45ad-a931-055adbe6d32d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hey it's Bob son: 11/11/1111. I can't remember my account number or membership number. Can you please help me",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "864bbaaf-5f83-4c39-8403-7e70be0d9b64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I keep my wrap number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "13b5b000-1ac4-46e6-9ccc-ca289b20e3fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I know if my M number is still valid?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "36549e8c-67fa-47e0-9164-352569af4e7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I know if my M number is valid?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a8afa047-b949-4daf-b420-2c06113d1942",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will the old wrap number still work?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6d5a97b4-0726-4d10-a937-e04969a59160",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How will I know if my M number is invalid?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8d526b2c-fff8-4b0b-900f-82f82b98d683",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I allowed to keep my M number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b1bb60be-8c12-43c2-a3d2-8dc6559ac2a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need my wrap account number?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "ea3357b5-5984-4cfe-8497-cd9076c3065c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to hold on to my wrap number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "16966550-4782-41ce-8b1f-76ebb9d3f92a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to hold onto my M number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4381280d-2591-410a-bc06-0c800cd406d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to keep my M number handy?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4396a25c-1a6b-4689-8fac-77bd141ee425",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to keep my M number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8dd92f50-c1ff-433a-adbb-4a92884a90a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to keep or keep using my wrap number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "1ebcb991-d6db-4bc7-80da-6bdc506d2ef9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I still need my wrap number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "2a57cad9-1140-4c6c-acb4-c50cdb5266cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I still need to keep my wrap account number?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "8fce1968-4a73-47f0-b6c8-5bb93dcd0a65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do need to keep the wrap number for later?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "11c82ca5-49fa-46d2-ae63-9bc328289cc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does my M number still work?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "7b53af02-ad56-406b-a541-af4266fc3525",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hey it's Bob son: 11/11/1111. I can't remember my account number or membership number. Can you please help me",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "d3ab88c3-bc80-4767-b628-640a33d016ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I keep my wrap number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8c7ac1bd-4a8b-4925-859a-40a6c0b6dcfd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I know if my M number is still valid?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "593d3d12-a5ef-47e5-820b-0ab0982b2842",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I know if my M number is valid?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "11eaf6b2-d336-46c8-b6b3-94834ad98552",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long will the old wrap number still work?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "27052bd3-b8ed-496d-97f6-5644656f82d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How will I know if my M number is invalid?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d756024a-c7c3-4a62-b41d-07b18108cc69",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it necessary to keep my M number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8559fda7-190a-4082-a08b-7a3c743af6d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it necessary to keep the wrap account number now?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6372eb56-8ec7-4495-a640-d813b792c59b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is my M number still good",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "0d8ebd00-1189-4238-b3d0-5d53635018d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is my M number still good to use?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "6f1b08ee-aa6a-46d6-bb65-a66ab717c2ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is my old wrap number carrying over or will I get a new one?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "72f8531a-935d-4b0b-8cda-6e2044c108e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Should I keep my M number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "bd2d73c5-8dd5-40c7-942f-f201feef0f76",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Should I need to hold on to my wrap number?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "2cc1b22b-b9e5-41d9-b36a-ee473cdd51b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Should I remember my M number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b2326928-7dc1-4e3c-a8b5-1b4b2db8246b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Should I remember my wrap account number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b7ea73ff-1754-4c03-b987-e4883fc1e340",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Should I retain my M number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "ecf2d7d2-9616-4872-ac05-54de94c6b32b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me if my M number still valid.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "be5edb10-dead-42b2-90fb-353212851323",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is a wrap account number and why do I need one?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "b18eee7a-4cf6-473d-8296-11f9e7a38e75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my M number",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "87d4ba25-387e-48ea-97d7-4712bccc7267",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my wrap account number good for?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "be50a649-3885-49f2-a510-56f00c0e14bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my wrap account number used for?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "dc61a030-520e-4444-94d4-949b99f37a4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's my wrap number for my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "20b11807-722d-4bbd-a905-335e5a28af12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will I still need my M number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "56544d52-47f8-4f3f-8cbb-4ea7aa0cb798",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will I still need to keep my M number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "5e41cacb-8648-422d-b8c2-be2aff71b8ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my wrap account number be necessary still?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4acf306d-a550-4e35-9471-870a9bde153c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account migrated to panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "9256ded6-9e00-405a-84d1-1e0cc232272a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i still use my M number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "70c6e381-b7ba-411d-a11f-ffb91b6736db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i still use my wrap account number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "8cad01e6-af9a-482c-8bef-60519c4ff19f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i still use my wrap number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "0c086ac3-1f9a-41ec-8e24-f50ffc1b0105",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i still use my M number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "2f2c8d98-a5f2-48a6-86ed-a2798f9b4876",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i still use my wrap account number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "53d1e95b-39e5-4e3b-aa58-120f8cabb2f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i still use my wrap number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "4efa63f6-b3bc-4805-ac2b-ff1c267f1f9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i still use my M number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "83235f73-7dcf-48f1-b348-c282e7b62004",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i still use my wrap account number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "7379f27f-7ea6-4a36-af32-370d36759df6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i still use my wrap number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "93c8afb9-3a76-44c0-82e6-1c7fbc0df25e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "did my user name and password changed after migrating from bt wrap to panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b1001a29-5710-4e25-9418-c408ad3ed57f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i have a wrap account"
+  }, {
+    "id" : "e9a232c3-2b7f-4231-bc49-7dcf98093c2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i need to save the wrap number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "58565f20-20a2-4ee9-b643-197a4f222385",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i still need to keep my M number?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "d799ec51-2d87-4612-a097-7658924973a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i still need to keep my wrap account number?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "2d3098ee-9d91-469c-b22d-238df4a247bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey its bob son 11111111 i cant remember my account number or membership number can you please help me"
+  }, {
+    "id" : "6e338fb3-9111-48d7-b927-5eba88191bbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to track down my account number for my super fund please",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "02c77a62-37ce-480e-9a54-7d5592ad2d83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is my account number of my smsf bank account number",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "59dbd327-b7f8-4477-adbf-b2356745c9c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long does my m number stay valid?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "64cca35e-036c-4666-b15e-91080b74f2c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am a wrap customer",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "4a07f16b-d555-4bb3-a5b0-2a81e65eafbd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not remember the details",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "57caeaff-0978-445d-aad5-9934bd798842",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is my M number still okay to use",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "60414195-279a-4215-b412-b80a72db1de9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is my wrap number valid forever",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "065a408d-4119-4c9e-ac8e-53a6ef3122a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is the m number still aplicable",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "2fd535c2-4159-4658-8f05-cbee4d7a76ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is wrap number needed",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "9d09ae4f-aab6-43e6-b081-75f03671dfb8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my bt account number on investor wrap was m11111111",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "0726b18c-9333-4811-9865-45b89a04bb35",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "need to keep wrap account number?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "6f54d2c9-23b8-489a-85a4-be70dc2e4afe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "previously bt wrap m11111111- now bt panorama 111111111 i can not log into my account with my user name and password",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1b03fdcc-ebb6-45ea-96db-7549d62e774a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "still need my wrap account number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "417b8eb4-3564-4907-aea3-89363ecf6518",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that is my account number",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "e84bc84c-4d96-4f48-adfa-f3923095177e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "that is my account number",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "df2bf500-bbf6-4e42-8463-2690ac514d37",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what happen to my super wrap account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "91855507-d3c2-49ac-9546-f3c985555bca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is my bsb and account number",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5eb43f4c-d419-497f-ad8e-246da855635b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "will I need to keep my wrap number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3297404d-ef1b-4239-bf23-530506c51e3d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "will I still need my wrap number?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8f3100c6-f5fc-4d41-bc8e-642a1fc5e7e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "will i still have the same account number after migration to panorama",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  } ]
+} ]

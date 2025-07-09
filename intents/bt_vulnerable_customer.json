@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "client_difficulties" ]
+  "categorization": {
+    "tags": [
+      "client_difficulties"
+    ]
   },
-  "name" : "bt_vulnerable_customer",
-  "display_name" : "bt_vulnerable_customer",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_vulnerable_customer_response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_vulnerable_customer_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "I am a vulnerable customer",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "I am a vulnerable customer",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_vulnerable_customer",
+  "display_name": "bt_vulnerable_customer",
+  "alternative_question_eligible": true
 }

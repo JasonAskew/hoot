@@ -1,0 +1,454 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_linked_account_verification_test",
+  "intent_name" : "bt_linked_account_verification",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "4d60eafb-d26a-4005-a171-8bd7981e0051",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1c deposit",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7c38f758-ecf3-46b1-99bf-e5e789ec4377",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1cent verification",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "34e5d3e4-cbd1-4de9-bff9-3aa4c256c33f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I request for a verification code?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5f4486ef-2a10-4f35-8600-10426263ae51",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I verify my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9690386c-7649-4f84-91cf-9a5702567b3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I send a request for a client to verify their bank account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a22bc0e6-a428-415b-a788-b88b17059cda",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I verify my account? A token deposit has been made in my account with a BT number. What do I do with it?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0d23056d-15f2-46eb-99b4-52fa0f7f914e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1c deposit",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a4c50b58-1814-430d-bd52-018fc76983d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "1cent verification",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "eca5110f-2fea-4913-a6ff-baa2282064fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I request for a verification code?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f4ca69ff-f4d9-46e3-9f07-145f528e95cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I verify my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f17d1bff-d0a4-4328-90c8-4f06dda22712",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I send a request for a client to verify their bank account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e3e8d00e-62c4-4776-a5e0-796ada582e0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I verify my account? A token deposit has been made in my account with a BT number. What do I do with it?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "cf331e29-7d04-4a95-b995-faf9ce38d5d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need a new verification code to link an account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5fd980ec-3e53-4ee6-8af8-efaded04cc1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need assistance with verifying an account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "4cd1ed0c-0e07-4e6c-826e-edce9ab33c19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want to verify an account. Where will my verification code be sent to.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "1e140ded-4119-4a17-bebf-d8da483b9d91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Linked Bank Account is showing as unverified",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "d89a27ed-267a-42a9-8945-a289a8ec5727",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Verify linked account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "cd6bc87d-b673-478b-bf05-d5223273e3a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Verify linked bank account",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "5a075c5e-446f-4c0f-a6a6-cfb34b2a8dde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Verifying linked account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ce71c901-41bd-4530-b25c-348e525543b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do linked accounts need to be verified",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "81416c77-9c25-49bf-8ac3-f16caf5f1671",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good monring i need to arrange a linked bank account to be verified for investment acct 111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "095828cb-42a0-4187-b02a-91b0d7d0b479",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help for verication",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "526f0875-7a95-4699-a95b-3834a7436f10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how can we resend a consent verification to add a linked bank account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "61d3d483-243a-4182-9a04-2c8220a04181",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i added a linked account which was not verified i just did a withdrawal and it is not in my account normal account i",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "197f43de-5c8d-40ce-b3cf-935f27fd2531",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can my accounts be verified",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8b7cd0b8-52fb-4441-b13f-c9416a6ae8dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I find out how much there was in an account on a certain day?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "36f12512-6571-4368-970c-150ad30a29bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I validate my linked account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7254bff4-f176-4203-8ae1-d92363afd102",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do clients verify their bank account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "24d985a6-6b8a-4c01-b1d2-ac264b445be0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i request verification for super account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "314b8773-da5e-4ec1-8c88-17e01a91624e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify a linked account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "60ac42c1-20af-4bfe-b2b8-84ad5e39d9f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify an account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "01c044d4-0460-49c1-a297-9154296686db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify bank account",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "80da0fda-e9b4-4b8e-811a-1aacca676fc2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i verify our account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "84df42dc-2485-477d-bbee-37f3a0a866dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does a client verify a primary linked bank account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "952b9ef1-cd53-4c66-9807-d2dcb817af96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long to get the verification code when linking an account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4576fbd5-c0cf-468c-acfc-8f4529361f5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to approve a linked bank account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "20317cd7-ea68-4fc3-b132-76dd5de4e532",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to complete 1c verification",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ed31ffcc-372d-4adf-befe-c634328ad3f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to verify a link account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9834f5b7-96a9-4d97-943c-e72e4ccc39d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to verify bt panorama account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2edba0ad-1150-4b7e-ba01-632d72092baf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to verify deposite account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b9862c07-0efb-4f00-95b3-b9cea8180cd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to find the linked accounts page so that i can the verification code",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ef090229-f547-4570-a381-87cd690eaaf3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to verify account but cannot access transaction description to enter the code",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b0a90b9d-d9f2-4655-b7ad-64388199f189",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to verify my account but it will not accept the 1 digit number as it appears in my bank account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7be2e094-91c0-4e7b-8f66-e18776572b71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not locate a verification code associated with a one cent deposit where can i find it",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fa123bb3-8343-43de-9f88-6a95a3bd2333",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cannot find the message verify account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "95709d16-3e28-492b-9708-d9538d351f0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not know where to get the verification code to verify my account i have not been sent one",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "06a914f8-4367-4e25-9acd-8cdfc9312473",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to verify linked account - no space for it",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1db07943-5b5e-4064-aab7-69a767829f18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to verify my account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "63049f63-0537-49fe-befd-04c5a21e85ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there an information video explaining how to verify a bank account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bd547d52-86b9-4846-b735-3ea5f2b2becd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "link bank verification",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "40fead0c-6749-431b-8132-18fd4fbfd8dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "linked account verification",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "443c4343-7c02-480d-a72a-2e726d73761d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to link a bank account via the portal do both trustee needs to verify using the sms code or just one",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9793b6fd-4cb9-483e-b980-47e7e76fbbe2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to verify account to which my payments would go to",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a16da01d-50c2-4d70-b95c-17bb8dd77bbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification information",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "aae618f1-0ecd-4f3b-9913-e35c47c27f00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification information input",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "179cd87d-57ba-4d89-ad4f-39b4e59393fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify account to enable direct debit",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d9a53303-f205-4346-9c2f-82bdc05ad8af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify bank account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "af4c552c-de05-4b0c-af97-feb1c53ecb57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "16b9df78-fe77-48f7-af5a-9b44335e2eb0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked accounts",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fd8117f6-48b4-4ca8-81e9-e5e3e8957ad9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying bank account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1b9bef76-1ee5-4ea5-9af2-7ab2e758290d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the account verification steps",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9382ae9c-c35a-40d6-b865-c0b305548f0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to link a bank account via the portal do both trustee needs to verify using the sms code or just one",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f4db588c-5491-413f-acfd-ccbecd4fd849",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to verify account to which my payments would go to",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f9922d2a-a68f-4f7b-83ec-30903bff99f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification information",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a30576a0-56f4-43a8-aa72-1442ccd43577",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verification information input",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0b6be211-c489-4408-a04c-b3f4c755803b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify account to enable direct debit",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "64c4dcf6-3f8d-4bdd-9cd9-365f04def672",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify bank account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "dc47d4bb-7e63-40dd-8396-fc78035d4f72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "67934d6c-c3cf-466b-939a-b6e4b50b462e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verify linked accounts",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ed2464e7-c65b-49e6-9db5-e260a7a36c17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "verifying bank account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ae28786e-9eaa-421a-bb53-e2d5f2a51957",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the account verification steps",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9efeb7a8-6d77-4973-9c5a-152849cf38e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is required by the client to verify a bank account on a new application",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aa7192f7-122f-4faf-8d84-72a3635cee14",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what the process to verify my linked account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "06221872-d98b-4811-96e0-6c96a48d6f3e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do I find the information to verify my account",
+    "tags" : [ "goldset", "test_gold" ]
+  } ]
+} ]

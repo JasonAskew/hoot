@@ -1,0 +1,16 @@
+{
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Login has failed."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessagePullAuthenticationFailed"
+}

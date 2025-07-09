@@ -1,0 +1,393 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_account_number_seed",
+  "intent_name" : "bt_account_number",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "1abcd6c2-f11d-4047-a713-fe01ef0deef4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I have my account number?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "8736d620-56fb-405e-bb40-df042d48868a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me find my account number",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f24ee463-52bc-4833-af54-a9c5b63edcdc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I discover my member number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "26cf0930-63ce-4bb7-b8f7-8d49b6b2cb65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I locate my account number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "4dc5cadf-d3c1-4e61-8365-fac906177ee2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I locate my member number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "3290e838-45ec-4897-8896-f76541a5fabd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many digits is my account number?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ca588379-a28c-4f76-bb07-a0cdee7fcfb0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to find out my account number",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "85bb1056-f2dc-41ab-b6d5-a8cf1026f6ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am unable to locate my membership number",
+    "tags" : [ "nid_05-2021", "merged_from_bt_member_number" ]
+  }, {
+    "id" : "d681d878-cba6-4e93-81ae-6f9a9837da84",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I have my account number?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5c34a5c4-b688-4625-9ab1-478afddcef65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me find my account number",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5cd50c2d-798f-4dce-9ec6-cb4408517970",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I discover my member number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "7b6560e9-d606-4c8b-a97f-0888bb0b7565",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I locate my account number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "5ef1aed8-959e-4380-89fe-217a2fee19fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I locate my member number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "46e2ac86-1aab-4b1c-b234-7919c8e8b048",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many digits is my account number?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "0971c7da-1fc0-4e86-b138-91c6b4a2f822",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to find out my account number",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1ab1ff4b-64e9-4d62-bd22-ae33b2464774",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am unable to locate my membership number",
+    "tags" : [ "nid_05-2021", "merged_from_bt_member_number" ]
+  }, {
+    "id" : "6047ec6d-1e77-463f-9537-7b083d409b63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need my account number.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "dc6c9aec-521b-48ea-839c-b9135197ab89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to find my member user number",
+    "tags" : [ "bt_corrections", "data_sync_addition" ]
+  }, {
+    "id" : "e4968b6d-9a30-4ebc-90ea-fa2b614980d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want my acc number",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "05564be3-f6c6-4aa1-884b-4faa7db790f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want my member number",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "d096e80d-f418-48ac-8a11-2aab0c7bd0c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible to see my account number online?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "c0e3a72c-22ec-45a9-a624-ce0160ab9aad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is my account number online?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "9eb6bdd6-2e70-4348-90aa-fa3e9fb1314a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Let me know my account number",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0df7a1bc-5e4d-42a1-bfc1-b5b252f93da1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Member number",
+    "tags" : [ "bt_platinum_q1_2023", "data_sync_addition" ]
+  }, {
+    "id" : "1a88bf0b-1bd3-4045-92df-8f567880b81a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need acc number",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "68b2f6c7-4cc7-4009-8a72-080ac626fa68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need account number",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "f882cb8c-1dbe-4a87-8c51-01d4b17a5ee8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need member number",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "e5ca5ae1-cd69-40c7-8682-2137f278dacf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Provide me with my account number?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "2dfe82d4-8986-492f-9931-b39d8b94c195",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What does my account number do?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "c63a51ef-e470-4464-a7e9-84a1bdabc1ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What does my account number look like?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "0f09fc20-4983-4bbd-9354-42fc9c5944b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What does my account number start with?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "0292c045-c5b9-47fa-bcef-45e03855bc82",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What information reveals my member number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "d0a7288d-166a-49d7-900e-e8c8dc12f8a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my member number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "b97e3831-df6b-47c7-a0ad-6ef70bb93c2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the account number for my Panorama account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "10f9508a-9852-49f2-a794-d26ca69903cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the location of my account number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "b4fa6f68-fbec-43a5-a774-c39e44ed12b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the location of my member number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "c8d93deb-ab76-4491-9d08-8c3992e7a057",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the process for finding my account number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "865eddf5-9bee-4b4f-9512-498ef3ffba96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Whats acc number",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "2fca6075-fe9e-423a-8d56-5effcbc62afc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I access my account number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "f9dc6e68-6a30-462c-8f05-71a0ceea8aaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I access my member number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "0115e627-7bf1-427b-860f-5c62f29e645b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find details about my account number",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9ec7323c-943f-46c5-8ccd-649bfde68d3c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I locate my account number?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "d44d313c-eb2d-4a6d-8ea6-09045118663f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is my account number located?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "0e40beb2-e0d9-49d3-a7f0-8d43136efea8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is my member number located?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "51a2e6b4-7d5e-4b02-b1f3-88cc0b4371df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is my new account number",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8b31eb7d-768c-4ad2-ac7e-aa3b1c2066f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where's my account number?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "8e6207c2-7574-4181-9613-4ff0942ea526",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello I need to find my member number",
+    "tags" : [ "bt_corrections", "data_sync_addition" ]
+  }, {
+    "id" : "ac2b9cbd-1176-4546-b5df-ff18ff0fa12e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can I know my membership number",
+    "tags" : [ "nid_05-2021", "merged_from_bt_member_number" ]
+  }, {
+    "id" : "211b79c7-c0d9-4d0d-b80a-9fcf4a714b00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i see my account number",
+    "tags" : [ "protected_seed" ]
+  }, {
+    "id" : "6c96a2c3-3700-48e8-a5b8-c5717fad27d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to find my member number",
+    "tags" : [ "bt_annotation_q1_2023", "data_sync_addition" ]
+  }, {
+    "id" : "818d796e-729e-47dc-a703-939bdbeb2a00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "member number is",
+    "tags" : [ "nid_05-2021", "merged_from_bt_member_number" ]
+  }, {
+    "id" : "d1bc5ab0-ef02-46e1-83bd-63bb8d68bd16",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "need mbr number",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "b7658169-27ac-4a14-a39f-cdf16c769e7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me my account number",
+    "tags" : [ "protected_seed" ]
+  }, {
+    "id" : "14f8d4e6-e239-4185-b544-18c02a6ffe7b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is my account number?",
+    "tags" : [ "protected_seed" ]
+  }, {
+    "id" : "c92dd456-bc50-400d-8ec9-832da53a9b1c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is my membership number",
+    "tags" : [ "bt_annotation_q4_2023", "data_sync_addition" ]
+  }, {
+    "id" : "989c9df8-c7f5-4e14-8b89-b08518c1757b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is my personal membership no",
+    "tags" : [ "nid_05-2021", "merged_from_bt_member_number" ]
+  }, {
+    "id" : "12b9e83e-ac9d-462d-9afe-de01120aef25",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the account number on my checking accounts",
+    "tags" : [ "protected_seed" ]
+  }, {
+    "id" : "aa5af052-84ea-4fa6-a94e-e4f278c852fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the account number on my mazda auto loan",
+    "tags" : [ "protected_seed" ]
+  }, {
+    "id" : "5f9e6001-d188-4d9a-9766-2e357a9874cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's' my account number",
+    "tags" : [ "protected_seed" ]
+  }, {
+    "id" : "a56313e2-114f-435b-a0fd-3d79601020b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats my member number"
+  }, {
+    "id" : "d904997b-9f8e-4c68-b95c-4ca0a10adcee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Whats the location of my account number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "25ce89ce-cee5-48e9-9c7b-5532000bc64a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Whats the process for finding my account number?",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "085c8d18-7fb7-45d4-8d59-2f013f9e43b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Wheres my account number?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "7943e6cd-58e1-4fdd-abed-f08e35d3fabe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Whats the location of my member number?",
+    "tags" : [ "data_sync_addition" ]
+  } ]
+} ]

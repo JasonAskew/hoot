@@ -1,54 +1,70 @@
 {
-  "name" : "bt_wrap_deposits_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Where you have payment arrangements with third parties, you will need to contact those third parties to provide them with updated account details."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Where you have payment arrangements with third parties, you will need to contact those third parties to provide them with updated account details."
+        }
       }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Where your client has payment arrangements with third parties, you will need to contact those third parties to provide them with updated account details."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_assistant",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Where your client has payment arrangements with third parties, you will need to contact those third parties to provide them with updated account details."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_dg_manager",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Where your client has payment arrangements with third parties, you will need to contact those third parties to provide them with updated account details."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Where your client has payment arrangements with third parties, you will need to contact those third parties to provide them with updated account details."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_assistant",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Where your client has payment arrangements with third parties, you will need to contact those third parties to provide them with updated account details."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_user_dg_manager",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Where your client has payment arrangements with third parties, you will need to contact those third parties to provide them with updated account details."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_wrap_deposits_response"
 }

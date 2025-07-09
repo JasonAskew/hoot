@@ -1,18 +1,46 @@
 {
-  "name" : "BT_CONTRIBUTION_METHOD",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "bpay",
-    "aliases" : [ "bpay" ]
-  }, {
-    "value" : "eft",
-    "aliases" : [ "eft", "electronic funds transfer", "bank transfer", "electronic transfer", "electronic payment", "electronic deposit", "electronic contribution" ]
-  }, {
-    "value" : "cheque",
-    "aliases" : [ "cheque", "cheques", "check", "checks" ]
-  }, {
-    "value" : "direct debit",
-    "aliases" : [ "direct deposit", "direct debit", "automated debit", "recurring payment", "regular deposit", "regular contribution" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "bpay",
+      "aliases": [
+        "bpay"
+      ]
+    },
+    {
+      "value": "eft",
+      "aliases": [
+        "eft",
+        "electronic funds transfer",
+        "bank transfer",
+        "electronic transfer",
+        "electronic payment",
+        "electronic deposit",
+        "electronic contribution"
+      ]
+    },
+    {
+      "value": "cheque",
+      "aliases": [
+        "cheque",
+        "cheques",
+        "check",
+        "checks"
+      ]
+    },
+    {
+      "value": "direct debit",
+      "aliases": [
+        "direct deposit",
+        "direct debit",
+        "automated debit",
+        "recurring payment",
+        "regular deposit",
+        "regular contribution"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "BT_CONTRIBUTION_METHOD"
 }

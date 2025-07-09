@@ -1,16 +1,21 @@
 {
-  "name" : "Message-Unknown-Banking-Request-In-Context",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Please help me understand your request better by asking again, using short sentences or keywords, and focusing on one main topic."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Please help me understand your request better by asking again, using short sentences or keywords, and focusing on one main topic."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Message-Unknown-Banking-Request-In-Context"
 }

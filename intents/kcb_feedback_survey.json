@@ -1,56 +1,98 @@
 {
-  "categorization" : {
-    "tags" : [ "feedback", "kcb_kim" ]
+  "categorization": {
+    "tags": [
+      "feedback",
+      "kcb_kim"
+    ]
   },
-  "name" : "kcb_feedback_survey",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "default_response_name" : "kcb_feedback_positive_feedback_thanks",
-    "messages" : [ {
-      "clarify_response_name" : "kcb_feedback_clarify_rating",
-      "input_mode" : "QUICK_REPLIES",
-      "slot_name" : "rating"
-    }, {
-      "clarify_response_name" : "kcb_feedback_clarify_negative_reason",
-      "input_mode" : "QUICK_REPLIES",
-      "slot_name" : "negative_reason"
-    }, {
-      "clarify_response_name" : "kcb_feedback_clarify_explain",
-      "slot_name" : "feedback_long_form"
-    } ],
-    "rules" : [ {
-      "criteria" : [ {
-        "name" : "rating",
-        "value" : "0"
-      }, {
-        "name" : "negative_reason"
-      }, {
-        "name" : "feedback_long_form"
-      } ],
-      "response_name" : "kcb_feedback_negative_feedback_thanks"
-    } ]
+  "webhook_name": "ClarificationIntent",
+  "webhook_params": {
+    "default_response_name": "kcb_feedback_positive_feedback_thanks",
+    "messages": [
+      {
+        "clarify_response_name": "kcb_feedback_clarify_rating",
+        "input_mode": "QUICK_REPLIES",
+        "slot_name": "rating"
+      },
+      {
+        "clarify_response_name": "kcb_feedback_clarify_negative_reason",
+        "input_mode": "QUICK_REPLIES",
+        "slot_name": "negative_reason"
+      },
+      {
+        "clarify_response_name": "kcb_feedback_clarify_explain",
+        "slot_name": "feedback_long_form"
+      }
+    ],
+    "rules": [
+      {
+        "response_name": "kcb_feedback_negative_feedback_thanks",
+        "conditions": {
+          "type": "group",
+          "payload": {
+            "operator": "AND",
+            "conditions": [
+              {
+                "type": "condition",
+                "payload": {
+                  "operator": "==",
+                  "slot": "rating",
+                  "value": "0",
+                  "clarify_slot": true
+                }
+              },
+              {
+                "type": "condition",
+                "payload": {
+                  "operator": "has_any",
+                  "slot": "negative_reason",
+                  "clarify_slot": true
+                }
+              },
+              {
+                "type": "condition",
+                "payload": {
+                  "operator": "has_any",
+                  "slot": "feedback_long_form",
+                  "clarify_slot": true
+                }
+              }
+            ]
+          }
+        },
+        "description": "\"feedback_long_form\" has any value "
+      }
+    ]
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "FAQ Feedback",
-  "slots" : [ {
-    "name" : "rating",
-    "entity" : "RATING_BINARY"
-  }, {
-    "name" : "negative_reason",
-    "entity" : "RATING_REASON"
-  }, {
-    "name" : "feedback_long_form",
-    "entity" : "STRING"
-  } ],
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "FAQ Feedback",
+  "slots": [
+    {
+      "name": "rating",
+      "entity": "RATING_BINARY",
+      "message_contents": []
+    },
+    {
+      "name": "negative_reason",
+      "entity": "RATING_REASON",
+      "message_contents": []
+    },
+    {
+      "name": "feedback_long_form",
+      "entity": "STRING",
+      "message_contents": []
+    }
+  ],
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "kcb_feedback_survey"
 }

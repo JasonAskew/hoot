@@ -1,0 +1,136 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_withdrawal_time_test",
+  "intent_name" : "bt_withdrawal_time",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "154da544-bc3b-4de5-a861-f78c525dd02c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How soon will my withdrawal be completed?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "70fc0e52-bdbd-474c-8497-3c5bc867af99",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How soon will my withdrawal be completed?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5564181b-93d5-423d-891c-575cfd72b985",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "direct debit update",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d907f820-ec5e-45bc-920d-4848e44c8947",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "does it take a long time for a withdrawal to complete",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8feaa451-1309-46aa-ae4b-1753d163616c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am waiting on a withdrawal",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6d2b1122-b325-402a-a7ba-cbaa86fd48c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how is my request for a partial withdrawal progressing",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "81a534ca-806f-42cd-945f-c3c9666f9cd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take funds transferred from bt to get to my westpac account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b3b8be8b-1f6d-4c18-a5b7-7daa57706604",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to close the whole account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "81414ae9-c6ad-47bd-b92a-6a1c7bcea622",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long until my withdrawal goes through",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f604cb71-d59f-4d7f-9350-9c62632962eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long will withdrawal take to linked account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bedb0c6e-a21a-49d0-bedf-a4455b6a81ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long would it take for the funds be paid from a margin loan account to a linked bank account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d33b5fba-52d2-4edd-8176-3ca06065f122",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much time does it take for the withdrawal to be processed?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "25a54d58-c03c-4345-802e-99d7db80e021",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how quick will withdrawal take",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "77283d87-a9f4-4031-a32d-bcb3af6f8e67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i transferred 111 $ on my westpac app to my investment portfolio but i do not see the money available on it",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "a561c460-2741-44cb-990f-7f2c1074a565",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the timeframe for a transfer",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "de21574a-3dcf-4e76-b0e9-5d0f5a290f6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what time do cash withdrawals need to be in by in order to be process today",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "91c9301e-2d18-4e37-ae22-7072a25ba7a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will my withdrawal be posted to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fbd8d3ef-2980-4d36-b393-420b4d9ef6c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will the withdrawal be credited to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ea53ad64-3974-4f15-be5e-e358da4dbec6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withdrawal follow up",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "d397192a-b300-41ca-a66a-417b0bbf46c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withdrawal not arrive",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "83be019d-f2cd-4fea-8789-2dcb2cdfb17a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withdrawal timeframe",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  } ]
+} ]

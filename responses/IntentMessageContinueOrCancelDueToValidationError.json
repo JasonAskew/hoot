@@ -1,0 +1,16 @@
+{
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I can't help with that. Do you want to see the last response again?"
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "IntentMessageContinueOrCancelDueToValidationError"
+}

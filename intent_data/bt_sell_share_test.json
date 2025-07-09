@@ -1,0 +1,1006 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_sell_share_test",
+  "intent_name" : "bt_sell_share",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "9bf55a6f-f6d4-4a04-83e4-e2bd34c6a485",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I sell one of my funds",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "825d0c73-a839-4cb6-b399-7f2e482fdf68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I sell shares at a point if tthe market drops",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "f2cce257-a53f-4c78-b870-abaf296e0989",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I sell my funds?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dbc45dc9-70d6-4f0a-b554-16f58fad2f54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I sell some of my stocks?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e5f7defe-7371-46d7-b51e-e43d9937f950",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to sell an investment?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "c3271e8b-100d-4042-8e39-dd152d798dab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to sell order",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "314e5108-43d9-46b6-9059-2f0fe245a906",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I sell one of my funds",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4fea664d-340a-48fb-a72a-c20f636cb16d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I sell shares at a point if tthe market drops",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "88d26f06-87ef-42ea-b959-a0fa9f736556",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I sell my funds?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4ea16306-998c-4988-b3ee-d2e327212595",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I sell some of my stocks?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1973fd4e-0eb6-44d8-a1d4-b811b7811c08",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to sell an investment?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "78b6b0df-a158-4d31-8639-df78493245c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to sell order",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "f9661510-735b-4e65-9e13-a6c3d66b43da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want to do a partial drawdown to my SMSF. How can I do this?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7d569fc6-b077-4ff7-8343-b8ac1c599fb1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place an order to sell stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ad62bc22-1741-4009-9b08-be1f5656e981",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to sell some stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3c8da54c-be1d-41ca-b91f-dcea2e22ac7c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Regular sell investment",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "96e9eb57-0f78-4fc6-9585-e94c5f40a57c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Sell",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "c45203be-e06c-4052-be80-88e7a70907d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Sell down rule",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "fcd0afac-632d-4583-880b-684b4b851c92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Sell investment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "361aaf27-d229-4ef1-abd4-751ed69a5696",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Sell investments",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b6572916-a5f6-4a95-a465-be6a875925bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Sellfund shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "45bb42f9-7375-464c-86d1-218b06bace1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go to sell shares?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7cf74155-16d2-4613-8e92-a84932e900e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Why hasnt a fund sold that i put for sale 11.11.1111",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "05e26e22-b359-4257-b606-93d484ae6c2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i get rid of my t shares?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e029fbc5-ae4a-47c7-ae19-5203e24c1307",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i sell all my fb stocks",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3818cc66-c42a-41f0-b9d6-a1cf96527497",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i sell all of my aal",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a0d12c8b-822b-4eae-a9f2-52e76a6bcda4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i sell all of my aal shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "95f4270a-3222-4549-9558-d414b8b54c0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can yuo do a bulk sell of an investment for all clients that hold it",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "169b5813-1fc5-4324-a1ed-bd01a47adaf7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i get rid of my t shares?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "13a2d308-d3de-4a1e-9f90-62e5050f80d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i sell all my fb stocks",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1cccefb6-4b63-4101-a65d-71b10dc5f849",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i sell all of my aal",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "49658a63-f724-48fa-8cff-4914f986d51f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i sell all of my aal shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d6fe0028-fe55-4aac-a795-e3d3b843014c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can yuo do a bulk sell of an investment for all clients that hold it",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "45d21a5b-f724-4c1e-8a79-82130355ebd8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i get rid of my t shares?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3d2aee9e-4048-4080-b501-929ea0925fe6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i sell all my fb stocks",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "662e4c4b-e15a-492c-9d7f-5649b4fd9edf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i sell all of my aal",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "0577d5d6-6adc-4d66-9b12-00d5cd5bf806",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i sell all of my aal shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "93b3dd8e-49a5-4388-b7cb-81de09d61071",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can yuo do a bulk sell of an investment for all clients that hold it",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f5597e8e-816b-4977-bd85-589bfe874ad8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "error from panorama selling managed fund",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6648b5c2-b935-4a91-a085-dff41e300a9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund not for redemption",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5255d09c-cfb6-4d8d-bf50-e93e5c5e4a58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help in deciding which investment to sell",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "76d2229c-e45f-4b3f-b5e6-696435fd8ddc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me sell my boston shares",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "099e24be-abce-4784-9881-7d86802b3210",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi guys how do i sell down portfolio",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f12de5eb-5cd7-467e-a1c6-32daba1ba9f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i sell down shares if needed",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ff47e141-3171-49c4-a9ed-5f9e05d08617",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I sell some of my fund",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "373b5be8-ab33-4114-8f4c-4a2e5fb97279",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i know how much tax i will have to pay if i sell some of my shares",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "3c9ef3c2-6de1-4dae-8bbe-5c59fffa1b85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i sell down my assets",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c5c44929-0fcf-45b7-8bd2-85a7069298bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i sell down my clients managed funds",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "be72dbcc-4699-4dea-bd0a-3c8b3aa63dde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i sell down my investments",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e8940cbf-e01e-49a6-80de-add53e23b7ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i sell proportionately across all holdings",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "63b9a552-c80c-4e07-8c40-4a9de4e9a08e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i sell shares",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d39a18f3-ae80-459c-b88a-da88240b84c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you sell all the portfolio",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3d1a121d-4f64-4ffe-b9f4-8612e30c0636",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much can i sell my fb stock for",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "6192561f-da6a-480a-9b58-f20b60b82a75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to sell down investments",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "30ecaeef-06d0-4fd3-8144-8c1b6dd20ebb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to sell managed accounts",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "fcb9a609-56e4-4e95-bbd9-94b9f72e66bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to sell units of a managed fund",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d0a2bb0a-d3ad-4090-ab36-10044cc30943",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to switch out from an managed fund",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4ccb794c-4dbe-401e-bf95-4ce9761a8fb5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i asked to sell my portfolio",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b3b63120-1ae1-47ae-bacb-bdbbcd779f10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cannot sell an investment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7cc9ac7d-7431-4f61-a80b-2f4e7a9419ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have requested to sell my investment",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ece7324-46dd-429c-bf33-a3a27200ff3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have sold an invesTMENT",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "be19a477-aba8-447a-9cd9-38bdde88aacf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need to sell some of my stock",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8f06f2d6-16bf-4bdf-a7b4-49b4214229f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want sell half my apple stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "447ef0a5-837b-49bd-bb29-4865a0584acb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to reduce my cvs positions",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f9cdbc1c-8dfd-4dc7-bf56-02b72bc16c16",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to sell",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4ed8686e-0ad1-421a-8641-7c59b10c4fe1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to sell 100 shares of fb",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "008e31bd-96c4-49d8-89e9-524e9b465d9e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to sell a few facebook shares",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "07ca6c40-6758-4f7d-9893-191f0e23592f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to sell everything i have",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "197b6f49-e87c-4c7c-b258-0a7514081f4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to sell facebook",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "0b8b00ca-cfa1-46fb-aecb-f5184e968841",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to sell facebook stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "054bffdb-159f-44cb-b395-b721fd31031f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to sell half my acn stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c4634920-701a-430f-98a6-5c96ad25d5af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to sell my acn stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e36d5bb8-8ada-4daf-b764-eba707f3212e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to sell one of my funds but dont where or how to contiue investing 1the result",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "25d87e68-e551-44ed-9db8-c8f879bf33a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to sell shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "79c3e952-ce60-40c1-96c9-944be3d2e367",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to sell some xom",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "951f03b7-ae0a-4c5b-ad92-a07fba36bd21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "id like to sell manage funds",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "1229f20f-e83b-4d52-b615-9930d8affbbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment sale",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "767ccfbf-9576-4c47-99a5-321cae328e3c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "liquidate everything",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "72e8b22d-02b2-4b40-882d-ed23b1e03c89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "liquidate my acn stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "672b64be-9d46-486f-9bde-c22ba9bb5032",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "liquidate my fb positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "45e7b8cf-598d-4059-9617-2ae0b00ac4a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "order of unit sales",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1c49ce1f-5663-4ca9-9617-017df9e586d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "order quantity 1111.11111 should be a multiple of the round lot size .1111 do you wish to continue",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2168e26f-72a8-4942-b5a5-58f34ca60195",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order to sell my aal stock",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3b47ae5a-e230-475c-8d9a-635a4cd2c891",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "requirments of linked account when selling shares",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9397d973-624c-49d4-a2c4-400d2b74bdcd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sel ability",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2d28b089-b934-4bc0-afd7-b06ce908fddc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell 100 shares of fireeye",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "528fee1c-3f8c-4635-9a00-decceef7076f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell 100 shares of my fcx stock",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4bbc09c1-8c86-46de-8413-0bcc3253a11b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell 11 shares of apple",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7a3ed0d1-2b96-43ee-aeee-77857a9e5f02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell 11 shares of macys",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "bea8a8a5-6ae5-4b4e-8397-fd16c6d6e745",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell 111 of fb",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "01104d4b-cdcf-4523-8bf4-424ed47f5439",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell 1111 ibm short",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0492148a-cdbd-4eb3-96ff-2fca92a820f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell a share",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "fa19141d-2ef2-41fc-b4ba-baf02a03b57e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell ability",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "bc21c618-ce11-4b91-9054-4c4d4d7b1d31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell accenture",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e057d7c9-7f37-45ec-83b1-0667c66bc573",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell all investments",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ef2e5946-61ad-402e-a695-1596cf056221",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell all my aal shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e759f9da-cc7b-44f3-9567-7c723d6f0c40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell all my acn stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "3b3a7603-2001-411b-8ec9-6eebef3e3e97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell all my amsc",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f62826c6-5f66-4342-ad2d-1534da1f1656",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell all my facebook positions",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "50c87f3c-cb36-4c4d-90ca-f4dc6ed48169",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell all my facebook shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d874ccb4-a38b-4a53-82e7-05ad70b43437",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell all my stocks on plaid gold",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "28a18a5f-cfcb-4411-a6a8-f844b7856056",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell all of my acn stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2e256b60-6c64-42c8-bec1-7e921802379d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell all of my fb shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "aa461ad7-c39b-4dc0-bac2-62426b96b274",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell all of my mrln stock",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "5206131c-c281-4587-9d9f-11ecad68daf7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell all of my stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "69eac85d-9f52-4d2e-a15f-a1d77c652107",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell all of my stocks",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b64cb063-07bd-4509-bdde-abdfeb0f66d0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell amd",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e41b85ca-5c2e-46eb-b22e-6aa4571069a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell asset",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e0277c15-c2ec-44e7-950e-1f3e1ced1aa3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell att",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8d59e5d8-ccf2-418a-a9fb-5b99054267e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell avn",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1208e430-6310-4a99-b3b2-3ec27705235e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell baba",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9c28ab2b-732c-4161-8e2c-902cf25385a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell csco using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "534d5fce-ac42-42a9-b338-a86812648942",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell cvs",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "96ca9cc2-082e-4844-8ba4-461cbc09070a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell down",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "de6a40af-2734-4ae8-ad01-7810978ed2f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell down instructions",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8c5f598a-a334-4d33-9b03-3ae797cff894",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell down orders",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fd32fd10-e62a-41d0-9405-7c4e0836e0b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell down proportionately across assets",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "25c32c58-8d56-46eb-bd46-9d4563fb3ede",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell down securities",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5e1b5356-b085-4b16-b5a3-77df97bea777",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell everything",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3f476d2e-5ae5-4857-bca6-11d9de8f6ad5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell fb using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "34b46eda-5af1-4e40-b59b-00a084fc79e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell fcx",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1a73e767-0bdf-46b7-9995-9dc374903078",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell fcx using account 1111",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ecc43ca0-c6b3-405e-8d03-21fdadbe12c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell fe",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "52915c2b-ad5a-4058-b405-7a22b6293650",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell fl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "60c11865-a26b-4cfe-979c-00bb4a2b845e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell half my fb positions",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "a0d21c16-83ce-44da-9714-42a747cf48c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell half my zion stock",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b278f278-1750-4d58-ae8e-0917101cdf91",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell hsic using account 1111",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8e021353-0e1b-4313-84d4-42e7e1cbbdda",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell investment holding",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "25087d84-f465-48ec-8b23-a33a374cc916",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell investments",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "011d0387-e848-45f5-a4e4-a0a9657a4b4c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell my aal shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e6340f50-d0e3-4b14-89d0-1da3793da785",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell my csco stock",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "b5634422-9222-4e1e-b1ca-0e552dc20469",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell my entire fb position",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e74522c1-710d-415b-9db8-39274ee37077",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell my shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "249567d5-6790-4d78-948a-8816de8160d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell my shares of chevron",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c9f76a1e-f05f-483d-b33e-45ceea67a2f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell my shares of sony",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "479845d7-841a-4eca-bac9-a499508bf111",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell off goog shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "49e3f036-7846-41f1-8d3a-6fe34e08db9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell order failed vetting",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "248bf306-62b0-44aa-a90c-09c92ce65fdd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell parcels",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2182c7e3-4a10-417b-b6b3-6d5b47abc518",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell request for an investment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "623c6a27-5a5a-4c3b-b8d3-8a9015cf6790",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell some accenture shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "4baf54bf-d6e7-42b4-8205-1915e43ad3eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell some american",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "21a07554-8488-455c-814e-1470b4ce4492",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell some american airlines shares",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0e7c9747-ebdb-46f0-b143-39b007621d58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell some american shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9fb1d309-01c4-479a-8c7b-42c2c11f68a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell some microsoft shares",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2ae523ca-27cd-4355-b45e-f9c41a666f2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell tracking",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b5793431-dc3c-4ce8-825c-924f524d88d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell transactions",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2072fb1f-aec8-4014-a07d-dd98eb930ab0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell uber from 401k account",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "74b48269-a8ab-4cc2-9b04-e656f3ff48e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "sell uber using account 1111",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f99da14c-e3fd-492e-b467-d5cae69e39cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sell units",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7169cf75-2f8d-4b09-937e-ee304f371362",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sellign shares",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "75509ae2-d4a6-45f0-a9d4-6cc651928d57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "selling investment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "77dbaaa5-3e77-4c5b-81a4-eaadf175d2fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "selling managed fund",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9b002ee2-8926-4d7b-8f26-77ca21ba8afe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time to sell investment",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "53979f74-2ea0-472f-8f94-8b5c6df22506",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trouble selling investment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d34fe0c4-ad06-4439-8298-d2e4f252beed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to sell funds",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6ea5faa4-5075-49e6-8ca4-24282b43d188",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "walkme",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "21a0dd80-22c0-47ec-8bc7-3a7cb8a465da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time to sell investment",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "c0f8c6ae-3d99-409d-8f67-44c47c504f96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trouble selling investment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7916a0e5-dd58-4808-9a2a-cf32b3a701c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to sell funds",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b1e5fbf2-39a9-4bd1-9164-a15479cbb822",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "walkme",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "f740994e-3b84-49cd-a944-7dcb82cbac46",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the code for stockland so i can sell shares",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9f768b43-d4ea-4bf3-83b3-59b60a322e64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can i see share price",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "f05c356c-9453-418d-9cf3-b67a6673943b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do you set a sell down rule",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "0053b56a-f1c1-463a-8028-4307c9a91c64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can i not sell my pls shares",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "242a1fea-ac5d-45d1-a398-e9d704523f93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why do not i have access to buy or sell shares",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "18692728-e542-444d-af8f-2cbad2541b26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is the value of the investment listed as $111111 but when i sell it the value is only 111,111",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  } ]
+} ]

@@ -1,21 +1,28 @@
 {
-  "name" : "Core-Intent-Thankyou",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Happy to help."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Happy to help."
+        }
       }
-    } ],
-    "quick_replies" : [ {
-      "type" : "TEXT",
-      "payload" : "What can you do for me?",
-      "label" : "What can you do for me?"
-    } ]
-  }
+    ],
+    "quick_replies": [
+      {
+        "type": "TEXT",
+        "payload": "What can you do for me?",
+        "label": "What can you do for me?"
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Core-Intent-Thankyou"
 }

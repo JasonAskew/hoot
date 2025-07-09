@@ -1,0 +1,982 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_trade_share_test",
+  "intent_name" : "bt_trade_share",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "289e6cf0-5775-4f24-a0e1-48b128bc3a18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "/ app / investor / account / accountnumber / investment-orders",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "80bcda38-ade3-4ead-953b-af2a4df8dafb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to place a trade",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bf1b9a19-1d84-4834-b386-26b70451461e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Bulk Trade",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "e34bf015-3745-48b3-826d-8a69c1bc0709",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can I sell and managed fund and buy another at the same time.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a0a43b8d-aaa7-4ed2-8801-c9cf1114c738",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me place a trade",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6d0541cd-022d-4b34-a78a-4c8da6701f4b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, how do I change what i invest in",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4033a453-faa8-4dce-bceb-d7fe7ac8b65c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I change allocated percentages of my investment strategy",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fddd235e-805a-4b16-9b3f-e91ffe9186ae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I do a full sell to cash",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "dc187dc2-eb54-4e45-a5c7-8a7462eb4387",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to place a trade?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "3fa990b0-d549-4153-b94c-ee140cfd830b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am looking on information onn by technology",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "9caf39f4-49a8-489e-a67b-b2d83772afde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "/ app / investor / account / accountnumber / investment-orders",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "6b0e7beb-1f62-44d4-b827-c84feed6f8ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Am I able to place a trade",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "76e01421-2f74-4879-8ecc-72dd616e2823",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Bulk Trade",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "3a0d7f0e-b285-4dca-8490-299d8a9f32f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can I sell and managed fund and buy another at the same time.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b39f3849-2bec-498f-910f-a3a98d5b5dea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me place a trade",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d4c20096-b337-4925-b587-a60893ca0572",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, how do I change what i invest in",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1d3fe913-0e7a-4755-b7b4-50289363f66c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I change allocated percentages of my investment strategy",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9e9bb9f4-53d5-483a-ae5d-f9ba30b3b479",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I do a full sell to cash",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e2d94da0-e365-4dde-b840-2a34810d6962",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to place a trade?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "070ea28a-62ba-4e24-a39f-8ff5aa207825",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am looking on information onn by technology",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "5c1e5eaf-3587-49c5-806f-e5bf16cfab3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to place a stock order",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f13f903a-60e1-4960-8eb0-6886414f60f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I would like to chance my investment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3e9de391-9beb-4dd5-b440-771a22187bfe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Make a trade",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "c5c70519-57cc-4cbc-a0c5-d749a6e3b408",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "My account isn‚Äö√Ñ√¥t allowing me to invest",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7f045152-7018-4772-9468-e71e6d8ba26f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "add 100 acn shares",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "89cdfaa4-7e2c-4099-ba8b-ea2898ceaf49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy and sell an investment",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "ad857dbf-3570-44dd-99ef-77c1a372217b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can clients implement their own trades on panorama",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "6872ee37-6ce6-4f26-9861-7f48345cc061",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i add 100 shares of pfizer in my platfimum brokerage account.",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "10b559a9-4188-4981-b016-2027f0c225ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change investment strategy",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a6069e74-b2c0-4349-9c97-b887b6c0cf8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change portfolio investment",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "419b86b8-fe6c-4001-a96f-dc208a76146c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i place an order for 10 shares of disney?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c159a1c3-5ef2-4aaa-97f7-9c28ba627799",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you execute the trade here",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8b10c411-85a2-4fab-aa94-bfde07b715ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me set a limit order for google at 111 for the day",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "07ae82e9-e741-4858-8ea3-8f8494e79835",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me how to place trades on my account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "75758376-921e-4cc0-b123-0efdf39f22ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel all pending orders",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "85f7612d-b9ff-4495-ad4f-6750773c2d52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot invest in shares",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "00d0bc0e-42b0-4555-86f7-ad1ef1d52f4d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change cash investment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8ce37688-8b9b-4e11-8688-8144f37b290d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from bt growth to bt high growth",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6f599ba3-a90b-481e-895c-6da40d5449b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from bt growth to bt high growth - do i have to sell the asset or can it just be switched",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7ea533ff-cd20-426e-b71d-8768fdc1964b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change investment from cash to managed portfolio",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a716242d-d8d4-4b8a-8f95-26f2c9f0ce2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my investmentts",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3a673129-62ac-42d7-b1f9-01f332a7c1e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy and sell an investment",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "e0c83020-3ed3-4e59-9a8c-407435887299",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can clients implement their own trades on panorama",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "fa8798ed-abb7-4181-b553-49babe6bf061",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i add 100 shares of pfizer in my platfimum brokerage account.",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c48fe69b-8384-46e6-accc-b769ccb7404d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change investment strategy",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "06630f53-dbfe-4089-bf58-8ebe7def7e07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change portfolio investment",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "50606084-aab8-4d44-88da-e5ae6f95f217",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i place an order for 10 shares of disney?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2d989fde-3737-47ba-8382-adf4a3c8ef7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you execute the trade here",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "aa897585-c6c2-4d55-b197-28ff4ebb8674",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me set a limit order for google at 111 for the day",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8e1ab08c-1ee6-4c2b-bf74-8f17f6ebd128",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me how to place trades on my account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "eecc19cd-87a1-4a3b-9e17-0207b4253778",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel all pending orders",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "701109e2-ab99-4c61-835e-86f6b77bef13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot invest in shares",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0a7cf777-1912-45cb-b6de-d620bdd5831d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change cash investment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a3118444-21b7-4d75-8d3e-1fb7d8ac12a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from bt growth to bt high growth",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "739ca451-58d6-437f-8588-fb7e89988d69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from bt growth to bt high growth - do i have to sell the asset or can it just be switched",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ab97ba5-4079-42e3-8061-a0692622af70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change investment from cash to managed portfolio",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "792977d9-afee-4e79-914c-dd809b0e740a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my investmentts",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "49979b37-c594-4db8-b87b-c7ea2aed0b16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "buy and sell an investment",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "7d307a9f-889d-4bab-a887-534e3d9b868f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can clients implement their own trades on panorama",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "c6774ed8-ecaf-4ac6-abc4-058e45c36601",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i add 100 shares of pfizer in my platfimum brokerage account.",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2af96b99-e52d-46c9-becd-0fe76a2c4408",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change investment strategy",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "26589681-90ac-4fe3-8a82-bffdbb47c754",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i change portfolio investment",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a80f0838-1f97-4ca0-96d5-8dbe6a3e019f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i place an order for 10 shares of disney?",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "69a4ed6f-d17b-4940-9a7e-a49a62d20dd1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you execute the trade here",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cfa71440-60ab-4ea8-8096-ce9a3517d7be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you help me set a limit order for google at 111 for the day",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ff63eafe-6be6-4a4f-956c-88ea1f089970",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me how to place trades on my account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "e68ab4f7-3120-44c9-99db-f72586a0554b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cancel all pending orders",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9e8d0e6a-2348-4021-9212-805739626c55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cannot invest in shares",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "77b48d77-fb39-494a-a472-3f69d748d324",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change cash investment",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "500dd340-05c9-4e3e-943c-5284235ef22b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from bt growth to bt high growth",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b1595cc6-5cf5-4b7e-af87-af9b54e175e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change from bt growth to bt high growth - do i have to sell the asset or can it just be switched",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a166ce5c-fcbe-4e07-a00b-58c2d4bf3289",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change investment from cash to managed portfolio",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "68c85a2d-2b8c-429d-a1fa-35cb29bde59d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change my investmentts",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "932df550-f5ba-4c4e-b8f1-a7e3fb8b3992",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "equity trading",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "d7aed664-f262-4ee9-b274-18288f8b2d02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning can we process an auto rebalance and investment order at the same time",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "f40f6464-aa8f-4277-9659-714d40e7672b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning just wondering why there is not any etf or direct share purchase option",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "afdf45e4-4ce9-4a8a-bd74-f50c18a747a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello can you trade crypto currency on panorama",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "8b7b8d60-7fc0-4204-8752-d74bf969c18b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me close my acn position",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "fec2d5d3-b535-4424-889b-de7cfc4c0c3e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "help me make some trades",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f01424c4-2360-499b-b023-3117c06bae4b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help with investment orders",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3e722b1f-5622-45ac-aa53-55b838d59a3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i just want to ask where can i get an investment switch form for bt super",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f0969e44-5385-4331-81ea-28af2627491d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need help on how to do switches in the portal",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4f112196-e065-4031-8d8a-6262e4bce192",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi just making sure regarding this account xxxxxxxxx we are planning to do a full sell down on maq1111au charter hall direct industrial fund no.1",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "8b96fb64-292b-474c-9113-b28ab511b237",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi looking to analyse which of my investments i should buy or sell",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cb037c78-3513-4442-a743-119fadcbf858",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i rebalance my portfolio",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4229e256-1b65-4764-8207-f9bd7c1fc7a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i trade stocks",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ac495e25-0f98-4753-9caa-5687ca640148",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change from cash investment to something else",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a8fff3ef-414e-43f9-b7f0-a1182f2c7ebd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change how my super is invested it is cash now and would like to change to shares",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "495f6647-20b4-49e2-ae3f-04129ec03037",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change investment option",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0302049e-fa21-4148-848b-32c788a849f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change investment profile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1031a494-0b68-4ac2-af85-282bc62c507d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i get 50 shares of agilent",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8f82f9c9-cb34-4993-8166-2c642a37f582",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i pay listed share options",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2a13909b-719f-43f5-8724-04066390a53a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i place a trade",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "62133678-06dd-4c20-8619-aa67fec4b9fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i submit orders",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a04537d9-3023-494f-aa33-488049e92a42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to buy and sell",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f800b10b-b33f-409d-b3c3-dca58829a7de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to do a switch",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5ac5bee9-851a-4bc8-8df1-ad596a53f732",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to place a trade",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "946ed63c-0662-4e07-8e2f-209e71b51271",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to place term deposit trade",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2046c04b-992e-4bce-88a8-967a0ae13042",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to place trade instructions",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "6c9504e7-c2cc-4cc5-bcde-819d2b2774f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking to change the structure of my super by putting a lot of the funds into short-term fixed investment how do i do",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "042c156a-f3c4-4496-8fa1-aae308f6fae8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cannot invest my money outside of cash even though i have have the highest risk profile",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "f9fd1e33-619e-401b-bd63-e7d83f777383",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i currently have all my investments in one fund if i want to change that do i find an investment then press buy and the",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "2f458e3d-8c21-4fed-bbf6-fbe15bc15156",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to add shares in my brokerage account",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ff0dcfbb-12b5-42e4-a87b-7da11972b4c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to double down apple",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "96aa634a-2c1a-4347-8ed4-fe33c8ab3b17",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to double my position in acn",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "10370521-bcd5-46b4-97c2-d1caf82e17a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to invest",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d940c67a-0767-42c9-a2f2-ed6380ed2a86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to invest in american airlines group",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dfd1d4de-37a2-4ec7-878a-4a75fdd8aacf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to invest in facebook",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1d580b8b-c5bd-4ed8-8472-b3bd6959dd45",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to invest in shares using superannuation account how do i do this",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7d6ca8ca-5a6c-43b9-962a-e4d24b7c7b43",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place a trade",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "16f5a660-9ea2-4532-a808-8f5cf283a897",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to place an order for aapl",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "9042348a-4835-4880-a4e6-05fd22e530b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade fl",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1b73f6b2-7a1e-4e53-b17c-f7e6137b17ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade hhc",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8275dc03-917e-4604-b0ea-fa32644ad5a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade some stock",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "e0300150-1da9-424d-8f1a-b1f9c44d9872",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to trade stocks",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3d72751b-cb78-4113-9931-6e88ee5b21f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to update my investment profile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cdf7f02c-d90f-47e1-a85a-879215283ab9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i was advised o sell investments in order to make a partial withdrawal from my super",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eb18301b-b12f-49f4-b536-a99f8b33063f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to put my money into a low profile rxisk account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e2fe3aae-f6ea-4c59-aab1-11ccdc1ef455",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i'd like to order 1000 shares of davids tea",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "cf88dbbe-1c72-46e4-81db-0321e8211ffb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if i only want to change the current balance in my 1111s lifestage to add to active growth option how to do that",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ae0faa22-ab2d-4a4e-8c72-6cb625e9dea6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment orders",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a89c2984-41e5-4d58-a3cd-85af104ec819",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment profile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e968376f-8e6b-4ea7-96f7-cbe560ca616a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment switch form",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d2be04bf-6903-4511-a14c-5621257e0023",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "let me place an order for aapl",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "99681acd-3ef6-47bd-9e6b-d6a21300de50",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "limit order for ibm",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d04711ff-dc53-47fb-ad2e-1a37058b7844",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "liquidate my cvs positions",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "37faf409-bd39-4871-84c7-d1760b92f08b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "make a couple of trades",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9582ddb5-a02f-47c7-aeb0-ed1a5b34bff6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "make a trade",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "34e20aa8-2e6e-4af7-b34c-88e64815b479",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to top up cash account for a payment how can i do this",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "586e513a-b8f6-4f7d-b4de-726af4d08b8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no just what is it and as it is showing in my account can i trade it",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "c3c58f52-99a4-4273-8fba-65efa793ec6c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order 13 shares of nintendo",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "46b7dd04-5d56-4b2f-8a3e-2833aa53350d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order fb stock",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "fc75e520-63f5-49d7-a1ff-33964baedb76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "orders to sell when market is clised",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e11ef853-fa1a-4bb3-9509-03bb54a9169f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "personal share trading",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f4c1c364-5e6c-48d2-abb2-3a688aadd4f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place a market on open order",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "daeeb151-914a-4a34-ac8c-6f907dbded57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place a market order for 15 shares of ko",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "8609be06-31b5-4337-85bf-d7f769545e15",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order baba",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "341ea8d3-7710-4b25-9d4a-cba2371df95d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for 1 shares of cvs",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d2ecbbc1-3fb5-4043-a815-4bca99d0f9de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place an order for msft stock in my 401k account",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "594d0cf9-9d85-41ea-a9c5-17cc63c4ffdc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "place trade",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "5d95d2e6-6f05-4f37-a4eb-24623744de58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reallocate account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4f50916b-ac97-4b7d-bd8b-a9212a02fc6c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "set investments",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ad650b4-7fc3-4642-8b50-9a9235f65ffc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trade",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a37e47cb-e258-4074-b0b2-a774336424a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade 100 shares of ma",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "ce2b8a7e-c168-44b9-9fb7-3fa9379c8693",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade my csco stock",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "85c1562b-d9c6-4e1d-85fe-5f81fad2d0ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trade order",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a165dcc5-0d95-49dd-a1de-a5b25eaa98a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade snap",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1fb246d1-98e9-42d2-8012-87810741a796",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer share holding to another broker",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ea4b2c49-2eaf-4f2c-b117-f827fa407cc8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update investment profile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e45cb08c-c49c-45c8-9db2-2dae905769b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we are pllacing trade for 111111111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8d951f62-d238-4136-8740-6b0a9b3ebc2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trade",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "f61dcd01-738a-49ff-97d8-162ae0516201",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade 100 shares of ma",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2386c41c-16b0-4a7f-930b-0715dcc8e602",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade my csco stock",
+    "tags" : [ "prodteam_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "5b3f4b15-a0ba-47bf-871b-fa9dc0d07bc8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trade order",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "9bb76b57-93e2-487b-9646-629d9a6cd8f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade snap",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8a42f6c5-739a-4ede-ad43-42faa02407b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer share holding to another broker",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "487cf416-a498-4ff0-b94d-5fc50b010943",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update investment profile",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cae8351e-37f8-4e18-97e9-1e29f1c3cdb8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we are pllacing trade for 111111111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7dc53eea-a4df-4262-ab61-4feb92cbea59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the best method to determine whether to buy or sell",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6e355428-4edc-4f63-a18b-7a038ed1c014",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's required to place a trade",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "37adc764-cb38-4279-9d2d-ebe9c038f269",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why am i getting an error while processing a trade",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d8a1585f-4076-4fdf-b038-0d3fefc6aa40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can i not trade i have cash in my account t",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  } ]
+} ]

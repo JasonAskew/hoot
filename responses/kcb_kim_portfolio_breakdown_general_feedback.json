@@ -1,33 +1,45 @@
 {
-  "name" : "kcb_kim_portfolio_breakdown_general_feedback",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "kcb_kim_portfolio_breakdown", "kim" ]
+  "categorization": {
+    "tags": [
+      "kcb_kim_portfolio_breakdown",
+      "kim"
+    ]
   },
-  "default_response" : {
-    "quick_replies" : [ {
-      "type" : "INTENT",
-      "payload" : "👍",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "1"
-        } ]
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [],
+    "quick_replies": [
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "1",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4d"
       },
-      "label" : "👍"
-    }, {
-      "type" : "INTENT",
-      "payload" : "👎",
-      "intent" : {
-        "name" : "kcb_feedback_survey",
-        "user_inputs" : [ {
-          "name" : "rating",
-          "value" : "0"
-        } ]
-      },
-      "label" : "👎"
-    } ]
-  }
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "kcb_feedback_survey",
+          "user_inputs": [
+            {
+              "name": "rating",
+              "value": "0",
+              "type": "String"
+            }
+          ]
+        },
+        "label": "\ud83d\udc4e"
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "kcb_kim_portfolio_breakdown_general_feedback"
 }

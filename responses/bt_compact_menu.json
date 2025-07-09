@@ -1,106 +1,131 @@
 {
-  "name" : "bt_compact_menu",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To switch an account between Full and Compact menus, or BT Panorama and Asset Administrator badges:\n1. Select 'Go to page'.\n2. In the 'Account maintenance' section, select 'Change of account menu or badge' then follow the prompts."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To switch an account between Full and Compact menus, or BT Panorama and Asset Administrator badges:\n1. Select 'Go to page'.\n2. In the 'Account maintenance' section, select 'Change of account menu or badge' then follow the prompts."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "internal",
+          "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label": "Go to page"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_investment_option"
+          },
+          "label": "Investment options"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "internal",
-        "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-        "label" : "Go to page"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "bt_investment_option"
-        },
-        "label" : "Investment options"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To switch an account between Full and Compact menus, or BT Panorama and Asset Administrator badges:\n1. Select 'Go to page'.\n2. Select 'Submit new request'.\n3. In the 'Account maintenance' section, select 'Change of account menu or badge' then follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To view if a clients account is under the compact menu, this will be stated at the top of the clients account next to their name and account number.\n\nFor more information, select 'Help & support'."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/adviser/tracking/pano-service-requests",
-          "label" : "Go to page"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/menu-badge-change.html",
-          "label" : "Help & support"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.panoramaadviser.com.au/content/dam/secure/panorama/pdfs/pds/Panorama_Super_IOB_Compact_menu.pdf",
-          "label" : "Compact menu investment options"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To switch an account between Full and Compact menus, or BT Panorama and Asset Administrator badges:\n1. Select 'Go to page'.\n2. Select 'Submit new request'.\n3. In the 'Account maintenance' section, select 'Change of account menu or badge' then follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To view if a clients account is under the compact menu, this will be stated at the top of the clients account next to their name and account number.\n\nFor more information, select 'Help & support'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/adviser/tracking/pano-service-requests",
+              "label": "Go to page"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/transactions-and-investments/menu-badge-change.html",
+              "label": "Help & support"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.panoramaadviser.com.au/content/dam/secure/panorama/pdfs/pds/Panorama_Super_IOB_Compact_menu.pdf",
+              "label": "Compact menu investment options"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_btinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_superinvest_pension",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To better help you with your query, please sign in to your account and ask me again."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_btinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_superinvest_pension",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To better help you with your query, please sign in to your account and ask me again."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_compact_menu"
 }

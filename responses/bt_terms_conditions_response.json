@@ -1,13 +1,16 @@
 {
-  "name" : "bt_terms_conditions_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "For an account application with multiple clients, each client must approve the application and accept the terms and conditions to activate the account."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "For an account application with multiple clients, each client must approve the application and accept the terms and conditions to activate the account."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_terms_conditions_response"
 }

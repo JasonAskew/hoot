@@ -1,0 +1,508 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_trade_settle_time_test",
+  "intent_name" : "bt_trade_settle_time",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "156e10c8-8633-4dfd-92b5-34f57003394d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "After I make I trade, when will I see my proceeds in my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0ca30bb5-b3e0-4c32-9e24-2df2134e7efd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many days does it take to settle a trade.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3d2d46f5-805f-4f2f-91f5-698a9a330bae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "After I make I trade, when will I see my proceeds in my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "defaa163-e593-41c4-925c-92865716b540",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many days does it take to settle a trade.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e08a75a9-bbed-46c7-b76b-f882a73d58fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need an update on trade status for some trades submitted last week",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "0e8b5353-85d5-4534-9789-86598811b39b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Order ID: 111111111 is supposed to sell within 1 business days, and today is day 1 and it still hasn't cleared.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "7fb3ff3f-a1ed-4938-a23d-e35b4f13c28d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the duration for a trade settlement?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d67102e1-182c-48d0-8dfb-31e2cb5f635e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a confirmation of trades i did for bob on mondayt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "503ebf7a-ebda-4ba1-b3fe-900258c5ad0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i see my orders to sell shares i made in the weekend",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4a76027d-3b87-4a3b-b55d-209137085e6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise me when funds from sale of 1111 bob shares on11 feb 1111 will be available for payment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0ff88405-2df2-4ffd-8575-adf11792976c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you please advise when my investment sale will be settled",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "7bc54956-db8b-42d5-952e-bc08a35a2bbe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me why my investment order is still in progress",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9eb946c4-8257-4a9a-97be-5c4e924f74a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check on buy order",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3dce1e7c-8df0-4335-b4f1-fbeb8b4b03e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check on the sale of a managed investment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7f7ab7d9-e6ec-490a-b47d-5f45907723e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a confirmation of trades i did for bob on mondayt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8512ef72-9d4b-440d-9990-b3a32a909a4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i see my orders to sell shares i made in the weekend",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ba6faac-5f5d-4178-8928-c0b6eb172fb5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise me when funds from sale of 1111 bob shares on11 feb 1111 will be available for payment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6e05d248-4013-4c95-86e3-411b0f177149",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you please advise when my investment sale will be settled",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "93f14676-3721-4b82-80cd-25ea444d0ffa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me why my investment order is still in progress",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "62443bca-36da-4436-ab3b-13d57260a90c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check on buy order",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3afc32d4-d73f-4a1b-9bbb-aa815e663300",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check on the sale of a managed investment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "963d117b-e2cd-4790-a7a4-7b6c65a07559",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a confirmation of trades i did for bob on mondayt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8c8b35ef-a360-4b16-bd5d-b6adc9a7d93e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i see my orders to sell shares i made in the weekend",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "74f47bad-ac8d-421e-aa7a-bb3a984a2153",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise me when funds from sale of 1111 bob shares on11 feb 1111 will be available for payment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6a6c6bf9-87b9-4a38-9f69-5f99f3081852",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you please advise when my investment sale will be settled",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "74c9ddb8-b996-4d75-a882-07e51af47b8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me why my investment order is still in progress",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a5c4e350-9649-41ca-866f-db224a4fa194",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check on buy order",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "299cde3d-59ae-4c7b-bcef-8087f29b8223",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check on the sale of a managed investment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "745a6817-92ac-4f5e-bce7-af2159db1c5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cut off time for managed funds",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "51761459-27b9-4828-87b2-6de74e0fa48b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need to be concerned if the trade is queued for 1 days even though the sells are not yet completed",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d896f050-b2a2-4e34-a0de-401bbe108109",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does an account have to have a full sell down done before a full withdrawal can be completed",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a3c799ba-8cda-4fe8-a6a1-dc3dbe9beea5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "full transfer turnaround time",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "47b8b426-818c-489e-9776-cbf8f3d33bd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morningare there any updates on when bob direct property fund will be open for redemptions",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "af801d4e-a6b6-4215-b6bf-bc5e7f0e5c95",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - i have recently bought 111000 of alphinity global shares i can see the debit transaction but not the share transaction has it taken",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d7f86a2d-499e-43a1-9180-132c731d5f42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you please advise the turnaround time for selling the managed portfolio - cornerstone balanced growth",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "881439e0-43e7-4530-89fc-011b9e3ba0b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi looks like the sale as has through - order 111111111 - can you please let me know where the money will be transferred to",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "63532b45-a5af-4529-8bdc-96de222d19e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team i am wanting to confirm if a clients portfolio has been sold down",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "468a767a-3cd9-40bb-b8f6-432b487b73d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi we put in a withdrawal request yesterday for a pension we have relaised that the cash account has not yetbeen topped up by sale",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c3bf823b-58cc-419c-a951-e1a06f742699",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi when selling investments in the adviser portal do we need to allocated the sold funds to the cash account or will it automatically be",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "56effe43-2396-421e-8603-13dea03a56b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i track my sell i instructions on my bt pension account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cca9b1c4-9f6c-4c4e-9c6a-8263f4949ed9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find the funds from sale of shares",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f74f2f50-8832-41e3-99f1-f70133c68ef8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a managed portfolio taken to sell down",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1112d97b-f902-4a26-89bb-bc85ab5d8e57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for a contribution to clear and be available to trade",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "d4731992-83cd-46b5-8897-44a0c95c6a16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for a sell order to go through",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c3f82c0c-1b50-4567-ab8b-36ae12807c48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for the fund manager to buy back the shares",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fab16c5b-0bd0-4baf-8beb-3b07273acf32",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to sell a managed portfolio",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "be38e926-4269-4a61-8a99-289390f7ccd9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to sell an investment?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "577f5a8d-d5a9-44e1-8ac5-8eff96e5e899",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long does it take to settle a stock trade",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4d608f0a-ba27-4766-af71-128525c93aca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does redemption take",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "01fa240a-d558-4651-990a-69d872714b58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long to sell managed fund",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a5d40f9e-b239-48f8-9d26-477000bea46d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how many days if i sell some shares for money to reach me",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "04835ebf-f827-48ea-b91f-449535599ba4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i created a sell request 1 weeks ago and it still has not been sold",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "14ad20be-d4f3-4a3a-bdaf-0aca0e0d9a9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have put in a request to sell part of an investment it has on the order that it is in progress and has been",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c7a4efb2-48bc-4f2b-b28b-f66933ec7236",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have sold my investment and i would like to find out when the cash will be available and how can i transfer the cash",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "98221bd4-0cc2-410b-b638-3fc86589e240",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have sold some shares when do i get my money",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "74340cf8-77a0-481c-9f7b-714c01f46b9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i know this - but the incoming transfer is missing from my super transaction report",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8aa8a73b-881d-47f1-946a-8120da16c7d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i put buy and sell orders in on 11 october 1111 but my orders have still not been filled",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ed45831c-e9ef-41d0-ab56-c6105695f37d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "inquiry about the shares i sold from my pension fund",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "68619d30-afc4-4a45-94c0-91162ab25517",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "inquiry about the trade status of account 111111111",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "5698721b-f334-4de9-82d9-f05b93f069d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "invested in stock but not showing in portfolio after 1 hours",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1731670f-9a1a-4d36-a8fe-8abd2158092b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "magellan global redemption has not completed after 11 days",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c239441c-3a0c-4831-9c03-bd690dbb48fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "order status pending whats the reason",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f2efb0f0-cea6-4fdb-ae65-3e02d983277f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "outstanding order",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d81c9031-d80f-4580-8145-fc731bf49da7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "query on sell for managed funds",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ae10683b-dbb7-4036-8a7b-f8b061f2d699",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "re dexus core property fund is there current information on the redemption windows",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "25acd6f5-e51c-4354-abcf-7f01393c9794",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "redeemed funds yesterday need to know where they are and how to transfer to my account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ad5e981e-6c97-44f8-8809-101a4fcace47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "selling investments - how long",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "60ac33e9-3060-4525-80d5-7e0e44445b70",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade settlement days",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "af6f84c0-01cb-4976-ac9c-3ae79c0c3917",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the bank details of bt panorama",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "96cc7261-00ab-40c5-99dc-7183f60fbf9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade settlement days",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2e02ad3f-fb5a-4aae-aecd-fae5c0eb8bdc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the bank details of bt panorama",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "295e2cca-9f9b-483d-a4dc-e1d9feccb61d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the timeframe to sett a trade.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "768b2433-0ebe-42e0-b508-284060c289f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the trading settlement process time",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e4c8d195-fd64-44ee-9330-f2ca6f2430f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will it settle",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dd7888f9-3ca2-4f49-9ba7-c132b7f303e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my orders",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1f1db8a6-2449-4adb-b373-8031f44d2e9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where will the order be paid to",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c7c02edc-4b03-49c0-ad64-77324573f82c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why aren't my sell orders being executed",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "34e79b59-a14e-4e96-bc25-4a86b01aa3ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why does my current cettire order not appear in investment orders",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "42037de9-eb07-452b-8f8b-61008aea443b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why does my sale of ctt ot",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "319becc4-a404-4bf8-8a1d-c2111d0055cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why does sale of ctt not reflect in investment orders",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "335c7bcd-bfd8-4fd2-8bf9-d7d46f7b0569",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is it taking so long to sell y investment",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f4d5664a-8725-4240-94e1-decd750a681b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is my sell order in-progress for 1 days",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9843a94f-f9c2-4518-8757-3d816470de49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "will the money be automatically available in the cash fund",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  } ]
+} ]

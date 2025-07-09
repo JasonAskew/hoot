@@ -1,6 +1,9 @@
 {
-  "name" : "BT_APPLICATION_NUMBER",
-  "type" : "Pattern",
-  "system" : false,
-  "patterns" : [ "[rR]?\\s?\\d{9}|\\d{9}\\s?[rR]?" ]
+  "type": "Pattern",
+  "system": false,
+  "patterns": [
+    "[rR]?\\s?\\d{9}|\\d{9}\\s?[rR]?"
+  ],
+  "state": "SAVED",
+  "name": "BT_APPLICATION_NUMBER"
 }

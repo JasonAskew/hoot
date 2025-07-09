@@ -1,25 +1,33 @@
 {
-  "name" : "bt_account_asim_investment",
-  "active" : true,
-  "criteria" : [ {
-    "platform_type" : "web",
-    "customer_data" : [ {
-      "name" : "userType",
-      "value" : "ASIM"
-    }, {
-      "name" : "product",
-      "value" : "BTPanoramaInvestments"
-    } ]
-  }, {
-    "platform_type" : "web",
-    "customer_data" : [ {
-      "name" : "product",
-      "value" : "BTPanoramaInvestmentsCompact"
-    }, {
-      "name" : "userType",
-      "value" : "ASIM"
-    } ]
-  } ],
-  "description" : "bt_account_asim_investment",
-  "enabled_actions" : [ "bt_deposit_funds", "bt_deposit_funds_investor", "bt_asset_transfer", "bt_asset_transfer_investor", "bt_request_for_withdrawal", "bt_request_for_withdrawal_investor" ]
+  "criteria": [
+    {
+      "platform_type": "web",
+      "customer_data": [
+        {
+          "name": "userType",
+          "value": "ASIM"
+        },
+        {
+          "name": "product",
+          "value": "BTPanoramaInvestments"
+        }
+      ]
+    },
+    {
+      "platform_type": "web",
+      "customer_data": [
+        {
+          "name": "product",
+          "value": "BTPanoramaInvestmentsCompact"
+        },
+        {
+          "name": "userType",
+          "value": "ASIM"
+        }
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "bt_account_asim_investment",
+  "description": "bt_account_asim_investment"
 }

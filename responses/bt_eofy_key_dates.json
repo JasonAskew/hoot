@@ -1,47 +1,57 @@
 {
-  "name" : "bt_eofy_key_dates",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "For transactions to be reflected within 2024/25 annual statements, we must receive the payment by 5pm Friday 27th June 2025.\nWe recommend submitting by Tuesday 24th June 2025 before 5pm."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "For transactions to be reflected within 2024/25 annual statements, we must receive the payment by 5pm Friday 27th June 2025.\nWe recommend submitting by Tuesday 24th June 2025 before 5pm."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://www.bt.com.au/personal/help/end-of-financial-year.html",
+          "label": "EOFY information"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_tax_and_annual_statements"
+          },
+          "label": "Tax & annual statements"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://www.bt.com.au/personal/help/end-of-financial-year.html",
-        "label" : "EOFY information"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "bt_tax_and_annual_statements"
-        },
-        "label" : "Tax & annual statements"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For transactions to be reflected within 2024/25 annual statements, we must receive the payment by 5pm Friday 27th June 2025.\nWe recommend submitting by Tuesday 24th June 2025 before 5pm."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/business-admin/managing-your-business/eofy/cut-off-dates.html",
-          "label" : "Transaction cut-off dates"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For transactions to be reflected within 2024/25 annual statements, we must receive the payment by 5pm Friday 27th June 2025.\nWe recommend submitting by Tuesday 24th June 2025 before 5pm."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/business-admin/managing-your-business/eofy/cut-off-dates.html",
+              "label": "Transaction cut-off dates"
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_eofy_key_dates"
 }

@@ -1,13 +1,45 @@
 {
-  "name" : "bt_channel_public",
-  "active" : true,
-  "criteria" : [ {
-    "platform_type" : "web",
-    "customer_data" : [ {
-      "name" : "zone",
-      "value" : "public"
-    } ]
-  } ],
-  "description" : "bt_channel_public",
-  "disabled_actions" : [ "bt_rollover", "bt_auto_invest", "bt_amend_advice_fee_investor", "bt_edit_tfn", "bt_employer_contribution_details", "bt_min_pension", "bt_deposit_funds_investor", "bt_drawdown_strat", "bt_live-chat-intercept-intent", "bt_commence_pension", "bt_amend_advice_fee", "bt_regular_investment", "bt_client_details", "bt_all_cash_withdrawal", "bt_edit_application", "bt_centrelink_schedule", "bt_personal_tax", "bt_cancel_trade", "bt_general_fees", "bt_test_account_details", "bt_deposit_funds", "bt_trade_share", "bt_new_registration_code", "bt_asset_transfer_investor", "bt_work_test_declaration", "bt_asset_transfer", "bt_change_pension_payment" ]
+  "criteria": [
+    {
+      "platform_type": "web",
+      "customer_data": [
+        {
+          "name": "zone",
+          "value": "public"
+        }
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "bt_channel_public",
+  "description": "bt_channel_public",
+  "disabled_actions": [
+    "bt_rollover",
+    "bt_auto_invest",
+    "bt_amend_advice_fee_investor",
+    "bt_edit_tfn",
+    "bt_employer_contribution_details",
+    "bt_min_pension",
+    "bt_deposit_funds_investor",
+    "bt_drawdown_strat",
+    "bt_live-chat-intercept-intent",
+    "bt_commence_pension",
+    "bt_amend_advice_fee",
+    "bt_regular_investment",
+    "bt_client_details",
+    "bt_all_cash_withdrawal",
+    "bt_edit_application",
+    "bt_centrelink_schedule",
+    "bt_personal_tax",
+    "bt_cancel_trade",
+    "bt_general_fees",
+    "bt_test_account_details",
+    "bt_deposit_funds",
+    "bt_trade_share",
+    "bt_new_registration_code",
+    "bt_asset_transfer_investor",
+    "bt_work_test_declaration",
+    "bt_asset_transfer",
+    "bt_change_pension_payment"
+  ]
 }

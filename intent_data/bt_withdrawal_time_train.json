@@ -1,0 +1,889 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_withdrawal_time_train",
+  "intent_name" : "bt_withdrawal_time",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "0cf72b36-9991-4cf8-941b-75d2c9ea3715",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the reason why the withdrawal I just made is taking forever?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "2a61c54b-e16a-41e6-be00-ca2c7e48f68c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you know when I willl have access to my withdrawal?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "2ce3092b-6ae6-4c79-8a3a-4a17fd4430bc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How far along is the withdrawal?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "197cf6c9-6833-4363-96b1-5a989ef998ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long before my withdrawl processes?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "c6e4d27d-b583-4b91-87f7-bb4aae286296",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do I have to wait to receive my funds?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "41333a8b-81c8-4461-b5e2-b2e197347a3c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do i have to wait for a withdrawl?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8c51f76b-66ea-49c0-b3b1-3f6f060648c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do withdrawals take?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "997f6cab-15ec-48e3-93d2-b3a0224332f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it normally take for a withdrawel to process",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9830a84b-7fc5-473e-830e-34c17a029d39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take to withdrawal",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "09f37c86-7090-473c-874f-8642c02e842d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does withdrawal takes in the number of days?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "093647c0-30b4-47e2-b3b4-2daa69fb8a67",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long should withdrawals take?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "ba70a6d8-39f3-4713-9897-0dab194db8fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many estimated business days will this take?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "de0f76c7-fedb-475c-966c-103ec7e5d8ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much time does a withdrawal take?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "68b85e55-ead7-4b44-ad2c-f20dbb0dd5b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the reason why the withdrawal I just made is taking forever?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "fde7e1a6-5535-4091-a8a9-291f236c51fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you know when I willl have access to my withdrawal?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "56c59282-4ec0-47b3-a94f-20b7b12d36c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How far along is the withdrawal?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "ebb1cdb4-a66d-4c38-b227-a0826e7adcdf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long before my withdrawl processes?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9e097a07-0236-4012-9f60-188725223130",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do I have to wait to receive my funds?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "e1341f05-3c52-4272-8d42-2048996ec288",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do i have to wait for a withdrawl?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "8655c9cb-2026-473a-87e8-744d13e692c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do withdrawals take?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "802cc708-7781-4298-853b-cd2eb58f9aa9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it normally take for a withdrawel to process",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "dd3d734b-1e26-4f2e-b40b-7b8af7c48a04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does it take to withdrawal",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "e9333e80-6257-4b58-a9e6-50d11e6efdf8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long does withdrawal takes in the number of days?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "1e94a1ce-2f50-49d2-b18f-9ad53154c53a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long should withdrawals take?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "7851abcf-b806-496a-bbb1-7a0ab05cecb4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How many estimated business days will this take?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "15a7d66c-3fb2-4aa4-8f95-745da4219080",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much time does a withdrawal take?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "1d5bb54f-2434-4940-9a4b-ab9ef2305229",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I submitted my withdrawal request yesterday and it is still not done",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "d4a10705-3f9a-4aa9-8ce3-cea44ab44bb6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is my withdrawal immediately reflected in my balance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "70ac7736-f417-4ab8-abb9-683cfddcc734",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is this delay normal between requesting a withdrawl and getting the money?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a9403c1c-53fc-4cf6-9bce-1743ea593d26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the amount of time it will a withdrawal take?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9c319e88-9bdc-4950-88e0-056410eb52e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the delay between requesting a withdrawl and receiving the funds?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "75ebd4f7-3a8f-4ad5-abe3-daf361e662d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the length of time until my withdrawal is complete?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "726fa8ee-7cac-4993-9138-259c1bbc1468",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the timeline for withdrawals?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "793f88f9-b317-48f6-965c-687f3597a5cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is withdrawals processing time",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "dc15c15b-bc91-4636-adc1-f784f08414d0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When do you process my withdrawal of funds?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "20a19c4d-3961-479f-8416-9622ba720d6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will I get the money after I make a withdrawal?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d92b5fff-aa79-468a-aebf-bf137256b34a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will I receive my withdrawal money?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4aa54e43-7867-494a-8432-af5d884a620b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my withdrawal be complete?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "dd9f5c6a-9fed-4994-bd57-33cf7934f936",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my withdrawal happen?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4d90f59b-a49f-4e34-9bb9-279f47c54be5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my withdrawal post?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "fdbd8abf-506a-4da7-941f-96a3f1ba0e33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will the withdrawal finally show up?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "34d6cac8-fa78-47a6-b89e-bb1a95ff45b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my withdrawal taking so long?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "fccf19e9-90ad-4f75-a574-16661bb49d4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is this withdrawal taking longer than usual ?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a5c38468-31e0-4b09-8b44-9710c3a3fe83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "awaiting my monthly regular payment which was scheduled for 11 / 1 / 11",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "91cd9547-ba0e-451c-85b9-f24ba6c5570f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can tell me if my withdraw is successfull",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "3fae886f-42a6-43a5-a69f-d617193c3aa9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "awaiting my monthly regular payment which was scheduled for 11 / 1 / 11",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ca2446b3-7b7d-41ff-895e-76c246e8a902",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can tell me if my withdraw is successfull",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "86245d84-463c-4514-9705-be768ebbecde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "awaiting my monthly regular payment which was scheduled for 11 / 1 / 11",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "92a96fbd-f727-4a60-859e-6b20f18bb2ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can tell me if my withdraw is successfull",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "ed768f5a-5268-4f66-8cbb-a86317254cd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "checking on a withdrawal",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "967d9c62-d672-4ae6-b67b-ac47eb670b66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client has not received funds",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "840bc6ce-630a-4d23-96f4-065ff2fc4b8e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could you advise me if my withdrawal has been attended to",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f80dc498-e876-4778-ad83-dcc4317175db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "did I get the funds from my withdrawal already",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "363b6ae3-74d3-4c94-a604-a2d467a7d3f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "estimate the time for a withdrawal to be processed",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "bbf3ad14-4593-489e-8e4e-ee943bc3928f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "funds to clear",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "f2c6d7f7-b4cf-4f23-a790-eb4553b46fd5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i have a confirmed payment from my panorama account but it has not left the account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "1503c591-2f7b-402f-89cc-28c2b305ca16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello trying to track a withdrawal from super submitted 1 / 1 / 11",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b7bf6cd5-500a-4a6e-a44c-7f225ea2d126",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i made a transfer last night into my bt account and it hasnt appeared yet what is the turn around time"
+  }, {
+    "id" : "c82d11b2-8113-4f2a-8961-93a89421d901",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi just wondering when my withdrawal wiill be processed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "15bc0f85-cf5f-4ea0-a284-1f21d4041918",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi just wondering when my withdrawal will be processed",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "95e9a5a7-6cc6-4c69-82c1-76fca9263c00",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi the other day i rang up to take out my super out but it is still in my super account plus you guys have",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e0594c48-ec7d-4816-a91d-3249aa4db6d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can I see if the money has been received",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "7745194e-a7f6-4c48-a29f-d58d4e2c7dee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how come the withdrawal is done right away",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "1f2f6404-59fc-4bd6-ba82-7059af80b59c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how come the withdrawal is not real time",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "9cafec2a-e998-4e3a-8189-782062d5eacf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i know if my order has been executed",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "5c6d2b79-4386-465e-ae59-635460fed44f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how does it take to receive the money after a withdawal",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "cb7e236b-a1c1-44a8-9ad4-de268e1f5dfe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long do term deposit withdrawals take",
+    "tags" : [ "nid_05-2021" ]
+  }, {
+    "id" : "ee1d9b29-ab7e-45b2-8535-77a26895d317",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long do term deposits take to withdraw early",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7b1b139b-c6b4-404a-a72a-51d6b6ca7db0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long do you take to process a lump sum withdrawal from a bt panorama account",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "08505bf4-2cad-4059-8bfc-ba91508fb80a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a transfer from cash account into bani account take",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "15cdbce6-895e-46f7-b835-ae148923bc0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a withdrawal take",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1e50c71a-795f-42cd-bf9f-380ea44d0bd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a withdrawal take to clear",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ca1771ea-e94d-4df2-998c-9953b15872b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does a withdrawal take to process",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1a60d610-b2bf-444d-8999-9fc62e5507d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does an index fund take to withdraw from",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "14a05d8c-ea93-4a77-b128-d07c2b18701c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "d49af83a-14d7-44a9-848a-2d70635b7412",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long does it take for a withdrawal to complete?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "5a55acb0-9073-4d88-8fb1-6f06ec4d1f45",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take for funds to be received after making a lump sum withdrawal",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "0a945b82-1966-4876-993b-2afec762be72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to make a lump sum withdrawal",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "8f0dcbd9-b91f-4c85-9148-120b37cb6f9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to process a payment",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ef961439-f256-4b07-b5b9-a90de5acf581",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long does it take to withdraw my partial super",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "94456473-9180-44c5-b036-0aa227fbbf68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how long to I have to wait to receive the funds",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "67ff1112-1604-4fae-afdb-4be0429d62fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long will a withdrawal take",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "1448bff9-db0d-41f6-a2c9-fee70e96715a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long will it take to process after payment request",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "98f7f854-783d-49b9-9355-9e157681e2e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how long would a payment be received from investment account",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "6e6e3b8e-a762-42f6-af23-10ea4a8859fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how quick do I get the money after a withdrawal?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "cd6b3245-0b72-4eac-ad65-11cd873905b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how soon will my withdrawal complete?",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "17de8e75-00c3-4f7d-8e8f-a104b3cedb1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am considering a withdrawal from my account approx 11111 please advise form needed and procedure",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "428b19f6-f8b6-4dbe-9d5e-bfc88149997a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i applied 1 days ago to withdraw 1111 $ from my account and i have not had any reply",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a3b225a8-7818-4294-982f-0169c6067196",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did a payment 11 / 1 / 1111 for 111111.11 $ i need to know time of payment and a transaction receipt number",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "119f84cb-6dc3-45f8-b4a6-f211d151e7c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i did an online transfer of my super balance to cash but today it shows still as active balance",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2acd3188-d9de-4846-b089-f94292dca65f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i drew down 1111 $ from this account and the transaction date was 11 th march where is it it should be in my bank",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "737ff1ce-42c6-48ab-bd6f-75c29fe29a3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a payment pending from the 1 rd of may",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "77228b83-abbc-4e15-b20b-40efca3c9b4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have made a payment from my investment to my bank account but it has not been deposited",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "29d5cade-3dd9-459d-a023-b537855fcc15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have put in a request for a withdrawal of cash and it has not come through to my bank account as yet i have",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c6a91ff2-9861-4bdf-b37b-5d9fc77bc66b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have submitted a withdrawal form 1 business days ago",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "087521c9-0853-47bb-a4f6-c65f864a8d93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have withdrawn an amount but it is not in my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8d84eecf-a6a3-4888-823a-ae90cf0a2cb4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i lodged a withdrawal request three weeks ago had to lodge an id form that was a week ago where 's the money please advise",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "8e8ba8a7-475d-48dd-933f-67a84bbc9dc4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i made a money transfer on 1 nd july and it does not show in my account",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a2cd71a1-6ecc-45b2-a7b5-5d7d1ea409f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i requested a manual payment today but the funds have not left the account could you please check on these funds from account number 111111111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8e8c8b0b-79f5-449a-8b91-c6e5d92f56d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i transtered 1111 $ out of my account it has been withdrawn out of the account by where did it go i am still waiting",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0dd13beb-0429-4f26-9c55-8e556be6ed44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if i close my account now how long do i wait before my money is in my bank",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "b31ee389-19b7-47df-94c8-ceefae7ada7a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if i electronic transfer from an anz bank account to my bt account how long will it take for the funds to show",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "2c33164d-16a2-4159-a52a-5ae23d31e114",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "just wanted to check on the progress of a withdrawal request",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5af3348c-74f9-4201-95ce-63798f161b7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "money not reflecting after 1 days after withdrawal",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "3a973323-82bf-4189-aabd-bb2a1405a30c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my super a / c is 111111111 is supposed to be closed but where are my funds",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "18e7551b-ac9c-4d88-a450-b414bc0f56b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pay anyone account processing",
+    "tags" : [ "bt_train_q1_2025" ]
+  }, {
+    "id" : "5fce4c99-3c55-4635-9fd1-e6b99a079cd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "paymen t tracking",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5026109c-83f5-42a6-b4b6-ccf6f7f1c31d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "payment process time",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "414f982c-a8ce-4947-9ae1-80b91e6cf9f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "payment transaction time",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "fa0f1b5d-8271-4cbd-afe6-be3791d40372",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super rollover timing",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "911c6d2d-c3a3-43a5-bdf5-485b2a0f8ba4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "term deposit pending withdrawal when will the funds clear",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ef80d933-c860-40ac-ac80-4f69006977c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the money has already been withdrawn but i have not yet received it",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "42a0a515-9c36-49e9-8e50-9d2506671bcd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the payment date 11 th september 1111 the amount of 1111.11 $ has not been received by our bank into account bsb 111111 account 11111111",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "20ca729e-1318-475d-9717-b423e501d5ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the wothdrawal will then be deposited into the linked bank account right",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b8ceae56-d277-4b98-b739-9ab3ffeea659",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there was recently a sum of money tranferred into my super account from a settlement i am wanting to know if this sum is available",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "77144a2e-9e17-4c19-8cdd-b69c7bee7f56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time for payment transactions",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "aee778ad-7d17-4bd4-be5b-3fa3f5d0b310",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time frame for linked account transfer",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "59e2ab97-d584-4568-87c3-e9b211de2a55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time frame for processing a lump sum redemption",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "6f216083-f76c-4e56-8b6d-9051b280e05e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time to payout",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c4864b38-ed60-4cec-a973-1f0c5ff59993",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "timeframe sell portfolio",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4a3f2854-66e3-42cb-a244-c26ade43b555",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "track a super payment",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "76d339d7-50d4-4637-9709-63820b346260",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "term deposit pending withdrawal when will the funds clear",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "211e194e-cb74-4fdf-be86-f0587cb12376",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the money has already been withdrawn but i have not yet received it",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "1f262b99-af44-421c-85a1-18d64cc9b11f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the payment date 11 th september 1111 the amount of 1111.11 $ has not been received by our bank into account bsb 111111 account 11111111",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "c4134db0-d872-4a8d-8767-1a2602cb7a02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the wothdrawal will then be deposited into the linked bank account right",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "9b476a45-77ba-4fcc-bb95-4fee9cfd83d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "there was recently a sum of money tranferred into my super account from a settlement i am wanting to know if this sum is available",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "42d2ba22-09de-4f57-bd7d-f23cdef44644",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time for payment transactions",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "89c4f630-8e65-4d07-993e-ad8dffc44ce2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time frame for linked account transfer",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "faaca90c-e817-409c-b5e3-561e5f8e0617",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time frame for processing a lump sum redemption",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "378c06be-3043-42c3-9f76-c2338228bd4f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "time to payout",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "b4b191a6-e600-408f-ade7-d15ce47dee41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "timeframe sell portfolio",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "92966196-5d7c-4e23-8b7b-35ee53e976cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "track a super payment",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a48f03d1-b5a7-471f-8678-46ee940844b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the status of my withdrawal",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "1ce808c0-8b4a-482e-a8c5-12947a40b190",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will a one-off payment processed online show up in the list of pending one1off payments",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f6f6d73f-b9d7-4d75-9f1b-45e780745a60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will i receive my funds"
+  }, {
+    "id" : "41c68a7c-fd71-464a-af69-c3f67ebfeaae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will my transfer occur"
+  }, {
+    "id" : "7a990e84-470d-482f-9232-2300e1353eaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will my withdraw be complete",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d793aa4c-4701-442b-a255-40d934907c13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will my withdrawal post to my bank account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "57979eca-bbe9-4e9a-868a-b5caf472bc19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is my lump sum withdrawal requested 1 weeks ago",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "9125b273-4a16-4985-8f43-7d296b09f766",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to track withdrawal",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "2263adff-193d-45b7-a635-a9a5635e9b39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why can't I see the funds on my account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "91fba316-1540-4c2c-ab78-d60248b4f660",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is it taking so long to finalise the withdrawal from 1 nd august",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7db8f980-39ed-47ec-ba03-d59d0692a351",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why transfers are not coming into my account",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "403f0efc-c231-4738-9d16-3f8e1254bdc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withdraw cash balance",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "79c4fe20-6ff7-4841-801b-8cd16c9e2425",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withdraw time frame",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "05c7603b-2649-437e-b7cf-c496d092344b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withdrawal has not appeared in bank account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "50cd9a99-eeec-402e-9159-3fe825a79b5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withdrawal processing time",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  } ]
+} ]

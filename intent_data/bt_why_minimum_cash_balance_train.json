@@ -1,0 +1,512 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_why_minimum_cash_balance_train",
+  "intent_name" : "bt_why_minimum_cash_balance",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "49875b5d-bf61-4319-b6fe-72a8339d2d62",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you explain why all cash isn't available?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "56276b7b-460a-487d-91b9-93bc7ae96537",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't get all my money",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "1e96e9f4-4230-4c64-a125-16a2ef0c429a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't seem to get all my money from my account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "29979164-f04e-4ebd-b9dd-dca32f1b1975",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you explain why all cash isn't available?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "6bdfb56f-be04-4438-845a-22a204a6149b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't get all my money",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "378830f0-50b0-4521-8750-e63945bf532f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't seem to get all my money from my account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "39fe78d2-45f0-4aec-8f39-42bfa9e8c002",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I tried to make a withdrawal, but got a message of insufficient funds",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "9daedd9f-2cc1-40d3-893f-0d5e98341904",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Insufficient available cash",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "1758e61d-393c-4306-b1c9-c1fab08e697b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a minimum deposit thanks Bob",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "0ec33a01-5310-468d-9e1f-85e69c8fb29e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a reason I can't withdraw all the fund from my account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "68587634-5ce6-4b78-ac2e-5680f0789960",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Minimum cash reserve",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "15fc4797-ff47-4663-a444-1a0c7eeb60b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "You do not have enough cash available to place this order.",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "60252b9c-2a0d-4c4c-9485-bdcd848c9c1c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "am i able to bring my cash balance below 111 $",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "9ef08a65-d3c8-4905-a103-c980031e621e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "am i allow to withdraw all my cash",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "c40dbcc9-5365-491e-af0a-a6383e305a66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i use the available cash",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3c619187-e602-47df-a48b-ca75fbec5b24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i withdraw below the minimum cash balance",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "33c1870c-d5f0-4560-bf57-5a567d9dd6fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i withdraw my available cash",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1a5df1a6-b4c2-4d88-824c-98a9b73f8410",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can the cash minimum be higher than 1111 $",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "b3f924e2-771e-4c33-9be0-4b174790724c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you explain why all cash isnt available"
+  }, {
+    "id" : "bc0ff8cf-0e39-4845-91cc-be742209dd59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you set a higher minimum cash balance",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "59394f4a-cbc2-407c-b3ff-323b12d27cb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash limit",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a660f095-2c2c-47ca-a1fd-2e544bccf555",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash min",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2b0a55ac-eb23-4e5e-b86c-93827bbd31d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change minimum cash balance",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a027e45b-c062-44e4-b073-953aeb131d0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i use the available cash",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "821cf20a-856d-4995-9224-27e132a612b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i withdraw below the minimum cash balance",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "05acb247-ec18-49de-a117-4a6da02e378f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i withdraw my available cash",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "9e6503b5-e647-46e3-9038-1a3e16d3fbde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can the cash minimum be higher than 1111 $",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "b7074197-b257-402c-b42f-3f16630179f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you explain why all cash isnt available"
+  }, {
+    "id" : "16154998-c258-41e4-b10f-83e3a19511e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you set a higher minimum cash balance",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "d24a8b89-cfb3-405e-b418-933dd1908473",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash limit",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "5edcc9ac-0a9b-4fa5-af9a-d2177ad9929f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash min",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a4a830cd-afec-4f02-bb11-8248b42efa50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change minimum cash balance",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "be14c862-f31c-45cc-b36a-5193574822ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i use the available cash",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "644f7ac7-f840-45ad-8c5b-0e7d9d299ede",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i withdraw below the minimum cash balance",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "1a1b0235-8e56-414e-934f-053b0719ee14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i withdraw my available cash",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "75519e3f-3858-49dd-92cc-a2241ca1fdf8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can the cash minimum be higher than 1111 $",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "482b5076-d764-4f02-8efe-91ccebb379f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you explain why all cash isnt available"
+  }, {
+    "id" : "e5d6cb4a-5a69-4dcc-acf4-69580f4e7028",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you set a higher minimum cash balance",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "443a986e-ac4c-4aaa-ae8f-28930d476690",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash limit",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "d4ee966e-1e9a-4871-b053-dedda0e79f70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash min",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "de2dad41-9d51-48f2-8258-db1c8d931cd9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change minimum cash balance",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c2c4af89-ee98-43c0-a217-2c95dfcf5c80",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "compact menu investment minimum cash balance",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "889b8e91-1b85-4178-8df3-b1cd66b920bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i need to keep an minimum balance in my cash account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c95de82b-6cae-439d-a956-07c7963f03fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello can you withdraw from your super if the balance will then be below 11111 $",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c63b1961-e108-46b0-8c0f-812222ab59f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have logged into my super account via asset administrator and it is stating that i have no cash available to withdraw for a",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "32594a04-1bfa-45b8-ab47-3df4f5958312",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ho do you change the cash minimum",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "acc921dc-0232-4c05-b8d7-e57833567098",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how come I can't get all my funds",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "75f7153f-ef6c-46ce-a5c6-e046e65b3153",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change the minimum 1111 $",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "9ad2df6c-36be-4326-97ae-439f1242f0cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i increase minimum cash"
+  }, {
+    "id" : "5c3520d7-d7e1-4f7a-936b-01bbb25996be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have just received s message re insufficient funds to meet a drawing and bob blocked sender - please explain",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "93960c08-7e7c-4214-b1c3-92296522ed51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "increase minimum cash",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5b248a7e-9109-4ba0-8a85-0f76ba51ad3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "increase minimum cash balance",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3d151eb4-bb78-452d-a7e3-6600af949c7f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is it possible to get all my money in one go",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "f6bee475-cd51-4206-887d-2c2d6718d661",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is there any fees if I am below the minimum balance",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "5bd0957c-3f9a-422a-8689-66ad4d8d84b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "lowering minimum cash",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "15954a23-f33a-4bca-87dd-319a6ad85075",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "b3e22442-e779-4bef-bcfe-7f8da033f001",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum cash in term deposit"
+  }, {
+    "id" : "77da320a-6792-46a1-9593-dd0f10fb6b03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "minimum investment amount",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ca704adb-31a0-4fcc-8fe9-e3af65c64c23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "not enought cash",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "b17ff449-a92b-4fda-9a87-789cb6373e43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "re my cash account balance received an emails saying that it is insufficient please help",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "db03a976-111b-4212-8017-d82846fb609b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the amount entered is more than your available balance",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8c886a94-c1a1-409d-b643-490d6d6abffb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the amount entered is more than your available balance please reduce the amount",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "46160144-22c9-42f1-a135-d21a7628e776",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transaction minimum"
+  }, {
+    "id" : "f5692e1d-027f-40c0-8127-acb7984f30f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the amount entered is more than your available balance",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "2dfa48cc-86b6-46d9-97a3-5342d474394a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the amount entered is more than your available balance please reduce the amount",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "02a08973-dacd-4cfd-b4e9-c0f526977e09",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transaction minimum"
+  }, {
+    "id" : "50602e05-a04c-4853-bd96-9d25b85bace1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what does available cash mean",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "5f057579-5529-47ee-8666-1473708d6c20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what happen if I don't keep the minimum balance",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "289c91a6-bc8f-44c8-90e3-2cb30b7aeba7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what happens if there is not enough cash in the account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ec99f860-a33c-4bce-9c1c-d0708a6dc806",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is minimum cash balanced",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5051fc5b-a336-4699-a106-7390dce8ecc4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is minimum cash in bt panorama",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "39594a08-457b-43d9-a9bb-6d4e1c8a6522",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my minimum",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "32bb70dd-4b67-4d5c-9ad8-5377b28a15af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum cash balance for a bt panorama retirement compact menu account"
+  }, {
+    "id" : "3a76e41a-c34a-4792-8357-a3e5238438b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum cash for client 111111111",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e9539f1a-6e81-4791-9356-bc639656f62d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the reason for a minimum balance",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "bdd23cb3-9078-4cdf-8f54-4b78216309e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the cash held in reserve",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "760e89e7-78bb-42f3-8053-c1733964806c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why can not i invest all the funds",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ef17723b-fc7f-48fc-9b1e-9ecb0a5c1d74",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why can't I withdraw all my money",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "f1d71f29-55bd-499a-b791-27429310112a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why can't i get all my funds",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "965b4794-c956-49b0-9770-deb8acaa0d5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why did my transaction fail with insufficient funds when i have sufficient funds?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "ba096335-7652-473e-9934-d3f718e4b7b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why do i have to have a minimum cash balance",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "a6cdd27f-8705-45be-9e5a-de7d160ff9b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is the cash balance different to the available cash balance",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c45f8406-1134-4d96-8d8b-cf5013ed8414",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is there a minimum cash balance",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "a8d5c836-c3a3-4591-b006-5c4052b25f99",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why is there a minumum balance on the account",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "65a4e73d-2248-47be-8c27-b371a742b44a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "you do not have enough cash available to place this order",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  } ]
+} ]

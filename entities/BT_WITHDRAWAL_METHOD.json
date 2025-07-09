@@ -1,18 +1,36 @@
 {
-  "name" : "BT_WITHDRAWAL_METHOD",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "bpay",
-    "aliases" : [ "bpay" ]
-  }, {
-    "value" : "eft",
-    "aliases" : [ "eft" ]
-  }, {
-    "value" : "cheque",
-    "aliases" : [ "cheque", "cheques", "check", "checks" ]
-  }, {
-    "value" : "linked account",
-    "aliases" : [ "linked account", "linked a/c" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "bpay",
+      "aliases": [
+        "bpay"
+      ]
+    },
+    {
+      "value": "eft",
+      "aliases": [
+        "eft"
+      ]
+    },
+    {
+      "value": "cheque",
+      "aliases": [
+        "cheque",
+        "cheques",
+        "check",
+        "checks"
+      ]
+    },
+    {
+      "value": "linked account",
+      "aliases": [
+        "linked account",
+        "linked a/c"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "BT_WITHDRAWAL_METHOD"
 }

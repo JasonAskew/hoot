@@ -1,0 +1,82 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_terms_conditions_test",
+  "intent_name" : "bt_terms_conditions",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "db779aa2-d6cc-4775-a427-747171b8c09e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can either one of the clients accept the T&Cs?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8ac8547d-52e7-4812-bae3-483c69e11fe8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can just one client on the account accept the T&Cs?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "80bf2d40-d73a-437e-9f3d-175c1a205ecd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do all parties on the acccount need to accept the terms and conditions",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6eca834f-1d1f-4daf-b0dc-bffb7cef45bc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can either one of the clients accept the T&Cs?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "17ffa592-aaae-4545-a5bf-9f6ed1a87a6e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can just one client on the account accept the T&Cs?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7794de0a-8651-47ca-8c28-77d84de32ff0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do all parties on the acccount need to accept the terms and conditions",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "07b3231c-2f09-4121-a741-427a31fb5745",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it mandatory for both clients to accept the terms and conditions?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a382092c-4c19-4308-b18f-1f8b52f9f495",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it ok for only one client to accept the T&Cs?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "577e54ee-04fe-4b8a-939e-8b2579d9fe2e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the requirement for my client for the T&Cs acceptance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bc3d646a-2233-4e40-bce6-a516ee5b201b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i accept the terms and conditions",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "73f3fc3f-a6a4-4da3-8353-46ea74e072b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to agree to terms and conditions",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "7d1358e6-a4f1-4c8c-8882-bf9eaef2716b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to read and accept terms and approve application",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  } ]
+} ]

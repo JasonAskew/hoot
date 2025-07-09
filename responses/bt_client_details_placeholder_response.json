@@ -1,123 +1,170 @@
 {
-  "name" : "bt_client_details_placeholder_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Which contact details would you like to update?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Which contact details would you like to update?"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_update_primary_mobile"
+          },
+          "label": "Mobile number"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "INTENT",
+          "payload": {
+            "name": "bt_update_other_contact_details"
+          },
+          "label": "All other details"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "bt_update_primary_mobile"
-        },
-        "label" : "Mobile number"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "INTENT",
-        "intent" : {
-          "name" : "bt_update_other_contact_details"
-        },
-        "label" : "All other details"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Which of your client's contact details would you like to update?"
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To update a residential address:\n1. Navigate to the clients account.\n2. Select 'Account details' \n3. Click on the clients name (linked in blue)\n4. Select the 'Edit' pencil icon next to the contact detail that needs to be updated."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_update_other_contact_details"
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Which of your client's contact details would you like to update?"
+            }
           },
-          "label" : "Email or Postal address"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_update_primary_mobile"
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To update a residential address:\n1. Navigate to the clients account.\n2. Select 'Account details' \n3. Click on the clients name (linked in blue)\n4. Select the 'Edit' pencil icon next to the contact detail that needs to be updated."
+            }
           },
-          "label" : "All other contact details"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_financial_adviser_info"
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_update_other_contact_details"
+              },
+              "label": "Email or Postal address"
+            }
           },
-          "label" : "Adviser details"
-        }
-      } ]
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_update_primary_mobile"
+              },
+              "label": "All other contact details"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_financial_adviser_info"
+              },
+              "label": "Adviser details"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This feature is currently not available on the Panorama mobile app. To update your client's details, you can sign in to the full Panorama website or select 'Chat with consultant' during business hours for assistance."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "LIVE_CHAT",
+              "payload": {
+                "parameters": [
+                  {
+                    "name": "campaignId",
+                    "value": "3392686470"
+                  },
+                  {
+                    "name": "engagementId",
+                    "value": "3392718870"
+                  }
+                ]
+              },
+              "label": "Chat with consultant"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_investor",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To amend your details, navigate to 'Personal details'."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To make amendments to your details, please sign in to your account, then ask again."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If you are unable to sign in as your contact details are incorrect you can contact us over the phone on 1300 881 716 (or +612 9155 4029 outside Australia), 8:30am to 6:30pm (Sydney time), Monday to Friday."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_channel_mobile_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This feature is currently not available on the Panorama mobile app. To update your client's details, you can sign in to the full Panorama website or select 'Chat with consultant' during business hours for assistance."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "POSTBACK",
-          "payload" : "Chat with Live Agent{{livechat-start#authenticated}}",
-          "label" : "Chat with consultant"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_investor",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To amend your details, navigate to 'Personal details'."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To make amendments to your details, please sign in to your account, then ask again."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If you are unable to sign in as your contact details are incorrect you can contact us over the phone on 1300 881 716 (or +612 9155 4029 outside Australia), 8:30am to 6:30pm (Sydney time), Monday to Friday."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_client_details_placeholder_response"
 }

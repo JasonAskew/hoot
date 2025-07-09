@@ -1,13 +1,16 @@
 {
-  "name" : "bt_work_test_declaration_adviser_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "I can help you make a work test declaration for this client. This action is only applicable to super accounts. Please select the 'Go to page' button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I can help you make a work test declaration for this client. This action is only applicable to super accounts. Please select the 'Go to page' button."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_work_test_declaration_adviser_response"
 }

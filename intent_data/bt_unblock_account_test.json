@@ -1,0 +1,502 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_unblock_account_test",
+  "intent_name" : "bt_unblock_account",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "35d4ce24-5df3-4d9d-8c1d-cc1f3d3d84eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Account has frozen",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "683efb30-c5bc-4d75-bfc9-2412d3bdaae6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me fix my login to my account? I am blocked",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "14df2974-6b75-4573-bcab-fd509d205d6c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please unlock my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f046456d-9dde-40cb-9a73-6901df8de397",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me unlock my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b09d60ca-522d-4679-95b5-04ef18bc9a53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get my account unblocked",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7af667d8-aade-4b61-9a58-591958bd4059",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to unblock my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "09753de6-2cea-4e4e-9040-ee18749ff1f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cannot login anymore as my account is locked.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "81f06dbe-3203-4690-8b68-2dbd58d7c849",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Account has frozen",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8fb9f3f9-0bee-4665-8123-190cef5e095a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me fix my login to my account? I am blocked",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a33b90a9-d91c-4729-98e0-6c32b491108c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please unlock my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "54184e7a-6768-4b87-8037-02de26cd352f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me unlock my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "732a590e-abec-4df9-9d63-d7fe7f329126",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get my account unblocked",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c429bdac-d652-4f58-a0bb-30a7ee8a5a34",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to unblock my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8a05b379-5447-4f60-9e77-80c43291980b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cannot login anymore as my account is locked.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0875102f-5611-4089-8955-60de030f8685",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help to unblock my account.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f4a37c97-94cc-44d9-82f5-0a2be4b8e776",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Locked account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "d2701409-349c-480b-abdf-9d6201a50c36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "My account has locked me out",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "e2c8caa4-4d1a-4b7a-883f-a7f0afe283ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Please unblock my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ca139ece-c0d8-413a-8d3a-7b92873ea5d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I do when my account is locked?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5d33139b-d604-48b6-8a81-4a1340dbdda9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Why has my app sign in been blocked",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bad5c7ff-9695-4bc1-9382-4bdeafbc7806",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "absolutely useless to get permanent ly locked out is ridiculous not happy at all",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "73fecdb0-beb4-49b3-a952-b5ec806fed79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "blocked",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c8bd035e-c28c-4ab0-b58f-98ed24320786",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama access has been blocked",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2bec9382-ca9a-40fa-9ed0-403ed3a369f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you unblock my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5a45835e-e8ee-461d-83ec-e3142dbb94f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you unlock my access",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eb5fed0b-69ea-49f0-ada6-027cd3f9c669",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant unlock my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "95f4adb6-8002-4389-843d-21cb8f649374",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "blocked",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "66cc351e-0b9e-4899-b7a2-14fc8199cd08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama access has been blocked",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b90cbcfe-cdd2-4ece-b069-9b94fda6eceb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you unblock my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7d55e997-791d-4ef5-8a0c-c23a228c7134",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you unlock my access",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "50863ff7-5197-4344-9077-ed89a090e6d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant unlock my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a61aeea1-21cd-4652-afba-b53311a38a6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "blocked",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "437f98ff-679e-492c-952c-8a9e3ead9abf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt panorama access has been blocked",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b20b583a-9adc-4c65-8885-aa913c5b018b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you unblock my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "28d92ddc-c09b-47b1-a6cd-6e0244231112",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you unlock my access",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "32dd783f-5575-499a-808a-d9a1b667730d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant unlock my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4198765a-31bc-4a17-a078-fa98ad91d521",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client access blocked",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7c042cee-b3b6-4857-8c0d-c1fad4359fd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client locked out of online account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d4353fc2-692d-4579-8213-10dc2a48659a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have been locked out i now remember correct password",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cc1302e0-90d2-4da2-a7be-a17a11468dba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello my account has been locked could you please unlock",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cced77d0-e31b-4985-b0fe-c7f234bdf3d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue i had a mental block but now remember my login details can i please have another go as it 's locked my out",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c16a0db1-e75c-4f3c-881c-ce84140df84d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to change my details and it says it 's locked after i recieve the sms",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "653ebf49-98f5-40d9-9907-750e629dab63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have been locked out of my account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "67445f93-64f9-44b1-8687-78236d870de2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have been locked out of my bt panorama account i am not getting an sms message when asking to reset the password",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9c74980f-22ae-43be-88c9-b815711910fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi my account has been locked could you please help",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4d062d76-e7e3-445c-a33a-69086f4a29e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i tried to recover my username as it has been awhile and it says my account is blocked",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "35109ceb-1e72-4da9-84ad-7281e0158678",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "himy account is blockedwhat i should do",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "53980e17-1f37-4414-9dbc-55d0c8167e5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get my log-in unlocked",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e2c5a07a-da73-463d-9668-aa99fa4e4553",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i unlock my account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "6d22901f-2046-4514-b5b4-34489137809e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have been locked out after i forgot password",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "842c627c-68dd-4bd0-a778-f0fc1f336abf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have the correct username and password why am i beeing locked out",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0eb21d00-fa33-4210-b328-32c1c3d5de72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i just reset my account details and again it is now blocked me acct number 111111111 i did enter it incorrectly one st off please",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "816f6540-5671-470c-bdce-b9f5ba61db34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i locked myself out of Panorama, help please?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "572a79ee-1113-4076-a099-d59ccce09848",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "just trued to log in and my access has been locked",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7f212652-d9c2-4288-a535-0c998c953889",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "locked",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "146cf33b-3bd5-4e22-8a00-b3d9c2d79014",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "locked account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7da8a810-a999-4f46-8203-a08f435f291e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "locked my account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d0147705-2846-4619-959f-d01a8c587b66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "locked out of account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "21d50728-c841-48c9-af5d-96093224055b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my accoumt is lockrd",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ea03ec9e-6bf6-471e-9b17-4e0cc1054b66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account be locked please help me to unlock it",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c361e6e7-2c42-46e2-9b3c-ca5cfa021202",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account has been blocked",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "3bac01c7-42b1-4306-922f-962e3fe25227",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account has been blocked can u please tell me why",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e95f7c29-2c5d-46dd-aac5-1c99c3efc69f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account has been blocked can you advise reason",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f64c3b36-85d7-4d46-8e93-f5793f8b6204",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account is locked",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1c7d6706-5edb-452d-a33f-8996484cfe3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account is locked an id like to unlock it",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b75c4f2b-8f73-4821-86ac-95488f4fdbcc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account is locked and id like to unlock it",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ca38ad13-1bfb-43f7-9b7a-b8b4e10472ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account locked please help me unlock it",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aafe9933-6522-4d79-ba68-85a55c6a874d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my client has locked her account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a092548b-12d4-44d2-a77e-f4e8f045c492",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my online access has been locked and i do not have an aus mobile",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6833f740-5184-4a0e-b2d7-6e72a0e2009e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "open locked account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "daf573e0-d364-4d30-9af1-00f701b1a8c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the account for 111111111 bob remains blocked i have spoken to bt twice over the last several days as we want it unblocked and there",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "223aaef1-c5a5-478e-98d4-e0f7d43cfe63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unblocking client accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "16cf1c93-d54f-41d2-9dde-63aa18639c8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unbock account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fc52a90e-c028-4c7d-b24f-090db4e69066",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unlock a clients account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1d5645d3-a3d3-41c1-a39f-301d249a49f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the account for 111111111 bob remains blocked i have spoken to bt twice over the last several days as we want it unblocked and there",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ee691960-56e2-4aeb-9de3-1ca83630ec25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unblocking client accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b21cdb45-4f0a-4540-a702-4c6fd14447fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unbock account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e5736761-58eb-4d96-bf4d-f5e97948a745",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unlock a clients account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ba87d7c5-7d3c-40e6-95fa-e3d3cc8596c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "who do I need to do to to unblock my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c2b87e81-6b0a-4db8-919b-ad7fb804a9f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has my access been blocked is it because there is an outage with the system",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "18c8228c-bbe8-47ab-a2c6-74c77e821c88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is my access blocked",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "c8ab740a-5c1c-4e99-8e4d-22d422a51d7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is my account blocked",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  } ]
+} ]

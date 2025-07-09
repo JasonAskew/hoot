@@ -1,0 +1,784 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_find_forms_test",
+  "intent_name" : "bt_find_forms",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "8eddfa39-57eb-43aa-b303-7436d9decc25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Forms",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ad5275ad-4612-44c8-a0d4-d3ea7168f45d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI, where do I find the BT Customer AML Identification Form on the website. thanks",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "1f1f0547-54b2-41dc-bcca-c033922b5360",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me find the forms page",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ac97c8ed-2623-4529-90e5-93500f602f31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi how do I find the choice of super fund form please?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a6ceda51-1425-4890-819e-0d4ea9309a1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, i am trying to find a copy of the application",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0edf5c0e-c123-4232-8a08-e55bb9f5d8e1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find forms online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "504d05d6-8916-44a3-8f6b-69bd6c1ac9a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Forms",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fb7158a9-e655-4fc7-83f6-f35782d1914d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HI, where do I find the BT Customer AML Identification Form on the website. thanks",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "5f405bc0-e8e0-4ea9-ad4e-c9154c024b8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me find the forms page",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "53db4300-a518-484b-9821-81bc4ed14aea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi how do I find the choice of super fund form please?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "88f09a9d-6221-43f7-9a15-41e1c38fb973",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, i am trying to find a copy of the application",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "6c42a452-741a-4248-ba18-3451b2da7d54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find forms online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8d41c4c6-060c-4b04-b9f4-24246d6563e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need a form",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "e834a7d8-927a-4717-a4b9-f24f0833a584",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need a withdrawal form. Where do I find it?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c9431387-674e-4bae-aeb0-6402dc71f48b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need an adviser form",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "f5e09b00-df27-489f-a5ae-2bee3d2e7937",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need an ongoing fee form",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "ac13805d-84a1-4d94-a094-7d4d4264fb10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ID FORM",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "12afea81-ae90-4a6e-881e-5900ea69aecf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Is there a form I can use?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "0fc80fb3-676a-4172-9748-1ddcbde117e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Point me to where I can get forms",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5bc7881b-e857-44f7-a088-53c4ad2e8d6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Remove Financial Advisory Firm from account form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b7f455fe-6c4e-4b02-b61a-f69ddf5d0fee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Rollover form",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ce4b6350-2907-455b-bc23-bdc9417696da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "SUPER CHOICE FORM",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d1c9b5e9-d5e2-422d-91c6-b808e4e22eca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me where to find forms",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ea32428e-8051-40a6-8d7b-274eed3597f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Spouse split form",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "df41adda-39c6-4eed-bee6-d30f7ed2a880",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Super election form",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "c6312fab-2a81-4edb-a708-b34a5163f088",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I download forms",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "eccdb68b-1ef7-4c3e-8382-f8f951547dc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "aml fsc",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3e2837d7-2143-4fc8-b124-b3aee229dcab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "blank company form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f82bed11-85e4-4d69-8e9a-c7954e3e5890",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "blank form for the client to sign",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "007f178c-2d79-4343-bfed-76f63c4555bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "by id form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ec5ae437-96f8-4bac-a251-d492f8eb08a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you guide me as i cannot find the form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "316bd2f2-d184-4d97-9bf1-678177650775",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please email me a rollover form",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4af3e849-86db-49c9-a355-14e075d12a9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me where in service requests i can find the individual customer id form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "52890b92-c115-4e62-9316-aea683b53e7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash account form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "db702b9b-27d5-438a-9aee-1e7dd7760ee5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "certified accountant certificate or a wholesale declaration form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "1ce906b4-b530-47c0-bacd-5d2f751cc457",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of access forms",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "829ad067-41dd-4fd1-9d3d-8585783e0146",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of servicing rights form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9f1d4638-e5b6-40d0-8da4-7aa07749ff33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "aml fsc",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3971d7a6-e81f-46a8-bef7-674fff1cd0a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "blank company form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0397ddc8-aba5-4085-ac27-47d97bccb0c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "blank form for the client to sign",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f8cd7eae-3976-47e1-9e57-13f07260ca31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "by id form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "de1c0ff2-76ac-49bd-83d9-54acc030d6fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you guide me as i cannot find the form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cf48bb71-1887-4ef3-ac3b-bcc5b1deea3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please email me a rollover form",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "46161c0b-1037-495f-b0e8-fe8aa41914f9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me where in service requests i can find the individual customer id form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "19bfea8a-0d92-47da-a0cd-507332c7687b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash account form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5c9076e4-63ee-4ae7-a9c8-8547eeaf8df8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "certified accountant certificate or a wholesale declaration form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "379cfb5a-2e63-4bd1-9f5c-99a0fd6c04df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of access forms",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "eb2661b6-97d1-4869-ad12-f2fc712300e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of servicing rights form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8cfa567a-3bc9-4b0c-aff9-461ad87cf7f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "aml fsc",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c2424bcd-4f69-4c30-8789-9f67ae486071",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "blank company form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d6a117b0-ae5a-47e5-b9f1-ff10ee16007f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "blank form for the client to sign",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "30a8f274-bd66-4ad3-a6d3-6df1f9431cec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "by id form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cf8102d0-61dd-4f69-9b66-42c7d6da9763",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you guide me as i cannot find the form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "615f4ef9-c868-4c05-a644-b8ba26e3546c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please email me a rollover form",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d6e0b3ab-70c4-464c-be2b-cb2a3a4d0797",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me where in service requests i can find the individual customer id form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b069d79d-a932-4f08-8533-c792bef91b14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash account form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2b0c5ceb-d52a-4378-a7b9-ae02aa66c89d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "certified accountant certificate or a wholesale declaration form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "cd3b5e74-0b02-4beb-8659-637d3bdfa6ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of access forms",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "55c8635c-9735-4f84-9cf2-d61c6579c76a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of servicing rights form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d47714dd-319d-44a7-9b2f-73797a8c5525",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client authorisation form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4964032d-fa17-43c9-8261-00dd2e3cfa8e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution form",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "bcf9849d-6640-43ce-a553-0bc105d11798",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "copies of forms",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8aaf67a3-0215-4e32-b9d5-1afcd72752d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you have a partial rollover form",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "96a8f6fc-06b6-4898-82ea-15721e04a7f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "download fee form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "58d77d32-04b8-44d9-a5e5-0df9b743b295",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employee contribution forms",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a7dc4ac3-9025-4422-9419-7357d0459901",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find a form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5e7796f2-9a9f-4a89-880d-56a6173ddb19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fomr",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "95e7b496-a924-4069-9d3c-155f81dd836e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e2cb5986-614e-4e9c-ae41-5f2cf4e79803",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form enquiry",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "555ca0cb-04f2-484c-94b6-32e5b0db475c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form for employer",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "ec1d8a42-a61c-4491-a6d9-485bdeda76f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form for personal contribution",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "da749bb0-9613-4caf-b6e3-f3e9a0374d2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form request",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "76ea8749-79c8-4f9b-9c5d-a8f592aca70f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form to transfer",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "158fc47f-4e76-46a3-91e9-fec4935a82d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "forms",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8c938c63-728f-4699-a6d1-8df9e966fffe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "forms online",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1eefe1fe-7ae6-4b83-b8cd-5f374ce0e450",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fsc form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e1172dc1-bcfc-4d44-86d7-c4ade2d58df2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund transfer form?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "42c015d2-1317-4b89-879a-f00c01da6c74",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i need a formal document with letterhead which shows my beneficiaries",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "c608c9d9-0a3f-4d50-8f6f-337216fb8ca0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am after an add bank account form",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b102fd1e-bec3-45fc-92fa-6fabdf4238d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am trying to find the form to complete a declaration for retirement where do i find this",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "78a6e7f6-3db0-48b5-89e4-4d03a83f4010",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i completed an ongonig fee form but cannot see where to download it it said to go to actions but i cannot find where",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7c0733ce-0993-416d-9f5d-3394bb2b9b58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team how do i find the super choice form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "245d684d-f7b9-42cf-82a4-68b14da15d23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi the client needs to change bank account details for pension payment also needs to change phone number i need form for both which forms",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "2c94bbbb-05cb-4cb8-b224-13ccfae95378",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi wehre can i locate the form to nominate a bank account for transfers between bt and external for our client",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a688da48-9f4c-446c-8ce6-c77d610a98ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i find the choice of super fund form please",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "756ebe43-e470-42a0-ae1d-b1e6e0254bd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i check if client account hold valid W1BEN form",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "301d1a57-7f67-4e46-88c1-375fd31e7a36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i access the forms and requests page",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4c501e93-6d7e-40eb-87c7-67f9e31c965b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i download a super condition of release form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fec069e3-9bc8-4fb1-a296-92d23c5ec92b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for a form manage signatories and associated entities",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a2e00d71-366b-4b17-b04b-2e16cf5954b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i just need a form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7ad3b217-8ee8-426c-acb7-5df2efdf8328",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a super choice form",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "5392fe6c-f7a3-4f92-bc41-a70e409785fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want the indentifacation forms for accessing super",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "503cbf6c-9d27-4cb1-961e-c3206016a16b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to download and print out the full withdrawal pack - 11junpdf",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "23b10086-5710-415f-a6c9-8d3afb428402",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to print off the form to send to the client",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bb62f471-652c-4b89-b501-cf38ed760c95",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "id forms",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "84d30e7d-9955-4463-b217-921fcc32f94b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a manual form instead",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "adc33b48-d4dc-4962-a1cc-053bdc930b65",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there are way to print another copy of an application form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8370ead2-2b34-46ee-9ce5-b93246220a4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "library form download",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3032ca80-863c-49ce-8ea4-0c2edc8fcbc2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "listed security release authorisation form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "c5597c97-d849-467c-8628-a9be893347db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "manage biller form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "756c7f27-fe0d-499a-87ed-a58bc757fd88",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my form isn't liste",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "c84bc3ea-8438-4a32-9dd9-858880f667d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my form isn't listed",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "b9dbb483-9967-40ea-8291-f973ee4e76d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension account forms",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c9ed5204-74ae-45a7-812b-618ec6db891e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "physical form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2b790207-4384-4ce5-a09c-1ff9cd8b0cc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please email me a form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a1ced121-7e28-439f-90e4-7c5cdee17090",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b4d3c69c-8429-4797-bbc1-bdafc08a0c18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super coice form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aad214c8-cee3-4016-86d4-62f0e8333fea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "e42f4f1b-4b79-47cd-af49-b5d4e2b5cc51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super split form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "456eac2e-10e4-4caf-b47c-0b0360850fcd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax forms",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fbe2d794-290d-4830-a32a-b9d1dd37f0a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to download a form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c1ddf9a1-833a-406d-aa35-27ac887c6995",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updated form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f41a75d3-657a-4de3-a601-db87b26aa8d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to download a form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a546c07a-aaaa-4458-95cd-87ca88f9b65a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "updated form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7b118fb4-b251-4c47-857e-710a73bbf1b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the form called",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6864dcd5-c18e-417c-9195-4382c50b7c24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what should the title of the form be",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a9fda712-cbed-4836-9649-82ec7f570b85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i download the advice fee form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "dc2d19c4-5c8b-4ee5-983c-27f92522904d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find forms on bt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "55d7afb1-cdfd-4842-a3f1-1cb3b1ee3129",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the bt ciustomer identification procedure form individuals and sole traders",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c1e4bc5b-8cdd-4cde-8396-cacd94051662",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i get the withdrawal closure form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "afae221e-89e3-4a71-91e5-9426fc2bb82c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i see the updated forms",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "07c7331e-b13b-4e75-84f3-cb399fade3e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the condition of release form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d949d9e6-bfbb-47a1-8274-d5629c55a71d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i form to set up an advisor account on bt",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2fea6923-41de-4528-a21f-8f82241e3fb8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i go to on the site to find your forms and where is the pdf of all investment options thx miles",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "a2a8ef98-a1b8-445a-90bf-21fdcb6dbaa4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the form located",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4d06c69d-e14a-492d-a57b-37ef36f4ccd5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the managed fund form",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "58dc2daa-1c7c-4d8b-ba1c-a59420220db7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to find the super choice form",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b4823394-ce0f-4de2-94a2-8c6acfa2d8ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where would i find a customer identification form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bc178715-911e-4e43-8598-ad5ba705f4ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "withdrawal form downloadable",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  } ]
+} ]

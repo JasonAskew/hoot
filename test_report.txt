@@ -1,0 +1,49 @@
+Use of segments:
+
+Segment Overlap:
+Segments are not structured to be unique, most of the time multiple segments are matched on the same metadata
+
+Segment linking to disabled intents:
+Segmented responses offering quick replies, buttons etc to intents disabled for the segments
+
+Live agent escalation
+220+ instances throughout the flow, self service opportunities?
+
+NLU Model
+Needs a proper cleanup, evidenced by the 69% F1, despite this NLU performance on 5.8 better than 3.2 
+
+1. Response Content Issues
+
+  - Missing responses ("N/A")
+  - Disabled intent messages
+  - Inactive intent messages
+  - Missing intent data files
+
+  2. Missing Data
+
+  - No example triggers
+  - No valid trigger sentences
+  - Missing intent/response definitions
+
+  3. Disabled/Inactive Status
+
+  - Intents marked as inactive
+  - Segments marked as inactive
+  - Intents in segment's disabled_actions list
+  - Explicit IntentMessageDisabled files
+
+  4. Segment-Intent Incompatibility
+
+  - Pension accounts can't use deposit_funds
+  - Public/unauthenticated segments can't access secure functions
+  - Investment accounts can't use super-specific features
+
+  5. Test Type Specific Rules
+
+  - Conversation flows: missing clarification responses or rules
+  - Navigation tests: excluded patterns (feedback, survey, ratings)
+  - Missing quick replies or navigation targets
+
+
+
+

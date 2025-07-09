@@ -1,12 +1,18 @@
 {
-  "name" : "ThankyouTeachMe",
-  "system" : false,
-  "categorization" : { },
-  "default_response" : {
-    "quick_replies" : [ {
-      "type" : "TEXT",
-      "payload" : "What can you do for me?",
-      "label" : "What can you do for me?"
-    } ]
-  }
+  "categorization": {
+    "tags": []
+  },
+  "system": false,
+  "default_response": {
+    "message_contents": [],
+    "quick_replies": [
+      {
+        "type": "TEXT",
+        "payload": "What can you do for me?",
+        "label": "What can you do for me?"
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "ThankyouTeachMe"
 }

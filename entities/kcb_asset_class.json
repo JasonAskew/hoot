@@ -1,27 +1,72 @@
 {
-  "name" : "kcb_asset_class",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "stock",
-    "aliases" : [ "stock", "stocks", "equity", "equities", "ivr", "broker-assist", "broker assisted", "broker assist" ]
-  }, {
-    "value" : "mutual_fund",
-    "aliases" : [ "mutual fund", "mutual funds" ]
-  }, {
-    "value" : "etf",
-    "aliases" : [ "etf", "exchange fund", "exchange trade", "exchange-traded fund", "exchange traded fund", "et fund", "etfund", "etfs", "exchange funds", "exchange-traded funds", "exchange traded funds", "et funds", "etfunds" ]
-  }, {
-    "value" : "options",
-    "aliases" : [ "option", "options" ]
-  }, {
-    "value" : "fixed_income",
-    "aliases" : [ "fixed income", "fix income" ]
-  }, {
-    "value" : "futures",
-    "aliases" : [ "futures" ]
-  }, {
-    "value" : "fx",
-    "aliases" : [ "fx" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "stock",
+      "aliases": [
+        "stock",
+        "stocks",
+        "equity",
+        "equities",
+        "ivr",
+        "broker-assist",
+        "broker assisted",
+        "broker assist"
+      ]
+    },
+    {
+      "value": "mutual_fund",
+      "aliases": [
+        "mutual fund",
+        "mutual funds"
+      ]
+    },
+    {
+      "value": "etf",
+      "aliases": [
+        "etf",
+        "exchange fund",
+        "exchange trade",
+        "exchange-traded fund",
+        "exchange traded fund",
+        "et fund",
+        "etfund",
+        "etfs",
+        "exchange funds",
+        "exchange-traded funds",
+        "exchange traded funds",
+        "et funds",
+        "etfunds"
+      ]
+    },
+    {
+      "value": "options",
+      "aliases": [
+        "option",
+        "options"
+      ]
+    },
+    {
+      "value": "fixed_income",
+      "aliases": [
+        "fixed income",
+        "fix income"
+      ]
+    },
+    {
+      "value": "futures",
+      "aliases": [
+        "futures"
+      ]
+    },
+    {
+      "value": "fx",
+      "aliases": [
+        "fx"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "kcb_asset_class"
 }

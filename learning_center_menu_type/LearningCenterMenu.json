@@ -1,0 +1,66 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "LearningCenterMenu",
+  "display_name" : "Learning Center",
+  "description" : "This document incudes links to tutorials and documentation displayed within the Learning Center feature in the KAI Portal header.",
+  "content" : {
+    "Section" : [ {
+      "schemaKey" : "Section",
+      "elements" : [ {
+        "elements" : [ {
+          "schemaKey" : "Link",
+          "label" : "KAI Portal Overview",
+          "link" : "https://vimeo.com/716509186/afaaf953ac"
+        } ],
+        "schemaKey" : "Subsection",
+        "subLabel" : "Overview"
+      }, {
+        "elements" : [ {
+          "schemaKey" : "Link",
+          "label" : "Manage Response Content",
+          "link" : "https://vimeo.com/754867932/6c0c1df99e"
+        }, {
+          "schemaKey" : "Link",
+          "label" : "Manage Disabled Intents",
+          "link" : "https://vimeo.com/716520374/269794333c"
+        }, {
+          "schemaKey" : "Link",
+          "label" : "Manage Entity Content",
+          "link" : "https://vimeo.com/716512009/f97037f30e"
+        }, {
+          "schemaKey" : "Link",
+          "label" : "Publish Content",
+          "link" : "https://vimeo.com/716512102/72af069f24"
+        } ],
+        "schemaKey" : "Subsection",
+        "subLabel" : "Managing Content"
+      }, {
+        "elements" : [ {
+          "schemaKey" : "Link",
+          "label" : "Segmentation",
+          "link" : "https://vimeo.com/716512173/f00d35ea15"
+        } ],
+        "schemaKey" : "Subsection",
+        "subLabel" : "Additional Tutorials "
+      } ],
+      "secLabel" : "Video Tutorials",
+      "icon" : "Video Icon"
+    }, {
+      "elements" : [ {
+        "schemaKey" : "Link",
+        "label" : "User Guide",
+        "link" : "https://kasisto-documents.s3.amazonaws.com/portal/4.4/en_US/KCB+User+Guide+4.3.3.pdf"
+      }, {
+        "schemaKey" : "Link",
+        "label" : "Key Terms",
+        "link" : "https://kasisto-documents.s3.amazonaws.com/portal/4.4/en_US/Kasisto+Key+Terms.pdf"
+      } ],
+      "schemaKey" : "Section",
+      "secLabel" : "Documentation",
+      "icon" : "PDF Icon"
+    } ]
+  }
+} ]

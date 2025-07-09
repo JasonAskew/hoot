@@ -1,0 +1,130 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_pys_pmif_test",
+  "intent_name" : "bt_pys_pmif",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "2147901e-887f-4ac2-a144-d59f63992099",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get information on the PMIF legislation",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "054bd21b-aea7-42e6-bd0a-70d2351769cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me find information on PMIF",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7551ecdd-0285-4d80-a435-e5a278655fdc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain PMIF legislation to me",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "98ef741f-9dff-4649-93e3-d97b367d1625",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get information on the PMIF legislation",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dc023941-e44f-46c9-b8ba-18479fa3a40e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me find information on PMIF",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a60f7cb2-5596-4da3-876a-10fadca7b1b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain PMIF legislation to me",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3eecc3fc-6cee-4e5d-852d-4223a173f094",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to find our more about PYS legislation",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b728d99c-89f3-4fc0-a582-7e9701917828",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "More details about PYS",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b06bcb1c-0d21-4176-907f-20fdd30c7b19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "More information on PMIF",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "318192d8-e17f-47a4-b000-f178cd5d98aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What information is available on PYS / PMIF?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c0e402e9-7dad-4fd4-8f50-2c6cb6468891",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is Bob legislation",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b303f065-8868-4988-88fe-2106bbdf06f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is PMIF legislation?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f7b23a19-0c25-4865-b4a3-24ee29711e51",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is PMIF?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "80f22b19-5732-47db-ba42-f3edb5b8cff5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is PYS legislation?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f776df91-4d6c-47a7-94cd-4b77743dc764",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise me which employer made the restricted no preserved compoent of by super",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "abaa54a8-ca9e-4317-9d98-8869802edb2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise me which employer made the restricted no preserved compoent of by super",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "fd9bb581-b30e-4732-95ba-90dd128d88f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you advise me which employer made the restricted no preserved compoent of by super",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "1f6d8168-e9e0-4eff-a71f-aab9ba2bdfde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am reaching out with regards to our clients account 111111111 thank you bob trosti",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "09724936-00fa-44d9-822a-7b26c5360409",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to opt in for super insurance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1dcc533c-645d-4545-894e-c9089ce45207",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to opt in for super insurance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  } ]
+} ]

@@ -1,0 +1,1913 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_deposit_funds_seed",
+  "intent_name" : "bt_deposit_funds",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "a00506a3-3196-47e6-adcb-a4d30497be57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Advise me on {@contribution_method EFT} Deposit procedure"
+  }, {
+    "id" : "34bb29bb-b6be-4d00-b379-63d56decc74b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there alternative ways to deposit my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "82ce86bd-9847-4ab2-a0ca-cdedbd791cb7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I add funds to my account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "4043d020-ce4d-4fc1-9d4a-636b1e2f9e2b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I credit money into my Panorama account.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ba590ec2-b243-41bd-8154-719403fd5dfe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I deposit funds into my Panorama account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "01614631-fa0a-4fcb-8048-e4516750516f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I deposit {@contribution_method cheques} on my app?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a0e762f6-b8ce-4fbb-93cc-78a4bbd18834",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can deposit {@contribution_method cheque} at Bujis Junction?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d87d3359-025d-45b0-bfa8-18c3dacce546",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can deposits be made online?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ec4857e9-548e-4190-b18e-94d98cbf2a0e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client just place a withdrawal/deposit for me?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "4dbf9c78-c60e-44bc-a16c-373ef4471bad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we make a contribution to this account on the clients behalf?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "59a09b21-8473-444e-80e6-8822512e3c1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you assist in making a payment in?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b368d9c0-a55d-4c83-aef6-772620e0cee7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you deposit my {@contribution_method check}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c99cddd3-a8e8-41ab-8286-8b745628ae16",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you explain to me how I deposit my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6c2b5ca4-a449-45e0-bc7f-032642099eb9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you give the procedure of depositing my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7f9170b7-6978-4067-b0a5-0bc7d842c785",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me with {@contribution_method BPay} deposit for a client ?"
+  }, {
+    "id" : "531e774a-9408-4b1b-9840-8d44a2733858",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me with {@contribution_method EFT} deposit for a client ?"
+  }, {
+    "id" : "6a8fa517-3e76-4b56-a923-0b029b37b495",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you just place a withdrawal/deposit for me?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0c6876ce-f2c3-42d2-826b-2d11e731fa2b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please tell me how to deposit my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a1d1943d-a79e-4a4e-b8ee-5f9e6ea0aa2d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to make a deposit?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "48e43c70-66c5-45af-97c3-70efa4617fe0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me where to deposit {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "39216e71-f221-4c3e-b21f-d68599b773a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you walk me through depositing {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "92f0a0a5-a14e-429d-80ea-ebf98c8755f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me how to make a contribution?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ed3c1d0f-6168-45c5-a04c-d28cb0912af9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Deposit a {@contribution_method check}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "34d0b032-1922-477c-a594-2f0c1be6a117",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Deposit a {@contribution_method cheque}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "81fbc23c-b4b4-4ea3-bf84-236382949a1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Deposit {@contribution_method cheques} tutorial",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5a0cb920-ff28-40a0-a92c-2c16aba87790",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Deposite {@contribution_method cheque}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9bbdcbd2-12a0-4a92-a051-0be2d3300c63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need include a description in the payment to my account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "39736e7e-0639-4e8a-9004-37976cab7ee9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does my client need include a description in the payment to my account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a86128c2-2696-4a39-b3cf-5c21da2e8a33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does panorama investment take {@contribution_method cheques}?"
+  }, {
+    "id" : "0c7f25c8-9ce6-47f4-97a5-96cd00c5289e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain depositing {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "33ae4aec-b827-4872-888e-3c14144519df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain how to deposit my {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4c04aaa4-f5ce-4aef-9b8d-9b1916a38c44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain to me on how to deposit my {@contribution_method check}.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a8cc84ab-91bc-4781-9e6a-4d6230319444",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain {@contribution_method cheque} deposits.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f243d61b-b850-42a0-b5b1-fbaadb77dc85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me make a deposit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "48db2d92-8629-469e-a74b-4b5d30a26cfc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How I deposit funds to my client's account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "3d0c8cd6-67bb-4184-b194-3b35bcb87d13",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How are {@contribution_method checks} deposited?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cbe30c93-51b7-44a5-8954-abc3a158907b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How are {@contribution_method cheques} deposited?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2464bba9-22c5-4aa3-96d5-349cf3a0ce89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I contribute money using the app?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "21fa2d7b-c4ab-49d9-bf5e-b4c00b4e029b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I deposit cash {@contribution_method cheque}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f78e5593-758e-40b0-a225-5c5d2140c630",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I deposit funds in my account?"
+  }, {
+    "id" : "3ad3e751-8fa8-48ba-8323-4dc4f9c2e12b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I deposit funds into my BT Panorama Super account?"
+  }, {
+    "id" : "628cad0b-926d-4b2a-bb4f-c549beec3bcc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I deposit funds into my panorama investment account?"
+  }, {
+    "id" : "bc5d775b-75f8-4a2f-9fe7-4e524e1d7429",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I deposit my {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ba8eb83d-bd53-400a-a584-8afaae7038bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I deposit my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "13fa89a4-8ab9-4bd4-906c-06dcbe8ccc80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I depositing a {@contribution_method cheque}"
+  }, {
+    "id" : "a9e1cadd-5008-4e3f-a21d-64304b37b45f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I do an {@contribution_method EFT} deposit"
+  }, {
+    "id" : "6827f801-66ed-4fee-8873-8a9449d1a435",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a contribution through the app?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fc3efa24-5663-4f08-9185-da873134c6f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a deposit",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "ac4ddf7e-36d0-4d56-9122-4499d6544493",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a {@contribution_method direct deposit} in to the account?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f5b24cc5-05c1-4efb-b7a3-a77d2fc51642",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make contributions to my BT Panorama Super account"
+  }, {
+    "id" : "51eb919c-c553-44d0-bed4-995cf1e817b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can i make a deposit",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a5148381-dc27-40ee-8654-12c017309db9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my client make a {@contribution_method direct deposit} in to the account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e48682af-c34e-48ac-be7f-222fbc5d4472",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can {@contribution_method checks} be deposited?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "82c34955-6253-4f26-a705-21ae4754ec40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit a {@contribution_method check}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "784f3e8c-159b-4c6b-aaec-03eff5d083cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit a {@contribution_method cheque}?"
+  }, {
+    "id" : "fd952534-2433-45bb-af06-fe9cfbbc2d68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds"
+  }, {
+    "id" : "a6c0f7dd-ff11-4adb-8a6b-30f53012966f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds in my account?"
+  }, {
+    "id" : "c7ff3843-2406-4f86-a7fd-7d58d83a7c7d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to BT Panorama Super for Employer contribution?"
+  }, {
+    "id" : "c0be73b5-f754-4ac3-86fe-3e1da86601b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to BT Panorama Super for Employer?"
+  }, {
+    "id" : "c1290955-c1a7-4b0c-b758-53694b590bc4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to BT Panorama Super via {@contribution_method eft}?"
+  }, {
+    "id" : "1ef3842d-ed0c-4ef9-bca1-e54e753217d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to BT Panorama Super?"
+  }, {
+    "id" : "bcf86dc0-89c1-4c98-8fb0-9566c87abf00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to bt panorama super for employer contribution via {@contribution_method EFT}?"
+  }, {
+    "id" : "ddae04e4-2c66-4413-a806-d21263a2f5fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to cma acc",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fd4770f1-a433-467d-be79-85d1f91ddf87",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to cma account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "241d0702-1fe9-498e-9c84-f30d77e1d2c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to cma accounts",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1c2a279f-1610-4e24-a341-0d4cfe5eac99",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to cma acct",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "debdc598-018e-48c0-a8de-decde6724147",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my BT Panorama Super account?"
+  }, {
+    "id" : "807d5f70-280c-44b3-ac08-dbd357cb1946",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my BT Panorama Super via {@contribution_method EFT} as a Personal?"
+  }, {
+    "id" : "559d4543-2e39-4841-bf30-2200f2fdc594",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my account"
+  }, {
+    "id" : "bb539a5e-140e-4ea9-92d1-4efe4ceb98e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my bt panorama super account via {@contribution_method BPay} as an employer?"
+  }, {
+    "id" : "bc41467e-4776-4ee0-9982-e4f61fc0d6d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my client's BT Panaroma Super account via {@contribution_method Bpay} as an employer?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b3bab33c-8215-4e40-9b65-5e02afdf82eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my client's BT Panaroma Super account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a0fb7fb4-201d-44ef-baeb-6fb808ee8a0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my client's BT Panorama Investments account via {@contribution_method EFT}?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "bd8d3501-0038-4e06-bbb9-0e0451b36d37",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my client's BT Panorama Super account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "56d5d5bb-ace0-4509-a68d-041d02a06a3a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my client's BT Panorama Super account via {@contribution_method EFT}?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "32d0f393-71e9-4e1f-a981-77089561e10f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit money into the account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "455f5d64-4f6c-4f0d-8ead-a6de905afbb8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit my {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4504afb3-44fe-408b-90e5-e9680b24bb8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "121b47a1-bec3-43cd-8eef-bee2c5145561",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit to BT Panorama Super for Employer?"
+  }, {
+    "id" : "e19d75f4-4643-4a65-a7f0-45263eed4fdf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method EFT} to bt panorama super for smsf rollover?"
+  }, {
+    "id" : "bf6a9384-e09d-478a-999a-59a2066fccaa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method EFT} to my account?"
+  }, {
+    "id" : "dadf103a-149f-47ff-a60c-6251cdd233f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method checks} here?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ed3fba63-5e7e-4c71-836c-b9716327a617",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method checks} into my account?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "347eb6f9-2455-487f-a634-2b75ead70afe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "806e8578-8762-4582-8ac6-48a599509fab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method cheque} to bt panorama super for downsizer?"
+  }, {
+    "id" : "8a2cb805-6274-4b36-8576-59e00f04c0fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method cheque} to my client's account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "17b49fdf-3ad2-41e5-9958-12bf7678a5f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method eft} to BT Panorama Super?"
+  }, {
+    "id" : "e80f5200-f847-40bd-9987-c5cf9ced6f90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about depositing my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fb45cbf0-fc10-4b2b-a3a9-77f8f1f210b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make Personal contribution to BT Panorama Super via {@contribution_method EFT}?"
+  }, {
+    "id" : "9a05fdb3-b15c-4ea2-85d9-b0c7557dbbcf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make Personal contribution to BT Panorama Super?"
+  }, {
+    "id" : "fd25abe5-aa04-48cf-ae16-aa54b463cb29",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make Personal contribution via {@contribution_method EFT}?"
+  }, {
+    "id" : "0e2cf883-9d70-4e0d-8e42-051b46aa5827",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make Personal contribution?"
+  }, {
+    "id" : "0897e1c3-4ffc-4dba-9de1-a6448b1a1f06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a concessional contribution by {@contribution_method EFT}?"
+  }, {
+    "id" : "df7f1da3-7d89-458d-96cd-f8f6b535116a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a deposit",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "864cd6c4-2d9a-42fa-a0f0-97febc0c2989",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a personal contribution by {@contribution_method EFT}?"
+  }, {
+    "id" : "824f98a0-2be8-41cb-88be-451430381932",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a personal contribution into my BT Panorama Super account?"
+  }, {
+    "id" : "6886e43e-aec7-4708-93ad-5731a4be6c7c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a personal contribution into my super account?"
+  }, {
+    "id" : "06183641-f143-416f-ac54-bffb8c272173",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a personal contribution? What options are there?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "325c5d51-b57f-44c0-9f96-6e7f79ebc971",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make contribution to BT Panorama Super via {@contribution_method EFT}?"
+  }, {
+    "id" : "a71ef8e8-f59e-46b6-b94b-28be3a70b17b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make contribution to BT Panorama Super?"
+  }, {
+    "id" : "c82f804a-f015-40b6-8ab6-c9cd4863d8a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make contribution to an account"
+  }, {
+    "id" : "973d3526-9485-46eb-82ff-f1da9988f2ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make personal contribution to bt panorama super via {@contribution_method BPay}?"
+  }, {
+    "id" : "4b7a2b7f-419d-42e3-aa13-76c684aa63a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I put money into Panorama?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "a51e2ece-8ae9-4481-802a-38a698d935e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i deposit my {@contribution_method cheque}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b8eb7556-2977-4214-a6a2-a707accc1573",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you deposit a {@contribution_method check}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "be1bee7c-a5de-490b-90ea-5fca8e54b7bc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does my client make a personal contribution? What options are there?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a0f33e73-5aca-48c9-a3ac-5d167314cd27",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does {@contribution_method cheque} deposit work?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8fed6615-3875-4626-b93d-cc678c599bd3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How exactly do I deposit my {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4b759d79-9a4f-44c2-abc4-06d2b007e059",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How should I do to deposit {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "dd462466-fb15-45c4-958b-abc7cb4779a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to deposit an bank {@contribution_method cheque} into a panorama investment account?"
+  }, {
+    "id" : "4d50a287-4bfd-4192-b214-ba135ad93e0d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to deposit {@contribution_method checks} online and in person",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "dfd5635b-ed05-4641-95c3-d775f4871275",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to deposit {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8b104835-d9f9-46ae-bb4f-7b0ae7bd43c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to make a contribution to SMSF for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "5f5a4ac1-dc93-471a-88dc-49e2810546a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to make a contribution to SMSF?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "dcd48755-93f3-405b-ba94-35b06ffc56c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to make an {@contribution_method EFT} deposit?"
+  }, {
+    "id" : "b345fe75-684f-489a-8e74-d2e50039e9f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to move significant sum into a BT Panorama Super account?"
+  }, {
+    "id" : "fe1b1742-0b9c-473d-8897-339b22fd1279",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to perform an {@contribution_method EFT} deposit"
+  }, {
+    "id" : "c4d67458-7f55-4f74-8b77-8bbcc42fcb08",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Advise me on {@contribution_method EFT} Deposit procedure"
+  }, {
+    "id" : "de18d470-9de9-4d09-b4b8-9d4850bebd87",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there alternative ways to deposit my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "71a666f9-6f9f-495e-8811-2ee2c8a0426c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I add funds to my account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "3e2505d1-55db-4fb5-ab01-8653cec4d9f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I credit money into my Panorama account.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "7d5e7ce1-9d0d-4d67-a90a-668aba52584d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I deposit funds into my Panorama account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "cf322c9f-e5ab-4995-a764-fff24933b2c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I deposit {@contribution_method cheques} on my app?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8a9624de-e312-4a50-a4a7-5dfda077f52d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can deposit {@contribution_method cheque} at Bujis Junction?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8a1dfea3-c8a9-43ba-958a-7290ddb9e0df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can deposits be made online?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "361823e3-33b9-4bae-9296-bbe99012e4d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client just place a withdrawal/deposit for me?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "561527a9-d314-4917-b1b9-fd4ef0814b4c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we make a contribution to this account on the clients behalf?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "26d6a60a-5740-46a6-9d56-eaa8bf521468",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you assist in making a payment in?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "dffa6f52-ef90-4700-a490-74df9060620d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you deposit my {@contribution_method check}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9ccfa4f6-5728-428b-a198-52d8499fd2c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you explain to me how I deposit my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b044bd6f-f8ca-426c-bfaf-2e8ebef75c45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you give the procedure of depositing my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cc03c75a-4f3b-49d7-864e-e0e590e5471a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me with {@contribution_method BPay} deposit for a client ?"
+  }, {
+    "id" : "a9f137e6-7972-476f-982a-61525b74d7ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me with {@contribution_method EFT} deposit for a client ?"
+  }, {
+    "id" : "88861684-47af-413d-9b9b-e8c78805032e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you just place a withdrawal/deposit for me?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2e633056-8dea-4621-9228-53a03b37b577",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you please tell me how to deposit my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d3c6fe96-0921-4bd9-8532-620bc3e659e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me how to make a deposit?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "3bfe71a1-0f9f-43d0-9ab8-fb1b1436fb8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me where to deposit {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8cab65e2-2955-4cfc-a0ce-96cf0d39cbca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you walk me through depositing {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1bccac0a-5693-4e29-8b01-9f8524d6cc05",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Could you tell me how to make a contribution?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6cc3a2bc-d733-4b1e-b39b-111a15b878ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Deposit a {@contribution_method check}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "03bd436b-9cdd-4bbb-99dd-9c8b3a423df0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Deposit a {@contribution_method cheque}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d4c4de5a-d5b1-4aa0-8a63-5aa846c34627",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Deposit {@contribution_method cheques} tutorial",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "98260f6d-a78b-4e89-8b9d-8bb7cd2701b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Deposite {@contribution_method cheque}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4d973a05-bb6b-4257-b804-c2c318528936",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need include a description in the payment to my account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1e95df0a-1df0-4aa0-b231-789c9bcdcd9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does my client need include a description in the payment to my account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "44f1dbc0-9c2c-41c3-9678-c801b1a6cb66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does panorama investment take {@contribution_method cheques}?"
+  }, {
+    "id" : "eaa9add9-e878-4906-bc23-0001028feb24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain depositing {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1c532c52-9a57-473f-a8ec-3206b7c92b23",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain how to deposit my {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "61bab879-7dc2-420b-8675-7eedf10355fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain to me on how to deposit my {@contribution_method check}.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "114ddb26-e86e-403f-be96-69f398d38711",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain {@contribution_method cheque} deposits.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ca2d808d-9031-4d66-bfd7-540547383b77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Help me make a deposit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "827ff85b-a3ad-47dd-a0cf-d2f5ac3d83a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How I deposit funds to my client's account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "901c85c2-1f76-49f9-b577-14d73dd77be0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How are {@contribution_method checks} deposited?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "28efe9da-a397-4f1c-a508-0383c5201767",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How are {@contribution_method cheques} deposited?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cc4f74f8-88ff-4c1a-aa8f-0c76bb074338",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I contribute money using the app?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c1fb40e2-0526-4249-a493-8b786fdd9c2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I deposit cash {@contribution_method cheque}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "41e64163-ae4c-4dcc-9a91-6446e5b53b8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I deposit funds in my account?"
+  }, {
+    "id" : "4b0919ab-7de4-478c-8022-cbfd69a521db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I deposit funds into my BT Panorama Super account?"
+  }, {
+    "id" : "e68f0348-c619-4fe1-bd27-3a4c06fb1a4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I deposit funds into my panorama investment account?"
+  }, {
+    "id" : "36385688-affd-422f-bf1a-4ade477e9fc0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I deposit my {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "50891754-656d-4aa5-85d3-036f28ac2882",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I deposit my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "28110652-73e4-4826-b5ed-e320ffeeec63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I depositing a {@contribution_method cheque}"
+  }, {
+    "id" : "694838d2-4590-41b7-a654-f2c0ed3e65b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I do an {@contribution_method EFT} deposit"
+  }, {
+    "id" : "3ca29eb6-0f91-4d5e-ae42-5f73ab0d48d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a contribution through the app?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "57edc66a-6d3c-4bb3-ba67-09f14d988af6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a deposit",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "27996521-5a8b-4545-bbbb-b3de4c60bcb7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a {@contribution_method direct deposit} in to the account?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "cc6c4ba5-92be-4c3f-84ab-5c6118a1a7d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make contributions to my BT Panorama Super account"
+  }, {
+    "id" : "dfbd758d-4d84-4a15-b7d9-5a6f700d124b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can i make a deposit",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f680f2bd-d62a-4c82-b9a4-1e1ad0aca57b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my client make a {@contribution_method direct deposit} in to the account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ce420f23-87e6-4722-83e8-587b4dd6f816",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can {@contribution_method checks} be deposited?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "52bfc180-8f8a-4a48-8e33-1aa24bd43f24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit a {@contribution_method check}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "14a03045-743d-4f06-8b1d-8b222db3c795",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit a {@contribution_method cheque}?"
+  }, {
+    "id" : "ee12bff1-931f-4631-b7e2-b67e7bed2068",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds"
+  }, {
+    "id" : "62ff9660-eba1-4532-80fa-9031ae38c528",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds in my account?"
+  }, {
+    "id" : "0374f372-7fe9-4ee2-b069-0191f29a14c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to BT Panorama Super for Employer contribution?"
+  }, {
+    "id" : "5e6954d0-75f0-42f1-bb15-f61c8286e464",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to BT Panorama Super for Employer?"
+  }, {
+    "id" : "87f0d559-36ae-40cc-9dac-b05dc66d4b3c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to BT Panorama Super via {@contribution_method eft}?"
+  }, {
+    "id" : "062234c9-527c-4497-b5cc-12caf238cb47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to BT Panorama Super?"
+  }, {
+    "id" : "2d93f397-f62b-4c34-8043-8c7db11f178c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to bt panorama super for employer contribution via {@contribution_method EFT}?"
+  }, {
+    "id" : "4b8a4d20-c1f9-42db-beec-ef8fe4a2135c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to cma acc",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "164c3397-e908-4744-a2f3-2e6948d145ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to cma account",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2c47dd91-31f8-432e-88c7-6894974d4fa9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to cma accounts",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6956a942-6a9c-47b2-afb5-fed2464b82f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to cma acct",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d8626ae3-2df9-4809-8925-6a401fdc7a2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my BT Panorama Super account?"
+  }, {
+    "id" : "99dbbdc5-8eca-4b54-a354-438c9a2f9d9a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my BT Panorama Super via {@contribution_method EFT} as a Personal?"
+  }, {
+    "id" : "df2c6a9b-c349-429c-b808-a6f6827f2dbd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my account"
+  }, {
+    "id" : "ed9b3b03-0050-4d4e-937e-ace314034b6d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my bt panorama super account via {@contribution_method BPay} as an employer?"
+  }, {
+    "id" : "c6fbf1d4-a5a6-4693-9a68-28b4cb8cbcdb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my client's BT Panaroma Super account via {@contribution_method Bpay} as an employer?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "cbd2b41e-d30e-45fa-bf07-6a39c0f66907",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my client's BT Panaroma Super account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "dbe3f73a-4eb7-4714-a0f2-d508c78581cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my client's BT Panorama Investments account via {@contribution_method EFT}?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "05768ac9-30be-4ac8-99b0-66b940a95ae2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my client's BT Panorama Super account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "77d7c21e-5a52-46c5-819e-f6c2870129a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my client's BT Panorama Super account via {@contribution_method EFT}?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "cf976322-0031-48ac-88ef-54e0685c54aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit money into the account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "c16f4d7f-e874-4016-b95d-79072a9b2595",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit my {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5d10922d-6807-4741-b76a-19384fdb411b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fe526f59-1ed7-479c-87f2-f3c8fd9ded3f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit to BT Panorama Super for Employer?"
+  }, {
+    "id" : "dae28b86-f9cd-4f4b-9b78-114658692527",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method EFT} to bt panorama super for smsf rollover?"
+  }, {
+    "id" : "3716ba1a-3c0f-46a6-9585-89f0a8bdbd04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method EFT} to my account?"
+  }, {
+    "id" : "d0c17bf8-1b13-42eb-a08f-9f8c14d42862",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method checks} here?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ef23b7a8-a8d4-4ab5-85cb-70d403a7d947",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method checks} into my account?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5fb6d06e-09dd-4675-b326-29025b5f0518",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8f49b87f-c27f-4782-9c3f-38585134d6cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method cheque} to bt panorama super for downsizer?"
+  }, {
+    "id" : "0ca1ee96-b964-4674-bab2-4013cf619260",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method cheque} to my client's account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "4c6f8bae-2cb5-431b-bd41-63a239617b34",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method eft} to BT Panorama Super?"
+  }, {
+    "id" : "d66c4e19-ac97-4ce5-b194-3b9a9cf514c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I go about depositing my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "757803d3-10a8-4a3f-87c5-d22ae3f01196",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make Personal contribution to BT Panorama Super via {@contribution_method EFT}?"
+  }, {
+    "id" : "80ab4f7f-d448-4359-a646-b996c075d105",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make Personal contribution to BT Panorama Super?"
+  }, {
+    "id" : "3b39cf30-1d9c-412a-adca-f502717e6df7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make Personal contribution via {@contribution_method EFT}?"
+  }, {
+    "id" : "2a0b160d-514f-4ce8-a6b8-4ef3e70b3a63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make Personal contribution?"
+  }, {
+    "id" : "c1dc5bb6-2989-420d-8cda-fdcbbda1f5c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a concessional contribution by {@contribution_method EFT}?"
+  }, {
+    "id" : "a7f9e7b0-d710-4b55-bf63-4c27a5f10f51",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a deposit",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "818c76cf-01c1-40cc-8476-17622321f358",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a personal contribution by {@contribution_method EFT}?"
+  }, {
+    "id" : "08d3a443-4a12-422f-80b5-d06581591b5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a personal contribution into my BT Panorama Super account?"
+  }, {
+    "id" : "51611fc3-4cf7-4ed2-9747-46e52a0d3e77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a personal contribution into my super account?"
+  }, {
+    "id" : "9845a65b-9b16-4191-ad1f-60953080b8fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a personal contribution? What options are there?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6c52741f-58f1-4188-ab19-968e30f21d26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make contribution to BT Panorama Super via {@contribution_method EFT}?"
+  }, {
+    "id" : "17056d1e-22ac-4bae-a248-ec1881a46475",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make contribution to BT Panorama Super?"
+  }, {
+    "id" : "4d5b7442-401f-49c3-b3f4-4f59ac89405b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make contribution to an account"
+  }, {
+    "id" : "8d4f4206-1401-401b-b71d-9459e695c840",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make personal contribution to bt panorama super via {@contribution_method BPay}?"
+  }, {
+    "id" : "ae573d9e-5ec8-42ee-a587-8890b95d6b4c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I put money into Panorama?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "281f93d1-28a1-4e5f-b9dc-0ca7f9df1ed4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i deposit my {@contribution_method cheque}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9a7ea5ee-ae22-4501-945e-a3d8a833cd5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you deposit a {@contribution_method check}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "607e3176-2200-46c0-aee7-10d8525e6143",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does my client make a personal contribution? What options are there?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a750dec1-ba57-4e9a-863e-f85b8192d678",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does {@contribution_method cheque} deposit work?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6819af98-9c54-4f5c-8a8d-742c54676826",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How exactly do I deposit my {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7dec47d9-7b84-4663-9e56-8ca17c4e6d7d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How should I do to deposit {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "86830ad5-1b57-42ed-a367-20714e46c548",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to deposit an bank {@contribution_method cheque} into a panorama investment account?"
+  }, {
+    "id" : "e04f8c05-42f4-4891-af52-5887ae22dfd0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to deposit {@contribution_method checks} online and in person",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d32ef3da-a96f-47cf-81a6-89d92c8ddce3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to deposit {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "53c2f060-0a0f-4859-81a4-3e9badec3b65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to make a contribution to SMSF for my client?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0f1efee3-ded7-49cc-af98-9b917f614155",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to make a contribution to SMSF?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4b8d671b-3532-488f-9401-f0a497283387",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to make an {@contribution_method EFT} deposit?"
+  }, {
+    "id" : "a3250723-c47c-4095-ba92-b6135ca34374",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to move significant sum into a BT Panorama Super account?"
+  }, {
+    "id" : "7b889456-1099-4df0-93db-1b311527990a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to perform an {@contribution_method EFT} deposit"
+  }, {
+    "id" : "cf7c11f0-f32e-4d36-9266-fa24b9bc3b27",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I had a problem with {@contribution_method cheque} deposit",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3cd103af-d1c7-4dc7-9426-5a05c080edde",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to deposit {@contribution_method cheques}.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f7d21a8a-7c4b-423c-91c0-62d8f04bcab6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know the process to deposit a {@contribution_method cheque}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9448a154-27b6-474e-9a6f-32381c8463fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to make a deposit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ddcd717d-f74a-4fe8-abdc-f19b8c2859c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to make an urgent deposit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "212f403c-3091-4586-bba1-e4bfb9a1ac1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to deposit a {@contribution_method cheque}.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5eae86d0-8e62-4bb2-9d02-87e839f27bb2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to do a deposit on behalf of my client",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "a73deb65-fc24-4d1f-9dcd-4ba83adf81f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make a deposit",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "53652d00-a5b8-43e2-8dd7-0224c4842e75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make a deposit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "6cf726b1-8ee9-4128-b48e-e14b4873ca5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I wish to make a deposit.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5a13cce4-035f-40c4-aaac-0a3ad1c33da6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like assistance on making a contribution.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8bba58c8-49b0-48b0-b7ef-629da094a56f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to make a deposit. How can I do that?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "44127fc3-e049-46be-a092-3ad0a4815ef4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to deposit a {@contribution_method cheque}.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6aecbe42-a3ff-425f-9717-48f39abd087d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I've been instructed to make a deposit of 70,000 into the clients account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e1e131f5-d92f-4890-abd0-4687988947d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "If I need to deposit my {@contribution_method cheques}, how do I do it?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "77b9aa69-1ff0-4f88-9a4f-4a4c44699fc7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "If i want to deposit my {@contribution_method cheques}, how can i do that?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a2dd004d-cc62-4261-8454-8ee30b7ff023",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "In what ways can I deposit a {@contribution_method check}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f634c72e-51be-4b85-a8d9-000624bde63a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Instruct me on how to deposit my {@contribution_method checks}.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "34e9065c-b31e-4c0e-b73e-95d09f1240a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible to make a deposit into my Panorama account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "3734f499-b053-458a-9029-83a41f02a79e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to make a deposit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "390a2433-3398-4e9f-a6a3-1cd39f527714",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is {@contribution_method cheque} deposit available?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0c4069ad-8a1c-4c23-b213-9eb2066c152a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need help in contributing to my BT Panorama Super account"
+  }, {
+    "id" : "e9664f6f-5200-4622-b944-1849b56a7403",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need help in depositing a {@contribution_method cheque}"
+  }, {
+    "id" : "81cfcacd-7daf-447a-841e-1ee40fa4c99f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Need help in depositing funds"
+  }, {
+    "id" : "4952196c-b476-4db9-a0ba-887248c4d4bf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Self service {@contribution_method cheque} deposit",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0c923c1d-2408-4fa2-b8e4-a991ec14edf7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me how to deposit my {@contribution_method checks}.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4bdfb8ef-de30-460e-bf5a-5da393299f12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me how to make a deposit for this client",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "dc717a6a-b22e-4f8c-ba31-98cf6cd7ab91",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me instructions for depositing my {@contribution_method cheques}.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "02990767-7ec6-4fe8-a3b9-b4a86f16a6aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tel me how to make my {@contribution_method check} deposits.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "155e5ec7-b761-45d2-b6f9-82d2de592e98",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to deposit a {@contribution_method cheque}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "91e8da7e-554b-4039-a844-dcf832f4f34e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to deposit my {@contribution_method checks}.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d8eba658-d852-4ede-9304-73d66f972295",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to deposit my {@contribution_method cheques}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "162011c8-8315-4b14-8dc2-c1ae17ff97c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The client is downsizing and needs to contribute the proceeds into his account, can you help us?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "97626fd1-d197-42da-956a-a918b32b9b16",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "UOB {@contribution_method cheque} can drop at Quick {@contribution_method cheque} deposit?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "191dd203-ae6f-4d39-b4c0-38dcd00c506e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We have to make a non concessional contribution into this account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e5d74279-c0bc-41fe-a779-4fa5b06de0e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are my options to make a deposit into my Panorama account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "52273cab-7bf4-4fcf-b604-f634cbf6b112",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the ways I can deposit {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "edd45989-4b90-495a-8fd0-22d358d216b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the ways I can make a deposit into my account?"
+  }, {
+    "id" : "f87d96e2-d2a1-4441-891f-89803def4e68",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What can i make an contribution to my account?"
+  }, {
+    "id" : "2b6e9820-550d-4ad0-9520-7e9acf6da7b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What details are needed to deposit into my Panorama account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "1616c7f7-de76-4e71-8d92-8b942f3016b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I need to do to deposit my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "63ec189e-f10c-4b6c-8642-a1e4db633116",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I need to do to deposit {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3a133a05-ba67-4ff5-be8f-dff4df5b3cfc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the best way to deposit {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "292190b2-cb80-4714-82a2-837a34543147",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure for contributing to my super account"
+  }, {
+    "id" : "f204c95d-ad9d-4522-b7b9-16de799edf39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure for depositing a {@contribution_method cheque}"
+  }, {
+    "id" : "99e99b72-0fd9-40d2-95d8-23a9eab3a100",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure for {@contribution_method EFT} Deposit"
+  }, {
+    "id" : "0d320780-c33d-4af4-9102-79d7fa0f32a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure to make Personal contribution?"
+  }, {
+    "id" : "6d6ab5c4-79cd-44b3-8260-07096c2108c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure to make an {@contribution_method EFT} deposit?"
+  }, {
+    "id" : "5c384b9e-fabe-45d6-a861-22589e9ae16b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the process for depositing my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "51447419-81c4-479d-94ce-03e08744c280",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the process for depositing {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "625a0902-e31c-4988-874f-810553970459",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the process for making a deposit?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "4008cfef-3f7a-41eb-ab4e-0104fa47cac2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What methods can I use to deposit {@contribution_method checks} ?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8a1f274b-8962-4c2f-85ec-d8c2fd5d3e6c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What options do I have for depositing {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "413922cf-1629-46bb-b61e-a29712c3ec86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What steps do I take to deposit my {@contribution_method checks}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a06beaf6-a847-4752-8eb9-929afcbf01bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What ways are available to deposit {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7580a194-e986-43ed-892b-88087feb549d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What ways can we make a deposit?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "33511f45-fb43-45e4-b3e6-fbf4902c70d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the procedure for depositing my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3a5d0026-ef45-4553-8f0b-f9a2d1191494",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Whats are the steps involved in contributing to my BT Panorama Super account"
+  }, {
+    "id" : "0e322330-558d-4787-85b6-a3ea18968e71",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Whats are the steps involved in depositing funds"
+  }, {
+    "id" : "e82f0e1b-076e-4f21-b68c-a666bae1a232",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I deposit my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "82b4e856-a77b-4815-aa2d-205e81687da5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go to make a deposit?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "324afb35-55da-416e-94ad-14f61c63bc6f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I make a deposit",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0579f606-1f31-4a63-acfb-687d97d94944",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can my client make a deposit",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e613cc42-4418-4ce7-8d1c-03b26dfacc4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I find the deposit information?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "90aeb450-0d09-40cc-81a8-bf7d96ebc936",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to put funds into my account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "1c6555c7-2ad7-4c94-b14c-4fe344209875",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I to submit a contribution for the client?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "5a10a3b9-72b3-465e-b8de-772aed31059d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where does my client find the deposit information?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c431bd17-325e-4229-b5bd-12bfb324af83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will you help me deposit the {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "ebd9aff3-d0b3-452e-bc17-a5e657241ea2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i contribute?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d23f6f33-d6a9-4d50-8945-812a02366e0a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i contribute?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8fb3139b-fcb3-48ee-92a3-2d13b2fa9d83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i contribute?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "5ab9fc21-fc3e-49e2-bbab-a0b134810c55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "deposit {@contribution_method checks}"
+  }, {
+    "id" : "af7893c5-c437-4680-b8b6-bcba8f83e255",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "depositing {@contribution_method cheque} via mail",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "db0832e2-ea0c-46c8-a880-2c8f7e89061c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I make a {@contribution_method bpay} contribution",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "31a6a667-969a-49c7-ac68-8c3e373cecaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do my client make a {@contribution_method bpay} contribution",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "5054cc56-de40-457a-a3bb-6ed97d3aafc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do we make a Personal contribution to BT Panorama Super?"
+  }, {
+    "id" : "2a7fd1ac-3ebc-4312-ab0c-10094d46fa85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do we make a downsizer contribution to super?"
+  }, {
+    "id" : "c2c1ad43-c86c-4d7f-9378-771d31e1150a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how should I do {@contribution_method cheque} deposit",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8c3595d2-6ae0-4c5f-9b46-99de1424f401",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to deposit {@contribution_method cheque}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1cf4b7b6-3ba4-4adb-8ae0-9054f9635506",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want to mail {@contribution_method cheque} for deposit",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c33f9c55-62fe-4f05-afe9-761dd84b1387",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "steps to make a deposit",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "92f72724-e34f-414e-a887-ad8a1922c731",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "want to deposit {@contribution_method cheque}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d6792e14-cbd5-4e4a-99c8-c91e23e7e280",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "want to deposit {@contribution_method cheque}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "1f4064cb-042a-41a5-be2c-5bfed85161c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the maximum amount for a deposit",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "fac51a59-bb61-483d-b146-3bf0c42b05a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the minimum amount for a deposit",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "6464e172-0279-4bdc-aaa2-42b8964e7b03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats the process around depositing a {@contribution_method cheque} into this account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "efd67138-3d67-4380-992e-2f38fcc0ec45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where should I deposit my {@contribution_method cheque}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "fca6d15f-9aac-41b8-ad37-c5cff8778172",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@contribution_method checks} can be deposited how?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "10c21e3c-d5e6-460e-86d3-e0d7e281424e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@contribution_method cheque} deposit on phone",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3f652ae6-8a18-4b17-a8a8-29cc6856d76d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@contribution_method cheque} deposit option",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8ef84e80-6238-412c-92ba-f82ca828c2a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my clients BT Panaroma Super account via {@contribution_method Bpay} as an employer?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0be49f5d-7e20-4040-9587-9cc26cfa72a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my clients BT Panaroma Super account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e2355093-3fe2-4bd5-a1be-8ae9f0cfa263",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit {@contribution_method cheque} to my clients account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e61a798b-47e3-4e04-aa5d-277070fd8c7c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my clients BT Panorama Investments account via {@contribution_method EFT}?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0fe6bae1-e4e6-48da-91c3-245ce3c4da76",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my clients BT Panorama Super account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "fc3e6201-45a0-469e-b79a-905079deb6b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I deposit funds to my clients BT Panorama Super account via {@contribution_method EFT}?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "2fe59972-775e-46c1-9894-542902b47205",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Whats the procedure for depositing my {@contribution_method cheques}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9facbf7a-86cd-42d7-8770-d531da8fa681",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How I deposit funds to my clients account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e88be91f-6e78-4766-b8d4-072f31b5e55d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Id like to deposit a {@contribution_method cheque}.",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "285a7eb7-ae98-49d9-923e-bd8430b5c36b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Ive been instructed to make a deposit of 70,000 into the clients account",
+    "tags" : [ "btmarchvariants" ]
+  } ]
+} ]

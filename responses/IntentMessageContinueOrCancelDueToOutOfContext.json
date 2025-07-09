@@ -1,0 +1,16 @@
+{
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I see you seem to have lost interest in the questions I was asking you. Do you want to continue responding them?"
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "IntentMessageContinueOrCancelDueToOutOfContext"
+}

@@ -1,0 +1,40 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "chatbotdown_test",
+  "intent_name" : "ChatBotDown",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "da2d1c52-1bd1-4438-9e82-69ab86050dfc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "App mot working",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "2993e143-bb6b-4d0b-a23e-3b05cef2e857",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "App mot working",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "8d35f1c6-26a5-4c51-bc11-b705ecbb1d83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Internet banking down...",
+    "tags" : [ "former_goldset", "test_gold" ]
+  }, {
+    "id" : "841b3b33-b5c7-4c65-b8ac-c06786043eef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it system down?",
+    "tags" : [ "test_gold" ]
+  }, {
+    "id" : "3b47a93a-8e2e-4aae-a7d7-cfdf7448b2db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Problem with app",
+    "tags" : [ "former_goldset", "test_gold" ]
+  } ]
+} ]

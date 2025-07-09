@@ -1,0 +1,388 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_view_closed_accounts_test",
+  "intent_name" : "bt_view_closed_accounts",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "5be19040-c7ba-40c2-8158-17972cce0e9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Account closed",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b79d9788-f2c3-4af2-ad3d-944b13ea2308",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi if i have closed an account can i not log back in?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3eb9cfee-6c26-40ee-ab21-9113827f98c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Account closed",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d649a389-05cf-4cd6-b05c-41542bf9ecba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi if i have closed an account can i not log back in?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b6d7db41-7ff0-4277-9ea4-dec778fa7853",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I have recently closed my BT Super for Life Account but would like to obtain a statement",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "3dd800f3-21b9-413b-acc5-3cc7ae208579",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account closed but no closing statment",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "123ad58b-7b30-4409-940b-473d3e45b189",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account has been closed and i can not login",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6de8850f-febd-486b-b3f2-cfea654d75a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super account closed",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b75b37b0-44e0-4da9-9775-6e83c60c0ef6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a exit statement",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "fe169f8a-d794-4ea3-89e9-e7b2e296279c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i still open a closed account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2281fa18-99ef-4c43-8a8a-89cc4ae2c2e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me where i can view closed accounts",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "76297f69-7a48-4c36-a3b3-5fddf718f121",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check account closure progress",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "07af1fde-f2e4-46ed-900e-14c4cf36bdbf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super account closed",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b0fd80fa-338e-4a71-88fa-22e2c24f39e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a exit statement",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7b5b515d-58b5-44c4-8152-3442acad8d05",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i still open a closed account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ab782bc1-b5f0-42d6-bdf7-98b4b19fd6ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me where i can view closed accounts",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "6668b442-251d-4205-8a81-4cce42a09bb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check account closure progress",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d7f94a28-cf8b-4506-8d7a-53e4c9710f26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super account closed",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cc33cc89-c023-44be-b597-f4766c6cb465",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get a exit statement",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "383a1ba0-c092-4682-be0b-5705465791e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i still open a closed account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "7bc14761-6da5-498b-a0a8-e9b34d957212",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you tell me where i can view closed accounts",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "f7167f71-f01f-440a-8c0b-6fb7ed9ff785",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check account closure progress",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "26856919-eb6b-4dc2-bc04-4777b88c2cc1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closed accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e83e3186-ee11-48b0-af38-18a49df0a875",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "exit statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e8018897-5369-422c-ad5f-a07b452393eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "finding a closed account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1c79e59b-14d4-42c6-9861-be99355cda9d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i find out how to obtain a tax statement for a closed account 111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "85312993-bcc4-4d54-a24e-b5fc4eeb0434",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi could i please obtain an investment account closure statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7d175bcf-7543-42ee-8f3a-427cddc85358",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i access documents for my closed investment account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8500febc-a935-41e9-a91f-0353d6d082c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i view closed acounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2e265d58-7353-4faa-ac3a-09224736fadf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i was previously with bt and merged to bob i need some old st",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b20a79e0-9643-4c96-a6bb-6b88892b5d7a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find a closed account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "34e450a3-b3c0-49bb-8911-d685d9bd4215",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i search closed accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8fccd324-4b76-4988-8f71-73b52553c587",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i view closed accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f71c928f-0659-45b5-be70-baf016bdad7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to find closed account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9c1e4c6f-44b5-47e8-b3a0-f68bc1c235c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to search closed accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e2950fff-7c11-4669-ba97-412326d81443",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for the closure statement for bob ‚Ä¢ bt panorama investments ‚Ä¢ investment ‚Ä¢ 111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "13179c41-e44f-4219-b54a-a717ff1452fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am trying to log into my account so i can get my closure statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d65b5d8c-d2bf-47fe-b722-8e18effd263e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have closed my account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "75bbfee7-56ef-45f5-863a-dc6ac869eb49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have closed my account and am unable to access my statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f9a34b0c-b060-4c00-be3b-c461a47b8043",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a copy of a closure letter",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0c0db615-afb5-448f-b6f5-35959f5ba142",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to obtain a final report for an account which was closed in august 1111 the account name was triangulee super pty ltd how",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a9b8f5d4-ddca-4d2f-ad99-89ae931c3d04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i retired my bt panorama super pension account 111111111 on 11 october 1111 and would lie to get access to my exit statement how do",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4d1fc335-164c-4f01-912f-a854a24d6a4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if the account is closed will you still generate the annual tax statement",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "99b62efb-d211-4c55-bcf4-bc8523ebbd85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it saya mt account is closed",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8cc13466-af62-421d-827e-b6ec6bd8af9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "look at closed accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6cb831e3-87c9-4f14-ba08-396255eb8088",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account is recently closed but i cannot access exit statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9dbf1784-cf73-4851-9df7-6c120691875c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need transaction statement for closure of account thanks",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4c8fc274-2308-404e-bcc6-331c051ea2bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pending closure",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a8864b5b-5116-47e7-82b1-12e318a2df03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request a account clsoure statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a471e72c-0dd4-4963-88a0-c33cadece121",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "seeking payments in closed accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "35cfcba9-6832-4b04-8cca-1ea68504ecd8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "statement of account closure",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7a017799-9a4c-45c5-aca7-2e4139ca1c3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tax statement for closed accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8b254166-0e02-47af-9b54-0ad491cf9734",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the account is closed but i have not been sent a closing statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1d04f1bf-6704-403a-8584-819fddcfafbc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "viewing closed accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c9f06e22-ca0c-492b-9f1c-11281d83de11",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wanting an exit statement for my account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7c31610a-3604-41d6-b107-85f84b35f7fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we need an annual statement for a client who 's account is closed after 1 / 11 / 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "700f2c2a-539b-42d6-a535-43d7e211f712",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the account is closed but i have not been sent a closing statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "de671722-eec9-4d8a-bdd7-15fcc98ba22a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "viewing closed accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a9fa047d-ddb5-471a-bfdf-02a2286b89eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wanting an exit statement for my account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c1878432-8102-4a03-8d1e-c3ab02d3adfc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we need an annual statement for a client who 's account is closed after 1 / 11 / 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fdccc7c1-d203-4fb9-9bd6-9480d9b171da",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when we close the account how do you receive the annual tax statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9e6467ff-1065-4914-bfdd-e170d193bcc4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the option to download my tax report on a closed account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3d53ac16-746c-4ae6-8e0d-ee555411e2d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to check if account is already closed",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  } ]
+} ]

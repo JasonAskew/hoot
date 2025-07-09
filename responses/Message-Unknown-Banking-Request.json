@@ -1,16 +1,21 @@
 {
-  "name" : "Message-Unknown-Banking-Request",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Try asking again using short sentences, keywords and focusing on one main topic. E.g: How do I make a deposit?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Try asking again using short sentences, keywords and focusing on one main topic. E.g: How do I make a deposit?"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Message-Unknown-Banking-Request"
 }

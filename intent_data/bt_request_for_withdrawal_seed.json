@@ -1,0 +1,937 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_request_for_withdrawal_seed",
+  "intent_name" : "bt_request_for_withdrawal",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "29e982bc-0acc-4883-9b63-983adbb3c682",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are we able to do a {@withdraw_amount_type full} withdrawal for this client?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "953f49f6-6367-4153-acfe-2e1e125ea820",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a withdrawal request less than 1000 over the phone via eft for cma?"
+  }, {
+    "id" : "3ec41197-ec4f-4eb3-b72c-cde14695a6b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a withdrawal request more than 1000 over the phone via eft for cma?"
+  }, {
+    "id" : "dac7c5fd-2ad8-488a-b2b8-99db1df5ec22",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a withdrawal request over 1000 over the phone via eft for cma?"
+  }, {
+    "id" : "21511623-c9db-4d9b-bbe7-a507ab8e0a84",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a withdrawal request over the phone?"
+  }, {
+    "id" : "cacea35b-d351-49f5-8227-3c6403d9966d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a {@withdraw_amount_type payment} for my client?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "3bab1da9-30a5-4434-82f7-754e3a4c87db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client make a withdrawal request less than 200K over the phone via {@withdraw_amount_type pay} Anyone for my BT Invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b8012ae1-6145-40be-b27c-33b3a4e15919",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client make a withdrawal request over the phone?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "deca1da4-527a-4113-a80a-b4a44c1c0b58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client withdraw the money more than 200K for me via Bpay for BT Super Invest?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "70997b00-8bfb-4e05-844c-5cde001e9f4d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we make a {@withdraw_amount_type full} withdrawal via the desktop?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "beb46177-0df0-4177-b067-be63150e8dcd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help in making {@withdraw_amount_type payment} over 200k",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "9aed7ab0-f268-424d-a356-fd986f0962b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me make a {@withdraw_amount_type payment}?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "753b66fc-90bb-4a3a-a59b-80f6148ccbef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you withdraw the money less than 1000 for me via eft for cma?"
+  }, {
+    "id" : "2d4f8d7e-ff1b-4bd5-bf3f-8429b6de5658",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you withdraw the money more than 1000 for me via eft for cma?"
+  }, {
+    "id" : "4aaeb6cf-e253-404e-8e97-8c6254141cc8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you withdraw the money over 1000 for me via eft for cma?"
+  }, {
+    "id" : "31ab7ce4-cab7-4582-80f9-0cc0511a5f45",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Client needs to make a property settlement, how do we make a {@withdraw_amount_type payment} for him today?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ed9011ba-bfce-4afa-984f-2b0673371cbd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Go to make a {@withdraw_amount_type payment} page"
+  }, {
+    "id" : "89d32004-f252-48ad-a27f-16e330fc93be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a {@withdraw_amount_type payment}",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "be6feff4-3e0c-47a2-a4f1-8041259aea27",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a {@withdraw_amount_type payment} from this account?"
+  }, {
+    "id" : "b1feb1e9-6608-464a-b466-3f7b4953eba3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a {@withdraw_amount_type payment} less than 1000 via eft for cma?"
+  }, {
+    "id" : "f76e5561-c900-4984-9a0b-8b400c12550a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a {@withdraw_amount_type payment} more than 1000 via eft for cma?"
+  }, {
+    "id" : "290b764b-0f7b-4fc3-9a9f-2689d9e26301",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a {@withdraw_amount_type payment} over 1000 via eft for cma?"
+  }, {
+    "id" : "afea5773-00d1-427e-a9b6-5df46fd3d4d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I request a withdrawal from my BT Super Invest account?"
+  }, {
+    "id" : "a99aa579-4fea-4181-b6ed-8529bd51d76a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I withdraw money?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "0be8fec4-e6fd-4db2-93a1-222bcbbcba1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I {@withdraw_amount_type pay} someone?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "a66d908a-44e3-43c6-a9ac-cf4e2915f10a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can make {@withdraw_amount_type payment} above 200k",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "0b8d8c2b-f6c8-4ad1-92c8-d0e9e5c60f53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my client make a {@withdraw_amount_type payment} over 200K via Linked account for BT Panorama Super account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e00bb83d-e926-4724-b242-06cf9bd4da94",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a {@withdraw_amount_type payment} beyond the payment limit?",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "cf1e4e9a-639e-491d-9ed4-912a4dc0f24b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a {@withdraw_amount_type payment} here?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "7fc55cfa-7af3-4433-a745-a3420259c6d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a {@withdraw_amount_type payment} online?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "d6c0938e-66c0-442a-be87-cca2d1141a0d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I withdraw {@withdraw_amount_type all} my cash?",
+    "tags" : [ "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "73d992b7-8359-4d34-95ce-396387240ef7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i make a {@withdraw_amount_type payment}"
+  }, {
+    "id" : "0e857b07-d4d8-407e-acdb-4588defdec01",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do we take {@withdraw_amount_type everything} including the min balance out of this account>",
+    "tags" : [ "btmarchvariants", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "518c01f4-7435-4c3a-886d-1500ea53f8ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How is a {@withdraw_amount_type payment} made?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "c39aa248-df4d-40de-9304-449d37c4657a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to make a {@withdraw_amount_type payment}"
+  }, {
+    "id" : "34779dad-9601-4f06-b066-d50a0e015cea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to withdraw the total cash holdings",
+    "tags" : [ "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "eb3d1db5-18eb-4a4f-bfcb-fd6c7f9f596b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't find the {@withdraw_amount_type payments}, can you make it?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "9605f819-c2cb-4935-9bba-be2d2d357cb3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are we able to do a {@withdraw_amount_type full} withdrawal for this client?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "5afe4080-f5ef-4514-b2bc-fbaf0d0bb0c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a withdrawal request less than 1000 over the phone via eft for cma?"
+  }, {
+    "id" : "63e5e2c9-da10-41a4-94f8-7400cefb1a57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a withdrawal request more than 1000 over the phone via eft for cma?"
+  }, {
+    "id" : "203143b3-4659-4c3e-91b0-f74550c9b5e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a withdrawal request over 1000 over the phone via eft for cma?"
+  }, {
+    "id" : "0c320d15-3c8b-41de-b4e7-b92bb79782f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a withdrawal request over the phone?"
+  }, {
+    "id" : "56c36c12-2c87-4cdf-b825-13b5d0980399",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I make a {@withdraw_amount_type payment} for my client?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "b4eabfc1-f18b-496f-bb10-25633d541bc4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client make a withdrawal request less than 200K over the phone via {@withdraw_amount_type pay} Anyone for my BT Invest account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a2e8e897-96fc-4fb2-ab7a-c7c3aced75e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client make a withdrawal request over the phone?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "7b5d97df-50c8-4332-8283-2fe5a7ec6dc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client withdraw the money more than 200K for me via Bpay for BT Super Invest?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "3d9daf22-eee5-406b-aa82-0782ed976076",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can we make a {@withdraw_amount_type full} withdrawal via the desktop?",
+    "tags" : [ "btmarchvariants", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "ef914050-16d6-49fb-9330-b74535d4f5c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help in making {@withdraw_amount_type payment} over 200k",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "efb2754c-cfb7-4bc3-b670-a57a90936f8b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me make a {@withdraw_amount_type payment}?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "3e1b18d5-655f-4dd9-8eef-05a793f16759",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you withdraw the money less than 1000 for me via eft for cma?"
+  }, {
+    "id" : "e9b285cf-e91d-4f0d-9959-5f05db754cdb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you withdraw the money more than 1000 for me via eft for cma?"
+  }, {
+    "id" : "9632a71b-5358-485b-9430-9b86caafcd3f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you withdraw the money over 1000 for me via eft for cma?"
+  }, {
+    "id" : "dc90b451-12dc-458d-adcb-4aa884aef051",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Client needs to make a property settlement, how do we make a {@withdraw_amount_type payment} for him today?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "8b95d49b-7109-4121-b74f-5774759731d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Go to make a {@withdraw_amount_type payment} page"
+  }, {
+    "id" : "abe7e996-ec96-4004-8ea4-97239c1044c4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a {@withdraw_amount_type payment}",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "0e0a5be5-dc04-4f76-ab4e-b96bb4df9306",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a {@withdraw_amount_type payment} from this account?"
+  }, {
+    "id" : "f4afefb0-4991-4e4c-ab89-370609aad048",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a {@withdraw_amount_type payment} less than 1000 via eft for cma?"
+  }, {
+    "id" : "dcdf198b-1bcc-4837-834e-d895afb7ee8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a {@withdraw_amount_type payment} more than 1000 via eft for cma?"
+  }, {
+    "id" : "b6b16c0a-2c5d-47fb-953f-a019d8b45c81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I make a {@withdraw_amount_type payment} over 1000 via eft for cma?"
+  }, {
+    "id" : "bb6c8ddf-4f1e-44ef-831f-e03376bbee38",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I request a withdrawal from my BT Super Invest account?"
+  }, {
+    "id" : "aa30835d-ca9f-494d-bd98-5abe14afaf85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I withdraw money?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "4c6dfa5c-dbc8-42f3-b603-f70fa3265f30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I {@withdraw_amount_type pay} someone?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "8f22e7cc-203b-4523-a216-021c8aff78f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can make {@withdraw_amount_type payment} above 200k",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "547c1c5c-e264-40f0-9520-478a04978418",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my client make a {@withdraw_amount_type payment} over 200K via Linked account for BT Panorama Super account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "1faf74ca-79fb-4eff-a258-1370ec7f48ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a {@withdraw_amount_type payment} beyond the payment limit?",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "f75ddd60-80a1-4b53-9682-d975cc0b7f26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a {@withdraw_amount_type payment} here?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "f76900f9-2b51-4bf4-9ac7-84049f3d869f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I make a {@withdraw_amount_type payment} online?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "9e7a2ea0-48dc-418c-b640-4e66414f85b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I withdraw {@withdraw_amount_type all} my cash?",
+    "tags" : [ "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "415bbf92-9f5e-413d-aeb1-1a8b787b0a89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i make a {@withdraw_amount_type payment}"
+  }, {
+    "id" : "c7022108-44a5-4e96-8f1b-c16a1d3e1570",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do we take {@withdraw_amount_type everything} including the min balance out of this account>",
+    "tags" : [ "btmarchvariants", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "470fe982-2eb7-4f7d-b111-d0bb3fbc27a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How is a {@withdraw_amount_type payment} made?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "930b837a-cd1f-4c85-844f-d17250b6b5df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to make a {@withdraw_amount_type payment}"
+  }, {
+    "id" : "796b43aa-d2f0-44a1-91c5-243865b53c9a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to withdraw the total cash holdings",
+    "tags" : [ "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "d5743732-7389-43ca-9b2d-b98c0cd7d54a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't find the {@withdraw_amount_type payments}, can you make it?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "4b28af99-fc6c-427e-988b-1c8fc4a39b44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need help with making a {@withdraw_amount_type payment}"
+  }, {
+    "id" : "9bf48b4c-d35f-4ffe-b78e-d0d0b4462baa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to make a {@withdraw_amount_type full} withdrawal",
+    "tags" : [ "btseed", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "28b8572c-c374-405b-aff5-f920a1bd865f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to make a {@withdraw_amount_type payment}"
+  }, {
+    "id" : "a8c25262-5c0c-468e-aa34-5c63b59e6d14",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to make a {@withdraw_amount_type payment} for my client",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "354cce7b-ba5e-4c63-ac16-b2afec94f2c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to make a {@withdraw_amount_type payment} less than 5000 via eft for cma?"
+  }, {
+    "id" : "cb9c881c-31d1-4f98-ac3e-31c49d4ec7c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to make a {@withdraw_amount_type payment} more than 5000 via eft for cma?"
+  }, {
+    "id" : "3b96c6d0-7fc7-44e8-9700-99d68848fd39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to make a {@withdraw_amount_type payment} over 5000 via eft for cma?"
+  }, {
+    "id" : "d1952c15-3dec-4de3-aec3-e6d1528f4132",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to make a {@withdraw_amount_type payment}.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "4cc1e75e-da34-40e5-bf04-cf1058a354fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to make {@withdraw_amount_type payment} over 200k, how to do it",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "23f56081-ac9c-43df-ae62-c62701a84eba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to withdraw money from the cash account",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "8ef0a141-81fd-4776-9d99-f6b223209454",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to withdraw my money"
+  }, {
+    "id" : "d3c2f3b9-1bec-42b1-8a6f-1de66f5f5b41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to withdrawl {@withdraw_amount_type all} my money from my super account",
+    "tags" : [ "btseed", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "5277b796-b24d-476d-9598-4467c7e1cbad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to {@withdraw_amount_type pay} someone.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "4d99cf7a-f3b4-4565-bd16-43186f0ccb27",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need {@withdraw_amount_type all} my money",
+    "tags" : [ "btseed", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "9527abb5-fedb-406e-82e5-3890adad1ef6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I really need money for {@withdraw_amount_type payments}",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "2b3be60e-271d-4670-8e37-0ebd0b812d28",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make a {@withdraw_amount_type payment}"
+  }, {
+    "id" : "eca6fdea-d526-4336-a2ad-600530a1b2a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make a {@withdraw_amount_type payment} of xxxxx"
+  }, {
+    "id" : "be01623d-6fd6-4055-ad24-1089655cd4d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make a {@withdraw_amount_type payment} to .... over 2000",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "9e8c3555-9d3f-40d0-8c4b-2acfd6d9a6e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make a {@withdraw_amount_type payment} to 100k over 200k",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "df0e3314-ed90-4fc4-add6-11a7c8924c2e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make a {@withdraw_amount_type payment}.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "8199f46c-7517-4f2d-a232-56f7d93d1795",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make apyament reversal",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "146beec2-bac4-46e0-9e11-ffe387efb160",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to take out xxxxx on behalf of my client",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "56413c6a-bffd-43aa-8fa6-98272264a93f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to take out {@withdraw_amount_type all} the funds I√¢‚Ç¨‚Ñ¢m allowed to",
+    "tags" : [ "happy", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "1517eaaf-6527-4c74-94e3-7fa3b2f6c5df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to withdraw cash",
+    "tags" : [ "q2_2021_annotation_update" ]
+  }, {
+    "id" : "0990e824-fb2a-437d-a792-4a25ecfd1137",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to withdraw {@withdraw_amount_type all} the funds in my account but keep the account open",
+    "tags" : [ "happy", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "0cd4d46a-e1f9-448f-916c-2bf4e53de26e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to {@withdraw_amount_type pay} someone.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "b2be0183-bcf2-4a32-928b-be95fda675ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to make a {@withdraw_amount_type payment}.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "d26ef8c2-5517-4223-9358-e1467476a73c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to {@withdraw_amount_type pay} someone.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "86d1f46e-2ee9-48e4-a141-94ad2812f6b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to make a {@withdraw_amount_type payment} for this client please",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "cfef15c2-f450-4fee-9619-90e6626ba74e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is it possible to make a {@withdraw_amount_type payment} from my Panorama account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "dc586bcd-bb60-46d8-a963-561d205ab1df",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to make a {@withdraw_amount_type payment}?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "827f592f-408b-4722-b5bf-fc0e6c63c143",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I√¢‚Ç¨‚Ñ¢d like to keep my account open but take out {@withdraw_amount_type all} my cash",
+    "tags" : [ "happy", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "2a63e666-e0b1-47ad-bf64-3cf4b2c00e2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Let me know to how to process {@withdraw_amount_type payment} over 200k",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "59db3bc5-4348-4b3d-b991-d58228b2105a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Make a {@withdraw_amount_type payment}",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "1bff7a10-d4bb-4b3b-b10b-7ab746004afc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My client needs to withdraw xxxx",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "99920b7f-381a-4ec1-b2d3-6e3421633f5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Our client needs to make a withdrawal, can I do this?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "9b8f8777-298c-467f-b19f-b650bf043c85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Take me to make a {@withdraw_amount_type payment}.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "7b1ced02-6ef5-44f2-a7b2-cdcada1f5fc1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The client has instructed we take 85,000 out of his account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "6e3ee133-1fb7-41f4-9133-330c4c1b9efb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The client wants withdraw the {@withdraw_amount_type entire} balance of the account including the minimum cash",
+    "tags" : [ "btmarchvariants", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "09b3d511-6bf1-49b9-a1e6-b4cd2840eca7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We want to go below the minimum balance for this account",
+    "tags" : [ "btmarchvariants", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "8b0937dc-b6a1-4f7c-a6f9-fcd4b77863a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are my options to make a {@withdraw_amount_type payment}?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "f96a52d8-fb97-43a2-904f-e2001d580206",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What does it take to withdraw {@withdraw_amount_type all} my cash",
+    "tags" : [ "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "ca634267-dd84-413e-a55f-607ce3afedfd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What form do I need to fill out for a withdrawal less than 5000 via eft for cma?"
+  }, {
+    "id" : "c4463c3c-a426-49a2-8931-bfeb5a041093",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What form do I need to fill out for a withdrawal more than 5000 via eft for cma?"
+  }, {
+    "id" : "73d637b5-d6b9-46bc-8cae-c5f24feec9e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What form do I need to fill out for a withdrawal over 5000 via eft for cma?"
+  }, {
+    "id" : "332a64bd-1d84-4f22-b0c4-f124273b9c98",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What form does my client need to fill out for a withdrawal above 200K via BPay for BT Panorama Investments?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0720624d-e6be-4562-aa30-5fdd6b84f402",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is procedure/method/steps to withdraw {@withdraw_amount_type all} my cash",
+    "tags" : [ "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "90d6e8c2-e972-40a0-b292-f08d4a03ae4f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the procedure to make {@withdraw_amount_type payment} above 200000",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "b5f5bdbd-c28f-4d98-a473-ee29beea14d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go to make a {@withdraw_amount_type payment}?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "088a1479-18a1-4f56-b5da-69a3b2453d15",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go to {@withdraw_amount_type pay} someone?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "03dfabdb-0e97-4f86-affa-10fd93282857",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I make a {@withdraw_amount_type payment} less than 7000 via bpay for super?"
+  }, {
+    "id" : "c7b95e05-4583-4d1a-9386-c516b5a53154",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I make a {@withdraw_amount_type payment} more than 7000 via bpay for super?"
+  }, {
+    "id" : "cdc33e35-9be8-4c70-824b-4347a4af05e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I make a {@withdraw_amount_type payment} over 7000 via bpay for super?"
+  }, {
+    "id" : "28df47d6-1568-46ff-b0cf-46c940f8b415",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I make a {@withdraw_amount_type payment}?",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "5ff68197-920f-4fef-b0eb-81702da02465",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can my client make a {@withdraw_amount_type payment} more than 200K for my BT Panorama SMSF account via Bpay?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "11045dae-36ff-4608-b1e0-531a9e74b861",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can my client make a {@withdraw_amount_type payment}?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "d61075ec-b039-4da3-91f4-8f2ee0bb002a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is make a {@withdraw_amount_type payment} page"
+  }, {
+    "id" : "a8453e27-087c-4e77-bad7-6a3ec4da8ebc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why can't I withdraw more than $200,000?",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "2b09ae6e-da8b-450a-91c5-e9367b7cb1a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you withdraw the money for me ?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "db6ac5f8-d9f1-4732-9ea6-311fc466bd26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you withdraw the money for me?"
+  }, {
+    "id" : "7cc36100-717f-4cef-a8e3-797154b710d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you withdraw the money for me ?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e0b90cd2-6920-4aed-8edb-ec5460f4845c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you withdraw the money for me?"
+  }, {
+    "id" : "ca9d5ce1-785f-4fda-9e8c-6964210d8430",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you withdraw the money for me ?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "4ce3a4f8-0ef8-417c-9c4c-4058f8c59845",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you withdraw the money for me?"
+  }, {
+    "id" : "a4c1da32-da68-422e-a99c-5601a69489df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i {@withdraw_amount_type pay} my accountant"
+  }, {
+    "id" : "ed49f593-0da3-4b20-8e17-206b35efdacf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi iw ant to {@withdraw_amount_type pay} my accountant from the super fund"
+  }, {
+    "id" : "dde90a1e-8c24-45f2-9b94-a45edf2d4bd1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i make a withdrawal request"
+  }, {
+    "id" : "852c9796-a56a-412c-a063-cd458ec1c743",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i make a {@withdraw_amount_type payment} for cma via eft"
+  }, {
+    "id" : "5b7fcdc5-53c7-42ab-8a88-0b3b9b7ec851",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i make a {@withdraw_amount_type payment} for cma via eft for more than 1000"
+  }, {
+    "id" : "cfdfa44b-bec4-41fb-aa95-61cc83044b70",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i make a {@withdraw_amount_type payment} for more than 1000"
+  }, {
+    "id" : "e174725d-5d1d-42d8-88e1-96e9755eca11",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i make a {@withdraw_amount_type payment} for my account"
+  }, {
+    "id" : "02205dad-5d2b-48a1-9f8e-8aa71d9a4a46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i make a {@withdraw_amount_type payment} for my bt super account"
+  }, {
+    "id" : "7013cb99-c395-4a03-8fbf-d15faf419652",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i make a {@withdraw_amount_type payment} for my client"
+  }, {
+    "id" : "9ec38747-8abc-4ac6-96ae-e0979ea96e3d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i make a {@withdraw_amount_type payment} via eft"
+  }, {
+    "id" : "6185f10c-456e-43d5-847c-9b3fcd6d33e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to submit a withdrawal request"
+  }, {
+    "id" : "5011cff0-0e12-44b1-af87-333f61f9fe03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to withdraw my money"
+  }, {
+    "id" : "f7497b6c-7f21-4f5a-8c0f-780ae39dafc4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "make a withdrawal",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "89a0e5ee-4679-42c7-98c2-779bfb0c37f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "make a {@withdraw_amount_type payment} please"
+  }, {
+    "id" : "0f59b6dc-86c9-4bbf-b925-df36ba72c36b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my client need to make a {@withdraw_amount_type payment}",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "875fb3c9-4118-4ac2-8113-dbc0431c7ab4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my client need to make a {@withdraw_amount_type payment} less than 200K via linked account for my BT CMA account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "6690c504-d896-4a50-8712-9bb1fcf04e55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "request a withdrawal"
+  }, {
+    "id" : "4742754d-e75e-45fe-a2f0-ccb5f2290bc0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "steps to make a {@withdraw_amount_type payment}",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "7e84e03b-09c9-49f3-94eb-7e58b9475cf2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what form do I need to fill out for a withdrawal?",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "74649504-bd6c-47ab-a35a-c596abf312de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what form does my client need to fill out for a withdrawal?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "19f8f146-6558-4b66-b345-63b0efea8c01",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "withdraw funds from this account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "4507aa76-1006-49ac-a865-a324bbe8d372",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@withdraw_amount_type payment} page please"
+  }, {
+    "id" : "4bfe0729-dd16-4b7a-8fdc-da9be42aa3f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why cant I withdraw more than $200,000?",
+    "tags" : [ "from_bt_payment_limit" ]
+  }, {
+    "id" : "1318eb42-fcb0-440a-921d-14d32da154a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to take out {@withdraw_amount_type all} the funds Iâ€™m allowed to",
+    "tags" : [ "happy", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "f906d4c0-4d60-4831-86f7-24cc2fb06f1c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Iâ€™d like to keep my account open but take out {@withdraw_amount_type all} my cash",
+    "tags" : [ "happy", "merged_from_bt_all_cash_withdrawal" ]
+  }, {
+    "id" : "3ac05f68-4add-4280-8896-7b7f2fb4d5b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cant find the {@withdraw_amount_type payments}, can you make it?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "2d80c1b2-8a18-4aef-a4e9-1dfff85aa2ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Id like to make a {@withdraw_amount_type payment} for this client please",
+    "tags" : [ "btmarchvariants" ]
+  } ]
+} ]

@@ -1,48 +1,59 @@
 {
-  "name" : "bt_submit_form",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Some forms can now be submitted online via the 'Forms & requests' page. If you have downloaded a request form, the 'Forms & requests' page provides instructions for submitting it."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Some forms can now be submitted online via the 'Forms & requests' page. If you have downloaded a request form, the 'Forms & requests' page provides instructions for submitting it."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "For forms that must be submitted by email or post, send them to:\nEmail: professional@panorama.com.au \nMail: BT Panorama\n          GPO Box 2861\n          Adelaide SA 5001"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "internal",
+          "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label": "Forms & requests"
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "For forms that must be submitted by email or post, send them to:\nEmail: professional@panorama.com.au \nMail: BT Panorama\n          GPO Box 2861\n          Adelaide SA 5001"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "internal",
-        "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-        "label" : "Forms & requests"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Forms can now be submitted online via our 'Service requests' page. If you have downloaded a request form, the 'Service requests' page provides instructions for submitting it."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For forms that must be submitted by email or post, send them to:\nEmail: professional@panorama.com.au \nMail: BT Panorama\n          GPO Box 2861\n          Adelaide SA 5001"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/adviser/tracking/pano-service-requests",
-          "label" : "Service requests"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Forms can now be submitted online via our 'Service requests' page. If you have downloaded a request form, the 'Service requests' page provides instructions for submitting it."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For forms that must be submitted by email or post, send them to:\nEmail: professional@panorama.com.au \nMail: BT Panorama\n          GPO Box 2861\n          Adelaide SA 5001"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/adviser/tracking/pano-service-requests",
+              "label": "Service requests"
+            }
+          }
+        ]
+      }
     }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_submit_form"
 }

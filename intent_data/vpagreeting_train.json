@@ -1,0 +1,2818 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "vpagreeting_train",
+  "intent_name" : "VpaGreeting",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "7cdd6050-6242-490c-add6-425912f58ff1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Again hello"
+  }, {
+    "id" : "e35af4a6-b1ad-4a90-82b0-d3975e9aa1f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Are you up?"
+  }, {
+    "id" : "70eb3fbc-a521-4774-841a-503b1aa5cf7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Been a while, how are you?"
+  }, {
+    "id" : "cdbdd38b-9701-4dd5-8522-d97237478510",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bonjour, bleu.",
+    "tags" : [ "bt_corrections", "merged_from_vpaunknownrequest" ]
+  }, {
+    "id" : "c5be0689-fbc3-4049-b762-ebc1cee14ccd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Evening KAI"
+  }, {
+    "id" : "062b876b-4c24-4754-a8ab-a1f4939893bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Evening Kai"
+  }, {
+    "id" : "b4437d93-ce47-4a76-8d99-6b8c39869a9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon"
+  }, {
+    "id" : "454d0c11-e9c2-4172-84c2-76849297a73b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon, <@U1PRTMCRF>"
+  }, {
+    "id" : "35259492-074f-4a49-b4e2-c35b993f4462",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good day"
+  }, {
+    "id" : "7d74e431-a114-42bc-bbf9-c90242d0b00d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good day WFBA Ô£ø√º√•¬∫"
+  }, {
+    "id" : "f3e96df7-1dc0-4c1c-8b1d-3f0b6ff42177",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good evening"
+  }, {
+    "id" : "0a6876d4-1af4-4a85-9524-2e47a9c7b407",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning KAI"
+  }, {
+    "id" : "6a04f622-ba71-4432-ba7f-4f7fa23dc91b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning bankname"
+  }, {
+    "id" : "c050b3c4-71f4-4926-86ae-8d7111e4737e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning chatbot"
+  }, {
+    "id" : "7b6dbde3-be17-4abd-b76a-7e2e9e04f83a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning kai"
+  }, {
+    "id" : "a06b851c-16d5-4219-8fe2-a32ef8e12e95",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning sasha"
+  }, {
+    "id" : "bcb87324-7860-4bd5-9fcb-e4b835dff3aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning, <@U1RS1UVN1>"
+  }, {
+    "id" : "d61645e3-4a72-4730-a340-b99ac9395eb2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning, I have a question."
+  }, {
+    "id" : "8d5851ce-8204-48fb-bdea-1e844bebb38f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning.G"
+  }, {
+    "id" : "8dcfd2e0-0fee-432a-ad3a-437326ed2e88",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Goodmorning,",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "ab8c16b4-afd1-47cb-8dad-7848d69fdaa6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Happy fourth Kai!"
+  }, {
+    "id" : "9332aefa-c191-4aa0-9706-25bffe7e0f1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Happy fourth bot!"
+  }, {
+    "id" : "5b2c2968-87fb-4a29-9c2e-10b8056e4935",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Happy new year too"
+  }, {
+    "id" : "ade2c04a-888e-4ef9-a050-4e4c70e7687b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Happy thanksgiving"
+  }, {
+    "id" : "0e1b5307-f70a-44b2-a448-03cb8a5ea640",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Happy thanksgiving Ô£ø√º¬∂√â"
+  }, {
+    "id" : "379a754b-58dc-4bb9-883d-60e84a305790",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hejko",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "1d8b2508-e97c-4657-a976-7bf96729f1f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Helllllo",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "f46bbdaa-1a27-41e9-b777-dbe95649abe3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello"
+  }, {
+    "id" : "4aa0f975-5d7e-4837-bee5-0dd929ef9416",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello !!"
+  }, {
+    "id" : "921812fc-3eed-4b87-9adf-431c4f344a5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello ,",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "bc5c8041-07e7-4f5f-a2bf-4c665f10c96b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello - are you still there?",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "613617f3-801b-4391-8833-7d04b1d989f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello ..",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "079b03da-e57d-411c-b34b-11b88970989a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello ?",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "e8cf79e0-fe1b-4897-be87-f0e9a355365f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello Bob"
+  }, {
+    "id" : "8e4055b6-15b6-4249-943c-7cc64437d59a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I"
+  }, {
+    "id" : "646b27bd-7c2f-4078-9531-712011abca9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I have a question"
+  }, {
+    "id" : "01309908-9d2e-4c39-8581-2be839561de8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello KAI"
+  }, {
+    "id" : "5a7dcb86-ec85-4c8a-b14b-3c0e59f22939",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello Kai"
+  }, {
+    "id" : "14d6c3be-2245-4548-8d6a-b32900216cb3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello again."
+  }, {
+    "id" : "3e9491b7-c6ba-4871-aa4e-5c21c3c99ae7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello anyone there"
+  }, {
+    "id" : "10198f12-f950-405a-b40a-b1ad7298662b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello assistant."
+  }, {
+    "id" : "49651450-f922-4788-a31d-1b99f2d3d6e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello bankname"
+  }, {
+    "id" : "59da27c6-5842-472a-b1fb-ca3937d6bb0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello bankname FB Assistant...first time user....I have a couple of questions about my account."
+  }, {
+    "id" : "9af7abef-e513-4bf0-a814-d6c4ffe568bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello how are you doing today"
+  }, {
+    "id" : "9962d3bb-c153-4640-a970-3d49f547d1c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello there"
+  }, {
+    "id" : "b5402a1b-2979-406b-9a47-09f2a11ed5a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello!"
+  }, {
+    "id" : "f73dd32c-a812-4923-913b-0ad9e111c151",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, I just had a Bob question about my account"
+  }, {
+    "id" : "ee254baa-d16d-45b2-9d5b-ec29a0d89040",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, KAI!"
+  }, {
+    "id" : "6411d1be-3061-44e7-af9e-417b5976a895",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, Kai!"
+  }, {
+    "id" : "08174d95-012d-40aa-bf70-e58e5470b79a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, are you there"
+  }, {
+    "id" : "0c7f7370-83ba-4158-94e5-d31f69485a91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello. Ô£ø√º√≤√Ö"
+  }, {
+    "id" : "ac6cb962-36cf-482c-a3af-9b2eb2e45229",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello. Ô£ø√º√≤√â"
+  }, {
+    "id" : "6855d33b-61c0-407a-a749-d0ce3fe1f27f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello.."
+  }, {
+    "id" : "90ee42fb-8fdb-4883-93cd-742b44065888",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey"
+  }, {
+    "id" : "fa6ed696-a70a-4f87-b62d-da5b6066cf44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey !",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "29b453c8-aaac-480c-8241-2afefe0d07ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey I have a question"
+  }, {
+    "id" : "2ef2550a-c0ea-4ae0-a5d7-c08fbef8b8b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey baby"
+  }, {
+    "id" : "6a600623-b548-4679-bfc1-211ae592af81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey bankname"
+  }, {
+    "id" : "bc898e4d-837e-43e3-9f2e-1cd0ec94a0f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey bot"
+  }, {
+    "id" : "2327f4a2-090d-4c62-af94-5cdfa14bb489",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey bot just missing you"
+  }, {
+    "id" : "434abf8e-97a1-45be-adec-f2e561a2de72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey hey hey"
+  }, {
+    "id" : "23fcf0c5-74d2-41be-80c7-885d4e59bad1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey sexy"
+  }, {
+    "id" : "b028b415-5d86-4275-8294-40b8b15a4693",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey siri"
+  }, {
+    "id" : "28ed376e-ae08-4969-aea8-70c6ce295bcb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey what's up"
+  }, {
+    "id" : "2f6698f4-c4ac-4391-a079-e611ef9dbf97",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi ,",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "0889dafe-93de-4de1-b7a2-9290b3c68541",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi -",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "87a3f218-4ab1-4eb0-8f9f-955d70188850",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi - Sorry.",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "6465044d-a84d-461c-984b-1ab8a1238c7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi .",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "d6b193e8-5319-45ef-a00f-597ec9fc230d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue ,",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "7c14683d-87f4-4ae4-a434-8eef7548f388",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue :)",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "6ac029c9-ffb7-4f65-b238-aa73e2615c2c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "6c681331-f6aa-4694-9ed0-2eee205260f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi KAI"
+  }, {
+    "id" : "a6a428e4-af0c-4343-8581-d61ba469f4f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Kai"
+  }, {
+    "id" : "fa3ce56d-d22c-4116-bede-2c2e3a251dba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Steve"
+  }, {
+    "id" : "95054c84-b118-42b2-a19e-b13d37b13aba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Team ,",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "15510e1a-405b-43ba-883e-48ebe4dfda29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi again"
+  }, {
+    "id" : "5cb81339-50db-4298-a7d5-60a68d95b1ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi bankname Ô£ø√º√≤√Ñ"
+  }, {
+    "id" : "40b21baf-b2d8-480a-9f5c-fefe4469ecd4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi bot"
+  }, {
+    "id" : "27bb00ea-d8ac-49be-be32-4f14cd440429",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi good morning"
+  }, {
+    "id" : "7e8c56ab-6a37-4a09-b484-664db551f959",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi guys"
+  }, {
+    "id" : "1855d9ff-72d6-4779-ab8a-ecccc164cfc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi how are you"
+  }, {
+    "id" : "130b4482-3278-4f0d-8429-c79bdaedee62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi is"
+  }, {
+    "id" : "f3f83cc8-1ce3-406d-a489-20114f986ca7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi it's kk"
+  }, {
+    "id" : "c0b5a953-7f75-4525-b3c1-e84c197352e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi kai"
+  }, {
+    "id" : "a7a38148-0980-437a-a1d9-4b180ec4bc29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi ther e",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "c49827c2-cc31-4abe-89cb-a82ec0309807",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, ^ \\",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c1cffd08-0141-4b61-88c5-c8f137da7bfd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, kid"
+  }, {
+    "id" : "ee60cef8-d13e-446e-a185-36af54b6b387",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi this is Michelle"
+  }, {
+    "id" : "41d7e361-9a6d-4590-9844-753644687db6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi this is Talia Sasha's daughter"
+  }, {
+    "id" : "92663ee7-4307-4c04-8a39-eb62838aad42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi this is cool"
+  }, {
+    "id" : "a8e82953-9b25-4ca3-b185-c573f66a5f58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi this is manoj kumar bellam"
+  }, {
+    "id" : "0d34e2e2-4d53-4a46-adc4-f12d1b6e2012",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Ô£ø√º√≤√Ñ"
+  }, {
+    "id" : "f8a8a13e-e73f-4f20-b633-5d37ce1b4c75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi!"
+  }, {
+    "id" : "4a28a4e6-201a-403d-9920-8763f36fd472",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi! :)",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "6617312e-b440-4c8e-9169-14515b7f37f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, KAI"
+  }, {
+    "id" : "313df1f4-a322-48ae-a466-0ea7560ab790",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, Kai"
+  }, {
+    "id" : "20864eae-8295-40fc-aeb1-df809cc20c91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, good morning.",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "0dec3af5-537f-4608-b1df-ad85b9bc9030",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, how is your afternoon going?"
+  }, {
+    "id" : "052f95a2-3915-4588-99e0-5d0c1661e51b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi.there",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6a6c9355-70a3-4076-a6f0-29a945377d6d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hii",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "1602a0dd-4d22-4eb4-ac00-290eaf954ad9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Houdy"
+  }, {
+    "id" : "70f094c6-f895-4ed8-a1b3-d50137338c98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you"
+  }, {
+    "id" : "160c10c0-a91e-406d-bf07-090780a45a8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you doing"
+  }, {
+    "id" : "bbe68a07-bfe2-47a1-b734-1fedeb729723",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you doing KAI"
+  }, {
+    "id" : "693a1c1c-691a-4024-af93-37362138734b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you doing kai"
+  }, {
+    "id" : "6a12cb22-35d2-45d2-955a-524a00f06709",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you doing?"
+  }, {
+    "id" : "97c67884-5d2c-4f2f-b646-8c73a0ef925f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you feeling"
+  }, {
+    "id" : "e4eb747c-24c9-4f08-b20e-2af58908b35a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you this morning?"
+  }, {
+    "id" : "b9d1e434-a8c3-438d-8bc5-63e5da5bd619",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you today"
+  }, {
+    "id" : "4a979d99-2c96-4a8e-a85f-3eb62c858397",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How are you today Blue?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "e7ecedf2-22b9-4725-b580-32b55ef1336a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How have you been ?"
+  }, {
+    "id" : "9da63129-f81e-4388-ab52-8247268c4fb7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How u doing"
+  }, {
+    "id" : "d871eff1-6d95-42a0-b4c5-7cb3814c0dd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How ya doin"
+  }, {
+    "id" : "d279793c-4ac0-4080-ad43-a417df5ceca1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How you doing?"
+  }, {
+    "id" : "1c86cea7-a734-4932-a011-9d68df35a35d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How's your day going?"
+  }, {
+    "id" : "dad15d7f-f316-4c59-a339-94616783eaad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Howdy"
+  }, {
+    "id" : "a9c3a55c-446f-4576-af3a-c96644bfb46c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hows your day going"
+  }, {
+    "id" : "68c0b86e-d9fe-478b-b1f8-389b58b30ce4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hoy ar‚àö¬© you"
+  }, {
+    "id" : "27255a50-47b3-4612-9c62-2a484118840c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Again hello"
+  }, {
+    "id" : "443f3126-405f-4a2c-82de-075671d63d92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Are you up?"
+  }, {
+    "id" : "2e4d9ecb-e28b-48fe-b989-1805d8f199fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Been a while, how are you?"
+  }, {
+    "id" : "47114527-7b52-407b-b04a-d2a4b8bd9294",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bonjour, bleu.",
+    "tags" : [ "bt_corrections", "merged_from_vpaunknownrequest" ]
+  }, {
+    "id" : "4ec4b8f2-af72-420b-8f6e-d0cac02823fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Evening KAI"
+  }, {
+    "id" : "1b763c02-0d7f-4e95-902d-8eb2ef9ce405",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Evening Kai"
+  }, {
+    "id" : "617c77e0-fbfe-4e58-a0f7-20118bdedf35",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon"
+  }, {
+    "id" : "ef89cf17-c177-426f-b3c6-f9eb75d162b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good afternoon, <@U1PRTMCRF>"
+  }, {
+    "id" : "15b50df4-ab88-4965-a6c6-6ab48687c5ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good day"
+  }, {
+    "id" : "52046f00-a6a5-4484-878b-621c3e3a17d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good day WFBA Ô£ø√º√•¬∫"
+  }, {
+    "id" : "ff3862f1-ed01-4234-9401-8ac3426b8a33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good evening"
+  }, {
+    "id" : "21878f0e-576e-4644-878c-00e87145c306",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning KAI"
+  }, {
+    "id" : "29356c3c-13a0-41f6-966d-a77b3e0cebf9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning bankname"
+  }, {
+    "id" : "9a64bf0e-bd0f-40c0-aa24-9161eefd0a86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning chatbot"
+  }, {
+    "id" : "0117c4d9-e9c4-4fbe-bca8-ca7a4ea05ddc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning kai"
+  }, {
+    "id" : "a2afd157-b05d-444a-9ca6-d93e2eda930e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning sasha"
+  }, {
+    "id" : "46129510-cc8f-43a0-8481-8d9daa47cf3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning, <@U1RS1UVN1>"
+  }, {
+    "id" : "518cd49c-d5ec-4797-aa5f-304131934bbd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning, I have a question."
+  }, {
+    "id" : "0759d9c3-5859-4b54-bda0-487d5390fb98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Good morning.G"
+  }, {
+    "id" : "8a54ac4e-9d43-4231-9a62-8ceae0bac2cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Goodmorning,",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "7bc869ee-c832-43d9-a38b-2840cc4fb3bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Happy fourth Kai!"
+  }, {
+    "id" : "6d22af3e-4a94-4478-bf46-4acf902a6b30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Happy fourth bot!"
+  }, {
+    "id" : "cb728dde-0345-4b9d-8f43-1adab8a8441f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Happy new year too"
+  }, {
+    "id" : "358cf686-f279-460e-8f04-66b3d8aee130",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Happy thanksgiving"
+  }, {
+    "id" : "80ec7ee2-2c68-4de9-8bf8-38495ad503e5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Happy thanksgiving Ô£ø√º¬∂√â"
+  }, {
+    "id" : "280dbee0-c46c-4bf8-93c8-45290f3f902a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hejko",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "1ec7ac7d-2a17-4f3e-bbcb-0ee5f92ef7e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Helllllo",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "13b5d755-ceda-4ac0-9a29-7733ab52d884",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello"
+  }, {
+    "id" : "f3678ff1-5cd1-4024-ab81-c436751f55fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello !!"
+  }, {
+    "id" : "2cb9afe2-35fa-4e29-8cba-10de1e8ed8e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello ,",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5caa65aa-af3b-425b-a6d2-4673908163a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello - are you still there?",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1499ec0e-83b7-4408-b716-5975f316ca44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello ..",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "cc73cf72-e350-438e-a925-7e873ab72386",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello ?",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "95637d59-4234-4fd2-989a-a4b42701b7a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello Bob"
+  }, {
+    "id" : "b65af87a-e47e-461c-a9ac-ee7c0772cfc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I"
+  }, {
+    "id" : "d34719c4-d2ff-4011-a004-a72e03cc22e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello I have a question"
+  }, {
+    "id" : "b16cc091-231f-4964-9cf0-3928f5ebc73a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello KAI"
+  }, {
+    "id" : "236bb9a8-d70c-4ae8-a501-33d7b6cbdf16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello Kai"
+  }, {
+    "id" : "ed67351b-8087-45bc-b3c8-aebf53e6e0d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello again."
+  }, {
+    "id" : "3127ad7f-04e3-4556-a157-853dca3eef77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello anyone there"
+  }, {
+    "id" : "bd4344f3-7085-4419-b78e-b109abe628ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello assistant."
+  }, {
+    "id" : "fa9c7c95-ac15-44cd-bf4f-50ca25e0b27a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello bankname"
+  }, {
+    "id" : "3af29d46-8248-48c6-a894-09075e02b1fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello bankname FB Assistant...first time user....I have a couple of questions about my account."
+  }, {
+    "id" : "01909c4f-be9e-4b13-8906-aef0ec72f2b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello how are you doing today"
+  }, {
+    "id" : "43beb3e3-9a87-43e8-ac66-b8119aaad50e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello there"
+  }, {
+    "id" : "b41cd5c7-f85d-46d8-85fb-f0beb1dd6554",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello!"
+  }, {
+    "id" : "560ceffd-fee8-4883-80d0-c637f648f6ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, I just had a Bob question about my account"
+  }, {
+    "id" : "467db621-1e21-4251-8afd-0a711877e40d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, KAI!"
+  }, {
+    "id" : "6e761892-5e72-4f95-9903-7f95de94ff56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, Kai!"
+  }, {
+    "id" : "d84a6533-f0ef-41b0-99a4-4b08be4f4d0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello, are you there"
+  }, {
+    "id" : "cd994612-ea5e-4006-8085-696a91a40db1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello. Ô£ø√º√≤√Ö"
+  }, {
+    "id" : "14ba5af4-4363-4a1e-9419-a53de5908547",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello. Ô£ø√º√≤√â"
+  }, {
+    "id" : "f8b84db0-8801-4007-8bc3-ffe053eee642",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hello.."
+  }, {
+    "id" : "f834836e-9988-4593-836f-8d34b5cc518b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey"
+  }, {
+    "id" : "dd8cf2e8-19e5-4d41-ac8b-45da1ba8cab8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey !",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "40ac149a-7a80-46ac-87f3-3078933fa1fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey I have a question"
+  }, {
+    "id" : "8e1aed5d-bc86-4872-b0e2-59180d4393d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey baby"
+  }, {
+    "id" : "7f1226d5-70ed-4e8d-88f1-e8d3baa9de30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey bankname"
+  }, {
+    "id" : "26072c05-97f4-4035-8c47-dbabb41c7550",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey bot"
+  }, {
+    "id" : "3cd90c1c-511e-47be-92c1-9a08fc663e96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey bot just missing you"
+  }, {
+    "id" : "fc0ee91b-0623-41be-b3ed-a0e8961e8a15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey hey hey"
+  }, {
+    "id" : "1c881067-8876-46a6-9227-d8e4dbeeaad8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey sexy"
+  }, {
+    "id" : "127334da-9a96-4729-b948-bd81a2f612b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey siri"
+  }, {
+    "id" : "36d9e306-309a-4a05-b82c-701fe433c321",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey what's up"
+  }, {
+    "id" : "bd1d2b93-b96c-48c5-8c4a-5dc25e69e0b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi ,",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "feb75820-3006-4da3-8185-ebb46b26e95b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi -",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c6a7c5ea-cd7c-494a-aee3-7e93c0dab5e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi - Sorry.",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "151ddea1-dfa4-4a97-8706-9d5d0e8f7191",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi .",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "a330c0c7-9645-462a-9e7f-89db1744bfb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue ,",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "8add8d5f-2a99-4b55-82ee-eebafe94d070",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Blue :)",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1a7f6cb7-8f21-44b5-8ce2-da41bb7c95c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7f4d834b-cac7-49b4-b85f-702e0fa6916e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi KAI"
+  }, {
+    "id" : "93f370b5-c24e-402b-9471-53bf228a2470",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Kai"
+  }, {
+    "id" : "240ce0d2-2ff0-433f-8c94-767d7a39ee62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Steve"
+  }, {
+    "id" : "4c2fb490-85be-4b99-816e-aa4e5edca1cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Team ,",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "9e9ba6ba-f3ce-41d2-81b1-418e4a193247",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi again"
+  }, {
+    "id" : "2d3573f6-5e66-4170-ab3c-03017ecfdc5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi bankname Ô£ø√º√≤√Ñ"
+  }, {
+    "id" : "d166af2f-3434-47a1-baca-f9fe938d77f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi bot"
+  }, {
+    "id" : "6f3cfc3f-01b1-4017-bda0-3ea5a6e2ba2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi good morning"
+  }, {
+    "id" : "54a052a4-17de-430b-88dc-803067893a2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi guys"
+  }, {
+    "id" : "7272cc8d-2326-4eed-b5aa-019251a15835",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi how are you"
+  }, {
+    "id" : "a1a64eab-bd84-45ab-8748-4fc7b7179c1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi is"
+  }, {
+    "id" : "eaa328a9-4f27-4d32-be46-8f159bdfeb7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi it's kk"
+  }, {
+    "id" : "742c9899-91af-4a5d-ac36-10d1dfbf2852",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi kai"
+  }, {
+    "id" : "b256ef40-b685-4702-a934-f9a1007d6386",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi ther e",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "d11e994e-4a1a-41e4-af19-7d7fdf758a43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, ^ \\",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f35f1b1c-7e73-414f-9c22-404333d1839e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi there, kid"
+  }, {
+    "id" : "b08ebb91-9bf3-43b3-8a19-6fdc02756f69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi this is Michelle"
+  }, {
+    "id" : "dee016b1-1e36-44c8-86c2-667a353f7cf9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi this is Talia Sasha's daughter"
+  }, {
+    "id" : "44095e5e-d579-49cb-bc68-bcc94b9766c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi this is cool"
+  }, {
+    "id" : "7758682b-6f37-413f-95d1-7213d0222c17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi this is manoj kumar bellam"
+  }, {
+    "id" : "7bbd7c0e-e0c8-417f-835d-3baf4684d457",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Ô£ø√º√≤√Ñ"
+  }, {
+    "id" : "78264025-e2fa-4ce6-a94d-9b36809adb47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi!"
+  }, {
+    "id" : "b025083f-4dc9-4563-98a7-a2340af4a1ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi! :)",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "aee87cb7-10c3-41c6-b6c3-638e182a1fe6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, KAI"
+  }, {
+    "id" : "3bb1495a-5ee1-494b-8f01-4452464f7d56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, Kai"
+  }, {
+    "id" : "7349c418-7044-45dd-addf-747831aff47a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, good morning.",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "65888c7c-da9f-4dcf-aa4e-e9023c38054f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, how is your afternoon going?"
+  }, {
+    "id" : "89c2f5ec-2176-4a98-9edc-82c1ea73a722",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi.there",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "af1af405-77e3-47a4-a4dc-3c83ddf37aa7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hii",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "13a0fa5f-f1fc-4f8f-8693-4c8754259ae6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Houdy"
+  }, {
+    "id" : "3759955a-66d6-46f0-91a5-2f089a628903",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you"
+  }, {
+    "id" : "7e040b91-2141-4bdd-acc5-adc3079a8ca1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you doing"
+  }, {
+    "id" : "6c9fb12b-fad7-489f-8533-2471db62586f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you doing KAI"
+  }, {
+    "id" : "89f11271-3bd9-4398-8154-06a0cff1329f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you doing kai"
+  }, {
+    "id" : "68e8adb3-db6b-4547-9af0-ef2631b88dde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you doing?"
+  }, {
+    "id" : "0cfae989-6775-49ed-98a9-99c3541c9165",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you feeling"
+  }, {
+    "id" : "92b0fe4f-cf4d-4598-938f-a6ddd39bd9fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you this morning?"
+  }, {
+    "id" : "2ccf461d-5d1a-4002-a030-e1bfee13788a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How are you today"
+  }, {
+    "id" : "1333fbdd-5663-4c8b-8ad1-2fffd3da57a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How are you today Blue?",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "47464512-7e8b-4279-953f-4f3b7d642023",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How have you been ?"
+  }, {
+    "id" : "beecc81d-5b87-4d8e-8fe9-7a0d23ef3c3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How u doing"
+  }, {
+    "id" : "1c116528-da17-42ea-a2e8-48c2e208fded",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How ya doin"
+  }, {
+    "id" : "13086a1a-344c-45cd-a636-c5f613e6b08a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How you doing?"
+  }, {
+    "id" : "05841f07-7a50-4228-b272-00cd0951e013",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How's your day going?"
+  }, {
+    "id" : "838c93d4-1bae-489b-b1a7-9140795c79bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Howdy"
+  }, {
+    "id" : "d2ee3b9f-140f-45ce-b9d9-34e626e4ffec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hows your day going"
+  }, {
+    "id" : "139a8732-9ddb-4a6c-9db6-62ba6a9f4819",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hoy ar‚àö¬© you"
+  }, {
+    "id" : "31f6404d-38f9-41b3-82b1-dee28457a630",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I hello"
+  }, {
+    "id" : "04380c3f-92bf-45cb-bc68-04232cd69b86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I said hi"
+  }, {
+    "id" : "e3d96064-92cf-41db-8418-7ef5b00ff42f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "It's Veronika"
+  }, {
+    "id" : "43ce9a12-0d8a-42dc-b675-7a3ebaf28804",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "KAI!"
+  }, {
+    "id" : "ae3e8ff5-1fe9-4a71-98ef-a3e236a9e2cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Kai!"
+  }, {
+    "id" : "fd4e3a6a-8401-462e-b679-09b0b8259ac5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Merry Christmas"
+  }, {
+    "id" : "53116135-121e-40d3-969c-6648aeecf4cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Morning"
+  }, {
+    "id" : "e42f37ca-2181-4e87-a485-2b2c66a8cfa0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Morning KAI"
+  }, {
+    "id" : "c73b83a8-d6d5-43fd-a395-5a0973cea1fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Morning Kai"
+  }, {
+    "id" : "e76be85d-7289-4e51-bf71-7e8059599b45",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Morning!"
+  }, {
+    "id" : "afa1221f-48e0-4983-a7a3-11e29790d22d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Morning, <@U1PRTMCRF>"
+  }, {
+    "id" : "fde2edcf-9d73-4980-b528-d6e5dc7d0df8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Morning, <@U1RS1UVN1>"
+  }, {
+    "id" : "160fa106-c10d-4765-b6aa-861fc6be51cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Phil here"
+  }, {
+    "id" : "c99c441f-b548-4cc6-90b9-fe2853043b04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Sup KAI"
+  }, {
+    "id" : "69439bb2-e75e-46ee-baba-efc19e62f8b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Sup Kai"
+  }, {
+    "id" : "6d060f6f-6570-4d79-afd4-ae6e52c34133",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "This is Uma"
+  }, {
+    "id" : "fdb6c223-b2d7-45cf-8f84-d25c8b2a0a3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Welcome back"
+  }, {
+    "id" : "66936564-59e5-4ca7-bf3c-bd54fee7e21c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What about HI?"
+  }, {
+    "id" : "5c74f9a3-1ad8-47c2-bf9a-f30d82571dc8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What's up"
+  }, {
+    "id" : "470f1575-acaf-423e-b40b-b40b15da2349",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "afternoon",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "db5977e8-3cd0-45c9-95d2-dfd55730811e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "anybody home?"
+  }, {
+    "id" : "f8e40073-6062-49a0-833b-9ef1fd2f256f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are you still on line",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "2836d563-003a-47fb-97d5-f67dd15aeaaa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are you there Kasisto"
+  }, {
+    "id" : "653b3b83-13c2-43a1-b4e5-700f948c21b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are you there MyKAI"
+  }, {
+    "id" : "f4bcc25f-7d6b-438c-a046-65c3f2db2bd5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are you there Virtual Assistant"
+  }, {
+    "id" : "4414ba8f-afbc-4d23-ab47-9798fa0d69cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "blue are you there",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8ac51f5c-cea9-44db-9809-c6d13c3be5f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "chat with blue",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "40af5e80-e51f-49db-9a78-109318037584",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "anybody home?"
+  }, {
+    "id" : "e32f763c-7799-47fd-94ef-19fa7fe6e16b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are you still on line",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "0f80d14b-4ffb-4600-9349-eb4360265680",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are you there Kasisto"
+  }, {
+    "id" : "23f699eb-eae8-48ca-8f88-082a7c38e5de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are you there MyKAI"
+  }, {
+    "id" : "bdbc06b9-a3a5-4592-be25-5123251194d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are you there Virtual Assistant"
+  }, {
+    "id" : "1d2119d4-fe13-49b3-a676-0e35730c1479",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "blue are you there",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "38af6b71-7527-4b13-a0e0-5ff2ee6b9ad9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "chat with blue",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "bff7a1be-8c22-4e16-afb6-9cf8b7bbbf1b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "anybody home?"
+  }, {
+    "id" : "56d05495-cd89-440d-8964-56ae4f899fdb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are you still on line",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "bd795d2c-23b1-4bfc-9730-5e5fb1f5eca7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are you there Kasisto"
+  }, {
+    "id" : "6afc4bb7-fe9e-4644-a173-145d535205c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are you there MyKAI"
+  }, {
+    "id" : "64eb78aa-6830-4d1e-a0ce-237212ade5d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are you there Virtual Assistant"
+  }, {
+    "id" : "f7c4335c-5fd7-4044-a1d9-622c6d0741c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "blue are you there",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f43daf0d-4527-4110-9834-fb3aab832506",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "chat with blue",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a5f4119c-48b2-4ed3-83b6-d06ddb10cf5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "dropped again hey",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "89f4298d-854d-4b8f-8b8c-ad8a73b72167",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "g'day blue",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c8fadd84-2074-4905-b221-1e63c1321765",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "gday",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "509ced85-f596-4563-b468-7d6ff203f4ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "gday blue",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3da824dc-56b5-45c1-b1c9-ba95a28599a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "gi"
+  }, {
+    "id" : "7471d2f8-a7ba-4016-a36b-4bcfe2a51c51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good afternoon",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "a61f0ed0-62b6-4120-97fc-f701e875b79d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good day",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "a6b3dddb-a9a4-449a-b189-eabe7a029806",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good evening",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "02685302-6518-4064-b4f2-dd9ee44b9857",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning Kai!"
+  }, {
+    "id" : "2514d5c6-bfc0-4255-a942-e1a71d575320",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "good morning Kasisto"
+  }, {
+    "id" : "d289b465-c4e7-41c4-a478-afc01ca7760a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "good morning MyKAI"
+  }, {
+    "id" : "1618586a-ac3f-487a-922c-968664186c6f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "good morning Virtual Assistant"
+  }, {
+    "id" : "c75dccab-2c46-419d-abf8-6f43bacee287",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning blue",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "53508f29-4483-48de-977b-394c4c5455b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning bot!"
+  }, {
+    "id" : "83550647-2108-4000-9809-cbf541635f1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning bt",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "ee361983-2aa4-4863-a7b8-1059155e3630",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning bt va",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "3f4e038e-b37f-4adb-8910-07fdae5cb6bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good morning poopy head"
+  }, {
+    "id" : "acf7e3bd-6049-4d59-a312-5991839a5dd9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hI i",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "fb620ec0-9eb6-477e-9bf8-8f6e6134b3f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "have a good day",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "03909f41-028c-4c46-891d-18e3e80d6d59",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have a great day as we",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "1d9f261a-45d6-49d8-bab0-cc6d424882b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "heelo",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "28046053-59e7-4d13-aa2e-58b402555ae5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "heli",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "79fc7767-592c-4897-a22d-2843d6ba10ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hellllllllllo",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "f24dc4f7-d569-488e-9c93-c5fb152b3c1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "helllo",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "ded5872d-d433-4245-a5a9-de39bfde1510",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "helllo are u here",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "30f02c8d-98c0-403e-b4c6-041c43b2a7af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello - still there",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f78fd2e3-d82c-48ae-b142-b4a33547444c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello :)",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "be5b3836-c5d5-4e7a-a807-f4dd8804d93e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello ??",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b1992d98-1a56-40da-aa5f-8ebbd16a7b52",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Kasisto are you there"
+  }, {
+    "id" : "f3accdbc-2da3-4d07-b533-df6997627a8b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Kasisto good morning"
+  }, {
+    "id" : "2a630901-c06c-46c7-9d6f-1500611612ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Kasisto how are you"
+  }, {
+    "id" : "f144efa9-df40-4dd0-939f-293323341d84",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Kasisto how are you doing"
+  }, {
+    "id" : "c23e218f-55de-4405-b653-b987ddfce8f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Kasisto say hello"
+  }, {
+    "id" : "064c2ec1-5b67-4bef-865c-236708f1f0d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Kasisto this is yoniel"
+  }, {
+    "id" : "ffd42b90-7e04-4d14-95e8-e191a88c1d3c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Kasisto what's cooking"
+  }, {
+    "id" : "ec7fec1c-63ca-420b-b8c8-f2e5dd335965",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello MyKAI are you there"
+  }, {
+    "id" : "11487193-bdf3-4f6c-aa6e-639d1e19faa8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello MyKAI good morning"
+  }, {
+    "id" : "fcbe371f-8057-4533-ac2d-749427c5ae08",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello MyKAI how are you"
+  }, {
+    "id" : "0129e8b3-bfbf-4085-ab18-6e04148d43ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello MyKAI how are you doing"
+  }, {
+    "id" : "250a86ab-61e5-4c88-b76d-93207c51135a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello MyKAI say hello"
+  }, {
+    "id" : "cb595e22-3828-49a4-a183-38c96a093fb6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello MyKAI this is yoniel"
+  }, {
+    "id" : "0ea2c005-2d52-407f-ae28-81a58840296d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello MyKAI what's cooking"
+  }, {
+    "id" : "c610da39-4ccd-4b87-953d-08e967804ee4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Virtual Assistant are you there"
+  }, {
+    "id" : "1c058bc0-00c1-4524-a8bb-7474d5fa6358",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Virtual Assistant good morning"
+  }, {
+    "id" : "3126e810-3f9f-4fee-b3e1-2df455b3b0f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Virtual Assistant how are you"
+  }, {
+    "id" : "0bc4e5e4-44b6-4b3f-8e36-e9761f8e290c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Virtual Assistant how are you doing"
+  }, {
+    "id" : "24dcfed7-3b27-4157-b5e8-c356fa7a5f3e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Virtual Assistant say hello"
+  }, {
+    "id" : "98506fc2-8fa4-4463-938c-4fa6e96c6343",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Virtual Assistant this is yoniel"
+  }, {
+    "id" : "a8d7a1e5-61ba-4ad3-959a-36340714a64a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello Virtual Assistant what's cooking"
+  }, {
+    "id" : "6b8b8180-dd4d-4e75-a569-2b06a7be6b8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello again",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "e202f4b5-a31e-4979-bf30-0ee86f7df065",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello are you still there",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "81bda70d-39a6-491b-8853-dd1c5e7621d4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello are you there",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "46e1ccb5-f6b0-4ebd-b125-84e1789a8a64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello blouis",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "42f941ce-2432-4842-9a69-e08d6619cf99",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello blue",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e6e2050e-47ce-416f-b759-6ef112d05fe6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello bob",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "b0976857-5c28-4a5c-ad05-cc8d387eed33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello bot man"
+  }, {
+    "id" : "79cf669b-46d6-4b2d-a879-08e5dd53f3e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello from svp uam",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "8dbf63ef-57d1-4125-946e-69ad20bde67a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello good afternoon",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e2c11edc-8c2a-4b0c-909d-fa1f4f70d8ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello good evening"
+  }, {
+    "id" : "0d0f4b37-f91d-482b-989a-b586ef875ed6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello good morning",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f7e4dcda-6930-4fdc-8388-5dd680117c8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello hello hi",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "47e0b507-6656-49ca-9821-0d2444aa0e8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello honeg"
+  }, {
+    "id" : "b1043f6f-eed8-478b-ae6d-f0bfa929124d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello i have a question",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "3fa850d9-842e-457c-afb5-0ba1530b5a77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello its me bob",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "48cbae18-4109-418f-aa65-bbe41530388d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello member number - 111111111",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "35ebff65-0919-48bc-8422-e3a7f19562db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello moto"
+  }, {
+    "id" : "dc049b95-7f51-4b8f-86e9-ee0fc014b1ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello my member number is 111111111",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "38269fb2-dc28-489d-ba02-d5b553fb5f69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello operator",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "730ce1d8-c32c-4ba2-af97-fa94f922a4ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello panorama team",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7a836437-6af6-49d8-964d-e7f5723b8346",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello sport i'mback",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5d70e617-ac67-47c8-b156-33454dc5d8b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello team",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "111c5d69-6d20-4e8f-bc85-301ad8d51159",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello there",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "2e5d25df-0382-4aa6-85a8-8697c81119e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello there chatbot",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a0da2467-ed69-4aec-9e51-93acc42957e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello this is bob",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fde043a7-c1a2-49b0-8243-b6371044904c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello!"
+  }, {
+    "id" : "61209786-80b4-445f-ae22-81c745adb15f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello, happy hitler!"
+  }, {
+    "id" : "59b5c09e-764b-4945-80b0-67229acbc694",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello, happy!"
+  }, {
+    "id" : "ad166cca-d55d-4426-adc5-5b3463b0010a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "helloo",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "de6daf70-b4db-4fef-8547-d2729ff6769e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "helloooooo",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "24651db2-290e-43cb-833d-94592bf9f4c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hellow",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "a71de4d5-14f4-4bb9-956a-c4c9de3cb80a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "helo"
+  }, {
+    "id" : "ff7eed82-63b7-4e01-bc9c-372f839b7c19",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "herro herro",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "8aa98682-0098-483f-ad59-e1b1afe6379f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a69dec98-2889-4c9a-82db-65fab559591d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey KAI"
+  }, {
+    "id" : "24ce3a4e-2671-42fe-a4c0-a44ca6754b1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey Kait"
+  }, {
+    "id" : "42fd3b7a-97a5-4aec-8c18-5ddb987eeb5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey blah blah blah"
+  }, {
+    "id" : "68c56fd5-726c-4ebe-8ac8-0f9276cab7d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey blue",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "bfedcad6-b0cd-4719-afc1-219e9f1d2416",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey bob",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "f94de2ae-fe07-42fb-96e9-374e1d696071",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey bob i am good thanks hope you are having a good day",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5ff4c337-685f-4108-a380-1a3d350406af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey bot",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "178b1f0a-ce12-44dc-8311-8899336595c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey honey"
+  }, {
+    "id" : "0e4cc6e4-0919-44ad-b13c-a28a8f53486a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey kai"
+  }, {
+    "id" : "aed7d4fc-5a53-454d-8a73-a626eee4f6ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey team",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "abb7c359-b2e4-4116-af88-247a649f5183",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey there",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "47fdd904-dee0-415e-810a-83995e60fe76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey there KAI"
+  }, {
+    "id" : "7771bbe4-3557-48ff-9485-d6e592ca724c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey there kai"
+  }, {
+    "id" : "3e4c3e69-8d5d-4e03-bac6-f9940d4fe5dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey toby"
+  }, {
+    "id" : "7161dc42-5508-430a-b4f1-d190c461ed5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey!"
+  }, {
+    "id" : "b781fc57-a604-418b-a335-903e3ba9612f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hhello",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b4d3f723-ec42-4d47-96c0-7e72eed194df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - anyone there",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e905f079-244c-4feb-8ee5-dc61327eeabf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi Bob"
+  }, {
+    "id" : "4f88af7c-6a0f-4bc1-a594-503ec836a208",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi KAI!"
+  }, {
+    "id" : "1102fc20-6a35-46f0-8b55-4eee1d22f458",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi KAI, you chill?"
+  }, {
+    "id" : "73d12b5f-aa48-4133-ad63-007aba0562af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi Kasisto pardon me a second"
+  }, {
+    "id" : "ab65f91c-d308-46c3-bc6d-34b7dd28aa80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi Kasisto what was ohh do i say hello hello"
+  }, {
+    "id" : "c1b3387d-c98b-4cdc-99fa-1cc562e69419",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi MyKAI pardon me a second"
+  }, {
+    "id" : "a12d4ee9-48bf-4462-a6da-f83c0b84b60a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi MyKAI what was ohh do i say hello hello"
+  }, {
+    "id" : "d255623a-4c5e-420a-be70-4221127fab93",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi Virtual Assistant pardon me a second"
+  }, {
+    "id" : "468d7ca9-5688-446e-b0b1-4c14a95a3a8b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi Virtual Assistant what was ohh do i say hello hello"
+  }, {
+    "id" : "dbcfca76-df64-4c44-a8d2-0f2f6b22ce96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi again",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1b29a998-5bd6-4f17-b3ae-ae7e07abf26a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blie",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "dc57b174-da7e-4164-ba74-802edb22d45b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3083164f-bdca-4552-b722-f2a2cca8b958",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue are you there",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "f6f94a54-d46b-4cff-b771-bbfa60ce7b6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue hope you are well",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "92f81159-a357-453e-9889-f50b72d8120b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue how are you",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3dafc6db-de31-4f37-8efd-5f545e7a8a8a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue i am bob",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "23d1456a-6661-415d-95f3-aa84c761f01b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blue i am new here",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "643c905d-6e31-485e-99f1-7344979fd472",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi bluey",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "c90707a3-d43c-4903-a10a-7fc117fa3127",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi blur",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "aedf88a6-8629-4cba-8e2e-86a0abcbf7b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bluw",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "595db45d-250c-43d0-9174-8eb6e721f6b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bob",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "d8903e5c-3391-4c9d-8cd9-eaf152992d14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bob here",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "5550a465-481b-4176-a6e6-6df9c2e28e07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bob just confirming you are still online",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "9a615e53-a45a-4b45-a2df-14cad7ea088f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bot what's up"
+  }, {
+    "id" : "d7cd1055-7285-48c5-b2dc-2eece6974041",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bt",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0cef4c09-9c79-4739-b03d-02e45c120ff7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bt super",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "e68b12e0-fafd-441f-845b-7734d92217fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bt team",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "00fcab56-8dac-42cc-9cd1-7cd551fbc972",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bule",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8d4fe4c2-ad99-42fd-a1de-a1724d67516b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi cheque"
+  }, {
+    "id" : "0f536483-7f17-4118-981a-9f0bfc82453c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi fidelity"
+  }, {
+    "id" : "e94c124c-f894-420f-8c23-f19a2a3745ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi folks",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "97faccf8-891d-4726-a9b3-17d2cfc1caff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi good afernoon",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "170eda73-d5f9-4e23-85b7-452ce2f39a01",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi good afternoon",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "ffb66ca7-2c6c-43c7-9b66-9d63789c1699",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi good day",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "2c762655-194b-4bca-92c6-4dd1bd006cfd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi good morning bob",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "bcf1c060-08ba-4da8-841f-817b96819fff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi goodmorning",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b2c01e1b-1429-4721-a6e0-df38f9885333",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi graeme bob",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4e426a2d-2474-45d2-9301-9a8e75322da8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi guys good morning",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7f57981b-42ce-438c-a953-b79c1ebf87c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi hi",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "75d256e0-973b-4bf2-86d4-1a6c6ee1ea52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ec95e4af-dd46-4056-a1af-8c5820e6f015",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how are you",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7275f041-0c85-43d8-843d-17f287ba7c7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how are you ?",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "eec6c5ef-9ddf-4712-bb15-d5d8238a2569",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how are you today",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4eade0c4-73b6-433d-a2c1-90becbcf7b18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how r u",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "657656e7-8334-46a6-befa-fd03060dca9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi hru",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ab3cc43f-188f-404a-b805-24fc4262b1aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi htere",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a57ed6d8-c0db-4e16-98d1-8028d1840b1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "9e4bbf99-7a9d-425f-9443-f8fdd4bc93db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am bob",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "3c9c6080-05bf-43d5-9b8f-c78412c260cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am your customer",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c20f14c2-965a-4cf5-9250-f5a713fb6a10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi inam",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2ed4df53-a54c-491f-aa0a-6cd8a54b8d79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi it 's bob",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "cb9d0936-f4ca-4db5-b906-0e7de9214e71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi it 's t",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "ef1aa1cd-8a96-4730-8c7b-b0a0d54a9613",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi its me again bob ryall",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "717f7439-f8fe-4ac5-ae89-620eef5d8a49",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi kai",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "e4f670f1-e006-4a0a-869a-f3947fb892e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi kai!"
+  }, {
+    "id" : "d9b5c524-e547-4184-9717-a0a2e2bd6e70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi kai, you chill?"
+  }, {
+    "id" : "11701cc8-7e7f-4da2-800c-98071345fa41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi kinh",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "e93f2bc1-f2cf-42d7-9deb-bbc41643b9af",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi let 's try this again",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8e2dbe1c-6714-4768-8c08-55b5496aae48",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi max",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9e444f06-9e98-42db-b347-6d1b5cb10f0c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi name is bob",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "bd5a489f-96dc-4106-9c72-aeb68d13e95a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi nic you there",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "0e69eeb5-c2ef-47d1-a3d4-b1353f34e1fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi sorry",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e3e9704b-8025-4b6b-b210-ee867b91ae02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi sorry again",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "cc2c93f8-ca2d-4825-b86b-61768740db4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d0216d52-da61-4727-92ae-34ba4b382101",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi tean",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "14b111be-2392-4ca6-b33b-27d7e7796d12",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi tehre",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1cbcb227-4f3a-4886-bfc9-aa5cc0dc046d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi tema",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "45da7163-ba13-4b53-9a8b-4ea9d44945e8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "864e3514-7a37-42b1-83e6-054cee22ccec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there blue",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1d27b47d-a05d-4b20-8eae-0b398332f8c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there good morning",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "90724ce3-b667-4fdc-b605-cf491f8549b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there hos it going",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "b9262140-3ec4-4c04-a03d-d4913fcaab76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "8385451c-1eab-48c0-9000-5c619a9ff1fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there, :",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "427a98b9-e333-4877-b0fe-0234d33ad321",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi this is bob",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "aa7bddfb-0638-4a96-98bb-b66482540cf4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where are you",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "37d4fd54-513a-4437-98e7-af01bd0dffe6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hihi guy 's",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "c88d4596-1921-4aa6-bc1d-f84327e11f7a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hii"
+  }, {
+    "id" : "aeca4879-31ab-4f70-b7b1-7b5fd013c4fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hiii",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ce3836ad-0878-4e24-a808-967e94693a18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hiiii"
+  }, {
+    "id" : "6071fa31-61f6-41e6-82d5-5a5af8baeb35",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hio team",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "bbe6232b-5efa-4338-ab1e-e54f7041cbac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hola",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "9a3c0d54-7dfe-48d3-9466-6a9b23b8a49b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hola que tal",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "bede6183-de42-458b-919e-c78b177361f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how ar eyou doing today?"
+  }, {
+    "id" : "09a3f07e-bb58-4f80-98df-d95c89034f06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how are fuck are you"
+  }, {
+    "id" : "48845051-e3a9-4578-ba7d-093ea19d37e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how are u doing"
+  }, {
+    "id" : "970d07e2-24ac-4194-a638-7b34d38dbc74",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how are ya"
+  }, {
+    "id" : "8a78849b-7228-4902-87a9-1362923443ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how are you",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "fe95dea5-ef32-46f0-b309-17dbfe93e8e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how are you doing"
+  }, {
+    "id" : "c709d852-f4de-4644-908a-b5d88c0578db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how are you doing today?"
+  }, {
+    "id" : "217bb239-0cb9-4808-9203-bb9be7856252",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how are you going with this",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "6b74262e-359b-43a3-87bc-c0769f248774",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how are you today?"
+  }, {
+    "id" : "6838b236-4e3f-4825-a3f6-108c669ee7e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how are you tomorrow?"
+  }, {
+    "id" : "2eeb1ac5-53ed-4232-a5d8-65421e083e0f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you do"
+  }, {
+    "id" : "ecd840cc-821a-4a38-bbb5-90795032cd4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how r u doing today"
+  }, {
+    "id" : "de3bfbf9-8fba-41db-8b24-0934f6e871d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how you"
+  }, {
+    "id" : "8cd4ce21-e8eb-422c-9b07-95f06d6fd2e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how you doing",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "9d039c11-34e0-4ce1-b5b4-fd7625447143",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how you doing KAI?"
+  }, {
+    "id" : "5bc23da8-819b-47e2-9472-e1661218ab92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how you doing kai?"
+  }, {
+    "id" : "8f55d7d5-5a14-4753-a31b-8083f5cba09b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "howdy"
+  }, {
+    "id" : "e12e5050-f10c-4f2b-a639-b4d347488a2a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hows it going"
+  }, {
+    "id" : "7fe7d9e4-911f-4c8a-8134-a6fce1f813c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hows it hanging"
+  }, {
+    "id" : "18347271-40c9-42da-b1d5-55a04b3c04ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hows this for a message"
+  }, {
+    "id" : "b2b5d4e4-7442-4888-94cd-8e7cc9b9f8f9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hullo",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f7a501a6-2423-49c8-9ade-0cd94cfb503a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hwllo",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2205efdd-236e-4b99-b66f-f8fce010e02d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "im good how are you",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "71757de6-70e2-41c8-9c67-77b11ba4f619",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "kind regards from switzerland",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "beb68d25-efe0-4078-a67e-3eeacfe78664",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "morning"
+  }, {
+    "id" : "1d132b20-4fdc-4af1-b408-1a55f1ea9555",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "morning team",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fcba76dc-dd96-4cf4-b7b2-77b90f5ef80c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "morning, KAI"
+  }, {
+    "id" : "bfe394ef-489a-4c03-9858-361259877b91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "morning, kai"
+  }, {
+    "id" : "d8a40a3d-a0f3-4807-b00d-dfc831218d67",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "nothing just wanted to say hi"
+  }, {
+    "id" : "307d36ac-0af2-4df7-ac3f-41fbb541282f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "oh hey"
+  }, {
+    "id" : "30f0711a-7060-49a4-86c4-1f00f62624d0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "ohh hello Kasisto"
+  }, {
+    "id" : "a91a9919-2799-4eaa-8827-7bdff1c184b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "ohh hello MyKAI"
+  }, {
+    "id" : "f46f763c-fcb6-4205-afb3-779bf86d2afc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "ohh hello Virtual Assistant"
+  }, {
+    "id" : "e6b6b6a8-edda-4748-8906-07cf44b62b20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "okay hello Kasisto"
+  }, {
+    "id" : "a1108b0d-d218-48a7-9ffe-59ecc31d977d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "okay hello MyKAI"
+  }, {
+    "id" : "241a5918-af55-4689-a66f-3bdf4c3903cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "okay hello Virtual Assistant"
+  }, {
+    "id" : "49d1790c-e518-4145-b0a0-f2f636f6a4bb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "she hello Kasisto say hello"
+  }, {
+    "id" : "7dae8ba2-5bb0-4541-902b-4f87beeafd96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "she hello MyKAI say hello"
+  }, {
+    "id" : "9f58040d-4fdc-410a-a032-d9202dd85bc8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "she hello Virtual Assistant say hello"
+  }, {
+    "id" : "c35269a4-382e-4fb2-b45e-435f89a7298b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sir madam√î√∏¬∫",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7fcafa65-dd80-48b0-ba62-748c06a3395f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sup"
+  }, {
+    "id" : "2cb63376-70f8-4077-b47a-461120f7ecdd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "u there",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c14f2450-5198-4cb9-bdc9-e519fe6b0f14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wahts up"
+  }, {
+    "id" : "862c4ea3-f7f7-4d09-bffe-ad315a513bf7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whadup fam and cheese"
+  }, {
+    "id" : "405ecafb-d888-443e-aab4-dbdf66d66fe9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "u there",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "ba5c5a12-9c7a-4a62-8ebe-841264faacf5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wahts up"
+  }, {
+    "id" : "9e753188-01ee-4b2c-974e-75db6b439add",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whadup fam and cheese"
+  }, {
+    "id" : "d9879a23-b366-4edc-9c47-63de5178a4dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what up"
+  }, {
+    "id" : "37a47d13-7116-40e8-8006-a6099c70e442",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what up Bob"
+  }, {
+    "id" : "bd65c316-1747-407a-957c-0b7f727ca9f9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what's up KAI"
+  }, {
+    "id" : "201c28a5-e70f-45da-b939-fcb811153819",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what's up kai"
+  }, {
+    "id" : "b14147ec-6385-42dc-871c-3098006454d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what?s up KAI"
+  }, {
+    "id" : "f3607545-6a93-4250-a89c-ddd845932b96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what?s up kai"
+  }, {
+    "id" : "32e8d7ca-36b4-4ceb-8d20-5dc778c9b234",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats cracka lackin"
+  }, {
+    "id" : "d03952cb-0a77-4b17-9bb7-eeb5c694a662",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats shaking"
+  }, {
+    "id" : "cceb342a-9471-4825-b710-ba0916d8a925",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats up"
+  }, {
+    "id" : "73757165-e758-43e6-9714-adaafebccb3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats up fam"
+  }, {
+    "id" : "8ecd81ba-eef1-44e8-9146-4c25395bb958",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats up toby"
+  }, {
+    "id" : "6f4dc543-35e8-4d03-97b9-d3482de83fe5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whats up with you?"
+  }, {
+    "id" : "c57078e8-013e-46ed-afa3-19e16296c248",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yes hello",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4dc9e8f5-a404-40c5-b969-2da7a8c3f9fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "yo yo yo"
+  }, {
+    "id" : "0199b43f-c572-473d-ac29-59cebbf40141",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "you still there",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "7ef722b5-efe2-46e8-9b5a-7b9d4f3ba57d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "you there",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4cffad14-2c72-4cf7-85f2-0845ea2e3596",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Ô£ø√º√´√£ hi"
+  } ]
+} ]

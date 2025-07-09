@@ -1,17 +1,25 @@
 {
-  "name" : "Intent-Message-Retry",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "No problem. Here you are.",
-        "alternatives" : [ "No problem!", "Sure, give me just one second." ]
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "No problem. Here you are.",
+          "alternatives": [
+            "No problem!",
+            "Sure, give me just one second."
+          ]
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Intent-Message-Retry"
 }

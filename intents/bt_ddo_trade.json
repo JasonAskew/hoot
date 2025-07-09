@@ -1,23 +1,23 @@
 {
-  "name" : "bt_ddo_trade",
-  "display_name" : "DDO Trade_Inactive",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_ddo_trade"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_ddo_trade"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "DDO Changes to trade",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : false,
-  "active" : false,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "DDO Changes to trade",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_ddo_trade",
+  "display_name": "DDO Trade_Inactive",
+  "alternative_question_eligible": false
 }

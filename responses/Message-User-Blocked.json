@@ -1,16 +1,21 @@
 {
-  "name" : "Message-User-Blocked",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Thanks for reaching out, but I recently retired and am enjoying my bot-retirement on a bot-island with a bot-drink in my hand. You can read more about my retirement here: bit.ly/2jrXgPn<br><br>Already, other KAI-powered bots are serving millions of customers at select banks worldwide. I hope that your bank is one of those!"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Thanks for reaching out, but I recently retired and am enjoying my bot-retirement on a bot-island with a bot-drink in my hand. You can read more about my retirement here: bit.ly/2jrXgPn<br><br>Already, other KAI-powered bots are serving millions of customers at select banks worldwide. I hope that your bank is one of those!"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Message-User-Blocked"
 }

@@ -1,0 +1,1048 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_employer_contribution_details_test",
+  "intent_name" : "bt_employer_contribution_details",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "54e1cfc5-a960-444d-945c-b5c113535731",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can superannuation payment from an employer be put into Pension BT Panorama Super Compact account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8d909dab-1325-451a-b4d3-fa5a8203857a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Client is needing to make a Non concessional contribution to their portfolio. What form is required to make the contribution?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ce6eb0c8-ec4d-401a-b07a-be6c950e8b4a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Employer Contribution form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bd602775-01c3-44af-905d-71a30dccb752",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Employer info",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "956bec9f-bd5d-495a-8607-ea2584e0584e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, super contribution details for Employer's, is there a form with the details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "f2135ce8-760e-4878-85f6-2cd658ade9e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HiI am trying to get my super info for employment contract.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6865612f-2356-4d43-9171-bda72a36af78",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my emploter make a contribution to my super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c2625188-f836-4665-a204-a61e2c238108",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does my employer make a contribution to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cfbff593-2213-4651-8b23-6e9d11da2284",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can superannuation payment from an employer be put into Pension BT Panorama Super Compact account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "00ce981c-f557-44b5-b056-560c8286ff8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Client is needing to make a Non concessional contribution to their portfolio. What form is required to make the contribution?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "e4e5bf7c-6179-4ea5-9a51-df338638aaaf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Employer Contribution form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "d6ff509e-c437-416c-b73c-5476ab77f744",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Employer info",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "73371d67-feaf-4357-9e39-539c324783d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, super contribution details for Employer's, is there a form with the details",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "817eaa84-80b8-4588-93be-5d8d4d568229",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "HiI am trying to get my super info for employment contract.",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "14a3bd03-c477-4f6d-95e3-8054f327bc8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my emploter make a contribution to my super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "981bd9b1-4e87-4aec-947c-85e445049f88",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does my employer make a contribution to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "87ec0de6-c062-47cf-8980-9307fb1f9c68",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I work as a contractor. Which super account do contrbutions get paid to?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0caa5b17-dc20-4258-90bf-c4926792ff4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Kindly advise the details for making an employer contribution.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "798f1214-06d3-4022-877f-8f7e6c6a54dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Letter to state that the fund is a complying fund",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c80b7e22-6572-446f-ab05-6c778d88fe34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Missing/rejected/failed employer contributions",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "70eba220-68d5-436e-b07f-d1da7a302745",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Need a member certificate for my clients employer",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "d8e8d233-6284-45d6-a9f2-f767845005dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the details required for my employer to make a contribution to my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3f878a41-4c08-4826-a483-04febe264b4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "What is BT superannuations address for my employer contributions?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f0bb90d7-25be-41ad-8256-44c4ec7ac304",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ato letter of compliance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "50db9aee-0122-4fdc-ad34-5b1bc9b5b52a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb account number of an account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1f48b019-4ba3-4d0c-8fde-72e06ec4183d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ca i get an employer contribution form",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9bf26fee-06a8-47f2-ac81-a8e4f0c9fd5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get hold of the letter of compliance which i need to send to a new employer",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "80b784be-0616-47a7-becd-97cf70c0e7ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ato letter of compliance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ee96c406-5efe-4db1-bb45-2fd1b2fb989c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb account number of an account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1f2821ab-7c93-476e-a3a8-cee40f268fe0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ca i get an employer contribution form",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8ee494b1-96f4-4434-8c08-ad5ca79e66d2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get hold of the letter of compliance which i need to send to a new employer",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c6c469fe-f9e1-4ca4-a189-9b79078cc95e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ato letter of compliance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6127e8e1-04ea-478b-b3c5-eeaa862840ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsb account number of an account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "495a1753-d267-4a3c-aef0-54d86695473e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ca i get an employer contribution form",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8b332702-8b3e-4658-9270-b232e9fa1fe5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get hold of the letter of compliance which i need to send to a new employer",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5a97d8c6-798f-4266-bf12-a0d481b2d2ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "choice",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "42eaed4a-cac0-417f-9395-90bfc751665c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "choice of fund for employer",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "23f732aa-a931-4bf8-ad9b-6a4c401dd0a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "choice of super form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "085b333f-8c11-4f7a-accb-5a3108f013e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "choice of super fund form where can i find this",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d16decf3-fa04-4acc-94b3-9b4855e41d8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "choice of superannuation fund",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d1485b87-220b-4be5-a036-d025427ceb96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "complance letter",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "49aea800-7d72-4eac-a257-a59440b17994",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "compliance letter from bt",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4a68a00e-90d4-4a53-b607-be5e87437380",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "compliance statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "82da151b-755b-4069-89b4-7ede2633725e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "complying fund",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9c1fc245-2861-4bdd-974c-f9ee1995c1ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "complying fund statemen",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b447eabb-a347-4e4c-9b41-01f03dc1e946",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "complying super letter",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cd38dfcf-b659-4ee9-8a4e-1b5c7136d3ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "compying fund statement",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "bbd5b81f-a21f-4659-89df-e9cf06f4753d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution details for an employer",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ec174809-be1a-4cbe-9327-d1754215d963",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution details super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e9aa36fd-aaa8-4840-957d-c10caed05551",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution details xero",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e733468c-eef5-4d7d-9874-9b2d0c8ac1b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "copy of acknowledgement letter from your super fund for your personal superannuation contributions to claim as deductions in the 1111 financial year",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7a584028-d5e8-4e4a-9f87-980eccf299e2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "deatils for employer contributions",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "026846e1-f6b3-42d9-aedf-4b7d2d609704",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "details for employer to pay super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3552b100-25c9-4bc5-b0f0-dab7c9c1c797",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "details needed to put on invoice for employer to pay super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "65592bd2-c4ab-49f4-ab75-3265d662ae45",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "details to give employer for contributions",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b951dde9-2877-40df-ab28-9fd03c9426fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employee choice form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c4562f37-b5a1-4b95-9732-04e55c8f02e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employer contribtuions",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "7fed6556-99f6-4c05-b213-313a0cec1755",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employer deposits",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b3cbc9e3-2a92-416a-9031-4f4345569d5e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employer payment details",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dab689d5-2559-4e8d-bfc5-e130e5091c77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employer requires a letter of compliance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f9fd5c57-15b1-4214-acdd-c84c98a68758",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employer super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a2b034ed-badd-4ba9-af46-14664952096e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employer super contributions form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9d3b1df7-ec6d-4963-80a2-3cadd6f49738",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employer super nomination form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9ea8f981-fb07-4f50-8074-a88e96a2a46a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employer superannuation contributions",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2e06864c-9ce9-4d46-9082-0aa8bb830ff0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employer voluntary",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e2ccbee1-8de7-45a7-b4f5-37f70fb97b72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "employment super contribution details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cb4c1dd6-12ed-4319-af38-e3ca09d4b7d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund compliance letter only",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5eb789b2-ea86-4d1d-a81c-a0e254470130",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fund nomination",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "24587f54-19ed-4249-846c-4e77fd0e08f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "good evening i am staff and had my super go to you but was never given any info about the super fund",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "89faaea3-11ea-47ef-86da-d764544b338f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am looking for a super choice form to update the usi for clients",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1165ed28-dd57-483f-810c-153621279609",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey i need a letter of comliance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cc0f0330-8911-4e7d-85fc-0c970ed4c160",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey where do i find a super choice form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "dd9da740-708b-4585-a070-def60011cb9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi a client is filling in their employers super choice form for their panorama account its asking for the address and contact number what would",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e05ac547-7470-448a-868a-2cba522c5a37",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i get the form for the choice of fund",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "06a6ba10-31a0-47f4-8cd5-58f85900d30b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i find a letter of compliance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cb08744e-b958-4d1f-a8bf-eba6787322e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am looking for a choice of fund form please",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f109163d-748f-45d4-9512-8589d7a69bce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am looking for a letter of compliance to supply to my new employer",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6a530fac-77b1-49d4-88c5-2d5eee534979",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am starting a new job and my employer needs my super details",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6be28382-129a-4106-9957-d276791f4d03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi i am trying to find out my bt super information so i can update my super for my new employer",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "c3dfb08c-7981-48f2-b1d1-f790ba6e5e52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have recently started a new job and linked my super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f73bbb23-814c-4c13-b50c-c5b12a8316cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i just need to please obtain a letter confirming your a complying fund for a new job",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9b434c50-24c8-411f-9186-a097b474c097",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need a letter of proof ferny employer",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0000fa28-274f-4651-983f-7ed8683d9049",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to confirm the contribution details to put into a super via eft",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "2057aa71-45f1-4264-84ae-40908cc2af10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need to get my details to give to my employer and can not seem to find the bsb account and esa details",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "df984c6f-bd4e-48ae-baab-6789d9c8c76e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i want to find a choice of fund form for my new clients bt panorama super account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bf5a5b84-139e-4f4c-b835-664f8933cee3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi im filling out an ato form for new employee for super and trying to locate bt super address please confirm",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ffc8a3bc-2e49-4a82-8dc3-cdd6f26904fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there i need a compliance letter for a new job where do i find that",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "29aa19b3-cc56-4897-9aa1-7e62bc2ba800",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where are teh details that i need to provide my employer for contributions please im logged into panormama at the moment",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "adee1172-2d79-47c7-b0b8-35d51af10b07",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i find a letter of compliance for a member please",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4bc3d39e-d4ac-4306-a9cb-edebde453f02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where would i find my account name and number please trying to fill out a form for my employer",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "43b12c2f-60af-4e7c-9a4d-5b9f271974e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can a client set up for employer contributions to be paid into his super account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4d6be446-0eab-41b8-a570-dbaa8cc7d163",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do employees pay into my super",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "4cc76e36-df89-47bb-bb3e-efa5aa018fa2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i change my employer details i have my own business",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "76607902-8930-40c6-ad29-6f42875fdf30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find the bpay details for employer contributions",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "01774dbd-5bbc-4e30-89d9-69f47967ccfa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get a complying fund statement",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "d7722026-db13-4dc7-bd22-f64c217b211f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i update my employer details on my",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ed07fcc2-432d-4e4e-bc86-b0105a710e60",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does an employer make a contribution to my client 's super account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "714e0dcf-f940-4b04-85f9-91b43f9d3567",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to generate a super choice form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1aa299b3-c1ef-449b-b800-43eb58b6b7fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am starting employment with a local government agency and they need a letter of compliance to prove that panorama is allowed to accept contributions",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "588c3b3a-852f-463b-ac9b-2199d2a0b9de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cannot see my employer",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f46648b3-8194-4332-80b3-40efbc83efaf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i may be commencing some part time employment am i able to have employer super amounts paid into this portfolio",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "37b28f1f-825c-441f-afaf-63ef22d71a20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a compliance letter for the fund to provide my bank",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "28a2bebb-ddce-45f2-9fad-b7968662a1e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a compliance letter to send to my new employer to answer the following question",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6cace393-de0a-4b85-a687-9ad134ae6df9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a few of my details to complete a super fund form for a new job",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7d39f685-da2d-49f0-a39f-211289da7216",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i need a letter for my employer outlining a few items",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "497ed4d6-700e-4552-9528-1f5f612ee55d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a super fund letter of compliance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8003a05f-36f5-4082-8fcd-8d055496d08a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a super fund letter of compliance*upload a file no file chosen",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3f92aa7f-098a-496e-88fa-0b56680a3bbd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the bpay number for employer contributions please",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cb66b1b4-e19a-49b9-a9dc-0aa59eb3a74d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the correct choice of fund form for bt panorama super compact accounts please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1c50d720-33e6-4a51-bdaf-9cc85df36e7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the form to give to my employer",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "32f21c68-b311-4b61-b32e-5bf9a4c395fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the letter of compliance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d2cc5147-d712-42ae-8a26-ce05769cb6b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to change employer",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2381bd3a-245f-47a9-85cc-34abfb633585",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is bt super a complying fund",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d271b775-cf65-4cb9-bda7-188aad31fb2e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is employer contribution the same as super guarantee",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "65fd8df7-24fa-494b-aeda-bdee6558a5fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there a biller code fro employer contributions",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "295f524d-2bbd-479d-8c36-dfcfbf34d550",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "left employer",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ae37f538-452f-4c5d-b816-e5fa54d345b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "letter for new employer o how to make payments",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "63d6012e-1b01-47ab-8d0f-2f6e682b6f22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "letter of compliance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f01e7119-5364-4fcf-8bf9-47535c170d54",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "letter of proof",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dc2f8524-1dee-4685-8f77-162d886d86d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking for the letter of compliance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c990e8f7-9065-4a6f-9a28-e77ffcfbe2b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "meke employer contributions",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fa3252b9-b703-49bc-9606-477febcf1fda",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my company cant pay in to my super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b083999d-5805-4b05-88a3-041cf76c13cd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my employer",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "84662bba-240f-4bc0-808b-d7132e6a815f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my employer is trying to make a payment to my super account can you confirm that the account number and reference number act as my",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bb1d6d65-ead7-421f-8973-b1c4cd1af3c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my new employer has given me a btbs personal super account - how do i access this online",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "391b58c0-4269-42f0-bbdb-e19c9e6b6d50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my new employer has requested a letter from the fund stating that you are a complying fund and that you will accept contributions from my",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "db40265a-aaf3-4835-8d80-fe5a6b6e5eef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my super was incorrect entered and my employer needs to repay my super contribution could you please advise me the payment details to make that",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "11e5fdca-5235-4ac4-91e1-76596a8f36d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need a letter of compliance for employer",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5dca281a-bd25-440e-821c-b8b5a250290c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "needs a compliance letter",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "57ac1417-adf1-493b-80fb-22d8f5cce389",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no funds",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7db00b54-4c72-4f62-b550-0065b11693dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "notify employer of super details",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "60a9e571-ba7d-4559-aee3-c7bfe0ca45a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "number for employer to make contributions",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "99ae16a2-806d-4dd8-b01d-c45fe130ee3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "payment will go from my fortnightly salary",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "23a640c0-fa17-4e4d-a6fd-617b065f7be7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please direct me to the super contribution form",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "973d4ff6-cf38-47e7-afac-c424ae2275b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "providing employer with super contributions details",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "22e52087-efe5-4b4c-b6dc-65928f43806d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super choice details",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3bdcf8f9-0e88-4117-9dab-4519dc54af55",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super choice for",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9df1dd98-0dd0-4774-97d0-2dd2e4e7d7b0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super choice form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4d39b861-05a1-47eb-94ab-10a5a638e73f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super choice form to client",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a2b31565-7cf0-4282-bf25-8eee3d21a64b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super fund letter of compliance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "688cb3aa-e6df-49a5-8f7f-45cffd278925",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super fund letter of compliance*upload a file no file super fund letter of compliance* upload a file no file chosen chosen",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "501716af-2be6-49cf-9ec4-2191f88dcd9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super fund not recognised",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6d5215f0-fec4-430e-b73b-b0357ed34301",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super information for employer",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "14f61732-caee-4173-84d9-ec919867f716",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the account number and bsb is this the only option no bpay details for the employer",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "250c945a-9684-46d7-be20-ce397894353e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to locate complying fund letter",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ab8f1de3-405b-46b3-a41e-e3375db93aaf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update my employer",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d83ada7f-5cff-4a27-87ca-75ba5b0e0af3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wHERE ARE THE BANK ACCOUNT DETAILS FOR A DOWNSIZER CONTRIBUTION.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "d7626c41-6a0b-4f24-8903-03b6b4cb576d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what do I need to provide my employer so he can make a contribution to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "78cf53a5-9177-42fa-be86-ecffee973c5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the account number and bsb is this the only option no bpay details for the employer",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "098b8c14-948f-43e5-a57d-8bdeb154419d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to locate complying fund letter",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e61cdc0c-2118-493e-a0af-19146ed34b3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "update my employer",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "13c23dbb-e54f-427c-94a6-0151b4df4d1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "wHERE ARE THE BANK ACCOUNT DETAILS FOR A DOWNSIZER CONTRIBUTION.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ec1af2de-daf7-4c57-b9ba-684df2f38555",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what do I need to provide my employer so he can make a contribution to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9b7186ce-b5a4-4d89-8942-4f647a4b9f05",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what information do i need for my employer to make contributions? Test",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a47489ae-ab43-4dfd-8253-38e00afc7697",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what information i need to give my employer for xero transaction",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "03651e1f-68c6-44e7-b921-ef56d951dc53",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is my employer number",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "48182f22-ef9e-48e4-8728-02782ff18835",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what to give my employer for him to do the transfer",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "50c6244e-eeef-42cf-8055-75e9042f9a95",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can I get the for so my employer can deposit contributions to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bd327197-6662-49e8-97f4-e90338d2e866",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find employer contribution forms",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0b9d1597-6202-4d52-ab36-753a6ba07cc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my funds compliance letter",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "50ee6e29-2806-44f7-9341-981ae6eba16d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find super choice form for bt panorama",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8cc1ec22-27ab-41f3-a2ed-ce5287fb2e5f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find superfund complianceform",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0e84f9ab-789f-43a9-9e21-8b30d032ca83",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the choice of fund form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "322ceaf4-68c8-4b1c-a2ce-053939f30916",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the details i need to update my employer on contributions account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "985e3d0b-d63a-4a0c-b352-c643235785fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the form for an employer to make sgc contributions",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4f7052fe-c1a1-42e5-a071-2f4261ed06eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i see :show employer: option/document",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "54b3bd49-773d-4ec5-b3ba-11f4c0408322",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find a letter of compliance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9bf5fa1d-9e96-4091-8b0b-e0220ec07947",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find bt choice of super fund form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "90068a17-6174-4dba-905d-7ab1f62ebbad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find information for my new employer",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "827f76ed-eb61-407a-91c9-77ac4502f4d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find letter of compliance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ee49a71a-42d0-4263-bd47-268ddd343bc4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i print super form details for employee",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2f58a270-a10f-4ba2-9cfa-647fdd008aa2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where i can get the account to my employer",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "36218714-5373-4de4-ae8d-056e00cf996e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is it so difficult to get my bt details to give to my new employer",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  } ]
+} ]

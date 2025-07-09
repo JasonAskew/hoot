@@ -1,26 +1,35 @@
 {
-  "name" : "GlossaryHelp",
-  "system" : false,
-  "categorization" : { },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Are there any words you puzzle over? Ask me to define them anytime. And remember, if ever you're stuck, type 'start over.'"
+  "categorization": {
+    "tags": []
+  },
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Are there any words you puzzle over? Ask me to define them anytime. And remember, if ever you're stuck, type 'start over.'"
+        }
       }
-    } ],
-    "quick_replies" : [ {
-      "type" : "TEXT",
-      "payload" : "So what's a cvv?",
-      "label" : "So what's a cvv?"
-    }, {
-      "type" : "TEXT",
-      "payload" : "What's a 1099 form",
-      "label" : "What's a 1099 form"
-    }, {
-      "type" : "TEXT",
-      "payload" : "What is a 401k",
-      "label" : "What is a 401k"
-    } ]
-  }
+    ],
+    "quick_replies": [
+      {
+        "type": "TEXT",
+        "payload": "So what's a cvv?",
+        "label": "So what's a cvv?"
+      },
+      {
+        "type": "TEXT",
+        "payload": "What's a 1099 form",
+        "label": "What's a 1099 form"
+      },
+      {
+        "type": "TEXT",
+        "payload": "What is a 401k",
+        "label": "What is a 401k"
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "GlossaryHelp"
 }

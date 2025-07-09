@@ -1,25 +1,30 @@
 {
-  "name" : "bt_asset_transfer_in_bt_invest_response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To initiate an asset transfer if you hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select the relevant 'Australian Standard Transfer' option, then follow the prompts"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To initiate an asset transfer if you hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select the relevant 'Australian Standard Transfer' option, then follow the prompts"
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "To initiate an asset transfer if you do not hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select 'Offline asset transfer - Investments' then follow the prompts"
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "internal",
+          "payload": "#/app/investor/account/{accountNumber}/forms-and-requests",
+          "label": "Go to page"
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "To initiate an asset transfer if you do not hold an individual HIN:\n1. Select 'Go to page'.\n2. In the 'Transfers' section, select 'Offline asset transfer - Investments' then follow the prompts"
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "internal",
-        "payload" : "#/app/investor/account/{accountNumber}/forms-and-requests",
-        "label" : "Go to page"
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_asset_transfer_in_bt_invest_response"
 }

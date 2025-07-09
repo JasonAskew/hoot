@@ -1,0 +1,790 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_rollover_test",
+  "intent_name" : "bt_rollover",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "104a5d29-0f38-4d25-ad56-d0eb7c0c078f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can I request a rollover when submitting a Pension account application?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "fd7b6fb6-20ee-4b07-b5a5-7679647a3ca9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cancel super rollover",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e72b9607-d5a7-4834-8280-b1b01bebe82b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Combine super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "36adb461-8b4f-4c38-807a-97d99ddc847c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey I want to bring over my super from another super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "29229f28-169b-4d76-a758-c6a04ec16f4e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I would like to switch my super to another fund. How do I go about that?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "49746764-cc6a-48f4-9bf8-d38196234de7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Team, Just want to ask for the rollover request status of our client Krisnten Bob 111111111",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "4b15802e-566d-4a1a-9cd6-3953a2343d92",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, can you please advise on the status of the full rollover for our Client - Bob - Acc 111111111",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "8bb97388-27e1-4462-bb49-f5d3012f22a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I perform a rollover",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "595897f4-1dae-4427-a2c1-755bd78d264d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I perform a rollover into my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "733c87d6-67a5-494a-873b-adb718f980b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I request a transfer of super from BT into another fund?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "d43d3c42-4036-4afa-9e56-b706a85fdb43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I a super with LUCRF and i need to roll over to BT Super",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "508d3e9c-b4e3-43ac-b12f-abf757c4f15d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can I request a rollover when submitting a Pension account application?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "fe1ae194-53fb-42c9-a587-808dd7a595ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Cancel super rollover",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2bed571c-7752-4a51-97c8-8af34baf21f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Combine super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6bb204a8-fe94-4d30-8f7e-87d372aef3d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey I want to bring over my super from another super",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "97e0cb42-fd31-469d-9228-ed1a7ca9e648",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I would like to switch my super to another fund. How do I go about that?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "37865c97-9080-49d3-b9b6-0d323b2099ee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi Team, Just want to ask for the rollover request status of our client Krisnten Bob 111111111",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "990df842-313f-4c0a-a870-b3c14c8ea494",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, can you please advise on the status of the full rollover for our Client - Bob - Acc 111111111",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "1561388e-13e7-4a55-909e-224bbf25676a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I perform a rollover",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a8f889dc-8c74-4b9b-b122-887d0feac1b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I perform a rollover into my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d359f791-3a5d-49aa-9dcf-6073eaa01faa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I request a transfer of super from BT into another fund?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "49e63020-498c-4ecf-b148-a4b9be475199",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I a super with LUCRF and i need to roll over to BT Super",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b8887607-85d4-4543-b943-a584026214b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I like to get a rollover on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "26ca859f-2e28-43be-a128-1484ab2373e8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to move my retirement funds to another account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7b0af2e0-4ece-462d-b607-4aa6cb435ec7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to request a rollover",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "38531f05-7807-46fa-b765-ba92e673ed56",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ROLLOVER",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "65a276af-a37d-4abb-abb7-f8126cb39865",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Roll-over",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "f1976163-964c-4d5e-a81a-601374e82254",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Rollovee",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ac9a00e6-5e66-46f7-91ad-089dc9534c90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Rollover funds in specie from Panorama super to pension",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "79e99c37-7d55-4d9d-af4a-c7a5f6d4b9a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "SMSF Rollover",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "1d0667f9-21fe-4912-a64e-ee55ff4f068b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Super fund transfer",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "3d37276b-97b5-4a60-8f47-8c22bd4216d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Transfer Super",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "25e0de07-4d8a-4f9d-a04d-7acb9ac8412b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where to request for rollover?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "219272e4-1666-4bc0-afca-1a64dc8388ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "balance transfer",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "392e4faf-5072-4d14-8c67-92bfec91d622",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "benefit rollover request form",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "21472442-9dd9-48f0-adcd-7faac6c90144",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob gout my super into a smsf",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "39e1ed3c-7dab-45a6-8c5d-5bc2ff899740",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "balance transfer",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "28cc4dc3-2f7e-4bd5-9bb4-875a183e9522",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "benefit rollover request form",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "510800d5-1b7e-42d5-bb84-34221b78346c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob gout my super into a smsf",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aeb8ed6c-efc7-4ab8-aa44-a94befa8cc2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "balance transfer",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d145c5d3-5aa7-49b5-956d-9896ef68ffd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "benefit rollover request form",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4a1e49fc-5998-4e3b-bfe0-6b6d907bc843",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob gout my super into a smsf",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ca7bf6d-08b0-4cee-b0d9-a27b36e42f7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client is looking to liquidate assets with a view to transferring cash to newly established smsf",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "82ad7351-0863-41e0-a545-99e7e87cd198",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "combine my super",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3c678317-e605-4cab-849e-100bd79dff57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "combine your super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "afcd54f5-2c34-4e55-bdda-beadd0ab4783",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "combining super funds",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "1e2ca534-5ffe-4084-9c4d-f1b138b5dfbf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "enduring rollover detaisl",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "21825b67-1114-42f3-9fbd-0d7b3f2f563c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "enduring rollover forms",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "637786ad-5198-4fac-88ce-5022f0cf649a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "external fund rollover",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d6516f4c-4920-4c79-8a8c-4c8fbff592ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "form to request combining super",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "db5eeedb-bf1a-4132-8dac-6d5dfcc60c76",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "go to rollovers and withdrawals",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a0d7b546-2c4b-49f5-af7f-f692c999fc15",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello how do i go about rolling my previous super accounts over to bt super i think i have fund in help and rest etc",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "123c5b32-6155-4a63-9bc6-c447307dc24f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am trying to locate lost super through bt",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "82d79d36-9a07-4949-b80f-53dac9879347",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i would like to consolidate this super with the australian super that i currently have",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "26d31488-e9f1-4336-852f-3157d69272fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey does bt have a form to roll funds into a bt panorama account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2d98d55f-7655-41f0-a509-aa22257f5b3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi is there a rollover tool to enable me to roll another fund into this account",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7f33fec1-e066-4781-accc-3145f079938e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i rollout part of my funds",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8a2e5d38-0f8b-483a-8130-a8052b835129",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i rollover funds from SMSF?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "7fa1e406-15f8-471d-9de3-b491be508444",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i rollover superannuation from other company to this account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "db4b294b-0e74-48eb-aefc-6ec511a1ffac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i rollover this fund into another one i have running",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "68fcb9fc-4ff6-40aa-a734-9c97aeddaa77",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i transfer from another fund",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "252e85f7-4244-42b9-909f-6b50525b7bed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you set up a rollover out",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4cfa4e78-4539-4edd-9615-d56596d0028e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to rollover funds to my smsf on bt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1548e5da-008a-4a1a-a0f8-00a1e570753a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i transfered money in but wanted to set it into a different fund",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "99696562-2dd3-443f-aaca-310433216378",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to move my super somewhere els",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3fcf2599-daba-4927-b6f5-72b7782edd33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to move my super to other fund",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6f0c97e2-7f43-4c5d-80a2-0064372c9100",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to roll over my super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2a6db1e3-618d-494d-aefb-a84159c39878",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to rollover another super into bt",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2d5644e6-a6b6-42c9-87cb-c77efb8e9f8f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to rollover my super from another fund into my SMSF, where do I locate my member number in the SMSF",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "20de49d8-0f1d-4653-aa5f-d1b32a7f5090",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer all my super from bt to australian super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "84604915-07af-4d8e-86d0-6cf9609dfcde",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer my bt super to another account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "de245e53-c4c2-4fa1-9134-853af9635093",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer my pension out",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "978a0e4a-b9b5-4a85-8287-9544876067d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer my super out of bt and into another",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "451d2a1d-2164-4a5a-abf1-9d1375a61e8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer my super to panorama",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5b1a15a9-6016-442b-9469-96c7cd22b97f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to transfer to this account from another super fund",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "381f5830-f1a8-468a-b51a-aded60f72da3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to consolidate a 1 nd bt super plan to my acct",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8d708b32-16c2-4354-9636-32e1e2cf77bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to combine my bob and bt panorama super accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8c59f8c1-526f-476f-a28f-62ec02b4cf57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im trying to roll over my funds from cbus",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cc116988-618f-445f-bebb-3ba53b09e9a5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "leaving bt",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4120695a-46de-457d-af6c-48e5dfd6813c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "make a rollover",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f4e09f17-9dc3-4490-9676-0377638f7482",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "move money from another super to my bt super account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "703dc5a0-534f-4487-8da3-977f81dbb208",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "move my super from amp to panorama",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d17e5956-7b76-4c2a-bd0d-6c5f5edd034a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "multiple external funds rollover to new pension account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "c5d189ad-bbe6-40f7-8a7c-dee686ab92c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no its a rollover instead of pension payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e6de475c-cf21-4a72-9184-6c9963b72e75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "our client is transferring out of bt panorama to another platform they have completed a transfer out form and i have certified id - how",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "464b3ee2-c8b1-450a-ade9-39c5d0985f6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "our client would like to rollover their superannuation fund where can i get the form",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b3ad57c4-bce8-4573-b2f9-b55c78f0f68e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "partial rollover from current account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6b2ba50e-ad6e-4da8-8820-495ea9ff166a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "partial rollover in",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "53d59e91-d229-42da-aa1e-669a72c6c6b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "partial rollover into smsf",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0d93a42c-065c-4350-a93a-befeec829761",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "reversionary rollover",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4933266c-9241-4b45-89ee-93360c251ec0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "roll out to smsf",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "42b4fa8b-395d-4522-a4c7-e9f1c78ea6ed",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "roll over",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "1d9880a9-0960-4566-af6b-b1660b2f93fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "roll over to a different account",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1654445d-daef-40f9-b61c-8504fcf476eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rolling out super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4be4d8af-c360-4d7a-97e4-5daabdbf9d22",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "57c3dfc6-8c12-4861-b65c-5fb4e3597a9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "f9637527-4fe1-48fe-aceb-69ad73c3a915",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover form isnt there",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0206cc13-ea69-4f55-b6a1-d4ba7c558526",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover from SMSF bank account",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "3652e411-01c5-4d1e-a3c1-a87c9a37e13a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover from external fund",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e47ea63d-490f-41b3-a244-000cc0716517",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover from macquarie cma",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ddd1b72b-2e1a-46b7-af4a-fb0e850de189",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover funds to bt",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "387d2971-e83b-46b9-a3bb-8107ae5b9efe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover internal account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "dfa3e3b3-b9ed-4e31-86e4-4a343624a631",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover my super from amp",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8145ac47-87ef-4bef-b396-23b81457afc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover of super",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d1a97ed4-bf96-4b08-ab2b-5d49a8acf176",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover out ?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c734e03a-9035-4994-8386-628b1511e878",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover payment",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d1105086-7691-43eb-90a0-56ebb47898a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover super from cbus to bt super",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "134e7fc6-54d1-46f7-9725-3e8a1bf54ae9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover to bt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6e9c656b-990a-4aba-b0e2-236ff63e29c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollovers",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "5261fb45-170f-492b-837c-3e6be0ec5e58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollovers and contributions",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5e714c7e-3de0-4a74-856b-4546e05ee0c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollovers in",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c5786256-b7cc-488a-81dd-cbb44b241fe5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rolover form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "b9189e77-48d2-4d6d-9b76-c347cc5161cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super rollover form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e71cd548-5914-4698-a82f-4fa40b0a2c63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super transferred to BT",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "1ff97edb-8349-4856-b8cd-1367995d0236",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer from another super fund to bt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fc926564-4ae9-431c-941e-51333e943b20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer funds out to smsf",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cd3c6ed6-10d4-4f56-a078-7c4a4d8fec86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer insurance and super to another fund",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "2fdf8c4c-5f0f-4087-9e62-1ab69b48afff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer super in",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "57d16ee0-5726-4f3d-af9d-fb4655b846a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer super to bt",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "69cbe905-18d2-497f-ba83-51acc8372904",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload rollover",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ea5198f3-b293-479a-a4bc-977104532fba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer from another super fund to bt",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9c0c3781-7c30-4b0f-982c-9e130e720b08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer funds out to smsf",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "12585e8b-ca1c-42a6-9790-193ab3733308",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer insurance and super to another fund",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "116e38be-dcba-4f9c-9617-55d013d115e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer super in",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5797518b-86f3-4d70-acef-ea351ff65b86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "transfer super to bt",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dc1a62fe-0973-4b2b-81c8-7158bfaaad51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload rollover",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "49b74268-93a2-46a5-9f0f-8da2b2d381d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the process to rollover funds",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d8845b02-aa1b-41e0-8c7c-e3ca420166df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find a request to rollover super to another super fund form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4e60bcf4-e7c9-48b9-aaa5-c42249a6d4f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i get a rollover form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "348c20ce-2d90-43f6-8a9f-cf5adf2a5f94",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is your rollover form i have set up an application for a new super for a client but theres no mention of super rollover",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

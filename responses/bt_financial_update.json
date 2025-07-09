@@ -1,18 +1,22 @@
 {
-  "name" : "bt_financial_update",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "I have understood that you are interested in making a financial update"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "I have understood that you are interested in making a financial update"
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "NOTE: This answer is pending review and can be configured in CMS."
+        }
       }
-    }, {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "NOTE: This answer is pending review and can be configured in CMS."
-      }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "bt_financial_update"
 }

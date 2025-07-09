@@ -1,0 +1,196 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_model_portfolio_test",
+  "intent_name" : "bt_model_portfolio",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "00df0cf8-b25f-4422-bb8e-cd2f5e6fe35b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any model portfolio changes in Panorama.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8406d3d1-de5e-4fcc-922b-ac11fad6382b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client find their preferred portfolio in Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bfe1e958-7353-4096-b023-9a55d7dd7c61",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does my client need to set up a preferred portfolio again in Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3398cf09-2604-4117-a34a-cf79bd372814",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, this is a continuation of yesterday's conversation. I have a portfolio Multi-Sector Bob Growth PortfolioWFS1111AU ¬∑ It has about 11 difgferent managed funds in it. Can I sell individual manage",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "43a7e503-6b23-4bc5-bd2a-5e353613a164",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any model portfolio changes in Panorama.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1b15f3fa-8788-437c-9818-b9ebc86124b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my client find their preferred portfolio in Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f215a46f-1e27-427c-aede-c8a62ddd57f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does my client need to set up a preferred portfolio again in Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a1f8c67a-5f82-48a3-a4e5-9aef7afe23fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi, this is a continuation of yesterday's conversation. I have a portfolio Multi-Sector Bob Growth PortfolioWFS1111AU ¬∑ It has about 11 difgferent managed funds in it. Can I sell individual manage",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "27495af9-b910-43f6-9cb8-0dc3b4c4c4f2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the changes that may happen to my client's preferred portfolio after migration to Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "183f0256-0b4e-473f-afab-969b0c201710",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will I need to set up a model portfolio for each of my clients when they move to Panorama",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "96b641ba-3d58-416c-b7d3-55b7b5b12c5b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my client be able to find their model portfolio in Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c8f078df-c740-4dca-a4d2-417adcc886d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my client model portfolio be retained in Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "51ad215a-c3da-4bbe-93ed-d93b9ea2cf6e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my client model portfolio change after moving to Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bbc57769-a1a2-45d8-9e89-14b9b00cea1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will my client preferred portfolio remain the same in Panorama",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1b10467c-681c-4ad0-8455-1295a6e464a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Will the model portfolios be the same on Panorama?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c7b57964-d3f2-4db9-8fd3-453b1f0be30e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsc1111au | fundaubetashares custom portfolio solutions - global growth fund",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "afba0d00-ddd6-4fb9-8cb9-ca1be1be3c38",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsc1111au | fundaubetashares custom portfolio solutions - global growth fund",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "e5f8c3c6-9e36-4ea4-b4be-92e422eeabb3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bsc1111au | fundaubetashares custom portfolio solutions - global growth fund",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "f245800d-c4bb-469d-9212-aaff80c5c519",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i exclude assets from a model portfolio",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "703d9e2c-e4d4-416f-979a-0a1b62eb906b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i move my investment into high growth",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "1aa7c925-927e-49fd-a8e1-0112c873425a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i remove an account from a model portfolio",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6375058f-756f-4966-b7b2-8d73cfd6a019",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "managed portfolio income directed to cash account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "efd54b9a-61ea-4803-8ebe-f4a55985d00d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "model porfolio",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "faa92a06-eea7-42fa-bafb-2306d9da0bc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "purchase within model portfolio",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "dd271d55-9152-46c9-bf6f-25f7ec82d8df",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "realign model portfolio",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8c6eeb1d-2b99-40f9-83b0-0474a628e85b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rebalance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4a018ceb-eda7-4a3d-b42c-2e1c3661b756",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rebalance a portfolio linked to a model portfolio",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9f1a3ad5-6189-4b95-921e-9e197856b168",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tailored portfolio holdings",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1b580d00-5da0-498e-8dda-126dfccf2dd2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to link portfolio to model",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8cb5e9f6-17e5-4d41-ab7e-5bc7c39019a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to link portfolio to model",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "07b303c9-e36a-4beb-aeb5-55bcf2dfd14d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what model portfolio changes occurred when my client 's account migrated to panorama",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  } ]
+} ]

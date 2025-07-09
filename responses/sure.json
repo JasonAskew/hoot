@@ -1,12 +1,16 @@
 {
-  "name" : "sure",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "quick_replies" : [ {
-      "type" : "TEXT",
-      "payload" : "Sure",
-      "label" : "Sure"
-    } ]
-  }
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [],
+    "quick_replies": [
+      {
+        "type": "TEXT",
+        "payload": "Sure",
+        "label": "Sure"
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "sure"
 }

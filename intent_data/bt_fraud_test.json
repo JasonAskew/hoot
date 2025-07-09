@@ -1,0 +1,172 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_fraud_test",
+  "intent_name" : "bt_fraud",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "6e8bea7b-3c58-4bff-8b1b-feeff84eaa29",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fraud",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "74d49a2f-a6e7-4fb0-8973-4f5c4ec50f8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I report a scam",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "839e3625-68ff-4721-9377-966ea2fb2f5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you report unusual activity on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "42c42adc-15f0-4b23-ac7f-02954c3716b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I found suspicious transaction in my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cb40b646-52f0-463a-8b40-5c9c486b075e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fraud",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "135b7686-e0d9-4a50-b749-6ed5f58462f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I report a scam",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "334bca99-e12b-4b97-8950-d9a86ba9fbf1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do you report unusual activity on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "85d6fb1c-983f-4235-8325-52be86745f7c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I found suspicious transaction in my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "92cc4211-fa22-46a6-9dab-6485d00c153e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I see some transactions on my account I didn't make",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4269f81f-48a1-4109-ba8d-68884ee7326e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I seem some withdrawals on my account I did not make",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2aed92ff-33d7-44fc-bc86-e6b6d950fffc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I think someone else has been using my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c772101e-ccaf-4249-9029-9607e2a82958",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to dispute some withdrawals on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2fb4b692-46e5-4361-931d-0bc8703584af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "It seems there was an unauthorized access to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "72cffe2f-89d1-46da-84ff-feb0949a1336",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Received a message saying super getting sent to ato, is this a scam",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "6764fcd3-c2d8-4546-a78b-5414b3d4a63d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account security",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "45b35139-26d7-46bd-ab8c-884cb40f3195",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fraud",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "68d9b9d7-0f87-4f57-afbb-57740b633693",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fraud stuff",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "312cf4fe-5e6e-4bb8-8a8f-1b57117b9b03",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i got an email 1 hours ago saying my contact details had been changed then to contact you if i have not changed anything",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9cb9f66f-4365-4452-b635-77c95582817d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi we have had fraud on our account can you please support",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0c3610ab-d2a2-4b6a-9dad-57f38f9ed0e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i am vicitim of fraud",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "c038c778-5c82-4e5c-82c4-3e326a85a69b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a transaction underway that i did not initiate - id 111111111 can you please investigate who has made this transaction urgently",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "16f4900e-f826-4ed4-9ab9-2b1f248afcc3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have received unexpected code for bt panorama on my mobile am i safe",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "531f79f4-8115-483b-b6b0-c48f6a7c8883",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i received 1 emails stating that my account details have been changed but i have not done that can you check if there has been",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2e182a75-b10b-4829-a759-c756b4a0a1fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my identification has been compromised through another site do i need to add extra security to my super account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5750c5ac-22d3-40ea-a7e0-ed9760648049",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new super fund set up without me knowing",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "8f9fda21-ddd3-4096-b888-d2bf5d5104d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "review possible scam",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b45d96b9-cc7f-48cb-84e2-917b090e5cee",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "security issue",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

@@ -1,0 +1,524 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_account_performance_available_seed",
+  "intent_name" : "bt_account_performance_available",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "3168c1f9-9b97-41a7-a0eb-8635d6592de3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get details about my account performance"
+  }, {
+    "id" : "052f481a-081a-4167-809d-030f12fa7c08",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you explain why my balance is decreasing?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "1885d5ca-adc2-445a-9151-92774c706118",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my balance has changed?"
+  }, {
+    "id" : "0e3f9a74-0edf-4c2b-8a89-deb468d2a87b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see why the client's balance has decreased",
+    "tags" : [ "wcp-172", "btmarchvariants" ]
+  }, {
+    "id" : "e3d5be06-689d-4f44-bb39-3ba808e35370",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How come my balance is lower than yesterday?"
+  }, {
+    "id" : "af559fcd-c02b-4cf5-9d14-7920b44234fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How has my account been performing for the last year?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "340c5d51-1117-4bb9-a364-dd84da874fc1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How has my account been performing lately?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "bf3ef824-f4cd-44cb-845a-8f1cc7f3ee41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How is my account balance decreasing?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "ea593ecc-9a25-464b-889f-f84038bd3754",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How is the account balance decreasing?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "04de2ad2-db9b-487a-8486-7583fd1fe229",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am having trouble finding my account performance.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "732d6fe9-b979-4830-ade9-c3e166a98391",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't find the account performance figures.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "2b4a1e3f-0fa7-48d8-9a31-82debeb8d6b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cannot view my account performance.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "fc8a0222-0e7a-4349-9bf9-26fe59fa7c82",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get details about my account performance"
+  }, {
+    "id" : "ca43c97e-ab83-4e29-9ec9-63a57032057d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you explain why my balance is decreasing?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "4aa33841-a6f1-4904-ab41-1aa211c7568d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my balance has changed?"
+  }, {
+    "id" : "4dceee95-01d8-4e6b-84a4-64013c1e4b85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see why the client's balance has decreased",
+    "tags" : [ "wcp-172", "btmarchvariants" ]
+  }, {
+    "id" : "5304b52c-58af-402d-bcaa-94890667bb36",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How come my balance is lower than yesterday?"
+  }, {
+    "id" : "783c764a-88b4-4889-b641-72aa98cdc9ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How has my account been performing for the last year?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "d5b4a292-2871-47b9-be40-ee125be12995",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How has my account been performing lately?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "915e0e74-99cd-4ab0-ab22-8e959eb0d629",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How is my account balance decreasing?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "1f0e010f-d463-47b1-af2d-902b48e94645",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How is the account balance decreasing?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "8d6b926c-4ee7-4327-b41a-d037343a512c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am having trouble finding my account performance.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "0ec8ae45-2d73-4433-8aec-e10c5633572c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I can't find the account performance figures.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "dff05ff3-e4a2-4962-85ec-59782e3dfa41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cannot view my account performance.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "8b97877f-9208-4bb3-a87b-bc2ea1300d97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need a report that shows the performance of my account.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "fe2011d4-9b32-4302-8722-17b07d79b85c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to see the performance of my account.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "79874535-cffc-4ee4-97e5-e57d8b0be09b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to understand why my account is decreasing.",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "0878d86e-7412-471e-9c76-87f0a25a57a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I think my account performance is incorrect.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "514d0e3f-47fa-4753-8a33-6d472d7a6027",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to find out why the balance for this account is much lower than last time",
+    "tags" : [ "wcp-172", "btmarchvariants" ]
+  }, {
+    "id" : "070d5c2d-3a3b-462d-a60f-e16dfe7c6ba7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'm having troubles viewing the account performance for this account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c5ce3354-1ef1-4798-9adf-b9699a4fd8ec",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is my account balance decreasing?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "92869cf0-36a2-46b2-a589-57e955dd838b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a reason as to why my account balance has decreased?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "07e3fbbc-542c-44d8-a683-67a1768311eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a reason why my account balance is decreasing?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "74af6c99-f54b-43b4-bc0b-a52e92b10aaf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a section that shows how my account has been performing?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "bb1b38db-38cb-4853-bdc1-95d3662d56e5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account balance has decreased, why is this?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "75773f66-1300-401b-8554-bf7ca8a93e86",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account balance is decreasing?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "cfb8c056-1437-43eb-9d53-3b0414cbc82f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account balance is lower than expected.",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "9a864469-4171-460d-9919-e67b6279327a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account balance is slowly decreasing.",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "1b490947-21f4-4b0b-adb2-850f0a33fe9c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account performance figures are missing.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "58c30bc4-9303-4359-a400-c7b466e732f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account performance is unavailable.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "4ccd4368-da8d-4519-bfb1-452608276c82",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account performance isn't showing, how can I find this?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "966893e5-5840-4a5b-afc3-cfd4081952a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My balance was higher, what‚Äôs happened?"
+  }, {
+    "id" : "ad218388-dc54-4929-a53c-11e4a132a221",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The client can't see their account performance",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "6cd68e84-1daa-4b4f-bef8-29029f92ecd1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We can't see the client's account performance, how do we fix this",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0507cd85-a9e5-4c7e-ac46-5eb0d5ce69cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is my account performance?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ec8348b7-db59-413f-b514-0375854e057a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What report can I download to check my account performance?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "7fc1d10c-ee3a-4663-bdf7-fbf8058a6155",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What‚Äôs happened to my balance?"
+  }, {
+    "id" : "7cc693fb-a65c-41b8-8882-f6658e977ee7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where are my account performance figures?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "c258eb08-0232-4382-b264-ff59eb15bd5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find how my account has been performing?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "28a51937-525c-4ebe-82fa-0cee60ea560c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I locate the performance of my account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "ae7da70a-f358-43ff-8010-2efc78ff2ea3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see how my account has been performing for the last year?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "e7f10337-7e23-4415-8f89-f41978f3c2b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why can't I see my account perfomance",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0098cb6d-2cbb-4394-a73c-8c597f01a9cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why can't I see my account performance?"
+  }, {
+    "id" : "0c33c550-4119-4d24-88df-9420d204b6cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why can't I see performance % for my assets"
+  }, {
+    "id" : "d6ff86f6-e031-46ec-b57b-c4e7a426d2a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why has my account balance decreased?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "ef1e028c-d37c-4936-8897-92f7092e26a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why has my account balance dramatically decreased?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "6c4a8959-2fa1-4951-aab5-14cd1c5d19fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why has my account decreased recently?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "7164b72b-4865-4e75-9f77-2a31335dbab3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why has my balance decreased?"
+  }, {
+    "id" : "f1050db0-b9c3-4a32-9f28-4bc1c3120b9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why has my balance gone down?"
+  }, {
+    "id" : "950a2681-9188-4911-ab33-a68bf0e60f57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why has the balance gone down so much?",
+    "tags" : [ "wcp-172", "btmarchvariants" ]
+  }, {
+    "id" : "aac6954c-0621-40b0-81a8-0c81daa6ab04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my account balance lower than expected.",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "3e5a6d72-4d94-4ee5-9422-ab32b31cde97",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my account less than yesterday?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "fe167d89-9924-4713-ba4c-8bb3d4960407",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my account slowly decreasing?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "30a0c17c-ef35-40a1-9f46-7b87ec17b4ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my balance decreasing?",
+    "tags" : [ "wcp-172", "btdecseeds" ]
+  }, {
+    "id" : "57c900f7-b7b0-4694-91a2-0bf6255220c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you explain the reduced balance",
+    "tags" : [ "wcp-172", "btmarchvariants" ]
+  }, {
+    "id" : "1df70fe8-fdf7-4d19-839f-3879c4855a30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you explain the reduced balance",
+    "tags" : [ "wcp-172", "btmarchvariants" ]
+  }, {
+    "id" : "3d2c46da-a429-43fb-9da2-1af00d41c089",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you explain the reduced balance",
+    "tags" : [ "wcp-172", "btmarchvariants" ]
+  }, {
+    "id" : "b971d4a8-4cd0-446f-9d8f-a758ab1667a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the account performance isn't working",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "dabc3178-d600-467f-8e4b-3001e49d3a7b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "theres some kind of error viewing the account performance",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ef7db02e-8862-47e0-b250-3c92564ed371",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the account performance isn't working",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "351c84e8-774f-4d03-9306-8b6daeeec4c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "theres some kind of error viewing the account performance",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "27ac13d5-51a9-4c83-aa1b-5bf29c568205",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's happened to this client's portfolio balance?",
+    "tags" : [ "wcp-172", "btmarchvariants" ]
+  }, {
+    "id" : "84b85902-b9b2-414f-a471-4db04f41d825",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will performance be available"
+  }, {
+    "id" : "bf9751ca-49dc-4a63-8964-5e8371422a1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when will the recalculation finish"
+  }, {
+    "id" : "40d14b4d-99cc-4f05-a2be-9a3d53a1a987",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "performance since inception"
+  }, {
+    "id" : "91abdd59-d8d9-4cee-a6a7-65a7f45a5204",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "returns since inception"
+  }, {
+    "id" : "c92a4af0-72b9-496f-bee6-d32c95209523",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We cant see the clients account performance, how do we fix this",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "3c4a0499-8897-4718-ab48-ca5f1d9219cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the account performance isnt working",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "6c20970c-6e94-4ea5-a06b-4519d54dbaf9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why cant I see my account performance?"
+  }, {
+    "id" : "b95bd342-0d6f-4bf9-a025-373ba7a3003b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Whats happened to my balance?"
+  }, {
+    "id" : "b9472503-1062-41a4-bd86-26480b286cfb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Im having troubles viewing the account performance for this account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "d69b2505-915d-4773-85dc-082327e00e46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "The client cant see their account performance",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "2c109f7e-0dd1-464c-ac5d-a81c1ae470e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats happened to this clients portfolio balance?",
+    "tags" : [ "wcp-172", "btmarchvariants" ]
+  }, {
+    "id" : "0a5fca0d-4696-4175-94ab-4bd7e6bad87f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cant find the account performance figures.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "037d6453-9805-483c-8295-84dc3b259d3a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My balance was higher, whats happened?"
+  }, {
+    "id" : "0a28fa87-c673-43b7-a234-5f928f47f370",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account performance isnt showing, how can I find this?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "bc45835d-4577-4090-b16c-4519a68e0013",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why cant I see my account perfomance",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b2623dce-558c-4838-964a-1caf1fa85447",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why cant I see performance % for my assets"
+  }, {
+    "id" : "4a62b528-0367-4ee9-9d43-7efd532fa57b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see why the clients balance has decreased",
+    "tags" : [ "wcp-172", "btmarchvariants" ]
+  } ]
+} ]

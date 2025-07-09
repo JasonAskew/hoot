@@ -1,18 +1,54 @@
 {
-  "name" : "tx_superlative",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "earliest",
-    "aliases" : [ "earliest", "furthest back", "first", "oldest" ]
-  }, {
-    "value" : "latest",
-    "aliases" : [ "latest", "most recent", "most recently", "last", "past", "previous", "prior", "recent", "newest" ]
-  }, {
-    "value" : "largest",
-    "aliases" : [ "largest", "biggest", "highest", "greatest", "most expensive", "highest priced" ]
-  }, {
-    "value" : "smallest",
-    "aliases" : [ "smallest", "least", "lowest", "cheapest", "lowest priced", "least expensive", "most inexpensive" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "earliest",
+      "aliases": [
+        "earliest",
+        "furthest back",
+        "first",
+        "oldest"
+      ]
+    },
+    {
+      "value": "latest",
+      "aliases": [
+        "latest",
+        "most recent",
+        "most recently",
+        "last",
+        "past",
+        "previous",
+        "prior",
+        "recent",
+        "newest"
+      ]
+    },
+    {
+      "value": "largest",
+      "aliases": [
+        "largest",
+        "biggest",
+        "highest",
+        "greatest",
+        "most expensive",
+        "highest priced"
+      ]
+    },
+    {
+      "value": "smallest",
+      "aliases": [
+        "smallest",
+        "least",
+        "lowest",
+        "cheapest",
+        "lowest priced",
+        "least expensive",
+        "most inexpensive"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "tx_superlative"
 }

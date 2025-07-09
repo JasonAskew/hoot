@@ -1,0 +1,142 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_bsb_transfer_details_test",
+  "intent_name" : "bt_bsb_transfer_details",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "04313239-0c0e-4a53-a91a-e6214280250a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the payee details to deposit into this account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5cd856ca-19f5-494b-8e78-c3a838b870bd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where do I find the available managed funds list?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "71dc8936-f3fb-4731-9289-e4866b817372",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where to find the payee details for deposit?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "83eb9eed-3781-4c6a-8d58-f82738e1212a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Which report will show BSB etc for Super account?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2bf4b6e0-d3a3-445d-b31b-fcae29aa5958",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you provide the steps to transfer funds",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "364d6541-63ec-4dc9-aaff-382ae38b24f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you provide the steps to transfer funds",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "209fc55b-40c9-46aa-bb50-4a441b167506",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you provide the steps to transfer funds",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1be273f7-afe7-42bb-bd97-eed67b7da464",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I make an EFT",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6ed4ce61-6956-4a1f-9969-95b18a6d551b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am seeking the bsb number",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d9148723-48b0-40d4-b22b-966f8481c853",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need the bsb and account number from you guys",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fa1e7047-f950-4fef-9fef-d62c94c58e6b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to make a contribution what are my account details",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "645881ae-2a3b-46a0-828f-918167997299",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please confirm account details for deposit",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1cca2c6e-86e8-4ee9-97a6-09c05bd3c9da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "provide the directions for an EFT",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "72c67c1b-9a12-4db4-897c-a5fd5562ca73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "report showing BSB for Super Account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3ad1288b-0164-4958-b8cc-865d08658aae",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rollover BSB",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "f2da70dd-c532-477e-9887-0788b711f888",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the bsb",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4286b915-9182-4f4b-91be-a018aa32565f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what do I need to know to make a bank transfer",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2e029157-d8af-46d7-bc27-fa8d4a1fd599",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the bsb",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dc8f12f6-2052-40db-b419-be8949fad361",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what do I need to know to make a bank transfer",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a504056f-de23-4870-a3ba-87f992ab011d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what information is necessary to transfer funds",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ba29aa79-a183-4635-95aa-1af05e4078cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find an Internal transfer form",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "6e35387f-c1b5-49d5-b341-678cf5621df9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is my bsb",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  } ]
+} ]

@@ -1,0 +1,405 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_employer_contribution_details_seed",
+  "intent_name" : "bt_employer_contribution_details",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "5f1cfca1-6391-4ed9-bf64-6f10457d268b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get a choice of super fund nomination form?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "507fb367-e405-4266-b7e1-ccd5130168ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my employer make contributions to my Panorama account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "fcd9dbf9-a0ed-4a48-ba64-623d4d2c9026",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Client has a new job, we need to get a letter of compliance and details of the account for the employer",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "64cef1c0-dc53-4cbf-bb21-53fa0abd8c03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Complying fund statement"
+  }, {
+    "id" : "e08b90f7-eb6f-4452-9fab-17693f062f17",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Complying fund statement for my client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "544c729c-774b-47ee-9236-312aa7818287",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to complete a form to give to my employer to make contributions.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "116160fe-179c-4dc7-b7c7-cd5186e1aa4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does panorama have a form we can give to the client's employer?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "35db35b2-d636-42d7-8eb5-57e99892581b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Employer contribution details.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "93f053df-5448-4312-a6cc-a505eef1856c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get my employer to make contributions into the account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "1397745b-a90a-481a-a203-c8bbb9a099ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my client's employer make a contribution to my client's account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "9fd5faf5-cce3-4862-9570-024e966ccf58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my employer make a contribution to my account?"
+  }, {
+    "id" : "f6864a34-9585-4e50-b75e-c4b1643fe6ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my self employed client make an employer contribution?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "2b19b3cb-7e97-4514-a64c-90267453c7a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I receive employer contributions?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "db7c46b2-be5f-4f34-a596-584d9f656864",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does my employer pay my super?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5d33a534-0771-4758-ac0e-1589237b664d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am self employed how do I make an employer contribution?"
+  }, {
+    "id" : "61fc21a2-e390-4db1-87f0-422075adf3ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get a choice of super fund nomination form?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "c70a0e97-9443-4dcf-a613-13693f14362a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can my employer make contributions to my Panorama account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "614909a2-2dcf-4e88-8113-806d7cb347de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Client has a new job, we need to get a letter of compliance and details of the account for the employer",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "8c54b450-196d-49a8-af21-3f40c31a9a3a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Complying fund statement"
+  }, {
+    "id" : "886135d4-774b-4a6e-aa54-7c3f52b3b3ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Complying fund statement for my client",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0cf4b7c1-c422-45bb-bc5e-8915d4286212",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I need to complete a form to give to my employer to make contributions.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "98a975f5-7f9f-4be4-878a-4fedc565526b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does panorama have a form we can give to the client's employer?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "fdd45155-cb6f-4b00-b337-f8642d4ae6fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Employer contribution details.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "59e9050d-10b3-4efe-84a9-d7e93b227774",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get my employer to make contributions into the account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "d5eb731e-7486-493b-a04a-76f4fcf578f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my client's employer make a contribution to my client's account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "7f32dcaf-110d-4b72-b3e8-f734576573de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my employer make a contribution to my account?"
+  }, {
+    "id" : "194a4471-31aa-43b2-99bd-02885e5ffb6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my self employed client make an employer contribution?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "ec771c3d-f79e-4dbc-89b2-d9b8068be233",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I receive employer contributions?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "c6a8501b-8830-4975-bee2-7f90ced32a40",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does my employer pay my super?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "5d254c31-6a98-4c42-a5d5-096c4a84cff6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I am self employed how do I make an employer contribution?"
+  }, {
+    "id" : "5d845169-6388-4bad-9c9c-0d12cccfbc2d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need a form to give to my client's employer to make contributions into my client's account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "9ba703a0-fe77-4259-a495-28bc6b81176f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need a form to give to my employer to make contributions into my account"
+  }, {
+    "id" : "b60668d4-6cdb-4d2c-b3bb-f81249750ad9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to give my employer your fund details.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "b7b5ed89-00d1-4966-b525-e76eb9a98854",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need written evidence from you that you will accept contributions from my new employer"
+  }, {
+    "id" : "06f91e9e-66c9-418a-8a3f-96f5c2ddfc12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there anything we can give to our client to take to their employer?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "81a2dd30-16d8-4fd6-9961-34ea827bdb7f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Letter of compliance.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "cf5047f5-6c73-447d-8535-85cda8e01d94",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My employer is asking for my account details to make emloyer contributions.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "2abe1479-e23f-49e1-8cf7-d8d627ab084b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My employer needs a letter of compliance",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "2971fb55-5bfe-4a12-af57-d728bd84f285",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My employer needs to make contributions.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "d07ea19e-09bf-4efa-bc6f-5731ef8373ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My employer needs your details.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "809ee7ad-572a-498a-b4ee-2085fefcc179",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "New job for the client, can you help?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c16b87bb-ae91-49a7-8713-0aaa28cce81a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Our client needs to give a form to their employer to make contributions",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "10542d9c-e564-48cf-9488-c5f960a2a78c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We need a letter that shows panorama is a legit fund",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "5853762a-c9d5-40dc-bda4-e6b0d0cf6588",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What details I need to provide my employer?"
+  }, {
+    "id" : "f6c32df4-dfdd-42fa-bd76-6d9162991408",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What details does my employer need to make contributions into my account?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "b017f33f-01a2-4334-8cd3-7f60b7dd7557",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What details my client need to provide to the employer?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "e001eb3b-4457-43c1-9ecc-62de4feea81b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What details to I need to give to my employer?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "3dee1db5-54a9-4478-adee-a47332dfe1bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I need to give my client's employer to pay my client's super into this account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "37f61314-971c-4b3e-b0ee-25363e76cf53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I need to give my employer to pay my super into this account?"
+  }, {
+    "id" : "a35f01b0-4f3c-48aa-92a8-9264a6bc0e9e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I need to provide to my employer so they can make contributions.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "64b494bf-3a27-4657-adc3-eaa456b3dde2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What information do I need for my client's employer to make contribution?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a9fec754-87f3-4c2c-bea2-362a4050561a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What information do I need for my employer to make contribution?"
+  }, {
+    "id" : "3c04fa14-502b-4882-9117-a83c4caf8019",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What information does my client need for the employer to make contribution?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "96b05f6f-e8c6-4973-a1dc-e06215d49116",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What ways can the employer contribute to this account",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "dc21fac2-b460-48b2-9667-e95f28e75363",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where are my account details to give to my employer?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "a7be997d-7c31-41a5-b71b-8c2895019d55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find a letter for my client's employ to pay SG payments to BT?"
+  }, {
+    "id" : "515ac353-1f36-481e-8572-1aa757c9a361",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find the letter of compliance",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "fe68a8ea-50e3-41f3-9db2-60d357e9e4c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I locate Panorama's complying fund statement?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "87e8d6c3-32c2-448f-92a0-d89e8bae9ec5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I find details to give to my employer?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "c7602f1b-46a1-46bc-bf96-c8054c75d637",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "super contribution details",
+    "tags" : [ "wcp-146" ]
+  }, {
+    "id" : "a50936ea-0c6a-47ee-926d-5a5bdea73119",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what options would an employer have to make a payment into a pano super account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "49188285-9d8e-4734-ace1-a64d62facc30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can my clients employer make a contribution to my clients account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "af5233c7-fb79-4cfe-8f6c-36fff6e098e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I need to give my clients employer to pay my clients super into this account?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "34725b53-c7c2-4743-9d99-2672a9986909",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need a form to give to my clients employer to make contributions into my clients account",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "3d4be222-c94e-46d7-af50-8e8a6987a393",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does panorama have a form we can give to the clients employer?",
+    "tags" : [ "btmarchseeds" ]
+  }, {
+    "id" : "e31e8678-0279-413a-8eb9-3752b1e90177",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I locate Panoramas complying fund statement?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "36cf40d2-1e1d-41bc-9f3b-781a243a46c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find a letter for my clients employ to pay SG payments to BT?"
+  }, {
+    "id" : "ae652b75-6f56-400c-9f98-9ec9942d9a3a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What information do I need for my clients employer to make contribution?",
+    "tags" : [ "btmarchvariants" ]
+  } ]
+} ]

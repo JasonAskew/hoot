@@ -1,13 +1,16 @@
 {
-  "name" : "Validation-Error-Invalid-Date",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "What you entered is not a valid date. Please try again."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "What you entered is not a valid date. Please try again."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Validation-Error-Invalid-Date"
 }

@@ -1,15 +1,33 @@
 {
-  "name" : "kcb_withdrawal",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "ATM",
-    "aliases" : [ "ATM", "bill machine" ]
-  }, {
-    "value" : "CREDIT_CARD",
-    "aliases" : [ "Credit Card", "cc", "crdt card", "credit", "credt card" ]
-  }, {
-    "value" : "DEBIT_CARD",
-    "aliases" : [ "Debit Card", "checking", "debit" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "ATM",
+      "aliases": [
+        "ATM",
+        "bill machine"
+      ]
+    },
+    {
+      "value": "CREDIT_CARD",
+      "aliases": [
+        "Credit Card",
+        "cc",
+        "crdt card",
+        "credit",
+        "credt card"
+      ]
+    },
+    {
+      "value": "DEBIT_CARD",
+      "aliases": [
+        "Debit Card",
+        "checking",
+        "debit"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "kcb_withdrawal"
 }

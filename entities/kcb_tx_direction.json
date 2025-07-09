@@ -1,12 +1,81 @@
 {
-  "name" : "kcb_tx_direction",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "incoming",
-    "aliases" : [ "incoming", "income", "incomes", "credit", "credited", "credits", "earned", "earnings", "earning", "deposit", "deposits", "deposited", "salary", "salaries", "salarys", "wage", "wages", "paid to me", "pay stub", "paystub", "pay stubs", "paystubs", "compensation", "compensations", "compensated", "work pay", "paycheck", "pay check", "pay checks", "paychecks", "payroll", "pay roll", "payrolls", "pay rolls", "received", "i received", "i receive", "i recieve", "i recieved", "dividends", "dividend" ]
-  }, {
-    "value" : "outgoing",
-    "aliases" : [ "outgoing", "debit", "debits", "charge", "charges", "charged", "spending", "spendings", "spent", "spend", "expense", "expenses", "purchase", "purchases", "purchasing", "withdraw", "withdraws", "withdrawal", "withdrawals", "i paid", "i bought", "i purchased" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "incoming",
+      "aliases": [
+        "incoming",
+        "income",
+        "incomes",
+        "credit",
+        "credited",
+        "credits",
+        "earned",
+        "earnings",
+        "earning",
+        "deposit",
+        "deposits",
+        "deposited",
+        "salary",
+        "salaries",
+        "salarys",
+        "wage",
+        "wages",
+        "paid to me",
+        "pay stub",
+        "paystub",
+        "pay stubs",
+        "paystubs",
+        "compensation",
+        "compensations",
+        "compensated",
+        "work pay",
+        "paycheck",
+        "pay check",
+        "pay checks",
+        "paychecks",
+        "payroll",
+        "pay roll",
+        "payrolls",
+        "pay rolls",
+        "received",
+        "i received",
+        "i receive",
+        "i recieve",
+        "i recieved",
+        "dividends",
+        "dividend"
+      ]
+    },
+    {
+      "value": "outgoing",
+      "aliases": [
+        "outgoing",
+        "debit",
+        "debits",
+        "charge",
+        "charges",
+        "charged",
+        "spending",
+        "spendings",
+        "spent",
+        "spend",
+        "expense",
+        "expenses",
+        "purchase",
+        "purchases",
+        "purchasing",
+        "withdraw",
+        "withdraws",
+        "withdrawal",
+        "withdrawals",
+        "i paid",
+        "i bought",
+        "i purchased"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "kcb_tx_direction"
 }

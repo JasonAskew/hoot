@@ -1,0 +1,94 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_it_ticket_time_test",
+  "intent_name" : "bt_it_ticket_time",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "c66dc816-6422-4b3b-8b91-90c98e8153f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can an IT ticket be escalated, I need it resolved",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e35e2e83-9feb-4b63-aef0-c339ca00e47b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How soon will my IT ticket be closed?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a0f40b55-63b5-4bd3-a125-888351f38785",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can an IT ticket be escalated, I need it resolved",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cb4d8cf5-be07-47ed-804e-963b871740c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How soon will my IT ticket be closed?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "31cd2ecb-7f99-4021-ad4a-8b56072b428c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have an urgent IT ticket. How do I escalate?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "edff3267-c2f7-4327-8c40-d83290a496b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the processing time for an IT ticket?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5e5260a7-1a32-48d1-97e7-e443b149b617",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the resolution time on an IT ticket",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ef037fc5-29d3-4b2a-8b85-29e1a28087e1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the status of my IT ticket?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f24ef363-9e2d-411d-9652-cafe1d20daa2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will I hear a status on my IT ticket sent yesterday",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7ed4b647-dec8-4644-abaf-1a214e8042bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how is it ticket inc111111111 progressing",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4a7ba9c5-071c-491f-b84d-efed125389bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "if you could cancel ticket it ticket reference is inc111111111",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "fdbb9732-6e19-4c46-b36c-737f49ea0d0d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "it ticket inc111111111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "321a562a-d9d7-471e-8a12-7d3b3ce42de2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "on 1 / 1 / 1111 ticket no inc111111111 was drawn up to delete bt invest from my accounts page i do not use this",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8dff693f-ff11-4bd6-9459-89b98d59edbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is happening with the it ticket",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

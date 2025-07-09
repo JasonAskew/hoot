@@ -1,15 +1,28 @@
 {
-  "name" : "tx_status",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "pending",
-    "aliases" : [ "pending" ]
-  }, {
-    "value" : "posted",
-    "aliases" : [ "posted", "cleared", "post" ]
-  }, {
-    "value" : "cancelled",
-    "aliases" : [ "cancelled" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "pending",
+      "aliases": [
+        "pending"
+      ]
+    },
+    {
+      "value": "posted",
+      "aliases": [
+        "posted",
+        "cleared",
+        "post"
+      ]
+    },
+    {
+      "value": "cancelled",
+      "aliases": [
+        "cancelled"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "tx_status"
 }

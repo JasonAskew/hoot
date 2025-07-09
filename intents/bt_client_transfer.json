@@ -1,27 +1,29 @@
 {
-  "categorization" : {
-    "tags" : [ "adviser_registration" ]
+  "categorization": {
+    "tags": [
+      "adviser_registration"
+    ]
   },
-  "name" : "bt_client_transfer",
-  "display_name" : "bt_client_transfer",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_client_transfer_response"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "bt_client_transfer_response"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false,
-      "allow_resume" : true
+    "outgoing": {
+      "allowed": false,
+      "allow_resume": true
     }
   },
-  "display_sentence" : "How do I transfer a client to be under my advice?",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : true,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "How do I transfer a client to be under my advice?",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_client_transfer",
+  "display_name": "bt_client_transfer",
+  "alternative_question_eligible": true
 }

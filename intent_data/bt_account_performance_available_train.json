@@ -1,0 +1,2012 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_account_performance_available_train",
+  "intent_name" : "bt_account_performance_available",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "92475cd3-a644-4a7a-9e91-de4444af76dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "111111 dollars has gone missing from my account",
+    "tags" : [ "wcp-172", "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "36e77ab0-c12a-407b-a7d9-4ba7e2874897",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you able to let me know why my balance is different?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "a6c1624c-074a-4122-9ece-d83c3d014aa0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see my account performance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "1976a5d2-09d8-4241-874e-0bdae3432c8d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i see information about my account performance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "245bf84b-c944-4c76-9133-4830e2c037d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you let me know at what point my performance is going to be available to view?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "26f66c98-b922-4248-96a4-f7aae1ad4efa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me when I will be able to view my account details?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "c27595d9-d7e1-4c95-8392-d412a5648078",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why I'm unable to look at the performance of my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "c42fe12f-45a6-4d0e-8112-9e1b55461873",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my balance is lower?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "501962ad-ef1d-4ee5-a115-8773d69be9d0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain why my account balance changed since yesterday.",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "b3450fcf-1abf-4bd5-ab8a-4cb758e009e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Has my portfolio lost $1111 due to market movement?",
+    "tags" : [ "wcp-172", "bt_corrections" ]
+  }, {
+    "id" : "3d791ef9-4c39-4beb-ba48-2ac9c7bbb8d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see my account performance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4848befd-d7d3-484b-99bd-4aa01f20eebd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How has my account balance changed?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "9c4c63b6-1a45-464c-98b6-4bc518a2f47d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long before account performance is calculated?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3b1aec26-1a8c-4414-a52d-81ea54e16289",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long before my account performance is available?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "bd3be30b-8ea5-4cb7-9914-a698bb6ef92a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do recalculations take?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "59b3e2ca-d56a-48e0-8d17-c53784addb7e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "111111 dollars has gone missing from my account",
+    "tags" : [ "wcp-172", "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "96c48cf8-b94a-4a76-b990-0a369c6c0d3c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are you able to let me know why my balance is different?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "8bede43b-21e2-46d5-b61d-40c5e5a26561",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see my account performance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4e20cfd0-eaf0-4e05-abe5-3e628b4b3f35",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i see information about my account performance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "c8fcd8d6-a4b1-423c-87cb-a20ca541d210",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you let me know at what point my performance is going to be available to view?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "73420970-2d3d-4dff-9deb-323dd567bb2f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me when I will be able to view my account details?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "fe629fc3-6317-46da-92c3-3a9516825a54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why I'm unable to look at the performance of my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "16aaa905-963e-4a4e-8808-0d31157dae90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me why my balance is lower?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "9614b347-b8ab-443b-9e25-de368a3f998f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain why my account balance changed since yesterday.",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "2bc9fa5d-b474-40af-a67b-30a909db6579",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Has my portfolio lost $1111 due to market movement?",
+    "tags" : [ "wcp-172", "bt_corrections" ]
+  }, {
+    "id" : "c93db9e4-8fee-4644-9919-ae1b8fe097af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see my account performance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "66b679f5-0413-44e6-8ece-135077272758",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How has my account balance changed?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "10fde0da-6179-4364-84bb-b3133cfb933c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long before account performance is calculated?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f66a7dec-ff83-4c75-9516-a046fc599dd7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long before my account performance is available?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a7aab210-6e1f-4948-91d1-f986e39fc043",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How long do recalculations take?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "c75a7a44-d014-4fb6-99e4-80efd07114ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I think my balance is wrong",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "284ac126-06a7-4139-8b8b-6cef270c5422",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to know where the performance percentages can be found in regards to my assets.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "7e5e3d86-5110-43ee-9d86-7e5d7afe586a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I would like to see my account performance details",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "bbe3e781-f354-4af7-8f63-1bfdb950fe15",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I've been waiting for a recalucation on my account.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a85aad29-4fc4-4d11-9723-d584a8ef99a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a reason I can't see my account performance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "bc32becd-8174-4f80-aba4-9e78353ff012",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "May I get details about my account performance",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "db1f5ec6-cbd0-4aa4-a781-1291676cc068",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account performance is not displaying.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "2afd57de-6694-4a6c-b43a-3f9d24134cd9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My balance has gone down, but I didn't make any changes?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "97a0e9b1-7243-4345-a917-06d5f8be3f4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me my performance percentage",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "815ea4c7-5504-4657-9aaa-880f38fa6367",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me my performance percentage please",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "cc28a393-c605-4c93-9e60-1e013cd75b0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell balance gone down?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "6d6335a5-c414-49bc-b165-df8aab9a6d75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me why my balance is incorrect.",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "4623ff6f-cf91-419a-85dc-1320833eef2c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the steps to link the bank account?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "a648fccc-13bb-4e56-88ff-17db37831103",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What happened to make my balance decrease since yesterday?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "44ca640a-25a3-4c60-8663-00dee9cd230d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What happened to my account balance?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "a2e39ccb-5831-4a0c-9ea8-f4381a025515",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What happened to my balance?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "25971a00-dd35-481a-a031-d881ef365bee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What has my balance decreased?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "ef806b33-dc84-4bec-ab73-48b67a0d438c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What reason would my balance suddenly decrease?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "b93e37d3-9567-409d-9446-168a5734fcdc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What will my review say?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "c0f9e125-5e63-45db-abf0-b3c01066bae6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What would cause my balance to suddenly decrease?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "aba2f1a8-fff1-4a0a-a2f9-1788f4a5444f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's happened to to my balance",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "9488cedd-5cdb-44c2-8e49-68358e5eeb63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's my account performance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "f2b55553-a752-4e96-8d81-d4479a01ede8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's up with my balance?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "83c78dca-9cc3-46a9-9eb4-a41fdb779579",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When can I see my performance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "ef9b838c-cd87-4507-aa10-ec3d957cd626",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When can I see recalculated performance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "9276d277-4252-4e0a-b3a8-070cd928d132",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When can my account performace be seen",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "52e05d72-0405-4aa0-a8c6-1fcd0e705af2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will I be able to gain access to my performance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "101b9787-a966-478c-8155-2de906b56177",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will I be able to see my account performance?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "68c21a5c-6c08-46ce-8148-7eb5673aa8a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will my performance be available to view?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3f009235-0aa1-46ab-9137-45dc9b7c395c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When will performance percentage be available",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "10b6a1ce-817f-47ca-9650-e5e01e5efdc6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I access my acct performance",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "7c3e75fd-3d78-468f-817f-89fc1acf98eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I get details as it pertains to the performance of my account?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "0d8b3300-255d-4b3c-b03d-fbe4063cc020",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see my account performance",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "3b89f8bf-874b-4bad-8230-b8dd4ebc0fb8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I find details about my account performance.",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "4a16f9fc-2795-435d-bc9a-567148f85a2a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to see account performance",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "026dc3db-7d35-4e22-8931-e28c1e0f30e9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is my account performance data",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "a7bf75b4-9f3d-4d25-a978-40ea84d18b87",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is my balance, I know it was higher?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "6ee3368c-b164-41d3-898c-ed2ff9376e95",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where is my money?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "7202a03a-4526-4ede-b31e-f3df283f4a67",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where will performance details be made available?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "d3c6fbaf-b0fe-4dee-af4c-3af3a8a6ede3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why can't I see my assets % performance",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "348b2f18-64fb-4239-b997-e6f8dc4eda7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why did my balance change since yesterday",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "3c97dd1f-c3c4-4107-9d8a-dc82b3c5842a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why did my balance change?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "f66ee957-5ddc-40f1-b556-baf47f5e687e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why did my balance drop out",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "1e6eb80c-32b8-44b8-91f6-0ae054c84157",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why did my balance drop?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "4919c336-1197-4d35-bce1-2950a7ab9c63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why did my balance go down?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "a0f3141e-a5a5-421a-86e0-2936dde28922",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why does my balance show lower than yesterday?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "51b04957-8f67-4e5f-beff-dbba7e74fe54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why has my balance changed?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "8186d350-c623-4b42-b007-1a95f7c4972a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is Available Cash 1.11, when transactions list shows 1111?",
+    "tags" : [ "wcp-172", "bt_corrections" ]
+  }, {
+    "id" : "73959662-299f-4bec-89df-66cd8f97fba2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my balance different than yesterday?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "d5a101ef-3e2c-478c-8775-42bd1327f155",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my balance lower than before?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "81276dec-4023-4fa5-aaff-9185ecac6d54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my balance lower than expected",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "5017ad89-0660-4513-bf5f-7a489560cfa6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my balance lower than yesterday?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "48e6d70e-a4be-46c2-b418-6c0a77514ae0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is my balance lower?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "f2000dbe-0ef9-4a9c-b6b7-f9049c61d1ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why is there a discrepancy in my current balance?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "a58ac01b-6235-48eb-98be-fb2fff089b1d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "account balance not undating",
+    "tags" : [ "wcp-172", "annotationsfeb" ]
+  }, {
+    "id" : "ee996651-5eab-49da-974b-554f9cf01e90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are the performances values up to date",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "c307082f-8a51-45a0-8015-eb8d44d21aca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "balance gone down why has that happen?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "4bab4e26-0adf-4559-b818-b92a2bcce966",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob performance before fees please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "d02ca24b-62fe-4e88-a3d7-bf5aac708119",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt balanced returns fund",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "a4775203-f54e-4047-bd6c-3f258c022346",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt investment account summary",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "d2e14ef1-3dfc-4d29-84d0-b96aec502bff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super for life performance",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2a3dff94-49d4-4408-a8b0-de3c64b0bfa6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bta1111au my super has reduced",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f81000be-5fab-41e3-9cfd-368f2e3e2791",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i access my 1 year return performance please",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "cd2f7d50-4d07-4721-8798-94cf720ffb41",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please show me how my account went from 11111 $ to 11111 $ in one month",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "899f163d-5143-4305-80ca-62fbd84dc964",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant see portfolio valutaion",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "246f869d-7193-4643-af6d-f21418e14fe4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check my investment return over the year",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "012d5a3b-e623-47ae-a7d0-6db4f8b72725",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check the percentages for managed portfolios",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e84bcfc5-75ad-4a44-8372-afe6c0db770a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check the roi of my investment",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "decfa08f-82c1-4629-a346-0617e0e07cde",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are the performances values up to date",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "28de4ef7-1f0e-4a4d-b14b-437894ecf4f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "balance gone down why has that happen?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "a4b7d263-0cbe-45dd-a92a-a401a8b342dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob performance before fees please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6e7db505-49f5-444c-8a05-e24206b56eca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt balanced returns fund",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "b5f8e47f-d0c8-40c3-91c7-d7b6be91679b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt investment account summary",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "0899a301-2342-445b-ad5a-e3cee199decd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super for life performance",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f402c55d-2ef7-42b6-aed8-1b6f0e923cd9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bta1111au my super has reduced",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "20dd6fb8-7141-459e-aadd-2a81376ff250",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i access my 1 year return performance please",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "0c36d5e8-5d66-4021-be60-7dbe4883dc44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please show me how my account went from 11111 $ to 11111 $ in one month",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "19295032-7012-44ec-86ef-1828774d8442",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant see portfolio valutaion",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "eb7abf76-fedb-452c-839e-bcff5419930c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check my investment return over the year",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2ea667b0-d44f-4a49-84ad-30c1dc0216e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check the percentages for managed portfolios",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "0cf1ff2a-d590-49d4-b57e-62dbda461941",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check the roi of my investment",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "5227db0b-fb87-48d0-bbaa-807ccaeba830",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are the performances values up to date",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "1a6b024d-08b8-49ff-bd99-3b535fae8092",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "balance gone down why has that happen?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "bdc66ade-080f-436e-8137-232af1235d2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bob performance before fees please",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "ab49a578-556c-4729-842b-4cf652b145d3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt balanced returns fund",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "773dbe53-bd36-4517-b547-067d844ae136",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt investment account summary",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "aa714ab7-bf02-4cfe-87f7-5acb9d84fc64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt super for life performance",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5a6a4574-1b13-4047-8628-b6117410075e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bta1111au my super has reduced",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "883c7bc2-d232-4f3c-bf64-fd8040d550fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i access my 1 year return performance please",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "ac9cb2d3-7a49-409c-bbdf-01791dcea7ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please show me how my account went from 11111 $ to 11111 $ in one month",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "cf400e73-2c45-47a5-880f-79f14ff043b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cant see portfolio valutaion",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "1280649e-ddb1-4f15-a519-a10e0f1d3d1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check my investment return over the year",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "6957ef51-ed60-4dd8-9d0c-23086f7bc1c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check the percentages for managed portfolios",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "4ae1ab0e-a7d8-4db3-8cfb-e4553b3a9d2b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "check the roi of my investment",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a76ccc3f-80f3-403c-adbf-b0a6677a26c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "concern with returns",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "05aa2db9-fc4b-422f-8d77-355768f179aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "end of quarter performance",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "5478c5d5-8a95-4406-ae4e-5348db43aae1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find out return for last 1 and 11 years",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "07a8984e-3cd9-48d7-91d8-0098610750c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find performance of managed fund as of june 1111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "87cef7a7-711c-48fc-af98-a66c948ef07f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "graphical performance of my super",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "de568ac9-0952-4d98-ae90-ebe463b17274",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "growth rate",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "428f2b35-bb50-42b3-951f-aaa7554fa858",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "has my portfolio lost 1111 due to market movement"
+  }, {
+    "id" : "a2d6c615-85e8-4ed1-8a02-40802a19119d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "have you got a superannuation performance chart",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fca8831f-dde8-4c1d-97d4-26ec1e0cca45",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i am wondering why my investments have not updated lately",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "f0d4b9ca-6b13-493a-b3cb-219429f27565",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello i have been monitoring the estimated gain / loss for two of my managed funds for the past week and the figures have not",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "8d2ebf20-a18a-46f5-b77c-59141f166c94",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello investment performance",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "c1216925-675b-41b3-ab13-fb0ec6fc5a3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello my super account balance has not moved for over a week i am just checking that this is right as normally i check it",
+    "tags" : [ "wcp-172", "westpac-annotations-050321" ]
+  }, {
+    "id" : "b50440f2-39f0-4b6a-b967-b0afeb492483",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi - i have had a shocking return but i want you to oiptimise my super contributions in the future",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e112f5ab-dcbf-4f25-981d-d8980ce7fe1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can i access performance data since my account start date thanks",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "573f760d-c6c5-4a36-ad91-06c8134bee29",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you tell me were i can find total gain as a % thanks",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "a7562552-76e7-4b52-a0fb-49812be5e9cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how can i see the rate of return of the individual funds",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "deae8b0a-137d-448b-b5a0-3ccd549e07bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how can i view the historical performance of my super fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4d32a1d2-aa4e-4c37-b08c-f52427a00171",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i find the number of units in my super account",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "f8a3631b-40bd-40da-9755-f3d32e2a59dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i 'd like to get an overview of my super balance over the last years on a monthly basis",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "833c9f96-53de-4236-9b59-4eb8e3527e1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am interested in knowing the current performance of my bt superannuation fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "e0478278-688f-48f3-86ea-4baddc298bf6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have lost 11111 since i started with bt",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "7b9f5c6f-4a71-4b62-96d0-0307f9f02d8b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i invested in bt growth portfolio but it 's been pending for 1 days now"
+  }, {
+    "id" : "8c3cd771-abe6-4d96-9b06-7c1338d898c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i think there is an error in the portfolio performance after fees",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "c66238d0-53de-4a85-8d5c-1cfa326e077b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there - how do i view the performance of my super investment over the last 1 years"
+  }, {
+    "id" : "f9190636-6200-4124-ad51-154cde8295bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there just wanting to check why my balance have not increased since the transfer from asgard",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "66c8ae74-2c53-48b4-8e76-b07b348bf2b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there just wondering the balance in my super account has not increased ever since it was transferred from asgard",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "fb06e301-5bd5-4264-8361-91ba197f2b05",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi wanting to get a better return on my super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "61de9ca1-9b21-44e9-b87d-3e3685584c13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi why are the share going down",
+    "tags" : [ "wcp-172", "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cd958fd1-d7d8-43ff-9410-ad5bab56ebc8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi why has my total super gone down by 111.11 $ since yesterday i can not see any deductions in the transactions section and according"
+  }, {
+    "id" : "ee1d1870-b282-42b6-b920-f176acce13f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi why is my super decreasing",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4af09b36-8692-4764-9485-1e929c318800",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi why is not my balance showing it says i have 1 $",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c0512cac-605f-433d-b11d-8bf40b8e38f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how 's total performance calculated",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "01dae346-7bf6-44ea-a0ec-533ff5645e89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i find out the value of my account this time last year",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "3a5de5fe-86b3-426f-8420-29bd605daebf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i see a line chart of performance",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "aa654f33-5a50-4e87-b7b3-91ead8295e86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i see my portfolios performance"
+  }, {
+    "id" : "c52a0096-39bb-41ad-9f63-e4d8187aeebf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i see on one page my earnings",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "27ce092c-b517-492b-af2d-6c85d0482af2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i see weekly earning",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "b3d627ae-103c-4a5b-aba4-9617db20b7dc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i tell the percentage of loss",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "056e89a7-4234-45e0-93dd-be93de093d16",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i view a chart of the value of my account over time",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "5d17ea37-d773-472a-9605-4d18a3932b96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i view the performance of specific investment options",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7d6f7878-1e54-47cf-a503-658e3dce8c64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how com my balance is dropping",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "d195e7d3-1bc3-48d8-b459-908beca0f50b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how come my account balance does not match the centrelink schedule i just ran",
+    "tags" : [ "wcp-172", "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "064aecf9-50a9-4390-bc26-d0ac5796f26d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how come my balance is smaller",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "d8f08751-daf3-45da-80ec-b4a7d44e340a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how did my super perform in the last financial year",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "92cb710f-b863-4061-b289-35ec5d908bb9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I review rate of return for more than one year",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "3d0ff626-21d6-4021-a251-0c33b629bcca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i book a meeting with an advisor on the abject performance of my fund",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "46414eae-824c-4246-a32d-da59d460b927",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i display the performance as a graph",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "85452989-e034-4295-ac23-7773fe6d9757",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i filter my performance into financial years",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "f57b46f3-9054-48ed-bc1a-b6ab8fbb6bf8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find investment performance of each fund",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "9dc0b4e7-e428-48cb-9df6-f141642072b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find out the value of my fund since start",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "482cf6b5-4dfc-4d02-86ba-bd9d0f7f557a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i review rate of return for more than one year"
+  }, {
+    "id" : "c8cb367e-f182-46ce-97c2-a5643c9f7df2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i see the performance of a fund",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "4e693418-f474-49ab-9763-b43f123215cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i see what increase has the fund had year on year",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "32a0f325-6940-4819-b91f-4c95fe45481b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i track daily performance of managed funds",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e8e3f295-1e29-4a53-95ca-f7ac87f79287",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how have i lost money",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "53d83197-d78f-4584-be1d-687433b899d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how is my account 2382423 doing",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "800869a4-2d4f-428d-976a-94499de81d20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how is my account performing",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "0faf2ece-cd64-4ee0-9dd7-601c4acc1f02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how is my bt invest performing",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "c68dae79-b1b0-4972-9bf1-185585048f57",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how much return in last 1 years",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0d3ace1b-7f26-48ab-9dd7-b9c9e12b1fc2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how often is portfolio performance updated",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "7c5d7973-3731-4145-a337-48ff65526cdc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to display rate of return",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "602e6ef7-9a12-4d3a-96c4-17fdabbf6344",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to see check how the investment performed",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "01063ccb-2dae-4de2-87e5-fa72e233d2b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how track historical performance of a fund",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "3cfb726c-5e2f-4c42-bd37-17b90ca1dce8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am going backwards in my investment in super",
+    "tags" : [ "wcp-172", "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e34947cb-1867-4a5e-ac70-8d6045d9bb31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am looking for a graph of how my money went up and down duringt he last fy",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "21a163a7-3068-4187-ba67-39dcdde3222c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am on the overview page but there are no performances",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "35e1ebca-5fcb-4dfa-9e7e-2560abefb7fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i can not find the investment i am looking for",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "44f0d700-bf5c-4819-9e05-2773ccea9a5b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i can't access my account performance",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "06972d78-a08e-4236-a7d0-bb90a7e0967a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cannot see my details",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "1cfe3256-c12c-4cfd-b94f-7394450d34a4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cannot see the overview graph",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "a6d5522f-7f04-4162-b666-a1af17f31934",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i just want to see how much in total is in my panorama account why is this not up front on the very one st",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "911e6254-a7b8-4ec9-876b-bbad8b62d9f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to know how to find our return on investment since inception",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e801ea99-d9f2-48ce-a076-fb3f3bffdd7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to see the balance of my account but cannot access it",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "ca6bf845-28f9-4679-bd94-fae2e4601b27",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i noticed that my account total went down by about 11111 $ yesterday 11 th february what would be the reason for this",
+    "tags" : [ "wcp-172", "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8ed1d910-0d7c-4571-b1fe-eaff28d1cef1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i noticed you actually lost me money last year",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "4d034cc3-f52a-4f42-80b0-06be5c4f4018",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want graphical performance",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ac6c98d3-a7c6-4d36-ac51-28bfb6fa8e64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to make an appointment to discuss my portfolio with an advisor",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ea42e24c-c002-4b28-9887-a99c0d1f8b96",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to pay someone i cannot because available cash is 1.11 this is incorrect available cash should be 1111 $"
+  }, {
+    "id" : "78f89b05-0d01-492a-990c-fafe85ec26a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i was wanting to know why my balance has not changed for several days",
+    "tags" : [ "wcp-172", "annotationsfeb" ]
+  }, {
+    "id" : "29fd7bb3-a0d8-401d-93ca-65ac2e681956",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i wish to know my portfolio movement from mar 1111 until mar 1 1111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "ea0d2ec4-7527-4e87-b236-4cfdbb4d085d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to check on the closure of acct no 111111111 - bob and bob it seems to be taking a long time to"
+  }, {
+    "id" : "550fc73c-31d5-4bf2-a394-f1d388cfd55f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im wanting to see performance details for my super for last 1 years",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "8d57ca80-573a-4656-a823-3b7014b7eef2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "im wondering why my portfolio numbers havent changed a cent for three days is this end of year or is there something amiss",
+    "tags" : [ "wcp-172", "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "2996e6aa-8eb4-44c7-ba46-2ca0034577b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "income accrued",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "ace48682-228e-4182-a85f-a2b8693b0d0a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "internal rate of return",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "14057c6b-3f47-41bb-8aea-03c4496a84ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment horizon",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "6048ccd4-249e-4333-bde2-430396cfd9b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment option performance",
+    "tags" : [ "wcp_152_overlap_add" ]
+  }, {
+    "id" : "f21f1b1b-69ac-4a06-9d3f-8d69e502b466",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment performance",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "cd6bceb9-91b7-4f61-9c4c-6023bbb5a4b6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment rate of return",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "1fdb72f2-774d-47de-9ba0-f2c45508264c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is it possible to see the portfolios volatility in the reporting centre",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "68554f46-9bd1-4e85-86dc-f5f76b914b5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is my account performing good",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "2637c8bb-ec7c-421a-9441-93ce340725b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is there a reason my account performance is not available",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "0fd90e0a-f81c-47b4-ad10-be1b60257afd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "just had to vent as it is not everyday i loose 111111 $",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "dbad6934-b451-4ee9-8188-067cbfb048d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "just wondering when i shall receive the withdrawal proceeds of my super account number 111111111 as the account appears to have been closed more than",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "218e0668-24d7-4e9e-8b40-47530b65455f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking for page of portfolio figures",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "e3a49fbb-86ce-4ece-89c3-dfba710068d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "losing money",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "800a6926-b2d1-4375-96b6-b7fe9770ac9e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "losses i had in my account",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "36e59267-100b-4c47-8aa0-d6ba28982102",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "may i see a performance chart"
+  }, {
+    "id" : "d5795686-3ed1-459e-a326-95dafefc2b8c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account balance is dropping at great knots it 's not good",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "162558c9-2196-4336-8c07-4ede421781ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account is half what it was",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "9a7ea9e7-5653-4891-90aa-438f339528d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my account lost 11.11 percent why and can i change to something better",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "d5d55a9a-7146-4b58-b74f-d518f7a43f82",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my account performance is not displaying to me",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "128fcaa8-917e-4558-bf1c-c82aabf2de7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my balance has dropped 11 $ overnight why i withdrew all funds yesterday and was told it would be at yesterdays balance which was 1111.11",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "6f449158-721d-4244-a9fd-aa38e2c63886",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my balance keeps dropping, why",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "d417b185-772b-4c54-8181-22bfd277d092",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my investment figure does not appear to have altered over the last few days as the market has shown change in this time why is",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "712765c0-8dde-4a45-8087-513eb704793e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my super has dropped dramatically",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "85360818-3a15-41cc-a876-6c32855aea01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my super has not grown in 1 years",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "52972227-7c07-4a29-8462-9bfd9bab67c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my super losing a lot wht going on",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "3a456dd0-87b2-4fd9-9eaa-a2b2e9c6e2fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my super performance",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "3059fdb3-c93b-406e-8385-211d35a557a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "net return on super",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "72723640-e2c4-43a0-87b1-4d319c554509",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "now is -1.1 percent",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "e057b05d-cf9a-480a-96ea-7fded9cb1f24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "ok but i think the terminology should be clearer total performance should be shown from inception of joining",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "78ad8ea2-8e48-438b-bcb8-8a177fcf4dca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "over what period of time is the estimated gain / loss figures quoted",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "51884ee2-1b40-4451-8aa1-d78452a3ab5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "performance",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "00c61aa5-7d27-415e-b221-4861c32a41e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "performance %",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "8c039b6d-331e-4749-90d8-e99e3f3199d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "performance be available when?",
+    "tags" : [ "turk" ]
+  }, {
+    "id" : "dbeedfd8-18e8-4986-9af7-330d28cfcb02",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "performance benchmarks",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "c6530c30-44f8-4aa4-a153-d39e9a247864",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "performance figures",
+    "tags" : [ "westpac-annotations-050321" ]
+  }, {
+    "id" : "c29201ff-edc4-4586-bda9-eb6fa320abda",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "performance figures for march end",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e37404dc-1102-49c4-acd6-40bbfe23b200",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "performance percentage for 1111 financial yr",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "486bff1b-6892-451d-83f7-10ad2a81d089",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "periodic performance",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "acc62567-e031-4030-97ff-9626157ef304",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "personal rate of return",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "c4bc1ddd-60b6-4bc4-b4f4-7ca9c15d81b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "porrly performing fund",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "400d0d15-31d3-4baa-9d03-accff3408aa3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfoliio views is where",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "53a4e121-4a35-4486-a58c-64bf21d1e7e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio",
+    "tags" : [ "westpac_bt_q4_2022_annotations", "completeness" ]
+  }, {
+    "id" : "ccd5bb75-2934-4bf2-a07d-a56c4ba2e484",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio monthy figures",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1fabaa20-7c68-49bb-80b8-7527a85588b2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "portfolio movement",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c70215bb-2998-41cb-9b71-f09f57893e9c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pricing",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "ab0a6ae7-8070-4606-9db4-785a74d61fc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "prior year performance",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "ea3afa36-0a99-4cab-8fd9-c47e3cf29b51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "question on fund performance",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "76a45a8e-34d2-4b97-b7c8-d008596b08a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "rate of return per investment option",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "1f12a722-3ead-4a9f-82cd-bafd8ac8af70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "see investment over time",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "06be242d-cf92-4448-9f81-06852a5252ef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "superannuation loss",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "2496d89d-85db-45cd-a7a2-00ba993f6fc1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "superannuation product performance",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "12ad750c-0031-4d41-a932-f1c459627f93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the income stated for stockland sgp shows a nil balance this is incorrect why is this",
+    "tags" : [ "wcp-172", "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "156442c1-a6ef-4ea9-86a0-ea9216e4853d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the return of the investment",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "d36fab89-8512-4868-9ee7-71473e362334",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the system is not returning my perfomance number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "914ba031-b461-4d28-aab7-2784ce6e5270",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "total rate of return not just one year",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "63021ec3-26a6-4879-8732-38f5a5e3b405",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unit price delay",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "abc21f36-095e-4b35-9a93-46bde9d22354",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unit price history",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "84170b34-b4b4-4e7b-a218-0003961cc8b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view portfolio valuation over time",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "b5b78171-bd2d-45f0-bc24-ab1911dde9d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wanted to check when the annual audit would be completed",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "3327b9e8-f2a0-4dc1-a3c4-9c39ec58ba6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we have just be advised that your perfomanc1 record for last twelve months is one of the",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "c2863499-45c4-4feb-9736-1f8e7df59e63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we seem to be loosing money let 's be honest how to invest properly",
+    "tags" : [ "wcp-172", "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "6f12df94-ce40-4787-859b-5bd8dd152a91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we seem to be losing money",
+    "tags" : [ "wcp-172", "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "802b219d-1619-42f2-b03e-dff90c3e6b26",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "weekly portfolio performance",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a719c3f9-9a7c-4849-a4f8-84995f6b41ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "were to find internal rate of return",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "2d307e71-a996-46e3-99f0-207937173d9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the income stated for stockland sgp shows a nil balance this is incorrect why is this",
+    "tags" : [ "wcp-172", "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "c7321d03-b3f4-42af-9e5d-815261c9a614",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "the return of the investment",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "252f9665-f094-4242-b77f-a874e0afcd8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the system is not returning my perfomance number",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "188fe917-fdf8-464a-ba62-a1ce11581331",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "total rate of return not just one year",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "b32cc45b-6623-4e7d-a6bc-2287e22431c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unit price delay",
+    "tags" : [ "bt_annotation_q1_2023" ]
+  }, {
+    "id" : "abb7e404-ded9-4e24-bb41-a01b5ad5be79",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unit price history",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "763eee95-eb1f-4a91-a061-9947cf96f778",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view portfolio valuation over time",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "170014eb-2b48-4f12-8d5b-8f9f2a431545",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "wanted to check when the annual audit would be completed",
+    "tags" : [ "annotationsfeb" ]
+  }, {
+    "id" : "f3398aec-d1cd-4674-b4b5-334ee259c1f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we have just be advised that your perfomanc1 record for last twelve months is one of the",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "aa8e0bd2-e823-46b7-99fc-750d03dab59f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we seem to be loosing money let 's be honest how to invest properly",
+    "tags" : [ "wcp-172", "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "5ca299e2-85cb-4062-997d-ee73b43bf3be",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "we seem to be losing money",
+    "tags" : [ "wcp-172", "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "e4642ed5-39e0-4e2b-a6b1-847a58203a17",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "weekly portfolio performance",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "36cd349b-1d5e-48c5-a75a-346b624262a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "were to find internal rate of return",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "f814c93d-aefb-4a05-b833-e5eeef5dfa3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what happened my fund -11 percent",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "eeed3d67-85d3-4442-8cc3-73e06b697a4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what happened to my super money",
+    "tags" : [ "wcp-172", "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "1d44d352-b716-4757-8d3b-b17bb18c79c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the calculation date of performance",
+    "tags" : [ "westpac_bt_q1_2022_annotations" ]
+  }, {
+    "id" : "dd2cadf6-10e2-48de-a04c-f6c57cb859b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's causing a decrease in my balance",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "94cfce1c-bf49-44cd-ac82-1e1291fab145",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's wrong with my balance",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "6b779d76-b9f5-4f62-8a85-9ca113b71a95",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats causing my balance to be lower",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "4c5ae92a-87cb-448c-9d4f-5c8a6370f837",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when i look at the portfolio performance over the last 11 months there is nothing showing",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "0a330b03-2810-4851-a6e9-c39e09e338aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when is the portfolio value or total performance acctulized",
+    "tags" : [ "merged_from_vpaunknownrequest", "westpac-annotations-050321" ]
+  }, {
+    "id" : "2bae0b45-02ff-4d2c-898b-0f27b80930fe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when will total performance figures be available",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "cb2d8a47-e11b-4335-8047-b23e34f72b06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can I find why my balance has changed?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "9ab600dd-3fa6-400b-ab7b-15ace576cd6e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can a find a annual growth chart",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "d9fa0511-2346-4cf7-a3fd-bff5d407bcea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find how much per month each investment has increased by",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "7a679958-c097-49a5-8784-224aa217a201",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my super long term performance %",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "f6d08e27-9c6c-488b-b2a2-046c4b28b6d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find performance of managed fund as of june 1111",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "51df687a-5192-4e1b-809d-a86bce8c6239",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the performance data for the super funds that existed on the old bt platform",
+    "tags" : [ "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ed9ef305-6399-41c5-b847-fe0d8f644b71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i view a weekly portfolio performance rather than momthly",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "a0b42c6f-9482-4fec-a752-0e6edfa01d2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find fund performance",
+    "tags" : [ "bt_annotation_q1_2024" ]
+  }, {
+    "id" : "e7dd67f5-b788-4624-85ea-aa41302db53e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find investment returns for 11 jun 1111",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "9c84ce97-e66d-4828-a704-023f8717ddd8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find performance of my investment"
+  }, {
+    "id" : "ee35c415-774e-421c-9c14-52f463e52f9c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i see rate of return on this new interface would like to see return for the different investments for a custom date range"
+  }, {
+    "id" : "12e9c51d-c89e-4c4b-b87f-353e428c91f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where do i see rate of return on this new interface? would like to see return for the different investments for a custom date range",
+    "tags" : [ "bt_corrections" ]
+  }, {
+    "id" : "e785461a-dd30-4322-93ee-88199d38d441",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where has all my money gone",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "977ea085-e22d-4e17-a0e3-7c00317269a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where has my money gone",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "8d687f4a-7ccb-4bf8-90c5-b8060c121e5d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is my 11 june 1111 holdings and market value shown",
+    "tags" : [ "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "586304aa-f077-4fc1-b4ee-0170355823c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where to see the perfs for my assets",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "19a2d4f7-1d32-485d-a213-663e64f08795",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why am i loosing money",
+    "tags" : [ "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "5c5ab0c7-690b-4d85-aebb-caf851165f73",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why did my balance change",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "e689a7f4-0c95-4246-b458-c5f886c068a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why do I have less money",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "7c2b5081-f86d-48a2-94ca-6f4fe29c66fb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why do i have lesser balance",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "f7efe0c9-c56b-40b6-b474-045251eaf00e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why does it say i dont have enough funds",
+    "tags" : [ "wcp-172", "bt_corrections" ]
+  }, {
+    "id" : "245b57b4-c5a7-4ecf-8a13-64bb6858ccd2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why does my balance keep going down",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "045291ef-66c9-4c01-8c4b-da8580dc4d0b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why does my balance vary",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "d8d66187-ddf8-4dd7-994d-05de18863431",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has my balance not increased by 1.11 percent over the last 11 months",
+    "tags" : [ "wcp-172", "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "4176ee3e-4758-4d5e-ba0d-3183528d45ad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has my super lost -1.11 percent when investment and interest rates are on a high if this is attributed to bt internal charges i",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "eb75ab2b-3453-4f22-b4a7-e340b4a22047",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has not my balance been updated",
+    "tags" : [ "wcp-172", "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "ca3dd47c-56dc-4d84-9089-cbe415bfe050",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why has our superannuation gone down - since last month our total has gone down about 11111 $ for bob and graeme blacklaw",
+    "tags" : [ "wcp-172", "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "761a1e3d-8d92-4ad1-8c3c-3f5f84dd0fc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why have i lost money"
+  }, {
+    "id" : "bcbd1e72-5d7c-40af-a2ee-aef66bbee731",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is available cash 111 when transactions list shows 1111"
+  }, {
+    "id" : "b7ad6e1c-aa52-4fba-8d18-b6c35ea2320b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is available cash zero"
+  }, {
+    "id" : "28838443-9b27-46e9-bd8e-7c6c16d8880c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is investment units reduced over the years",
+    "tags" : [ "westpac-annotations-q4-2021" ]
+  }, {
+    "id" : "2e9f621d-f0bf-4cd5-9af4-3827b70c75c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is my account balance still from the 11 / 1 / 11 when today we have the 1 : 11 : 11",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "38f66169-4db8-4f64-928a-c247ceab820c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why is my account loosing money",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "38c21a1d-1e9f-4f6f-b89c-3e67723f44d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is my available cash zero",
+    "tags" : [ "wcp-172", "bt_annotation_q4_2023" ]
+  }, {
+    "id" : "dea98417-c521-45ed-a7e7-d2e38e5c28e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why is my balance lesser",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "6a2a5ace-1891-49f4-ba13-69009204e073",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why is my balance lower now?",
+    "tags" : [ "wcp-172", "turk" ]
+  }, {
+    "id" : "8552c75d-6eba-4798-b524-64e774254743",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why is my balance so low",
+    "tags" : [ "wcp-172", "testfest" ]
+  }, {
+    "id" : "de88ecba-be20-4100-8ece-474fc25d6cb5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is my cash balance 1111 lower than my transfer in",
+    "tags" : [ "wcp-172", "westpac-annotations-jul_2021" ]
+  }, {
+    "id" : "257a4215-2ba4-4a95-b2f0-89d7101a48b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is my super balance fluctuating often",
+    "tags" : [ "wcp-172", "westpac-annotations-050321" ]
+  }, {
+    "id" : "ba385092-4c86-47f8-b807-28e77c4737e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is super decreasing",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  }, {
+    "id" : "1227f489-4975-4852-ba36-f4ff0f812eb2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why is the account performance not available",
+    "tags" : [ "testfest" ]
+  }, {
+    "id" : "13144a94-7a3c-4653-8237-f488a83850aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is the opening balance of my panorama account less than the closing balance of my wrap account",
+    "tags" : [ "wcp-172", "westpac-annotations-050321" ]
+  }, {
+    "id" : "2baea21e-a8fc-497d-adb3-fa9a3e8eba52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why is the performance so bad on the lifestage funds",
+    "tags" : [ "wcp-172", "westpac_bt_q4_2022_annotations" ]
+  } ]
+} ]

@@ -1,0 +1,534 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_trading_fees_seed",
+  "intent_name" : "bt_trading_fees",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "5cc9cb4d-c64a-4c36-8edb-3f77f9d1dc3a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any charges for {@asset mutual fund} {@account_type investments}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6fd8f554-ccee-4e27-9499-d1f213115214",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Charges for {@asset mutual fund} activation",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "23f139ea-a2df-4c53-a004-96a989556134",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does {@account_type brokerage} apply to each transaction?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7b4cfc86-cf6a-4f36-b0c0-8afe552493b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much are the {@account_type trading} fees"
+  }, {
+    "id" : "0d08ee22-d683-4b96-8023-c5f9a97ec0b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do I need to pay in fees for buying a share?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "00ef8fe5-9942-488b-b5ec-5a299adf26d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do you make off of trades?"
+  }, {
+    "id" : "7e8433e9-eb3b-472c-8525-90066a7b9951",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do you make on {@asset mutual funds}?"
+  }, {
+    "id" : "3ad8222c-3c44-4dbb-acbb-24608e868f77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much is {@account_type brokerage}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "2fcdec22-e793-4e01-9077-05afb87231b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any charges for {@asset mutual fund} {@account_type investments}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f96aeffd-91a0-4c92-93bc-df1dcac2be77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Charges for {@asset mutual fund} activation",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "998754c4-8a56-49cf-a54f-d5ffeb593304",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does {@account_type brokerage} apply to each transaction?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "749ad4ca-14e1-4872-9350-f7bb18aa50a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much are the {@account_type trading} fees"
+  }, {
+    "id" : "dd530be8-8884-4f15-95c7-e68bc1c91747",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do I need to pay in fees for buying a share?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "0958f644-17a4-4053-b0bb-b11457a9ba6c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do you make off of trades?"
+  }, {
+    "id" : "a0834085-58ff-4e21-a613-8eac48b02f3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do you make on {@asset mutual funds}?"
+  }, {
+    "id" : "5553cd9b-a66f-40ef-859e-f323890b7b8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much is {@account_type brokerage}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "df968f57-a301-4413-9afd-8419813d8a10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to know about charges for investing in {@asset mutual funds}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "7d85067f-5459-49e1-be6f-cfc498dae43c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there any fees with buying and selling shares/managed funds?",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "3a31ef2a-b3f6-421b-8a79-0083504d1ac0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are additional charges in buying shares",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f1c5ccdc-86b5-4d13-a30f-233305395007",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the charges levied when investing in {@asset mutual funds} through bankname",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "4535a2cf-0225-4199-962f-ce59e0d6ad44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the fees for {@account_type trading} an {@asset ETF}?"
+  }, {
+    "id" : "db29f29c-4e6c-4b83-bda6-ef490bcd9c80",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the fees for {@account_type trading} {@asset equities}?"
+  }, {
+    "id" : "945731fd-9712-434e-a258-7f63133e0e57",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the fees for {@account_type trading} {@asset mutual funds}?"
+  }, {
+    "id" : "bcd6224e-3ac6-4999-acc6-42e842a2285a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the {@account_type trading} fees of {@users my account} with id {@account_id QPO8Jo8vdDHMepg41PBwckXm4KdK1yUdmXOwK}",
+    "tags" : [ "protected_seed" ]
+  }, {
+    "id" : "33617da2-ee9d-4a4d-ab52-3acc3a57f317",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the {@asset mutual funds} fees with id {@account_id QPO8Jo8vdDHMepg41PBwckXm4KdK1yUdmXOwK}"
+  }, {
+    "id" : "b890f7af-191a-4149-b4ec-07d30bf95b48",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the {@asset mutual fund} {@account_type trading} fees of {@users my account} with id {@account_id QPO8Jo8vdDHMepg41PBwckXm4KdK1yUdmXOwK}",
+    "tags" : [ "protected_seed" ]
+  }, {
+    "id" : "846cbdc9-f87b-439c-b172-6baaf3f4ad47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are {@users my} fees for {@account_type trading} an {@asset ETF}?"
+  }, {
+    "id" : "f520f533-6d79-488a-82d0-9940f6264d71",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are {@users my} fees for {@account_type trading} {@asset equities}?"
+  }, {
+    "id" : "46b841ca-1035-43f0-894d-e9ac16a317da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are {@users my} fees for {@account_type trading} {@asset mutual funds}?"
+  }, {
+    "id" : "2afd1be8-066e-49c4-b411-eca95fb27f7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the charges for {@asset mutual fund} {@account_type investments}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "42a6ecc0-049a-440f-9773-2fb4eb09215e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the {@asset mutual fund} fees of {@users my account} with id {@account_id QPO8Jo8vdDHMepg41PBwckXm4KdK1yUdmXOwK}",
+    "tags" : [ "view_details", "protected_seed" ]
+  }, {
+    "id" : "bf0e7e48-edce-4f56-ad16-1eaa585e6ff4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the commission on trades?"
+  }, {
+    "id" : "c54659b0-e1cc-4147-a7d4-cc5e70900e8d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any fee for making trades?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "09735994-ae8c-456b-bcf9-d9697fa5c78b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bankname app shows {@asset mutual fund} option. What is it for and is it chargeble?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "95a04224-8108-486f-9d9e-5625451ded31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charges for investing in {@asset mutual funds}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "da973da8-2f6f-4d18-a462-d5edd3ca301d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charges on {@asset mutual fund} {@account_type investments}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "97560be0-451d-47ec-a5aa-6ecbcb91bab4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any fee for making trades?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b3b087cd-3fac-4ae8-84f6-c9dac8f3c73a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bankname app shows {@asset mutual fund} option. What is it for and is it chargeble?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "d81ad6b8-c928-41b4-a735-469ae92b23b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charges for investing in {@asset mutual funds}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "b77d629d-abb7-46d4-8ce4-4dbb48b06549",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charges on {@asset mutual fund} {@account_type investments}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "887928f8-f955-49bc-b055-72520db17d77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any fee for making trades?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "0dbe5962-efa8-4b89-8d04-d4bddb0720c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bankname app shows {@asset mutual fund} option. What is it for and is it chargeble?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8719ef48-b6a1-4fb9-acbd-a2e99b763c7e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charges for investing in {@asset mutual funds}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "6d3f1e07-f3b4-4044-a8c7-5e3c7f304771",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charges on {@asset mutual fund} {@account_type investments}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "923aa940-cd53-4cce-8410-b5378364bfdc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how does the pricing for trades work",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "cb61874a-9070-480a-b1ed-6818f124c2d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much does a trade cost?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "70b6707e-8ef3-4b03-8eba-8faeb63df089",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much in {@account_type trading} fees will the client have to pay",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "508cb6fa-3ad2-4c78-81c6-5d2efb3f6373",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much is the transaction fee on shares",
+    "tags" : [ "btseed" ]
+  }, {
+    "id" : "1aac8553-37ca-4503-abb0-36c032a488f8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the trading fees for {@account_type brokerage} accounts?"
+  }, {
+    "id" : "0cbaa643-d53a-4acc-a6ac-fb2a14def53c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the trading fees for {@account_type retirement} accounts?"
+  }, {
+    "id" : "06669a5a-f218-41a2-a0cf-e292f4d2238e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the trading fees for {@users my} {@account_type brokerage} accounts?"
+  }, {
+    "id" : "77319656-75de-4375-9660-2487ccd7b397",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the trading fees for {@users my} {@account_type retirement} accounts?"
+  }, {
+    "id" : "c445a7cc-12ae-4102-81a1-97f903f43744",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the {@account_type trading} account fees ?"
+  }, {
+    "id" : "08a5f042-b66b-4bd3-9d74-a9c4ee96cf06",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are {@users my} trading fees for {@account_type brokerage} accounts?"
+  }, {
+    "id" : "6d189757-6e2e-450f-87ee-365ff642f97c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are {@users my} trading fees for {@account_type retirement} accounts?"
+  }, {
+    "id" : "d3264a26-1245-4102-abb6-34139358cd25",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are {@users my} trading fees for {@users my} {@account_type brokerage} accounts?"
+  }, {
+    "id" : "9a39fe43-491a-40e2-ba84-a26b0383cbf3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are {@users my} trading fees for {@users my} {@account_type retirement} accounts?"
+  }, {
+    "id" : "d3224b13-379d-422b-9d01-3c486f66281e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are {@users my} {@account_type trading} account fees ?"
+  }, {
+    "id" : "161b5c08-1251-49a4-9f24-569dcc987dff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the trading fees for {@account_type brokerage} accounts?"
+  }, {
+    "id" : "8151cc66-bae6-4cbe-9cbf-a4f73beb3c16",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the trading fees for {@account_type retirement} accounts?"
+  }, {
+    "id" : "d0e51a0c-a0a1-4a88-8b19-2a867060c248",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the trading fees for {@users my} {@account_type brokerage} accounts?"
+  }, {
+    "id" : "ff16eff9-a7e5-40eb-a063-c4f8082cb7e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the trading fees for {@users my} {@account_type retirement} accounts?"
+  }, {
+    "id" : "fcb1b044-8142-483c-bd9c-94467c29048c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the {@account_type trading} account fees ?"
+  }, {
+    "id" : "6dd06b18-e1fb-4036-83d8-3a7e1b8dad38",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are {@users my} trading fees for {@account_type brokerage} accounts?"
+  }, {
+    "id" : "2fe6a10f-c8da-4185-9237-e6e02edecf56",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are {@users my} trading fees for {@account_type retirement} accounts?"
+  }, {
+    "id" : "c06f2bcb-53e0-48df-b270-d7132f54f0a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are {@users my} trading fees for {@users my} {@account_type brokerage} accounts?"
+  }, {
+    "id" : "3ba78373-6433-4033-875b-6a0746285331",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are {@users my} trading fees for {@users my} {@account_type retirement} accounts?"
+  }, {
+    "id" : "acbd0111-ce06-4ba5-a71a-7aa7b7f77eca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are {@users my} {@account_type trading} account fees ?"
+  }, {
+    "id" : "f260b8ba-be80-48b6-a296-482b504cf005",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what fees do I get charged when {@account_type trading}?"
+  }, {
+    "id" : "b256ee2f-738f-4f0c-b661-048804d997cf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what kind of surcharge is there for a trade",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "711dc4e5-dbc2-41c9-91da-4f041a940a8c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@asset mutual fund} annual subscription",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "59e48277-0060-461b-85f8-3d800a657bc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@asset mutual fund} charge",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "58a8ea22-2649-4ca3-a92f-01801c0f6d5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@asset mutual fund} fees",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "9c811f29-a4c2-492b-85e1-8e036bc6c7ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@asset mutual fund} {@account_type investments} charges",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "c1cc6dec-4d14-45c3-95f4-67f694225994",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@asset mutual fund} {@account_type investment} charge",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "bf0e8893-c98d-4705-82dc-460c384d7eb3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the {@asset mutual fund} {@account_type trading} fees of {@users my account} with id {@account_id QPO8Jo8vdDHMepg41PBwckXm4KdK1yUdmXOwK}",
+    "tags" : [ "protected_seed" ]
+  }, {
+    "id" : "3028e90a-af3c-40fb-9948-000d38d4da23",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the {@account_type trading} fees of {@users my account} with id {@account_id QPO8Jo8vdDHMepg41PBwckXm4KdK1yUdmXOwK}",
+    "tags" : [ "protected_seed" ]
+  }, {
+    "id" : "89d76e26-8188-4100-88aa-dc8c63758b18",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the fees for {@account_type trading} {@asset mutual funds}?"
+  }, {
+    "id" : "2cdc00fc-4c3a-4135-a732-cd2605581b9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are {@users my} fees for {@account_type trading} {@asset equities}?"
+  }, {
+    "id" : "e3cb8a28-73b3-47b2-b6d4-8f41251fb59f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are {@users my} {@account_type trading} account fees ?"
+  }, {
+    "id" : "81b22b60-c962-43ae-9e24-cf7febbe5905",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any charges for {@asset mutual fund} {@account_type investments}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a6b4d7cc-fad8-4412-bba4-37d73bd42cbe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Id like to know about charges for investing in {@asset mutual funds}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "44093810-08a4-4a70-96c6-c0547adae24b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charges on {@asset mutual fund} {@account_type investments}",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "8c52532e-aae4-4335-b45b-2d9c98df4de7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much are the {@account_type trading} fees"
+  }, {
+    "id" : "0e4b2b9c-e8b6-4032-958a-a724f09ef6ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much in {@account_type trading} fees will the client have to pay",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c611bf2c-66a6-4543-b750-2eee75de6725",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what fees do I get charged when {@account_type trading}?"
+  }, {
+    "id" : "3862962b-4f23-49f4-b324-2fba1f30f211",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the {@account_type trading} account fees ?"
+  }, {
+    "id" : "61152af5-c3b3-4877-8173-ebd603e77ede",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@asset mutual fund} {@account_type investments} charges",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "df61815d-0d7b-44be-b848-4d374009cb55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the fees for {@account_type trading} {@asset equities}?"
+  }, {
+    "id" : "371b857c-8dfc-472a-9e6d-89c586028f60",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the charges for {@asset mutual fund} {@account_type investments}?",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "a3631d79-abfd-4d4f-b9ed-be560d894f79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are {@users my} fees for {@account_type trading} {@asset mutual funds}?"
+  }, {
+    "id" : "6f0778ff-5b34-4fd4-9013-33e4be28d50f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the fees for {@account_type trading} an {@asset ETF}?"
+  }, {
+    "id" : "763d956b-ff39-49a7-9aca-81316b4626da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are {@users my} fees for {@account_type trading} an {@asset ETF}?"
+  }, {
+    "id" : "11098f89-60c3-41e4-93cd-2a19c2f75903",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "{@asset mutual fund} {@account_type investment} charge",
+    "tags" : [ "happy" ]
+  }, {
+    "id" : "f548ec30-9255-428b-ab90-59e5bbdbb525",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Whats the commission on trades?"
+  } ]
+} ]

@@ -1,16 +1,22 @@
 {
-  "name" : "kcb_feedback_clarify_rating_csat",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "kcb_feedback", "kcb_kim" ]
+  "categorization": {
+    "tags": [
+      "kcb_feedback",
+      "kcb_kim"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "On a scale of 1-5 stars, how would you rate your overall experience with the system?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "On a scale of 1-5 stars, how would you rate your overall experience with the system?"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "kcb_feedback_clarify_rating_csat"
 }

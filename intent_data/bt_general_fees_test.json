@@ -1,0 +1,1786 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_general_fees_test",
+  "intent_name" : "bt_general_fees",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "ce4db129-9d4f-4d02-8ce3-def8394efe30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Account fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bf00a144-173d-4e20-9665-7f24da49909a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Account fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "efbba8cb-0db1-4378-842c-b2c0de1e1628",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Account fees are expensive",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5366c08f-403b-41a6-b893-a2999bdd0d3a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Advice Fee clarification",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a08266fc-7960-4fab-9326-905e45289c75",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Adviser Fees",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "e3093064-7483-4ec0-9a0d-bb0a2764ee52",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any charges for investing mutual fund",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "763f8742-8bb3-44c2-8178-3ba96e72708f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any charges for money transfer?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2092b870-f6b2-4743-a9e6-52d2c812682a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any charges for sending money from other bank",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "18d99257-bf5f-4d6f-8b33-7d006d29fff5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any charges for use my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "360b3a76-ed18-4d6c-9929-a9999ad8208a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any service fee fir atm transaction",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "19a07a6f-ef3e-489e-acb5-712295d96c33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any account fees?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "86c2a238-e017-4059-af6f-72f036bd5ba3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any fees I should be aware of?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "7c3944f9-2064-4f09-b7a8-7025b7f6176d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any fees associated with my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "03656640-e713-427c-9312-8e0a0a396064",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there fees for using BT account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fa46fcf8-5952-484d-a9ee-7c325c809d46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there fees on my account on here?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "76414db4-1c64-4a47-baf9-cf5a4e1fc992",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there transaction fees if I pay bills using my BT account ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e9dd013d-6c5c-4601-99c4-a4a13d931482",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bank charges",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2f3ac38e-08b7-4f32-ad38-92882977a1a8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bank fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cbb0965c-eecb-402f-9889-6822984b64c7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Bt panorama investment admin fee",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "273effce-4214-414e-8b3e-ec2aa45af03a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change my account fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "32a26b81-0477-442c-8ecd-54bb27707eff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I know then why bank charged 11 now",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "04388fb8-1776-4aa8-b1f4-b1faac84e4d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I remove my account fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "759131ea-d7ce-40d7-a9b8-63e23c6ffbc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see the fees on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6d0b1365-2b34-422c-8975-8c112aa7158a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you please explain to me how the tax were calculated for my BT Bob account? I have checked with other accounts and the tax amount were quite different even though the contribution and income distr",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bbadcd2e-f93c-44c0-bd22-bd030111e14f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cost of a transaction",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6dd55298-57c0-4f28-a606-90a55d1de7e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Dedit card charge available",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3029eff4-fa94-4e57-90b6-8c2ed5193daa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have a fee on my account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "e56816c5-83c8-489b-b36f-50b47269a4dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to pay a fee for my account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "a4d7779e-8386-4f95-82a3-c1dce57ad3b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you charge any fee expenses",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "820e3649-6e08-41e2-893b-e90dd7ca3bcc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you charge for any fee expenses",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1d3c2ce8-cca7-4319-89aa-166607a2a4ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does my account have any fees?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "346a808e-c196-4e70-97c7-816523c22fd6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does my account have any hidden fees?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "540485a2-5c19-4c8c-84f0-3a2915f59891",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fee structures",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "f793e8c6-1929-46aa-803a-7d7a3f4e51b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fees",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "90304e0f-d61f-4d2b-8d2a-a7f4d0f60c6d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fees and charges",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f9c79b8a-1bf7-4d7a-9854-8ce93abc3108",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fees breakdown for my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6230614c-f9d0-48c7-96e4-0656a9d97afd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fees charges super account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e5ee08b9-c3cd-41bc-bfe9-5f45fe63f638",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fees charges super accounts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fd2e8bca-a334-442f-8d00-199f44649ccf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fees on Transaction account APIR BTA1111AU",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fffe6bd5-4358-41a4-b784-e9d794cfe83e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fees on a Cash Management Account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "18c6875e-4218-4e4b-b0d9-bb6f15dc8e3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fees on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "48436a68-9da4-4037-8a06-4dd674b06a24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fund transfer charges",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8bf58b2e-7f13-49d3-bd77-38bcbc9fbaae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Getting unexpected charges",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7aea7e19-4e3e-466a-8eb9-08130d8d499b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey. do i get charged when i change my investment mix",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "3bafbe8b-1d22-4f3c-baf3-3663587ea91d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I have enquired about the fees being charged on Account No 111111111. It is a pre 11 account invested only in term deposits. Please confirm fees being charged are correct? Should an administrati",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a824b78d-545e-40b1-83ce-373d708b4fef",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi my admin costs have doubled?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "1db50576-2776-43db-9b45-9c148553d65c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much am I paying for my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8b7277e2-a43f-453a-b10e-2d6bf7a093d1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much are account fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "158ce153-c96e-4248-920a-cb0dd538b1eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much are the charges?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4348bb92-83ba-4f36-a25c-6ba37d8fca02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much are transaction fees?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "443e0199-747d-406b-be91-491b4d05823e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much charges for insurance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "89fa4b5c-0e15-4b48-be76-4529eb6297a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much does my BT account cost?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "324e4bee-c84d-4fc6-a88c-2e1786e454c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much fees do I pay for my super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e8abfefc-6df9-41c5-b2cb-d6ffc19b194f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much is my fees?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "dedbf243-93a7-4787-9def-cabe8e8dc06b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to change my account fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cff78e49-c0fd-400e-b462-c5e81841f5f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Account fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "319bc7e2-b040-466e-aff3-cebba16b00ce",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Account fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "68a1e273-b1de-4afd-b0e7-75373042ef83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Account fees are expensive",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4e662050-f8c8-463c-a277-a1a933ccec2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Advice Fee clarification",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5b1a85d2-a8c0-4edc-beee-217bdaa8ff01",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Adviser Fees",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "9c3c2632-144b-4b78-8c97-4d403ccc2256",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any charges for investing mutual fund",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a4a0a990-67c2-47fd-830c-0d7e9130c0ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any charges for money transfer?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d35bf21a-ab1e-4e2f-8be3-1808c0897453",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any charges for sending money from other bank",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ead7d7a2-8dd8-4be6-8545-7bafc93f2c85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any charges for use my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "12d614a5-7637-4eef-8920-eb05c02b8322",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any service fee fir atm transaction",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "9f3b53f0-6c30-4c47-91ba-83a0e83d195d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any account fees?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "e6cf7c54-1835-4578-921c-bdfbf955ca5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any fees I should be aware of?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "df3955c0-1859-4723-b9e6-9803d92135b6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there any fees associated with my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0c707f64-958f-4268-b72f-efc72639c2d6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there fees for using BT account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "56b21ea9-0300-4649-822d-df298b513d5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there fees on my account on here?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "30fe37d6-23d3-455d-b787-6b935a66494f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Are there transaction fees if I pay bills using my BT account ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "72d3f11b-dc25-4cbb-83ad-4055b1c4e9bd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bank charges",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9fdbca72-872d-4105-9400-3957ff3ca0b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bank fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ad2ff447-903e-4894-8c30-c671b2abe5ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Bt panorama investment admin fee",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "d8d47042-2aec-415b-ad04-9625e602dd6a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I change my account fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e620c115-616a-4b76-beb8-8ac35e1d723e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I know then why bank charged 11 now",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "71319b29-881d-4f91-a6f7-a5e66027b5c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I remove my account fee",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "162ee3ef-2789-49a8-9f4e-5c7df3a40ca4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I see the fees on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c50787df-8624-460e-83b9-7687b2a88fc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Can you please explain to me how the tax were calculated for my BT Bob account? I have checked with other accounts and the tax amount were quite different even though the contribution and income distr",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6697274a-4655-4003-9456-72f9bc0e1a63",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cost of a transaction",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d2f58f09-45c4-45dd-a828-d73786424ccc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Dedit card charge available",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bebe0e19-c133-4597-970a-0bbe7b2ba42b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have a fee on my account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "14c0b158-18ce-40d4-a048-305ab64daf20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do I have to pay a fee for my account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "c2ac6504-3c8b-462a-9e4c-ba9cd3c71f49",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you charge any fee expenses",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5021e213-cd76-43f7-b413-55596cc48574",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Do you charge for any fee expenses",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "955b4858-e53f-4ab2-ac4b-7ebb74a69e0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does my account have any fees?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "1a56c929-1a7c-42bb-9852-6a14928711a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Does my account have any hidden fees?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "b928ceb2-4c7f-4a67-9e2c-929611ce56fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fee structures",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "93e823a6-115c-495a-ab06-4fbd940b9934",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fees",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "812aa091-d7b0-4d9e-8da0-92cae9c1afd9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fees and charges",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ab8fce3d-cdff-4c24-a811-9b4c1c024c8d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fees breakdown for my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "765384a9-f170-43b2-bd35-af0de7381a5f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fees charges super account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "76ba0fc9-cc4d-43ab-ac53-6a0dfb12e205",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fees charges super accounts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b2045e81-af2e-4848-96a6-37cba736b511",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fees on Transaction account APIR BTA1111AU",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "56288021-779e-48e5-86c3-966279028f85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fees on a Cash Management Account",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6741e711-de75-44ec-96a3-ced4855dad49",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fees on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ef9b1049-4045-437d-bd51-b25de3a50c8a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Fund transfer charges",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "87201768-823d-4834-81e9-5c3efb70b65a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Getting unexpected charges",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9251736e-aa9c-4cfc-ba34-2b1ee2bd41f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hey. do i get charged when i change my investment mix",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "2aa97165-6c43-4f38-87c7-1f866c856798",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi I have enquired about the fees being charged on Account No 111111111. It is a pre 11 account invested only in term deposits. Please confirm fees being charged are correct? Should an administrati",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "82e30c1f-9cd1-4eb4-9078-0ecaf71e9282",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Hi my admin costs have doubled?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c1d075af-2c9f-4ad4-a49a-4f249650ad69",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much am I paying for my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "93c29d4f-795b-4ae9-9421-458854535410",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much are account fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e64b877b-3a73-4d52-88d5-a3652c63a742",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much are the charges?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "26f6749f-51b1-40c5-8c3d-6b5ae0b43010",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much are transaction fees?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2d1c6fc1-a144-4a94-a449-616945c31fd1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much charges for insurance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2e299304-8e6f-4c04-ad9f-f99b66049a96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much does my BT account cost?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "a0807228-e560-4d95-b0fd-fde8e40ece1a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much fees do I pay for my super account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5797683a-d3ec-4172-b931-20c8e259ed00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much is my fees?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4f68c718-c4ec-4abc-ae17-9f47f9a0c0e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to change my account fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f7689f28-2f9c-4925-99fb-d5a403c57ee3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have been charged for nothing",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f7e20cfa-fe2a-474c-a3e4-0d334c41f4fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to make my account free from fee because I am student",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "556be112-4581-4af0-b7cb-9e38449edbee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I was informed totally different fees",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5f4f0bb2-eb6c-45ca-af5a-3f20b08548f5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "If I will not use this account is there any charge",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "774c5d61-e3ef-4c5f-9364-c1ca9395433a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "In specie transfer out fee",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "49471a27-c966-4a55-abb4-64e2d1686737",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a fee to transfer funds to another account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3784fca1-1a13-4e64-9fb3-0bbc451d91a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there any fees on my account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "24a622d4-a797-421b-8095-20de33a200dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Please let me know charges for international use",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "25be8add-e6b0-4057-bfbd-487a47af1360",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Please let me know if there is a fee for keeping the Canadian cash and us cash account open?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b03d0a49-68bb-412c-814e-15b101a20130",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Please let me know other charges",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "cb07ff3e-7a7e-4d07-80fc-8665b1d12404",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What are the charges here and in Cambodia",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ad3acead-547c-4f55-a7f7-0f9f893674f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What kind of fees do I get charged if I used bankname Cards while overseas?",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "241d9f7d-b8fb-4491-9171-5a45624b4b51",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the fee structure for my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e712a2b3-fb10-4525-9f3e-5987947e23ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the present fee on my account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "2dc17898-2e7d-4d5e-9c3b-91ef84dde8a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "When changing my super investment mix, are there fees associated with this",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "293069d1-a3a4-4348-a1c5-1cc376997f50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Where can I find the initial fee that was paid on the account via the portal?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0def6220-73f1-44f1-bb5a-652becfaa3b8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I see the fees I am paying?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "e2258338-d02d-4836-adef-ce354784423e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "accounts fees",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "5d440f09-791e-4dc2-a77a-b54e38368f1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "admin fee for investment account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b39b64bf-8273-4db6-8a9e-97a5857581bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "administration fees breakdown",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8052758c-9da5-4086-b5ff-a06dc2f5fdc6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "advice fee summary for migrated accounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a7a91402-f694-4594-84f0-43d5334e8d72",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "am i charged any fees for personal contributions",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "d7eb76f8-4e6e-45a0-9810-f8abbccc7f30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any charges for my account statement",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a41c6614-2e50-41b6-9bac-846d6775e869",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are ongoing advice fees on super accumulation funds deductible to the super fund",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "ff3f6f14-1856-4467-a5f2-4494e8ea6fec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are there any costs associated with moving my super somewhere else",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "934d586d-05c8-4eba-9550-f31c6434fa10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there any costs associated with my accounts",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "1c2cee52-49c9-48a0-bf89-8d1f5a8be277",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there any fees that I have to pay to have a account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "499f671e-7df3-4e39-8d0d-28bc18854ae2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are there exit fees",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e721a689-f388-476c-8e2d-5c1cd5499f90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there fees for my {@account_number 757134604} account?",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "84138031-3ee3-4715-a348-e46c8ec18ad6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there fees related to account {@account_number 234843569}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "6c187e4f-5dad-45be-a706-71c51274db83",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there withdrawal fees on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3b18d9f9-0b09-4906-8394-81158cb24c5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account details for fee",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "731ec2da-5dff-4d03-ae66-1e4fadc21c93",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "brokerage fee investment account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2173113b-724b-4fe6-ae99-6fc060d4fef9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt manual fee form",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "37a3ad0d-0eea-4b7f-8a56-fd352c3a14c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but should they be input with or without gst",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "711b6065-d6b1-4eca-a3a0-05ab31ab6de6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I know what charge is that for",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5312a2f4-278f-4ce8-9bff-988aaeb41f39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i get a account with no fee?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "37020758-b497-4dca-b55f-b8d59f310d9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you send bt cash management fees and charges brochure",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8a64e356-31dd-4148-acd0-4b49c4fbd4cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you summarize fees on acct {@account_number 978200520}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "6a0bc7e7-dbbb-466f-90cd-035a8656cc7b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of administration fee rates adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "811108d1-cb95-47f8-ab4f-db5b4583341d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charges for accounts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b04a2f5b-e4fd-4f65-beff-9a6705a63629",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any charges for my account statement",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c7e4d57e-9d2b-4d46-9f4e-185a89f5ccf6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are ongoing advice fees on super accumulation funds deductible to the super fund",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "a011cb50-647b-4bd0-b10c-5492ad0f471a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are there any costs associated with moving my super somewhere else",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1a3d7b02-92a0-455d-af3b-2c206b2bf03b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there any costs associated with my accounts",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "44217d32-ba4e-4b61-b75e-57b18d0fb478",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there any fees that I have to pay to have a account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "19758da9-c93b-4142-b542-8e237c39c126",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are there exit fees",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f770b693-038e-4241-a0b0-615579b550e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there fees for my {@account_number 757134604} account?",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "ab3fe33d-1a49-49d4-ba00-7039b31506d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there fees related to account {@account_number 234843569}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "7ffbfb0d-fd8c-4bad-b5dd-a8b0b7aec0ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there withdrawal fees on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "12776f40-f155-4392-8d51-ef85d0120d36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account details for fee",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "3201103b-8c71-44c1-a1c2-ef3721ebe930",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "brokerage fee investment account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "756fe17e-731d-4661-a9e2-a9c2064c4f9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt manual fee form",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e7ed571c-bf00-4765-b3bb-af1e00c0f418",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but should they be input with or without gst",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "75ee18ed-b549-42e1-a9f9-d3b725854b5d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I know what charge is that for",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7152c98b-17bf-476d-85b9-22d860e6daf8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i get a account with no fee?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "c5f3f5ba-428a-4c19-9a22-0b28d162d1e7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you send bt cash management fees and charges brochure",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "57158995-79f8-4364-8daf-1ab9b0e6554d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you summarize fees on acct {@account_number 978200520}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "0c34180f-66d7-4f06-a9a4-7830f8e23051",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of administration fee rates adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "01685597-754a-4b0f-85eb-1605e67d1e1c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charges for accounts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "789f1dfb-18a6-452f-bd7e-6e5e3dfce07a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "any charges for my account statement",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7d5263c7-2a83-48fe-8856-3a244943ac30",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are ongoing advice fees on super accumulation funds deductible to the super fund",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "a9c67628-3946-4079-a69e-2c246223092f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are there any costs associated with moving my super somewhere else",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a2e2879c-2774-4367-b1a2-d78f5074cfa6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there any costs associated with my accounts",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "f6c2edc1-0cdc-4eae-8549-19e9c2388638",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there any fees that I have to pay to have a account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8f0964ee-a9d0-4b29-affb-36ff1b074194",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "are there exit fees",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "860b74a3-d8f9-4ffd-8e77-2a180a1cf5fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there fees for my {@account_number 757134604} account?",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "57024c70-e435-4cf5-963b-aef89404ae58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there fees related to account {@account_number 234843569}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "ae896a1f-6ab5-46e1-8411-eb7a9870b407",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "are there withdrawal fees on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "47be2ff5-fd43-4c0b-960e-edc43c16afc5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account details for fee",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "90ed5054-865d-48b4-b3a4-00871cb0d2b1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "brokerage fee investment account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d7573129-ec02-4db3-9da5-8b781b7261e3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bt manual fee form",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6a685aee-6349-47d9-853f-0089b6ad6190",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "but should they be input with or without gst",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "edb9bb72-dc79-454f-bbf8-7255e3fc3837",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I know what charge is that for",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e578f12e-257b-4c25-9f39-2e21751829b1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can i get a account with no fee?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "a7203e86-30e5-495e-bd5f-f01241072ab8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you send bt cash management fees and charges brochure",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f71c5508-9607-49ae-ad83-bb71cc485805",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you summarize fees on acct {@account_number 978200520}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "edada4f8-cdb2-44c3-beb0-cb90cd85eecf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change of administration fee rates adviser",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "35ae8e50-86d1-4f5f-a66a-8d4ae660770d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "charges for accounts",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "59a41c63-b63e-4157-8c16-e99f1a4851b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client fee",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6aba6d1d-1e79-45a8-bdf0-3d65ffbda4bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "compact menu fees",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "23002d9a-7e07-4292-8a16-1add52b478f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "contribution fees",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7e820f3e-0d13-479b-a91e-9aeee9e905f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "could you please advise where i find a break down of advice fees as in percentage or fixed fee",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0ca7f1c2-8aea-4248-bef0-90f0c1d6aa24",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "data fee",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "85caa1a8-20f0-4f4d-9668-a71d3a2b22a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do you charge any fees on my account ending in {@account_number 170901729}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "a52b9751-a0da-4815-ad74-b5c376b76371",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do you charge exit or withdrawal fees",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "335de111-044a-4dda-b42f-2c3d4f956fea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do your fees lower as super balances grow",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0b2f634a-8d7e-4894-9dc8-0f8b013c24cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "does my {@account_number 633733406} account have fees",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "dba3f479-d4e9-4014-a991-3d56a6019446",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "does the fee consent amount include gst",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "4547861d-8e79-404e-802a-a40d991c0a44",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "email for fees",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5f2034b8-e68e-4ae9-b2bd-006ddb4603bc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee administration",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ede0777d-596c-41c1-9e0e-f06196912db5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee aggregration",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "62c4ec4b-fdb1-44ae-845f-289086caa241",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee check on new account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0bb3456b-70ef-474e-aef2-7f27bdc89d20",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee information",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9ab5d10b-4919-4e21-8a3f-842440dacea6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fees",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0db0ec97-54e3-4939-901f-bcf752d6d5d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fees and cost",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "5b13e2e6-f5dc-426c-bb24-1ebcbb63248d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fees charged for period",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0711b879-1f36-47b1-b8a1-b7bec5b5f476",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fees for acct",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "e5cea2a5-a61d-4824-9788-88fffcdb4712",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fees paid for specific period",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ed77c99b-5085-4084-8e69-9b751dcb55e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fees statement",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c85e0828-5130-40d5-a92f-bb817f5d0070",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello could you please confirm the admin fee for accumulation accounts the fee page said 111 $ would this still apply to an account with",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f97b0c18-2717-442b-b86e-4e24779092ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hey is there a transaction fee charged on investments",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "700b850f-b5ce-4a60-9a9d-f8b3c2978d53",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi can you tell me how much i have put into my account and how much the fees hve been since inception",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5c97be21-9bda-4a6e-86c4-e3c3f78909a9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have a tpa for a muytual client and just want to get a run down on fees charged to the account",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "babd5e46-9a92-4423-82c2-5ce818b40908",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what is monthly tax installment costs",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "f37f0ff7-a6da-4e17-b04a-8ab5ea0d5a45",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i see the adviser fee if processed",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a16af3e4-d46b-498c-8f66-385aa0057ddf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i view when clients fee is meant to end",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d60c3416-27a3-4767-b844-2d39343543f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i charge a one off fee to an current client",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "9c3adbf8-d309-434f-85a6-4f8319382a87",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i know if a client has admin fees in e-wealth",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cb3b082f-4339-49cc-9d90-7777e5124ec2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do i view my fees",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "34068baf-217a-4929-a0d5-0890f48911f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i view ongoing adviser fees",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c4cd39da-89d8-460b-9fd3-7217d95daddd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how much is an offmarket transfer",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fe5f5f11-ce0f-429b-864a-bfeb2055995d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much the charges for it?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "73bcb7fe-da97-4d2b-8021-112c70fee82d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to index fees",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6bd6fe8f-63e5-4a52-8711-bafefc7fdc1e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to load a fee",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "ade8f167-7e7c-4a30-a2e4-9b2f281852b7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not have account details with me",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "ace59933-e65a-459a-bfca-7b1cba2bf4ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to check how to send a fee discosure statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "241e3c16-d043-41fa-8c2b-7be87ab6c1a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i was charged additionally",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4f0c9f0f-ba42-4a63-bf4e-ad5e623cdf34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to see fees and charges brochure",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7ada1ad0-e0b5-4f22-8213-cab61cdaf681",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in specie fee",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0b7ae53f-b332-4d30-91b0-a97b99ca0a72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in-situ transfer fees",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "57bea474-a588-47f2-9ce3-45c0ba3cc79c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in-specie transfer fee",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9cc28e26-6bd0-4a87-a4ec-085b82065408",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment fee",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bfa289e4-a483-49b3-ba67-2a570ccb6b90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "investment fees",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "b138c7fe-92dd-4963-9e07-40db1c0e9ecd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is my BT account free",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "0f2f3ebb-6198-47a1-839f-e7fe07e547a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is the fee one",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "afeebe0d-82c8-4796-99a4-0a87fecf5737",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is there a fee to make a payment",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9956a4de-e8b4-4336-aa71-49f495ef2970",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is there any fee that i have to pay if i would like to withdraw my money from the amount of cash available",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0c8fa315-62d2-4a5f-aaa0-11019e00496e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is there fees for {@account_number 487951528}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "a4c80587-2f1d-4ef0-904d-d66540e01808",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to obtain commission statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "eb184687-eca9-4264-99b9-98ed3b47169a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "new account fees",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "94d78197-5388-442a-9966-1361d7d810fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "no i want to calculate fees for a new client",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3b662fca-b3ca-4144-a3b6-17505620bfcc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "panorama open pricing fee schedule",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d588b647-c535-4a43-a1c7-e3dbcfc92b98",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pension commencement fee",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "91920573-357b-41e4-b72f-79fd13133e33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show fees for my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "580459fd-dcfd-4a77-a651-fe4b311b0774",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "standard bt brokerage fee",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ca587ce8-81bb-411d-a889-8335ec7fa4c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "tailored portfolio fees",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "47f1cc06-fb1b-4dd1-a525-e40ad71d7343",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me all the fees I need pay on my accounts",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "6a7afd94-4fba-4446-ba76-4f33d7cdc0ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me what my BT account fee is",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "8a8bdbd8-b2b5-489e-8e6f-5c7595aa5504",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "total fees for previous financ",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "abfd9325-6cb9-478d-8397-e365b1e381c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view fees",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2c997faf-9462-48b7-a783-690ef05c5fe4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "westpac fees charged",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a3b5081c-0f79-47c7-a130-e91db7ed4763",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the fee for the managed fund with the apir code etl1111au",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "374970cd-0a1f-4eb5-8caf-a8b134c036ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what account fees can I expected to be charged for my account {@account_number 245853212}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "8a868974-be4f-4967-a4f2-f2370a2497de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are all the fees on my {@account_number 702784667} account",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "fd0339ef-d82d-46d9-848f-0b4e0f01f615",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are fees for account number {@account_number 918340613}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "d7285527-0026-44fc-acfe-af1d49d810a0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are fees on the various accounts BT offers",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "2e2a19aa-e8ac-4020-b04d-64d8e3ea8273",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the fees",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "119782a1-64de-47f0-98ab-c76876b76212",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the fees for my {@account_number 917634406} account",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "db7ffbdb-a1e2-4d18-9d93-734f650ef330",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the fees on my super?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b6570ee9-e5fb-49a1-88e0-155e1bdccc72",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the fees to keep my accounts",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "31a16b3a-ce21-41fd-91c5-7c405adebeb1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the fess on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "20b9dc4d-8583-4ef6-8bab-628cab6866f3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "total fees for previous financ",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "edb12b9d-1540-49d7-b9b2-9939a3c7ac28",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view fees",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f8ccabdc-64f1-41f8-9c99-8e47241a7acc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "westpac fees charged",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3163e2d3-f06f-4b72-a355-7e1a5f80676e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what 's the fee for the managed fund with the apir code etl1111au",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f2ad4e92-e075-4475-b95d-346720a6a520",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what account fees can I expected to be charged for my account {@account_number 245853212}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "549bda70-fd37-4305-8e8c-2852f9bd20db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are all the fees on my {@account_number 702784667} account",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "e7aa49dc-ac04-40d9-8907-cc855c8c42ba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are fees for account number {@account_number 918340613}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "2dd37661-cb1e-4711-a3df-6b7ad38227ee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are fees on the various accounts BT offers",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "2e9bd12e-87e7-4a76-a371-0d0367478885",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the fees",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "c501310c-a108-4cdc-bba8-722b7bd6c880",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the fees for my {@account_number 917634406} account",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "584c1c22-c211-4989-907f-430299e84cec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what are the fees on my super?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "51109273-4485-4b92-8a54-d5641ca0187b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the fees to keep my accounts",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "5fc08d7f-aeca-439d-a056-62d5785bb442",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what are the fess on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0425f3c1-4f08-415e-b6e2-32978b01c215",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what fees are associatate with account {@account_number 209976063}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "ece28abf-0a44-4bf0-9065-e9b33fee76ca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what fees do i incur when closing this account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "cd72ea32-3400-4a8a-bdf8-1b6214ce49c9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what fees do you charge on an account",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "360e606c-5242-4c42-b1fb-76505446d4d2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what fees do you charge then",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "a1585f65-5088-4aac-b7ed-12ca2a757fd7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what fees will i be charged if i close my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "04afe6a8-dd97-4c47-8286-607caaa4ce13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is teh admin fee on panorama compact",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ce598ac0-429d-45ca-b1c3-a3233d843f81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the cash fee?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "bf9385b0-0b99-44d1-94e0-eccaceafdabf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the charge",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "67fba23b-d20b-4157-abb8-dfbb2982588d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the charges",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f9e2e8c9-89f1-43c6-aca2-62efdeecc579",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the cost for exiting or transferring my super to another company",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "97eb1157-a803-426a-a9c5-9feedfe95803",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what were my fees",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "5579a793-3802-4324-a6ae-e761af63916b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the price of my account?",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "a9327823-02f8-40fe-a19a-082fa7afc52b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats the fee for my investment account",
+    "tags" : [ "prodteam_2020_03_guai", "test_gold" ]
+  }, {
+    "id" : "af2d417c-990e-4a0b-bea9-0325dd3bbebf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when does the custodial holdings fee come out",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c48b1826-3e4c-48f9-811f-2e50fb693e64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when is fee paid",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "1a74288e-153e-4790-a47e-efb279a566f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can I find the information? this account is new and I can't find any fee under the account fee",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "5de103d3-b3d1-4a0e-ae0c-3a9505167db9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find cost base dates for investments",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fdf7ed1a-66cc-4372-9311-47568e9a57eb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do I see fees?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "e9cf6cff-cd1b-419e-b4c7-91f084c5d648",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find a fee calculator please",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5701a0ca-757f-4544-8166-95bbfa998079",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "who is the ongoing advice fee payable to",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "7b49cdb6-6b61-4fbc-8c9e-b672c1c42f1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "will they be paid monthly",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  } ]
+} ]

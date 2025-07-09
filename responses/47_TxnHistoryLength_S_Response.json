@@ -1,77 +1,96 @@
 {
-  "name" : "47_TxnHistoryLength_S_Response",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "You can see all of your transaction history. Please select the 'Show me how' button."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "You can see all of your transaction history. Please select the 'Show me how' button."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "walkme",
+          "payload": "864364",
+          "label": "Show me how"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "walkme",
-        "payload" : "864364",
-        "label" : "Show me how"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "Once you sign in you can see all of your transaction history."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "INTENT",
-          "intent" : {
-            "name" : "bt_login_failure"
+  "segment_responses": [
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "Once you sign in you can see all of your transaction history."
+            }
           },
-          "label" : "Help me sign in"
-        }
-      } ]
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "INTENT",
+              "payload": {
+                "name": "bt_login_failure"
+              },
+              "label": "Help me sign in"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "You can see all of your client's transaction history under the 'Transactions' section of the navigation menu when viewing your client's account."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To view transaction history, select 'Go to page'. To view transactions older than 3 years, sign in to the full Panorama website."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "32",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_mobile_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To view transaction history, select a client's account and then select 'Transactions'. To view transactions older than 3 years, sign in to the full Panorama website."
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "You can see all of your client's transaction history under the 'Transactions' section of the navigation menu when viewing your client's account."
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To view transaction history, select 'Go to page'. To view transactions older than 3 years, sign in to the full Panorama website."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "32",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_channel_mobile_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To view transaction history, select a client's account and then select 'Transactions'. To view transactions older than 3 years, sign in to the full Panorama website."
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "47_TxnHistoryLength_S_Response"
 }

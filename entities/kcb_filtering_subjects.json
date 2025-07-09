@@ -1,27 +1,55 @@
 {
-  "name" : "kcb_filtering_subjects",
-  "type" : "Enum",
-  "system" : false,
-  "options" : [ {
-    "value" : "account",
-    "aliases" : [ "accounts", "account" ]
-  }, {
-    "value" : "account_type",
-    "aliases" : [ "account type", "type of account" ]
-  }, {
-    "value" : "account_name",
-    "aliases" : [ "account name", "name of account" ]
-  }, {
-    "value" : "account_number",
-    "aliases" : [ "account number", "number of account" ]
-  }, {
-    "value" : "date_filter",
-    "aliases" : [ "date", "dates" ]
-  }, {
-    "value" : "direction_filter",
-    "aliases" : [ "direction" ]
-  }, {
-    "value" : "description_filter",
-    "aliases" : [ "description" ]
-  } ]
+  "type": "Enum",
+  "system": false,
+  "options": [
+    {
+      "value": "account",
+      "aliases": [
+        "accounts",
+        "account"
+      ]
+    },
+    {
+      "value": "account_type",
+      "aliases": [
+        "account type",
+        "type of account"
+      ]
+    },
+    {
+      "value": "account_name",
+      "aliases": [
+        "account name",
+        "name of account"
+      ]
+    },
+    {
+      "value": "account_number",
+      "aliases": [
+        "account number",
+        "number of account"
+      ]
+    },
+    {
+      "value": "date_filter",
+      "aliases": [
+        "date",
+        "dates"
+      ]
+    },
+    {
+      "value": "direction_filter",
+      "aliases": [
+        "direction"
+      ]
+    },
+    {
+      "value": "description_filter",
+      "aliases": [
+        "description"
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "kcb_filtering_subjects"
 }

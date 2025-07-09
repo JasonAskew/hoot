@@ -1,0 +1,66 @@
+{
+  "context": {
+    "user": {
+      "session_id": "node01osqnwg0pkx1zozqy8v3iqbk0240175184351217111f6aa77-20e1-47dc-80e5-2696af2c742a",
+      "segment_names": [
+        "bt_account__advised_super",
+        "bt_account_super",
+        "global"
+      ],
+      "meta_fields": [
+        {
+          "key": "platform_type",
+          "value": "web"
+        },
+        {
+          "key": "product",
+          "value": "BTPanoramaSuper"
+        },
+        {
+          "key": "userType",
+          "value": "Advised"
+        },
+        {
+          "key": "accountType",
+          "value": "super"
+        },
+        {
+          "key": "accountSubType",
+          "value": "accumulation"
+        }
+      ]
+    },
+    "api_version": "5.8",
+    "model_version": "MODEL-core-en_AU-2025_05_21_00_42_40",
+    "nlu_details": {
+      "matching_intents": [
+        {
+          "intent_name": "bt_deposit_funds",
+          "intent_confidence": 1.0,
+          "display_sentence": "How do I deposit funds to my account?"
+        }
+      ],
+      "predicted": {
+        "action": "start_conversation",
+        "triggered_intent": {
+          "name": "bt_deposit_funds",
+          "confidence": 1.0
+        },
+        "user_inputs": [],
+        "ambiguous_user_inputs": []
+      }
+    },
+    "data_version": "ASSISTANT-model-core-en_AU-2025-05-21-e8885cac-a5d1-45c2-ae97-3d44cad593e4"
+  },
+  "message_contents": [
+    {
+      "type": "TEXT",
+      "payload": {
+        "text": "For now, I can't help with that. But I'm always learning."
+      }
+    }
+  ],
+  "status": {
+    "code": "200"
+  }
+}

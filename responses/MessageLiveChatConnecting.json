@@ -1,0 +1,30 @@
+{
+  "categorization": {
+    "tags": [
+      "live_chat"
+    ]
+  },
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "AVATAR",
+        "payload": {
+          "state_name": "agent_connecting_bodymovin",
+          "display_mode": "PERSISTENT"
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "You're now being connected to a live agent."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageLiveChatConnecting",
+  "display_name": "Connecting To Live Agent",
+  "description": "The customer is waiting for an agent to join the conversation."
+}

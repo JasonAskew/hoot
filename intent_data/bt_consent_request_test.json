@@ -1,0 +1,730 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_consent_request_test",
+  "intent_name" : "bt_consent_request",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "e8ce8e7d-6045-40b3-8ab1-048e01303bdb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Advice Fees Client Consent",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "1c9b07fe-1b17-41e0-9e14-69dd09d59fae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I view the consent request online?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2e81a0c2-18fe-4dfa-91e5-d002a7dd5bb6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fee Consent",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "62f04385-1608-4fb1-b34b-278b2b637cd3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fee consent",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "cf27fb6d-07ba-432a-abcc-caa053244cfe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How Do I consent to draw down request",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3c119c30-7e8e-44af-a760-0b041f9d4088",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the consent request?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "79274efa-a3e1-4a96-bcd8-2e2e896adc8b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to find the consent request?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fbe6fdd5-3a1a-48ac-a50e-c45ad7e209a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to generate a fee consent report?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "852adb70-0efa-4386-91a9-97773f5e895e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to lodge fee consent to BT Panorama",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "416c7d6b-2016-443d-a655-e92e73716704",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am trying to give consent for a Pay Anyone account to be added. I have given my consent and it is noted but my wife's consent is needed also and I cannot find the way to do this - the panel that op",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "dc9d9984-e5f2-487c-accc-4b76c4de079f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Advice Fees Client Consent",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "60bc1ae3-03fe-4552-a516-949d50e39254",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I view the consent request online?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3575f468-a708-4f6f-8a22-1859bffbe157",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fee Consent",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fbc1dd1d-f966-4ec9-8ce8-266578cf76b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Fee consent",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "fc430c11-b612-452c-933f-1e367d1d598c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How Do I consent to draw down request",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "745b6aa8-5344-4513-8a82-7d13d3189f3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the consent request?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c72670fc-c581-4abf-b303-ec7b9f21964f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to find the consent request?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8c114b44-4477-4cd8-bc55-8f419a3916ea",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to generate a fee consent report?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "275ae280-08e8-4547-a403-4417a87f9f74",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to lodge fee consent to BT Panorama",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "73df4c99-6d47-4a2b-a914-8b9ad431d8ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I am trying to give consent for a Pay Anyone account to be added. I have given my consent and it is noted but my wife's consent is needed also and I cannot find the way to do this - the panel that op",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "f02b1f48-61ae-4a9a-a348-84475098b00e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to download a manual fee consent form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "84dd7e75-6cef-4c49-89c3-eb13a60cfeca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I want to consent to fees",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "6b9de45a-1f97-4f71-9852-17d6e5f56dc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to view the consent request sent by my advisor",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c1c3871f-7283-4ad5-8c4c-b269484b0624",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to submit my consent request sent by my adviser",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0477c0f6-7401-46d9-bca5-186e1345d77c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "In need to know where to get the consent request",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c22d3d05-383b-44ca-b5ab-b5657d96ba9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Rejected fee consent",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "673cecc0-dcb1-4f6e-b3b7-cab77a0ee6b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show my consent request that my adviser sent",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "219d2a73-2365-4d22-a6d6-9dfff77e2ccd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me where I can find the consent request",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fff6855a-3a09-450d-9669-80768da50d96",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where to find the consent request?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ee3fb434-138e-4dea-983b-3d468a624249",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "adding a bpay biller client is stating not receiving consent request",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "1e1ffe3f-faef-4cdd-aeac-603f7e6649a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "advice fee client consent forms",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "e7af984e-6e2a-40e8-953c-c15f0338c1a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "as adviser where do i go to check on client consent",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0adbf0d0-f64c-44f5-9edb-1669062e1f9a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please show me where to get an adviser fee consent form",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bfdc2681-c905-4ce0-9ef1-cd30915f3ae7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you upload the advice fees client consent forms",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9b1e055d-382c-4334-ae3a-46ead1038f63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change the anniversary date of a fee consent",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "87ac38e2-7be6-4e74-815f-00f01a84bc14",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "as adviser where do i go to check on client consent",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e27a0f74-63ad-4a11-a7b7-f851f44721a0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please show me where to get an adviser fee consent form",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "512e1380-cbd4-4392-9000-fb9f4cabdbf1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you upload the advice fees client consent forms",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d444bf53-118d-4aae-8983-2441a7982710",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change the anniversary date of a fee consent",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "197bec0d-24bc-463d-99a5-1e4f432b4d81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "as adviser where do i go to check on client consent",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a23c8125-b62b-4b88-b1b2-2a81b8248890",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please show me where to get an adviser fee consent form",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1f911212-1b51-4a22-8c7d-2ae9c60d7042",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you upload the advice fees client consent forms",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bf383e57-04b9-495b-8d2d-e398cf8657ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "change the anniversary date of a fee consent",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f143d5ac-adb1-46fd-a2e1-c1c6e4ae5c52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "client consent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "94830bd4-56d9-435f-83c9-c090c046799d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "consent for client",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0508ba03-b091-46ec-a81b-b4d807cb1647",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "consent form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8df4686c-dbcd-4651-a0b1-ec402efc452e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "consent management in progress",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3ca91c5e-36c2-4360-965e-66049fbca171",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "consent management upload",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fc4a91c8-2769-4c89-b5ca-4255c67ad944",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "consent mnaagement in progress",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eed90a01-be55-44dd-831e-04571c6b8b9b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "consent not showing",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9535a85e-eae9-4309-86a1-bad196c1f364",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "consent question",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c5f37213-5205-4c58-bf29-a908c64b9cca",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "consent request",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "8f5c56bc-a0c8-4d66-8519-1aea4915f54c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "consent to linked bank account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "130c7e17-25a7-4698-8cf8-6dfbe3aad57e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "document uploaded for consent form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c15e4829-8744-48c2-8989-b10d17654e39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "download fee conswent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b5dd8eb2-c5e6-4641-9848-99603cd44c73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "electronic fee consent",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6fb58754-161a-4943-aed9-9ae6338005ec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee consent date report",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b1ecaf87-1d84-40f5-bc22-85d736673044",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee consent for",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f9c58708-bbcb-48c2-ac55-e3aba77a0513",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee consent form",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "50e2249d-0b4a-4a55-9739-50e8a8222caa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee consent form download",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dcfdd991-181d-4935-9dfe-266284d91b33",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee consent form upload",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "61196be0-9ce2-46a9-8b37-0881012711d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "fee consent in progress",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cc69c121-429f-49f9-95e5-d15bf12b4215",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "follow up outstanding consent",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "65eb5b0f-9f6f-45f8-91eb-ee6089bd145c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "get client consent for investment switch",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "598ff10e-b00f-403e-8791-11f3ed419abd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "help with fee consent setup",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3e3d144d-5111-4b8b-bf74-7b37689db447",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do we print the online consent for the adviser fees",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4449ea46-ce02-48f9-ad57-608854899098",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i have an advice fee waiting consent approval and will expire in 11 days how to a get consent approval",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7690bb3f-277d-4193-a886-38c63d5b9c73",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i submitted a fee consent but the client forgot to add their namehow do i upload the form again with the name",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "544f35c7-cdd0-4d72-8bc6-6d58845ae70f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi team i have submitted a fee consent request for 11 bob : 11 : 11 that has not been processed and i have not",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7dab6e4e-1fc2-4f8b-8ba9-56e8574dea1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there client bob has a consent expiry date of 11 april how do i go about renewing the fee consent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3aa5314d-2cdf-4857-bd94-992c91856209",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where do i see consent management under the client",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d25012e2-4f05-4aec-b316-7a1cc079d6b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ho do i print the fee consent form",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5a5f57ad-10ba-4962-bce6-41c68bf70898",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i see expired consent requests",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3b30f530-2ab1-47a3-bd85-1ba6f5448687",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do gain access for the other consent request to consent",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e41b3257-ab95-4364-bda2-c5ef8e8b864b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i do a new fee consent form",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "14c8aba0-643e-480f-849e-a01f87ce2dff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i find renewal consent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "43abdc22-9c2d-40be-9c62-886652ece404",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i upload the consent form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7674154c-20cb-4970-9971-cc5ee398545c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how does a clienr complete fee consent",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "37f41966-ebc4-4142-8fcb-c00bef89819c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to confirm consent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9fcc3834-bac6-4f2b-a01f-426852ebc611",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to post fee consent to client after sending an electronic version",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "7e0c6353-25d0-49a3-b809-f9cfa0422bb5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to set up an ongoing consent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6d2fa3e1-58fa-47d1-8121-fa4b4cb254f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to submit advice fees client consent",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6c19b707-49fa-4e87-b7cd-5776f8790134",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to upload the advice fee consent form",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "67bb3a5c-09bc-4feb-b2c9-00fe3dd4ad6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to uploade fee consent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c4d8b5c0-3d57-4818-9a35-3185b0b16dbd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do not have access b ut i can open the message box and see the request",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e19e794b-d85a-49eb-870e-916e6038f352",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have a consent request on the messages page which i wish to respond to how do i do that when i click on the",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c6278930-2cd3-4394-b36e-2acbb4567203",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i have just completed a fee consent form for an 111111111 and it is asking to go to the actions menu to download the form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ed2815fe-34fa-48c4-8ed2-0fa48f568a2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to consent a request",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "864f685a-dc53-4112-874d-e5c4319f826d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "insurance consent form for inactive account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c5c4c120-070c-4cb6-a569-54c8c3498b43",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "is the latest fee consent form dated november 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2fbf31db-376e-4885-b368-c4dbb62c1db9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking at generating a consent form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "78ca9fd1-181e-47d6-a601-2eeedd54de68",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "managed portfolio fee cosent",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "43fd79a6-6e4d-4bc3-b6ca-ee3795a57165",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "manual fee consent form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bf8f97aa-ae54-414d-92cf-09a6ace40929",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need assistance on fee consent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "f419e27e-7f1e-4b7d-838b-a09939604968",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "next select add linked account and enter the detailsthe client will then need to accept the consent request via their panorama account to learn more",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5d1d1c59-216b-4ffc-8573-fdd63c7b9d71",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ongoing advice consent fee",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "19bfdb64-cdb4-45c1-b667-ff1d766d8f8d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "ongoing fee consent for joint accounts",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "45506b0f-fb83-4497-930f-b476ca77e036",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "online sma fee consent",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ca9f2abf-b496-4a68-a879-e1a1c4860f70",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pending consent adding account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5aa68f48-be56-4a48-86b9-623bd640b3fb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "pending consent request",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9728a82c-55a0-4bfe-babd-75c1b94d4b31",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "product consent",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "91e7781d-c55c-4eaa-8257-d439e75e1a8e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "renew advisor fee consent",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "9e6274d5-5cef-43ce-ae83-e3c5fd762f08",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "renew fee consent",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e70f10db-68aa-49e2-8dc1-1b042a6939bb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request consent form",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2bd0f031-3a3a-4896-82ae-b35a43a4b6c5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to download a consent form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "01f4372b-4591-4e58-931c-0147f2b49d34",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload a fee consent form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "cdca77a4-b994-4360-a4bb-b8ea4ca6e1d7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload document fee consent",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6cba2917-b507-4193-9559-69d533074e89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading a fee consent",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1543c393-4620-40e9-ad81-1cfc28d594dd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to download a consent form",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "e86d804e-189c-40d0-b508-174de3811d2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload a fee consent form",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ab970bbd-adec-4453-8226-bb04cd398797",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "upload document fee consent",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c948fc9a-01f0-4f72-be7e-e926a9c98f58",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "uploading a fee consent",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "660c5213-1151-4b06-8fb1-035104855285",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what form do I use to set up ongoing adviser fee",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "c013232a-8817-46ed-bd35-8bd5640229c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is a consent request",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "ac8dc06f-22ab-4204-9364-047dc3faeb3c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find a pending fee consent",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "238859c9-1a30-4013-ab31-f5842929ca1f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i download the consent form for the cl ient to sign from it said under actions which actions",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "44260bf0-448b-4824-b9d6-07916137f067",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find consent management",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dbb0c37e-c651-4d5d-b655-d82add5d860b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the advice fee consent forms",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c2d504b2-eb94-4925-a545-37121ad15f13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where to submit asf consent renewals",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d07211ce-ebde-4eb5-8e1e-8f1d64e4c5f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why did i receive a text saying that i am yet to complete account set up and permissions form",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  } ]
+} ]

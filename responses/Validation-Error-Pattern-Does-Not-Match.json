@@ -1,13 +1,16 @@
 {
-  "name" : "Validation-Error-Pattern-Does-Not-Match",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "That is not a valid response. Please try again."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "That is not a valid response. Please try again."
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Validation-Error-Pattern-Does-Not-Match"
 }

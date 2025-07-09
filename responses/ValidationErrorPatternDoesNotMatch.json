@@ -1,0 +1,16 @@
+{
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Invalid pattern provided."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "ValidationErrorPatternDoesNotMatch"
+}

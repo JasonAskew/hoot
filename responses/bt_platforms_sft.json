@@ -1,94 +1,117 @@
 {
-  "name" : "bt_platforms_sft",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "As part of BT’s simplification we have closed the super fund Retirement Wrap. This means BT Panorama Super accounts have been transferred to another super fund called Asgard Independence Plan Division Two. For more information select 'Go to page'."
-      }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://www.bt.com.au/content/dam/public/btfg-bt/documents/professional/platforms-sft-external-member-faqs.pdf",
-        "label" : "Go to page"
-      }
-    } ],
-    "quick_replies" : [ {
-      "type" : "INTENT",
-      "payload" : "Choice of super fund form",
-      "intent" : {
-        "name" : "bt_employer_contribution_details"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "As part of BT\u2019s simplification we have closed the super fund Retirement Wrap. This means BT Panorama Super accounts have been transferred to another super fund called Asgard Independence Plan Division Two. For more information select 'Go to page'."
+        }
       },
-      "label" : "Choice of super fund form"
-    } ]
-  },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "As part of BT’s simplification we have closed the super fund Retirement Wrap. This means BT Panorama Super accounts have been transferred to another super fund called Asgard Independence Plan Division Two (Division Two fund), as part of a Successor Fund Transfer (SFT). For more information select 'Go to page'."
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://www.bt.com.au/content/dam/public/btfg-bt/documents/professional/platforms-sft-external-member-faqs.pdf",
+          "label": "Go to page"
         }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.bt.com.au/panorama-sft-hub.html",
-          "label" : "Go to Page"
-        }
-      } ],
-      "quick_replies" : [ {
-        "type" : "INTENT",
-        "payload" : "Choice of super fund form",
-        "intent" : {
-          "name" : "bt_employer_contribution_details"
+      }
+    ],
+    "quick_replies": [
+      {
+        "type": "INTENT",
+        "payload": {
+          "name": "bt_employer_contribution_details"
         },
-        "label" : "Choice of super fund form"
-      } ]
+        "label": "Choice of super fund form"
+      }
+    ]
+  },
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "As part of BT\u2019s simplification we have closed the super fund Retirement Wrap. This means BT Panorama Super accounts have been transferred to another super fund called Asgard Independence Plan Division Two (Division Two fund), as part of a Successor Fund Transfer (SFT). For more information select 'Go to page'."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.bt.com.au/panorama-sft-hub.html",
+              "label": "Go to Page"
+            }
+          }
+        ],
+        "quick_replies": [
+          {
+            "type": "INTENT",
+            "payload": {
+              "name": "bt_employer_contribution_details"
+            },
+            "label": "Choice of super fund form"
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_advised_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_asim_investment",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_annuities",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_account_btinvest",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "This query does not apply to this account type. Is there anything else I can help you with?"
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_account_advised_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_asim_investment",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_annuities",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  }, {
-    "segment_name" : "bt_account_btinvest",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "This query does not apply to this account type. Is there anything else I can help you with?"
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_platforms_sft"
 }

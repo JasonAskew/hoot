@@ -1,0 +1,70 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_why_minimum_cash_balance_test",
+  "intent_name" : "bt_why_minimum_cash_balance",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "bd972b49-c11f-4b92-b4a4-2f77ea5d8620",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Why won't you let me withdraw all the money from my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d05a9c15-2f43-490d-8048-bc48f80267f0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do you increase the minimum balance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "85fd2ddf-c8b1-4cf4-af05-e8ee229ec1cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum account balance on bt panorama investment",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d26c6d8a-3d20-4ca5-9b0f-6d78e9f7eda6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum amount for investment into wfs1111au",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "17f6383c-c89b-49c8-90b0-af93c26d7722",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is the minimum cash balance for a smsf portfolio",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "6df849f8-f38c-4741-9333-f1902b2d6e10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the point of a minimum balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8cb61602-e385-4018-ad7a-2e1c33a042d7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the reason for a minimum balance in my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "62cb1128-0d09-4619-8740-9d81c1f0fd00",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why am I unable to take all of the money out of my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1ac048ac-4202-407f-b658-f83c857741b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why is a minimum balance in my account required",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0674fc1a-564f-4b33-94ee-ace0d22b6d90",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "why is min balance required?",
+    "tags" : [ "goldset", "test_gold" ]
+  } ]
+} ]

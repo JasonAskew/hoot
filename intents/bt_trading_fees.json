@@ -1,49 +1,64 @@
 {
-  "categorization" : {
-    "skill" : "account_information",
-    "tags" : [ "fees" ]
+  "categorization": {
+    "skill": "account_information",
+    "tags": [
+      "fees"
+    ]
   },
-  "name" : "bt_trading_fees",
-  "display_name" : "bt_trading_fees",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "bt_trading_fees"
+  "webhook_name": "ClarificationIntent",
+  "webhook_params": {
+    "default_response_name": "bt_trading_fees"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "CANCEL"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "CANCEL"
     },
-    "outgoing" : {
-      "allowed" : true,
-      "allow_resume" : false,
-      "max_outgoing_interruptions" : 1
+    "outgoing": {
+      "allowed": true,
+      "allow_resume": false,
+      "max_outgoing_interruptions": 1
     }
   },
-  "display_sentence" : "What are the trading fees",
-  "slots" : [ {
-    "name" : "account_type",
-    "entity" : "KCB_FLAT_ACCS"
-  }, {
-    "name" : "users",
-    "entity" : "KCB_MY_TYPE"
-  }, {
-    "name" : "account_id",
-    "entity" : "ACCOUNT_ID"
-  }, {
-    "name" : "account_number",
-    "entity" : "ACCOUNT_NUMBER_PATTERN"
-  }, {
-    "name" : "account_name",
-    "entity" : "ACCOUNT_NAME"
-  }, {
-    "name" : "asset",
-    "entity" : "KCB_ASSET_CLASS"
-  } ],
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "messages" : {
-    "IntentMessageCancellation" : "Canceled. How can I help you?"
+  "display_sentence": "What are the trading fees",
+  "slots": [
+    {
+      "name": "account_type",
+      "entity": "KCB_FLAT_ACCS",
+      "message_contents": []
+    },
+    {
+      "name": "users",
+      "entity": "KCB_MY_TYPE",
+      "message_contents": []
+    },
+    {
+      "name": "account_id",
+      "entity": "ACCOUNT_ID",
+      "message_contents": []
+    },
+    {
+      "name": "account_number",
+      "entity": "ACCOUNT_NUMBER_PATTERN",
+      "message_contents": []
+    },
+    {
+      "name": "account_name",
+      "entity": "ACCOUNT_NAME",
+      "message_contents": []
+    },
+    {
+      "name": "asset",
+      "entity": "KCB_ASSET_CLASS",
+      "message_contents": []
+    }
+  ],
+  "machine_learning_enabled": true,
+  "messages": {
+    "IntentMessageCancellation": "Canceled. How can I help you?"
   },
-  "multi_inputs" : false
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "bt_trading_fees",
+  "display_name": "bt_trading_fees"
 }

@@ -1,0 +1,293 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_fraud_seed",
+  "intent_name" : "bt_fraud",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "65c82a11-1580-4822-9b6b-fc81c9e9cbb4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me, I think I‚Äôve been scammed",
+    "tags" : [ "westpac_seed" ]
+  }, {
+    "id" : "78aaa2f7-978e-42ed-98e3-701ebc00199b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you put a lock on my account?",
+    "tags" : [ "westpac_seed" ]
+  }, {
+    "id" : "33896f05-e02a-4c77-b631-1913c74fda75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cyber Security"
+  }, {
+    "id" : "d50d3891-a386-4182-ac76-13af5585c51c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Data Breach"
+  }, {
+    "id" : "e64c129b-f590-4b45-942c-1c1786a1f159",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Data Leak"
+  }, {
+    "id" : "20f8b811-c868-4236-8afb-f82641be1f42",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I report fraud?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "eb677e9b-f847-43c8-aa11-1955fd74656b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does BT Panorama protect its customers against fraud?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "985048fc-504b-4a93-8296-6f455b927ba3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cannot recover from this.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "1ea04cf6-4f8a-452b-bfa9-e71a9a05c816",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me, I think I‚Äôve been scammed",
+    "tags" : [ "westpac_seed" ]
+  }, {
+    "id" : "fe3d7840-cd7c-483f-abe3-b268a0bce4b7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you put a lock on my account?",
+    "tags" : [ "westpac_seed" ]
+  }, {
+    "id" : "a7890501-d8a8-4ed4-8b6f-6389242176f4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cyber Security"
+  }, {
+    "id" : "1b5db138-5803-43f4-a7c7-728944c7fd60",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Data Breach"
+  }, {
+    "id" : "4b62a60d-1151-429d-9431-d2ea4b16e56d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Data Leak"
+  }, {
+    "id" : "fc043a3a-cd7d-4da7-aee7-2b8dccfb71af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I report fraud?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "e235b92f-35c3-4ffe-a078-bcfa5ff277d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How does BT Panorama protect its customers against fraud?",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "c990dd49-0d56-47f0-8f7a-1b7d0dbbc544",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cannot recover from this.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "6709822c-6197-4dbe-b4e4-73aad9346132",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have been hacked.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "b266ccb6-ad7b-4595-a277-d37ee7cc8604",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I have lost my account details and worried someone has them.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "d8a3d3aa-32fe-48e2-9f30-8530810b7f03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to have someone lock my account.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "bb764d97-a402-46e0-bc3d-9c36de165f04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to place a lock on my account.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "27a6e4ab-dc47-48cd-b591-eda03c2b2987",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I suspect fraud on my account.",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "56d6abc5-c676-4b88-8b4d-adffd7ef6641",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I think I maybe a victim of fraud can you help me?"
+  }, {
+    "id" : "3ba48494-b669-4f37-a52d-91c5a2813066",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I think someone is trying to fraud me",
+    "tags" : [ "westpac_seed" ]
+  }, {
+    "id" : "fdf475ff-d2a6-462d-8a15-04b53fec0824",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I think someone may have hacked into my account",
+    "tags" : [ "westpac_seed" ]
+  }, {
+    "id" : "c00984b8-a204-4aad-9e89-a11e51d9157b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to report a scam",
+    "tags" : [ "westpac_seed" ]
+  }, {
+    "id" : "07f7bf67-1527-4f35-92b9-6960a0ce1289",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Information Leaked"
+  }, {
+    "id" : "89083268-7298-49ae-8492-16654f6403c6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "One of our client's accounts has been hacked can you help us?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "b837349d-5731-489e-a554-b07969953e4c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Our advisers account has been hacked, help us",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "8c289c25-60ee-4290-979a-c492838383fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Our client may have been a victim of fraud, what can we do?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "31eedd23-c504-4d8d-bb7f-cc23e7d330ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Somebody has stolen my money",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "3d444c36-2ff7-4570-a07e-877faaf4f8c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Someone else has accessed my account",
+    "tags" : [ "btdecseeds" ]
+  }, {
+    "id" : "a7251cde-3991-464b-a965-4bab5816434c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "We want to stop transactions on a clients account, they may have been defrauded",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "2d5d7d56-d9ee-472d-9fb5-c59221290f51",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do I to report suspicious activity?",
+    "tags" : [ "westpac_seed" ]
+  }, {
+    "id" : "f76b2f20-5edf-48de-8c66-4d3261744a39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What do we do to stop a fraud?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "a4f07b55-9791-4aee-ac79-4cc6656eac19",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "attempted unauthorised access"
+  }, {
+    "id" : "a70a29ed-9bf1-44a3-83a6-97c0f55c8d87",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "attempted unauthorised access"
+  }, {
+    "id" : "99cb1b6a-14e0-4a46-ac92-5a610ccc8e8b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "attempted unauthorised access"
+  }, {
+    "id" : "1c98e2cb-fa8b-43ef-b225-9f56f623588d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fraud's"
+  }, {
+    "id" : "1a76f44c-e3b0-40ac-9595-282a0baebdf3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "frauds"
+  }, {
+    "id" : "a5aeb890-ff2c-4fd4-9f96-73accddd5a16",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fraudulence"
+  }, {
+    "id" : "216ce1d6-d819-4375-8a9b-d85b83415aed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fraudulence's"
+  }, {
+    "id" : "f4007eff-c117-4ea9-8b6f-245d80eb391e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fraudulences"
+  }, {
+    "id" : "d76a6a2a-7fb8-46b6-aa80-68427088bea7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "fraudulent"
+  }, {
+    "id" : "183efc5d-ae46-4d0d-94bd-1e03fd5b9ab1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "ttempted unauthorised access"
+  }, {
+    "id" : "7508cc1c-1f68-4f1d-9214-2a6358665581",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unauthorised"
+  }, {
+    "id" : "16c60766-9e65-449e-9558-495e0cec97b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unauthorised access"
+  }, {
+    "id" : "2e932152-735d-457e-99f2-2de3c20b8f15",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "ttempted unauthorised access"
+  }, {
+    "id" : "f5327442-e255-4db0-b4cf-2e7ca59e0672",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unauthorised"
+  }, {
+    "id" : "097d5626-c3f0-4680-8241-da1ba7757780",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unauthorised access"
+  }, {
+    "id" : "2c04d501-f26d-4fd9-b76d-831c8f39b1ed",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "One of our clients accounts has been hacked can you help us?",
+    "tags" : [ "btmarchvariants" ]
+  }, {
+    "id" : "c357d33c-431e-4523-b4e5-f4480df4e247",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me, I think Ive been scammed",
+    "tags" : [ "westpac_seed" ]
+  } ]
+} ]

@@ -1,0 +1,970 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_trade_unit_price_train",
+  "intent_name" : "bt_trade_unit_price",
+  "scope" : "TRAIN",
+  "data" : [ {
+    "id" : "e0c15ab2-7f62-46cc-b168-4f4aa7e05d73",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i know the unit price of my last order"
+  }, {
+    "id" : "a456c09a-4f07-443e-9a44-f4c72e54b389",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me to find out the unit price?"
+  }, {
+    "id" : "fef84f83-f843-470a-9483-97ecf4ab6149",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you inform me of the unit price from my last order?"
+  }, {
+    "id" : "9471b455-6a99-4d06-b3b1-b391418f536e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you let me know how much unit cost I paid?"
+  }, {
+    "id" : "c0421a4e-6490-4196-a751-41863229a4e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you let me know my trade unit prices?"
+  }, {
+    "id" : "64ad8732-a3a2-4920-a241-873a84466912",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you pleaswe tell me the unit price of my trade?"
+  }, {
+    "id" : "b93585d6-1cb9-4b2b-9f8e-c6ac21e3630d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me the unit price in this order?"
+  }, {
+    "id" : "1ee63e80-8c6d-40cb-b27f-e92d2626cf12",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me the unit price?"
+  }, {
+    "id" : "5ce02c46-a982-476d-b470-1b4fc7064ffb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the order unit price?"
+  }, {
+    "id" : "5778e1d6-bdf9-466e-ba9e-c7e43209c578",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the unit price for my order?"
+  }, {
+    "id" : "8641ae84-4c06-491f-85e9-fe93efbb3620",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the unit price for the order?"
+  }, {
+    "id" : "282f1fa5-1e3e-4c29-b54a-2961e6217f9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the unit price of my trade?"
+  }, {
+    "id" : "4c2ac94f-ed28-41c8-a08e-47db88b5e197",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me where I go to see the unit price?"
+  }, {
+    "id" : "4b7aba36-16a4-463c-8113-1e54e7a3fdc9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you verify the unit cost of my order please?"
+  }, {
+    "id" : "2714fc37-9c09-4156-8f06-14d5a758fb70",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Define the unit price"
+  }, {
+    "id" : "e4184202-6903-4f2b-b771-e84c9f333e3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain the unit of price"
+  }, {
+    "id" : "4a7fa85e-20a0-4f6a-b1ea-c81ab19ec34b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check the unit price of my order"
+  }, {
+    "id" : "c83e26c6-ada3-4d49-8fa1-5fcc5626b415",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I determine the unit price?"
+  }, {
+    "id" : "9a4e421c-b2eb-43d0-ba3d-7da21ad5e303",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I determine the unit price for my order?"
+  }, {
+    "id" : "1b7f690c-ba11-4148-9058-65a812f10cb2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I determine the unit price of my order?"
+  }, {
+    "id" : "de8b24a2-642b-4d20-94ef-ff2720c13bee",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the price per unit of my trade?"
+  }, {
+    "id" : "7f43f696-35bc-4403-bf83-c903db25dfbb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the unit price for my order?"
+  }, {
+    "id" : "08733ae3-ca49-4ee9-9369-34933dd83f30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the unit price for this order?"
+  }, {
+    "id" : "0252329b-5623-4128-a141-982123cb29fa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the unit price of a trade that I executed?"
+  }, {
+    "id" : "6845bd14-1085-431e-99ad-74caccbd3f65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i check the unit price of my order?"
+  }, {
+    "id" : "37e436f6-d49a-4e5d-9da4-8086fecc9d5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much price in unit did I pay for that order?"
+  }, {
+    "id" : "7693db5e-5204-4713-898a-648a20ff8d9a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much unit cost did I pay for my trade?"
+  }, {
+    "id" : "b5d91a26-7b1d-4a1a-9955-d45495149792",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much unit price I have paid for this order?"
+  }, {
+    "id" : "b2f954fb-dbc3-4bc5-bba9-efc6cf46b1c8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much was the price in unit of my trade"
+  }, {
+    "id" : "90dafeff-f117-42f7-b33a-009436858b44",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much was the price per unit of my trade"
+  }, {
+    "id" : "cfbdc082-f42c-4042-9119-b57a8cd23ca3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can i know the unit price of my last order"
+  }, {
+    "id" : "8ef9400f-73dc-408f-bca5-8b512dbc010a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you help me to find out the unit price?"
+  }, {
+    "id" : "8ee4dd8c-d895-462e-b255-88e1e8b53290",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you inform me of the unit price from my last order?"
+  }, {
+    "id" : "007f5dcc-2532-478c-8bcc-8760be105f9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you let me know how much unit cost I paid?"
+  }, {
+    "id" : "c90539fa-116b-477b-8d9b-b52651d9efa0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you let me know my trade unit prices?"
+  }, {
+    "id" : "8973fb59-903d-4d57-8dc8-1d1b8ac7a426",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you pleaswe tell me the unit price of my trade?"
+  }, {
+    "id" : "af75f1ba-aa8b-40cb-88bd-ca46b09f859d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me the unit price in this order?"
+  }, {
+    "id" : "8f0a1c3f-9616-4339-b010-7fd38b255bf7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you show me the unit price?"
+  }, {
+    "id" : "9b46d27b-ee3d-4bd4-8fdb-00fef4737080",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the order unit price?"
+  }, {
+    "id" : "525c0ae4-a156-417e-a6f8-e21a1356fadd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the unit price for my order?"
+  }, {
+    "id" : "7ab5ea22-474f-4225-8ea8-ad54cdc22512",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the unit price for the order?"
+  }, {
+    "id" : "9cfbb656-143b-490c-ac8f-b6772b4eb2ea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me the unit price of my trade?"
+  }, {
+    "id" : "90576f5d-494f-4c64-945c-b17573719b24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you tell me where I go to see the unit price?"
+  }, {
+    "id" : "03062789-4bd1-48a4-91cd-a22064ad497c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can you verify the unit cost of my order please?"
+  }, {
+    "id" : "a3d73e60-ebf1-48f0-8a65-cc6ef311f22a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Define the unit price"
+  }, {
+    "id" : "7bbbd49f-7842-4f38-8159-eaee78fe6fbb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Explain the unit of price"
+  }, {
+    "id" : "e52c805e-2f17-4562-bf52-c3bd392dc512",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check the unit price of my order"
+  }, {
+    "id" : "4d1165ac-fc77-4891-b18a-82fa7d6293dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I determine the unit price?"
+  }, {
+    "id" : "0f8b4aa4-41e1-4a09-8155-39475cb79bea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I determine the unit price for my order?"
+  }, {
+    "id" : "36f5a170-148b-4f25-a554-b97ed2e43f89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I determine the unit price of my order?"
+  }, {
+    "id" : "fd06c39d-b29e-4515-bd10-2c49cf7c40a7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the price per unit of my trade?"
+  }, {
+    "id" : "af64e6bd-1f5e-4ea6-baa2-b119768b2d54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the unit price for my order?"
+  }, {
+    "id" : "42f519f8-e3e0-453d-8453-243a645ec805",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the unit price for this order?"
+  }, {
+    "id" : "e5dd059b-d9ba-4828-b88c-7b99e595c3a2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find the unit price of a trade that I executed?"
+  }, {
+    "id" : "93bb1859-4c6a-430f-b208-1c7970f6f399",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do i check the unit price of my order?"
+  }, {
+    "id" : "f5df989c-9c66-440d-a4e8-feb3c14c3c6f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much price in unit did I pay for that order?"
+  }, {
+    "id" : "3ee246a1-24e7-4aa8-8569-402ced3105c1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much unit cost did I pay for my trade?"
+  }, {
+    "id" : "b484a678-c708-45ef-a910-e7cb7bcfcac0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much unit price I have paid for this order?"
+  }, {
+    "id" : "c5ba978b-b6f8-4a0d-a86d-07c15d03f8a9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much was the price in unit of my trade"
+  }, {
+    "id" : "922847fa-42bf-4819-97de-d010b9d36246",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much was the price per unit of my trade"
+  }, {
+    "id" : "c057060e-1334-4751-b88f-96726981136b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know how to see the unit price."
+  }, {
+    "id" : "4d861153-263e-49ae-bcf1-205d0559c066",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know the price I paid for my trade"
+  }, {
+    "id" : "bb089ad9-ce0c-4de0-b13d-8e19d357e607",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to know the price per unit for my order"
+  }, {
+    "id" : "7944a02d-9dc0-4e7b-a81d-8d19cc694f20",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to see how to see the unit price?"
+  }, {
+    "id" : "59d153a7-a0eb-400d-9721-94a828cf58c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to see the unit price, please."
+  }, {
+    "id" : "a5396a53-f104-41a1-9bf2-6fde71a48f0d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to view the unit price on my last order, please."
+  }, {
+    "id" : "6b7027a6-4754-4e39-8168-abf43a0c670a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know the unit price of my trade"
+  }, {
+    "id" : "d2f7df0d-725d-4a6c-b082-50fc546fb5c5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know the unit price of my trade order"
+  }, {
+    "id" : "84da354f-9de1-4a2a-b2c1-4e160caa5197",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to know the unit price of the last order"
+  }, {
+    "id" : "c151715f-abfd-44c0-9182-7d59f04126e0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to know the unit price for the last order."
+  }, {
+    "id" : "add2f9d0-777d-4929-afd2-70871dccb819",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to know what the unit price of my order is."
+  }, {
+    "id" : "912580b9-5fdc-4a78-87c6-d0bf07d11148",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I'd like to see the list unit price."
+  }, {
+    "id" : "297ba898-d676-4f7f-8aee-d7a125cc39a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Is there a way to check the unit price of my order?"
+  }, {
+    "id" : "1281f59a-bd7f-4612-9440-25eca99006d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Please look at my order and inform me of the unit price."
+  }, {
+    "id" : "e6358c30-b356-4965-bdcc-5007d4d837e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Shall i know the unit price."
+  }, {
+    "id" : "bf4c9fc8-730c-44cc-8081-f59d1b7e2997",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me how to check the unit price of my trade."
+  }, {
+    "id" : "61b12250-aeed-43ff-89d9-17a8ca3e1155",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tell me what the unit price is on my recent order."
+  }, {
+    "id" : "fe91489e-8101-46aa-aa32-aa5c2c6054f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What amount was the unit price?"
+  }, {
+    "id" : "0085965f-e8ce-4827-b422-0e6c5bcc6318",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What did that trade cost me in unit?"
+  }, {
+    "id" : "8d350abc-011f-429a-a040-92541f5f1c9f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the price per unit of the trade?"
+  }, {
+    "id" : "23b4d8c8-d9a0-4c11-9b7e-4c452aac8d8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the price per unit?"
+  }, {
+    "id" : "55dfcce9-432d-4a2d-af56-78fb86ce665c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the unit price for a trade even mean?"
+  }, {
+    "id" : "9fa6a65b-9065-405a-8171-57b57cf3ceba",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the unit price for my order?"
+  }, {
+    "id" : "d511123f-60ac-4e0a-b774-4ccd27475fa4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the unit price?"
+  }, {
+    "id" : "7a740c7f-a80d-4e25-8eb3-4eb30975f775",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the unit unit price of my trade"
+  }, {
+    "id" : "c86934c6-8e33-4ad7-93f1-41393d60be5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What was the price in unit of my trade"
+  }, {
+    "id" : "a5f87001-924b-46d7-a474-be288f8218f1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What was the price per unit for what I just ordered?"
+  }, {
+    "id" : "3bd5b668-642b-439d-a007-8e96b48d8343",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What was the unit cost for the trade?"
+  }, {
+    "id" : "cf18c421-99fa-4398-83c3-04fb9d8ce099",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What was the unit price?"
+  }, {
+    "id" : "52d7dd7a-f9b8-42d9-a991-f1e8a5d872fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What would be the unit price for my order?"
+  }, {
+    "id" : "7f9816ce-dc1d-43f6-813f-66b47ea8658b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's a unit price in total."
+  }, {
+    "id" : "7502def4-9ab4-4f60-aae5-fefbf98c6add",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the price in unit I paid for this trade?"
+  }, {
+    "id" : "7bf0906f-a9ae-43b3-9bf8-e64e748c9b3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What's the unit price on this one?"
+  }, {
+    "id" : "271b129e-efd7-44f7-a542-9c35c2736ac6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I check the unit price for a trade?"
+  }, {
+    "id" : "99d11b12-637d-4df4-9cfe-4d112cc17a26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find the unit price for my order?"
+  }, {
+    "id" : "79847b1b-50c7-4cde-89d7-8a420cae995d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find the unit price for the trade?"
+  }, {
+    "id" : "ce73e41e-d0aa-4778-b330-2dfa8dd43cfb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find the unit price?"
+  }, {
+    "id" : "e3ff5278-fc73-41e4-9a16-d4503da426f7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find what the price per unit is for my order?"
+  }, {
+    "id" : "11e5f5af-7ba2-4ad2-a89c-02d9f9cc6ab6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I go to see the unit price"
+  }, {
+    "id" : "0fcb5666-39de-4346-962f-5f774d1317d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I locate the unit price for my order?"
+  }, {
+    "id" : "416c4f32-83dc-405c-9c20-5bbd3401e498",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I locate the unit price?"
+  }, {
+    "id" : "b0a9dbe7-11d4-4157-bace-3dfcef815fea",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see the unit price, please?"
+  }, {
+    "id" : "8cee21e8-a2cd-4246-99d3-b392b30685d3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see the unit price?"
+  }, {
+    "id" : "8a4711e9-b67c-49cb-b982-1d6e1c2075cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see unit prices?"
+  }, {
+    "id" : "22c6cfd5-1eed-4d8e-8864-d524b40f0854",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can the unit price be found?"
+  }, {
+    "id" : "c74fb7f8-2f37-4423-a626-ec7e24f724f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I find the unit price for my trade?"
+  }, {
+    "id" : "b89187a3-aa10-4d67-b091-487482a25202",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I find the unit prices on my last trade"
+  }, {
+    "id" : "475044e2-1b36-47d9-b924-4dc0c8e4b820",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I go to see the unit price"
+  }, {
+    "id" : "f030880c-7dae-4013-ab90-c16f13848141",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I review the unit price in last trade"
+  }, {
+    "id" : "895d8eec-7d9e-42b3-ac9f-f022d7becafd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I review the unit price in last trade"
+  }, {
+    "id" : "b0630772-b0fd-4555-9f2c-cea2cde6b4f9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I review the unit price in last trade"
+  }, {
+    "id" : "7b83adfd-f5b7-45da-9602-e26869edfe33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cost in unit"
+  }, {
+    "id" : "4870b42b-aab3-429b-8393-3f774a90056e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "cost per unit"
+  }, {
+    "id" : "918c9633-648d-47a2-b97c-484ce0ed1298",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "costs in unit"
+  }, {
+    "id" : "a40d952b-396d-4184-85f1-d23e156aac5a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "costs per unit"
+  }, {
+    "id" : "bcaeb967-04e5-43f8-b85f-06fd72cbc35e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "explain the price of order"
+  }, {
+    "id" : "d9619c7e-4fc2-4d3e-82fb-6f0be9ca0111",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "get me know the unit price"
+  }, {
+    "id" : "ccf38981-9672-4570-907b-13883a4721eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much is the order unit price"
+  }, {
+    "id" : "7e2989b5-8e77-4f82-9e22-7c78eeea2820",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much the unit price is"
+  }, {
+    "id" : "83962907-014e-4dbb-b84d-3f7174c87d46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "more info about unit price"
+  }, {
+    "id" : "3e4e8531-c8fe-4b9d-a05a-f9d0d15dea67",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "need unit cost information"
+  }, {
+    "id" : "4607daa3-625a-4f7f-8b32-221b49248cdc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order cost in unit"
+  }, {
+    "id" : "4e0e1d18-4763-4dc7-9f6d-a0c2f9675115",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order cost per unit"
+  }, {
+    "id" : "1192c30c-9230-4726-9861-e77bf5954102",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order costs in unit"
+  }, {
+    "id" : "588dbcb7-08b4-4585-afed-279f0afd7015",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order costs per unit"
+  }, {
+    "id" : "05ea192e-ca46-42b9-b7eb-a6fe406141fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order price in unit"
+  }, {
+    "id" : "1bd916be-1c6e-4c05-9c6f-9c86ae6e7332",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order price per unit"
+  }, {
+    "id" : "6aa5b59a-bf4a-48bb-8535-cc3bd4b749be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order prices in unit"
+  }, {
+    "id" : "706b3f9c-c517-4f23-8726-29d51765f279",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order prices per unit"
+  }, {
+    "id" : "0a08d4b5-29fd-4875-963f-45e88b0bc553",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order unit cost"
+  }, {
+    "id" : "51f1fb01-bfb5-402a-a6a9-4732ef47510e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order unit costs"
+  }, {
+    "id" : "08e13a69-bfed-41cc-959c-7464eb4ab50a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order unit price"
+  }, {
+    "id" : "0bc8353c-3261-4bd8-8a0c-1844bd8dfb35",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "order unit prices"
+  }, {
+    "id" : "5381f229-292d-4e09-bc81-106ee9611043",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "price in unit"
+  }, {
+    "id" : "c091cf17-83bd-4c58-b993-ac87a7715ddc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "price per unit"
+  }, {
+    "id" : "25a49826-1c26-4254-a483-6abc44c7dfbd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "prices in unit"
+  }, {
+    "id" : "21d9b0e5-572b-4a60-9572-d3ca37ed097d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "prices per unit"
+  }, {
+    "id" : "75358de2-384e-4076-a423-218a3f110afb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show me how I find the unit price I paid for the order"
+  }, {
+    "id" : "d2e2355a-4569-4457-9912-53b698e1588a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me my order unit price"
+  }, {
+    "id" : "e1439364-edf2-4746-b868-5b43c606da82",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the order unit price is how much"
+  }, {
+    "id" : "a8910644-b7a3-4232-8a7f-29f4541b4488",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the unit price"
+  }, {
+    "id" : "4abded2d-5af9-46d3-8062-1cde54daead4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "to see the unit price"
+  }, {
+    "id" : "315bc149-205a-4dcc-a3c8-4696481d90e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade cost in unit"
+  }, {
+    "id" : "24a98466-a595-42c2-bdc6-e35e9ff778de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade cost me in unit"
+  }, {
+    "id" : "caca0589-c5df-4551-b42c-eaf66b70b488",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade cost me per unit"
+  }, {
+    "id" : "827ad874-4afc-4f8a-bea5-76de87687f79",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade cost per unit"
+  }, {
+    "id" : "97566c70-9b2c-4be4-b10d-098d9b211bbb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade costs in unit"
+  }, {
+    "id" : "264e2f9d-4ef1-468e-814c-b9b500508a21",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade costs per unit"
+  }, {
+    "id" : "db25b18b-9cfc-498f-8773-31b2d005d89d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade price in unit"
+  }, {
+    "id" : "f1be9526-988a-4494-abfe-284a77193a91",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade price per unit"
+  }, {
+    "id" : "fdb1398b-55c0-4cc2-993f-97646133434a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade prices in unit"
+  }, {
+    "id" : "b80b6511-6478-4ebf-b53f-c81f3839c181",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade prices per unit"
+  }, {
+    "id" : "913f4eed-8004-4604-aad8-d2d385df5274",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade unit cost"
+  }, {
+    "id" : "7b5bd458-6966-4a8a-b330-c8b2d750b963",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade unit costs"
+  }, {
+    "id" : "e11a2cc4-4a19-487c-8011-c38761f3a243",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade unit price"
+  }, {
+    "id" : "f324a733-aa24-4ca6-a10a-0c56ec65ad89",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade unit prices"
+  }, {
+    "id" : "e4297f8d-3e04-4458-b010-4a2a5a4fe70c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit Price of my trade"
+  }, {
+    "id" : "51d3f95f-e9de-4ca8-af4a-09152b3f557f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit cost"
+  }, {
+    "id" : "b2c922e1-2682-4917-96a9-728a457f8d46",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit costs"
+  }, {
+    "id" : "bcc88d94-ff47-4443-b0f9-657073d988e6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit price for both orders and trades"
+  }, {
+    "id" : "44559ea5-b8ef-4442-89b0-3cd36a208a54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit price of orders"
+  }, {
+    "id" : "24ebd515-8d8c-46c9-a708-4dda76f7a6f6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit price of this trade"
+  }, {
+    "id" : "7b827a50-a24b-4fcb-ad59-0e90fe1fa4d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit prices"
+  }, {
+    "id" : "1b825c88-a375-425e-8ebe-ea468b81bc01",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the order unit price is how much"
+  }, {
+    "id" : "d9efceca-7dd2-4f46-88cc-ea5f41494999",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "the unit price"
+  }, {
+    "id" : "597e33af-26d7-4b45-b394-f61ef998f491",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "to see the unit price"
+  }, {
+    "id" : "66e6223d-8469-43bf-9988-abdb376d343d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade cost in unit"
+  }, {
+    "id" : "07b247c1-a15b-48aa-980b-caee9eb9ed66",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade cost me in unit"
+  }, {
+    "id" : "a1f4e165-7c94-4965-bdaf-82d81dc470ef",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade cost me per unit"
+  }, {
+    "id" : "915134a6-89e9-4c84-95c1-79cb0fec2425",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade cost per unit"
+  }, {
+    "id" : "202967ac-9ef2-4ef8-a718-ce9425492192",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade costs in unit"
+  }, {
+    "id" : "d8914f09-bae5-43b8-bcab-ae14a926c60b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade costs per unit"
+  }, {
+    "id" : "d5e3b750-6550-4c29-b4bd-f749307f5230",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade price in unit"
+  }, {
+    "id" : "9a796dcd-c1c3-4d39-8c91-40612d9af12d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade price per unit"
+  }, {
+    "id" : "939ccca7-fec3-49df-b57d-55869a721261",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade prices in unit"
+  }, {
+    "id" : "03eed424-df90-48d9-813d-dfa83ed9a6bc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade prices per unit"
+  }, {
+    "id" : "e2a7d6a5-711f-4a0a-bdea-9535998ecdb3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade unit cost"
+  }, {
+    "id" : "ba6a3776-43df-432c-a93e-197db3d08fd0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade unit costs"
+  }, {
+    "id" : "ec7e178e-b76c-4791-939d-2c20b471c094",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade unit price"
+  }, {
+    "id" : "aa7fefa2-f3e5-4c52-9b22-017c189f4d3d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "trade unit prices"
+  }, {
+    "id" : "796ecc3e-2b7d-415d-af0b-ff51b26790c0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit Price of my trade"
+  }, {
+    "id" : "0ce94b84-98c3-44fe-ae95-517d13e50e30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit cost"
+  }, {
+    "id" : "b0a75561-26dd-427b-b948-99ce651e2a42",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit costs"
+  }, {
+    "id" : "868c932c-30e5-403c-a217-408b419afd4e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit price for both orders and trades"
+  }, {
+    "id" : "8afde868-4f7a-4314-87d0-5678c17ffd75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit price of orders"
+  }, {
+    "id" : "88ad464a-6eec-4071-9958-87ad7329e9a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit price of this trade"
+  }, {
+    "id" : "0840b45a-a8a2-471f-994a-c2c15f7aca75",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "unit prices"
+  }, {
+    "id" : "8a38a7b2-d340-4d7c-a639-076a364759ab",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is my trade unit price?"
+  }, {
+    "id" : "26e33601-48db-4d25-a29c-924a80e077cd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the cost per unit ?"
+  }, {
+    "id" : "4e61ce9e-e4ce-4686-9a91-1665ddefe421",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is the price pa unit?"
+  }, {
+    "id" : "396fe309-0e1f-417d-a5fd-b0f8c2b899a1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what was the unit price originally"
+  }, {
+    "id" : "b4de4dfe-60a9-4c01-bdb9-b83810747ef9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where can i find the unit price i paid for the order?"
+  } ]
+} ]

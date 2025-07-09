@@ -1,13 +1,16 @@
 {
-  "name" : "Message-Live-Chat-No-Agent-Available",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "Sorry, we seem to be having an issue getting you through to a consultant. We can still assist you over the phone by calling us on 1300 881 716 between the hours of 8:30am to 6:30pm Mon to Fri (Sydney time)"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "Sorry, we seem to be having an issue getting you through to a consultant. We can still assist you over the phone by calling us on 1300 881 716 between the hours of 8:30am to 6:30pm Mon to Fri (Sydney time)"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Message-Live-Chat-No-Agent-Available"
 }

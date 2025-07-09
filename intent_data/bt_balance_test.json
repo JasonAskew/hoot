@@ -1,0 +1,922 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_balance_test",
+  "intent_name" : "bt_balance",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "c8d6d573-d4a5-4396-b079-7e4c2e6d5c8e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Account summary",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "c27752da-714f-44e5-9f8e-ea9333023bdd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I know my balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fc34e02d-9109-4f5b-9bf6-9da8ed78d527",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Find how to check {@account_type credit} balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9cee51d8-9c90-48ff-b8a1-72610b194987",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "GOOD MORNING...How do i get the {@account_type credit card} balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c9728ef3-3077-4927-a8c9-f7c97aae49d9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give me account balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "40dc07b3-95f3-4428-9fda-0baa8c46d76c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello good eveningHow do I check my balance in my current account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fcf4f3b0-668f-485b-9561-faf8f015cb04",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check my account balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9fda75d1-ce77-4b94-9d09-f71297445d6b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find out the balance of my {@account_type savings} account for a past date?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "184b26f3-36af-4b22-8043-6c93a02714b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get amount in my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b24127c1-892a-4121-9095-75a6abb6342c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get my account balance back pls?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "af8ac6f1-ec04-4dc9-b030-423f93b9de9d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do I {@balance_type have} in my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "50d5be86-5b1d-4122-8dd7-8b43b35e36e7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do I {@balance_type have} in my account {@account_number 0773}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "980363b3-5eee-40b4-9244-42c8990ba010",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much my balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fbe24311-a26c-43af-9fee-672e5cfcb350",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much my balance on {@account_type visa}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1801bf3a-0f7a-4ede-910d-3af4e5ce5712",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cannot see my {@account_type credit card} balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5d75e92e-1c67-4eff-a9d7-d728d488ce5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cannot see my {@account_type credit card} balances",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "497733d3-8b53-4f95-abae-59c1559d5cc2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Account summary",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "353245fb-5357-4634-a972-a06a84469608",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I know my balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0770c3c2-20be-464d-82c9-936c3f2201ca",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Find how to check {@account_type credit} balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "60ff0dd2-51dd-40d1-b63e-123047772138",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "GOOD MORNING...How do i get the {@account_type credit card} balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f1ef9967-18c2-4e66-aae9-f57d34a65f6a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Give me account balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "66f02eee-4950-4f81-82fe-5c619dad8eb3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hello good eveningHow do I check my balance in my current account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a1e36983-0701-4b84-bdcc-8c9716d28d91",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I check my account balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2701a93a-fb00-48d3-b3ff-8eea38991496",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I find out the balance of my {@account_type savings} account for a past date?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a0084215-867c-4e17-a568-de2a3040a5b5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get amount in my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "852d54e6-d216-46c1-bfa5-a6e5bbaf3bfb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I get my account balance back pls?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5a1a7cb9-6077-47f4-bf72-3adb95a6c114",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do I {@balance_type have} in my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "175c22f5-d905-4777-a4d4-a25e1ddf1463",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much do I {@balance_type have} in my account {@account_number 0773}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "f7e317dc-a65f-49d2-832a-62de0612fa02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much my balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e3d9109a-55ad-4609-8ce9-0d81bfa53b3f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How much my balance on {@account_type visa}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "38a237d2-76f9-4b03-a97b-bcc9175a3154",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cannot see my {@account_type credit card} balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1916a0ac-7d3e-4c81-8792-0c7f404c22d8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I cannot see my {@account_type credit card} balances",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "31427e36-6ed4-4b82-891a-d6c8114bf31d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I what to check my account balances",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "66eb86ff-cca9-47c9-a336-0e739ec888ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I {@balance_type have} a balance in my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b650ef9a-0c04-4354-b7fe-26bea817ab02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Just check balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "73a6c6d5-42dc-49ad-a491-5c083a820826",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Looking for my {@account_type visa} information and balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d7ca785e-a8c2-4457-821c-5baa9176366d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "May i {@balance_type have} the balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "962df831-c629-4fff-8802-45634cf044a3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account balance inquiry",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d9c34a5b-1ef5-47cf-91a3-d1bcc6f83d92",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My account balance on my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1e985750-fcf5-4631-9ef3-3d1bcf8b8b07",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "27ab3157-d505-4b02-b9a6-4ae4f8238cf5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show my balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f8fb27f4-5862-4867-aebb-cb8fce5db5cc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show my super balance",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "1182b622-e8b2-418e-abaf-1e6dd7ee0643",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Student {@account_type loan} summary",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2d88d241-14ed-4643-8240-db6909e48a03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What kind of {@account_type checking} account do I {@balance_type have}?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "052ed1e0-ab91-4160-8fe0-7bf77fded1ac",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see my account balace",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c131acfe-f9a4-4792-b686-c15ed2a21cc8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I see my balance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ea591068-d314-4016-bdc7-6ce3a6b49818",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "account exact balance not showing",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e759343e-e219-4000-ab53-4711329c205d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "account has got balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "912b4445-5c12-4668-8f54-dce9c44f24e2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bal on my {@account_type savings}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "c04565b6-ea92-4da7-a9cd-9ed2525ae6f9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "balance at december 11 {@account_number 1111}",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "e206d3e0-de49-41b2-bd8c-a93f6df62de4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "balance check",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "915b39c0-ce35-4bce-939f-a5b458a95d13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "balance super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "46719c93-5d8d-4c2c-a40b-be8d769939b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "balance updates",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "76aeacb5-215c-4872-92b2-4043a8f4ef4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get my account balance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "29616c58-0384-4d5c-bc06-0fd430998bf1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please get my super balance as of dec 11 xxxx",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3291f48a-6cef-4462-b592-f4eadee08c1f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you give me a balance on my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3a725c96-e1d8-4114-b713-ab16ca083fa5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me what my {@account_type brokerage} account is worth?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0678da17-c45b-4c36-91ca-9cecc7ba46be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check my account balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ad68dd33-941b-44d1-8b50-cfd6c4488a2e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check my {@account_type investment} balances",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "c1acbba8-e330-442a-8947-09fa8a4f558d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check total balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1815b4e5-61be-409f-a24d-1c1ce8f22bd5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bal on my {@account_type savings}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "5abadcc6-8417-456e-8a24-f5f9f424f6cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "balance at december 11 {@account_number 1111}",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "4fe09008-a651-4bce-b895-d119875d2e10",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "balance check",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "db4f5288-ced5-4e8a-8dcb-aef4f2d34a81",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "balance super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9509986d-36ce-4481-9a9f-3bf6b36c2a7a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "balance updates",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "e9c934da-14d8-4825-8cec-7e1e2ddd18e9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get my account balance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bc011fa1-1f4d-4b6f-ad90-803fea2fa9b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please get my super balance as of dec 11 xxxx",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "10e7aff2-579f-4402-923e-35c44941887a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you give me a balance on my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0cc6fa97-3db0-4af9-a580-da2b55f441e3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me what my {@account_type brokerage} account is worth?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "67127c67-26a5-4792-9554-d8b33bc4d63b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check my account balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2a028453-f1a3-4469-bffa-76735f3e4cfc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check my {@account_type investment} balances",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "d0e7d9db-7c5e-4fb4-a78c-f44599be27b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check total balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6e572c82-fc7e-42c3-9094-6b4bdbb448c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "bal on my {@account_type savings}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "a1970eab-09f4-46c3-ab34-b683b4c349b3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "balance at december 11 {@account_number 1111}",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "eafb62c8-cf4b-4754-b119-347edc8f8917",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "balance check",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "860fb5be-1769-4d4c-aba7-c8920e37bac2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "balance super",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "8be1c4bc-1f54-4a3f-82fe-aacc72b634cc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "balance updates",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "d83f8233-e486-4407-a06e-c22377d301bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i get my account balance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9d970765-3cfe-450b-8e84-2855e79e4bd8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i please get my super balance as of dec 11 xxxx",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9fb4fa20-1ff6-49a7-99a9-c2ec7c4478dc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you give me a balance on my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "eaed6728-24a4-4ef3-b1de-2602fe338054",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can you tell me what my {@account_type brokerage} account is worth?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c6945e7f-a8cb-4a1f-93d2-b4b20f82c5de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check my account balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e2158060-afcb-4d3e-a298-93b8afaa13aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check my {@account_type investment} balances",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "103093be-0bd5-446d-af10-4233dd3a5b26",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check total balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "206e7e21-b6a8-4820-b695-aac7cc8472a4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "check {@account_type credit card} balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f00de8b3-6b0c-4174-939e-8a15437cf6ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing balance",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "57106e20-b493-4c3d-b6ac-3ae1997bbb0e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "create a statement of account balance",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "509230c7-4461-4164-8055-8ca932c39b90",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "current account balance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "78cdfe72-e3eb-4773-a172-4072f1e3b30b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "do i {@balance_type have} anything in my {@account_type brokerage} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "23b30e46-31c1-4152-9644-b8b0b9394ea3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "error in my balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7bfa865a-d6ac-40c7-8c58-44c155e38303",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "find my balance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2d577fb3-7d71-4419-8b0e-ac63f66b2023",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hello i would like to check on my bank balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "2ddb0516-28e6-4e9a-a323-6d14d2745441",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi can I check my account balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1983c5cd-1ade-45b3-ad3c-e8485abfd485",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how can i check how much in my account altogether thanks",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "081d1f56-bb25-4770-8038-616d0614a857",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like to see the balance of my account xxxxxxxxx",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d5c99965-bc9a-47ef-8730-1420715e5b23",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi what was my account balance on december 11 st 1111",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "83031d3c-59af-4484-8125-e68ef348dc54",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can I check my account balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "46940c9f-c9f5-4fcb-bae2-f5d657987aa4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can I check my account balances",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "5a7b68b1-d58e-4aa8-8e67-c81791b01c62",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i access my balance",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c65561d2-94b8-48e8-86c6-e135ce8a11dd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i view my balance account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c8e2fa20-0e04-46db-8551-08f65c6b366b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how is my {@account_type 401k} doing",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "853134f5-0095-47b7-830a-bf3e68ee17de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much balance in my {@account_type credit} {@account_type visa}",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "d2a6ec09-a40e-49cc-8631-6fcba69f0c4a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much do i {@balance_type have} in my {@account_type brokerage} account",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "beb97256-2ee2-4763-acc9-b1846f10338d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much do i {@balance_type have} in my {@account_type brokerage} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bc66bb35-1ba1-44d3-80c9-063b23c79b5e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much do i {@balance_type have} in my {@account_type savings} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "a550d803-bc63-4439-b0b9-96d77c44c4b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much do i {@balance_type have} on my account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6711d6f3-1ebc-446b-9642-0085e108c456",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much is in my {@account_type checking} account?",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "836df472-9319-481f-9380-98b814738c42",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much is my {@account_type 401k} worth?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1158960d-1669-449f-a7a8-8fdf3a57e753",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much my balance to my account",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "170fcd21-48e5-4256-a723-92cc19efbb8d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much my balance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "83c0f778-57d6-49d2-b0b4-2a4af33cd194",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much my current account balance?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "47b5e940-74b0-459f-bc38-529ac445be59",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much on my {@account_type mortgage}?",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "48c85dbc-52c5-4307-b89c-55faee6d12aa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much {@balance_type have} i made?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6e5a068d-6936-4fd7-b5ef-e0b3af4e86d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how often is the account balance updated",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "af253cb9-f443-41f1-959d-768ae054af65",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to check the amount of my super account",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "b28c097c-d1b7-4971-82cc-4a2d6bd29fdf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i cant see my {@account_type saving} acc. balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fc0f548b-e720-4339-9994-1772c420d21c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need most lastest balance confirmation",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ae7162c3-14ed-4444-a183-357fd42aec55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "is my account a zero balance {@account_type saving} account ?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e20970be-25dd-492f-bbc4-556c8d773f85",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "just correct my balance now",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "023f10aa-7664-4fa9-b585-5aa81d0d5845",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "just need to know my account balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "7535490d-3463-442e-a269-6501638f53f0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "let me know my account balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "1c6bda90-8778-4bb0-90ae-f92f2a9a898e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "may i know my {@account_type card} balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3e4c090d-da47-40bf-a675-35318c19e64d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "me check my balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "22eb1b84-e1bd-4d81-ad8b-2a7fa4f8631e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my account balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "0d72c88f-e4a3-42da-8411-720c0cf6de7a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my balance",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "ac79aba4-d0e8-4d94-9b68-c07b5f228c0b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "my number of units",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1149d1fd-097c-4154-85fc-3d39dab63416",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need a statement that shows bank balance as at 11 / 11 / xxxx",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "a80d3f53-529c-4807-887c-392ff6c507c7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "show balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "efd4c846-e729-4320-90dd-87574e30497e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "summary for my student {@account_type loan}",
+    "tags" : [ "exgs", "test_gold" ]
+  }, {
+    "id" : "7aef6ce3-d15d-4390-993b-a98a9a04eaae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tell me the balance on my {@account_type checking} account",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1ca508ab-91df-4ca5-8d88-6b13c0bc9e2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "total amount of drawdown",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "fcb3a98e-1b32-4118-a17f-0b448b83184e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "total amount of drawdown",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "37edbee9-7959-43bb-a3b9-bf59c13ec9bc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what do i {@balance_type have} in my {@account_type checking} account?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "9f81ce1b-fb59-45ef-8a45-c2121b04ba72",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "what is available cash",
+    "tags" : [ "westpac-plat-050321", "westpac-annotations-050321", "test_platinum" ]
+  }, {
+    "id" : "f5633bac-5a01-408c-ae20-d58cd1c96930",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what is my current balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "fe97edcb-6179-4435-bc85-0f9173ef476f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's left to pay on my {@account_type loan}?",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "412ecd58-0ae4-4eb0-868c-ab718e82a8c3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's my account balance",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "ff11dde6-f098-45be-b41d-06f696bca52f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's my {@account_type 401k} balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "baa56e13-14f1-4c62-b5d0-1c9ca92d5e3e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's my {@account_type brokerage} account value?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b1e182d7-2528-4fcb-96b1-6b59d697d4d4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's my {@account_type card} balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "e00a9134-c860-43f4-af13-881f030dc829",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's my {@account_type loan} balance",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "b6bac64d-d5bc-4640-80fb-4684349b21af",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's my {@account_type mortgage} account balance?",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "7cb9c093-79ea-4655-b5f1-b206883de77e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's my {@account_type retirement} account bal?",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3368114f-9232-4415-a525-c5a259b86475",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the amount in my {@account_type brokerage}?",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "2e443249-7ebd-443c-b870-ced508e4e54c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the amount on my {@account_type loan}?",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "08ac6bd7-afb3-4b28-b0a8-5e9a76a87d24",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the bal on my {@account_type 401k}",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "f666ed7c-3701-489c-8b8a-cda97fcbfbb4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the balance on my {@account_type savings} accouont that ends in {@account_number 9876}",
+    "tags" : [ "prodteam_2020_04_account_number", "test_gold" ]
+  }, {
+    "id" : "9848dca2-3507-417d-aa59-64e16dc4200a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "what's the total balance on all my accounts",
+    "tags" : [ "testfest_2020_02_kim", "test_gold" ]
+  }, {
+    "id" : "1964dff9-366a-4491-a26d-358ee5eca182",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "whats my account balance",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "f2cdf2ba-c484-409c-b9ff-d6f173708af8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my cash account balance on the overview page",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e9d4a7b9-fa86-4f41-b474-93fce188505a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my unit balance",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "58573af7-6596-4922-ba57-ab958879ddfe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i see my cash / {@account_type investment} amounts",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  } ]
+} ]

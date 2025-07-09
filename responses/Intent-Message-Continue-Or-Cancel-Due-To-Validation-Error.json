@@ -1,16 +1,21 @@
 {
-  "name" : "Intent-Message-Continue-Or-Cancel-Due-To-Validation-Error",
-  "searchable" : true,
-  "system" : false,
-  "categorization" : {
-    "tags" : [ "coreintents" ]
+  "categorization": {
+    "tags": [
+      "coreintents"
+    ]
   },
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "That is not a valid option. You seem to be having trouble answering this question. Do you want to continue trying with this set of questions?"
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "That is not a valid option. You seem to be having trouble answering this question. Do you want to continue trying with this set of questions?"
+        }
       }
-    } ]
-  }
+    ]
+  },
+  "state": "SAVED",
+  "name": "Intent-Message-Continue-Or-Cancel-Due-To-Validation-Error"
 }

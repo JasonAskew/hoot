@@ -1,12 +1,16 @@
 {
-  "name" : "bt_user_investor",
-  "active" : true,
-  "criteria" : [ {
-    "platform_type" : "web",
-    "customer_data" : [ {
-      "name" : "role",
-      "value" : "Investor"
-    } ]
-  } ],
-  "description" : "bt_user_investor"
+  "criteria": [
+    {
+      "platform_type": "web",
+      "customer_data": [
+        {
+          "name": "role",
+          "value": "Investor"
+        }
+      ]
+    }
+  ],
+  "state": "SAVED",
+  "name": "bt_user_investor",
+  "description": "bt_user_investor"
 }

@@ -1,0 +1,169 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "bt_eligible_service_tax_pres_seed",
+  "intent_name" : "BT_Eligible_Service_Tax_Pres",
+  "scope" : "SEED",
+  "data" : [ {
+    "id" : "0d4f6d38-6d5f-49ed-9e3d-52eeed13d304",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Date"
+  }, {
+    "id" : "fa746ac4-fb5c-4470-9e91-ce8f3d68f2b3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Eligible service date"
+  }, {
+    "id" : "f5b700b7-cae5-4c95-8de4-bc290d33ef9e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Date"
+  }, {
+    "id" : "5801f5b3-2ca4-4971-abdb-e7d3658fe071",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Eligible service date"
+  }, {
+    "id" : "fbdb14f0-4cb7-4c72-9c95-487662c89e58",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Member since"
+  }, {
+    "id" : "02398d21-cd1c-45f2-af8d-d1cbffa5099c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Preservation components"
+  }, {
+    "id" : "fb211a2b-b025-4f4e-a2d9-2678dce5ccf1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Restricted non-preserved"
+  }, {
+    "id" : "9e0c007a-250e-4b27-9ef9-09f18cfd41c2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Restricted non-preserved component",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "a5ff4a58-6839-4c38-a53f-826265f848a5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Tax free"
+  }, {
+    "id" : "a6bc7a79-0fe5-439c-be16-78b0be92ae81",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Taxable"
+  }, {
+    "id" : "e3d5cd10-2af3-4496-9f62-40246493f83d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Unpreserved",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "8e81437a-ba95-4d57-97c1-2a7289d724b2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Unrestricted non-preserved"
+  }, {
+    "id" : "3f682ba1-f09e-4c81-b548-60a51f6d86eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is the commencement date"
+  }, {
+    "id" : "c395d282-e882-4ea2-a364-8f860121638d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When did this account migrate"
+  }, {
+    "id" : "565f0943-93a5-4dd9-a773-97d09d400141",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When was this account created"
+  }, {
+    "id" : "2cc2c7cc-bbc0-440b-962b-ce8c47f9a27b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "commencement date"
+  }, {
+    "id" : "610149a9-4229-4802-9cac-b3b1b9ab4e21",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "component",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "4d50a2d3-e514-4155-ba80-4870fbc92e33",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how much tax will I pay if I withdraw from my super",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "17562e2e-470d-428b-ab29-a40b4bfa2d27",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "preservation component",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "640a49d0-64bf-4e76-a1aa-f32d29930305",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "preserved and unpreserved amounts",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "0d76ff67-7e61-48b2-b023-8438999177d5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "preserved component",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "20e527f3-7690-4482-92f1-fbf4b13ce48f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "preserved components",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "5e7d6a10-cda5-4a9b-b814-0b34f10e4265",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tax component",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "0dd0ab1c-68a7-48ba-82b5-0e1ae3ac7d27",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tax components",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "5f53dc94-158f-4c8d-b518-6eb01f33c9b9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tax free component",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "6b8cf2bc-3b22-46cb-a3d6-9871cd725cd3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "tax free components",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "2609fc64-1cb4-4639-a797-8224f7e669a6",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "taxation component",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "20589eb8-10c9-4172-9d45-8985e6684511",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "taxation components",
+    "tags" : [ "data_sync_addition" ]
+  }, {
+    "id" : "7bf21a0e-8b92-46f1-8d42-27e6cecd9397",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "when was this account registered"
+  } ]
+} ]

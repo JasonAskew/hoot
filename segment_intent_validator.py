@@ -16,10 +16,14 @@ class SegmentIntentValidator:
         self.base_path = Path(base_path)
         self.intents_dir = self.base_path / "intents"
         self.responses_dir = self.base_path / "responses"
+        self.segments_dir = self.base_path / "segments"
         self.disabled_intents = {}
         self.intent_configs = {}
+        self.segment_configs = {}
+        self.global_disabled_intents = set()
         self._load_disabled_responses()
         self._load_intent_configs()
+        self._load_segment_configs()
     
     def _load_disabled_responses(self):
         """Load all disabled intent responses"""
@@ -76,13 +80,47 @@ class SegmentIntentValidator:
             except Exception as e:
                 print(f"Error loading intent config {intent_file}: {e}")
     
+    def _load_segment_configs(self):
+        """Load segment configurations including global segment"""
+        if self.segments_dir.exists():
+            for segment_file in self.segments_dir.glob("*.json"):
+                try:
+                    with open(segment_file, 'r') as f:
+                        data = json.load(f)
+                    
+                    segment_name = data.get('name', segment_file.stem)
+                    self.segment_configs[segment_name] = data
+                    
+                    # Special handling for global segment
+                    if segment_name == 'global':
+                        disabled_actions = data.get('disabled_actions', [])
+                        self.global_disabled_intents = set(disabled_actions)
+                        print(f"Loaded global disabled intents: {disabled_actions}")
+                    
+                except Exception as e:
+                    print(f"Error loading segment config {segment_file}: {e}")
+        
+        print(f"Loaded {len(self.segment_configs)} segment configurations")
+    
     def is_intent_enabled_for_segment(self, intent_name: str, segment_name: str) -> bool:
         """Check if an intent is enabled for a specific segment"""
+        
+        # CRITICAL: First check if intent is disabled globally
+        # If an intent is in the global segment's disabled_actions, it's effectively switched off system-wide
+        if intent_name in self.global_disabled_intents:
+            # Intent is globally disabled - cannot be tested for ANY segment
+            return False
         
         # Handle "default" segment mapping
         actual_segments = self._resolve_segment_names(segment_name)
         
-        # Check if intent is explicitly disabled for any of the actual segments
+        # Check if intent is in the segment's disabled_actions
+        if segment_name in self.segment_configs:
+            segment_disabled_actions = self.segment_configs[segment_name].get('disabled_actions', [])
+            if intent_name in segment_disabled_actions:
+                return False
+        
+        # Check if intent is explicitly disabled for any of the actual segments (from IntentMessageDisabled files)
         if intent_name in self.disabled_intents:
             disabled_segments = self.disabled_intents[intent_name]
             for seg in actual_segments:
@@ -160,13 +198,22 @@ class SegmentIntentValidator:
     
     def validate_test_case(self, intent_name: str, segment_name: str) -> Dict:
         """Validate if a test case should be created for this intent/segment combo"""
-        is_valid = self.is_intent_enabled_for_segment(intent_name, segment_name)
-        
         result = {
-            'valid': is_valid,
             'intent': intent_name,
             'segment': segment_name
         }
+        
+        # Check if intent is globally disabled first
+        if intent_name in self.global_disabled_intents:
+            result['valid'] = False
+            result['expected_behavior'] = 'globally_disabled'
+            result['reason'] = 'intent_disabled_globally'
+            result['message'] = f'Intent {intent_name} is in the global segment disabled_actions - effectively switched off system-wide'
+            return result
+        
+        # Now check if enabled for specific segment
+        is_valid = self.is_intent_enabled_for_segment(intent_name, segment_name)
+        result['valid'] = is_valid
         
         if not is_valid:
             # Determine expected behavior

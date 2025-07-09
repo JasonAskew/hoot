@@ -1,0 +1,31 @@
+{
+  "categorization": {
+    "tags": [
+      "live_chat"
+    ]
+  },
+  "searchable": true,
+  "system": true,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "AVATAR",
+        "payload": {
+          "state_name": "agent_connected_bodymovin",
+          "display_mode": "PERSISTENT",
+          "title": "${LIVE_CHAT.agent_name} is now connected."
+        }
+      },
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "${LIVE_CHAT.agent_name} is now connected."
+        }
+      }
+    ]
+  },
+  "state": "SAVED",
+  "name": "MessageLiveChatAgentConnectedEvent",
+  "display_name": "Connected to Live Agent",
+  "description": "An agent joined the conversation."
+}

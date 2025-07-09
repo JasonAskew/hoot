@@ -1,0 +1,2206 @@
+[ {
+  "categorization" : {
+    "tags" : [ ]
+  },
+  "state" : "SAVED",
+  "name" : "43_viewstatements_s_test",
+  "intent_name" : "43_ViewStatements_S",
+  "scope" : "TEST",
+  "data" : [ {
+    "id" : "5fe3bb9f-b836-4d78-929d-92184549d6b0",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any Bob to get online statements?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "267ea3ed-d668-4b84-81e6-7b0bd5854327",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bank statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "f78db81b-fd68-4b86-8a85-8a4032809219",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bank stetment.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "65547dc8-e79b-4975-8fbb-891997c75c86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Benefit Statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a1e8558e-2a62-47af-ad60-54cdea1bd53b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I check my statement in my app?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "b0749660-aad3-495c-b4da-d81aa2be3e60",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get a transaction statement from jan 1111 to Mar 1111",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "d4e2970c-60d6-4d47-80c1-446b507ff3fc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I request for statement of interest",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "8c22c456-1baa-4888-890d-7ee5f2fc93eb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I visit to bankname Bob to get bank statement?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "a34c1ad4-fa60-453a-bdd4-ff375fc8f600",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can get my statement of account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "43318362-54c1-42ea-be71-8266a431897c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cannot find my chequing account statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "e505535b-83ac-4071-849e-a6455ff80f85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink has requested a FULL Statement of my BT Panorama Investment Account 111111111 - I forwarded them a Portfolio valuation Statement but they rejected it. Where do I find a FULL Statement dated",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "faf492e5-9c28-4fb0-9ec3-8befd9336192",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Current Benefit Statement confirming your insurance benefits with BT that is dated no older than 11 days from the date of the application.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a61f4573-bfb7-4b6f-a67f-c4e13974cc9b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Current Statement Transactions",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "e9a71d8d-9484-4d2d-8de5-a013af10c920",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "DIRECT ME TO THE DOCUMENT LIBRARY ON THE NAVIGATION MENU",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "dcee75b7-5919-45ab-9084-997d8fec5722",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Document library",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "d574bc4e-3fb6-439e-9831-8cedb18c5601",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Download Estatements",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "8b8ac6d3-b0a3-4186-9014-ab41d6396e21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Download statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "c449de49-56d5-4acb-ac6f-02d960ec8aac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "E-statement registration",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "72a4ba72-72f6-4391-b438-238a8be70ef5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Estatements by email",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "274366f9-9e08-4dff-aa88-e7a669b6a87e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Except the Cash Management Account Statement is not listed?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "a7127600-4781-49f1-9f47-82859f0362cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Find benefit statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "4b2b3eea-9342-4740-b387-78aefcbae4fd",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Good evening kindly assist me with information on how to access bank statement online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "89bb224f-4294-4df3-ab1e-f6555889d9e4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Good morning Absa what do I need when collecting a bank statement",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4b6e9d6b-2c2e-4d8b-ba2e-26f76b890879",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Good morning I would like to get a statement for the month of March",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "bb9fe8d6-b2f2-4f41-9a50-d33bf905f915",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi Can you show my laestest credit card state mentioned plse. Thanks",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "c149c781-de45-432c-ad30-6a7149261c30",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi how do I get a copy of my BT Panorama Cash Account Statements for the period from 'Opening Date' to 11 June 1111. thank you",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "64e2d216-4d71-4409-8814-0f5cdb35286b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi i need to see my statement",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "c1ec8e11-f8d1-4b92-81f9-f36abfe89b5c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi! I need my bank statements from 11/11/11 to 11/11/11. How can I retrieve them? Thanks!",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "a132fd0c-8439-4f03-95f8-0238905cfd73",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, how do I get my e-statement",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4628e3e2-81f3-4f1d-a8ee-cf208fa9aafc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get the e-statement",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "310291d0-060c-4bef-9e1c-1e7d012f022f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I print my transactions?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "885f4e51-1112-4e00-bb79-f052d730afe5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I retrieve my credit card statements?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "0810c075-dc4b-43dd-8c4d-b2f1d2dfd99e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see bank statements",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "8fee686e-06d0-466f-a98e-43f54086dff1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check the full details of a charge on my statement?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "ec8ac9f0-122c-4a4b-a9d0-68597ae2d4f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I download a bank statment with the transactions and balance included (for last finacial year)",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e9d28acd-609b-471e-9bcd-0d847dd502cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I download a statement",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "d15b50f8-ea41-48e7-9b4c-6ae22ba4dd6e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find my statements",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "0e35ec4a-422d-4b13-920c-e06e39297f64",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I get a members benefit statement?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b2e52f18-84f4-441c-ac3a-c7bfd7ca2ae2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I print my bank statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "996459f2-8f97-4e2f-856f-52e7908fc412",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see my bank statment",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "60f3f624-5b30-44f8-8a38-ce393c1ebf87",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see my investment statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "67c81223-0466-4478-897d-a1ad4908dd0a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see my statement for year end 1111",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "ca6e0b7c-1c3d-4370-a742-8a9cff572b41",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I view previous statements",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "a0311022-d2e9-4dd5-94a3-01cdd541edde",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I print past transaction history?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "b73b291e-026d-4575-82f4-a15957d9ea55",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for 1 month bank statment",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "a93a3a0c-6c1e-498b-ab17-485db8fce143",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to download my account statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "ab2a51de-82ea-4eda-a4a8-85f8dfd4118b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to download statements for 1111/11",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "b9454f7e-ffb0-4f3d-a0cb-b3853c7ed951",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to find statements on iPhone",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "99d1e379-54b6-4fd5-954f-c0d11b12ff3d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to get statements",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3abc0281-7280-49ee-8ffe-8d1d60ead169",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I Bob to check my monthly statement I Bob't have user id and pin",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "a3a36797-25ca-4f78-9f3e-2461a0f475c0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I don't know how to see client's document library",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "ed70e9e0-a891-4a85-8779-9abb64597daf",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Any Bob to get online statements?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "e377546f-aa3c-4bb0-ac3b-c048c0f9fec1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bank statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "77fed353-c968-4f26-af8b-db4637687aa4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Bank stetment.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "78841425-c772-4c82-a2b0-99443f81781e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Benefit Statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "114d095b-e1e8-490b-bce3-059f05b2b989",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I check my statement in my app?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "70272bfe-3cfa-4539-bf0f-3f22b1e8ab1e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I get a transaction statement from jan 1111 to Mar 1111",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "71a24758-d2db-4655-966b-5ae9708d2a02",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I request for statement of interest",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "7ab825a1-90d3-43cf-92cc-15dd9d0eb0db",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can I visit to bankname Bob to get bank statement?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "6d835e8d-c452-4ed2-8c60-a9fc509e8f47",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Can get my statement of account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "1ca2a43e-bb08-4463-bffd-3a891f33df8f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Cannot find my chequing account statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "c52c29a4-596d-4865-870e-a3fb9df25ad6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Centrelink has requested a FULL Statement of my BT Panorama Investment Account 111111111 - I forwarded them a Portfolio valuation Statement but they rejected it. Where do I find a FULL Statement dated",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "ea5d197f-8a48-42fb-9651-f63458861abe",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Current Benefit Statement confirming your insurance benefits with BT that is dated no older than 11 days from the date of the application.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "68369521-eb9a-4259-8abf-c2df0ddccd11",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Current Statement Transactions",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "cb965856-59db-4fd2-a7b6-d2f704fb506c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "DIRECT ME TO THE DOCUMENT LIBRARY ON THE NAVIGATION MENU",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "7ee3af53-0d0a-4ac9-a8d2-d3646a9fa8ff",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Document library",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "990f57c7-d34d-4eab-affb-afe33c4e4ee7",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Download Estatements",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "5fc9c561-b7f9-4377-922c-c7bf6d2768f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Download statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "65ee677e-e666-4fb0-8a3a-bf604e783c6a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "E-statement registration",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0ab0f076-8ced-4b5f-b62f-0e4493c90624",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Estatements by email",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "60120325-2f58-446f-988f-9299c704ddb1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Except the Cash Management Account Statement is not listed?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0a1a0bca-5b0c-428a-9c4f-834c0d5f3c42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Find benefit statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "5a54a55b-c44f-4b08-9e97-3cc6072bd27b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Good evening kindly assist me with information on how to access bank statement online",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c83623b1-0227-43a1-a623-477cc99f4690",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Good morning Absa what do I need when collecting a bank statement",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "91cc9ab7-1159-4909-ac28-497d67a50a39",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Good morning I would like to get a statement for the month of March",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4e3da934-465d-4821-9104-10a66eb6e451",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi Can you show my laestest credit card state mentioned plse. Thanks",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "0ff168b5-e098-464b-bb8f-8a21dfab06fe",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi how do I get a copy of my BT Panorama Cash Account Statements for the period from 'Opening Date' to 11 June 1111. thank you",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "1772eb38-eede-482c-8f7a-4c40521f6b65",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi i need to see my statement",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "193a39a6-db2b-4fa1-ae16-236fe78c8aff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi! I need my bank statements from 11/11/11 to 11/11/11. How can I retrieve them? Thanks!",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "eb3671c4-4310-4ddf-a9a6-5da2af6a877f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Hi, how do I get my e-statement",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "89d90713-0fef-4af0-921a-58671501099c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I get the e-statement",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "ee723532-f913-4bd0-ad11-30608bfe15c3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How can I print my transactions?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "2feb4a50-71ed-4f3c-868f-ef835068b01b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I retrieve my credit card statements?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "c165c676-3559-4f55-84ab-ff45526c9f37",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How can I see bank statements",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "3e72976c-26ec-43f7-9d64-7a1dec29a61d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I check the full details of a charge on my statement?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "5fcbe847-67b9-482d-b658-95ef2d2f854d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I download a bank statment with the transactions and balance included (for last finacial year)",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e83e5594-4c5e-4b5c-8a4c-9c4af6a7ecb1",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I download a statement",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "e631754b-1c86-408e-8fa2-930057fa2ee8",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I find my statements",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "f26a7609-9b3c-4603-908c-7f06de5376f8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How do I get a members benefit statement?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "159c96ee-25a7-4818-bc3e-9f3425f15aa4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I print my bank statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "9e5c0df8-7d2f-4a70-a8e2-c84a0e49565b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see my bank statment",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "fd23b5e1-c8cd-4a69-8d25-bf1fbca3c6ae",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see my investment statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "7ef7a1a1-048b-44e8-a345-289859ef959d",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I see my statement for year end 1111",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "a84065b3-05cf-457c-b7fa-cc21c0b7126f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How do I view previous statements",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "fd155ad5-2673-4005-b76b-d824e2b08151",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to I print past transaction history?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "91a9cf67-f133-4546-8352-825fdbb45911",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to apply for 1 month bank statment",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "d18921f5-b5c1-44df-aa3c-e7c3b7ed7c53",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to download my account statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "d243eeab-ed4c-4857-b466-e27ac7b41771",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to download statements for 1111/11",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "f4d10e4b-20a0-4890-b6cb-f8eb7d7087ad",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "How to find statements on iPhone",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "3a99e7ca-18c7-4056-8fd0-9320f917541d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "How to get statements",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "070bcaff-777b-4530-8078-e38cbed1ba64",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I Bob to check my monthly statement I Bob't have user id and pin",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "7d41a3b5-18fe-44ba-8311-761bec27882a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I don't know how to see client's document library",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "2d85cead-2e90-460e-a93b-1382cb3aa1e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need a statement to show the balance of my super. they are not in the document library",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "38710610-31bb-4b6a-a804-ed11a6c4d337",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need account statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "f0386e38-14b9-4b36-af9e-ce0dee0711b4",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need current month statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "85d178d8-1cdb-4cff-9421-473a0c8923f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need rollover statements from 11.1.11 and 11.1.11. they are not stored on my document library.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "41408625-1c25-4df8-ac2b-1df1a6fb83d8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need statement",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a719ab08-ce0c-4a97-824c-d898c5611235",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need the currrent month statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "6854e5b6-c4c0-4fb1-894f-4845c2196ab4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to PRINT a current STATEMENT",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ab7cae51-06f8-49cb-afca-f559fc48b690",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to access a statement urgently for the bank",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "c25ee94b-d7d2-4ed2-a0c6-1c22cbecd5b5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to get latest member statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "71d36ed3-11ee-4330-886d-4791db619223",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I need to get my last two recent statements",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "2300b46c-e50a-4f14-8e60-13257a9f72a1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I need to locate my member benefit statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "2bc031dd-94b9-486a-83a5-180b217664da",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want 1 months statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "da1c87d4-23de-410b-a495-e4b3862292de",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want full 1 months statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "b9d63eb2-3c09-434a-97f0-0a0a229b862c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want my estatement.",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "4439c0c1-7831-4060-892a-6ceb8b63f61a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "I want to download statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "4be9235c-3bc2-4eb4-addb-d111d4c4c414",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I would like to print a statement.",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "8851ad14-6878-4f94-a6e9-8e57ee815368",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I'm looking for the Cash Management Account Statement for FY11?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "86d605ca-2b5d-4470-8e71-a8910b23cc5b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Income Protection end of year summary statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "b40ab7aa-b82a-4e3b-b4ef-c7c4cb1c744f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "I‚Äôm trying to get online for statements on my super account.",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b3ada4f7-acf3-4ba3-a5aa-8051994e0b77",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Kindly requesting for March,1111 bank statement",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "6d49e14d-2778-4d98-886b-54c6c3258aa3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "March mini statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "3b72dc14-861f-4b4c-8048-acfeb3308b94",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "My statement please",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "2e7f0b99-d17b-46fe-8a66-0936d9d1ccfa",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Pls can print my statement of account ?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "9c545f68-e711-47ef-9f0a-c82ff631ac10",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Rollover benefit statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0d8ef134-808c-4249-b4f7-ebf3d1461817",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me a print out for the last month",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "96ab790c-8448-4f4c-a890-44fa86305804",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Show me my bank statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "58f76184-4573-41be-86a7-3219b4aa49cb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "So, how do I get a Statement for specific dates - i.e. part of a Financial Year?",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "bda711d0-a287-4c6c-821d-5ac4b505cc13",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "Statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "e562ebf3-7c56-466a-bd5f-3fe441a6f089",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Statement balance",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "bbe43b5d-986b-4ea0-9d30-06c2fa34390c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Statement on iphone",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "1a93db37-2a0a-4422-b4d3-e90816333de5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Statements",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "daf54cf1-2b02-47e8-8eec-41718cc2052e",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "T1 statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "b2c48263-0a6b-4c3f-a795-d487f88b9b3e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "View Statements",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "68ce59cc-9be2-4dfb-b37d-186c4af21e18",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "View statements",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "eea50ed7-0c34-4a68-8ae2-03fdb0c8ac31",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is next after I selected \"Go to page\"?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "026a5cdf-0d8b-451a-a894-31b3f819b02f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What is statement balance",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "b1d14b09-881c-487f-a36e-e36604583656",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "What kind of statements can I see?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "945b2f29-95d9-44a9-bf3a-500ef675a2cb",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When can I download e-statements?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "74797b80-5a72-4599-b9e2-ee650bca88f3",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "When can I get t1 statement?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "cb11fcd7-2392-4e57-aeeb-58cebd838fb2",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where are my e statements located",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "b571f00a-99c2-4c64-b827-f7b020997e0a",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where can I find my bank statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "21dde353-02fe-47c7-920c-9c0feb0ebd11",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Where do I find previous statements?",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "52ee93d9-40fd-45ef-bf3b-b02f650b4985",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "Would like find out my loan statement",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "c973a198-b205-4fe4-a644-358163170c80",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "\\WHERE IS DOCUMENT LIBRARY",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "b03ae482-4cc1-43f7-a4a9-9eaf8859408e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account statement for 111111111",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "d2c6c263-61ea-469d-9a2e-3a7a5469f7fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "account statement with closing balance",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9db0937b-4036-4d94-8517-8cfa10be4fad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "after insurance statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "973c5783-7732-4f79-b891-1143abe58bb4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "archived statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "621f9a70-c6cc-4b94-98cd-0c84dc0bdcbb",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account statement",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "27b67626-4cd1-487c-ad97-c14c46c1d0a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank statement for period 1 jan 1111 to 11 jun 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "62a3e00c-a61d-462a-b1a6-5619ce17d919",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I get online statetements for 1/1/11 to 1/1/11",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "b568c0d7-4783-4e4e-bebf-ab4a7f01371b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can bt provide paper statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "8bdedf98-9fdf-41c6-8b82-e6573910a21e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i download current benefit statment",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2c5dbb5c-25d3-4d9c-a181-8702582af04e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you direct me to the document library for my pension account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f896f2b7-9985-462e-bceb-35b2b3634ad7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me my statement by mail this is too complicated for me",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "74cbf906-e2c4-441c-8997-9ef5a5385c6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you send me a statement please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "12ba2ac2-7d39-4c57-b569-eecf48669341",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash management account statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5df788c3-e953-41a7-bcef-5a4967c87fc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash statements",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d5b30a7d-a1cd-49d7-83d2-2d28e2faf7d6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "archived statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "6ecf235b-cf75-4f48-af3c-d0a7b04d931c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account statement",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f1529ce3-b250-4ddd-bf65-c3f0d99742f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank statement for period 1 jan 1111 to 11 jun 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "38501e6a-b149-4bec-b014-7f5804ae7ecc",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I get online statetements for 1/1/11 to 1/1/11",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "3120a413-85c7-45b9-958c-60aa25eb2bc1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can bt provide paper statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c296453d-df9d-4c8e-a774-e1d02734ffce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i download current benefit statment",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5c3f3a94-2e12-4244-b4b3-a2573b277240",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you direct me to the document library for my pension account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "810f5e93-c291-43f0-8466-2ab78a8ae45e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me my statement by mail this is too complicated for me",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "908c3f56-396f-4e88-a44d-0e80c75983b4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you send me a statement please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a8aae335-2a3a-44b1-928c-44b6c70560f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash management account statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4c935dc5-bbb6-4da1-ae57-b8a79809863b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash statements",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c538aa4a-3d9f-4fbb-8ee2-23a0438e4442",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "archived statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "eb8249b5-3133-47a8-9dfb-7e346d978360",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank account statement",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f21907a5-5ce2-4f3d-a6ca-412383084c40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "bank statement for period 1 jan 1111 to 11 jun 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "d038b6de-51c5-45a5-9c1c-d6fdd0285d0f",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "can I get online statetements for 1/1/11 to 1/1/11",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "7fcd716e-dc31-4391-8204-d1715f636c1b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can bt provide paper statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c752a94f-8794-4016-9767-84365cfe755f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can i download current benefit statment",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "699ef92d-3bef-417c-86d5-d22d0811d6f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you direct me to the document library for my pension account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "aae7773f-1f1b-4f55-8744-bec701230a04",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you please send me my statement by mail this is too complicated for me",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "53e09bbe-8051-4fa5-986d-e5da873ce89e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "can you send me a statement please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "065e4fd1-5e3b-4e78-ad6f-6112c8ede8f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash management account statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9cc1d4d0-f598-4fd0-9229-25bf8ee17a66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "cash statements",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "60d3d756-e807-4ec9-97ff-fca204a819e0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "closing statement for client",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ed5ff84e-64dc-4b53-87a4-c3fbd7a7a462",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "commission statements",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2501995d-fd77-4635-bd40-639a668a548d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "copy of bank statement",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "7b7f3b5c-2e30-4ab5-aca7-223b181f14f4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i get latest statement please",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "cad25287-d65a-4416-89b7-08a7142a5c63",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "do i receive a bank statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4eeafe96-4234-4e1f-b6c7-f71225b7e244",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "document librarby",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c6e3f249-9062-4838-a2b8-2f71e229a80c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "document library",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "364d709e-1317-4daf-a97b-3cfaf3cf1a2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "document request",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "82fdab0f-8fef-46d7-88d3-90ac6e14b583",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "end of year statement from super fund",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "fdb7426f-d96e-4526-8b52-42492b6dbf39",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "eofy statement list",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a4e30071-fd34-4814-bfa5-9bfd1e94a428",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "estatement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e65ed8f0-d638-4e8b-9d88-4e57f67fe65a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "estatements",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c51be40e-4c62-41f1-a455-84caea842754",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "final statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "ba5835ea-574c-4bd5-b254-737ccede23f2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "generate bank statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3208ca19-0f1e-439f-9eb9-0cb4ffcff4f6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "getting old statements",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "e2bd7ebc-60f4-4c76-a096-0223eff69852",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello how can i get old statements from 1/1/11 - 11/1/11?",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "ab245f2f-30f9-4bdf-9a76-c8544ce910c1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hello i would like to request for a copy of the exit statement of bt panorama investment account no 111111111 thank you",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "b2feefb9-1c55-4a0b-b0cd-63e8afaa69fa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi bob i am trying to print out a current statement the only one that i can print is dated 11 june 1111 how can",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "709162ff-b3bf-49b3-95ea-4726079237b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi how do i print a current statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d2335555-93da-4bbd-9292-b57813766815",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i am after a statement for my bt super account which i closed recently can you help please",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "985cb6f8-91b3-4f6f-85d9-3c058714b961",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i nee a pdf file with my balance",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b8ab12af-4401-4e3b-a582-7ce9b8d4da53",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i need my statement from 1111",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "224e6b10-635b-4644-880a-7d8a08a55805",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi i would like someone to send me my up to date statement and i need to arrange for binding beneficiary please",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "293527c5-f5f7-456b-a520-9d2a130e53d5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi in need a statement for the last twelve months which includes the bsb for this account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "0392448f-edc6-4456-9318-1f46358da5aa",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there how can i download this statement for account details",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3771c675-dae4-4609-ac1e-fabc59ff57cf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there im trying to find my latest statement",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "b8c0b1c0-822b-4d35-b648-8710ccaae99f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi there just wanting to print out 1 mths worth of statements",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c60506b5-85a3-4838-83c4-33d19f79c87d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "hi where can i print out interest earnt in 1111 / 1111 including term deposits",
+    "tags" : [ "westpac-plat-050321", "merged_from_vpaunknownrequest", "test_platinum" ]
+  }, {
+    "id" : "13cf933d-fb2a-4927-bcf1-ebf6487b1466",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "hi√î¬∫√•how i can print individual month statement for my account",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "21deb62a-dbaa-4dfa-a1a1-18e63afb12e1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can I get latest superannuation balance statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "0a3133b3-54dd-40d8-a2f0-bc9716869324",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can download a statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c095ee35-64bf-4cbb-a2b9-ffca4170760c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can download super statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "066d965c-f8ae-44a8-badc-dd0e92da6ff4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i access my super statement on the portal",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f75e8a14-3173-4c4c-ada7-7d939f45f2fc",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i find and print a statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "89b21f52-9188-4ec5-8fa2-a8d9e6cf1277",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i find my current super statement thanks",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bd40295d-448b-49a1-a55c-e754da263254",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get a statement nothing happen when i click on apply",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c7d64259-78a6-4829-b487-2e3e775c5828",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get a statement of my account",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "065614d9-fa22-4c60-aa31-19bac469f184",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i get an interim statement if my position",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "82650308-00ad-486a-9443-1dd46d2d1dbd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i print a bank statement for each term deposit for our accountant",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "74364b0c-338e-45b2-afca-6edd1a19b8a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how can i produce a statement",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "46f4c54a-9ace-41f4-8fed-68bbef468aa9",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how can i share my bank statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "c8d5a47d-6f0e-409b-a513-23a87ea43524",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how do I download a copy of the cash account statement",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "388943db-2ffb-4c0b-88ae-b3cf375736a8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do I get an up to date statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "8f4b1986-0044-490b-8573-e544d04190d9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do clients change to estatements",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b9c37616-e87e-4f5d-ad77-0b1cb3d6d5c6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i access my super statements",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "63ee5c9e-0bb9-4be2-9152-00858da381e4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i download a statement of my account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "dd739569-be71-4282-acdf-5051dd976f84",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i download my current statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1008b9d9-cb6b-4e03-a899-719a990f05c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i generate a quarterly and monthly statement for a client",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "84d4f7fb-903d-43c5-9a83-7590cb1fe26e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i generate a text statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "27f76463-bb53-4db2-9cc0-659834e98436",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get a bank statement for my superfund account",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bc67d385-4a29-4c3a-85ab-d9ca408142d1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get a current statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "79549517-4019-4bae-be88-6a54c41f5d47",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get a statement for the period 1 jul 11 to 11 june 11",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2ecae968-5352-47c7-a184-7392329a2c66",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get an annual statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "26a3f65e-9b43-432b-afea-fab90e11ef42",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get my latest statement as a PDF?",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "0eb23318-87c8-467e-9102-962340a8a2a6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get my tac report for last financial year",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6375de91-666f-4eb9-a169-dbf19475c772",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "75c4d9b6-e708-4cc2-b8af-a3a763afbba7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i get the cash management account saver statement for the same period july 1111 to june 1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f8ca9ebc-e945-49e8-bf43-566c3efe7206",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i look in the document library",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5a66b7e1-c4b0-4992-9e45-ffed4a3f5ace",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i obtain a copy of my finacial statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "6cb043d3-ed3e-4919-aed0-23ee338bcdf5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i open my cash management fund statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "f9a61947-856a-4bc6-b95c-3b6b3b919f7f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i print a activity statment",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "99ece70e-660c-4eea-a814-01f5bf5e6893",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i print my statement",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "ed64b1d0-324d-4f77-b20e-3075393eab85",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i print out a current statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "807c9763-7e5f-46a3-8bdc-0a1db71d8e1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how do i send my statements for last financial year to my accountant",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "5689e38f-9a21-45f9-a4e5-2af6170c719b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to download account statement",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "bad8eb37-9de2-4187-ae8f-02fb825b99a3",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to download history",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7f5eaa73-59b4-46b7-8f9f-a462f1b24464",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "how to find my bank statement",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "f2ae22e4-2038-4737-b85e-84cdf89d1bc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "how to pull the latest statement",
+    "tags" : [ "q4_2022_plat", "test_platinum" ]
+  }, {
+    "id" : "1386292c-eb27-4cae-b752-ad645f224bce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am after bank account statement from 1 / 1 / 1111 to 11 / 1 / 1111 for my smsf account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "22ddafc0-82ad-4d04-86a0-8b5f82f9cb5a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i am after the bt panorama 1111 audit report",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b15fe688-0c03-4904-ad82-1fcfd84e0fec",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i can not see my super statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "377f7ad8-583c-4143-a5a0-650b13f094ab",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cannot see any documents in the library",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e42b4ba0-6f1f-44e8-a16a-e60305839a5c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i cant find bank statement from library",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "6f8bb8ed-90e8-4011-8ae5-f795fac1d4b9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i do i det my super roll over statement for1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3cdb3524-83da-4be4-8895-ca8dad016715",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i just need a bank statement please",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a83e8a0d-84a7-41da-8e51-eecec6cd9838",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a benefiuts statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a387b96a-cc77-4251-ac5d-b7fbcf992246",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a copy of my statement for the bank please - how can i print / download one",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ebe68a2d-3954-4d78-8230-b91e59af672c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a current statement of my super fund how can i print one out from the website",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "04d52f86-7322-43de-a390-ba51cab3c8b8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a document from you please",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9e61abb4-7d32-4b3d-aa8d-395d8754c0c8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a statement as at 11 dec 1111",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "78daa297-4fec-48ae-a9f1-1cad79f83d69",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a statement for a rollover application",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a4a52467-f9c3-48ab-bf9c-3babdc37d51a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a statement for my super",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ff012c4b-e258-4ab6-ada7-d5b2a486d34b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a statement that includes my bsb number",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d85d5fd0-e410-4903-a166-d73cd4ed8c91",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a statment urgently for home loan",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0daa5c32-2aa2-46bf-a69a-d681d570ac25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need a super balance statement please",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "c596db0a-8aa3-4bb2-858c-7b3a36a9ebd1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need financial statement",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "8c530429-d39c-4cce-b4b1-584470b468bf",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need my bank statements so where can i print out",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "9b940d0d-e0cd-4e97-a37f-d682bb07d5c2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need my bt super statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3c96e5fc-efe9-4f92-9fb1-edbee5694869",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need statements for family law court",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "67e364aa-2484-4fe3-81d1-09c9fba5b2c9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to down load a statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "73b03642-2c19-49c4-8260-3939b1f6d628",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to download a statement and was in bt wrap before the change over how do i get a statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ca681ade-221f-46e7-b1e0-56d12e1703a7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to download transactions 1 june 1111 to 11 june 1111",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "09f30dcd-c551-4c13-be00-53adcd06c29c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to get access to my statements please",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "28a048e8-dfd3-494d-a7fc-66440b84a172",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to print a copy of my super statement and it must show ownership investment options and number of units held",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "52047fd6-bf5d-4802-ab72-26bb4de4ff52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to print super statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a0c887a0-43ee-4ec5-871c-22c56a456cb9",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i need to view statements",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0f4bb767-b50c-47df-9202-169d54ab8f32",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i needed the super statements from 11 / 11 / 1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ad30776f-5d06-436f-8f86-49dcf980e73a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i require a bt statement",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1deea5da-13c7-461f-a3c1-af230359f553",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i require a current statement the statement provided is for june 1111",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "944bb449-ba72-440e-83ed-3c2fb9cacfa1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want aa copy of my statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "63d8d34c-d556-4acc-a174-de3b890b336b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "i want estatement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "66d4d187-69cd-46ea-92c6-15459f01ca21",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to access a statement",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bb8c92ef-d78b-458b-8ab9-60e9c0066f89",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i want to print a statement which has account details and transactions i cannot do it",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "d599e8d7-2bc3-40e0-8681-67f05d7d1a4c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like a closure statement for my account",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "80f69fd5-049f-42fd-b881-e6af0e769dc8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to access my statement",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "546bbcc4-9659-42bb-8f76-cbc6ce7d42ce",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "i would like to ask on how can we view commission statement for 11 / 11 / 1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "556955de-170d-459b-a4eb-1acf02dbdc82",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "in the document library guides for fy1111 / 11",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "49a5b44f-6d18-4cb0-85c4-ce2ae51ef841",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "investment statement",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "e6f538ce-0682-4b50-bb67-56cfc294257b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "issue statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a819a270-d241-4531-858e-3e87421d496b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "just need a statement",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "7be613ad-409a-4ccd-8c28-2c29875fc540",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "latest cma statement please",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3f1a3a29-17d2-444c-970e-c79047f6809f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "looking for my annual tax statement 11 - 11",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "bd075989-f0ee-4032-b2c1-aae885e7e806",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "may I request to have my statements emailed to me",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "1ef31b6c-4cf1-42e9-9ce8-5029b5b3f08f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "members benefit statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "3a3859eb-5bd2-4f8e-88a6-cfa43c41ab03",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "my monthly statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "659be970-fd3a-4755-9e32-b90e8e171bf4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need a statement for fy1111",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3aa5d1ad-348c-466e-8e74-b19ace278e36",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need an exit statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "90f250e1-2151-42d2-a6cc-97a0e787b515",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need statement of account",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "46ec056a-e4a6-44d0-be5f-7e4d0e33f905",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to print annual statement for pension account",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "5abc66c3-384c-4413-8aae-d8f1b60bdc6f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "need to print my account details",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "2015cb29-8148-4abe-9c85-6f761c22d54f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "once generated where can i get it",
+    "tags" : [ "bt_platinum_q1_2025", "qa_2025_q1_post_qa_moves", "test_platinum" ]
+  }, {
+    "id" : "839b1697-157b-4e18-8535-3f234085d66b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "payg payment summary",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "b51114b5-b456-4ccf-b2aa-ce0149651bf0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please provide me with a copy of an account application",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "9b78f0bb-f784-45ad-91a5-b43bb37fa2ac",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "please send me via email and post a hard copy of my annual statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c55c8ea2-4553-4d11-a277-ceeed966fe52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "post my statement",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "7b20b801-c77e-4a57-bdd1-ae4441f02ec5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "print single copy of payment made",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "0a392084-3e8b-4f14-ae13-370db4f9e887",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "produce a statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9377865f-b4fb-4022-9d53-9025300d73a2",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "produce holding statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "4491b9b6-63d7-4e16-a59e-81f7ad90ba86",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "quarterly bank statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b10707d5-b7e3-46bf-b328-53bde6ee5b53",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "recent up to date bank statements",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3a0122d5-4b85-4da8-b9f0-afa9bc7791f5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "request recent cash management account statement",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "7818ec5c-90ee-468c-a9e4-26ea6a2f2c9f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry need them for 1111",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "7d610dbf-e0a1-4229-b45e-0c368fc8603e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "sorry u there",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "ecf23d60-5feb-46fb-a08c-f669b9507921",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "statement 1 january 1111 - 11 june 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "bba35ab4-d972-4309-a49c-793595adebc0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "statement for financial year",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "e2fac82f-13ae-43fa-8786-d8d032156019",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "statement on closed account",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "a91cde07-09db-47f3-9905-11bca12e1779",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "statement request",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "2a2e8a7c-feff-4f9f-b43f-3bbf75045312",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "statement showing investment options and numbrr of units",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "63bf99ab-1a01-4b11-abab-1a75ca0887ff",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "statement to email please",
+    "tags" : [ "goldset", "test_gold" ]
+  }, {
+    "id" : "f437363f-6592-4ffb-acfb-ef33eedb6d1c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "submission of statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "ef4b5e70-a6d9-45f6-bf91-08c756234f52",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super 1 months statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "5947dcb9-d90b-40b1-b235-ac5af0db200f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super contribution statement - how do i find it 11 / 11",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "cbe9c3fe-7590-42a0-946d-34cf8e2136ba",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "super contributions statement",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "51b4ed50-9bca-4c42-a40f-30bb5a4ea9fd",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "they are requesting a certified bank statement for the last 1 months with fund name bsb and account numer",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "b2cd032f-1b5c-45ef-8e5c-8d3e12516f74",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to view statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "2bc3cab7-0a09-4675-b091-9a886afacf3b",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "transcation statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "b4e8aa41-78e3-40a9-b1a8-b65158fa306f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to download a statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "10b20a87-bf7f-435a-90c0-e87af86c046f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to locate where i can download a recent statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0f426cb6-aaf5-4fe3-9bca-6b64971ddfb5",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to find my bob statement",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "528dfa04-1777-45b4-b8b7-bec9c964c5db",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view statements",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "0f1ca78d-4b5b-4545-bd1e-89adb32b31f1",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "voluntary statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "94d73894-7c4c-46b7-8309-55a36d7e8423",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "they are requesting a certified bank statement for the last 1 months with fund name bsb and account numer",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "93b7fc2e-a71d-4fcf-b598-eb02c3d6de51",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "to view statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "4825bae0-264a-4900-ab89-149744aff34c",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "transcation statement",
+    "tags" : [ "fgs", "test_gold" ]
+  }, {
+    "id" : "2c2e49b0-063e-495d-a005-c2eb6e921a2f",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to download a statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "3dcb2879-3d4a-42e9-8778-116417ed5d2d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "trying to locate where i can download a recent statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c7361d2a-9a14-400a-b9de-5a8a40dea8e6",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "unable to find my bob statement",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "b4be0b7e-9f94-4c6c-9711-8e7e5997c785",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "view statements",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "23390ddd-8d39-4156-a9cf-905aa341e1f7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "voluntary statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9c3eca72-36f9-4fef-8b47-811ef79f425d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when do closing statements issue",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "94d708f4-9d61-40f4-b913-5b31a5ee7872",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "when do you send statements for closed accounts",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "eec11431-ba8f-4021-855a-dd29b0298de5",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where are my statement",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "4f03c68f-7bec-4058-b2d1-9bfbeb02a5be",
+    "type" : "TRIGGER",
+    "source" : "variant",
+    "trigger_sentence" : "where are my statements?",
+    "tags" : [ "platset", "test_gold" ]
+  }, {
+    "id" : "9a74d7f2-e6a9-43b8-92fc-e59d590be1c4",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can I get my latest statement",
+    "tags" : [ "bt_platinum_q1_2023", "test_platinum" ]
+  }, {
+    "id" : "a7c695ce-19b4-496e-af2b-da5e4d09be7c",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find my most recent statement",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "351bdebd-d424-49c3-9976-6d41c009ea50",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i find the quarterly statement",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "02ecadfe-456a-44bf-94a5-11bda3c2d00d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i get statements for the last 1 years",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "3ee057a9-c633-4471-aa2f-4365be91496b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where can i see statements",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "08adbacb-b4e6-4646-a88b-4bea4f0abe40",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find 1111 / 1111 statement",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "30cb91cd-651a-4789-8946-d35c1f1c2cb8",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find my exit statement",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "c0216522-6921-4b1d-b991-cd8321d1820e",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find my online statements",
+    "tags" : [ "westpac-plat-050321", "test_platinum" ]
+  }, {
+    "id" : "6cdda3d4-59c3-4034-9db4-79b88bd50130",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the cma bank statements",
+    "tags" : [ "bt_platinum_q1_2024", "completeness", "test_platinum" ]
+  }, {
+    "id" : "c7c146fb-2c40-49a8-ac18-923e68f4c113",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the documents library",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "a109db20-fb83-41f9-a566-a34b0e096ff0",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where do i find the statement",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "1b15d2e6-1766-41f3-bf1b-b793fed2535a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is document library located",
+    "tags" : [ "bt_platinum_q1_2024_v1", "completeness", "data_sync_addition", "test_platinum" ]
+  }, {
+    "id" : "c9918e38-03bd-4dbb-aa0d-86dbbbcb1d1d",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is my bank statement",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "845d04e1-8151-4f56-8b29-d53709e74c25",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is my document library",
+    "tags" : [ "westpac_bt_platinum_q1_2022", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9d438fe2-cb4a-4607-8de5-58671ffd085a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the document libary",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "e80c4237-884c-42ff-a7e8-e877790515de",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "where is the product disclosure statement",
+    "tags" : [ "westpacplat2", "test_platinum" ]
+  }, {
+    "id" : "cf4a6460-aeb0-4097-92c8-938d9bee3689",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whereabouts on the screen can i find the document library",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "443c8daa-60c0-45d5-9728-79d499fcedad",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "whhow can i access my cash management statement dated 11 july 1111",
+    "tags" : [ "bt_platinum_q1_2025", "test_platinum" ]
+  }, {
+    "id" : "a698ed3c-46e6-4561-ba31-cd934bccc17b",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "why does the cash management account statement only show to 11 / 11 / 1111 instead of full financial year",
+    "tags" : [ "westpac-plat-q4-2021", "completeness", "test_platinum" ]
+  }, {
+    "id" : "42583037-c1d3-4211-8c0d-3088a4423d1a",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "year end statements",
+    "tags" : [ "bt_platinum_q4_2023", "completeness", "test_platinum" ]
+  }, {
+    "id" : "9ed0ad25-1cc0-4b9e-8e10-6973be019dc7",
+    "type" : "TRIGGER",
+    "source" : "annotation",
+    "trigger_sentence" : "year to date statement",
+    "tags" : [ "westpac-plat-jul_2021", "completeness", "test_platinum" ]
+  } ]
+} ]

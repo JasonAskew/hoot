@@ -1,91 +1,110 @@
 {
-  "name" : "bt_product_application",
-  "searchable" : true,
-  "system" : false,
-  "default_response" : {
-    "message_contents" : [ {
-      "type" : "TEXT",
-      "payload" : {
-        "text" : "If you know what type of account you would like to open you can call us on 1300 881 716 from 8.30am to 6.30pm, Monday to Friday (Sydney time) and a consultant can assist you, otherwise you can see all the account types we offer on our website."
+  "searchable": true,
+  "system": false,
+  "default_response": {
+    "message_contents": [
+      {
+        "type": "TEXT",
+        "payload": {
+          "text": "If you know what type of account you would like to open you can call us on 1300 881 716 from 8.30am to 6.30pm, Monday to Friday (Sydney time) and a consultant can assist you, otherwise you can see all the account types we offer on our website."
+        }
+      },
+      {
+        "type": "BUTTON",
+        "payload": {
+          "type": "external",
+          "payload": "https://www.bt.com.au/personal.html",
+          "label": "Go to page"
+        }
       }
-    }, {
-      "type" : "BUTTON",
-      "payload" : {
-        "type" : "external",
-        "payload" : "https://www.bt.com.au/personal.html",
-        "label" : "Go to page"
-      }
-    } ]
+    ]
   },
-  "segment_responses" : [ {
-    "segment_name" : "bt_user_adviser",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "To open a new account for a client, select 'Open a new account'.\n\nTo view, amend and to submit an application form for  applications in progress, select 'Pending applications'."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "A draft application will be automatically deleted 30 days after its last amendment. Once you have started the application, you can select ‘Save and exit’ to keep it as a draft to complete later."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "For more information, refer to ‘Help & support’."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/adviser/onboarding/account-type",
-          "label" : "Open a new account"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "#/app/adviser/tracking/pano-account-applications",
-          "label" : "Pending applications"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/opening-new-accounts/open-account.html",
-          "label" : "Help & support"
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "external",
-          "payload" : "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/opening-new-accounts/new-accounts-things-to-know/offline-approval.html",
-          "label" : "Offline approval process"
-        }
-      } ]
+  "segment_responses": [
+    {
+      "segment_name": "bt_user_adviser",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "To open a new account for a client, select 'Open a new account'.\n\nTo view, amend and to submit an application form for  applications in progress, select 'Pending applications'."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "A draft application will be automatically deleted 30 days after its last amendment. Once you have started the application, you can select \u2018Save and exit\u2019 to keep it as a draft to complete later."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "For more information, refer to \u2018Help & support\u2019."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/adviser/onboarding/account-type",
+              "label": "Open a new account"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "#/app/adviser/tracking/pano-account-applications",
+              "label": "Pending applications"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/opening-new-accounts/open-account.html",
+              "label": "Help & support"
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "external",
+              "payload": "https://www.panoramaadviser.com.au/content/secure/help-and-support/bt/en/adviser/managing-your-clients/opening-new-accounts/new-accounts-things-to-know/offline-approval.html",
+              "label": "Offline approval process"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "segment_name": "bt_channel_public",
+      "response": {
+        "message_contents": [
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If your account was set up using your existing Westpac profile you can sign in using your Westpac Live access. Otherwise please follow the below steps;\n- Locate the 12 character registration code from your email.\n- Select 'Go to page' and follow the prompts."
+            }
+          },
+          {
+            "type": "TEXT",
+            "payload": {
+              "text": "If you are unable to locate the 12 character registration code, one of our consultants will be able to assist, you can contact us on 1300 881 716(or +612 9155 4029 outside Australia) 8:30am to 6:30pm (Sydney time) Monday to Friday."
+            }
+          },
+          {
+            "type": "BUTTON",
+            "payload": {
+              "type": "internal",
+              "payload": "/register",
+              "label": "Go to page"
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "segment_name" : "bt_channel_public",
-    "response" : {
-      "message_contents" : [ {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If your account was set up using your existing Westpac profile you can sign in using your Westpac Live access. Otherwise please follow the below steps;\n- Locate the 12 character registration code from your email.\n- Select 'Go to page' and follow the prompts."
-        }
-      }, {
-        "type" : "TEXT",
-        "payload" : {
-          "text" : "If you are unable to locate the 12 character registration code, one of our consultants will be able to assist, you can contact us on 1300 881 716(or +612 9155 4029 outside Australia) 8:30am to 6:30pm (Sydney time) Monday to Friday."
-        }
-      }, {
-        "type" : "BUTTON",
-        "payload" : {
-          "type" : "internal",
-          "payload" : "/register",
-          "label" : "Go to page"
-        }
-      } ]
-    }
-  } ]
+  ],
+  "state": "SAVED",
+  "name": "bt_product_application"
 }

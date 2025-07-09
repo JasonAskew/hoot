@@ -1,23 +1,23 @@
 {
-  "name" : "Full_Transfer_Panorama",
-  "display_name" : "Full_Transfer_Panorama",
-  "webhook_name" : "SimpleIntent",
-  "webhook_params" : {
-    "response_name" : "Full_Transfer_Panorama"
+  "webhook_name": "SimpleIntent",
+  "webhook_params": {
+    "default_response_name": "Full_Transfer_Panorama"
   },
-  "interruptions" : {
-    "incoming" : {
-      "allowed" : true,
-      "interrupt_behavior" : "SUSPEND"
+  "interruptions": {
+    "incoming": {
+      "allowed": true,
+      "interrupt_behavior": "SUSPEND"
     },
-    "outgoing" : {
-      "allowed" : false
+    "outgoing": {
+      "allowed": false
     }
   },
-  "display_sentence" : "Full transfer within Panorama",
-  "alternative_questions_enabled" : true,
-  "alternative_questions_eligible" : false,
-  "active" : true,
-  "machine_learning_enabled" : true,
-  "multi_inputs" : false
+  "display_sentence": "Full transfer within Panorama",
+  "alternative_questions_enabled": true,
+  "machine_learning_enabled": true,
+  "multi_inputs": false,
+  "state": "SAVED",
+  "name": "Full_Transfer_Panorama",
+  "display_name": "Full_Transfer_Panorama",
+  "alternative_question_eligible": false
 }
